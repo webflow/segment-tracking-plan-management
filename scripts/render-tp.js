@@ -185,49 +185,45 @@ try {
         formattedEvent.push('| **Name** | `Type` | Description | Required? |');
         formattedEvent.push('| :--- | :--- | :--- | :--- |');
 
-        let jsSnippetProps = [];
+        let jsSnippetProps = {};
 
         if (!eventData || !eventData.properties || !eventData.properties.properties) {
             console.warn(`No properties found for event: ${event.key}`);
         } else {
-            function processProperties(properties, requiredFields, prefix = '') {
+            function processProperties(properties, requiredFields, parentObj) {
                 for (let propName in properties) {
                     let propData = properties[propName];
                     let propType = propData.type || 'unknown';
                     let propDescription = propData.description || 'No description';
-                    let isRequired = requiredFields.includes(propName) ? '✅' : '❌';
-                    let propFullName = prefix ? `${prefix}.${propName}` : propName;
+                    let isRequired = requiredFields.includes(propName);
+                    let requiredText = isRequired ? '✅' : '❌';
 
                     // Add to markdown table
-                    formattedEvent.push(`| **${propFullName}** | \`${propType}\` | ${propDescription} | ${isRequired} |`);
-
-                    // Add to JavaScript snippet
-                    jsSnippetProps.push(`"${propFullName}": "<<${propType}>>"`);
+                    formattedEvent.push(`| **${propName}** | \`${propType}\` | ${propDescription} | ${requiredText} |`);
 
                     // Handle nested objects
                     if (propType === 'object' && propData.properties) {
-                        processProperties(propData.properties, propData.required || [], propFullName);
+                        parentObj[propName] = {};
+                        processProperties(propData.properties, propData.required || [], parentObj[propName]);
                     }
-
-                    // Handle arrays (Check if 'items' exist and contain 'properties')
-                    if (propType === 'array' && propData.items && propData.items.properties) {
-                        processProperties(propData.items.properties, [], `${propFullName}[]`);
+                    // Handle arrays with nested properties
+                    else if (propType === 'array' && propData.items && propData.items.properties) {
+                        parentObj[propName] = [{}]; // Array of objects
+                        processProperties(propData.items.properties, [], parentObj[propName][0]);
+                    }
+                    // Handle simple properties
+                    else {
+                        parentObj[propName] = `<<type: ${propType}, required: ${isRequired}>>`;
                     }
                 }
             }
 
-            processProperties(eventData.properties.properties, eventData.properties.required || []);
+            processProperties(eventData.properties.properties, eventData.properties.required || [], jsSnippetProps);
         }
 
         formattedEvent.push('#### **JS**\n');
         formattedEvent.push('```javascript');
-        formattedEvent.push(`analytics.track("${event.key}", {`);
-
-        if (jsSnippetProps.length > 0) {
-            formattedEvent.push(jsSnippetProps.join(',\n  '));
-        }
-
-        formattedEvent.push('});');
+        formattedEvent.push(`analytics.track("${event.key}", ${JSON.stringify(jsSnippetProps, null, 2)})`);
         formattedEvent.push('```' + '\n');
         formattedEvent.push('<!-- tabs:end -->' + '\n');
         formattedEvent.push('<!-- panels:end -->' + '\n');
