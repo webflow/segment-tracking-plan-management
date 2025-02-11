@@ -122,9 +122,6 @@
                     "type": "array"
                   }
                 },
-                "required": [
-                  "sub_prop1"
-                ],
                 "type": "object"
               },
               "prop3": {
@@ -143,7 +140,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T20:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -153,6 +150,7 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
         "properties": {
           "context": {
             "type": "object"
@@ -175,9 +173,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -201,7 +196,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -236,9 +231,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -262,7 +254,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -297,9 +289,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -323,7 +312,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -358,9 +347,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -384,7 +370,7 @@
         ]
       },
       "createdAt": "2024-08-21T23:50:32.000Z",
-      "updatedAt": "2024-08-21T23:50:32.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -419,9 +405,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -445,7 +428,7 @@
         ]
       },
       "createdAt": "2024-08-22T19:52:55.000Z",
-      "updatedAt": "2024-08-22T19:52:55.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -480,9 +463,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -506,7 +486,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -541,9 +521,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -567,7 +544,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -594,7 +571,7 @@
                 "description": "this is an array property (it will specify  \"items\", keys that need to exist for each item in the array)",
                 "items": {
                   "properties": {
-                    "layer1_prop2": {
+                    "layer1_prop3": {
                       "description": "this is an o ptional property on any items in the array_prop1 array safd",
                       "type": "string"
                     }
@@ -611,9 +588,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "sub_prop1"
-                ],
                 "type": "object"
               },
               "prop3": {
@@ -632,7 +606,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -642,7 +616,7 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
-        "description": "DO NOT EDIT. Event generated to store end users consent preferences for Unify and Twilio Engage.",
+        "labels": {},
         "properties": {
           "context": {
             "type": "object"
@@ -653,10 +627,13 @@
           "properties": {
             "type": "object"
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T22:11:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
