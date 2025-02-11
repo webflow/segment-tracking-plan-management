@@ -8,4 +8,4 @@ rules:
       prop2:
         description: this is a single property
         type: string
-    required: true
+        required: true
