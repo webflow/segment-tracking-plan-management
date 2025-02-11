@@ -1,0 +1,16 @@
+rules:
+  - key: Story Event
+    type: TRACK
+    description: story dog 
+    version: 1
+    labels:
+      feature: journeys
+    properties:
+      prop2:
+        description: this is a single property
+        type: string
+        required: true
+      prop3:
+        description: this is a single property hey
+        type: string
+        required: true
