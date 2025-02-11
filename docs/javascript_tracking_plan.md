@@ -167,7 +167,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property | ✅ |
 | **int1** | `number` | this should be a new property | ❌ |
-| **string** | `string` | this is a required property in an object new descriotion | ✅ |
+| **string** | `string` | this is a required property in an object new descriotion | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
@@ -176,7 +176,7 @@ No description provided
 analytics.track("Obj Prop 2", {
   "object": {
     "int1": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"
