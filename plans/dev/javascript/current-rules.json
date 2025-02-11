@@ -10,7 +10,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Advisory SE Roundtable meeting",
+        "description": "Advisory SE Roundtable",
         "properties": {
           "context": {
             "type": "object"
@@ -41,7 +41,7 @@
         ]
       },
       "createdAt": "2024-09-18T18:40:11.000Z",
-      "updatedAt": "2025-02-11T23:06:21.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -54,7 +54,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Aubrey's Event 1 hello",
+        "description": "Aubrey's Event 1",
         "properties": {
           "context": {
             "type": "object"
@@ -80,7 +80,7 @@
         ]
       },
       "createdAt": "2024-09-06T17:05:15.000Z",
-      "updatedAt": "2025-02-11T23:06:21.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -93,6 +93,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "First Event desc",
         "properties": {
           "context": {
             "type": "object"
@@ -142,7 +143,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -211,6 +212,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 10 description",
         "properties": {
           "context": {
             "type": "object"
@@ -256,7 +258,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -269,7 +271,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 2",
+        "description": "Obj Prop 2 des",
         "properties": {
           "context": {
             "type": "object"
@@ -315,7 +317,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T23:06:21.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -328,6 +330,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 20 description",
         "properties": {
           "context": {
             "type": "object"
@@ -373,7 +376,7 @@
         ]
       },
       "createdAt": "2024-08-21T23:50:32.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -386,6 +389,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 22 sdf",
         "properties": {
           "context": {
             "type": "object"
@@ -431,7 +435,7 @@
         ]
       },
       "createdAt": "2024-08-22T19:52:55.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -444,6 +448,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 4 desc",
         "properties": {
           "context": {
             "type": "object"
@@ -489,7 +494,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -502,6 +507,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 6 description",
         "properties": {
           "context": {
             "type": "object"
@@ -547,7 +553,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:12:08.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
