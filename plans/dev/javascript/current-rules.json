@@ -10,7 +10,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Advisory SE Roundtable",
+        "description": "Advisory SE Roundtable meeting",
         "properties": {
           "context": {
             "type": "object"
@@ -41,7 +41,7 @@
         ]
       },
       "createdAt": "2024-09-18T18:40:11.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -54,7 +54,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Aubrey's Event 1",
+        "description": "Aubrey's Event 1 hi",
         "properties": {
           "context": {
             "type": "object"
@@ -80,7 +80,7 @@
         ]
       },
       "createdAt": "2024-09-06T17:05:15.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -93,7 +93,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "First Event desc",
+        "description": "First Event desc hi",
         "properties": {
           "context": {
             "type": "object"
@@ -143,7 +143,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -154,6 +154,7 @@
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
         "labels": {},
+        "description": "Obj Prop hi",
         "properties": {
           "context": {
             "type": "object"
@@ -199,7 +200,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -212,7 +213,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 10 description",
+        "description": "Obj Prop 10 description hi",
         "properties": {
           "context": {
             "type": "object"
@@ -258,7 +259,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -271,7 +272,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 2 des",
+        "description": "Obj Prop 2 des hi",
         "properties": {
           "context": {
             "type": "object"
@@ -317,7 +318,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -330,7 +331,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 20 description",
+        "description": "Obj Prop 20 description hi",
         "properties": {
           "context": {
             "type": "object"
@@ -376,7 +377,7 @@
         ]
       },
       "createdAt": "2024-08-21T23:50:32.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -389,7 +390,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 22 sdf",
+        "description": "Obj Prop 22 sdf hi",
         "properties": {
           "context": {
             "type": "object"
@@ -435,7 +436,7 @@
         ]
       },
       "createdAt": "2024-08-22T19:52:55.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -448,7 +449,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 4 desc",
+        "description": "Obj Prop 4 desc hi",
         "properties": {
           "context": {
             "type": "object"
@@ -494,7 +495,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -507,7 +508,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 6 description",
+        "description": "Obj Prop 6 description hi",
         "properties": {
           "context": {
             "type": "object"
@@ -553,7 +554,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T23:12:08.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -566,6 +567,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Second Event hi",
         "properties": {
           "context": {
             "type": "object"
@@ -615,7 +617,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:45:10.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -626,6 +628,7 @@
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
         "labels": {},
+        "description": "Segment Consent Preference Updated",
         "properties": {
           "context": {
             "type": "object"
@@ -642,7 +645,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2025-02-11T22:11:55.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -698,6 +701,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Third Event hi",
         "properties": {
           "context": {
             "type": "object"
@@ -723,7 +727,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:00.000Z",
-      "updatedAt": "2024-08-21T21:44:00.000Z",
+      "updatedAt": "2025-02-11T23:26:05.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     }
   ]
