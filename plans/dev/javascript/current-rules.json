@@ -660,6 +660,49 @@
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
+      "key": "Story Event",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "labels": {
+          "feature": "journeys"
+        },
+        "properties": {
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "prop2": {
+                "description": "this is a single property",
+                "type": "string"
+              },
+              "prop3": {
+                "description": "this is a single property hey",
+                "type": "string"
+              }
+            },
+            "required": [
+              "prop2",
+              "prop3"
+            ]
+          }
+        },
+        "required": [
+          "properties"
+        ]
+      },
+      "createdAt": "2025-02-11T21:59:56.000Z",
+      "updatedAt": "2025-02-11T21:59:56.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
       "key": "Third Event",
       "type": "TRACK",
       "version": 1,
