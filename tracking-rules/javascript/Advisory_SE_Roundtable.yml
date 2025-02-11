@@ -1,7 +1,7 @@
 rules:
   - key: Advisory SE Roundtable
     type: TRACK
-    description: Advisory SE Roundtable 
+    description: Advisory SE Roundtable meeting
     version: 1
     labels:
       feature: journeys
