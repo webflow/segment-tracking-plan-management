@@ -1,31 +1,38 @@
 # Server Tracking Plan
 
 
-### First Event
+## First Event
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
 
-No description provided
+#### **Description**
+
+First Event hi
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **array_prop1** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array)  asdasd | ❌ |
-| **array_prop1[].layer1_prop2** | `string` | this is an optional property on any items in the array_prop1 array dsg | ❌ |
+| **array_prop1.items** | `object` | Contains the structure for array items | ❌ |
+| **array_prop1.items.layer1_prop2** | `string` | this is an optional property on any items in the array_prop1 array dsg | ❌ |
 | **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) | ✅ |
-| **obj_prop1.sub_prop1** | `string` | this is a required sub-property in an object here | ✅ |
+| **obj_prop1.sub_prop1** | `string` | this is a required sub-property in an object here | ❌ |
 | **prop3** | `string` | this is a single property testing testing | ✅ |
 #### **JS**
 
 ```javascript
 analytics.track("First Event", {
-"array_prop1": "<<array>>",
-  "array_prop1[].layer1_prop2": "<<string>>",
-  "obj_prop1": "<<object>>",
-  "obj_prop1.sub_prop1": "<<string>>",
-  "prop3": "<<string>>"
-});
+  "array_prop1": [
+    {
+      "layer1_prop2": "<<type: string, required: false>>"
+    }
+  ],
+  "obj_prop1": {
+    "sub_prop1": "<<type: string, required: false>>"
+  },
+  "prop3": "<<type: string, required: true>>"
+})
 ```
 
 <!-- tabs:end -->
@@ -33,10 +40,12 @@ analytics.track("First Event", {
 <!-- panels:end -->
 
 
-### Obj Prop
+## Obj Prop
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -52,12 +61,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<string>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: string, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -65,10 +76,12 @@ analytics.track("Obj Prop", {
 <!-- panels:end -->
 
 
-### Obj Prop 10
+## Obj Prop 10
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -84,12 +97,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop 10", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<integer>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: integer, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -97,10 +112,12 @@ analytics.track("Obj Prop 10", {
 <!-- panels:end -->
 
 
-### Obj Prop 15
+## Obj Prop 15
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -116,12 +133,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop 15", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<integer>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: integer, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -129,10 +148,12 @@ analytics.track("Obj Prop 15", {
 <!-- panels:end -->
 
 
-### Obj Prop 2
+## Obj Prop 2
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -148,12 +169,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop 2", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<string>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: string, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -161,10 +184,12 @@ analytics.track("Obj Prop 2", {
 <!-- panels:end -->
 
 
-### Obj Prop 3
+## Obj Prop 3
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -180,12 +205,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop 3", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<string>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: string, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -193,10 +220,12 @@ analytics.track("Obj Prop 3", {
 <!-- panels:end -->
 
 
-### Obj Prop 4
+## Obj Prop 4
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -212,12 +241,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop 4", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<string>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: string, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -225,10 +256,12 @@ analytics.track("Obj Prop 4", {
 <!-- panels:end -->
 
 
-### Obj Prop 6
+## Obj Prop 6
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -244,12 +277,14 @@ No description provided
 
 ```javascript
 analytics.track("Obj Prop 6", {
-"object": "<<object>>",
-  "object.int": "<<number>>",
-  "object.string": "<<integer>>",
-  "object2": "<<object>>",
-  "object2.string": "<<string>>"
-});
+  "object": {
+    "int": "<<type: number, required: false>>",
+    "string": "<<type: integer, required: true>>"
+  },
+  "object2": {
+    "string": "<<type: string, required: false>>"
+  }
+})
 ```
 
 <!-- tabs:end -->
@@ -257,10 +292,12 @@ analytics.track("Obj Prop 6", {
 <!-- panels:end -->
 
 
-### Second Event
+## Second Event
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 No description provided
 #### **Properties**
@@ -268,7 +305,8 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **array_prop1** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
-| **array_prop1[].layer1_prop2** | `string` | this is an optional property on any items in the array_prop1 array | ❌ |
+| **array_prop1.items** | `object` | Contains the structure for array items | ❌ |
+| **array_prop1.items.layer1_prop2** | `string` | this is an optional property on any items in the array_prop1 array | ❌ |
 | **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) | ✅ |
 | **obj_prop1.sub_prop1** | `string` | this is a required sub-property in an object | ✅ |
 | **prop3** | `string` | this is a single property | ✅ |
@@ -276,12 +314,16 @@ No description provided
 
 ```javascript
 analytics.track("Second Event", {
-"array_prop1": "<<array>>",
-  "array_prop1[].layer1_prop2": "<<string>>",
-  "obj_prop1": "<<object>>",
-  "obj_prop1.sub_prop1": "<<string>>",
-  "prop3": "<<string>>"
-});
+  "array_prop1": [
+    {
+      "layer1_prop2": "<<type: string, required: false>>"
+    }
+  ],
+  "obj_prop1": {
+    "sub_prop1": "<<type: string, required: true>>"
+  },
+  "prop3": "<<type: string, required: true>>"
+})
 ```
 
 <!-- tabs:end -->
@@ -289,12 +331,14 @@ analytics.track("Second Event", {
 <!-- panels:end -->
 
 
-### Segment Consent Preference Updated
+## Segment Consent Preference Updated
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
 
-No description provided
+#### **Description**
+
+DO NOT EDIT. Event generated to store end users consent preferences for Unify and Twilio Engage.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -302,8 +346,7 @@ No description provided
 #### **JS**
 
 ```javascript
-analytics.track("Segment Consent Preference Updated", {
-});
+analytics.track("Segment Consent Preference Updated", {})
 ```
 
 <!-- tabs:end -->
