@@ -12,7 +12,7 @@ rules:
           exist for each item in the array)
         items:
           properties:
-            layer1_prop3:
+            layer1_prop768:
               description: >-
                 this is an o ptional property on any items in the array_prop1
                 array safd
