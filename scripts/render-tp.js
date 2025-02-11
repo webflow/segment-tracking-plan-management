@@ -179,7 +179,7 @@ try {
 
         formattedEvent.push('<!-- tabs:start -->');
         formattedEvent.push('#### **Basics**\n');
-        formattedEvent.push(event.description || 'No description provided');
+        formattedEvent.push(event.jsonSchema.description || 'No description provided');
 
         formattedEvent.push('#### **Properties**\n');
         formattedEvent.push('| **Name** | `Type` | Description | Required? |');
