@@ -81,9 +81,57 @@ try {
 }
 
 // Function to convert JSON rules to YAML and save them
+// function generateYAMLFiles() {
+//   trackingPlanData.rules.forEach((rule) => {
+//     const yamlContent = yaml.dump({ rules: [rule] });
+//     const fileName = `${rule.key.replace(/ /g, '_')}.yml`;
+//     const filePath = path.join(saveDir, fileName);
+
+//     try {
+//       fs.writeFileSync(filePath, yamlContent);
+//       console.log(`Generated YAML file: ${filePath}`);
+//     } catch (error) {
+//       console.error(`Error writing YAML file ${fileName}:`, error.message);
+//     }
+//   });
+// }
+
 function generateYAMLFiles() {
   trackingPlanData.rules.forEach((rule) => {
-    const yamlContent = yaml.dump({ rules: [rule] });
+    // Extract labels from jsonSchema if present
+    const labels = rule.jsonSchema?.labels || {};
+
+    // Extract properties and required fields
+    const properties = rule.jsonSchema?.properties?.properties?.properties || {};
+    const requiredFields = rule.jsonSchema?.properties?.properties?.required || [];
+
+    // Transform properties to include `required: true` where applicable
+    const transformedProperties = {};
+    Object.keys(properties).forEach((key) => {
+      transformedProperties[key] = {
+        ...properties[key],
+        ...(requiredFields.includes(key) ? { required: true } : {}) // Add required flag if needed
+      };
+    });
+
+    // Construct the final YAML-compatible object
+    const yamlObject = {
+      rules: [
+        {
+          key: rule.key,
+          type: rule.type,
+          description: rule.key, // Assigning description same as key (modify if needed)
+          version: rule.version,
+          labels, // Directly placing labels
+          properties: transformedProperties, // Flattened properties
+        }
+      ]
+    };
+
+    // Generate the YAML content
+    const yamlContent = yaml.dump(yamlObject, { noRefs: true });
+
+    // Create file path
     const fileName = `${rule.key.replace(/ /g, '_')}.yml`;
     const filePath = path.join(saveDir, fileName);
 
