@@ -11,8 +11,8 @@ Advisory SE Roundtable meeting
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **prop2** | `string` | this is a single property | ✅ |
-| **prop3** | `string` | this is a single property | ✅ |
+| ↳ **prop2** | `string` | this is a single property | ✅ |
+| ↳ **prop3** | `string` | this is a single property | ✅ |
 #### **JS**
 
 ```javascript
@@ -37,7 +37,7 @@ Aubrey's Event 1 hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **prop2** | `string` | this is a single property | ✅ |
+| ↳ **prop2** | `string` | this is a single property | ✅ |
 #### **JS**
 
 ```javascript
@@ -61,12 +61,12 @@ First Event desc hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **array_prop2** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
-| **items** | `object` | Contains the structure for array items | ❌ |
-| ↳ ↳ **layer1_prop34** | `string` | this is an optional property on any items in the array_prop1  change here | ❌ |
-| **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) here here | ✅ |
-| ↳ **sub_prop1** | `array` | here blach | ❌ |
-| **prop3** | `string` | this is a single test testing | ✅ |
+| ↳ **array_prop2** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
+|↳ ↳**items** | `object` | Contains the structure for array items | ❌ |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ **layer1_prop34** | `string` | this is an optional property on any items in the array_prop1  change here | ❌ |
+| ↳ **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) here here | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **sub_prop1** | `array` | here blach | ❌ |
+| ↳ **prop3** | `string` | this is a single test testing | ✅ |
 #### **JS**
 
 ```javascript
@@ -98,11 +98,11 @@ Obj Prop hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property sd safd | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property sd safd | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object | ❌ |
 #### **JS**
 
 ```javascript
@@ -132,11 +132,11 @@ Obj Prop 10 description hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property | ❌ |
-| ↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
 
 ```javascript
@@ -166,11 +166,11 @@ Obj Prop 2 des hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property | ❌ |
-| ↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
 
 ```javascript
@@ -200,11 +200,11 @@ Obj Prop 20 description hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property | ❌ |
-| ↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
 
 ```javascript
@@ -234,11 +234,11 @@ Obj Prop 22 sdf hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property | ❌ |
-| ↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
 
 ```javascript
@@ -263,16 +263,16 @@ analytics.track("Obj Prop 22", {
 <!-- tabs:start -->
 #### **Basics**
 
-Obj Prop 4 desc hi
+Obj Prop 4 desc
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property | ❌ |
-| ↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
 
 ```javascript
@@ -302,11 +302,11 @@ Obj Prop 6 description hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single property | ✅ |
-| ↳ **int1** | `number` | this should be a new property | ❌ |
-| ↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
-| **object2** | `object` | this is a single property | ❌ |
-| ↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
+| ↳ **object** | `object` | this is a single property | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **int1** | `number` | this should be a new property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required property in an object new descriotion | ❌ |
+| ↳ **object2** | `object` | this is a single property | ❌ |
+| &nbsp;&nbsp;&nbsp;↳ **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
 
 ```javascript
@@ -336,12 +336,12 @@ Second Event hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **array_prop1** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
-| **items** | `object` | Contains the structure for array items | ❌ |
-| ↳ ↳ **layer1_prop217** | `string` | this is an o ptional property on any items in the array_prop1 array safd | ❌ |
-| **obj_prop1** | `object` | tfhis is required obj ect (i.e. c an have nested sub-properties) | ✅ |
-| ↳ **sub_prop1** | `string` | this is a req uired sub-property in an object | ❌ |
-| **prop3** | `string` | this is a single property | ✅ |
+| ↳ **array_prop1** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
+|↳ ↳**items** | `object` | Contains the structure for array items | ❌ |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ **layer1_prop217** | `string` | this is an o ptional property on any items in the array_prop1 array safd | ❌ |
+| ↳ **obj_prop1** | `object` | tfhis is required obj ect (i.e. c an have nested sub-properties) | ✅ |
+| &nbsp;&nbsp;&nbsp;↳ **sub_prop1** | `string` | this is a req uired sub-property in an object | ❌ |
+| ↳ **prop3** | `string` | this is a single property | ✅ |
 #### **JS**
 
 ```javascript
@@ -394,7 +394,7 @@ Third Event hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **prop2** | `string` | this is a single property | ✅ |
+| ↳ **prop2** | `string` | this is a single property | ✅ |
 #### **JS**
 
 ```javascript
