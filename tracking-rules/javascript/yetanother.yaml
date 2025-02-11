@@ -2,20 +2,10 @@ rules:
   - key: Story Event
     type: TRACK
     version: 1
-    type: object
     labels:
       feature: journeys
     properties:
-      properties:
-        type: object
-        properties:
-          prop2:
-            description: this is a single property
-            type: string
-        required:
-          - prop2
-    required:
-      - properties
-    createdAt: '2024-08-15T18:56:35.000Z'
-    updatedAt: '2024-08-15T23:46:34.000Z'
-    deprecatedAt: '0001-01-01T00:00:00.000Z'
+      prop2:
+        description: this is a single property
+        type: string
+    required: true
