@@ -160,8 +160,8 @@ try {
                     let requiredText = isRequired ? '✅' : '❌';
 
                     // Indentation for nested properties
-                    let indent = '↳ '.repeat(indentLevel);
-                    let propDisplayName = indent + `**${propName}**`;
+                    let indent = '&nbsp;&nbsp;&nbsp;'.repeat(indentLevel) + '↳';
+                    let propDisplayName = indent + ` **${propName}**`;
 
                     // Add to markdown table
                     formattedEvent.push(`| ${propDisplayName} | \`${propType}\` | ${propDescription} | ${requiredText} |`);
@@ -176,7 +176,7 @@ try {
                         if (propData.items.properties) {
                             // Insert "items" as an intermediary row
                             let itemsDisplayName = indent + `**items**`;
-                            formattedEvent.push(`| ${itemsDisplayName} | \`object\` | Contains the structure for array items | ❌ |`);
+                            formattedEvent.push(`|↳ ${itemsDisplayName} | \`object\` | Contains the structure for array items | ❌ |`);
                             
                             // Process array object properties
                             parentObj[propName] = [{}];
