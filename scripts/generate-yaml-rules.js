@@ -84,7 +84,7 @@ try {
 function generateYAMLFiles() {
   trackingPlanData.rules.forEach((rule) => {
     const yamlContent = yaml.dump({ rules: [rule] });
-    const fileName = `${rule.key.replace(/ /g, '_')}.yaml`;
+    const fileName = `${rule.key.replace(/ /g, '_')}.yml`;
     const filePath = path.join(saveDir, fileName);
 
     try {

@@ -1,5 +1,5 @@
 rules:
-  - key: Obj Prop 6
+  - key: Obj Prop 64
     type: TRACK
     version: 1
     jsonSchema:
