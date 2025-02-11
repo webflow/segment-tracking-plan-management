@@ -1,0 +1,12 @@
+rules:
+  - key: Advisory SE Roundtable 20
+    type: TRACK
+    description: my thrid event description here again
+    version: 1
+    labels:
+      feature: journeys
+    properties:
+      prop3:
+        description: this is a single property
+        type: string
+        required: true
