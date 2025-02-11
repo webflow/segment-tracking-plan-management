@@ -203,10 +203,9 @@ const rules = loadYamlFiles(changedFiles).map(rule => {
     version: rule.version,
     jsonSchema,
   };
-
-  // Conditionally add description if it exists and is not empty
+  // Move the description inside jsonSchema instead of at the root level
   if (rule.description && rule.description.trim() !== "") {
-    formattedRule.description = rule.description;
+    formattedRule.jsonSchema.description = rule.description;  // Fix: Add inside jsonSchema!
   }
 
   return formattedRule;
