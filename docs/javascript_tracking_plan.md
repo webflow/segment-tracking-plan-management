@@ -1,12 +1,14 @@
 # JavaScript Tracking Plan
 
 
-### Advisory SE Roundtable
+## Advisory SE Roundtable
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
 
-Advisory SE Roundtable meeting
+#### **Description**
+
+Advisory SE Roundtable
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -27,10 +29,12 @@ analytics.track("Advisory SE Roundtable", {
 <!-- panels:end -->
 
 
-### Aubrey's Event 1
+## Aubrey's Event 1
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Aubrey's Event 1 hi
 #### **Properties**
@@ -51,10 +55,12 @@ analytics.track("Aubrey's Event 1", {
 <!-- panels:end -->
 
 
-### First Event
+## First Event
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 First Event desc hi
 #### **Properties**
@@ -88,10 +94,12 @@ analytics.track("First Event", {
 <!-- panels:end -->
 
 
-### Obj Prop
+## Obj Prop
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop hi
 #### **Properties**
@@ -122,10 +130,12 @@ analytics.track("Obj Prop", {
 <!-- panels:end -->
 
 
-### Obj Prop 10
+## Obj Prop 10
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop 10 description hi
 #### **Properties**
@@ -156,10 +166,12 @@ analytics.track("Obj Prop 10", {
 <!-- panels:end -->
 
 
-### Obj Prop 2
+## Obj Prop 2
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop 2 des hi
 #### **Properties**
@@ -190,10 +202,12 @@ analytics.track("Obj Prop 2", {
 <!-- panels:end -->
 
 
-### Obj Prop 20
+## Obj Prop 20
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop 20 description hi
 #### **Properties**
@@ -224,10 +238,12 @@ analytics.track("Obj Prop 20", {
 <!-- panels:end -->
 
 
-### Obj Prop 22
+## Obj Prop 22
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop 22 sdf hi
 #### **Properties**
@@ -258,10 +274,12 @@ analytics.track("Obj Prop 22", {
 <!-- panels:end -->
 
 
-### Obj Prop 4
+## Obj Prop 4
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop 4 desc
 #### **Properties**
@@ -292,10 +310,12 @@ analytics.track("Obj Prop 4", {
 <!-- panels:end -->
 
 
-### Obj Prop 6
+## Obj Prop 6
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Obj Prop 6 description
 #### **Properties**
@@ -326,10 +346,12 @@ analytics.track("Obj Prop 6", {
 <!-- panels:end -->
 
 
-### Second Event
+## Second Event
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Second Event hi
 #### **Properties**
@@ -363,10 +385,12 @@ analytics.track("Second Event", {
 <!-- panels:end -->
 
 
-### Segment Consent Preference Updated
+## Segment Consent Preference Updated
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Segment Consent Preference Updated
 #### **Properties**
@@ -384,10 +408,12 @@ analytics.track("Segment Consent Preference Updated", {})
 <!-- panels:end -->
 
 
-### Third Event
+## Third Event
 
 <!-- tabs:start -->
-#### **Basics**
+### **Details**
+
+#### **Description**
 
 Third Event hi
 #### **Properties**
