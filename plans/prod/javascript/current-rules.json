@@ -10,7 +10,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Advisory SE Roundtable meeting",
+        "description": "Advisory SE Roundtable",
         "properties": {
           "context": {
             "type": "object"
@@ -41,7 +41,7 @@
         ]
       },
       "createdAt": "2024-09-18T18:56:17.000Z",
-      "updatedAt": "2025-02-11T23:07:40.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -54,7 +54,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Aubrey's Event 1 hello",
+        "description": "Aubrey's Event 1",
         "properties": {
           "context": {
             "type": "object"
@@ -80,7 +80,7 @@
         ]
       },
       "createdAt": "2024-09-18T18:36:43.000Z",
-      "updatedAt": "2025-02-11T23:07:40.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -93,6 +93,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "First Event desc",
         "properties": {
           "context": {
             "type": "object"
@@ -124,9 +125,6 @@
                     "type": "array"
                   }
                 },
-                "required": [
-                  "sub_prop1"
-                ],
                 "type": "object"
               },
               "prop3": {
@@ -145,7 +143,7 @@
         ]
       },
       "createdAt": "2024-08-08T18:10:05.000Z",
-      "updatedAt": "2025-02-11T20:48:22.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -216,6 +214,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 10 description",
         "properties": {
           "context": {
             "type": "object"
@@ -238,9 +237,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -264,7 +260,7 @@
         ]
       },
       "createdAt": "2024-08-21T17:55:14.000Z",
-      "updatedAt": "2024-08-21T17:55:14.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -277,7 +273,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Obj Prop 2",
+        "description": "Obj Prop 2 des",
         "properties": {
           "context": {
             "type": "object"
@@ -323,7 +319,7 @@
         ]
       },
       "createdAt": "2024-08-15T00:25:25.000Z",
-      "updatedAt": "2025-02-11T23:07:40.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -336,6 +332,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 20 description",
         "properties": {
           "context": {
             "type": "object"
@@ -358,9 +355,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -384,7 +378,7 @@
         ]
       },
       "createdAt": "2024-08-21T23:51:09.000Z",
-      "updatedAt": "2024-08-21T23:51:09.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -397,6 +391,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 22 sdf",
         "properties": {
           "context": {
             "type": "object"
@@ -419,9 +414,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -445,7 +437,7 @@
         ]
       },
       "createdAt": "2024-08-22T19:53:55.000Z",
-      "updatedAt": "2024-08-22T19:53:55.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -458,6 +450,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 4 desc",
         "properties": {
           "context": {
             "type": "object"
@@ -480,9 +473,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -506,7 +496,7 @@
         ]
       },
       "createdAt": "2024-08-21T16:36:47.000Z",
-      "updatedAt": "2024-08-21T16:36:47.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -519,6 +509,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 6 description",
         "properties": {
           "context": {
             "type": "object"
@@ -541,9 +532,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -567,7 +555,7 @@
         ]
       },
       "createdAt": "2024-08-21T16:49:50.000Z",
-      "updatedAt": "2024-08-21T16:49:50.000Z",
+      "updatedAt": "2025-02-11T23:12:53.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {

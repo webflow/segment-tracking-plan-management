@@ -6,7 +6,7 @@
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Advisory SE Roundtable
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -32,7 +32,7 @@ analytics.track("Advisory SE Roundtable", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Aubrey's Event 1
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -56,7 +56,7 @@ analytics.track("Aubrey's Event 1", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+First Event desc
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -64,7 +64,7 @@ No description provided
 | **array_prop2** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
 | **layer1_prop34** | `string` | this is an optional property on any items in the array_prop1  change here | ❌ |
 | **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) here here | ✅ |
-| **sub_prop1** | `array` | here blach | ✅ |
+| **sub_prop1** | `array` | here blach | ❌ |
 | **prop3** | `string` | this is a single test testing | ✅ |
 #### **JS**
 
@@ -76,7 +76,7 @@ analytics.track("First Event", {
     }
   ],
   "obj_prop1": {
-    "sub_prop1": "<<type: array, required: true>>"
+    "sub_prop1": "<<type: array, required: false>>"
   },
   "prop3": "<<type: string, required: true>>"
 })
@@ -126,14 +126,14 @@ analytics.track("Obj Prop", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Obj Prop 10 description
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property | ✅ |
 | **int1** | `number` | this should be a new property | ❌ |
-| **string** | `string` | this is a required property in an object new descriotion | ✅ |
+| **string** | `string` | this is a required property in an object new descriotion | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
@@ -142,7 +142,7 @@ No description provided
 analytics.track("Obj Prop 10", {
   "object": {
     "int1": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"
@@ -160,7 +160,7 @@ analytics.track("Obj Prop 10", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Obj Prop 2 des
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -194,14 +194,14 @@ analytics.track("Obj Prop 2", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Obj Prop 20 description
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property | ✅ |
 | **int1** | `number` | this should be a new property | ❌ |
-| **string** | `string` | this is a required property in an object new descriotion | ✅ |
+| **string** | `string` | this is a required property in an object new descriotion | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
@@ -210,7 +210,7 @@ No description provided
 analytics.track("Obj Prop 20", {
   "object": {
     "int1": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"
@@ -228,14 +228,14 @@ analytics.track("Obj Prop 20", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Obj Prop 22 sdf
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property | ✅ |
 | **int1** | `number` | this should be a new property | ❌ |
-| **string** | `string` | this is a required property in an object new descriotion | ✅ |
+| **string** | `string` | this is a required property in an object new descriotion | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
@@ -244,7 +244,7 @@ No description provided
 analytics.track("Obj Prop 22", {
   "object": {
     "int1": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"
@@ -262,14 +262,14 @@ analytics.track("Obj Prop 22", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Obj Prop 4 desc
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property | ✅ |
 | **int1** | `number` | this should be a new property | ❌ |
-| **string** | `string` | this is a required property in an object new descriotion | ✅ |
+| **string** | `string` | this is a required property in an object new descriotion | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
@@ -278,7 +278,7 @@ No description provided
 analytics.track("Obj Prop 4", {
   "object": {
     "int1": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"
@@ -296,14 +296,14 @@ analytics.track("Obj Prop 4", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+Obj Prop 6 description
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property | ✅ |
 | **int1** | `number` | this should be a new property | ❌ |
-| **string** | `string` | this is a required property in an object new descriotion | ✅ |
+| **string** | `string` | this is a required property in an object new descriotion | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **string** | `string` | this is a required sub-property in an object dsfa | ❌ |
 #### **JS**
@@ -312,7 +312,7 @@ No description provided
 analytics.track("Obj Prop 6", {
   "object": {
     "int1": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"
@@ -366,7 +366,7 @@ analytics.track("Second Event", {
 <!-- tabs:start -->
 #### **Basics**
 
-No description provided
+DO NOT EDIT. Event generated to store end users consent preferences for Unify and Twilio Engage.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
