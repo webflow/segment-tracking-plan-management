@@ -1,8 +1,8 @@
 rules:
   - key: Story Event
     type: TRACK
+    description: story dog 
     version: 1
-    description: story dog
     labels:
       feature: journeys
     properties:
