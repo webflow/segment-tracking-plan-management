@@ -38,6 +38,3 @@ rules:
             - object
       required:
         - properties
-    createdAt: '2024-08-21T16:49:50.000Z'
-    updatedAt: '2024-08-21T16:49:50.000Z'
-    deprecatedAt: '0001-01-01T00:00:00.000Z'
