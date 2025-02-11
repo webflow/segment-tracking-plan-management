@@ -594,7 +594,7 @@
                 "description": "this is an array property (it will specify  \"items\", keys that need to exist for each item in the array)",
                 "items": {
                   "properties": {
-                    "layer1_prop7": {
+                    "layer1_prop217": {
                       "description": "this is an o ptional property on any items in the array_prop1 array safd",
                       "type": "string"
                     }
@@ -629,7 +629,7 @@
         ]
       },
       "createdAt": "2024-08-14T22:31:13.000Z",
-      "updatedAt": "2025-02-11T22:33:10.000Z",
+      "updatedAt": "2025-02-11T22:46:06.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
