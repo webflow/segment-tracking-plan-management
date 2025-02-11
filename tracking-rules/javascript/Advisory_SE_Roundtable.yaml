@@ -1,5 +1,5 @@
 rules:
-  - key: Third Event
+  - key: Advisory SE Roundtable
     type: TRACK
     version: 1
     jsonSchema:
@@ -22,6 +22,6 @@ rules:
             - prop2
       required:
         - properties
-    createdAt: '2024-08-15T18:56:35.000Z'
-    updatedAt: '2024-08-15T23:46:34.000Z'
+    createdAt: '2024-09-18T18:56:17.000Z'
+    updatedAt: '2024-09-18T18:56:17.000Z'
     deprecatedAt: '0001-01-01T00:00:00.000Z'
