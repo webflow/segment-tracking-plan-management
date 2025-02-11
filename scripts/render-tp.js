@@ -33,12 +33,13 @@ try {
 
     for (let event of trackEvents) {
         let formattedEvent = [];
-        formattedEvent.push('\n### ' + event.key + '\n');
+        formattedEvent.push('\n## ' + event.key + '\n');
 
         let eventData = event.jsonSchema.properties;
 
         formattedEvent.push('<!-- tabs:start -->');
-        formattedEvent.push('#### **Basics**\n');
+        formattedEvent.push('### **Details**\n');
+        formattedEvent.push('#### **Description**\n');
         formattedEvent.push(event.jsonSchema.description || 'No description provided');
 
         formattedEvent.push('#### **Properties**\n');
