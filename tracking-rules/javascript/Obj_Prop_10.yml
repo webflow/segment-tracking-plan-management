@@ -1,7 +1,7 @@
 rules:
   - key: Obj Prop 10
     type: TRACK
-    description: Obj Prop 10
+    description: Obj Prop 10 description
     version: 1
     labels:
       feature: journeys
