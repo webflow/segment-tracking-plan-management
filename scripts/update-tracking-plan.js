@@ -205,7 +205,7 @@ const rules = loadYamlFiles(changedFiles).map(rule => {
   };
   // Move the description inside jsonSchema instead of at the root level
   if (rule.description && rule.description.trim() !== "") {
-    formattedRule.jsonSchema.description = rule.description;  // Fix: Add inside jsonSchema
+    formattedRule.jsonSchema.description = rule.description;  // Fix: Add inside jsonSchema!
   }
 
   return formattedRule;
