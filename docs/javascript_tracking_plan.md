@@ -13,11 +13,13 @@ No description provided
 |**Name** | `Type` | Description | Required?|
 | :--- | :--- | :--- | :---|
 |**prop2** | `string` |...|Required/Optional|
+|**prop3** | `string` |...|Required/Optional|
 #### **JS**
 
 ```javascript
 analytics.track("Advisory SE Roundtable" {
 "prop2": "<<string>>"
+"prop3": "<<string>>"
 });
 ``` 
 
