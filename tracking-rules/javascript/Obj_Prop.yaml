@@ -1,41 +1,41 @@
-rule:
-  key: Obj Prop
-  type: TRACK
-  version: 1
-  jsonSchema:
-    $schema: http://json-schema.org/draft-07/schema#
-    type: object
-    properties:
-      context:
-        type: object
-      traits:
-        type: object
+rules:
+  - key: Obj Prop
+    type: TRACK
+    version: 1
+    jsonSchema:
+      $schema: http://json-schema.org/draft-07/schema#
+      type: object
       properties:
-        type: object
+        context:
+          type: object
+        traits:
+          type: object
         properties:
-          object:
-            description: this is a single property
-            properties:
-              int1:
-                description: this should be a new property sd safd
-                type: number
-              string:
-                description: this is a required sub-property in an object
-                type: string
-            required:
-              - string
-            type: object
-          object2:
-            description: this is a single property
-            properties:
-              string:
-                description: this is a required sub-property in an object
-                type: string
-            type: object
-        required:
-          - object
-    required:
-      - properties
-  createdAt: '2024-08-08T18:10:05.000Z'
-  updatedAt: '2024-08-14T22:53:43.000Z'
-  deprecatedAt: '0001-01-01T00:00:00.000Z'
+          type: object
+          properties:
+            object:
+              description: this is a single property
+              properties:
+                int1:
+                  description: this should be a new property sd safd
+                  type: number
+                string:
+                  description: this is a required sub-property in an object
+                  type: string
+              required:
+                - string
+              type: object
+            object2:
+              description: this is a single property
+              properties:
+                string:
+                  description: this is a required sub-property in an object
+                  type: string
+              type: object
+          required:
+            - object
+      required:
+        - properties
+    createdAt: '2024-08-08T18:10:05.000Z'
+    updatedAt: '2024-08-14T22:53:43.000Z'
+    deprecatedAt: '0001-01-01T00:00:00.000Z'

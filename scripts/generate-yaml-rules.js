@@ -83,7 +83,7 @@ try {
 // Function to convert JSON rules to YAML and save them
 function generateYAMLFiles() {
   trackingPlanData.rules.forEach((rule) => {
-    const yamlContent = yaml.dump({ rule });
+    const yamlContent = yaml.dump({ rules: [rule] });
     const fileName = `${rule.key.replace(/ /g, '_')}.yaml`;
     const filePath = path.join(saveDir, fileName);
 
