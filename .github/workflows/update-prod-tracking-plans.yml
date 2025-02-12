@@ -118,9 +118,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Pull latest changes
-        run: git pull origin main
-
       - name: Update Tracking Plan
         if: contains(github.event.head_commit.modified, format('tracking-rules/{0}', matrix.tracking_plan.path))
         env:
