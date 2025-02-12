@@ -1,16 +1,16 @@
 name: Initialize Tracking Plans
 
 on:
-  push:
-    tags:
-      - "initialize"
+  release:
+    types: [published]
 
 jobs:
   initialize-tracking-plans:
+    if: contains(github.event.release.tag_name, 'initialize') # Explicit condition
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tracking_plan: ${{ fromJson(vars.TRACKING_PLANS) }}
+        tracking_plan: ${{ fromJson(vars.TRACKING_PLANS) }} # Load from config JSON
 
     steps:
       - name: Checkout repository
