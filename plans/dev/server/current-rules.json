@@ -253,6 +253,7 @@
         "labels": {
           "feature": "journeys"
         },
+        "description": "Obj Prop 2",
         "properties": {
           "context": {
             "type": "object"
@@ -264,7 +265,7 @@
             "type": "object",
             "properties": {
               "object": {
-                "description": "this is a single",
+                "description": "this is a single object",
                 "properties": {
                   "int": {
                     "description": "this is an optional sub-property in an object hey hey",
@@ -275,9 +276,6 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "string"
-                ],
                 "type": "object"
               },
               "object2": {
@@ -301,7 +299,7 @@
         ]
       },
       "createdAt": "2024-08-21T21:44:01.000Z",
-      "updatedAt": "2024-08-21T21:44:01.000Z",
+      "updatedAt": "2025-02-12T18:21:31.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
