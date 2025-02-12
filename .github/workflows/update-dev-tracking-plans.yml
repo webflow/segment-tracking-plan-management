@@ -1,3 +1,77 @@
+# name: Update Development Tracking Plans
+
+# on:
+#   push:
+#     branches-ignore:
+#       - main
+#     paths:
+#       - 'tracking-rules/server/**'
+#       - 'tracking-rules/javascript/**'
+#       # Add paths for additional tracking plans here
+
+# jobs:
+#   update-and-save-tracking-plans:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - name: Checkout repository
+#       uses: actions/checkout@v3
+#       with:
+#         fetch-depth: 2  # Fetch the last two commits so HEAD^ is available
+
+#     - name: Set up Node.js
+#       uses: actions/setup-node@v3
+#       with:
+#         node-version: '14'
+
+#     - name: Install dependencies
+#       run: npm install
+
+#     # Update and save scripts for JavaScript tracking plan
+#     - name: Run update script for JavaScript
+#       run: |
+#         echo "Checking for changes in JavaScript tracking plan"
+#         git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/javascript" && \
+#         SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
+#         SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT }} \
+#         PLAN_DIR=tracking-rules/javascript \
+#         node scripts/update-tracking-plan.js || echo "No changes detected for JavaScript"
+
+#     - name: Run save script for JavaScript
+#       run: |
+#         git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/javascript" && \
+#         SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
+#         SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT }} \
+#         PLAN_DIR=plans/dev/javascript \
+#         node scripts/save-tracking-plan.js || echo "No changes detected for JavaScript"
+
+#     # Update and save scripts for Server tracking plan
+#     - name: Run update script for Server
+#       run: |
+#         echo "Checking for changes in server tracking plan"
+#         git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/server" && \
+#         SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
+#         SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_SERVER }} \
+#         PLAN_DIR=tracking-rules/server \
+#         node scripts/update-tracking-plan.js || echo "No changes detected for server"
+
+#     - name: Run save script for Server
+#       run: |
+#         git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/server" && \
+#         SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
+#         SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_SERVER }} \
+#         PLAN_DIR=plans/dev/server \
+#         node scripts/save-tracking-plan.js || echo "No changes detected for server"
+
+#     # Commit and push changes to the branch
+#     - name: Commit and push changes
+#       run: |
+#           git config --global user.name "github-actions[bot]"
+#           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+#           git add plans/dev/javascript/current-rules.json plans/dev/server/current-rules.json
+#           git commit -m "Update current-rules.json for development tracking plans [skip ci]" || echo "No changes to commit"
+#           git push origin ${{ github.ref }}
+
 name: Update Development Tracking Plans
 
 on:
@@ -5,69 +79,62 @@ on:
     branches-ignore:
       - main
     paths:
-      - 'tracking-rules/server/**'
-      - 'tracking-rules/javascript/**'
-      # Add paths for additional tracking plans here
+      - 'tracking-rules/javascript/**.yml'
+      - 'tracking-rules/server/**.yml'
 
 jobs:
   update-and-save-tracking-plans:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tracking_plan:
+          - { name: "JavaScript", path: "javascript", secret: "DEV_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT" }
+          - { name: "Server", path: "server", secret: "DEV_SEGMENT_TRACKING_PLAN_ID_SERVER" }
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 2  # Fetch the last two commits so HEAD^ is available
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 10  # Ensure enough history for detecting changes
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    # Update and save scripts for JavaScript tracking plan
-    - name: Run update script for JavaScript
-      run: |
-        echo "Checking for changes in JavaScript tracking plan"
-        git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/javascript" && \
-        SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
-        SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT }} \
-        PLAN_DIR=tracking-rules/javascript \
-        node scripts/update-tracking-plan.js || echo "No changes detected for JavaScript"
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref }}
 
-    - name: Run save script for JavaScript
-      run: |
-        git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/javascript" && \
-        SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
-        SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT }} \
-        PLAN_DIR=plans/dev/javascript \
-        node scripts/save-tracking-plan.js || echo "No changes detected for JavaScript"
+      - name: Update Tracking Plan
+        env:
+          SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
+          SEGMENT_TRACKING_PLAN_ID: ${{ secrets[matrix.tracking_plan.secret] }}
+          PLAN_DIR: tracking-rules/${{ matrix.tracking_plan.path }}
+        run: |
+          echo "Updating tracking plan for ${{ matrix.tracking_plan.name }}"
+          node scripts/update-tracking-plan.js || echo "No changes detected"
 
-    # Update and save scripts for Server tracking plan
-    - name: Run update script for Server
-      run: |
-        echo "Checking for changes in server tracking plan"
-        git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/server" && \
-        SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
-        SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_SERVER }} \
-        PLAN_DIR=tracking-rules/server \
-        node scripts/update-tracking-plan.js || echo "No changes detected for server"
+      - name: Save Tracking Plan
+        env:
+          SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
+          SEGMENT_TRACKING_PLAN_ID: ${{ secrets[matrix.tracking_plan.secret] }}
+          PLAN_DIR: plans/dev/${{ matrix.tracking_plan.path }}
+        run: |
+          echo "Saving tracking plan for ${{ matrix.tracking_plan.name }}"
+          node scripts/save-tracking-plan.js || echo "No changes detected"
 
-    - name: Run save script for Server
-      run: |
-        git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/server" && \
-        SEGMENT_API_KEY=${{ secrets.SEGMENT_PUBLIC_API_TOKEN }} \
-        SEGMENT_TRACKING_PLAN_ID=${{ secrets.DEV_SEGMENT_TRACKING_PLAN_ID_SERVER }} \
-        PLAN_DIR=plans/dev/server \
-        node scripts/save-tracking-plan.js || echo "No changes detected for server"
-
-    # Commit and push changes to the branch
-    - name: Commit and push changes
-      run: |
+      - name: Commit and Push Updates
+        run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add plans/dev/javascript/current-rules.json plans/dev/server/current-rules.json
-          git commit -m "Update current-rules.json for development tracking plans [skip ci]" || echo "No changes to commit"
+          git add plans/dev/${{ matrix.tracking_plan.path }}/current-rules.json
+          git commit -m "Updated ${{ matrix.tracking_plan.name }} tracking plan rules [skip ci]" || echo "No changes to commit"
+          
+          # Fetch latest changes & merge automatically
+          git pull --rebase origin ${{ github.ref }} || git pull --autostash origin ${{ github.ref }}
+          
+          # Push changes
           git push origin ${{ github.ref }}
