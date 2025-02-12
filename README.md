@@ -45,6 +45,14 @@ So, it requires **5 GitHub Secrets**:
 
 ## ⚙️ How It Works  
 
+### Setup & Initialize
+
+1. Configure your tracking plans in `config/tracking-plans-config.json`
+2. Create a **GitHub release** with the title **"initialize"**
+   - This triggers the `initialize-tracking-plans` workflow
+   - It pulls tracking plans from Segment, saves them as JSON, generates YAML, and creates the markdown dictionary.
+
+
 ### **Step 1: Updating Dev Tracking Plan**  
 
 🔹 **Trigger**:  
