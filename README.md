@@ -1,67 +1,101 @@
-# trackings-plans
-a repository that demonstrates the power of GitHub workflows to enhance management of a Segment Tracking Plan
+# 📌 Segment Tracking Plans Automation 🚀  
+*A repository demonstrating the power of GitHub Workflows for automated Segment Tracking Plan management.*
 
-![Aubrey's Automated TP Management - Aubrey Final Setup Draft](https://github.com/user-attachments/assets/83d617e5-8f52-40b1-afd8-956010b4d662)
+![Tracking Plans Automation](https://github.com/user-attachments/assets/83d617e5-8f52-40b1-afd8-956010b4d662)
 
-## instructions for use
+---
 
-### clone this repository
-### create env secrets 
-this project will need the following github respoitory secrets 
-- `SEGMENT_PUBLIC_API_TOKEN`
-- `DEV_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>` * n number of trackplans
-- `PROD_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>` * n number of tracking plans
-  - This repo uses a javascript & server tracking plans
-  - Which means I have **5** total github secrets
-    - 1 for the public api
-    - 2 for javascript (dev & prod)
-    - 2 for server (dev & prod)  
+## 📖 Table of Contents  
+- [🔧 Setup Instructions](#-setup-instructions)  
+- [⚙️ How It Works](#️-how-it-works)  
+  - [Step 1: Updating Dev Tracking Plan](#step-1-updating-dev-tracking-plan)  
+  - [Step 2: Merging to Main & Updating Prod](#step-2-merging-to-main--updating-prod)  
+- [🔹 Advanced Features](#-advanced-features)  
+  - [RESET_DEV Workflow](#reset_dev-workflow)  
+  - [Markdown Auto-Update](#markdown-auto-update)  
+- [💻 Running Scripts Locally](#-running-scripts-locally)  
 
-## HOW IT WORKS 
+---
 
-### STEP 1:
+## 🔧 Setup Instructions  
 
-#### NEW RULE IN `tracking-rules/<TP_NAME>/**.yml` PUSHED TO BRANCH 
+### 1️⃣ Clone the Repository  
+➡️ *(Insert your clone and CD commands here)*  
 
-- Any changes to rules located in `tracking-rules/server` or `tracking-rules/javascript` pushed to a **new branch** will trigger **DEV** workflow
-  - `update-and-save-tracking-plans` does the following
-    - takes the changed yaml files and converts the rule to JSON
-    - `PATCH` update rules to update the Segment DEV tracking plan
-      - **NOTE** you can make changes to multilpe changes in a single branch. the workflow checks to make sure rules have been updated
-    - `GET` rules endpoint (Segment Public API) and saves the output to `plans/dev/<TP_NAME>/current-rules.json` 
-    - Add, commit, and push files to branch        
+### 2️⃣ Configure GitHub Secrets  
+This project requires **GitHub repository secrets** for authentication with the Segment API.
 
-### STEP 2
+| Secret Name  | Description |
+|-------------|-------------|
+| `SEGMENT_PUBLIC_API_TOKEN`  | API Token for Segment Public API |
+| `DEV_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>`  | Segment Tracking Plan ID for **Dev** |
+| `PROD_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>` | Segment Tracking Plan ID for **Prod** |
 
-#### MERGE BRANCH TO MAIN
+#### Example:
+This repository manages **two tracking plans**:  
+✅ JavaScript  
+✅ Server  
 
-- Any changes to rules located in `tracking-rules/server` or `tracking-rules/javascript` from **merged branch to main** trigger **PROD** workflow 
-  -  `update-and-generate-markdown` does the following
-    -  takes the changed yaml files and converts the rule to JSON
-    - `PATCH` update rules to update the Segment PROD tracking plan
-    - `GET` rules endpoint (Segment Public API) and saves the output to `plans/prod/<TP_NAME>/current-rules.json`
-    -  `render-tp.js` outputs a markdown file using the new rules in `plans/prod/../current-rules.json` -> `docs/<TP_NAME>.md`
-      -  `docs/<TP_NAME>.md` is defined by an arugment value in `update-prod-tracking-plans.yml`
-    - Add, commit push to main
- 
-## ADVANCED FEATURES
+So, it requires **5 GitHub Secrets**:  
+- **1** API token (`SEGMENT_PUBLIC_API_TOKEN`)  
+- **2** JavaScript tracking plan IDs (Dev & Prod)  
+- **2** Server tracking plan IDs (Dev & Prod)  
 
-### RESET_DEV
+---
 
-If a new release is created & the title is `RESET DEV` the following workflow will trigger:
-- `GET` PROD tracking plan rules
-- `PUT` **(replace all rules)** output from step 1 in `DEV` tracking plans (Segment)
-- updates rules in `plans/dev/<TP_NAME>/current-rules.json`
+## ⚙️ How It Works  
 
-### MARKDOWN
-If rules are updated in the app and not via yaml the markdown data dictionary may get outdated.
-- `GET` `PROD` rules
-- `render-tp.js`
+### **Step 1: Updating Dev Tracking Plan**  
 
-### Local node script
-Reccommended to run locally, you can access generate-yaml-rules.js
-- `npm install`
-- `node scripts/generate-yaml-rules.js plans/prod/<TP_NAME> tracking-rules/rules/<TP_NAME>` 
-    - you may need to create a directory `plans/rules/<TP_NAME>`
-- Converts all PROD rules to their own unique yaml file for easy updates
+🔹 **Trigger**:  
+- Pushing changes to `tracking-rules/javascript/**.yml` or `tracking-rules/server/**.yml` on a **new branch**  
+- This triggers the **Dev workflow** (`update-and-save-tracking-plans`)
 
+🔹 **What Happens?**  
+1. Converts the modified YAML rule(s) to JSON  
+2. Updates the **Dev** tracking plan using a `PATCH` request  
+3. Fetches the updated rules from Segment & saves to `plans/dev/<TP_NAME>/current-rules.json`  
+4. Adds, commits, and pushes the changes  
+
+---
+
+### **Step 2: Merging to Main & Updating Prod**  
+
+🔹 **Trigger**:  
+- Merging a branch with tracking rule updates into `main`  
+
+🔹 **What Happens?**  
+1. Converts the updated YAML to JSON  
+2. Updates the **Prod** tracking plan using a `PATCH` request  
+3. Fetches updated rules from Segment & saves to `plans/prod/<TP_NAME>/current-rules.json`  
+4. Generates a **Markdown data dictionary** (`docs/<TP_NAME>.md`)  
+5. Commits & pushes updates to `main`  
+
+---
+
+## 🔹 Advanced Features  
+
+### **RESET_DEV Workflow**  
+- Triggered by creating a **release** named `"RESET DEV"`  
+- Fetches rules from **Prod**  
+- Replaces **all** rules in **Dev** tracking plan  
+- Updates `plans/dev/<TP_NAME>/current-rules.json`  
+
+---
+
+### **Markdown Auto-Update**  
+- Ensures **docs stay up to date**  
+- Fetches latest `PROD` rules  
+- Runs `render-tp.js` to regenerate Markdown  
+
+---
+
+## 💻 Running Scripts Locally  
+
+➡️ *(Insert instructions for running the `generate-yaml-rules.js` script here)*  
+
+➡️ *(Provide steps for installing dependencies and executing the script locally)*  
+
+---
+
+✅ **This setup automates the full tracking plan lifecycle from YAML to Segment to Markdown!** 🎯  
