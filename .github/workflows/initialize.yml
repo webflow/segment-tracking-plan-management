@@ -150,15 +150,21 @@ jobs:
           echo "Generating markdown for ${{ matrix.tracking_plan.name }}"
           node scripts/render-tp.js "${{ matrix.tracking_plan.name }} Tracking Plan" "plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json" "docs/${{ matrix.tracking_plan.path }}_tracking_plan.md"
 
-      # **Step 5: Commit and Push Changes**
+        # **Step 5: Commit and Push Changes**
       - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Ensure we're on main branch
+          git fetch origin main
+          git checkout main
+          
           git add plans/dev/${{ matrix.tracking_plan.path }}/current-rules.json \
                   plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json \
                   tracking-rules/${{ matrix.tracking_plan.path }}/*.yml \
                   docs/${{ matrix.tracking_plan.path }}_tracking_plan.md
+          
           git commit -m "Initialized tracking plans for ${{ matrix.tracking_plan.name }} [skip ci]" || echo "No changes to commit"
           
           # Fetch latest changes & merge automatically
@@ -166,3 +172,4 @@ jobs:
           
           # Push changes
           git push origin main
+  
