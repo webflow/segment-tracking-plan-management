@@ -184,6 +184,9 @@ jobs:
     if: contains(github.event.release.name, 'initialize')
     runs-on: ubuntu-latest
 
+    outputs:
+      matrix: ${{ steps.parse_json.outputs.matrix }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -198,19 +201,17 @@ jobs:
 
       # Load tracking plans from JSON file
       - name: Load Tracking Plans Configuration
-        run: echo "TRACKING_PLANS=$(cat config/tracking-plans-config.json)" >> $GITHUB_ENV
-
-      # Extract just the "plans" array for the matrix strategy
-      - name: Parse Tracking Plans
         id: parse_json
-        run: echo "MATRIX=$(jq -c .plans config/tracking-plans-config.json)" >> $GITHUB_ENV
+        run: |
+          MATRIX=$(jq -c .plans config/tracking-plans-config.json)
+          echo "::set-output name=matrix::$MATRIX"
 
   matrix-job:
     needs: initialize-tracking-plans
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tracking_plan: ${{ fromJson(env.MATRIX) }}
+        tracking_plan: ${{ fromJson(needs.initialize-tracking-plans.outputs.matrix) }}
 
     steps:
       - name: Checkout repository
@@ -261,7 +262,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           # Ensure we're on main branch
           git fetch origin main
           git checkout main
@@ -278,3 +279,4 @@ jobs:
 
           # Push changes
           git push origin main
+
