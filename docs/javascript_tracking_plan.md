@@ -62,7 +62,7 @@ analytics.track("Aubrey's Event 1", {
 
 #### **Description**
 
-First Event desc hi
+First Event
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -101,7 +101,7 @@ analytics.track("First Event", {
 
 #### **Description**
 
-Obj Prop hi
+Obj Prop
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -137,7 +137,7 @@ analytics.track("Obj Prop", {
 
 #### **Description**
 
-Obj Prop 10 description hi
+Obj Prop 10
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -173,7 +173,7 @@ analytics.track("Obj Prop 10", {
 
 #### **Description**
 
-Obj Prop 2 des hi
+Obj Prop 2
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -209,7 +209,7 @@ analytics.track("Obj Prop 2", {
 
 #### **Description**
 
-Obj Prop 20 description hi
+Obj Prop 20
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -245,7 +245,7 @@ analytics.track("Obj Prop 20", {
 
 #### **Description**
 
-Obj Prop 22 sdf hi
+Obj Prop 22
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -281,7 +281,7 @@ analytics.track("Obj Prop 22", {
 
 #### **Description**
 
-Obj Prop 4 desc
+Obj Prop 4
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -317,7 +317,7 @@ analytics.track("Obj Prop 4", {
 
 #### **Description**
 
-Obj Prop 6 description
+Obj Prop 6
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -353,7 +353,7 @@ analytics.track("Obj Prop 6", {
 
 #### **Description**
 
-Second Event hi
+Second Event
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -415,7 +415,7 @@ analytics.track("Segment Consent Preference Updated", {})
 
 #### **Description**
 
-Third Event hi
+Third Event
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
