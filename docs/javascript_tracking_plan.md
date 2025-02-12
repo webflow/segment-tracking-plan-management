@@ -41,12 +41,12 @@ Aubrey's Event 1 hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **prop2** | `string` | this is a single property | ✅ |
+| **prop22** | `string` | this is a single property | ✅ |
 #### **JS**
 
 ```javascript
 analytics.track("Aubrey's Event 1", {
-  "prop2": "<<type: string, required: true>>"
+  "prop22": "<<type: string, required: true>>"
 })
 ```
 
