@@ -1,0 +1,17 @@
+{
+    "plans": [
+      {
+        "name": "JavaScript",
+        "path": "javascript",
+        "dev_secret": "DEV_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT",
+        "prod_secret": "PROD_SEGMENT_TRACKING_PLAN_ID_JAVASCRIPT"
+      },
+      {
+        "name": "Server",
+        "path": "server",
+        "dev_secret": "DEV_SEGMENT_TRACKING_PLAN_ID_SERVER",
+        "prod_secret": "PROD_SEGMENT_TRACKING_PLAN_ID_SERVER"
+      }
+    ]
+  }
+  
