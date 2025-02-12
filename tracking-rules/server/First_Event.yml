@@ -1,7 +1,7 @@
 rules:
   - key: First Event
     type: TRACK
-    description: First Event hi
+    description: First Event hi hi
     version: 1
     labels:
       feature: journeys
