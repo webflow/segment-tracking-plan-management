@@ -67,9 +67,9 @@ First Event desc hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **array_prop2** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
-| **array_prop2.items** | `object` | Contains the structure for array items | ❌ |
-| **array_prop2.items.layer1_prop34** | `string` | this is an optional property on any items in the array_prop1  change here | ❌ |
+| **array_prop3** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array) | ❌ |
+| **array_prop3.items** | `object` | Contains the structure for array items | ❌ |
+| **array_prop3.items.layer1_prop34** | `string` | this is an optional property on any items in the array_prop1  change here | ❌ |
 | **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) here here | ✅ |
 | **obj_prop1.sub_prop1** | `array` | here blach | ❌ |
 | **prop3** | `string` | this is a single test testing | ✅ |
@@ -77,7 +77,7 @@ First Event desc hi
 
 ```javascript
 analytics.track("First Event", {
-  "array_prop2": [
+  "array_prop3": [
     {
       "layer1_prop34": "<<type: string, required: false>>"
     }
