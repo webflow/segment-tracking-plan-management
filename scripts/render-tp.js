@@ -104,6 +104,10 @@ try {
 
     let eventsMarkdown = formattedEvents.join(os.EOL);
     console.log(eventsMarkdown);
+    const dirPath = path.dirname(markdownTargetPath);
+    if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+    }
     fs.writeFileSync(markdownTargetPath, eventsMarkdown, 'utf-8');
     console.log(`Markdown file successfully written to: ${markdownTargetPath}`);
 } catch (error) {
