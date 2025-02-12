@@ -35,21 +35,6 @@ try {
   process.exit(1);
 }
 
-// Function to convert JSON rules to YAML and save them
-// function generateYAMLFiles() {
-//   trackingPlanData.rules.forEach((rule) => {
-//     const yamlContent = yaml.dump({ rules: [rule] });
-//     const fileName = `${rule.key.replace(/ /g, '_')}.yml`;
-//     const filePath = path.join(saveDir, fileName);
-
-//     try {
-//       fs.writeFileSync(filePath, yamlContent);
-//       console.log(`Generated YAML file: ${filePath}`);
-//     } catch (error) {
-//       console.error(`Error writing YAML file ${fileName}:`, error.message);
-//     }
-//   });
-// }
 
 function generateYAMLFiles() {
   trackingPlanData.rules.forEach((rule) => {
