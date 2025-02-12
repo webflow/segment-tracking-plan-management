@@ -84,12 +84,25 @@ on:
     types: [published]
 
 jobs:
+  prepare-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Load Tracking Plans Configuration
+        id: set-matrix
+        run: echo "matrix=$(jq -c .plans config/tracking-plans-config.json)" >> $GITHUB_OUTPUT
+
   initialize-tracking-plans:
-    if: contains(github.event.release.name, 'initialize') # Ensure it only runs on "initialize" release
+    needs: prepare-matrix  # Wait for matrix to be prepared
+    if: contains(github.event.release.name, 'initialize') # Ensure it runs on "initialize" release
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tracking_plan: ${{ fromJson(env.TRACKING_PLANS) }} # Load plans dynamically
+        tracking_plan: ${{ fromJson(needs.prepare-matrix.outputs.matrix) }} # Load matrix from previous job
 
     steps:
       - name: Checkout repository
@@ -104,9 +117,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Load Tracking Plans Configuration
-        run: echo "TRACKING_PLANS=$(jq -c .plans config/tracking-plans-config.json)" >> $GITHUB_ENV
 
       # **Step 1: GET Tracking Plans for DEV & Save JSON**
       - name: Fetch DEV Tracking Plan
