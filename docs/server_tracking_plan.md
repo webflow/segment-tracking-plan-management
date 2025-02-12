@@ -191,14 +191,14 @@ analytics.track("Obj Prop 2", {
 
 #### **Description**
 
-No description provided
+Obj Prop 312
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **object** | `object` | this is a single property hey hey | ✅ |
 | **object.int** | `number` | this is an optional sub-property in an object hey hey | ❌ |
-| **object.string** | `string` | this is a required sub-property in an object | ✅ |
+| **object.string** | `string` | this is a required sub-property in an object | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
 | **object2.string** | `string` | this is a required sub-property in an object | ❌ |
 #### **JS**
@@ -207,7 +207,7 @@ No description provided
 analytics.track("Obj Prop 3", {
   "object": {
     "int": "<<type: number, required: false>>",
-    "string": "<<type: string, required: true>>"
+    "string": "<<type: string, required: false>>"
   },
   "object2": {
     "string": "<<type: string, required: false>>"

@@ -1,7 +1,7 @@
 rules:
   - key: Second Event
     type: TRACK
-    description: Second Event hi
+    description: Second Event
     version: 1
     labels:
       feature: journeys
@@ -25,8 +25,8 @@ rules:
           sub_prop1:
             description: this is a req uired sub-property in an object
             type: string
-        required: true
         type: object
+        required: true
       prop3:
         description: this is a single property
         type: string

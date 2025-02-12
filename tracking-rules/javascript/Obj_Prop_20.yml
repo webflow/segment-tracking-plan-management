@@ -1,7 +1,7 @@
 rules:
   - key: Obj Prop 20
     type: TRACK
-    description: Obj Prop 20 description hi
+    description: Obj Prop 20
     version: 1
     labels:
       feature: journeys
@@ -15,8 +15,8 @@ rules:
           string:
             description: this is a required property in an object new descriotion
             type: string
-        required: true
         type: object
+        required: true
       object2:
         description: this is a single property
         properties:

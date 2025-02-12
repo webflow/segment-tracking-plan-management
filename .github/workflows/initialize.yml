@@ -1,22 +1,20 @@
 name: Initialize Tracking Plans
 
 on:
-  push:
-    tags:
-      - "initialize"
+  release:
+    types: [published]
 
 jobs:
   initialize-tracking-plans:
+    if: contains(github.event.release.name, 'initialize')
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        tracking_plan: ${{ fromJson(vars.TRACKING_PLANS) }}
+
+    outputs:
+      matrix: ${{ steps.parse_json.outputs.matrix }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 1
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -26,10 +24,33 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      # Load tracking plans from JSON file
       - name: Load Tracking Plans Configuration
-        run: echo "TRACKING_PLANS=$(cat config/tracking-plans-config.json)" >> $GITHUB_ENV
+        id: parse_json
+        run: |
+          MATRIX=$(jq -c .plans config/tracking-plans-config.json)
+          echo "::set-output name=matrix::$MATRIX"
 
-      # **Step 1: GET Tracking Plans for DEV & Save JSON**
+  matrix-job:
+    needs: initialize-tracking-plans
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tracking_plan: ${{ fromJson(needs.initialize-tracking-plans.outputs.matrix) }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      # **Step 1: Fetch DEV Tracking Plan**
       - name: Fetch DEV Tracking Plan
         env:
           SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
@@ -37,9 +58,9 @@ jobs:
           PLAN_DIR: plans/dev/${{ matrix.tracking_plan.path }}
         run: |
           echo "Fetching DEV tracking plan for ${{ matrix.tracking_plan.name }}"
-          node scripts/get-tracking-plan.js
+          node scripts/save-tracking-plan.js
 
-      # **Step 2: GET Tracking Plans for PROD & Save JSON**
+      # **Step 2: Fetch PROD Tracking Plan**
       - name: Fetch PROD Tracking Plan
         env:
           SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
@@ -47,9 +68,9 @@ jobs:
           PLAN_DIR: plans/prod/${{ matrix.tracking_plan.path }}
         run: |
           echo "Fetching PROD tracking plan for ${{ matrix.tracking_plan.name }}"
-          node scripts/get-tracking-plan.js
+          node scripts/save-tracking-plan.js
 
-      # **Step 3: Generate YAML for PROD**
+      # **Step 3: Generate YAML from PROD JSON**
       - name: Generate YAML from PROD JSON
         run: |
           echo "Generating YAML for ${{ matrix.tracking_plan.name }}"
@@ -66,14 +87,21 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Ensure we're on main branch
+          git fetch origin main
+          git checkout main
+
           git add plans/dev/${{ matrix.tracking_plan.path }}/current-rules.json \
                   plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json \
                   tracking-rules/${{ matrix.tracking_plan.path }}/*.yml \
                   docs/${{ matrix.tracking_plan.path }}_tracking_plan.md
-          git commit -m "Initialized tracking plans for ${{ matrix.tracking_plan.name }} [skip ci]" || echo "No changes to commit"
           
+          git commit -m "Initialized tracking plans for ${{ matrix.tracking_plan.name }} [skip ci]" || echo "No changes to commit"
+
           # Fetch latest changes & merge automatically
           git pull --rebase origin main || git pull --autostash origin main
-          
+
           # Push changes
           git push origin main
+

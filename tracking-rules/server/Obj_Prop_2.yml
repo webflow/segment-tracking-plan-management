@@ -15,8 +15,8 @@ rules:
           strings:
             description: this is a required sub-property in an object here
             type: string
-        required: true
         type: object
+        required: true
       object2:
         description: this is a single property
         properties:

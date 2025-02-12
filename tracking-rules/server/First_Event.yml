@@ -1,7 +1,7 @@
 rules:
   - key: First Event
     type: TRACK
-    description: First Event hi hi
+    description: First Event
     version: 1
     labels:
       feature: journeys
@@ -25,8 +25,8 @@ rules:
           sub_prop1:
             description: this is a required sub-property in an object here
             type: string
-        required: true
         type: object
+        required: true
       prop3:
         description: this is a single property testing testing
         type: string

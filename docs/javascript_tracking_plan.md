@@ -36,7 +36,7 @@ analytics.track("Advisory SE Roundtable", {
 
 #### **Description**
 
-Aubrey's Event 1 hi
+Aubrey's Event 112
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |

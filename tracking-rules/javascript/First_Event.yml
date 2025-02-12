@@ -1,7 +1,7 @@
 rules:
   - key: First Event
     type: TRACK
-    description: First Event desc hi
+    description: First Event
     version: 1
     labels:
       feature: journeys
@@ -27,8 +27,8 @@ rules:
           sub_prop1:
             description: here blach
             type: array
-        required: true
         type: object
+        required: true
       prop3:
         description: this is a single test testing
         type: string

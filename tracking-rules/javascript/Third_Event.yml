@@ -1,7 +1,7 @@
 rules:
   - key: Third Event
     type: TRACK
-    description: Third Event hi
+    description: Third Event
     version: 1
     labels:
       feature: journeys

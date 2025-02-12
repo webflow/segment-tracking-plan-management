@@ -1,7 +1,7 @@
 rules:
   - key: Obj Prop 3
     type: TRACK
-    description: Obj Prop 3
+    description: Obj Prop 312
     version: 1
     labels: {}
     properties:
