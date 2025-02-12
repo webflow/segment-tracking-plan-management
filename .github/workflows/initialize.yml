@@ -6,7 +6,7 @@ on:
 
 jobs:
   initialize-tracking-plans:
-    if: contains(github.event.release.tag_name, 'initialize') # Explicit condition
+    if: contains(github.event.release.name, 'initialize') # Explicit condition
     runs-on: ubuntu-latest
     strategy:
       matrix:
