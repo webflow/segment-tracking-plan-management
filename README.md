@@ -1,4 +1,5 @@
 # 📌 Segment Tracking Plans Automation 🚀  
+
 *A repository demonstrating the power of GitHub Workflows for automated Segment Tracking Plan management.*
 
 ![Tracking Plans Automation](https://github.com/user-attachments/assets/83d617e5-8f52-40b1-afd8-956010b4d662)
@@ -6,6 +7,7 @@
 ---
 
 ## 📖 Table of Contents  
+
 - [🔧 Setup Instructions](#-setup-instructions)  
 - [⚙️ How It Works](#️-how-it-works)  
   - [Step 1: Updating Dev Tracking Plan](#step-1-updating-dev-tracking-plan)  
@@ -20,9 +22,14 @@
 ## 🔧 Setup Instructions  
 
 ### 1️⃣ Clone the Repository  
-➡️ *(Insert your clone and CD commands here)*  
+
+```bash
+git clone https://github.com/YOUR_USERNAME/trackings-plans.git
+cd trackings-plans
+```
 
 ### 2️⃣ Configure GitHub Secrets  
+
 This project requires **GitHub repository secrets** for authentication with the Segment API.
 
 | Secret Name  | Description |
@@ -32,11 +39,13 @@ This project requires **GitHub repository secrets** for authentication with the 
 | `PROD_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>` | Segment Tracking Plan ID for **Prod** |
 
 #### Example:
+
 This repository manages **two tracking plans**:  
 ✅ JavaScript  
 ✅ Server  
 
 So, it requires **5 GitHub Secrets**:  
+
 - **1** API token (`SEGMENT_PUBLIC_API_TOKEN`)  
 - **2** JavaScript tracking plan IDs (Dev & Prod)  
 - **2** Server tracking plan IDs (Dev & Prod)  
@@ -52,15 +61,16 @@ So, it requires **5 GitHub Secrets**:
    - This triggers the `initialize-tracking-plans` workflow
    - It pulls tracking plans from Segment, saves them as JSON, generates YAML, and creates the markdown dictionary.
 
-
 ### **Step 1: Updating Dev Tracking Plan**  
 
 🔹 **Trigger**:  
+
 - Pushing changes to `tracking-rules/javascript/**.yml` or `tracking-rules/server/**.yml` on a **new branch**  
-- This triggers the **Dev workflow** (`update-and-save-tracking-plans`)
+- This triggers the **Dev workflow** (`Update Development Tracking Plans`)
 
 🔹 **What Happens?**  
-1. Converts the modified YAML rule(s) to JSON  
+
+1. Converts the modified YAML rule(s) to JSON
 2. Updates the **Dev** tracking plan using a `PATCH` request  
 3. Fetches the updated rules from Segment & saves to `plans/dev/<TP_NAME>/current-rules.json`  
 4. Adds, commits, and pushes the changes  
@@ -70,9 +80,12 @@ So, it requires **5 GitHub Secrets**:
 ### **Step 2: Merging to Main & Updating Prod**  
 
 🔹 **Trigger**:  
+
 - Merging a branch with tracking rule updates into `main`  
+- This triggers the **Prod workflow** (`Update Production Tracking Plans and Generate Markdown`)
 
 🔹 **What Happens?**  
+
 1. Converts the updated YAML to JSON  
 2. Updates the **Prod** tracking plan using a `PATCH` request  
 3. Fetches updated rules from Segment & saves to `plans/prod/<TP_NAME>/current-rules.json`  
@@ -84,14 +97,16 @@ So, it requires **5 GitHub Secrets**:
 ## 🔹 Advanced Features  
 
 ### **RESET_DEV Workflow**  
-- Triggered by creating a **release** named `"RESET DEV"`  
+
+- Triggered by creating a **release** named `RESET_DEV`  
 - Fetches rules from **Prod**  
-- Replaces **all** rules in **Dev** tracking plan  
+- Replaces **all** rules in **Dev** tracking plan with **Prod**
 - Updates `plans/dev/<TP_NAME>/current-rules.json`  
 
 ---
 
 ### **Markdown Auto-Update**  
+
 - Ensures **docs stay up to date**  
 - Fetches latest `PROD` rules  
 - Runs `render-tp.js` to regenerate Markdown  
