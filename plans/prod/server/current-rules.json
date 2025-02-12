@@ -21,7 +21,7 @@
           "properties": {
             "type": "object",
             "properties": {
-              "array_prop2": {
+              "array_prop22": {
                 "description": "this is an array property (it will specify  \"items\", keys that need to exist for each item in the array)  asdasd",
                 "items": {
                   "properties": {
@@ -60,7 +60,7 @@
         ]
       },
       "createdAt": "2024-08-08T18:23:59.000Z",
-      "updatedAt": "2025-02-12T18:43:54.000Z",
+      "updatedAt": "2025-02-12T18:57:33.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {

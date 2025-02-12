@@ -13,9 +13,9 @@ First Event hi hi
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **array_prop2** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array)  asdasd | ❌ |
-| **array_prop2.items** | `object` | Contains the structure for array items | ❌ |
-| **array_prop2.items.layer1_prop2** | `string` | this is an optional property on any items in the array_prop1 array dsg | ❌ |
+| **array_prop22** | `array` | this is an array property (it will specify  "items", keys that need to exist for each item in the array)  asdasd | ❌ |
+| **array_prop22.items** | `object` | Contains the structure for array items | ❌ |
+| **array_prop22.items.layer1_prop2** | `string` | this is an optional property on any items in the array_prop1 array dsg | ❌ |
 | **obj_prop1** | `object` | this is required object (i.e. can have nested sub-properties) | ✅ |
 | **obj_prop1.sub_prop1** | `string` | this is a required sub-property in an object here | ❌ |
 | **prop3** | `string` | this is a single property testing testing | ✅ |
@@ -23,7 +23,7 @@ First Event hi hi
 
 ```javascript
 analytics.track("First Event", {
-  "array_prop2": [
+  "array_prop22": [
     {
       "layer1_prop2": "<<type: string, required: false>>"
     }
