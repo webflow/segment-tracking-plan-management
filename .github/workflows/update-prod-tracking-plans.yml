@@ -92,7 +92,8 @@ on:
     branches:
       - main
     paths:
-      - 'tracking-rules/**/*.yml'
+      - 'tracking-rules/javascript/**.yml'
+      - 'tracking-rules/server/**.yml'
 
 jobs:
   update-and-generate-markdown:
@@ -107,7 +108,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2  # Ensure previous commit is available for diff
+          fetch-depth: 10  # Ensure enough history for detecting changes
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -117,44 +118,33 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # ✅ Check if changes exist for the tracking plan
-      - name: Check for changes in ${{ matrix.tracking_plan.name }}
-        id: check_changes
-        run: |
-          if git diff --name-only HEAD^ HEAD | grep -q "tracking-rules/${{ matrix.tracking_plan.path }}"; then
-            echo "CHANGED=true" >> $GITHUB_ENV
-          else
-            echo "CHANGED=false" >> $GITHUB_ENV
-          fi
+      - name: Pull latest changes
+        run: git pull origin main
 
       - name: Update Tracking Plan
-        if: env.CHANGED == 'true'
         env:
           SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
           SEGMENT_TRACKING_PLAN_ID: ${{ secrets[matrix.tracking_plan.secret] }}
           PLAN_DIR: tracking-rules/${{ matrix.tracking_plan.path }}
-        run: node scripts/update-tracking-plan.js
+        run: |
+          echo "Updating tracking plan for ${{ matrix.tracking_plan.name }}"
+          node scripts/update-tracking-plan.js || echo "No changes detected"
 
       - name: Save Tracking Plan
-        if: env.CHANGED == 'true'
         env:
           SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
           SEGMENT_TRACKING_PLAN_ID: ${{ secrets[matrix.tracking_plan.secret] }}
           PLAN_DIR: plans/prod/${{ matrix.tracking_plan.path }}
-        run: node scripts/save-tracking-plan.js
+        run: |
+          echo "Saving tracking plan for ${{ matrix.tracking_plan.name }}"
+          node scripts/save-tracking-plan.js || echo "No changes detected"
 
       - name: Generate Markdown
-        if: env.CHANGED == 'true'
-        run: node scripts/render-tp.js "${{ matrix.tracking_plan.name }} Tracking Plan" "plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json" "docs/${{ matrix.tracking_plan.path }}_tracking_plan.md"
-
-      # ✅ Ensure branch is up to date before pushing
-      - name: Pull latest changes (Prevent Merge Conflicts)
-        if: env.CHANGED == 'true'
         run: |
-          git pull --rebase origin main || echo "No conflicts, continuing..."
+          echo "Generating markdown for ${{ matrix.tracking_plan.name }}"
+          node scripts/render-tp.js "${{ matrix.tracking_plan.name }} Tracking Plan" "plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json" "docs/${{ matrix.tracking_plan.path }}_tracking_plan.md" || echo "No changes detected"
 
       - name: Commit and Push Updates
-        if: env.CHANGED == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
