@@ -233,7 +233,7 @@ jobs:
           PLAN_DIR: plans/dev/${{ matrix.tracking_plan.path }}
         run: |
           echo "Fetching DEV tracking plan for ${{ matrix.tracking_plan.name }}"
-          node scripts/get-tracking-plan.js
+          node scripts/save-tracking-plan.js
 
       # **Step 2: Fetch PROD Tracking Plan**
       - name: Fetch PROD Tracking Plan
@@ -243,7 +243,7 @@ jobs:
           PLAN_DIR: plans/prod/${{ matrix.tracking_plan.path }}
         run: |
           echo "Fetching PROD tracking plan for ${{ matrix.tracking_plan.name }}"
-          node scripts/get-tracking-plan.js
+          node scripts/save-tracking-plan.js
 
       # **Step 3: Generate YAML from PROD JSON**
       - name: Generate YAML from PROD JSON
