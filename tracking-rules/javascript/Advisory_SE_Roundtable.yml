@@ -7,7 +7,7 @@ rules:
       feature: journeys
     properties:
       prop2:
-        description: this is a single property
+        description: this is a single property name
         type: string
         required: true
       prop3:
