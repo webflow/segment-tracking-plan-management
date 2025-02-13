@@ -38,6 +38,9 @@ This project requires **GitHub repository secrets** for authentication with the 
 | `DEV_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>`  | Segment Tracking Plan ID for **Dev** |
 | `PROD_SEGMENT_TRACKING_PLAN_ID_<TP_NAME>` | Segment Tracking Plan ID for **Prod** |
 
+**Hint**:
+`https://app.segment.com/<your_workspace>/protocols/tracking-plans/<tracking_plan_id>`
+
 #### Example:
 
 This repository manages **two tracking plans**:  
