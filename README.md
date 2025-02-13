@@ -32,6 +32,10 @@ cd trackings-plans
 
 This project requires **GitHub repository secrets** for authentication with the Segment API.
 
+**Hint**
+Find your Segment Tracking Plan ID
+`https://app.segment.com/<your_workspace>/protocols/tracking-plans/<tracking_plan_id>`
+
 | Secret Name  | Description |
 |-------------|-------------|
 | `SEGMENT_PUBLIC_API_TOKEN`  | API Token for Segment Public API |
