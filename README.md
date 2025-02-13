@@ -15,7 +15,7 @@
 - [🔹 Advanced Features](#-advanced-features)  
   - [RESET_DEV Workflow](#reset_dev-workflow)  
   - [Markdown Auto-Update](#markdown-auto-update)  
-- [💻 Running Scripts Locally](#-running-scripts-locally)  
+- [Segment API References](#segment-api-references)  
 
 ---
 
@@ -41,7 +41,7 @@ This project requires **GitHub repository secrets** for authentication with the 
 **Hint**:
 `https://app.segment.com/<your_workspace>/protocols/tracking-plans/<tracking_plan_id>`
 
-#### Example:
+#### Example
 
 This repository manages **two tracking plans**:  
 ✅ JavaScript  
@@ -116,12 +116,24 @@ So, it requires **5 GitHub Secrets**:
 
 ---
 
-## 💻 Running Scripts Locally  
+## **Segment API References**
 
-➡️ *(Insert instructions for running the `generate-yaml-rules.js` script here)*  
+This project interacts with Segment's Tracking Plan API for managing tracking plans. Below are the key API endpoints used:
 
-➡️ *(Provide steps for installing dependencies and executing the script locally)*  
+### **Saving Tracking Plans**
 
----
+The `save-tracking-plans.js` script retrieves the latest rules from the Segment API and saves them to the repository.
+
+🔗 [List Rules from Tracking Plan API](https://docs.segmentapis.com/tag/Tracking-Plans#operation/listRulesFromTrackingPlan)  
+*Used in:* `scripts/save-tracking-plans.js`
+
+### **Updating Tracking Plans**
+
+The `update-tracking-plan.js` script updates tracking plan rules in Segment using the API.
+
+🔗 [Update Rules in Tracking Plan API](https://docs.segmentapis.com/tag/Tracking-Plans#operation/updateRulesInTrackingPlan)  
+*Used in:* `scripts/update-tracking-plan.js`
+
+These endpoints ensure that the tracking plans stay in sync between Segment and this repository.
 
 ✅ **This setup automates the full tracking plan lifecycle from YAML to Segment to Markdown!** 🎯  
