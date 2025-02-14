@@ -36,7 +36,7 @@ analytics.track("Advisory SE Roundtable", {
 
 #### **Description**
 
-Aubrey's Event 112
+Aubrey's Event 100
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -62,7 +62,7 @@ analytics.track("Aubrey's Event 1", {
 
 #### **Description**
 
-First Event
+First Event description
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -281,7 +281,7 @@ analytics.track("Obj Prop 22", {
 
 #### **Description**
 
-Obj Prop 4
+Obj Prop 4 description
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
