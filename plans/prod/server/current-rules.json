@@ -10,7 +10,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "First Event hi hi",
+        "description": "First Event description hello",
         "properties": {
           "context": {
             "type": "object"
@@ -60,7 +60,7 @@
         ]
       },
       "createdAt": "2024-08-08T18:23:59.000Z",
-      "updatedAt": "2025-02-12T19:04:18.000Z",
+      "updatedAt": "2025-02-14T21:06:44.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -265,7 +265,7 @@
             "type": "object",
             "properties": {
               "object": {
-                "description": "this is a single object",
+                "description": "this is a single object property",
                 "properties": {
                   "int": {
                     "description": "this is an optional sub-property in an object hey hey",
@@ -299,7 +299,7 @@
         ]
       },
       "createdAt": "2024-08-15T21:15:54.000Z",
-      "updatedAt": "2025-02-12T18:48:20.000Z",
+      "updatedAt": "2025-02-14T20:47:23.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
