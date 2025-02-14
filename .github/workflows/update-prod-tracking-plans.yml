@@ -144,6 +144,14 @@ jobs:
           echo "Generating markdown for ${{ matrix.tracking_plan.name }}"
           node scripts/render-tp.js "${{ matrix.tracking_plan.name }} Tracking Plan" "plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json" "docs/${{ matrix.tracking_plan.path }}_tracking_plan.md" || echo "No changes detected"
 
+      - name: Push Markdown to Webflow
+        env:
+          WEBFLOW_API_KEY: ${{ secrets.WEBFLOW_API_KEY }}
+          WEBFLOW_COLLECTION_ID: ${{ secrets.WEBFLOW_COLLECTION_ID }}
+          WEBFLOW_SITE_ID: ${{ secrets.WEBFLOW_SITE_ID }}
+        run: |
+          node scripts/push-to-webflow.js "${{ matrix.tracking_plan.name }}"
+  
       - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
