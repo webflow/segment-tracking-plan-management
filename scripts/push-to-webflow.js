@@ -1,74 +1,63 @@
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
+const axios = require("axios");
+const fs = require("fs");
+const path = require("path");
 
+// Load environment variables
 const WEBFLOW_API_KEY = process.env.WEBFLOW_API_KEY;
 const WEBFLOW_COLLECTION_ID = process.env.WEBFLOW_COLLECTION_ID;
 const WEBFLOW_SITE_ID = process.env.WEBFLOW_SITE_ID;
 
-const trackingPlanName = process.argv[2]; // Passed from GitHub Action
-const markdownPath = path.resolve(`docs/${trackingPlanName}_tracking_plan.md`);
-
-if (!WEBFLOW_API_KEY || !WEBFLOW_COLLECTION_ID || !WEBFLOW_SITE_ID) {
-  console.error("Missing Webflow API credentials. Ensure WEBFLOW_API_KEY, WEBFLOW_COLLECTION_ID, and WEBFLOW_SITE_ID are set.");
+// Get tracking plan name from CLI args
+const trackingPlanName = process.argv[2];
+if (!trackingPlanName) {
+  console.error("❌ Missing tracking plan name. Usage: node push-to-webflow.js <tracking-plan-name>");
   process.exit(1);
 }
 
-// Read the generated markdown file
-const markdownContent = fs.readFileSync(markdownPath, 'utf8');
+// Define the markdown file path
+const markdownFilePath = path.join(__dirname, `../docs/${trackingPlanName}_tracking_plan.md`);
+console.log(`📄 Loading markdown from: ${markdownFilePath}`);
 
-// Webflow API endpoint
+// Read the markdown file
+if (!fs.existsSync(markdownFilePath)) {
+  console.error(`❌ Markdown file not found: ${markdownFilePath}`);
+  process.exit(1);
+}
+const markdownContent = fs.readFileSync(markdownFilePath, "utf8");
+
+// Generate a slug from the tracking plan name
+const slug = trackingPlanName.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+
+// Define Webflow API endpoint
 const WEBFLOW_API_URL = `https://api.webflow.com/collections/${WEBFLOW_COLLECTION_ID}/items`;
 
+// Construct the payload
+const payload = {
+  fields: {
+    name: trackingPlanName,
+    slug: slug,
+    "markdown-content": markdownContent
+  }
+};
+
+// Send data to Webflow
 async function updateWebflow() {
   try {
-    console.log(`Updating Webflow for ${trackingPlanName}...`);
+    console.log("🚀 Updating Webflow...");
 
-    // Check if an item with the same name already exists
-    const existingItems = await axios.get(WEBFLOW_API_URL, {
-      headers: { Authorization: `Bearer ${WEBFLOW_API_KEY}` },
+    const response = await axios.post(WEBFLOW_API_URL, payload, {
+      headers: {
+        Authorization: `Bearer ${WEBFLOW_API_KEY}`,
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      }
     });
 
-    const existingItem = existingItems.data.items.find(item => item.name === trackingPlanName);
-
-    if (existingItem) {
-      // Update the existing item
-      const updateResponse = await axios.patch(
-        `${WEBFLOW_API_URL}/${existingItem._id}`,
-        {
-          fields: {
-            name: trackingPlanName,
-            markdown_content: markdownContent,
-            _archived: false,
-            _draft: false,
-          },
-        },
-        { headers: { Authorization: `Bearer ${WEBFLOW_API_KEY}`, "Content-Type": "application/json" } }
-      );
-
-      console.log("Webflow Item Updated:", updateResponse.data);
-    } else {
-      // Create a new item
-      const createResponse = await axios.post(
-        WEBFLOW_API_URL,
-        {
-          fields: {
-            name: trackingPlanName,
-            markdown_content: markdownContent,
-            _archived: false,
-            _draft: false,
-          },
-        },
-        { headers: { Authorization: `Bearer ${WEBFLOW_API_KEY}`, "Content-Type": "application/json" } }
-      );
-
-      console.log("Webflow Item Created:", createResponse.data);
-    }
+    console.log("✅ Successfully updated Webflow:", response.data);
   } catch (error) {
-    console.error("Error updating Webflow:", error.response ? error.response.data : error.message);
-    process.exit(1);
+    console.error("❌ Error updating Webflow:", error.response?.data || error.message);
   }
 }
 
-// Run the function
+// Run the script
 updateWebflow();
