@@ -173,7 +173,7 @@ analytics.track("Obj Prop 10", {
 
 #### **Description**
 
-Obj Prop 2
+Obj Prop 2 description
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
