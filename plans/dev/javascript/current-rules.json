@@ -10,7 +10,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Advisory SE Roundtable Meeeting",
+        "description": "Advisory SE Roundtable Meeeting 20",
         "properties": {
           "context": {
             "type": "object"
@@ -41,7 +41,7 @@
         ]
       },
       "createdAt": "2024-09-18T18:40:11.000Z",
-      "updatedAt": "2025-02-15T00:35:47.000Z",
+      "updatedAt": "2025-02-15T00:40:09.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
