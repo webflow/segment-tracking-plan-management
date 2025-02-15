@@ -147,7 +147,7 @@ jobs:
       - name: Deploy Markdown to Docsify
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DOCSIFY_REPO: "yourusername/docsify-site"  # Update with your actual Docsify GitHub repo
+          DOCSIFY_REPO: "AubreySine0/docsify-site"  # Update with your actual Docsify GitHub repo
         run: |
           # Clone the Docsify GitHub repository
           git clone https://github.com/$DOCSIFY_REPO.git docsify-site
