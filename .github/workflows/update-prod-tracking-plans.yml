@@ -146,14 +146,17 @@ jobs:
 
       - name: Deploy Markdown to Docsify
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DOCSIFY_REPO: "AubreySine0/docsify-site"  # Update with your actual Docsify GitHub repo
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          DOCSIFY_REPO: ${{ secrets.DOCSIFY_REPO }}
         run: |
           # Clone the Docsify GitHub repository
           git clone https://github.com/$DOCSIFY_REPO.git docsify-site
-          
+      
+          # Ensure the /docs directory exists inside the Docsify repository
+          mkdir -p docsify-site/docs
+      
           # Copy the new Markdown files from your flow into Docsify's /docs directory
-          cp docs/${{ matrix.tracking_plan.path }}_tracking_plan.md docsify-site/docs/${{ matrix.tracking_plan.path }}_tracking_plan.md
+          cp docs/server_tracking_plan.md docsify-site/docs/server_tracking_plan.md
       
           # Navigate into the Docsify repository
           cd docsify-site
@@ -164,10 +167,11 @@ jobs:
       
           # Commit the new Markdown file (if there are changes)
           git add .
-          git commit -m "Updated Docsify Markdown for ${{ matrix.tracking_plan.name }}" || echo "No changes to commit"
+          git commit -m "Updated Docsify Markdown for Server" || echo "No changes to commit"
       
           # Push changes back to the Docsify repository
           git push https://x-access-token:$GH_TOKEN@github.com/$DOCSIFY_REPO.git main
+        
         
   
       - name: Commit and Push Updates
