@@ -144,13 +144,31 @@ jobs:
           echo "Generating markdown for ${{ matrix.tracking_plan.name }}"
           node scripts/render-tp.js "${{ matrix.tracking_plan.name }} Tracking Plan" "plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json" "docs/${{ matrix.tracking_plan.path }}_tracking_plan.md" || echo "No changes detected"
 
-      - name: Push Markdown to Webflow
+      - name: Deploy Markdown to Docsify
         env:
-          WEBFLOW_API_KEY: ${{ secrets.WEBFLOW_API_KEY }}
-          WEBFLOW_COLLECTION_ID: ${{ secrets.WEBFLOW_COLLECTION_ID }}
-          WEBFLOW_SITE_ID: ${{ secrets.WEBFLOW_SITE_ID }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOCSIFY_REPO: "yourusername/docsify-site"  # Update with your actual Docsify GitHub repo
         run: |
-          node scripts/push-to-webflow.js "${{ matrix.tracking_plan.path }}"
+          # Clone the Docsify GitHub repository
+          git clone https://github.com/$DOCSIFY_REPO.git docsify-site
+          
+          # Copy the new Markdown files from your flow into Docsify's /docs directory
+          cp docs/${{ matrix.tracking_plan.path }}_tracking_plan.md docsify-site/docs/${{ matrix.tracking_plan.path }}_tracking_plan.md
+      
+          # Navigate into the Docsify repository
+          cd docsify-site
+      
+          # Set up Git identity for automation
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+          # Commit the new Markdown file (if there are changes)
+          git add .
+          git commit -m "Updated Docsify Markdown for ${{ matrix.tracking_plan.name }}" || echo "No changes to commit"
+      
+          # Push changes back to the Docsify repository
+          git push https://x-access-token:$GH_TOKEN@github.com/$DOCSIFY_REPO.git main
+        
   
       - name: Commit and Push Updates
         run: |
