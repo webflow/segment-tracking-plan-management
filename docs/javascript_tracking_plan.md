@@ -8,7 +8,7 @@
 
 #### **Description**
 
-Advisory SE Roundtable Meeeting 20
+Advisory SE Roundtable Meeeting 150
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -36,7 +36,7 @@ analytics.track("Advisory SE Roundtable", {
 
 #### **Description**
 
-Aubrey's Event 100
+Aubrey's Event 1000
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
