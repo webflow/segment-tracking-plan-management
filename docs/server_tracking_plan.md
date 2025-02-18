@@ -160,7 +160,7 @@ Obj Prop 2
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single object property | ✅ |
+| **object** | `object` | this is a single object | ✅ |
 | **object.int** | `number` | this is an optional sub-property in an object hey hey | ❌ |
 | **object.strings** | `string` | this is a required sub-property in an object here | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
