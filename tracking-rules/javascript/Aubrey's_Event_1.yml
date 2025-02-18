@@ -1,7 +1,7 @@
 rules:
   - key: Aubrey's Event 1
     type: TRACK
-    description: Aubrey's Event 100
+    description: Aubrey's Event 1000
     version: 1
     labels:
       feature: journeys
