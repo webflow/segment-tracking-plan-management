@@ -168,31 +168,13 @@ on:
       - 'tracking-rules/server/**.yml'
 
 jobs:
-  initialize-matrix:
+  update-and-commit:
     runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.parse_json.outputs.matrix }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
-      - name: Load Tracking Plans Configuration
-        id: parse_json
-        run: |
-          MATRIX=$(jq -c '[.plans[] | {name, path, secret: .prod_secret}]' config/tracking-plans-config.json)
-          echo "::set-output name=matrix::$MATRIX"
-
-  update-and-generate-markdown:
-    needs: initialize-matrix
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        tracking_plan: ${{ fromJson(needs.initialize-matrix.outputs.matrix) }}
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1  # Fetch only the latest commit
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -202,42 +184,41 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Pull latest changes
-        run: git pull origin main
+      - name: Load Tracking Plans Configuration
+        id: parse_json
+        run: |
+          MATRIX=$(jq -c '[.plans[] | {name, path, secret: .prod_secret}]' config/tracking-plans-config.json)
+          echo "Tracking Plans to Process: $MATRIX"
+          echo "::set-output name=matrix::$MATRIX"
 
-      - name: Update Tracking Plan
+      - name: Process Tracking Plans Sequentially
         env:
           SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
-          SEGMENT_TRACKING_PLAN_ID: ${{ secrets[matrix.tracking_plan.secret] }}
-          PLAN_DIR: tracking-rules/${{ matrix.tracking_plan.path }}
         run: |
-          echo "Updating tracking plan for ${{ matrix.tracking_plan.name }}"
-          node scripts/update-tracking-plan.js || echo "No changes detected"
+          MATRIX='${{ steps.parse_json.outputs.matrix }}'
+          echo "Processing tracking plans..."
 
-      - name: Save Tracking Plan
-        env:
-          SEGMENT_API_KEY: ${{ secrets.SEGMENT_PUBLIC_API_TOKEN }}
-          SEGMENT_TRACKING_PLAN_ID: ${{ secrets[matrix.tracking_plan.secret] }}
-          PLAN_DIR: plans/prod/${{ matrix.tracking_plan.path }}
-        run: |
-          echo "Saving tracking plan for ${{ matrix.tracking_plan.name }}"
-          node scripts/save-tracking-plan.js || echo "No changes detected"
+          echo "$MATRIX" | jq -c '.[]' | while read plan; do
+            NAME=$(echo "$plan" | jq -r '.name')
+            PATH=$(echo "$plan" | jq -r '.path')
+            SECRET_KEY=$(echo "$plan" | jq -r '.secret')
 
-      - name: Generate Markdown
-        run: |
-          echo "Generating markdown for ${{ matrix.tracking_plan.name }}"
-          node scripts/render-tp.js "${{ matrix.tracking_plan.name }} Tracking Plan" "plans/prod/${{ matrix.tracking_plan.path }}/current-rules.json" "docs/${{ matrix.tracking_plan.path }}_tracking_plan.md" || echo "No changes detected"
+            echo "📌 Updating tracking plan: $NAME"
 
-  commit-and-push:
-    needs: update-and-generate-markdown
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Ensures full history for rebasing
+            export SEGMENT_TRACKING_PLAN_ID="${{ secrets[$SECRET_KEY] }}"
+            export PLAN_DIR="tracking-rules/$PATH"
 
-      - name: Commit and Push Changes
+            # Run update scripts
+            node scripts/update-tracking-plan.js || echo "No changes detected for $NAME"
+            node scripts/save-tracking-plan.js || echo "No changes detected for $NAME"
+
+            # Generate Markdown
+            node scripts/render-tp.js "$NAME Tracking Plan" "plans/prod/$PATH/current-rules.json" "docs/${PATH}_tracking_plan.md" || echo "No changes detected for $NAME"
+
+            echo "✅ Finished processing $NAME"
+          done
+
+      - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -245,6 +226,5 @@ jobs:
           git add plans/prod/ docs/
           git commit -m "Updated tracking plans and generated markdown [skip ci]" || echo "No changes to commit"
 
-          # Ensure latest updates before pushing
           git pull --rebase --autostash origin main
           git push origin main
