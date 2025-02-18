@@ -155,12 +155,12 @@ analytics.track("Obj Prop 15", {
 
 #### **Description**
 
-Obj Prop 2
+Obj Prop
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **object** | `object` | this is a single object | ✅ |
+| **object** | `object` | this is a single object des  here | ✅ |
 | **object.int** | `number` | this is an optional sub-property in an object hey hey | ❌ |
 | **object.strings** | `string` | this is a required sub-property in an object here | ❌ |
 | **object2** | `object` | this is a single property | ❌ |
