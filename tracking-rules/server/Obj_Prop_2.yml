@@ -7,7 +7,7 @@ rules:
       feature: journeys
     properties:
       object:
-        description: this is a single object property
+        description: this is a single object 
         properties:
           int:
             description: this is an optional sub-property in an object hey hey
