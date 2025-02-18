@@ -8,7 +8,7 @@
 
 #### **Description**
 
-Advisory SE Roundtable Meeeting 150
+Advisory SE Roundtab
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
