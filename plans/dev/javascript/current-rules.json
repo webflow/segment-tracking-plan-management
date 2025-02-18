@@ -54,7 +54,7 @@
         "labels": {
           "feature": "journeys"
         },
-        "description": "Aubrey's Event 100",
+        "description": "Aubrey's Event 1000",
         "properties": {
           "context": {
             "type": "object"
@@ -80,7 +80,7 @@
         ]
       },
       "createdAt": "2024-09-06T17:05:15.000Z",
-      "updatedAt": "2025-02-14T21:04:53.000Z",
+      "updatedAt": "2025-02-18T22:35:19.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
