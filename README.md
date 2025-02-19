@@ -44,14 +44,14 @@ This project requires **GitHub repository secrets** for authentication with the 
 #### Example
 
 This repository manages **two tracking plans**:  
-✅ JavaScript  
-✅ Server  
+✅ Webflow  
+✅ Designer 
 
 So, it requires **5 GitHub Secrets**:  
 
 - **1** API token (`SEGMENT_PUBLIC_API_TOKEN`)  
-- **2** JavaScript tracking plan IDs (Dev & Prod)  
-- **2** Server tracking plan IDs (Dev & Prod)  
+- **2** Webflow tracking plan IDs (Dev & Prod)  
+- **2** Designer tracking plan IDs (Dev & Prod)  
 
 ---
 
@@ -68,7 +68,7 @@ So, it requires **5 GitHub Secrets**:
 
 🔹 **Trigger**:  
 
-- Pushing changes to `tracking-rules/javascript/**.yml` or `tracking-rules/server/**.yml` on a **new branch**  
+- Pushing changes to `tracking-rules/webflow/**.yml` or `tracking-rules/designer/**.yml` on a **new branch**  
 - This triggers the **Dev workflow** (`Update Development Tracking Plans`)
 
 🔹 **What Happens?**  
