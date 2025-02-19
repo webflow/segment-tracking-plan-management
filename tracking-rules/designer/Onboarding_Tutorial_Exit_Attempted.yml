@@ -1,0 +1,13 @@
+rules:
+  - key: Onboarding Tutorial Exit Attempted
+    type: TRACK
+    description: Onboarding Tutorial Exit Attempted
+    version: 1
+    labels: {}
+    properties:
+      onboarding flow:
+        type:
+          - string
+      step name:
+        type:
+          - string

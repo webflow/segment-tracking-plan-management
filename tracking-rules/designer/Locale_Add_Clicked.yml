@@ -1,0 +1,13 @@
+rules:
+  - key: Locale Add Clicked
+    type: TRACK
+    description: Locale Add Clicked
+    version: 1
+    labels: {}
+    properties:
+      locale type:
+        type:
+          - string
+      type:
+        type:
+          - string

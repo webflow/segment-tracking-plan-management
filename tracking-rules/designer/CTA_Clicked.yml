@@ -1,0 +1,76 @@
+rules:
+  - key: CTA Clicked
+    type: TRACK
+    description: CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      button CTA:
+        type:
+          - string
+      button action and type:
+        type:
+          - string
+      location:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      page section:
+        type:
+          - string
+      page step:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      position on page:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      scroll:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      sso:
+        type:
+          - boolean
+      surface area:
+        type:
+          - string
+      target:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

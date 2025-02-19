@@ -1,0 +1,12 @@
+rules:
+  - key: Eleventh Event
+    type: TRACK
+    description: Eleventh Event
+    version: 1
+    labels:
+      feature: journeys
+    properties:
+      prop2:
+        description: this is a single property
+        required: false
+        type: string

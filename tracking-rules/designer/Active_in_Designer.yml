@@ -1,0 +1,8 @@
+rules:
+  - key: Active in Designer
+    type: TRACK
+    description: Active in Designer
+    version: 1
+    labels: {}
+    properties:
+      minutes: {}

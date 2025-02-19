@@ -1,0 +1,16 @@
+rules:
+  - key: App full details opened
+    type: TRACK
+    description: App full details opened
+    version: 1
+    labels: {}
+    properties:
+      id:
+        type:
+          - string
+      name:
+        type:
+          - string
+      slug:
+        type:
+          - string

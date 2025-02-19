@@ -1,0 +1,7 @@
+rules:
+  - key: Align Tag Clicked
+    type: TRACK
+    description: Align Tag Clicked
+    version: 1
+    labels: {}
+    properties: {}

@@ -1,0 +1,37 @@
+rules:
+  - key: AI Help CTA Clicked
+    type: TRACK
+    description: AI Help CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      cta action:
+        type:
+          - string
+      cta id:
+        type:
+          - string
+      cta name:
+        type:
+          - string
+      interaction id:
+        type:
+          - string
+      key area:
+        type:
+          - string
+      page:
+        type:
+          - string
+      page id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      surface area:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

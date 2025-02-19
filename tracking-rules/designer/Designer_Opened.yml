@@ -1,0 +1,356 @@
+rules:
+  - key: Designer Opened
+    type: TRACK
+    description: Designer Opened
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      CSVReferenceSupport:
+        type:
+          - boolean
+      active tutorials:
+        type:
+          - array
+      activityLog:
+        type:
+          - boolean
+      allowCustomSiteHeader:
+        type:
+          - boolean
+      annotations:
+        type:
+          - boolean
+      assetManagerImprovements:
+        type:
+          - boolean
+      atOurBreakingPointEasterEgg:
+        type:
+          - boolean
+      audit:
+        type:
+          - boolean
+      auditCorruptedCheckout:
+        type:
+          - boolean
+      auditLazyImage:
+        type:
+          - boolean
+      backdropFilters:
+        type:
+          - boolean
+      betaception:
+        type:
+          - boolean
+      cannotPublish:
+        type:
+          - boolean
+      cms item count:
+        type:
+          - integer
+      cmsNext:
+        type:
+          - boolean
+      cmsTNG:
+        type:
+          - boolean
+      collection count:
+        type:
+          - integer
+      colorFiltersA11y:
+        type:
+          - boolean
+      contentMode:
+        type:
+          - boolean
+      contentOverrides:
+        type:
+          - boolean
+      cssOutline:
+        type:
+          - boolean
+      customClassInRichText:
+        type:
+          - boolean
+      dccLimit:
+        type:
+          - boolean
+      design mode:
+        type:
+          - string
+      designerSubdomain:
+        type:
+          - boolean
+      disableBlockers:
+        type:
+          - boolean
+      dl:
+        type:
+          - boolean
+      dynamoQueryBuilderExpressions:
+        type:
+          - boolean
+      ecDesignerOrders:
+        type:
+          - boolean
+      ecDigitalDownloads:
+        type:
+          - boolean
+      ecEverythingMustGo:
+        type:
+          - boolean
+      ecProductTypes:
+        type:
+          - boolean
+      ecReactor:
+        type:
+          - boolean
+      ecShipStation:
+        type:
+          - boolean
+      ecShippingIntegrations:
+        type:
+          - boolean
+      ecSignMeUp:
+        type:
+          - boolean
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      elementConversion:
+        type:
+          - boolean
+      enableShowcaseCollections:
+        type:
+          - boolean
+      enterprise billing:
+        type:
+          - boolean
+      enterpriseCustomSslCert:
+        type:
+          - boolean
+      enterpriseMarketingIntegrations:
+        type:
+          - boolean
+      expressionEditor:
+        type:
+          - boolean
+      figma:
+        type:
+          - boolean
+      fileUpload:
+        type:
+          - boolean
+      gatewayBindings:
+        type:
+          - boolean
+      is reload:
+        type:
+          - boolean
+      isolatedSymbolEditMode:
+        type:
+          - boolean
+      ix2Refresh:
+        type:
+          - boolean
+      kitchenSink:
+        type:
+          - boolean
+      lab:
+        type:
+          - boolean
+      largerBreakpoints:
+        type:
+          - boolean
+      largerBreakpointsDev:
+        type:
+          - boolean
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      linkUpload:
+        type:
+          - boolean
+      logicFlows:
+        type:
+          - boolean
+      mode:
+        type:
+          - string
+      multiLanguageSupport:
+        type:
+          - boolean
+      multiPlayerPoliteHandover2:
+        type:
+          - boolean
+      multiplayerLiveSync:
+        type:
+          - boolean
+      multiplayerPresence:
+        type:
+          - boolean
+      nestedSymbols:
+        type:
+          - boolean
+      nextGenPanels:
+        type:
+          - boolean
+      nextSymbolPanel:
+        type:
+          - boolean
+      num designer-teammates:
+        type:
+          - integer
+      num editor-teammates:
+        type:
+          - integer
+      num self-instances:
+        type:
+          - integer
+      num total instances:
+        type:
+          - integer
+      nux:
+        type:
+          - boolean
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId: {}
+      peek:
+        type:
+          - boolean
+      plan type:
+        type:
+          - string
+      planId: {}
+      pointerLock:
+        type:
+          - boolean
+      politeHandover:
+        type:
+          - boolean
+      prebuiltLayouts:
+        type:
+          - boolean
+      profileSettings:
+        type:
+          - boolean
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      rolesNWorkspaces:
+        type:
+          - boolean
+      rssUrl:
+        type:
+          - boolean
+      scheduledCmsPublishing:
+        type:
+          - boolean
+      seat count:
+        type:
+          - integer
+      shortName: {}
+      showcaseSearch:
+        type:
+          - boolean
+      showcaseTags:
+        type:
+          - boolean
+      simpleNestedCollectionLists:
+        type:
+          - boolean
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId: {}
+      siteSubscriptionPlan:
+        type:
+          - string
+      source:
+        type:
+          - string
+      spBackgroundClip:
+        type:
+          - boolean
+      standaloneSymbolEditMode:
+        type:
+          - boolean
+      styles count:
+        type:
+          - integer
+      team id: {}
+      templateGeneration:
+        type:
+          - boolean
+      testSiteBeta:
+        type:
+          - boolean
+      testTeamBeta:
+        type:
+          - boolean
+      testUserBeta:
+        type:
+          - boolean
+      topGraphQL:
+        type:
+          - boolean
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      universityChecklist:
+        type:
+          - boolean
+      unusedAssets:
+        type:
+          - boolean
+      useNewBillingSystem:
+        type:
+          - boolean
+      usePricingNext:
+        type:
+          - boolean
+      userSessions:
+        type:
+          - boolean
+      userSystems:
+        type:
+          - boolean
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

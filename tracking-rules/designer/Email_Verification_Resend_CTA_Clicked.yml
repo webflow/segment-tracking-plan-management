@@ -1,0 +1,7 @@
+rules:
+  - key: Email Verification Resend CTA Clicked
+    type: TRACK
+    description: Email Verification Resend CTA Clicked
+    version: 1
+    labels: {}
+    properties: {}

@@ -1,0 +1,7 @@
+rules:
+  - key: Designer Locales List Element Tooltip Upgrade Link Clicked
+    type: TRACK
+    description: Designer Locales List Element Tooltip Upgrade Link Clicked
+    version: 1
+    labels: {}
+    properties: {}

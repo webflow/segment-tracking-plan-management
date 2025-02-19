@@ -1,0 +1,10 @@
+rules:
+  - key: Apps search input loses focus
+    type: TRACK
+    description: Apps search input loses focus
+    version: 1
+    labels: {}
+    properties:
+      searchString:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: Add-ons CTA Clicked
+    type: TRACK
+    description: Add-ons CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      button action and type:
+        type:
+          - string
+      button cta:
+        type:
+          - string
+      source:
+        type:
+          - string

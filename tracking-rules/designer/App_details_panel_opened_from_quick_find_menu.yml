@@ -1,0 +1,13 @@
+rules:
+  - key: App details panel opened from quick find menu
+    type: TRACK
+    description: App details panel opened from quick find menu
+    version: 1
+    labels: {}
+    properties:
+      id:
+        type:
+          - string
+      name:
+        type:
+          - string

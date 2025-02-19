@@ -1,0 +1,10 @@
+rules:
+  - key: Quick Add Modal Opened
+    type: TRACK
+    description: Quick Add Modal Opened
+    version: 1
+    labels: {}
+    properties:
+      source:
+        type:
+          - string

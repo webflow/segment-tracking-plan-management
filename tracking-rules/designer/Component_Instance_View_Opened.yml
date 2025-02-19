@@ -1,0 +1,10 @@
+rules:
+  - key: Component Instance View Opened
+    type: TRACK
+    description: Component Instance View Opened
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string

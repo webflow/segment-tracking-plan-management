@@ -1,0 +1,104 @@
+rules:
+  - key: Project Previewed
+    type: TRACK
+    description: Project Previewed
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        items:
+          type: string
+        type: array
+      breakpoint:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      collection count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        items:
+          type: string
+        type: array
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id: {}
+      pageId:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      planId:
+        type:
+          - string
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      seat count:
+        type:
+          - integer
+      shortName:
+        type:
+          - string
+      site id: {}
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteSubscriptionPlan:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

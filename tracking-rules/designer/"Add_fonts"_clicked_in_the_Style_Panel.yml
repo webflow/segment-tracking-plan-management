@@ -1,0 +1,7 @@
+rules:
+  - key: '"Add fonts" clicked in the Style Panel'
+    type: TRACK
+    description: '"Add fonts" clicked in the Style Panel'
+    version: 1
+    labels: {}
+    properties: {}

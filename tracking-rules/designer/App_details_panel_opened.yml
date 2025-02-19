@@ -1,0 +1,13 @@
+rules:
+  - key: App details panel opened
+    type: TRACK
+    description: App details panel opened
+    version: 1
+    labels: {}
+    properties:
+      installed:
+        type:
+          - boolean
+      searchString:
+        type:
+          - string

@@ -1,0 +1,111 @@
+rules:
+  - key: Ecommerce Enable Modal Viewed
+    type: TRACK
+    description: Ecommerce Enable Modal Viewed
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        items:
+          type: string
+        type: array
+      cms item count:
+        type:
+          - integer
+      collection count:
+        type:
+          - integer
+      ec_conflicts_cms_names:
+        items:
+          type: string
+        type: array
+      ec_conflicts_cms_slugs:
+        items:
+          type: string
+        type: array
+      ec_conflicts_folder_slugs:
+        items:
+          type: string
+        type: array
+      ec_conflicts_page_slugs:
+        items:
+          type: string
+        type: array
+      ec_conflicts_total: {}
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId: {}
+      plan type:
+        type:
+          - string
+      planId: {}
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      seat count:
+        type:
+          - integer
+      shortName: {}
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId: {}
+      siteSubscriptionPlan: {}
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

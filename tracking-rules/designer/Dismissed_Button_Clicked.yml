@@ -1,0 +1,10 @@
+rules:
+  - key: Dismissed Button Clicked
+    type: TRACK
+    description: Dismissed Button Clicked
+    version: 1
+    labels: {}
+    properties:
+      type:
+        type:
+          - string

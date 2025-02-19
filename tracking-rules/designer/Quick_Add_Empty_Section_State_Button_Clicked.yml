@@ -1,0 +1,10 @@
+rules:
+  - key: Quick Add Empty Section State Button Clicked
+    type: TRACK
+    description: Quick Add Empty Section State Button Clicked
+    version: 1
+    labels: {}
+    properties:
+      buttonLabel:
+        type:
+          - string

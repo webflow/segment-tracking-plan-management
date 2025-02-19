@@ -1,0 +1,19 @@
+rules:
+  - key: Quick Stack Updated
+    type: TRACK
+    description: Quick Stack Updated
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      layout:
+        type:
+          - string
+      source:
+        type:
+          - string
+      trackCount:
+        type:
+          - integer

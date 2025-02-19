@@ -1,0 +1,41 @@
+rules:
+  - key: Pricing CTA Clicked
+    type: TRACK
+    description: Pricing CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      cta action:
+        type:
+          - string
+      entitlement id:
+        type:
+          - string
+      entitlement scope:
+        items:
+          type: string
+        type: array
+      page:
+        type:
+          - string
+      paywall name:
+        type:
+          - string
+      paywall trigger name:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      surface area:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string

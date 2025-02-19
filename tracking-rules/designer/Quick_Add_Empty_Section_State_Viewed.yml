@@ -1,0 +1,13 @@
+rules:
+  - key: Quick Add Empty Section State Viewed
+    type: TRACK
+    description: Quick Add Empty Section State Viewed
+    version: 1
+    labels: {}
+    properties:
+      isGhost:
+        type:
+          - boolean
+      section:
+        type:
+          - string
