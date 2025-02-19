@@ -36,17 +36,17 @@ analytics.track("Advisory SE Roundtable", {
 
 #### **Description**
 
-Aubrey's Event 1000
+Aubrey's Event 1
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **prop22** | `string` | this is a single property | ✅ |
+| **first_name** | `string` | this is the first name | ✅ |
 #### **JS**
 
 ```javascript
 analytics.track("Aubrey's Event 1", {
-  "prop22": "<<type: string, required: true>>"
+  "first_name": "<<type: string, required: true>>"
 })
 ```
 
