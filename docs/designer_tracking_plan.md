@@ -14555,3 +14555,3750 @@ analytics.track("Switch to Design Mode Clicked", {
 <!-- tabs:end -->
 
 <!-- panels:end -->
+
+
+## Switch to Edit Mode Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Switch to Edit Mode Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **__cpLocation** | `string` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **nested symbol** | `boolean` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **symbol name** | `string` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Created", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "__cpLocation": "<<type: string, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "nested symbol": "<<type: boolean, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "symbol name": "<<type: string, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Deleted", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Bound
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS binding** | `boolean` | No description | ❌ |
+| **CMS collection id** | `string` | No description | ❌ |
+| **CMS collection name** | `string` | No description | ❌ |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **bound to parent** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Bound", {
+  "CMS binding": "<<type: boolean, required: false>>",
+  "CMS collection id": "<<type: string, required: false>>",
+  "CMS collection name": "<<type: string, required: false>>",
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "bound to parent": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **bound to parent** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **nested symbol** | `boolean` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Created", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "bound to parent": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "nested symbol": "<<type: boolean, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **bound** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Deleted", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "bound": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Override Applied
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **bound to parent** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **visibility value** | `string` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Override Applied", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "bound to parent": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "visibility value": "<<type: string, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Override Reset
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **action** | `string` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **bound to parent** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Override Reset", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "action": "<<type: string, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "bound to parent": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Unbound
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **bound to parent** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Unbound", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "bound to parent": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Field Updated
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **new type** | `string` | No description | ❌ |
+| **old type** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **property** | `string` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Field Updated", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "new type": "<<type: string, required: false>>",
+  "old type": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "property": "<<type: string, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Symbol Unlinked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Symbol Unlinked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Tooltip Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **__cpLocation** | `string` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **page section** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **position on page** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **section** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **surface area** | `string` | No description | ❌ |
+| **target** | `string` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **triggered by** | `string` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Tooltip Opened", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "__cpLocation": "<<type: string, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "page section": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "position on page": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "section": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "surface area": "<<type: string, required: false>>",
+  "target": "<<type: string, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "triggered by": "<<type: string, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Try it Button Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Try it Button Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Tutorial Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **__cpLocation** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **tutorial id** | `string` | No description | ❌ |
+| **tutorial index** | `integer` | No description | ❌ |
+| **tutorial name** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Tutorial Link Clicked", {
+  "__cpLocation": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "tutorial id": "<<type: string, required: false>>",
+  "tutorial index": "<<type: integer, required: false>>",
+  "tutorial name": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Tutorial Section Dismissed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **__cpLocation** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **section type** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Tutorial Section Dismissed", {
+  "__cpLocation": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "section type": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Tutorial Section Minimized
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **__cpLocation** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **section type** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Tutorial Section Minimized", {
+  "__cpLocation": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "section type": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Tutorial Section Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **__cpLocation** | `string` | No description | ❌ |
+| **isReopened** | `boolean` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **section type** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Tutorial Section Viewed", {
+  "__cpLocation": "<<type: string, required: false>>",
+  "isReopened": "<<type: boolean, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "section type": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Undo triggered
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Undo triggered", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## University Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **trigger** | `string` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("University Link Clicked", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "trigger": "<<type: string, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## University Video Modal Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **trigger** | `string` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("University Video Modal Opened", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "trigger": "<<type: string, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Users Panel Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **panel name** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Users Panel Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "panel name": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Access Group User Added
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **access group** | `object` | No description | ❌ |
+| **access group._id** | `string` | No description | ❌ |
+| **access group.access** | `object` | No description | ❌ |
+| **access group.access.account** | `object` | No description | ❌ |
+| **access group.access.account.enabled** | `boolean` | No description | ❌ |
+| **access group.access.commerce** | `object` | No description | ❌ |
+| **access group.access.commerce.products** | `array` | No description | ❌ |
+| **access group.createdOn** | `string` | No description | ❌ |
+| **access group.gatedContent** | `object` | No description | ❌ |
+| **access group.gatedContent.pages** | `array` | No description | ❌ |
+| **access group.name** | `string` | No description | ❌ |
+| **access group.shortId** | `string` | No description | ❌ |
+| **access group.slug** | `string` | No description | ❌ |
+| **access group.updatedOn** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **user** | `object` | No description | ❌ |
+| **user.groupAccess** | `object` | No description | ❌ |
+| **user.groupAccess.admin** | `array` | No description | ❌ |
+| **user.groupAccess.commerce** | `array` | No description | ❌ |
+| **user.status** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Access Group User Added", {
+  "access group": {
+    "_id": "<<type: string, required: false>>",
+    "access": {
+      "account": {
+        "enabled": "<<type: boolean, required: false>>"
+      },
+      "commerce": {
+        "products": "<<type: array, required: false>>"
+      }
+    },
+    "createdOn": "<<type: string, required: false>>",
+    "gatedContent": {
+      "pages": "<<type: array, required: false>>"
+    },
+    "name": "<<type: string, required: false>>",
+    "shortId": "<<type: string, required: false>>",
+    "slug": "<<type: string, required: false>>",
+    "updatedOn": "<<type: string, required: false>>"
+  },
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "user": {
+    "groupAccess": {
+      "admin": "<<type: array, required: false>>",
+      "commerce": "<<type: array, required: false>>"
+    },
+    "status": "<<type: string, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Access Group User Removed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **access group** | `object` | No description | ❌ |
+| **access group._id** | `string` | No description | ❌ |
+| **access group.access** | `object` | No description | ❌ |
+| **access group.access.account** | `object` | No description | ❌ |
+| **access group.access.account.enabled** | `boolean` | No description | ❌ |
+| **access group.access.commerce** | `object` | No description | ❌ |
+| **access group.access.commerce.products** | `array` | No description | ❌ |
+| **access group.createdOn** | `string` | No description | ❌ |
+| **access group.gatedContent** | `object` | No description | ❌ |
+| **access group.gatedContent.pages** | `array` | No description | ❌ |
+| **access group.name** | `string` | No description | ❌ |
+| **access group.shortId** | `string` | No description | ❌ |
+| **access group.slug** | `string` | No description | ❌ |
+| **access group.updatedOn** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **user** | `object` | No description | ❌ |
+| **user.groupAccess** | `object` | No description | ❌ |
+| **user.groupAccess.admin** | `array` | No description | ❌ |
+| **user.groupAccess.commerce** | `array` | No description | ❌ |
+| **user.status** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Access Group User Removed", {
+  "access group": {
+    "_id": "<<type: string, required: false>>",
+    "access": {
+      "account": {
+        "enabled": "<<type: boolean, required: false>>"
+      },
+      "commerce": {
+        "products": "<<type: array, required: false>>"
+      }
+    },
+    "createdOn": "<<type: string, required: false>>",
+    "gatedContent": {
+      "pages": "<<type: array, required: false>>"
+    },
+    "name": "<<type: string, required: false>>",
+    "shortId": "<<type: string, required: false>>",
+    "slug": "<<type: string, required: false>>",
+    "updatedOn": "<<type: string, required: false>>"
+  },
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "user": {
+    "groupAccess": {
+      "admin": "<<type: array, required: false>>",
+      "commerce": "<<type: array, required: false>>"
+    },
+    "status": "<<type: string, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Group Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **group** | `object` | No description | ❌ |
+| **group._id** | `string` | No description | ❌ |
+| **group.access** | `object` | No description | ❌ |
+| **group.access.account** | `object` | No description | ❌ |
+| **group.access.account.enabled** | `boolean` | No description | ❌ |
+| **group.access.commerce** | `object` | No description | ❌ |
+| **group.access.commerce.products** | `array` | No description | ❌ |
+| **group.createdOn** | `string` | No description | ❌ |
+| **group.gatedContent** | `object` | No description | ❌ |
+| **group.gatedContent.pages** | `array` | No description | ❌ |
+| **group.name** | `string` | No description | ❌ |
+| **group.shortId** | `string` | No description | ❌ |
+| **group.slug** | `string` | No description | ❌ |
+| **group.updatedOn** | `string` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Group Created", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "group": {
+    "_id": "<<type: string, required: false>>",
+    "access": {
+      "account": {
+        "enabled": "<<type: boolean, required: false>>"
+      },
+      "commerce": {
+        "products": "<<type: array, required: false>>"
+      }
+    },
+    "createdOn": "<<type: string, required: false>>",
+    "gatedContent": {
+      "pages": "<<type: array, required: false>>"
+    },
+    "name": "<<type: string, required: false>>",
+    "shortId": "<<type: string, required: false>>",
+    "slug": "<<type: string, required: false>>",
+    "updatedOn": "<<type: string, required: false>>"
+  },
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Group Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **deletedCount** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Group Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "deletedCount": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Group Limit Exceeded
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Group Limit Exceeded", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Group Paid Connected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **product** | `array` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Group Paid Connected", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "product": "<<type: array, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Group Paid Disconnected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **product** | `array` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Group Paid Disconnected", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "product": "<<type: array, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Group Updated
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Group Updated", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Membership Product Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **item** | `object` | No description | ❌ |
+| **item.__altered** | `boolean` | No description | ❌ |
+| **item.__hash** | `number` | No description | ❌ |
+| **item._archived** | `boolean` | No description | ❌ |
+| **item._cid** | `string` | No description | ❌ |
+| **item._draft** | `boolean` | No description | ❌ |
+| **item._id** | `string` | No description | ❌ |
+| **item._root** | `object` | No description | ❌ |
+| **item._root.bitmap** | `number` | No description | ❌ |
+| **item._root.count** | `integer` | No description | ❌ |
+| **item._root.nodes** | `array` | No description | ❌ |
+| **item._root.ownerID** | `object` | No description | ❌ |
+| **item.additional-info** | `array` | No description | ❌ |
+| **item.additional-info.items** | `object` | Contains the structure for array items | ❌ |
+| **item.additional-info.items._id** | `string` | No description | ❌ |
+| **item.additional-info.items.children** | `array` | No description | ❌ |
+| **item.additional-info.items.classes** | `array` | No description | ❌ |
+| **item.additional-info.items.tag** | `string` | No description | ❌ |
+| **item.additional-info.items.text** | `boolean` | No description | ❌ |
+| **item.additional-info.items.type** | `string` | No description | ❌ |
+| **item.additional-info.items.v** | `string` | No description | ❌ |
+| **item.alt-product-type** | `string` | No description | ❌ |
+| **item.best-seller** | `boolean` | No description | ❌ |
+| **item.brand** | `string` | No description | ❌ |
+| **item.categories** | `string` | No description | ❌ |
+| **item.category** | `array` | No description | ❌ |
+| **item.change-direction-before-loop** | `boolean` | No description | ❌ |
+| **item.color** | `string` | No description | ❌ |
+| **item.contains-ribbon** | `boolean` | No description | ❌ |
+| **item.course-about** | `array` | No description | ❌ |
+| **item.course-about.items** | `object` | Contains the structure for array items | ❌ |
+| **item.course-about.items._id** | `string` | No description | ❌ |
+| **item.course-about.items.children** | `array` | No description | ❌ |
+| **item.course-about.items.classes** | `array` | No description | ❌ |
+| **item.course-about.items.tag** | `string` | No description | ❌ |
+| **item.course-about.items.text** | `boolean` | No description | ❌ |
+| **item.course-about.items.type** | `string` | No description | ❌ |
+| **item.course-about.items.v** | `string` | No description | ❌ |
+| **item.course-content-column-1** | `array` | No description | ❌ |
+| **item.course-content-column-1.items** | `object` | Contains the structure for array items | ❌ |
+| **item.course-content-column-1.items._id** | `string` | No description | ❌ |
+| **item.course-content-column-1.items.children** | `array` | No description | ❌ |
+| **item.course-content-column-1.items.classes** | `array` | No description | ❌ |
+| **item.course-content-column-1.items.data** | `object` | No description | ❌ |
+| **item.course-content-column-1.items.tag** | `string` | No description | ❌ |
+| **item.course-content-column-1.items.text** | `boolean` | No description | ❌ |
+| **item.course-content-column-1.items.type** | `string` | No description | ❌ |
+| **item.course-content-column-1.items.v** | `string` | No description | ❌ |
+| **item.course-content-column-2** | `array` | No description | ❌ |
+| **item.course-content-column-2.items** | `object` | Contains the structure for array items | ❌ |
+| **item.course-content-column-2.items._id** | `string` | No description | ❌ |
+| **item.course-content-column-2.items.children** | `array` | No description | ❌ |
+| **item.course-content-column-2.items.classes** | `array` | No description | ❌ |
+| **item.course-content-column-2.items.data** | `object` | No description | ❌ |
+| **item.course-content-column-2.items.tag** | `string` | No description | ❌ |
+| **item.course-content-column-2.items.text** | `boolean` | No description | ❌ |
+| **item.course-content-column-2.items.type** | `string` | No description | ❌ |
+| **item.course-content-column-2.items.v** | `string` | No description | ❌ |
+| **item.course-downloadable-files** | `integer` | No description | ❌ |
+| **item.course-featured** | `boolean` | No description | ❌ |
+| **item.course-lenght** | `string` | No description | ❌ |
+| **item.course-teacher** | `string` | No description | ❌ |
+| **item.couse-introductory-video** | `object` | No description | ❌ |
+| **item.couse-introductory-video.@@__IMMUTABLE_ITERABLE__@@** | `boolean` | No description | ❌ |
+| **item.couse-introductory-video.@@__IMMUTABLE_KEYED__@@** | `boolean` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues** | `object` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.aspectRatio** | `integer` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.author_name** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.description** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.height** | `integer` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.html** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.provider_name** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.thumbnail_url** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.title** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.type** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.url** | `unknown` | No description | ❌ |
+| **item.couse-introductory-video._defaultValues.width** | `integer` | No description | ❌ |
+| **item.couse-introductory-video._keys** | `array` | No description | ❌ |
+| **item.couse-introductory-video._map** | `object` | No description | ❌ |
+| **item.couse-introductory-video._map.aspectRatio** | `integer` | No description | ❌ |
+| **item.couse-introductory-video._map.height** | `integer` | No description | ❌ |
+| **item.couse-introductory-video._map.url** | `string` | No description | ❌ |
+| **item.couse-introductory-video._map.width** | `integer` | No description | ❌ |
+| **item.couse-introductory-video._name** | `string` | No description | ❌ |
+| **item.couse-introductory-video.size** | `integer` | No description | ❌ |
+| **item.cover-image** | `object` | No description | ❌ |
+| **item.cover-image.@@__IMMUTABLE_ITERABLE__@@** | `boolean` | No description | ❌ |
+| **item.cover-image.@@__IMMUTABLE_KEYED__@@** | `boolean` | No description | ❌ |
+| **item.cover-image._defaultValues** | `object` | No description | ❌ |
+| **item.cover-image._defaultValues.alt** | `unknown` | No description | ❌ |
+| **item.cover-image._defaultValues.file** | `unknown` | No description | ❌ |
+| **item.cover-image._defaultValues.fileId** | `string` | No description | ❌ |
+| **item.cover-image._defaultValues.fileSize** | `integer` | No description | ❌ |
+| **item.cover-image._defaultValues.tmp** | `unknown` | No description | ❌ |
+| **item.cover-image._defaultValues.url** | `string` | No description | ❌ |
+| **item.cover-image._keys** | `array` | No description | ❌ |
+| **item.cover-image._map** | `object` | No description | ❌ |
+| **item.cover-image._map.alt** | `unknown` | No description | ❌ |
+| **item.cover-image._map.file** | `object` | No description | ❌ |
+| **item.cover-image._map.fileId** | `string` | No description | ❌ |
+| **item.cover-image._map.fileSize** | `integer` | No description | ❌ |
+| **item.cover-image._map.url** | `string` | No description | ❌ |
+| **item.cover-image._name** | `string` | No description | ❌ |
+| **item.cover-image.size** | `integer` | No description | ❌ |
+| **item.created-by** | `string` | No description | ❌ |
+| **item.created-on** | `string` | No description | ❌ |
+| **item.credit-about** | `array` | No description | ❌ |
+| **item.credit-about.items** | `object` | Contains the structure for array items | ❌ |
+| **item.credit-about.items._id** | `string` | No description | ❌ |
+| **item.credit-about.items.children** | `array` | No description | ❌ |
+| **item.credit-about.items.classes** | `array` | No description | ❌ |
+| **item.credit-about.items.data** | `object` | No description | ❌ |
+| **item.credit-about.items.tag** | `string` | No description | ❌ |
+| **item.credit-about.items.text** | `boolean` | No description | ❌ |
+| **item.credit-about.items.type** | `string` | No description | ❌ |
+| **item.credit-about.items.v** | `string` | No description | ❌ |
+| **item.credit-about-summary-card** | `string` | No description | ❌ |
+| **item.credit-about-summary-page** | `string` | No description | ❌ |
+| **item.credit-excerpt-card** | `string` | No description | ❌ |
+| **item.credit-popular** | `boolean` | No description | ❌ |
+| **item.credit-short-description-page** | `string` | No description | ❌ |
+| **item.date** | `string` | No description | ❌ |
+| **item.default-sku** | `string` | No description | ❌ |
+| **item.description** | `string` | No description | ❌ |
+| **item.descriptions** | `array` | No description | ❌ |
+| **item.descriptions.items** | `object` | Contains the structure for array items | ❌ |
+| **item.descriptions.items._id** | `string` | No description | ❌ |
+| **item.descriptions.items.children** | `array` | No description | ❌ |
+| **item.descriptions.items.classes** | `array` | No description | ❌ |
+| **item.descriptions.items.tag** | `string` | No description | ❌ |
+| **item.descriptions.items.text** | `boolean` | No description | ❌ |
+| **item.descriptions.items.type** | `string` | No description | ❌ |
+| **item.descriptions.items.v** | `string` | No description | ❌ |
+| **item.details** | `string` | No description | ❌ |
+| **item.ec-product-type** | `string` | No description | ❌ |
+| **item.featured** | `boolean` | No description | ❌ |
+| **item.featured-print** | `boolean` | No description | ❌ |
+| **item.featured-template** | `boolean` | No description | ❌ |
+| **item.full-description** | `array` | No description | ❌ |
+| **item.full-description.items** | `object` | Contains the structure for array items | ❌ |
+| **item.full-description.items._id** | `string` | No description | ❌ |
+| **item.full-description.items.children** | `array` | No description | ❌ |
+| **item.full-description.items.classes** | `array` | No description | ❌ |
+| **item.full-description.items.data** | `object` | No description | ❌ |
+| **item.full-description.items.text** | `boolean` | No description | ❌ |
+| **item.full-description.items.type** | `string` | No description | ❌ |
+| **item.full-description.items.v** | `string` | No description | ❌ |
+| **item.hosting** | `boolean` | No description | ❌ |
+| **item.i-want-lottie-do-not-loop** | `boolean` | No description | ❌ |
+| **item.icon** | `string` | No description | ❌ |
+| **item.is-a-zome** | `boolean` | No description | ❌ |
+| **item.is-featured** | `boolean` | No description | ❌ |
+| **item.level** | `string` | No description | ❌ |
+| **item.liked** | `integer` | No description | ❌ |
+| **item.limited-time-option** | `boolean` | No description | ❌ |
+| **item.link-1** | `string` | No description | ❌ |
+| **item.link-to-page** | `string` | No description | ❌ |
+| **item.most-popular** | `boolean` | No description | ❌ |
+| **item.name** | `string` | No description | ❌ |
+| **item.new-product** | `boolean` | No description | ❌ |
+| **item.on-sale** | `boolean` | No description | ❌ |
+| **item.order-rank** | `integer` | No description | ❌ |
+| **item.package-popular** | `boolean` | No description | ❌ |
+| **item.pattern** | `string` | No description | ❌ |
+| **item.plan-description** | `array` | No description | ❌ |
+| **item.plan-description.items** | `object` | Contains the structure for array items | ❌ |
+| **item.plan-description.items._id** | `string` | No description | ❌ |
+| **item.plan-description.items.children** | `array` | No description | ❌ |
+| **item.plan-description.items.classes** | `array` | No description | ❌ |
+| **item.plan-description.items.tag** | `string` | No description | ❌ |
+| **item.plan-description.items.text** | `boolean` | No description | ❌ |
+| **item.plan-description.items.type** | `string` | No description | ❌ |
+| **item.plan-description.items.v** | `string` | No description | ❌ |
+| **item.plan-description-excerpt** | `string` | No description | ❌ |
+| **item.plan-description-page-excerpt** | `string` | No description | ❌ |
+| **item.plan-feature-1** | `string` | No description | ❌ |
+| **item.plan-feature-2** | `string` | No description | ❌ |
+| **item.plan-feature-3** | `string` | No description | ❌ |
+| **item.plan-feature-4** | `string` | No description | ❌ |
+| **item.platform** | `array` | No description | ❌ |
+| **item.popular** | `boolean` | No description | ❌ |
+| **item.product-category** | `string` | No description | ❌ |
+| **item.product-description** | `array` | No description | ❌ |
+| **item.product-description.items** | `object` | Contains the structure for array items | ❌ |
+| **item.product-description.items._id** | `string` | No description | ❌ |
+| **item.product-description.items.children** | `array` | No description | ❌ |
+| **item.product-description.items.classes** | `array` | No description | ❌ |
+| **item.product-description.items.data** | `object` | No description | ❌ |
+| **item.product-description.items.tag** | `string` | No description | ❌ |
+| **item.product-description.items.text** | `boolean` | No description | ❌ |
+| **item.product-description.items.type** | `string` | No description | ❌ |
+| **item.product-description.items.v** | `string` | No description | ❌ |
+| **item.product-display-price-per-month** | `string` | No description | ❌ |
+| **item.product-display-price-per-year** | `string` | No description | ❌ |
+| **item.product-excerpt** | `string` | No description | ❌ |
+| **item.product-is-popular** | `boolean` | No description | ❌ |
+| **item.product-item-id** | `string` | No description | ❌ |
+| **item.product-price-display-card-grid** | `integer` | No description | ❌ |
+| **item.product-short-description** | `string` | No description | ❌ |
+| **item.product-short-description-page** | `string` | No description | ❌ |
+| **item.product-summary** | `array` | No description | ❌ |
+| **item.product-summary.items** | `object` | Contains the structure for array items | ❌ |
+| **item.product-summary.items._id** | `string` | No description | ❌ |
+| **item.product-summary.items.children** | `array` | No description | ❌ |
+| **item.product-summary.items.classes** | `array` | No description | ❌ |
+| **item.product-summary.items.data** | `object` | No description | ❌ |
+| **item.product-summary.items.tag** | `string` | No description | ❌ |
+| **item.product-summary.items.text** | `boolean` | No description | ❌ |
+| **item.product-summary.items.type** | `string` | No description | ❌ |
+| **item.product-summary.items.v** | `string` | No description | ❌ |
+| **item.product-video-2-2** | `string` | No description | ❌ |
+| **item.published-by** | `unknown` | No description | ❌ |
+| **item.published-on** | `unknown` | No description | ❌ |
+| **item.qty** | `string` | No description | ❌ |
+| **item.review-1** | `string` | No description | ❌ |
+| **item.review-2** | `string` | No description | ❌ |
+| **item.review-3** | `string` | No description | ❌ |
+| **item.review-name-1** | `string` | No description | ❌ |
+| **item.review-name-2** | `string` | No description | ❌ |
+| **item.review-name-3** | `string` | No description | ❌ |
+| **item.satiated** | `boolean` | No description | ❌ |
+| **item.shippable** | `boolean` | No description | ❌ |
+| **item.shipping** | `array` | No description | ❌ |
+| **item.shipping.items** | `object` | Contains the structure for array items | ❌ |
+| **item.shipping.items._id** | `string` | No description | ❌ |
+| **item.shipping.items.tag** | `string` | No description | ❌ |
+| **item.shipping.items.text** | `boolean` | No description | ❌ |
+| **item.shipping.items.type** | `string` | No description | ❌ |
+| **item.signup-button** | `boolean` | No description | ❌ |
+| **item.size** | `integer` | No description | ❌ |
+| **item.sku-properties** | `array` | No description | ❌ |
+| **item.sku-properties.items** | `object` | Contains the structure for array items | ❌ |
+| **item.sku-properties.items.enum** | `array` | No description | ❌ |
+| **item.sku-properties.items.id** | `string` | No description | ❌ |
+| **item.sku-properties.items.name** | `string` | No description | ❌ |
+| **item.slug** | `string` | No description | ❌ |
+| **item.status** | `string` | No description | ❌ |
+| **item.submit-product-form** | `boolean` | No description | ❌ |
+| **item.tax-category** | `string` | No description | ❌ |
+| **item.this-product-has-options** | `boolean` | No description | ❌ |
+| **item.updated-by** | `string` | No description | ❌ |
+| **item.updated-on** | `string` | No description | ❌ |
+| **item.vendor** | `string` | No description | ❌ |
+| **item.video-course** | `boolean` | No description | ❌ |
+| **item.video-link** | `object` | No description | ❌ |
+| **item.video-link.@@__IMMUTABLE_ITERABLE__@@** | `boolean` | No description | ❌ |
+| **item.video-link.@@__IMMUTABLE_KEYED__@@** | `boolean` | No description | ❌ |
+| **item.video-link.__hash** | `number` | No description | ❌ |
+| **item.video-link._defaultValues** | `object` | No description | ❌ |
+| **item.video-link._defaultValues.aspectRatio** | `integer` | No description | ❌ |
+| **item.video-link._defaultValues.author_name** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.description** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.height** | `integer` | No description | ❌ |
+| **item.video-link._defaultValues.html** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.provider_name** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.thumbnail_url** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.title** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.type** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.url** | `unknown` | No description | ❌ |
+| **item.video-link._defaultValues.width** | `integer` | No description | ❌ |
+| **item.video-link._keys** | `array` | No description | ❌ |
+| **item.video-link._map** | `object` | No description | ❌ |
+| **item.video-link._map.aspectRatio** | `integer` | No description | ❌ |
+| **item.video-link._map.author_name** | `string` | No description | ❌ |
+| **item.video-link._map.height** | `integer` | No description | ❌ |
+| **item.video-link._map.html** | `string` | No description | ❌ |
+| **item.video-link._map.provider_name** | `string` | No description | ❌ |
+| **item.video-link._map.thumbnail_url** | `string` | No description | ❌ |
+| **item.video-link._map.title** | `string` | No description | ❌ |
+| **item.video-link._map.type** | `string` | No description | ❌ |
+| **item.video-link._map.url** | `string` | No description | ❌ |
+| **item.video-link._map.width** | `integer` | No description | ❌ |
+| **item.video-link._name** | `string` | No description | ❌ |
+| **item.video-link.size** | `integer` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Membership Product Created", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "item": {
+    "__altered": "<<type: boolean, required: false>>",
+    "__hash": "<<type: number, required: false>>",
+    "_archived": "<<type: boolean, required: false>>",
+    "_cid": "<<type: string, required: false>>",
+    "_draft": "<<type: boolean, required: false>>",
+    "_id": "<<type: string, required: false>>",
+    "_root": {
+      "bitmap": "<<type: number, required: false>>",
+      "count": "<<type: integer, required: false>>",
+      "nodes": "<<type: array, required: false>>",
+      "ownerID": "<<type: object, required: false>>"
+    },
+    "additional-info": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "alt-product-type": "<<type: string, required: false>>",
+    "best-seller": "<<type: boolean, required: false>>",
+    "brand": "<<type: string, required: false>>",
+    "categories": "<<type: string, required: false>>",
+    "category": "<<type: array, required: false>>",
+    "change-direction-before-loop": "<<type: boolean, required: false>>",
+    "color": "<<type: string, required: false>>",
+    "contains-ribbon": "<<type: boolean, required: false>>",
+    "course-about": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "course-content-column-1": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "course-content-column-2": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "course-downloadable-files": "<<type: integer, required: false>>",
+    "course-featured": "<<type: boolean, required: false>>",
+    "course-lenght": "<<type: string, required: false>>",
+    "course-teacher": "<<type: string, required: false>>",
+    "couse-introductory-video": {
+      "@@__IMMUTABLE_ITERABLE__@@": "<<type: boolean, required: false>>",
+      "@@__IMMUTABLE_KEYED__@@": "<<type: boolean, required: false>>",
+      "_defaultValues": {
+        "aspectRatio": "<<type: integer, required: false>>",
+        "author_name": "<<type: unknown, required: false>>",
+        "description": "<<type: unknown, required: false>>",
+        "height": "<<type: integer, required: false>>",
+        "html": "<<type: unknown, required: false>>",
+        "provider_name": "<<type: unknown, required: false>>",
+        "thumbnail_url": "<<type: unknown, required: false>>",
+        "title": "<<type: unknown, required: false>>",
+        "type": "<<type: unknown, required: false>>",
+        "url": "<<type: unknown, required: false>>",
+        "width": "<<type: integer, required: false>>"
+      },
+      "_keys": "<<type: array, required: false>>",
+      "_map": {
+        "aspectRatio": "<<type: integer, required: false>>",
+        "height": "<<type: integer, required: false>>",
+        "url": "<<type: string, required: false>>",
+        "width": "<<type: integer, required: false>>"
+      },
+      "_name": "<<type: string, required: false>>",
+      "size": "<<type: integer, required: false>>"
+    },
+    "cover-image": {
+      "@@__IMMUTABLE_ITERABLE__@@": "<<type: boolean, required: false>>",
+      "@@__IMMUTABLE_KEYED__@@": "<<type: boolean, required: false>>",
+      "_defaultValues": {
+        "alt": "<<type: unknown, required: false>>",
+        "file": "<<type: unknown, required: false>>",
+        "fileId": "<<type: string, required: false>>",
+        "fileSize": "<<type: integer, required: false>>",
+        "tmp": "<<type: unknown, required: false>>",
+        "url": "<<type: string, required: false>>"
+      },
+      "_keys": "<<type: array, required: false>>",
+      "_map": {
+        "alt": "<<type: unknown, required: false>>",
+        "file": "<<type: object, required: false>>",
+        "fileId": "<<type: string, required: false>>",
+        "fileSize": "<<type: integer, required: false>>",
+        "url": "<<type: string, required: false>>"
+      },
+      "_name": "<<type: string, required: false>>",
+      "size": "<<type: integer, required: false>>"
+    },
+    "created-by": "<<type: string, required: false>>",
+    "created-on": "<<type: string, required: false>>",
+    "credit-about": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "credit-about-summary-card": "<<type: string, required: false>>",
+    "credit-about-summary-page": "<<type: string, required: false>>",
+    "credit-excerpt-card": "<<type: string, required: false>>",
+    "credit-popular": "<<type: boolean, required: false>>",
+    "credit-short-description-page": "<<type: string, required: false>>",
+    "date": "<<type: string, required: false>>",
+    "default-sku": "<<type: string, required: false>>",
+    "description": "<<type: string, required: false>>",
+    "descriptions": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "details": "<<type: string, required: false>>",
+    "ec-product-type": "<<type: string, required: false>>",
+    "featured": "<<type: boolean, required: false>>",
+    "featured-print": "<<type: boolean, required: false>>",
+    "featured-template": "<<type: boolean, required: false>>",
+    "full-description": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "hosting": "<<type: boolean, required: false>>",
+    "i-want-lottie-do-not-loop": "<<type: boolean, required: false>>",
+    "icon": "<<type: string, required: false>>",
+    "is-a-zome": "<<type: boolean, required: false>>",
+    "is-featured": "<<type: boolean, required: false>>",
+    "level": "<<type: string, required: false>>",
+    "liked": "<<type: integer, required: false>>",
+    "limited-time-option": "<<type: boolean, required: false>>",
+    "link-1": "<<type: string, required: false>>",
+    "link-to-page": "<<type: string, required: false>>",
+    "most-popular": "<<type: boolean, required: false>>",
+    "name": "<<type: string, required: false>>",
+    "new-product": "<<type: boolean, required: false>>",
+    "on-sale": "<<type: boolean, required: false>>",
+    "order-rank": "<<type: integer, required: false>>",
+    "package-popular": "<<type: boolean, required: false>>",
+    "pattern": "<<type: string, required: false>>",
+    "plan-description": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "plan-description-excerpt": "<<type: string, required: false>>",
+    "plan-description-page-excerpt": "<<type: string, required: false>>",
+    "plan-feature-1": "<<type: string, required: false>>",
+    "plan-feature-2": "<<type: string, required: false>>",
+    "plan-feature-3": "<<type: string, required: false>>",
+    "plan-feature-4": "<<type: string, required: false>>",
+    "platform": "<<type: array, required: false>>",
+    "popular": "<<type: boolean, required: false>>",
+    "product-category": "<<type: string, required: false>>",
+    "product-description": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "product-display-price-per-month": "<<type: string, required: false>>",
+    "product-display-price-per-year": "<<type: string, required: false>>",
+    "product-excerpt": "<<type: string, required: false>>",
+    "product-is-popular": "<<type: boolean, required: false>>",
+    "product-item-id": "<<type: string, required: false>>",
+    "product-price-display-card-grid": "<<type: integer, required: false>>",
+    "product-short-description": "<<type: string, required: false>>",
+    "product-short-description-page": "<<type: string, required: false>>",
+    "product-summary": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "children": "<<type: array, required: false>>",
+        "classes": "<<type: array, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "v": "<<type: string, required: false>>"
+      }
+    ],
+    "product-video-2-2": "<<type: string, required: false>>",
+    "published-by": "<<type: unknown, required: false>>",
+    "published-on": "<<type: unknown, required: false>>",
+    "qty": "<<type: string, required: false>>",
+    "review-1": "<<type: string, required: false>>",
+    "review-2": "<<type: string, required: false>>",
+    "review-3": "<<type: string, required: false>>",
+    "review-name-1": "<<type: string, required: false>>",
+    "review-name-2": "<<type: string, required: false>>",
+    "review-name-3": "<<type: string, required: false>>",
+    "satiated": "<<type: boolean, required: false>>",
+    "shippable": "<<type: boolean, required: false>>",
+    "shipping": [
+      {
+        "_id": "<<type: string, required: false>>",
+        "tag": "<<type: string, required: false>>",
+        "text": "<<type: boolean, required: false>>",
+        "type": "<<type: string, required: false>>"
+      }
+    ],
+    "signup-button": "<<type: boolean, required: false>>",
+    "size": "<<type: integer, required: false>>",
+    "sku-properties": [
+      {
+        "enum": "<<type: array, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>"
+      }
+    ],
+    "slug": "<<type: string, required: false>>",
+    "status": "<<type: string, required: false>>",
+    "submit-product-form": "<<type: boolean, required: false>>",
+    "tax-category": "<<type: string, required: false>>",
+    "this-product-has-options": "<<type: boolean, required: false>>",
+    "updated-by": "<<type: string, required: false>>",
+    "updated-on": "<<type: string, required: false>>",
+    "vendor": "<<type: string, required: false>>",
+    "video-course": "<<type: boolean, required: false>>",
+    "video-link": {
+      "@@__IMMUTABLE_ITERABLE__@@": "<<type: boolean, required: false>>",
+      "@@__IMMUTABLE_KEYED__@@": "<<type: boolean, required: false>>",
+      "__hash": "<<type: number, required: false>>",
+      "_defaultValues": {
+        "aspectRatio": "<<type: integer, required: false>>",
+        "author_name": "<<type: unknown, required: false>>",
+        "description": "<<type: unknown, required: false>>",
+        "height": "<<type: integer, required: false>>",
+        "html": "<<type: unknown, required: false>>",
+        "provider_name": "<<type: unknown, required: false>>",
+        "thumbnail_url": "<<type: unknown, required: false>>",
+        "title": "<<type: unknown, required: false>>",
+        "type": "<<type: unknown, required: false>>",
+        "url": "<<type: unknown, required: false>>",
+        "width": "<<type: integer, required: false>>"
+      },
+      "_keys": "<<type: array, required: false>>",
+      "_map": {
+        "aspectRatio": "<<type: integer, required: false>>",
+        "author_name": "<<type: string, required: false>>",
+        "height": "<<type: integer, required: false>>",
+        "html": "<<type: string, required: false>>",
+        "provider_name": "<<type: string, required: false>>",
+        "thumbnail_url": "<<type: string, required: false>>",
+        "title": "<<type: string, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "url": "<<type: string, required: false>>",
+        "width": "<<type: integer, required: false>>"
+      },
+      "_name": "<<type: string, required: false>>",
+      "size": "<<type: integer, required: false>>"
+    }
+  },
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys User Invited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **group** | `array` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys User Invited", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "group": "<<type: array, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Usys Warning Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **reason** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Usys Warning Viewed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "reason": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Bound
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **bind_action** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **style_bind_target** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.origin** | `object` | No description | ❌ |
+| **value.origin.rule** | `object` | No description | ❌ |
+| **value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **value.origin.rule.tokens** | `array` | No description | ❌ |
+| **value.origin.type** | `string` | No description | ❌ |
+| **value.type** | `string` | No description | ❌ |
+| **value.value** | `object` | No description | ❌ |
+| **value.value.unit** | `string` | No description | ❌ |
+| **value.value.value** | `integer` | No description | ❌ |
+| **value.value.variableId** | `string` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Bound", {
+  "active tutorials": "<<type: string, required: false>>",
+  "bind_action": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "style_bind_target": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "var_id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.origin** | `object` | No description | ❌ |
+| **value.origin.rule** | `object` | No description | ❌ |
+| **value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **value.origin.rule.tokens** | `array` | No description | ❌ |
+| **value.origin.type** | `string` | No description | ❌ |
+| **value.type** | `string` | No description | ❌ |
+| **value.value** | `object` | No description | ❌ |
+| **value.value.unit** | `string` | No description | ❌ |
+| **value.value.value** | `number` | No description | ❌ |
+| **value.value.variableId** | `string` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Created", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: number, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "var_id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.origin** | `object` | No description | ❌ |
+| **value.origin.rule** | `object` | No description | ❌ |
+| **value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **value.origin.rule.tokens** | `array` | No description | ❌ |
+| **value.origin.type** | `string` | No description | ❌ |
+| **value.type** | `string` | No description | ❌ |
+| **value.value** | `object` | No description | ❌ |
+| **value.value.unit** | `string` | No description | ❌ |
+| **value.value.value** | `integer` | No description | ❌ |
+| **value.value.variableId** | `string` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "var_id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **new_name** | `string` | No description | ❌ |
+| **new_type** | `string` | No description | ❌ |
+| **new_value** | `object` | No description | ❌ |
+| **new_value.origin** | `object` | No description | ❌ |
+| **new_value.origin.rule** | `object` | No description | ❌ |
+| **new_value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **new_value.origin.rule.tokens** | `array` | No description | ❌ |
+| **new_value.origin.type** | `string` | No description | ❌ |
+| **new_value.type** | `string` | No description | ❌ |
+| **new_value.value** | `object` | No description | ❌ |
+| **new_value.value.unit** | `string` | No description | ❌ |
+| **new_value.value.value** | `integer` | No description | ❌ |
+| **new_value.value.variableId** | `string` | No description | ❌ |
+| **orig_name** | `string` | No description | ❌ |
+| **orig_type** | `string` | No description | ❌ |
+| **orig_value** | `object` | No description | ❌ |
+| **orig_value.origin** | `object` | No description | ❌ |
+| **orig_value.origin.rule** | `object` | No description | ❌ |
+| **orig_value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **orig_value.origin.rule.tokens** | `array` | No description | ❌ |
+| **orig_value.origin.type** | `string` | No description | ❌ |
+| **orig_value.type** | `string` | No description | ❌ |
+| **orig_value.value** | `object` | No description | ❌ |
+| **orig_value.value.unit** | `string` | No description | ❌ |
+| **orig_value.value.value** | `integer` | No description | ❌ |
+| **orig_value.value.variableId** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Edited", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "new_name": "<<type: string, required: false>>",
+  "new_type": "<<type: string, required: false>>",
+  "new_value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "orig_name": "<<type: string, required: false>>",
+  "orig_type": "<<type: string, required: false>>",
+  "orig_value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "var_id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variables Panel Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **__cpLocation** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variables Panel Opened", {
+  "__cpLocation": "<<type: string, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Video Tutorials Panel Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **checklistType** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **from** | `string` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Video Tutorials Panel Viewed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "checklistType": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "from": "<<type: string, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Video Tutorials Player Resized
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **playerWidth** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Video Tutorials Player Resized", {
+  "playerWidth": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Video tutorial played
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **videoTutorial** | `string` | No description | ❌ |
+| **videoTutorialTitle** | `string` | No description | ❌ |
+| **videoTutorialTriggeredFrom** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Video tutorial played", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "videoTutorial": "<<type: string, required: false>>",
+  "videoTutorialTitle": "<<type: string, required: false>>",
+  "videoTutorialTriggeredFrom": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Video tutorial selected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **enterprise billing** | `boolean` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **orgId** | `unknown` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **pageId** | `unknown` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **planId** | `unknown` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **shortName** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **siteId** | `unknown` | No description | ❌ |
+| **siteSubscriptionPlan** | `unknown` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **videoTutorial** | `unknown` | No description | ❌ |
+| **videoTutorialTitle** | `string` | No description | ❌ |
+| **videoTutorialTriggeredFrom** | `string` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Video tutorial selected", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "enterprise billing": "<<type: boolean, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "orgId": "<<type: unknown, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "pageId": "<<type: unknown, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "planId": "<<type: unknown, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "shortName": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "siteId": "<<type: unknown, required: false>>",
+  "siteSubscriptionPlan": "<<type: unknown, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "videoTutorial": "<<type: unknown, required: false>>",
+  "videoTutorialTitle": "<<type: string, required: false>>",
+  "videoTutorialTriggeredFrom": "<<type: string, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Visit preview link
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `array` | No description | ❌ |
+| **orgId** | `unknown` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `unknown` | No description | ❌ |
+| **pageId** | `unknown` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **planId** | `unknown` | No description | ❌ |
+| **previewType** | `unknown` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **shortName** | `unknown` | No description | ❌ |
+| **site id** | `unknown` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `unknown` | No description | ❌ |
+| **siteId** | `unknown` | No description | ❌ |
+| **siteSubscriptionPlan** | `unknown` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Visit preview link", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: array, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: array, required: false>>",
+  "orgId": "<<type: unknown, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: unknown, required: false>>",
+  "pageId": "<<type: unknown, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "planId": "<<type: unknown, required: false>>",
+  "previewType": "<<type: unknown, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "shortName": "<<type: unknown, required: false>>",
+  "site id": "<<type: unknown, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: unknown, required: false>>",
+  "siteId": "<<type: unknown, required: false>>",
+  "siteSubscriptionPlan": "<<type: unknown, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->

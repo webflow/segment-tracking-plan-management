@@ -27157,6 +27157,7214 @@
       "createdAt": "2024-06-26T21:34:16.000Z",
       "updatedAt": "2024-06-26T21:34:16.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Switch to Edit Mode Clicked",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Created",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "active tutorials": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "nested symbol": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "symbol name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Deleted",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Bound",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS binding": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "CMS collection id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "CMS collection name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "bound to parent": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Created",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "bound to parent": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "nested symbol": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Deleted",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "bound": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Override Applied",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "bound to parent": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "visibility value": {
+                "type": [
+                  "string"
+                ]
+              },
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Override Reset",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "action": {
+                "type": [
+                  "string"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "bound to parent": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Unbound",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "bound to parent": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Field Updated",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "new type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "old type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "property": {
+                "type": [
+                  "string"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Symbol Unlinked",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Tooltip Opened",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page section": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "position on page": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "section": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "source": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "surface area": {
+                "type": [
+                  "string"
+                ]
+              },
+              "target": {
+                "type": [
+                  "string"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "triggered by": {
+                "type": [
+                  "string"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Try it Button Clicked",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object"
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Tutorial Link Clicked",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "tutorial id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "tutorial index": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial name": {
+                "type": [
+                  "string"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Tutorial Section Dismissed",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "section type": {
+                "type": [
+                  "string"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Tutorial Section Minimized",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "section type": {
+                "type": [
+                  "string"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Tutorial Section Viewed",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "isReopened": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "section type": {
+                "type": [
+                  "string"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Undo triggered",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "source": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "University Link Clicked",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "trigger": {
+                "type": [
+                  "string"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "University Video Modal Opened",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "trigger": {
+                "type": [
+                  "string"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Users Panel Opened",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "panel name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Access Group User Added",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "access group": {
+                "properties": {
+                  "_id": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "access": {
+                    "properties": {
+                      "account": {
+                        "properties": {
+                          "enabled": {
+                            "type": [
+                              "boolean"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "commerce": {
+                        "properties": {
+                          "products": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "createdOn": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "gatedContent": {
+                    "properties": {
+                      "pages": {
+                        "items": {
+                          "type": "object"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "name": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "shortId": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "slug": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "updatedOn": {
+                    "type": [
+                      "string"
+                    ]
+                  }
+                },
+                "type": "object"
+              },
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "user": {
+                "properties": {
+                  "groupAccess": {
+                    "properties": {
+                      "admin": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "commerce": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "status": {
+                    "type": [
+                      "string"
+                    ]
+                  }
+                },
+                "type": "object"
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Access Group User Removed",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "access group": {
+                "properties": {
+                  "_id": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "access": {
+                    "properties": {
+                      "account": {
+                        "properties": {
+                          "enabled": {
+                            "type": [
+                              "boolean"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "commerce": {
+                        "properties": {
+                          "products": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "createdOn": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "gatedContent": {
+                    "properties": {
+                      "pages": {
+                        "items": {
+                          "type": "object"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "name": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "shortId": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "slug": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "updatedOn": {
+                    "type": [
+                      "string"
+                    ]
+                  }
+                },
+                "type": "object"
+              },
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "user": {
+                "properties": {
+                  "groupAccess": {
+                    "properties": {
+                      "admin": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "commerce": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "status": {
+                    "type": [
+                      "string"
+                    ]
+                  }
+                },
+                "type": "object"
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Group Created",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "group": {
+                "properties": {
+                  "_id": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "access": {
+                    "properties": {
+                      "account": {
+                        "properties": {
+                          "enabled": {
+                            "type": [
+                              "boolean"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "commerce": {
+                        "properties": {
+                          "products": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "createdOn": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "gatedContent": {
+                    "properties": {
+                      "pages": {
+                        "items": {
+                          "type": "object"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "name": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "shortId": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "slug": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "updatedOn": {
+                    "type": [
+                      "string"
+                    ]
+                  }
+                },
+                "type": "object"
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Group Deleted",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "deletedCount": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Group Limit Exceeded",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Group Paid Connected",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "product": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Group Paid Disconnected",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "product": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Group Updated",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Membership Product Created",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "item": {
+                "properties": {
+                  "__altered": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "__hash": {
+                    "type": [
+                      "number"
+                    ]
+                  },
+                  "_archived": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "_cid": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "_draft": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "_id": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "_root": {
+                    "properties": {
+                      "bitmap": {
+                        "type": [
+                          "number"
+                        ]
+                      },
+                      "count": {
+                        "type": [
+                          "integer"
+                        ]
+                      },
+                      "nodes": {
+                        "items": {
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "ownerID": {
+                        "type": [
+                          "object"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "additional-info": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "alt-product-type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "best-seller": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "brand": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "categories": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "category": {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "change-direction-before-loop": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "color": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "contains-ribbon": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "course-about": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "course-content-column-1": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "data": {
+                          "type": [
+                            "object"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "course-content-column-2": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "data": {
+                          "type": [
+                            "object"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "course-downloadable-files": {
+                    "type": [
+                      "integer"
+                    ]
+                  },
+                  "course-featured": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "course-lenght": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "course-teacher": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "couse-introductory-video": {
+                    "properties": {
+                      "@@__IMMUTABLE_ITERABLE__@@": {
+                        "type": [
+                          "boolean"
+                        ]
+                      },
+                      "@@__IMMUTABLE_KEYED__@@": {
+                        "type": [
+                          "boolean"
+                        ]
+                      },
+                      "_defaultValues": {
+                        "properties": {
+                          "aspectRatio": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "author_name": {},
+                          "description": {},
+                          "height": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "html": {},
+                          "provider_name": {},
+                          "thumbnail_url": {},
+                          "title": {},
+                          "type": {},
+                          "url": {},
+                          "width": {
+                            "type": [
+                              "integer"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "_keys": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "_map": {
+                        "properties": {
+                          "aspectRatio": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "height": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "url": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "width": {
+                            "type": [
+                              "integer"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "_name": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "size": {
+                        "type": [
+                          "integer"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "cover-image": {
+                    "properties": {
+                      "@@__IMMUTABLE_ITERABLE__@@": {
+                        "type": [
+                          "boolean"
+                        ]
+                      },
+                      "@@__IMMUTABLE_KEYED__@@": {
+                        "type": [
+                          "boolean"
+                        ]
+                      },
+                      "_defaultValues": {
+                        "properties": {
+                          "alt": {},
+                          "file": {},
+                          "fileId": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "fileSize": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "tmp": {},
+                          "url": {
+                            "type": [
+                              "string"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "_keys": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "_map": {
+                        "properties": {
+                          "alt": {},
+                          "file": {
+                            "type": [
+                              "object"
+                            ]
+                          },
+                          "fileId": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "fileSize": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "url": {
+                            "type": [
+                              "string"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "_name": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "size": {
+                        "type": [
+                          "integer"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "created-by": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "created-on": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "credit-about": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "data": {
+                          "type": [
+                            "object"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "credit-about-summary-card": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "credit-about-summary-page": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "credit-excerpt-card": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "credit-popular": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "credit-short-description-page": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "date": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "default-sku": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "description": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "descriptions": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "details": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "ec-product-type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "featured": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "featured-print": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "featured-template": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "full-description": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "data": {
+                          "type": [
+                            "object"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "hosting": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "i-want-lottie-do-not-loop": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "icon": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "is-a-zome": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "is-featured": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "level": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "liked": {
+                    "type": [
+                      "integer"
+                    ]
+                  },
+                  "limited-time-option": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "link-1": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "link-to-page": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "most-popular": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "name": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "new-product": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "on-sale": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "order-rank": {
+                    "type": [
+                      "integer"
+                    ]
+                  },
+                  "package-popular": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "pattern": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "plan-description": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "plan-description-excerpt": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "plan-description-page-excerpt": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "plan-feature-1": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "plan-feature-2": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "plan-feature-3": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "plan-feature-4": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "platform": {
+                    "items": {
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "popular": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "product-category": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-description": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "data": {
+                          "type": [
+                            "object"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "product-display-price-per-month": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-display-price-per-year": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-excerpt": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-is-popular": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "product-item-id": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-price-display-card-grid": {
+                    "type": [
+                      "integer"
+                    ]
+                  },
+                  "product-short-description": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-short-description-page": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "product-summary": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "children": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "classes": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "data": {
+                          "type": [
+                            "object"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "v": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "product-video-2-2": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "published-by": {},
+                  "published-on": {},
+                  "qty": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "review-1": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "review-2": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "review-3": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "review-name-1": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "review-name-2": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "review-name-3": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "satiated": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "shippable": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "shipping": {
+                    "items": {
+                      "properties": {
+                        "_id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "tag": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "text": {
+                          "type": [
+                            "boolean"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "signup-button": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "size": {
+                    "type": [
+                      "integer"
+                    ]
+                  },
+                  "sku-properties": {
+                    "items": {
+                      "properties": {
+                        "enum": {
+                          "type": [
+                            "array"
+                          ]
+                        },
+                        "id": {
+                          "type": [
+                            "string"
+                          ]
+                        },
+                        "name": {
+                          "type": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "type": "array"
+                  },
+                  "slug": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "status": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "submit-product-form": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "tax-category": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "this-product-has-options": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "updated-by": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "updated-on": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "vendor": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "video-course": {
+                    "type": [
+                      "boolean"
+                    ]
+                  },
+                  "video-link": {
+                    "properties": {
+                      "@@__IMMUTABLE_ITERABLE__@@": {
+                        "type": [
+                          "boolean"
+                        ]
+                      },
+                      "@@__IMMUTABLE_KEYED__@@": {
+                        "type": [
+                          "boolean"
+                        ]
+                      },
+                      "__hash": {
+                        "type": [
+                          "number"
+                        ]
+                      },
+                      "_defaultValues": {
+                        "properties": {
+                          "aspectRatio": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "author_name": {},
+                          "description": {},
+                          "height": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "html": {},
+                          "provider_name": {},
+                          "thumbnail_url": {},
+                          "title": {},
+                          "type": {},
+                          "url": {},
+                          "width": {
+                            "type": [
+                              "integer"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "_keys": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "_map": {
+                        "properties": {
+                          "aspectRatio": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "author_name": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "height": {
+                            "type": [
+                              "integer"
+                            ]
+                          },
+                          "html": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "provider_name": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "thumbnail_url": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "title": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "type": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "url": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "width": {
+                            "type": [
+                              "integer"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "_name": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "size": {
+                        "type": [
+                          "integer"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys User Invited",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "group": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Usys Warning Viewed",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "reason": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Variable Bound",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "bind_action": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "style_bind_target": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "value": {
+                "properties": {
+                  "origin": {
+                    "properties": {
+                      "rule": {
+                        "properties": {
+                          "mediaQueryKey": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "tokens": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "value": {
+                    "properties": {
+                      "unit": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "integer"
+                        ]
+                      },
+                      "variableId": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              },
+              "var_id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Variable Created",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "value": {
+                "properties": {
+                  "origin": {
+                    "properties": {
+                      "rule": {
+                        "properties": {
+                          "mediaQueryKey": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "tokens": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "value": {
+                    "properties": {
+                      "unit": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "number"
+                        ]
+                      },
+                      "variableId": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              },
+              "var_id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Variable Deleted",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "value": {
+                "properties": {
+                  "origin": {
+                    "properties": {
+                      "rule": {
+                        "properties": {
+                          "mediaQueryKey": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "tokens": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "value": {
+                    "properties": {
+                      "unit": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "integer"
+                        ]
+                      },
+                      "variableId": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              },
+              "var_id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Variable Edited",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "new_name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "new_type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "new_value": {
+                "properties": {
+                  "origin": {
+                    "properties": {
+                      "rule": {
+                        "properties": {
+                          "mediaQueryKey": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "tokens": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "value": {
+                    "properties": {
+                      "unit": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "integer"
+                        ]
+                      },
+                      "variableId": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              },
+              "orig_name": {
+                "type": [
+                  "string"
+                ]
+              },
+              "orig_type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "orig_value": {
+                "properties": {
+                  "origin": {
+                    "properties": {
+                      "rule": {
+                        "properties": {
+                          "mediaQueryKey": {
+                            "type": [
+                              "string"
+                            ]
+                          },
+                          "tokens": {
+                            "type": [
+                              "array"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": {
+                    "type": [
+                      "string"
+                    ]
+                  },
+                  "value": {
+                    "properties": {
+                      "unit": {
+                        "type": [
+                          "string"
+                        ]
+                      },
+                      "value": {
+                        "type": [
+                          "integer"
+                        ]
+                      },
+                      "variableId": {
+                        "type": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "type": "object"
+                  }
+                },
+                "type": "object"
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "var_id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Variables Panel Opened",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "__cpLocation": {
+                "type": [
+                  "string"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "location": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Video Tutorials Panel Viewed",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "checklistType": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "from": {
+                "type": [
+                  "string"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Video Tutorials Player Resized",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "playerWidth": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Video tutorial played",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "active tutorials": {
+                "type": [
+                  "string"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "videoTutorial": {
+                "type": [
+                  "string"
+                ]
+              },
+              "videoTutorialTitle": {
+                "type": [
+                  "string"
+                ]
+              },
+              "videoTutorialTriggeredFrom": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Video tutorial selected",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "enterprise billing": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "legacy seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "legacy team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "mode": {
+                "type": [
+                  "string"
+                ]
+              },
+              "orgId": {},
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "pageId": {},
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "planId": {},
+              "project count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "seat count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "shortName": {},
+              "site id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {
+                "type": [
+                  "string"
+                ]
+              },
+              "siteId": {},
+              "siteSubscriptionPlan": {},
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {},
+              "videoTutorial": {},
+              "videoTutorialTitle": {
+                "type": [
+                  "string"
+                ]
+              },
+              "videoTutorialTriggeredFrom": {
+                "type": [
+                  "string"
+                ]
+              },
+              "wf session id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace id": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace is enterprise": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "workspace plan": {
+                "type": [
+                  "string"
+                ]
+              },
+              "workspace seat count": {
+                "type": [
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
+    },
+    {
+      "key": "Visit preview link",
+      "type": "TRACK",
+      "version": 1,
+      "jsonSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "context": {},
+          "traits": {},
+          "properties": {
+            "type": "object",
+            "properties": {
+              "CMS item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "active tutorials": {
+                "type": [
+                  "array"
+                ]
+              },
+              "cms item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "ecommerce enabled": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "ecommerce item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "mode": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "orgId": {},
+              "page count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "page id": {},
+              "pageId": {},
+              "plan type": {
+                "type": [
+                  "string"
+                ]
+              },
+              "planId": {},
+              "previewType": {},
+              "project item count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "shortName": {},
+              "site id": {},
+              "site published": {
+                "type": [
+                  "boolean"
+                ]
+              },
+              "site role": {},
+              "siteId": {},
+              "siteSubscriptionPlan": {},
+              "styles count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "team id": {},
+              "total collection count": {
+                "type": [
+                  "integer"
+                ]
+              },
+              "tutorial": {}
+            }
+          }
+        }
+      },
+      "createdAt": "2024-06-26T21:34:16.000Z",
+      "updatedAt": "2024-06-26T21:34:16.000Z",
+      "deprecatedAt": "0001-01-01T00:00:00.000Z"
     }
   ]
 }
