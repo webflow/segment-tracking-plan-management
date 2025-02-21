@@ -1,9 +1,4 @@
-# make invalid yaml as test
-rules: {}
-  - asdf
-  sadf
-  dfsafdsadfsa
-  123233
+rules:
   - key: test
     type: TRACK
     description: test
