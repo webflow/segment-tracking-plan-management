@@ -107,36 +107,42 @@ function ensureDirectoryExists(directoryPath) {
 // Fetch the updated tracking plan rules with pagination
 async function fetchUpdatedTrackingPlanRules(cursor = null, accumulatedRules = []) {
   try {
-    let requestUrl = `${apiUrl}?count=${paginationCount}`;
+
+    const params = new URLSearchParams({
+      'pagination[count]': paginationCount.toString(),
+    });
+
     if (cursor) {
-      requestUrl += `&cursor=${cursor}`;
+      params.append('pagination[cursor]', cursor);
     }
+
+    const requestUrl = `${apiUrl}?${params.toString()}`;
+    console.log(`🔍 Fetching from URL: ${requestUrl}`);
 
     const response = await axios.get(requestUrl, {
       headers: {
         'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-cache'
       },
     });
 
-    console.log('Fetched page successfully:', response.data);
+    const { rules = [], pagination } = response.data.data;
+    accumulatedRules.push(...rules);
 
-    // Accumulate the rules from this page
-    const rules = response.data.data.rules || [];
-    accumulatedRules = accumulatedRules.concat(rules);
-    console.log(`Accumulated rules so far: ${accumulatedRules.length}`);
+    console.log(`✅ Fetched ${rules.length} rules. Total accumulated: ${accumulatedRules.length}`);
+    console.log(`📖 Pagination details: current: ${pagination?.current}, next: ${pagination?.next}`);
 
-    // Handle pagination if there's more data
-    if (response.data.data.pagination && response.data.data.pagination.next) {
-      console.log('Fetching next page...');
-      return await fetchUpdatedTrackingPlanRules(response.data.data.pagination.next, accumulatedRules);
+    if (pagination?.next) {
+      // Recursively fetch the next page using the cursor
+      return await fetchUpdatedTrackingPlanRules(pagination.next, accumulatedRules);
     } else {
-      console.log('✅ All pages fetched.');
+      console.log('🎉 Finished fetching all rules.');
       return accumulatedRules;
     }
   } catch (error) {
-    console.error('❌ Error fetching updated tracking plan rules:', error.response ? error.response.data : error.message);
-    return accumulatedRules;
+      console.error('❌ Error fetching updated tracking plan rules:', error.response ? error.response.data : error.message);
+      return accumulatedRules;
   }
 }
 
