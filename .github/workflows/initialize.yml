@@ -98,7 +98,7 @@ jobs:
                   tracking-rules/${{ matrix.tracking_plan.path }}/*.yml \
                   docs/${{ matrix.tracking_plan.path }}_tracking_plan.md
           
-          git commit -m "Initialized tracking plans for ${{ matrix.tracking_plan.name }} [skip ci]" || echo "No changes to commit"
+          git commit -m "Initialized tracking plans for ${{ matrix.tracking_plan.name }}" || echo "No changes to commit"
 
           # Fetch latest changes & merge automatically
           git pull --rebase origin main || git pull --autostash origin main
