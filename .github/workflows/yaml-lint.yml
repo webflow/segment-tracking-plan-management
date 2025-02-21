@@ -1,0 +1,17 @@
+name: Validate Yaml
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate webflow YAML files
+        run: yamllint -d "{extends: relaxed, rules: {line-length: {max: 120}}}" tracking-rules/webflow/.
+      - name: Validate designer YAML files
+        run: yamllint -d "{extends: relaxed, rules: {line-length: {max: 120}}}" tracking-rules/designer/.
