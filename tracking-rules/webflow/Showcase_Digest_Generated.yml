@@ -1,0 +1,49 @@
+rules:
+  - key: Showcase Digest Generated
+    type: TRACK
+    description: Showcase Digest Generated
+    version: 1
+    labels: {}
+    properties:
+      clones:
+        type:
+          - integer
+      comments:
+        type:
+          - integer
+      end date:
+        type:
+          - string
+      followers:
+        type:
+          - integer
+      likes:
+        type:
+          - integer
+      mentions:
+        type:
+          - integer
+      most cloned project:
+        type:
+          - string
+      most cloned project url:
+        type:
+          - string
+      most liked project:
+        type:
+          - string
+      most liked project url:
+        type:
+          - string
+      source:
+        type:
+          - string
+      start date:
+        type:
+          - string
+      total views:
+        type:
+          - integer
+      wf_source:
+        type:
+          - string

@@ -1,0 +1,22 @@
+rules:
+  - key: Member Subscription Created
+    type: TRACK
+    description: Member Subscription Created
+    version: 1
+    labels: {}
+    properties:
+      billing period:
+        type:
+          - string
+      price:
+        type:
+          - string
+      product type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

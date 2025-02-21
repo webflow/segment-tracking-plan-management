@@ -1,0 +1,10 @@
+rules:
+  - key: Login to submit a ticket clicked
+    type: TRACK
+    description: Login to submit a ticket clicked
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string

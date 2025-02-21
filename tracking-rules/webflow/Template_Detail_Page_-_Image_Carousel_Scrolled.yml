@@ -1,0 +1,22 @@
+rules:
+  - key: Template Detail Page - Image Carousel Scrolled
+    type: TRACK
+    description: Template Detail Page - Image Carousel Scrolled
+    version: 1
+    labels: {}
+    properties:
+      cta:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template:
+        type:
+          - string

@@ -1,0 +1,907 @@
+rules:
+  - key: Site Integrations Marketing Form Updated
+    type: TRACK
+    description: Site Integrations Marketing Form Updated
+    version: 1
+    labels: {}
+    properties:
+      integration:
+        properties:
+          __v:
+            type:
+              - integer
+          _id:
+            type:
+              - string
+          createdOn:
+            type:
+              - string
+          fieldMapping:
+            properties:
+              AOL:
+                type:
+                  - string
+              Access Code:
+                type:
+                  - string
+              Audience Type:
+                type:
+                  - string
+              Autoblog:
+                type:
+                  - string
+              Business Email:
+                type:
+                  - string
+              Business Email Address:
+                type:
+                  - string
+              Business Email Address 2:
+                type:
+                  - string
+              Checkbox:
+                type:
+                  - string
+              Checkbox 2:
+                type:
+                  - string
+              City:
+                type:
+                  - string
+              Company:
+                type:
+                  - string
+              Company 2:
+                type:
+                  - string
+              Company DSP:
+                type:
+                  - string
+              Company Name:
+                type:
+                  - string
+              Company Name 2:
+                type:
+                  - string
+              Company Website:
+                type:
+                  - string
+              Company YP:
+                type:
+                  - string
+              Company name:
+                type:
+                  - string
+              Company-DSP:
+                type:
+                  - string
+              Company-RMN:
+                type:
+                  - string
+              CompanyOO:
+                type:
+                  - string
+              CompanyRMN:
+                type:
+                  - string
+              CompanySize:
+                type:
+                  - string
+              Consent:
+                type:
+                  - string
+              Consent Given:
+                type:
+                  - string
+              Consent Given ROW:
+                type:
+                  - string
+              Contact Business Email:
+                type:
+                  - string
+              Contact Checkbox Terms:
+                type:
+                  - string
+              Contact Company Size:
+                type:
+                  - string
+              Contact Drone Service Checkbox:
+                type:
+                  - string
+              Contact First Name:
+                type:
+                  - string
+              Contact How Did You Hear About Us:
+                type:
+                  - string
+              Contact Last Name:
+                type:
+                  - string
+              Contact Message:
+                type:
+                  - string
+              Contract:
+                type:
+                  - string
+              Country:
+                type:
+                  - string
+              Country DSP Input:
+                type:
+                  - string
+              Country Input:
+                type:
+                  - string
+              Country YP:
+                type:
+                  - string
+              Country-DSP:
+                type:
+                  - string
+              Country-Input:
+                type:
+                  - string
+              Country-RMN:
+                type:
+                  - string
+              CountryDSP-Input:
+                type:
+                  - string
+              CountryOO:
+                type:
+                  - string
+              CountryRMN:
+                type:
+                  - string
+              Current_page_url__c:
+                type:
+                  - string
+              Date available:
+                type:
+                  - string
+              Describe Company:
+                type:
+                  - string
+              Dial code:
+                type:
+                  - string
+              Email:
+                type:
+                  - string
+              Email 2:
+                type:
+                  - string
+              Email Address:
+                type:
+                  - string
+              Email Address 2:
+                type:
+                  - string
+              Email DSP:
+                type:
+                  - string
+              Email-DSP:
+                type:
+                  - string
+              Email-RMN:
+                type:
+                  - string
+              Email-YP:
+                type:
+                  - string
+              EmailOO:
+                type:
+                  - string
+              EmailRMN:
+                type:
+                  - string
+              Employee Count:
+                type:
+                  - string
+              Employer Email:
+                type:
+                  - string
+              Employer First Name:
+                type:
+                  - string
+              Employer Last Name:
+                type:
+                  - string
+              Employer Phone Number:
+                type:
+                  - string
+              Employer Role:
+                type:
+                  - string
+              Engadget:
+                type:
+                  - string
+              Entry Path:
+                type:
+                  - string
+              Exhibitor Tour:
+                type:
+                  - string
+              Fall:
+                type:
+                  - string
+              Field:
+                type:
+                  - string
+              Field 2:
+                type:
+                  - string
+              Field 9:
+                type:
+                  - string
+              First Name:
+                type:
+                  - string
+              First Name 2:
+                type:
+                  - string
+              First Name 3:
+                type:
+                  - string
+              First Name DSP:
+                type:
+                  - string
+              First Name YP:
+                type:
+                  - string
+              First Name-DSP:
+                type:
+                  - string
+              First Name-RMN:
+                type:
+                  - string
+              First name:
+                type:
+                  - string
+              FirstName:
+                type:
+                  - string
+              FirstName-DSP:
+                type:
+                  - string
+              FirstNameOO:
+                type:
+                  - string
+              FirstNameRMN:
+                type:
+                  - string
+              Form_submission_url__c:
+                type:
+                  - string
+              Full Name:
+                type:
+                  - string
+              GCLID__c:
+                type:
+                  - string
+              Guided Product Tour:
+                type:
+                  - string
+              Hear about us:
+                type:
+                  - string
+              Hidden:
+                type:
+                  - string
+              Hidden 3:
+                type:
+                  - string
+              IPAddress:
+                type:
+                  - string
+              Interest:
+                type:
+                  - string
+              Job Function:
+                type:
+                  - string
+              Job Title:
+                type:
+                  - string
+              Job Title 2:
+                type:
+                  - string
+              Keep Me Informed:
+                type:
+                  - string
+              Last Name:
+                type:
+                  - string
+              Last Name 2:
+                type:
+                  - string
+              Last Name 3:
+                type:
+                  - string
+              Last Name-DSP:
+                type:
+                  - string
+              Last Name-RMN:
+                type:
+                  - string
+              Last Name-YP:
+                type:
+                  - string
+              Last name:
+                type:
+                  - string
+              LastName:
+                type:
+                  - string
+              LastName-DSP:
+                type:
+                  - string
+              LastNameOO:
+                type:
+                  - string
+              LastNameRMN:
+                type:
+                  - string
+              Market:
+                type:
+                  - string
+              Marketing Consent:
+                type:
+                  - string
+              Marketing Consent 2:
+                type:
+                  - string
+              Marketing Consent-RMN:
+                type:
+                  - string
+              Marketing Consent-YP:
+                type:
+                  - string
+              MarketingConsent:
+                type:
+                  - string
+              MarketingConsent-DSP:
+                type:
+                  - string
+              MarketingConsentOO:
+                type:
+                  - string
+              Message:
+                type:
+                  - string
+              Message 3:
+                type:
+                  - string
+              Message Field:
+                type:
+                  - string
+              Mobile Phone:
+                type:
+                  - string
+              Mobile Phone-RMN:
+                type:
+                  - string
+              Mobile Phone-YP:
+                type:
+                  - string
+              MobilePhone-DSP:
+                type:
+                  - string
+              MobilePhoneOO:
+                type:
+                  - string
+              MobilePhoneRMN:
+                type:
+                  - string
+              Name:
+                type:
+                  - string
+              Name 2:
+                type:
+                  - string
+              Networking Session:
+                type:
+                  - string
+              Notes:
+                type:
+                  - string
+              Number of Employees:
+                type:
+                  - string
+              Occupied 2:
+                type:
+                  - string
+              Organization Name:
+                type:
+                  - string
+              Organization State:
+                type:
+                  - string
+              Original_UTM_medium__c:
+                type:
+                  - string
+              Original_UTM_source__c:
+                type:
+                  - string
+              Original_UTM_term__c:
+                type:
+                  - string
+              Own acquiring acquisition:
+                type:
+                  - string
+              Phone:
+                type:
+                  - string
+              Phone Number:
+                type:
+                  - string
+              Phone number:
+                type:
+                  - string
+              Press Announcement:
+                type:
+                  - string
+              Previous_page_url__c:
+                type:
+                  - string
+              Primary Business Unit:
+                type:
+                  - string
+              Property address:
+                type:
+                  - string
+              Q2 Agent Retention:
+                type:
+                  - string
+              Q2 Agent Training Costs:
+                type:
+                  - string
+              Q2 Decreasing Budget:
+                type:
+                  - string
+              Q2 Generative AI Implementation:
+                type:
+                  - string
+              Q2 Increased Costs:
+                type:
+                  - string
+              Q2 Increased Customer Expectations:
+                type:
+                  - string
+              Q2 Low Sales Conversions:
+                type:
+                  - string
+              Q2 Quality & Consistency:
+                type:
+                  - string
+              Q2 Technology Adoption:
+                type:
+                  - string
+              Q3 Aftercall Coaching:
+                type:
+                  - string
+              Q3 Automatic Summaries:
+                type:
+                  - string
+              Q3 Digital Adoption:
+                type:
+                  - string
+              Q3 Realtime Agent Assistance:
+                type:
+                  - string
+              Q3 Response Augmentation:
+                type:
+                  - string
+              Q4 Agent Throughput:
+                type:
+                  - string
+              Q4 Average Handle Time:
+                type:
+                  - string
+              Q4 Call Quality:
+                type:
+                  - string
+              Q4 Digital Adoption:
+                type:
+                  - string
+              Q4 First Time Resolution:
+                type:
+                  - string
+              Q4 NPS:
+                type:
+                  - string
+              Q4 Sales Conversions:
+                type:
+                  - string
+              Q4 Time to Proficiency:
+                type:
+                  - string
+              Q6 AWS Connect:
+                type:
+                  - string
+              Q6 Avaya:
+                type:
+                  - string
+              Q6 Cisco:
+                type:
+                  - string
+              Q6 Cresta:
+                type:
+                  - string
+              Q6 Genesys:
+                type:
+                  - string
+              Q6 Google CCAI:
+                type:
+                  - string
+              Q6 Home Grown:
+                type:
+                  - string
+              Q6 Live Person:
+                type:
+                  - string
+              Q6 Nice:
+                type:
+                  - string
+              Q6 Other:
+                type:
+                  - string
+              Q6 SalesForce:
+                type:
+                  - string
+              Q6 Uniphore:
+                type:
+                  - string
+              Q6 Verint:
+                type:
+                  - string
+              Q7 ASAPP Messaging:
+                type:
+                  - string
+              Q7 AutoAssist:
+                type:
+                  - string
+              Q7 AutoCompose:
+                type:
+                  - string
+              Q7 AutoSummary:
+                type:
+                  - string
+              Q7 AutoTranscribe:
+                type:
+                  - string
+              Q7 CoachingAI:
+                type:
+                  - string
+              Q7 GenerativeAgent:
+                type:
+                  - string
+              Q7 Not Sure:
+                type:
+                  - string
+              QuarterlyBudget:
+                type:
+                  - string
+              REFERRALCODE:
+                type:
+                  - string
+              Receive offers:
+                type:
+                  - string
+              Renewals:
+                type:
+                  - string
+              RenewalsText:
+                type:
+                  - string
+              Role:
+                type:
+                  - string
+              Select Country:
+                type:
+                  - string
+              Spring:
+                type:
+                  - string
+              State:
+                type:
+                  - string
+              State / Province:
+                type:
+                  - string
+              Subscribe:
+                type:
+                  - string
+              Summer:
+                type:
+                  - string
+              Tech Crunch:
+                type:
+                  - string
+              TechCrunch:
+                type:
+                  - string
+              Tell us more:
+                type:
+                  - string
+              Terms Checkbox:
+                type:
+                  - string
+              Title:
+                type:
+                  - string
+              Topic:
+                type:
+                  - string
+              'Total # of Teams':
+                type:
+                  - string
+              Trade:
+                type:
+                  - string
+              UTM_Campaign__c:
+                type:
+                  - string
+              UTM_Content__c:
+                type:
+                  - string
+              UTM_Medium__c:
+                type:
+                  - string
+              UTM_Source__c:
+                type:
+                  - string
+              UTM_Term__c:
+                type:
+                  - string
+              Website:
+                type:
+                  - string
+              Website DSP:
+                type:
+                  - string
+              Website-DSP:
+                type:
+                  - string
+              Website-RMN:
+                type:
+                  - string
+              Website-YP:
+                type:
+                  - string
+              WebsiteOO:
+                type:
+                  - string
+              WebsiteRMN:
+                type:
+                  - string
+              Winter:
+                type:
+                  - string
+              Work Email:
+                type:
+                  - string
+              Xbox:
+                type:
+                  - string
+              Yahoo:
+                type:
+                  - string
+              Yahoo Entertainment:
+                type:
+                  - string
+              Yahoo Finance:
+                type:
+                  - string
+              Yahoo Life:
+                type:
+                  - string
+              Yahoo Mail:
+                type:
+                  - string
+              Yahoo News:
+                type:
+                  - string
+              Yahoo Sports:
+                type:
+                  - string
+              YahooEntertainment:
+                type:
+                  - string
+              YahooFinance:
+                type:
+                  - string
+              YahooLife:
+                type:
+                  - string
+              YahooMail:
+                type:
+                  - string
+              YahooNews:
+                type:
+                  - string
+              YahooSports:
+                type:
+                  - string
+              address:
+                type:
+                  - string
+              city:
+                type:
+                  - string
+              comments:
+                type:
+                  - string
+              company:
+                type:
+                  - string
+              company-name:
+                type:
+                  - string
+              customMessage:
+                type:
+                  - string
+              description:
+                type:
+                  - string
+              email:
+                type:
+                  - string
+              field:
+                type:
+                  - string
+              first-name:
+                type:
+                  - string
+              firstName:
+                type:
+                  - string
+              firstname:
+                type:
+                  - string
+              formRef:
+                type:
+                  - string
+              formUrl:
+                type:
+                  - string
+              form_gclid:
+                type:
+                  - string
+              gclid:
+                type:
+                  - string
+              hidden 1:
+                type:
+                  - string
+              hiddenEmailField:
+                type:
+                  - string
+              job-title:
+                type:
+                  - string
+              last-name:
+                type:
+                  - string
+              lastName:
+                type:
+                  - string
+              lastname:
+                type:
+                  - string
+              lt_utm_campaign__c:
+                type:
+                  - string
+              lt_utm_medium__c:
+                type:
+                  - string
+              lt_utm_source__c:
+                type:
+                  - string
+              lt_utm_term__c:
+                type:
+                  - string
+              message:
+                type:
+                  - string
+              msclkid:
+                type:
+                  - string
+              nb-confirmation-token:
+                type:
+                  - string
+              nb-result:
+                type:
+                  - string
+              nb-transaction-token:
+                type:
+                  - string
+              phone:
+                type:
+                  - string
+              phone number:
+                type:
+                  - string
+              q1-agent-population:
+                type:
+                  - string
+              q5-interaction-volume:
+                type:
+                  - string
+              reason_for_contacting:
+                type:
+                  - string
+              referrer-email:
+                type:
+                  - string
+              role:
+                type:
+                  - string
+              select2-results__option:
+                type:
+                  - string
+              self_identified_persona:
+                type:
+                  - string
+              source-URL:
+                type:
+                  - string
+              special_instructions_for_mailing:
+                type:
+                  - string
+              state:
+                type:
+                  - string
+              urlPath:
+                type:
+                  - string
+              userid:
+                type:
+                  - string
+              utm_campaign:
+                type:
+                  - string
+              utm_content:
+                type:
+                  - string
+              utm_medium:
+                type:
+                  - string
+              utm_source:
+                type:
+                  - string
+              utm_term:
+                type:
+                  - string
+              visitor code:
+                type:
+                  - string
+              zip:
+                type:
+                  - string
+            type: object
+          integrationAuth:
+            type:
+              - string
+          metadata:
+            properties:
+              hubspotFormId:
+                type:
+                  - string
+              hubspotFormName:
+                type:
+                  - string
+              marketoFormId:
+                type:
+                  - integer
+              marketoFormName:
+                type:
+                  - string
+            type: object
+          site:
+            type:
+              - string
+          webflowFormName:
+            type:
+              - string
+        type: object

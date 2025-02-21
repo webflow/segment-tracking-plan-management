@@ -1,0 +1,7 @@
+rules:
+  - key: Removed all redirects
+    type: TRACK
+    description: Removed all redirects
+    version: 1
+    labels: {}
+    properties: {}

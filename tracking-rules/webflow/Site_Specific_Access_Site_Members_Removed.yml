@@ -1,0 +1,19 @@
+rules:
+  - key: Site Specific Access Site Members Removed
+    type: TRACK
+    description: Site Specific Access Site Members Removed
+    version: 1
+    labels: {}
+    properties:
+      removed user id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

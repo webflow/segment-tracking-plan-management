@@ -1,0 +1,49 @@
+rules:
+  - key: Project Snapshot Restored
+    type: TRACK
+    description: Project Snapshot Restored
+    version: 1
+    labels: {}
+    properties:
+      create method:
+        type:
+          - string
+      legacy team id:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      template id:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

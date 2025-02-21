@@ -1,0 +1,34 @@
+rules:
+  - key: Devlink Components Synced
+    type: TRACK
+    description: Devlink Components Synced
+    version: 1
+    labels: {}
+    properties:
+      css modules:
+        type:
+          - boolean
+      is subset:
+        type:
+          - boolean
+      limit exceeded:
+        type:
+          - boolean
+      number of components:
+        type:
+          - integer
+      number of elements:
+        type:
+          - integer
+      number of style blocks:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

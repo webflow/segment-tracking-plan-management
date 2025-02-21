@@ -1,0 +1,40 @@
+rules:
+  - key: Showcase Action Received
+    type: TRACK
+    description: Showcase Action Received
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      action data:
+        type:
+          - string
+      actor id:
+        type:
+          - string
+      actor total projects:
+        type:
+          - integer
+      actor username:
+        type:
+          - string
+      project id:
+        type:
+          - string
+      project image:
+        type:
+          - string
+      project name:
+        type:
+          - string
+      project url:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

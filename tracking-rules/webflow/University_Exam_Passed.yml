@@ -1,0 +1,28 @@
+rules:
+  - key: University Exam Passed
+    type: TRACK
+    description: University Exam Passed
+    version: 1
+    labels: {}
+    properties:
+      exam id:
+        type:
+          - string
+      exam title:
+        type:
+          - string
+      score percentage:
+        type:
+          - integer
+      session attempt:
+        type:
+          - integer
+      session time:
+        type:
+          - integer
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

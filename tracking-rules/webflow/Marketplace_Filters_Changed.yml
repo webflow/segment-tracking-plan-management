@@ -1,0 +1,19 @@
+rules:
+  - key: Marketplace Filters Changed
+    type: TRACK
+    description: Marketplace Filters Changed
+    version: 1
+    labels: {}
+    properties:
+      category:
+        id: /properties/properties/properties/category
+        type:
+          - string
+      tags:
+        id: /properties/properties/properties/tags
+        items:
+          id: /properties/properties/properties/tags/items
+          type: string
+        type:
+          - array
+          - 'null'

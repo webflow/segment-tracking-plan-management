@@ -1,0 +1,34 @@
+rules:
+  - key: Experiment Viewed
+    type: TRACK
+    description: Experiment Viewed
+    version: 1
+    labels: {}
+    properties:
+      campaignId:
+        type:
+          - string
+      campaignName:
+        type:
+          - string
+      experimentId:
+        type:
+          - string
+      experimentName:
+        type:
+          - string
+      nonInteraction:
+        type:
+          - integer
+      sectionId:
+        type:
+          - string
+      sectionName:
+        type:
+          - string
+      variationId:
+        type:
+          - string
+      variationName:
+        type:
+          - string

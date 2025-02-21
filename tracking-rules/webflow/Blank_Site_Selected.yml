@@ -1,0 +1,10 @@
+rules:
+  - key: Blank Site Selected
+    type: TRACK
+    description: Blank Site Selected
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Get Support button clicked
+    type: TRACK
+    description: Get Support button clicked
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string

@@ -1,0 +1,855 @@
+rules:
+  - key: Site Selected
+    type: TRACK
+    description: Site Selected
+    version: 1
+    labels: {}
+    properties:
+      site:
+        properties:
+          __v:
+            type:
+              - integer
+          _id:
+            type:
+              - string
+          _status:
+            properties:
+              code:
+                type:
+                  - string
+              lastChanged:
+                type:
+                  - string
+            type: object
+          active:
+            type:
+              - boolean
+          annotationCount:
+            type:
+              - integer
+          apolloMaxRequestsPerSecond:
+            type:
+              - number
+          archived:
+            type:
+              - boolean
+          assetSize:
+            type:
+              - integer
+          authStr: {}
+          authUser: {}
+          brandLogo: {}
+          brandName: {}
+          captchaPlugin:
+            type:
+              - string
+          cloneOf:
+            type:
+              - string
+          compiledAt: {}
+          createdBy:
+            type:
+              - string
+          createdOn:
+            type:
+              - string
+          dashboardFolder: {}
+          database:
+            type:
+              - string
+          designTime:
+            type:
+              - integer
+          dirty:
+            type:
+              - boolean
+          domain:
+            type:
+              - string
+          emailFormFromLabel: {}
+          emailFormOptions:
+            properties:
+              incSubInfo:
+                type:
+                  - boolean
+              incUnsubLink:
+                type:
+                  - boolean
+            type: object
+          emailFormReplyTo: {}
+          emailFormSubject: {}
+          emailFormTarget:
+            type:
+              - string
+          emailFormTemplate: {}
+          exportCount:
+            type:
+              - integer
+          exportedToStigg:
+            type:
+              - boolean
+          faviconUrl:
+            type:
+              - string
+          formFileLoginRequired:
+            type:
+              - boolean
+          formSubmissions:
+            type:
+              - integer
+          formsHaveBeenMigrated:
+            type:
+              - boolean
+          hostingPlanName:
+            type:
+              - string
+          indexPage:
+            type:
+              - string
+          installedMarketplaceResources:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                installer:
+                  type:
+                    - string
+                installerModel:
+                  type:
+                    - string
+                resource:
+                  type:
+                    - string
+                resourceModel:
+                  type:
+                    - string
+                type:
+                  type:
+                    - string
+              type: object
+            type: array
+          isStagingPrivate:
+            type:
+              - boolean
+          lastExport:
+            type:
+              - string
+          lastFormInvoice:
+            type:
+              - string
+          lastPublicationId: {}
+          lastPublished: {}
+          lastPublishedBy: {}
+          lastSearchIndex: {}
+          lastSearchIndexAuto: {}
+          lastSearchIndexManual: {}
+          lastSnapped:
+            type:
+              - string
+          lastUpdated:
+            type:
+              - string
+          lockDeletion:
+            type:
+              - boolean
+          lockedReason: {}
+          maxPages: {}
+          name:
+            type:
+              - string
+          newFormDatas:
+            type:
+              - integer
+          oldPreviewId:
+            type:
+              - string
+          pages:
+            items:
+              type: string
+            type: array
+          persistentUIState:
+            properties:
+              addTabVisibilityStates:
+                properties:
+                  Basic:
+                    type:
+                      - boolean
+                  CMS:
+                    type:
+                      - boolean
+                  Components:
+                    type:
+                      - boolean
+                  Features:
+                    type:
+                      - boolean
+                  Footer:
+                    type:
+                      - boolean
+                  Forms:
+                    type:
+                      - boolean
+                  Gallery:
+                    type:
+                      - boolean
+                  Hero:
+                    type:
+                      - boolean
+                  Layout:
+                    type:
+                      - boolean
+                  Logos:
+                    type:
+                      - boolean
+                  Media:
+                    type:
+                      - boolean
+                  Pricing:
+                    type:
+                      - boolean
+                  Team:
+                    type:
+                      - boolean
+                  Testimonial:
+                    type:
+                      - boolean
+                  Typography:
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Advanced"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"CMS"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Ecommerce"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Features"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Forms"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Gallery"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Hero"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Logos"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Media"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Navigation"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Structure"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Typography"}':
+                    type:
+                      - boolean
+                  '{"type":"basic","val":"Users"}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Brand Section"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["CTA Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Content Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["FAQ Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Feature Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Footer Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Form Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Header Section"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Navigation"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Pricing Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Conversion Flow Library",["Testimonial Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Accordions"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Blog Cards"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Call to Actions"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Contact Forms"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Content Cards"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Content Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Dropdowns"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Ecommerce Cards"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Footers"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Galleries"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Headers"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Heros"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Logo Strips"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Pricing Cards"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Stats"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Team Members"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Testimonials"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Elements Webflow Library",["Top Bars"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["404"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Blog"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["CTA"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Contact Us"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Cookie"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["FAQ"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Feature"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Footer"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Hero"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Logo"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Navbar"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Pricing"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Privacy Policy"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Solution Cards"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Flow Library",["Testimonials"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Account"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Banner"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["CTA"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Career"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Contact"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Content"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Feature"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Footer"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Gallery"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Header"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Logo"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Navigation"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Pricing"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Testimonial"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Accordian"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Alert"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Avatar"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Breadcrumb"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Button"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Checkbox, Radio & Toggle"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Dropdown"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Input Field"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Interaction"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Modal"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Tab"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Call to action"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Clients"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["FAQ"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Feature"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Footer"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Hero"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Navbar"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Pricing"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Process"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Productivity"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Lynx",["Testimonials"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Banners"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Blog Header Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Blog Posts"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Blog Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["CTA Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Client-First Structure"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Contact Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["FAQ Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Feature Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Footers"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Gallery Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Header Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Logo Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Navbars"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Pricing Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Style Guide"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Team Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Relume Library Lite",["Testimonial Sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Features"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Footer"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Gallery"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Hero"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Logos"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Navigation"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Pricing"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Team"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Starter library",["Testimonial"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Banners"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Blog page headers"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Blog posts"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Blog sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["CTA sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Careers sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Contact sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["FAQ sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Features sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Footers"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Header sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Hero header sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Logos sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Navbars"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Pricing sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Team sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Untitled UI",["Testimonial sections"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["Waves Library",["Top Bars"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["CTA"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["Cards"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["FAQ"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["Footer"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["Hero"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["Navbar"]]}':
+                    type:
+                      - boolean
+                  '{"type":"fromLibrary","val":["uDesign Components",["Pricing"]]}':
+                    type:
+                      - boolean
+                type: object
+              auditResultsIgnored:
+                items:
+                  type: string
+                type: array
+              auditResultsRead:
+                items:
+                  type: string
+                type: array
+              logicLibraryVisibilityStates:
+                properties:
+                  actions:
+                    type:
+                      - boolean
+                  utilities:
+                    type:
+                      - boolean
+                type: object
+              numSiteVisit:
+                type:
+                  - integer
+              pageSettingVisibilityStates:
+                properties:
+                  accessControl:
+                    type:
+                      - boolean
+                  custom:
+                    type:
+                      - boolean
+                  general:
+                    type:
+                      - boolean
+                  graph:
+                    type:
+                      - boolean
+                  publish:
+                    type:
+                      - boolean
+                  rss:
+                    type:
+                      - boolean
+                  search:
+                    type:
+                      - boolean
+                  seo:
+                    type:
+                      - boolean
+                type: object
+              pageVisibilityStates:
+                properties:
+                  cms:
+                    type:
+                      - boolean
+                  ecommerce:
+                    type:
+                      - boolean
+                  publish:
+                    type:
+                      - boolean
+                  static:
+                    type:
+                      - boolean
+                  user:
+                    type:
+                      - boolean
+                  utility:
+                    type:
+                      - boolean
+                type: object
+              stylePanelVisibilityStates:
+                properties:
+                  __focusMode__:
+                    type:
+                      - boolean
+                  backgrounds:
+                    type:
+                      - boolean
+                  borders:
+                    type:
+                      - boolean
+                  bordersAdvanced:
+                    type:
+                      - boolean
+                  effects:
+                    type:
+                      - boolean
+                  expandedCss:
+                    type:
+                      - boolean
+                  flexAlignAdvanced:
+                    type:
+                      - boolean
+                  flexChild:
+                    type:
+                      - boolean
+                  flexChildAdvanced:
+                    type:
+                      - boolean
+                  gridAlignAdvanced:
+                    type:
+                      - boolean
+                  gridItem:
+                    type:
+                      - boolean
+                  layout:
+                    type:
+                      - boolean
+                  listItem:
+                    type:
+                      - boolean
+                  position:
+                    type:
+                      - boolean
+                  positionAdvanced:
+                    type:
+                      - boolean
+                  size:
+                    type:
+                      - boolean
+                  spacing:
+                    type:
+                      - boolean
+                  typography:
+                    type:
+                      - boolean
+                  typographyAdvanced:
+                    type:
+                      - boolean
+                type: object
+            type: object
+          previewId: {}
+          previewUrl:
+            type:
+              - string
+          previewUrlSm:
+            type:
+              - string
+          public:
+            type:
+              - boolean
+          recaptchaRequired:
+            type:
+              - boolean
+          recaptchaSecretKey: {}
+          recaptchaSiteKey: {}
+          responsiveImages:
+            type:
+              - boolean
+          searchIndexShard:
+            type:
+              - string
+          searchIndexSlice:
+            type:
+              - string
+          shortName:
+            type:
+              - string
+          siteCredits:
+            items:
+              properties:
+                id:
+                  type:
+                    - string
+                type:
+                  type:
+                    - string
+              type: object
+            type: array
+          siteFileDependenciesInitialized:
+            type:
+              - boolean
+          siteSpecificAccess:
+            type:
+              - boolean
+          sslHosting:
+            type:
+              - boolean
+          styleCount:
+            type:
+              - integer
+          styleOps:
+            type:
+              - integer
+          template: {}
+          templateOf:
+            type:
+              - string
+          timezone:
+            type:
+              - string
+          version:
+            type:
+              - integer
+          webClipUrl:
+            type:
+              - string
+          workspace:
+            type:
+              - string
+        type: object

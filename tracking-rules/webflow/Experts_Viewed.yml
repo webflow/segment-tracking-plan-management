@@ -1,0 +1,52 @@
+rules:
+  - key: Experts Viewed
+    type: TRACK
+    description: Experts Viewed
+    version: 1
+    labels: {}
+    properties:
+      direct-referrer:
+        type:
+          - string
+      expert city:
+        type:
+          - string
+      expert country:
+        type:
+          - string
+      expert location:
+        type:
+          - string
+      expert name:
+        type:
+          - string
+      expert price range:
+        type:
+          - string
+      expert slug:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      params:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      referring-domain:
+        type:
+          - string
+      source:
+        type:
+          - string
+      utm:
+        type:
+          - string
+      wf session id:
+        type:
+          - string

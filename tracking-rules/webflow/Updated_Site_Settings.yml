@@ -1,0 +1,47 @@
+rules:
+  - key: Updated Site Settings
+    type: TRACK
+    description: Updated Site Settings
+    version: 1
+    labels: {}
+    properties:
+      legacy team id:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      siteId: {}
+      source:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

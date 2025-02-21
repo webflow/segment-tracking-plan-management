@@ -1,0 +1,10 @@
+rules:
+  - key: App Action
+    type: TRACK
+    description: App Action
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string

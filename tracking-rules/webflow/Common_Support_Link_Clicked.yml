@@ -1,0 +1,10 @@
+rules:
+  - key: Common Support Link Clicked
+    type: TRACK
+    description: Common Support Link Clicked
+    version: 1
+    labels: {}
+    properties:
+      question:
+        type:
+          - string

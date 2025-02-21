@@ -1,0 +1,109 @@
+rules:
+  - key: Experiment Assignment
+    type: TRACK
+    description: Experiment Assignment
+    version: 1
+    labels: {}
+    properties:
+      assignment:
+        type:
+          - string
+      authentication state:
+        items:
+          type: string
+        type: array
+      experiment:
+        type:
+          - string
+      site id: {}
+      source:
+        type:
+          - string
+      specificity:
+        type:
+          - string
+      target audience:
+        properties:
+          user:
+            properties:
+              authState:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                  value:
+                    type:
+                      - array
+                type: object
+              companySize:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                  value:
+                    type:
+                      - array
+                type: object
+              createdAfter:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                  value:
+                    type:
+                      - string
+                type: object
+              segmentationCategory:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                  value:
+                    type:
+                      - array
+                type: object
+            type: object
+          workspace:
+            properties:
+              maxSeats:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                type: object
+              minSeats:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                type: object
+              plan:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                  value:
+                    type:
+                      - array
+                type: object
+              role:
+                properties:
+                  important:
+                    type:
+                      - boolean
+                  value:
+                    type:
+                      - array
+                type: object
+            type: object
+        type: object
+      team id: {}
+      timestamp:
+        type:
+          - integer
+      wf_source:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string

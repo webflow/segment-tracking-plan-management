@@ -1,0 +1,16 @@
+rules:
+  - key: Rename Collection Slug
+    type: TRACK
+    description: Rename Collection Slug
+    version: 1
+    labels: {}
+    properties:
+      dbId:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

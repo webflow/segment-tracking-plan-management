@@ -1,0 +1,10 @@
+rules:
+  - key: Secondary Email Removal Completed
+    type: TRACK
+    description: Secondary Email Removal Completed
+    version: 1
+    labels: {}
+    properties:
+      wf_source:
+        type:
+          - string

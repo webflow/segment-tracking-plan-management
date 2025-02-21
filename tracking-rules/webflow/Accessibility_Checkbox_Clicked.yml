@@ -1,0 +1,19 @@
+rules:
+  - key: Accessibility Checkbox Clicked
+    type: TRACK
+    description: Accessibility Checkbox Clicked
+    version: 1
+    labels: {}
+    properties:
+      item name:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

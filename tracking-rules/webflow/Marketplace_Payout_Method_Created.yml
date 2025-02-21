@@ -1,0 +1,16 @@
+rules:
+  - key: Marketplace Payout Method Created
+    type: TRACK
+    description: Marketplace Payout Method Created
+    version: 1
+    labels: {}
+    properties:
+      country:
+        type:
+          - string
+      payment provider:
+        type:
+          - string
+      workspace slug:
+        type:
+          - string

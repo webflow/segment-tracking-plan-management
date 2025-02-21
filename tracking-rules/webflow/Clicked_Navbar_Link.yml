@@ -1,0 +1,16 @@
+rules:
+  - key: Clicked Navbar Link
+    type: TRACK
+    description: Clicked Navbar Link
+    version: 1
+    labels: {}
+    properties:
+      breakpoint:
+        type:
+          - string
+      link:
+        type:
+          - string
+      name:
+        type:
+          - string

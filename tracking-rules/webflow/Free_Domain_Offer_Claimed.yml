@@ -1,0 +1,16 @@
+rules:
+  - key: Free Domain Offer Claimed
+    type: TRACK
+    description: Free Domain Offer Claimed
+    version: 1
+    labels: {}
+    properties:
+      site id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

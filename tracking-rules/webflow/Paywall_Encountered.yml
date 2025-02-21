@@ -1,0 +1,70 @@
+rules:
+  - key: Paywall Encountered
+    type: TRACK
+    description: Paywall Encountered
+    version: 1
+    labels: {}
+    properties:
+      legacy team id:
+        type:
+          - string
+      paywall plan type:
+        type:
+          - string
+      paywall trigger type:
+        type:
+          - string
+      paywall type:
+        type:
+          - string
+      paywallPlanType:
+        type:
+          - string
+      paywallTriggerType:
+        type:
+          - string
+      paywallType:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

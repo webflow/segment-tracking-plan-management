@@ -1,0 +1,28 @@
+rules:
+  - key: Words Translated
+    type: TRACK
+    description: Words Translated
+    version: 1
+    labels: {}
+    properties:
+      contentSource:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      sourceLang:
+        type:
+          - string
+      targetLang:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      wordsTranslated:
+        type:
+          - integer
+      workspaceId:
+        type:
+          - string

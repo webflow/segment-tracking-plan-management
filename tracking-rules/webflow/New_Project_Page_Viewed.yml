@@ -1,0 +1,55 @@
+rules:
+  - key: New Project Page Viewed
+    type: TRACK
+    description: New Project Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      libraries shown:
+        items:
+          type: string
+        type: array
+      recommended cloneables shown:
+        items:
+          type: string
+        type: array
+      recommended templates shown:
+        items:
+          type: string
+        type: array
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

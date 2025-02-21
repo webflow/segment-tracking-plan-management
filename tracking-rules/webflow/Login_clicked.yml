@@ -1,0 +1,10 @@
+rules:
+  - key: Login clicked
+    type: TRACK
+    description: Login clicked
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string

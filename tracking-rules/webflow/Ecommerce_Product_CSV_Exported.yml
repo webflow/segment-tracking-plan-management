@@ -1,0 +1,16 @@
+rules:
+  - key: Ecommerce Product CSV Exported
+    type: TRACK
+    description: Ecommerce Product CSV Exported
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

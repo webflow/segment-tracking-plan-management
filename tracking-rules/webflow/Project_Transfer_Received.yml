@@ -1,0 +1,22 @@
+rules:
+  - key: Project Transfer Received
+    type: TRACK
+    description: Project Transfer Received
+    version: 1
+    labels: {}
+    properties:
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template id:
+        type:
+          - string
+      type:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

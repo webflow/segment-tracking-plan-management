@@ -1,0 +1,82 @@
+rules:
+  - key: Website Viewed
+    type: TRACK
+    description: Website Viewed
+    version: 1
+    labels: {}
+    properties:
+      btnError: {}
+      btnVersion:
+        type:
+          - string
+      headerError: {}
+      headerVersion:
+        type:
+          - string
+      hero: {}
+      heroError: {}
+      heroVersion:
+        type:
+          - string
+      legacy team id:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      loggedIn:
+        type:
+          - boolean
+      modalVersion:
+        type:
+          - string
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      ref:
+        type:
+          - string
+      signupError: {}
+      signupVersion:
+        type:
+          - string
+      site id: {}
+      site plan type:
+        type:
+          - string
+      siteId: {}
+      source:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      version:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

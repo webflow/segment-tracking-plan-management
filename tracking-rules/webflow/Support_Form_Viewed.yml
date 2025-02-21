@@ -1,0 +1,7 @@
+rules:
+  - key: Support Form Viewed
+    type: TRACK
+    description: Support Form Viewed
+    version: 1
+    labels: {}
+    properties: {}

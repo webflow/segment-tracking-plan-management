@@ -1,0 +1,91 @@
+rules:
+  - key: Marketplace CTA Clicked
+    type: TRACK
+    description: Marketplace CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      CTA:
+        type:
+          - string
+      active tutorials:
+        type:
+          - string
+      button action and type:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      cta:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      link:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      mode:
+        type:
+          - string
+      name:
+        type:
+          - string
+      page:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      position on page:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site slug:
+        type:
+          - string
+      source:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

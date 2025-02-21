@@ -1,0 +1,16 @@
+rules:
+  - key: User Systems Enabled
+    type: TRACK
+    description: User Systems Enabled
+    version: 1
+    labels: {}
+    properties:
+      siteId:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

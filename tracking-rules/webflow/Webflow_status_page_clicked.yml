@@ -1,0 +1,7 @@
+rules:
+  - key: Webflow status page clicked
+    type: TRACK
+    description: Webflow status page clicked
+    version: 1
+    labels: {}
+    properties: {}

@@ -1,0 +1,19 @@
+rules:
+  - key: Template Search - Initial Search Submitted
+    type: TRACK
+    description: Template Search - Initial Search Submitted
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      searchTerm:
+        type:
+          - string
+      source:
+        type:
+          - string

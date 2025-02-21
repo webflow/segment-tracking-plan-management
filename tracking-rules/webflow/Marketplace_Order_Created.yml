@@ -1,0 +1,13 @@
+rules:
+  - key: Marketplace Order Created
+    type: TRACK
+    description: Marketplace Order Created
+    version: 1
+    labels: {}
+    properties:
+      seller workspace id:
+        type:
+          - string
+      workspace slug:
+        type:
+          - string

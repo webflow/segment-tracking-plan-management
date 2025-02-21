@@ -1,0 +1,10 @@
+rules:
+  - key: Recover your account clicked
+    type: TRACK
+    description: Recover your account clicked
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string

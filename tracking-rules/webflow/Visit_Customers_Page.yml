@@ -1,0 +1,8 @@
+rules:
+  - key: Visit Customers Page
+    type: TRACK
+    description: Visit Customers Page
+    version: 1
+    labels: {}
+    properties:
+      source: {}

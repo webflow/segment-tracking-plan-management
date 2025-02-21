@@ -1,0 +1,16 @@
+rules:
+  - key: Template Search - Details link clicked in Image Popup
+    type: TRACK
+    description: Template Search - Details link clicked in Image Popup
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -1,0 +1,155 @@
+rules:
+  - key: Plan Modified
+    type: TRACK
+    description: Plan Modified
+    version: 1
+    labels: {}
+    properties:
+      add-on initial quantity:
+        type:
+          - integer
+      add-on new quantity:
+        type:
+          - integer
+      charged amount:
+        type:
+          - integer
+      comment:
+        type:
+          - string
+      comments:
+        type:
+          - string
+      cost of new plan:
+        type:
+          - integer
+      currency of new plan:
+        type:
+          - string
+      initial number of seats:
+        type:
+          - integer
+      initial plan frequency:
+        type:
+          - string
+      initial plan level:
+        type:
+          - string
+      legacy initial number of seats:
+        type:
+          - integer
+      legacy new number of seats:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      new number of seats:
+        type:
+          - integer
+      new plan frequency: {}
+      new plan level:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      promotion applied: {}
+      promotion code: {}
+      promotion type: {}
+      promotion value: {}
+      reason:
+        items:
+          type: string
+        type: array
+      reason cancel Site plan:
+        type:
+          - string
+      reason cancel Workspace plan:
+        type:
+          - string
+      reason difficult to use:
+        items:
+          type: string
+        type: array
+      reason improvement areas:
+        items:
+          type: string
+        type: array
+      reason missing features:
+        items:
+          type: string
+        type: array
+      reason project canceled:
+        type:
+          - string
+      reason switch to competitor:
+        type:
+          - string
+      reason transferring site:
+        type:
+          - string
+      reason unnecessary features:
+        items:
+          type: string
+        type: array
+      ref:
+        type:
+          - string
+      site id: {}
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      siteId: {}
+      stripe subscription id: {}
+      switch to competitor: {}
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      transferring site:
+        type:
+          - string
+      value of new plan:
+        type:
+          - integer
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace initial number of seats:
+        type:
+          - integer
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace new number of seats:
+        type:
+          - integer
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

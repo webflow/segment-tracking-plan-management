@@ -1,0 +1,25 @@
+rules:
+  - key: Editor Opened
+    type: TRACK
+    description: Editor Opened
+    version: 1
+    labels: {}
+    properties:
+      load method:
+        type:
+          - string
+      location:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteShortName:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

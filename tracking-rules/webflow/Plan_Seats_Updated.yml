@@ -1,0 +1,55 @@
+rules:
+  - key: Plan Seats Updated
+    type: TRACK
+    description: Plan Seats Updated
+    version: 1
+    labels: {}
+    properties:
+      plan type:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace new number of seats:
+        type:
+          - integer
+      workspace old number of seats:
+        type:
+          - integer
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

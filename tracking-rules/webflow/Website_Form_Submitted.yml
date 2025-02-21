@@ -1,0 +1,77 @@
+rules:
+  - key: Website Form Submitted
+    type: TRACK
+    description: Website Form Submitted
+    version: 1
+    labels: {}
+    properties:
+      button CTA:
+        type:
+          - string
+      button action and type:
+        type:
+          - string
+      company:
+        type:
+          - string
+      company size:
+        type:
+          - string
+      consent: {}
+      country:
+        type:
+          - string
+      email:
+        type:
+          - string
+      first name:
+        type:
+          - string
+      form name:
+        type:
+          - string
+      last name:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      message:
+        type:
+          - string
+      page:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      phone:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      title:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

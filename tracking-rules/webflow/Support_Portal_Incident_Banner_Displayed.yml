@@ -1,0 +1,16 @@
+rules:
+  - key: Support Portal Incident Banner Displayed
+    type: TRACK
+    description: Support Portal Incident Banner Displayed
+    version: 1
+    labels: {}
+    properties:
+      impact:
+        type:
+          - string
+      incident:
+        type:
+          - string
+      status:
+        type:
+          - string

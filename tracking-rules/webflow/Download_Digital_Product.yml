@@ -1,0 +1,13 @@
+rules:
+  - key: Download Digital Product
+    type: TRACK
+    description: Download Digital Product
+    version: 1
+    labels: {}
+    properties:
+      page type:
+        type:
+          - string
+      ref:
+        type:
+          - string

@@ -1,0 +1,43 @@
+rules:
+  - key: Workspace Invitation Sent
+    type: TRACK
+    description: Workspace Invitation Sent
+    version: 1
+    labels: {}
+    properties:
+      can publish:
+        type:
+          - boolean
+      email:
+        type:
+          - string
+      invitation link:
+        type:
+          - string
+      inviter name:
+        type:
+          - string
+      recipient role:
+        type:
+          - string
+      site role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace invite id:
+        type:
+          - string
+      workspace name:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string

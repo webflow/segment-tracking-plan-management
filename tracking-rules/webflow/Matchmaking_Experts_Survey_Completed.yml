@@ -1,0 +1,110 @@
+rules:
+  - key: Matchmaking Experts Survey Completed
+    type: TRACK
+    description: Matchmaking Experts Survey Completed
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string
+      values:
+        properties:
+          anythingElse:
+            type:
+              - string
+          budget:
+            type:
+              - string
+          companyMeta:
+            properties:
+              company-industry:
+                type:
+                  - string
+              company-name:
+                type:
+                  - string
+              company-role:
+                type:
+                  - string
+              company-size:
+                type:
+                  - string
+            type: object
+          country:
+            type:
+              - string
+          custom-budget-amount:
+            type:
+              - string
+          existing-link:
+            type:
+              - string
+          kindOfSite:
+            type:
+              - string
+          language:
+            type:
+              - string
+          locationPreference:
+            type:
+              - string
+          migrating-link:
+            type:
+              - string
+          ownerOfSite:
+            type:
+              - string
+          projectFinishedBy:
+            type:
+              - string
+          projectUID:
+            type:
+              - string
+          services:
+            items:
+              type: string
+            type: array
+          urlParams:
+            properties:
+              email:
+                type:
+                  - string
+              firstName:
+                type:
+                  - string
+              lastName:
+                type:
+                  - string
+              ref:
+                type:
+                  - string
+              role:
+                type:
+                  - string
+              variant:
+                type:
+                  - string
+            type: object
+        type: object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

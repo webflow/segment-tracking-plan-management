@@ -1,0 +1,19 @@
+rules:
+  - key: University Course Completed
+    type: TRACK
+    description: University Course Completed
+    version: 1
+    labels: {}
+    properties:
+      course:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

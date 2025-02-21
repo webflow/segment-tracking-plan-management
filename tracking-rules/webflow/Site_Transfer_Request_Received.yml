@@ -1,0 +1,22 @@
+rules:
+  - key: Site Transfer Request Received
+    type: TRACK
+    description: Site Transfer Request Received
+    version: 1
+    labels: {}
+    properties:
+      accept link:
+        type:
+          - string
+      sender email:
+        type:
+          - string
+      site name:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

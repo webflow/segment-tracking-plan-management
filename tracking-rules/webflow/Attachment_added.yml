@@ -1,0 +1,13 @@
+rules:
+  - key: Attachment added
+    type: TRACK
+    description: Attachment added
+    version: 1
+    labels: {}
+    properties:
+      file:
+        type:
+          - string
+      size:
+        type:
+          - integer

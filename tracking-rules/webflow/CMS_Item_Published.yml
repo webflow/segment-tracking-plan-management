@@ -1,0 +1,19 @@
+rules:
+  - key: CMS Item Published
+    type: TRACK
+    description: CMS Item Published
+    version: 1
+    labels: {}
+    properties:
+      publish type:
+        type:
+          - string
+      publish_type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

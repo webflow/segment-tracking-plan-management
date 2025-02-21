@@ -1,0 +1,84 @@
+rules:
+  - key: Matchmaking Experts Survey Abandoned
+    type: TRACK
+    description: Matchmaking Experts Survey Abandoned
+    version: 1
+    labels: {}
+    properties:
+      projectUID:
+        type:
+          - string
+      reason:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      searchParams:
+        type:
+          - string
+      submissionState:
+        type:
+          - integer
+      values:
+        properties:
+          anythingElse: {}
+          budget: {}
+          companyMeta:
+            properties:
+              company-industry:
+                type:
+                  - string
+              company-name:
+                type:
+                  - string
+              company-role:
+                type:
+                  - string
+              company-size:
+                type:
+                  - string
+            type: object
+          country:
+            type:
+              - string
+          custom-budget-amount:
+            type:
+              - string
+          existing-link:
+            type:
+              - string
+          kindOfSite: {}
+          language: {}
+          locationPreference: {}
+          migrating-link:
+            type:
+              - string
+          ownerOfSite: {}
+          projectFinishedBy: {}
+          services:
+            items:
+              type: string
+            type: array
+        type: object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

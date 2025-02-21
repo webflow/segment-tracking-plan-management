@@ -1,0 +1,44 @@
+rules:
+  - key: Stripe Method Called
+    type: TRACK
+    description: Stripe Method Called
+    version: 1
+    labels: {}
+    properties:
+      after: {}
+      card:
+        type:
+          - string
+      cus:
+        type:
+          - string
+      function:
+        type:
+          - string
+      id:
+        type:
+          - string
+      lines:
+        type:
+          - integer
+      method:
+        type:
+          - string
+      ownerId:
+        type:
+          - string
+      person_id:
+        type:
+          - string
+      prorate:
+        type:
+          - boolean
+      source:
+        type:
+          - string
+      sub:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

@@ -1,0 +1,36 @@
+rules:
+  - key: Disabled Two-Factor Authentication
+    type: TRACK
+    description: Disabled Two-Factor Authentication
+    version: 1
+    labels: {}
+    properties:
+      site id: {}
+      site plan type:
+        type:
+          - string
+      siteId: {}
+      team id: {}
+      teamId: {}
+      timestamp: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,125 @@
+rules:
+  - key: Payment Success
+    type: TRACK
+    description: Payment Success
+    version: 1
+    labels: {}
+    properties:
+      Charged Amount (dollars):
+        type:
+          - integer
+      Desired Plan Level:
+        type:
+          - string
+      Desired Plan Period:
+        type:
+          - string
+      Desired Plan Seats:
+        type:
+          - integer
+      Plan Type:
+        type:
+          - string
+      Promo Used:
+        type:
+          - boolean
+      add-on initial quantity:
+        type:
+          - integer
+      add-on new quantity:
+        type:
+          - integer
+      charged amount:
+        type:
+          - integer
+      currency of new plan:
+        type:
+          - string
+      initial number of seats:
+        type:
+          - integer
+      initial plan frequency: {}
+      initial plan level:
+        type:
+          - string
+      legacy new number of seats:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      new plan frequency:
+        type:
+          - string
+      new plan level:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      promotion applied:
+        type:
+          - boolean
+      promotion type:
+        type:
+          - string
+      promotion value:
+        type:
+          - integer
+      ref:
+        type:
+          - string
+      selected plan:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      stripe subscription id:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      value of new plan:
+        type:
+          - integer
+      workspace id:
+        type:
+          - string
+      workspace initial number of seats:
+        type:
+          - integer
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace new number of seats:
+        type:
+          - integer
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Solution Clicked
+    type: TRACK
+    description: Solution Clicked
+    version: 1
+    labels: {}
+    properties:
+      article:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Support Landing Page FAQ Clicked
+    type: TRACK
+    description: Support Landing Page FAQ Clicked
+    version: 1
+    labels: {}
+    properties:
+      link:
+        type:
+          - string

@@ -1,0 +1,7 @@
+rules:
+  - key: Submit Request Cancelled
+    type: TRACK
+    description: Submit Request Cancelled
+    version: 1
+    labels: {}
+    properties: {}

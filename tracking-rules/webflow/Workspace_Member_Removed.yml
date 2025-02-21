@@ -1,0 +1,22 @@
+rules:
+  - key: Workspace Member Removed
+    type: TRACK
+    description: Workspace Member Removed
+    version: 1
+    labels: {}
+    properties:
+      method:
+        type:
+          - string
+      role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace name:
+        type:
+          - string

@@ -1,0 +1,56 @@
+rules:
+  - key: Plan Upgraded by Company
+    type: TRACK
+    description: Plan Upgraded by Company
+    version: 1
+    labels: {}
+    properties:
+      city:
+        type:
+          - string
+      country:
+        type:
+          - string
+      email:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      transactionId: {}
+      userAgent:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,70 @@
+rules:
+  - key: Invoice Payment Succeeded
+    type: TRACK
+    description: Invoice Payment Succeeded
+    version: 1
+    labels: {}
+    properties:
+      billingEmail:
+        type:
+          - string
+      billingLink:
+        type:
+          - string
+      chargeDate:
+        type:
+          - string
+      currency:
+        type:
+          - string
+      description:
+        type:
+          - string
+      email:
+        type:
+          - string
+      firstName:
+        type:
+          - string
+      invoiceId:
+        type:
+          - string
+      invoicePDF:
+        type:
+          - string
+      lastName:
+        type:
+          - string
+      ownerKind:
+        type:
+          - string
+      ownerSlug:
+        type:
+          - string
+      plan:
+        type:
+          - string
+      planFrequency:
+        type:
+          - string
+      planType:
+        type:
+          - string
+      projectName:
+        type:
+          - string
+      source:
+        type:
+          - string
+      subTotal:
+        type:
+          - integer
+      tax:
+        type:
+          - integer
+      total:
+        type:
+          - integer
+      wf_source:
+        type:
+          - string

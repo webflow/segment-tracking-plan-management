@@ -1,0 +1,37 @@
+rules:
+  - key: Template Marketplace Viewed
+    type: TRACK
+    description: Template Marketplace Viewed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      loggedIn:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      params:
+        type:
+          - string
+      price:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template:
+        type:
+          - string
+      template author:
+        type:
+          - string
+      wf session id:
+        type:
+          - string

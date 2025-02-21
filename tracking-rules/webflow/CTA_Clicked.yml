@@ -1,0 +1,499 @@
+rules:
+  - key: CTA Clicked
+    type: TRACK
+    description: CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      button CTA:
+        type:
+          - string
+      button action:
+        type:
+          - string
+      button action and type:
+        type:
+          - string
+      button cta:
+        type:
+          - string
+      cities:
+        items:
+          type: string
+        type: array
+      countries:
+        items:
+          type: string
+        type: array
+      ids:
+        items:
+          properties:
+            __v:
+              type:
+                - integer
+            _id:
+              type:
+                - string
+            _status:
+              properties:
+                code:
+                  type:
+                    - string
+                lastChanged:
+                  type:
+                    - string
+              type: object
+            active:
+              type:
+                - boolean
+            annotationCount:
+              type:
+                - integer
+            apolloMaxRequestsPerSecond:
+              type:
+                - number
+            archived:
+              type:
+                - boolean
+            assetSize:
+              type:
+                - integer
+            authStr: {}
+            authUser: {}
+            brandLogo:
+              type:
+                - string
+            brandName: {}
+            captchaPlugin:
+              type:
+                - string
+            cdnInfo:
+              properties:
+                cdnMonthlyGBLimit:
+                  type:
+                    - integer
+                endDate:
+                  type:
+                    - string
+                nearCdnLimit:
+                  type:
+                    - boolean
+                projectedUsageGB:
+                  type:
+                    - number
+                startDate:
+                  type:
+                    - string
+                totalUsageGB:
+                  type:
+                    - number
+                usageOfLimit:
+                  type:
+                    - number
+              type: object
+            cloneOf:
+              type:
+                - string
+            compiledAt:
+              type:
+                - string
+            createdBy:
+              type:
+                - string
+            createdOn:
+              type:
+                - string
+            dashboardFolder:
+              type:
+                - string
+            database:
+              type:
+                - string
+            designTime:
+              type:
+                - integer
+            dirty:
+              type:
+                - boolean
+            domain:
+              type:
+                - string
+            emailFormFromLabel:
+              type:
+                - string
+            emailFormOptions:
+              properties:
+                incSubInfo:
+                  type:
+                    - boolean
+                incUnsubLink:
+                  type:
+                    - boolean
+              type: object
+            emailFormReplyTo:
+              type:
+                - string
+            emailFormSubject:
+              type:
+                - string
+            emailFormTarget:
+              type:
+                - string
+            emailFormTemplate:
+              type:
+                - string
+            exportCount:
+              type:
+                - integer
+            exportedToStigg:
+              type:
+                - boolean
+            faviconUrl:
+              type:
+                - string
+            formFileLoginRequired:
+              type:
+                - boolean
+            formSubmissions:
+              type:
+                - integer
+            formsHaveBeenMigrated:
+              type:
+                - boolean
+            googleDomain:
+              type:
+                - string
+            hasHosting:
+              type:
+                - boolean
+            hosting:
+              properties:
+                _deprecatedTierName:
+                  type:
+                    - string
+                addons:
+                  type:
+                    - array
+                capabilities:
+                  type:
+                    - object
+                compatibleAddons:
+                  type:
+                    - array
+                displayName:
+                  type:
+                    - string
+                id:
+                  type:
+                    - string
+                interval:
+                  type:
+                    - string
+                kind:
+                  type:
+                    - string
+                metadata:
+                  type:
+                    - object
+                monthlyPrices:
+                  type:
+                    - object
+                name:
+                  type:
+                    - string
+                paidUntil:
+                  type:
+                    - string
+                plan:
+                  type:
+                    - string
+                prices:
+                  type:
+                    - array
+                pricingModel:
+                  type:
+                    - string
+                pricingRules:
+                  type:
+                    - object
+                site:
+                  type:
+                    - string
+                sites:
+                  type:
+                    - array
+                stripeProductId:
+                  type:
+                    - string
+                stripeSubscriptionId:
+                  type:
+                    - string
+                subscriptionId:
+                  type:
+                    - string
+                yearlyPrices:
+                  type:
+                    - object
+              type: object
+            hostingPlanName:
+              type:
+                - string
+            indexPage:
+              type:
+                - string
+            installedMarketplaceResources:
+              items:
+                type: object
+              type: array
+            isExpired:
+              type:
+                - integer
+            isStagingPrivate:
+              type:
+                - boolean
+            lastExport:
+              type:
+                - string
+            lastFormInvoice:
+              type:
+                - string
+            lastPublicationId:
+              type:
+                - string
+            lastPublished:
+              type:
+                - string
+            lastPublishedBy:
+              type:
+                - string
+            lastSearchIndex:
+              type:
+                - string
+            lastSearchIndexAuto:
+              type:
+                - string
+            lastSearchIndexManual: {}
+            lastSnapped:
+              type:
+                - string
+            lastUpdated:
+              type:
+                - string
+            lockDeletion:
+              type:
+                - boolean
+            lockedReason: {}
+            maxPages: {}
+            name:
+              type:
+                - string
+            newFormDatas:
+              type:
+                - integer
+            oldPreviewId:
+              type:
+                - string
+            persistentUIState:
+              properties:
+                addTabVisibilityStates:
+                  type:
+                    - object
+                auditResultsIgnored:
+                  type:
+                    - array
+                auditResultsRead:
+                  type:
+                    - array
+                logicLibraryVisibilityStates:
+                  type:
+                    - object
+                numSiteVisit:
+                  type:
+                    - integer
+                pageSettingVisibilityStates:
+                  type:
+                    - object
+                pageVisibilityStates:
+                  type:
+                    - object
+                stylePanelVisibilityStates:
+                  type:
+                    - object
+              type: object
+            previewId:
+              type:
+                - string
+            previewUrl:
+              type:
+                - string
+            previewUrlSm:
+              type:
+                - string
+            public:
+              type:
+                - boolean
+            recaptchaRequired:
+              type:
+                - boolean
+            recaptchaSecretKey: {}
+            recaptchaSiteKey: {}
+            responsiveImages:
+              type:
+                - boolean
+            roles:
+              properties:
+                site:
+                  type:
+                    - string
+                workspace:
+                  type:
+                    - string
+              type: object
+            searchIndexMode:
+              type:
+                - string
+            searchIndexShard:
+              type:
+                - string
+            searchIndexSlice:
+              type:
+                - string
+            shortName:
+              type:
+                - string
+            siteCredits:
+              items:
+                type: object
+              type: array
+            siteFileDependenciesInitialized:
+              type:
+                - boolean
+            siteSpecificAccess:
+              type:
+                - boolean
+            sslHosting:
+              type:
+                - boolean
+            styleCount:
+              type:
+                - integer
+            styleOps:
+              type:
+                - integer
+            template: {}
+            templateOf:
+              type:
+                - string
+            timezone:
+              type:
+                - string
+            version:
+              type:
+                - integer
+            webClipUrl:
+              type:
+                - string
+            workspace:
+              type:
+                - string
+          type: string
+        type: array
+      legacy team id:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      modal name:
+        type:
+          - string
+      modal type:
+        type:
+          - string
+      page:
+        type:
+          - string
+      page section:
+        type:
+          - string
+      page step:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      position on page:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      scroll:
+        type:
+          - string
+      site id: {}
+      site ids:
+        items:
+          type: string
+        type: array
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      siteId: {}
+      skills:
+        items:
+          type: string
+        type: array
+      source:
+        type:
+          - string
+      sso:
+        type:
+          - boolean
+      surface area:
+        type:
+          - string
+      target:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      type:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

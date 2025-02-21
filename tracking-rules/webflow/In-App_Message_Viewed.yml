@@ -1,0 +1,62 @@
+rules:
+  - key: In-App Message Viewed
+    type: TRACK
+    description: In-App Message Viewed
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      ids:
+        items:
+          type: string
+        type: array
+      legacy team id:
+        type:
+          - string
+      location:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

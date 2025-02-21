@@ -1,0 +1,78 @@
+rules:
+  - key: Survey Submitted
+    type: TRACK
+    description: Survey Submitted
+    version: 1
+    labels: {}
+    properties:
+      comments: {}
+      is frequency survey:
+        type:
+          - boolean
+      plan type:
+        type:
+          - string
+      reason frequency:
+        items:
+          type: string
+        type: array
+      reason noLongerNeedFeatures:
+        items:
+          type: string
+        type: array
+      reason siteDowngradeReason:
+        items:
+          type: string
+        type: array
+      reason workspaceDowngradeReason:
+        items:
+          type: string
+        type: array
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan selected:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      survey type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan selected:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

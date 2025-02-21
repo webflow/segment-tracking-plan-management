@@ -1,0 +1,196 @@
+rules:
+  - key: Visit Workspace Profile
+    type: TRACK
+    description: Visit Workspace Profile
+    version: 1
+    labels: {}
+    properties:
+      designer:
+        type:
+          - string
+      hasTestimonials:
+        type:
+          - boolean
+      isExpert:
+        type:
+          - boolean
+      isOwnProfile:
+        type:
+          - boolean
+      numShowcasedSites:
+        type:
+          - integer
+      param/edit:
+        type:
+          - string
+      param<br:
+        type:
+          - string
+      paramBvred:
+        type:
+          - string
+      paramDarkschemeovr:
+        type:
+          - string
+      paramDescriptionFromFileType:
+        type:
+          - string
+      paramEdit:
+        type:
+          - string
+      paramFbclid:
+        type:
+          - string
+      paramGad_source:
+        type:
+          - string
+      paramGclid:
+        type:
+          - string
+      paramGidzl:
+        type:
+          - string
+      paramGspk:
+        type:
+          - string
+      paramGsxid:
+        type:
+          - string
+      paramLtclid:
+        type:
+          - string
+      paramMbstx:
+        type:
+          - string
+      paramMkt_tok:
+        type:
+          - string
+      paramMode:
+        type:
+          - string
+      paramNbcs:
+        type:
+          - string
+      paramOikm:
+        type:
+          - string
+      paramPs_partner:
+        type:
+          - string
+      paramPs_partner_key:
+        type:
+          - string
+      paramPs_xid:
+        type:
+          - string
+      paramRef:
+        type:
+          - string
+      paramReferrer:
+        type:
+          - string
+      paramResubmit:
+        type:
+          - string
+      paramRfsn:
+        type:
+          - string
+      paramRoutes:
+        items:
+          type: string
+        type: array
+      paramS:
+        type:
+          - string
+      paramSid1:
+        type:
+          - string
+      paramSlug:
+        type:
+          - string
+      paramSource:
+        type:
+          - string
+      paramSpm:
+        type:
+          - string
+      paramStatus:
+        type:
+          - string
+      paramTest1:
+        type:
+          - string
+      paramTest2:
+        type:
+          - string
+      paramTrk:
+        type:
+          - string
+      paramUtm_adgroup:
+        type:
+          - string
+      paramUtm_adname:
+        type:
+          - string
+      paramUtm_camapign:
+        type:
+          - string
+      paramUtm_campaign:
+        type:
+          - string
+      paramUtm_content:
+        type:
+          - string
+      paramUtm_medium:
+        items:
+          type: string
+        type: array
+      paramUtm_source:
+        type:
+          - string
+      paramUtm_term:
+        type:
+          - string
+      paramUybv:
+        type:
+          - string
+      paramVia:
+        type:
+          - string
+      paramZarsrc:
+        type:
+          - string
+      param_se:
+        type:
+          - string
+      param_x_tr_hist:
+        type:
+          - string
+      profileId:
+        type:
+          - string
+      profileName:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      referrer: {}
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

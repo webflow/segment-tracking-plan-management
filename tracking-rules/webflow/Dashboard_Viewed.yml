@@ -1,0 +1,66 @@
+rules:
+  - key: Dashboard Viewed
+    type: TRACK
+    description: Dashboard Viewed
+    version: 1
+    labels: {}
+    properties:
+      legacy team id:
+        type:
+          - string
+      page:
+        type:
+          - string
+      ref:
+        items:
+          type: string
+        type: array
+      section:
+        type:
+          - string
+      site id: {}
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      siteId: {}
+      source:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

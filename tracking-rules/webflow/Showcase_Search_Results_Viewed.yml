@@ -1,0 +1,29 @@
+rules:
+  - key: Showcase Search Results Viewed
+    type: TRACK
+    description: Showcase Search Results Viewed
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string
+      search:
+        items:
+          type: string
+        type: array
+      site id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

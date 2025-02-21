@@ -1,0 +1,13 @@
+rules:
+  - key: Intent Detected
+    type: TRACK
+    description: Intent Detected
+    version: 1
+    labels: {}
+    properties:
+      currentIntent:
+        type:
+          - string
+      intent:
+        type:
+          - string

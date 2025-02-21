@@ -1,0 +1,52 @@
+rules:
+  - key: Project Published
+    type: TRACK
+    description: Project Published
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      branch id: {}
+      designer mode:
+        type:
+          - string
+      location:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      source:
+        type:
+          - string
+      target:
+        items:
+          type: string
+        type: array
+      targets:
+        items:
+          type: string
+        type: array
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      type:
+        items:
+          type: string
+        type: array
+      wf session id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Marketplace Category Clicked
+    type: TRACK
+    description: Marketplace Category Clicked
+    version: 1
+    labels: {}
+    properties:
+      category:
+        type:
+          - string

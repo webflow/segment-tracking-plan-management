@@ -1,0 +1,22 @@
+rules:
+  - key: Project Transferred
+    type: TRACK
+    description: Project Transferred
+    version: 1
+    labels: {}
+    properties:
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      target id:
+        type:
+          - string
+      target type:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

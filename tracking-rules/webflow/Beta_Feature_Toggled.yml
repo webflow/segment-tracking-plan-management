@@ -1,0 +1,19 @@
+rules:
+  - key: Beta Feature Toggled
+    type: TRACK
+    description: Beta Feature Toggled
+    version: 1
+    labels: {}
+    properties:
+      beta flag:
+        type:
+          - string
+      source:
+        type:
+          - string
+      value:
+        type:
+          - boolean
+      wf_source:
+        type:
+          - string

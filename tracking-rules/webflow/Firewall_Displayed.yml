@@ -1,0 +1,10 @@
+rules:
+  - key: Firewall Displayed
+    type: TRACK
+    description: Firewall Displayed
+    version: 1
+    labels: {}
+    properties:
+      intent:
+        type:
+          - string

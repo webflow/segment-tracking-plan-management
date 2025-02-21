@@ -1,0 +1,28 @@
+rules:
+  - key: University Lesson Completed
+    type: TRACK
+    description: University Lesson Completed
+    version: 1
+    labels: {}
+    properties:
+      course:
+        type:
+          - string
+      course progress:
+        type:
+          - integer
+      lesson name:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      video id:
+        type:
+          - string

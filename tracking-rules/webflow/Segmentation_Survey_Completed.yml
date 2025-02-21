@@ -1,0 +1,152 @@
+rules:
+  - key: Segmentation Survey Completed
+    type: TRACK
+    description: Segmentation Survey Completed
+    version: 1
+    labels: {}
+    properties:
+      become expert interest:
+        type:
+          - string
+      build:
+        items:
+          type: string
+        type: array
+      building for:
+        type:
+          - string
+      buildingFor: {}
+      buildingForList:
+        items:
+          type: string
+        type: array
+      business owner:
+        type:
+          - boolean
+      client work:
+        items:
+          type: string
+        type: array
+      clientWorkType:
+        type:
+          - string
+      coding experience:
+        type:
+          - string
+      coding level:
+        type:
+          - integer
+      codingExperienceMap:
+        type:
+          - string
+      codingExperienceMapped:
+        type:
+          - integer
+      company size: {}
+      consent required:
+        type:
+          - boolean
+      design experience level:
+        type:
+          - string
+      email opt-in:
+        type:
+          - boolean
+      existing site issues:
+        items:
+          type: string
+        type: array
+      'existing site issues: other':
+        type:
+          - string
+      existing site platform:
+        type:
+          - string
+      'existing site platform: other':
+        type:
+          - string
+      hire expert interest:
+        type:
+          - string
+      hireExpert: {}
+      isStudent: {}
+      number of steps:
+        type:
+          - integer
+      onboarding questionnaire submitted:
+        type:
+          - string
+      onboarding questionnaire version:
+        type:
+          - string
+      persona:
+        type:
+          - string
+      pre-checked email opt-in:
+        type:
+          - boolean
+      primary site creator:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      role:
+        type:
+          - string
+      segmentation category:
+        type:
+          - string
+      site id: {}
+      siteBuild:
+        type:
+          - string
+      siteId: {}
+      source:
+        type:
+          - string
+      submission source:
+        type:
+          - string
+      subscribed to newsletter:
+        type:
+          - boolean
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      type of site:
+        type:
+          - string
+      'type of site: other':
+        type:
+          - string
+      user has pre-webflow site:
+        type:
+          - boolean
+      userVerified:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workplace: {}
+      workplaceSize:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

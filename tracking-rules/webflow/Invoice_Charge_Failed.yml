@@ -1,0 +1,38 @@
+rules:
+  - key: Invoice Charge Failed
+    type: TRACK
+    description: Invoice Charge Failed
+    version: 1
+    labels: {}
+    properties:
+      attempt:
+        type:
+          - integer
+      card type:
+        type:
+          - string
+      item:
+        type:
+          - string
+      item slug: {}
+      last 4 digits:
+        type:
+          - string
+      message:
+        type:
+          - string
+      owner kind:
+        type:
+          - string
+      plan name:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

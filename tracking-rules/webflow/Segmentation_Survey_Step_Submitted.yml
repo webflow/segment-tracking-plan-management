@@ -1,0 +1,73 @@
+rules:
+  - key: Segmentation Survey Step Submitted
+    type: TRACK
+    description: Segmentation Survey Step Submitted
+    version: 1
+    labels: {}
+    properties:
+      business owner:
+        type:
+          - boolean
+      email opt-in:
+        type:
+          - boolean
+      option order:
+        items:
+          type: string
+        type: array
+      options selected:
+        items:
+          type: string
+        type: array
+      position of selected option:
+        type:
+          - integer
+      pre-checked email opt-in:
+        type:
+          - boolean
+      ref:
+        type:
+          - string
+      site id: {}
+      siteId: {}
+      step name:
+        type:
+          - string
+      step number:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      trigger source:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

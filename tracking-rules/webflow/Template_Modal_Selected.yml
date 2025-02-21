@@ -1,0 +1,16 @@
+rules:
+  - key: Template Modal Selected
+    type: TRACK
+    description: Template Modal Selected
+    version: 1
+    labels: {}
+    properties:
+      category:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      type:
+        type:
+          - string

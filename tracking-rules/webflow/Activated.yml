@@ -1,0 +1,28 @@
+rules:
+  - key: Activated
+    type: TRACK
+    description: Activated
+    version: 1
+    labels: {}
+    properties:
+      activated_at:
+        type:
+          - string
+      days_to_activate:
+        type:
+          - string
+      hours_to_activate:
+        type:
+          - string
+      minutes_to_activate:
+        type:
+          - string
+      months_to_activation:
+        type:
+          - string
+      site_id:
+        type:
+          - string
+      weeks_to_activation:
+        type:
+          - string

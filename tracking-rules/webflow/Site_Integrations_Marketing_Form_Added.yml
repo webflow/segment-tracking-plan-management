@@ -1,0 +1,907 @@
+rules:
+  - key: Site Integrations Marketing Form Added
+    type: TRACK
+    description: Site Integrations Marketing Form Added
+    version: 1
+    labels: {}
+    properties:
+      formName:
+        type:
+          - string
+      integration:
+        properties:
+          __v:
+            type:
+              - integer
+          _id:
+            type:
+              - string
+          createdOn:
+            type:
+              - string
+          fieldMapping:
+            properties:
+              '0':
+                type:
+                  - string
+              ABM:
+                type:
+                  - string
+              AOL:
+                type:
+                  - string
+              Attachment:
+                type:
+                  - string
+              Audience Type:
+                type:
+                  - string
+              Autoblog:
+                type:
+                  - string
+              Booth Talks And Swag 2:
+                type:
+                  - string
+              Brand:
+                type:
+                  - string
+              Business Email:
+                type:
+                  - string
+              Business Email Address:
+                type:
+                  - string
+              Business Email Address 2:
+                type:
+                  - string
+              CRM System:
+                type:
+                  - string
+              Campaigns:
+                type:
+                  - string
+              Checkbox:
+                type:
+                  - string
+              Checkbox 2:
+                type:
+                  - string
+              City:
+                type:
+                  - string
+              Company:
+                type:
+                  - string
+              Company 2:
+                type:
+                  - string
+              Company Name:
+                type:
+                  - string
+              Company Name 2:
+                type:
+                  - string
+              Company Size:
+                type:
+                  - string
+              Company Updates Checkbox:
+                type:
+                  - string
+              Company name:
+                type:
+                  - string
+              Company-DSP:
+                type:
+                  - string
+              CompanyOO:
+                type:
+                  - string
+              CompanyRMN:
+                type:
+                  - string
+              CompanySize:
+                type:
+                  - string
+              Connect With Team 2:
+                type:
+                  - string
+              Connector Phase:
+                type:
+                  - string
+              Consent:
+                type:
+                  - string
+              Consent Given:
+                type:
+                  - string
+              Consent Given Marketing:
+                type:
+                  - string
+              Consent Given ROW:
+                type:
+                  - string
+              Consent_Type__c:
+                type:
+                  - string
+              Contact Email:
+                type:
+                  - string
+              Country:
+                type:
+                  - string
+              Country-DSP:
+                type:
+                  - string
+              CountryOO:
+                type:
+                  - string
+              CountryRMN:
+                type:
+                  - string
+              Crowdstrike:
+                type:
+                  - string
+              Describe Company:
+                type:
+                  - string
+              Description:
+                type:
+                  - string
+              Dial code:
+                type:
+                  - string
+              Educational Content Checkbox:
+                type:
+                  - string
+              Email:
+                type:
+                  - string
+              Email 2:
+                type:
+                  - string
+              Email 3:
+                type:
+                  - string
+              Email 4:
+                type:
+                  - string
+              Email Address:
+                type:
+                  - string
+              Email-DSP:
+                type:
+                  - string
+              EmailOO:
+                type:
+                  - string
+              EmailRMN:
+                type:
+                  - string
+              Employer Email:
+                type:
+                  - string
+              Employer First Name:
+                type:
+                  - string
+              Employer Last Name:
+                type:
+                  - string
+              Employer Role:
+                type:
+                  - string
+              Engadget:
+                type:
+                  - string
+              Events Checkbox:
+                type:
+                  - string
+              Field:
+                type:
+                  - string
+              Field 12:
+                type:
+                  - string
+              Field 2:
+                type:
+                  - string
+              Field 9:
+                type:
+                  - string
+              Film + animation:
+                type:
+                  - string
+              First Name:
+                type:
+                  - string
+              First Name 2:
+                type:
+                  - string
+              First name:
+                type:
+                  - string
+              FirstName:
+                type:
+                  - string
+              FirstName-DSP:
+                type:
+                  - string
+              FirstNameOO:
+                type:
+                  - string
+              FirstNameRMN:
+                type:
+                  - string
+              Firstname:
+                type:
+                  - string
+              Full Name:
+                type:
+                  - string
+              Have you formed a legal entity yet?:
+                type:
+                  - string
+              Hidden:
+                type:
+                  - string
+              How many homes per year:
+                type:
+                  - string
+              IPAddress:
+                type:
+                  - string
+              Interest:
+                type:
+                  - string
+              Job Function:
+                type:
+                  - string
+              Job Title:
+                type:
+                  - string
+              JobTitle:
+                type:
+                  - string
+              Jobtitle:
+                type:
+                  - string
+              Last Name:
+                type:
+                  - string
+              Last Name 2:
+                type:
+                  - string
+              Last Name 3:
+                type:
+                  - string
+              Last name:
+                type:
+                  - string
+              LastName:
+                type:
+                  - string
+              LastName-DSP:
+                type:
+                  - string
+              LastNameOO:
+                type:
+                  - string
+              LastNameRMN:
+                type:
+                  - string
+              Lastname:
+                type:
+                  - string
+              Lead generation:
+                type:
+                  - string
+              Location:
+                type:
+                  - string
+              Market:
+                type:
+                  - string
+              Marketing Consent 2:
+                type:
+                  - string
+              MarketingConsent:
+                type:
+                  - string
+              MarketingConsent-DSP:
+                type:
+                  - string
+              MarketingConsentOO:
+                type:
+                  - string
+              Message:
+                type:
+                  - string
+              Message Long:
+                type:
+                  - string
+              Mobile Phone:
+                type:
+                  - string
+              MobilePhone:
+                type:
+                  - string
+              MobilePhone-DSP:
+                type:
+                  - string
+              MobilePhoneOO:
+                type:
+                  - string
+              MobilePhoneRMN:
+                type:
+                  - string
+              My role in homebuilding is:
+                type:
+                  - string
+              Name:
+                type:
+                  - string
+              Name 2:
+                type:
+                  - string
+              Name 3:
+                type:
+                  - string
+              Name 4:
+                type:
+                  - string
+              Needs help with:
+                type:
+                  - string
+              Netsuite:
+                type:
+                  - string
+              Newsletter Checkbox:
+                type:
+                  - string
+              No renewals:
+                type:
+                  - string
+              Number of Employees:
+                type:
+                  - string
+              Opt in:
+                type:
+                  - string
+              Original_Lead_Source_Detail__c:
+                type:
+                  - string
+              Original_Lead_Source__c:
+                type:
+                  - string
+              Other:
+                type:
+                  - string
+              Other renewals:
+                type:
+                  - string
+              Phone:
+                type:
+                  - string
+              Phone 2:
+                type:
+                  - string
+              Phone Number:
+                type:
+                  - string
+              Platform:
+                type:
+                  - string
+              Preferred language:
+                type:
+                  - string
+              Primary Reason for Refering:
+                type:
+                  - string
+              Priority Rating:
+                type:
+                  - string
+              Project Summary:
+                type:
+                  - string
+              Project To Product Workshop 2:
+                type:
+                  - string
+              Project-Summary:
+                type:
+                  - string
+              QuarterlyBudget:
+                type:
+                  - string
+              Questions or Comments:
+                type:
+                  - string
+              Receive offers:
+                type:
+                  - string
+              Recent_Lead_Source_Detail__c:
+                type:
+                  - string
+              Recent_Lead_Source__c:
+                type:
+                  - string
+              Referal Department:
+                type:
+                  - string
+              Referral Email Address:
+                type:
+                  - string
+              Referral First Name:
+                type:
+                  - string
+              Referral Last Name:
+                type:
+                  - string
+              Referral Title:
+                type:
+                  - string
+              Renewals:
+                type:
+                  - string
+              Role:
+                type:
+                  - string
+              Salesforce:
+                type:
+                  - string
+              Select Country:
+                type:
+                  - string
+              Select Inquiry Email Address:
+                type:
+                  - string
+              Server ID:
+                type:
+                  - string
+              Slack:
+                type:
+                  - string
+              State:
+                type:
+                  - string
+              State / Province:
+                type:
+                  - string
+              Strategy:
+                type:
+                  - string
+              Subject:
+                type:
+                  - string
+              Subscribe:
+                type:
+                  - string
+              TechCrunch:
+                type:
+                  - string
+              Tell us more:
+                type:
+                  - string
+              Terms Checkbox:
+                type:
+                  - string
+              The Cadillac Three 2:
+                type:
+                  - string
+              Title:
+                type:
+                  - string
+              Topic:
+                type:
+                  - string
+              UTM Campaign:
+                type:
+                  - string
+              UTM Content:
+                type:
+                  - string
+              UTM Medium:
+                type:
+                  - string
+              UTM Source:
+                type:
+                  - string
+              UTM Term:
+                type:
+                  - string
+              Unsubscribe Checkbox:
+                type:
+                  - string
+              Use Clair as employer or employee?:
+                type:
+                  - string
+              User ID:
+                type:
+                  - string
+              Webinars Checkbox:
+                type:
+                  - string
+              Website:
+                type:
+                  - string
+              Website-DSP:
+                type:
+                  - string
+              WebsiteOO:
+                type:
+                  - string
+              WebsiteRMN:
+                type:
+                  - string
+              Work Email:
+                type:
+                  - string
+              Xbox:
+                type:
+                  - string
+              Yahoo:
+                type:
+                  - string
+              YahooEntertainment:
+                type:
+                  - string
+              YahooFinance:
+                type:
+                  - string
+              YahooLife:
+                type:
+                  - string
+              YahooMail:
+                type:
+                  - string
+              YahooNews:
+                type:
+                  - string
+              YahooSports:
+                type:
+                  - string
+              Your First Name:
+                type:
+                  - string
+              Your Last Name:
+                type:
+                  - string
+              Your email:
+                type:
+                  - string
+              YourCRM:
+                type:
+                  - string
+              Zoom:
+                type:
+                  - string
+              address:
+                type:
+                  - string
+              adpr:
+                type:
+                  - string
+              annual_revenue:
+                type:
+                  - string
+              budget:
+                type:
+                  - string
+              campaign:
+                type:
+                  - string
+              channel:
+                type:
+                  - string
+              city:
+                type:
+                  - string
+              code:
+                type:
+                  - string
+              comments:
+                type:
+                  - string
+              company:
+                type:
+                  - string
+              company-name:
+                type:
+                  - string
+              companyType:
+                type:
+                  - string
+              company_name:
+                type:
+                  - string
+              company_role:
+                type:
+                  - string
+              company_role_new:
+                type:
+                  - string
+              company_size:
+                type:
+                  - string
+              consultation:
+                type:
+                  - string
+              creative:
+                type:
+                  - string
+              description:
+                type:
+                  - string
+              design:
+                type:
+                  - string
+              do_not_sell_preference:
+                type:
+                  - string
+              email:
+                type:
+                  - string
+              field:
+                type:
+                  - string
+              first-name:
+                type:
+                  - string
+              firstName:
+                type:
+                  - string
+              first_name:
+                type:
+                  - string
+              firstname:
+                type:
+                  - string
+              formRef:
+                type:
+                  - string
+              formUrl:
+                type:
+                  - string
+              formid:
+                type:
+                  - string
+              found-through:
+                type:
+                  - string
+              function:
+                type:
+                  - string
+              gclid:
+                type:
+                  - string
+              hidden 1:
+                type:
+                  - string
+              how_did_you_learn_about_insense_:
+                type:
+                  - string
+              ip_country_geojs:
+                type:
+                  - string
+              job-title:
+                type:
+                  - string
+              last-name:
+                type:
+                  - string
+              lastName:
+                type:
+                  - string
+              last_name:
+                type:
+                  - string
+              lastname:
+                type:
+                  - string
+              lt_utm_campaign__c:
+                type:
+                  - string
+              lt_utm_medium__c:
+                type:
+                  - string
+              lt_utm_source__c:
+                type:
+                  - string
+              lt_utm_term__c:
+                type:
+                  - string
+              message:
+                type:
+                  - string
+              mobile:
+                type:
+                  - string
+              mpr:
+                type:
+                  - string
+              munchkinId:
+                type:
+                  - string
+              nb-confirmation-token:
+                type:
+                  - string
+              nb-result:
+                type:
+                  - string
+              nb-transaction-token:
+                type:
+                  - string
+              numberOfEvents:
+                type:
+                  - string
+              opt-in:
+                type:
+                  - string
+              pages:
+                type:
+                  - string
+              phone:
+                type:
+                  - string
+              phone number:
+                type:
+                  - string
+              placement:
+                type:
+                  - string
+              pr:
+                type:
+                  - string
+              pr2:
+                type:
+                  - string
+              pr3:
+                type:
+                  - string
+              pr4:
+                type:
+                  - string
+              reason_for_contacting:
+                type:
+                  - string
+              referrer-email:
+                type:
+                  - string
+              select2-results__option:
+                type:
+                  - string
+              self_identified_persona:
+                type:
+                  - string
+              source:
+                type:
+                  - string
+              source-URL:
+                type:
+                  - string
+              sourcedetail:
+                type:
+                  - string
+              special_instructions_for_mailing:
+                type:
+                  - string
+              state:
+                type:
+                  - string
+              tellUSMore:
+                type:
+                  - string
+              terms:
+                type:
+                  - string
+              urlPath:
+                type:
+                  - string
+              use_case:
+                type:
+                  - string
+              user-agent:
+                type:
+                  - string
+              utm_campaign:
+                type:
+                  - string
+              utm_content:
+                type:
+                  - string
+              utm_medium:
+                type:
+                  - string
+              utm_source:
+                type:
+                  - string
+              utm_term:
+                type:
+                  - string
+              webflow:
+                type:
+                  - string
+              website:
+                type:
+                  - string
+              website_Company:
+                type:
+                  - string
+              website_FirstName:
+                type:
+                  - string
+              website_LastName:
+                type:
+                  - string
+              website_Topic:
+                type:
+                  - string
+              website_comments:
+                type:
+                  - string
+              website_country:
+                type:
+                  - string
+              website_email:
+                type:
+                  - string
+              what_best_describes_your_business_:
+                type:
+                  - string
+              zip:
+                type:
+                  - string
+            type: object
+          integrationAuth:
+            type:
+              - string
+          metadata:
+            properties:
+              hubspotFormId:
+                type:
+                  - string
+              hubspotFormName:
+                type:
+                  - string
+              marketoFormId:
+                type:
+                  - integer
+              marketoFormName:
+                type:
+                  - string
+            type: object
+          site:
+            type:
+              - string
+          webflowFormName:
+            type:
+              - string
+        type: object
+      legacy team id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      siteName:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,31 @@
+rules:
+  - key: Workspace Invitation Canceled
+    type: TRACK
+    description: Workspace Invitation Canceled
+    version: 1
+    labels: {}
+    properties:
+      email:
+        type:
+          - string
+      recipient role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace invite id:
+        type:
+          - string
+      workspace name:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string

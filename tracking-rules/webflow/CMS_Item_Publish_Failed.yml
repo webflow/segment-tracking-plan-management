@@ -1,0 +1,25 @@
+rules:
+  - key: CMS Item Publish Failed
+    type: TRACK
+    description: CMS Item Publish Failed
+    version: 1
+    labels: {}
+    properties:
+      failure reason:
+        type:
+          - string
+      failure_reason:
+        type:
+          - string
+      publish type:
+        type:
+          - string
+      publish_type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

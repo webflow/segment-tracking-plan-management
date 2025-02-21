@@ -1,0 +1,10 @@
+rules:
+  - key: Email Verification Sent
+    type: TRACK
+    description: Email Verification Sent
+    version: 1
+    labels: {}
+    properties:
+      wf_source:
+        type:
+          - string

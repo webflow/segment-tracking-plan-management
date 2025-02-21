@@ -1,0 +1,35 @@
+rules:
+  - key: Mobile Onboarding Page Viewed
+    type: TRACK
+    description: Mobile Onboarding Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      site id: {}
+      siteId: {}
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

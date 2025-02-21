@@ -1,0 +1,49 @@
+rules:
+  - key: Project Deleted
+    type: TRACK
+    description: Project Deleted
+    version: 1
+    labels: {}
+    properties:
+      admin action:
+        type:
+          - boolean
+      legacy team id:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      source:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

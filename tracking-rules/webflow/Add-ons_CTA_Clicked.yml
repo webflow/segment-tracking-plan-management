@@ -1,0 +1,64 @@
+rules:
+  - key: Add-ons CTA Clicked
+    type: TRACK
+    description: Add-ons CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      button action and type:
+        type:
+          - string
+      button cta:
+        type:
+          - string
+      page:
+        type:
+          - string
+      page section:
+        type:
+          - string
+      position on page:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      source:
+        type:
+          - string
+      surface area:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

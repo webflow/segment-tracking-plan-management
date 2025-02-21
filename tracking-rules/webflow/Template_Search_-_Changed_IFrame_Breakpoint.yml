@@ -1,0 +1,19 @@
+rules:
+  - key: Template Search - Changed IFrame Breakpoint
+    type: TRACK
+    description: Template Search - Changed IFrame Breakpoint
+    version: 1
+    labels: {}
+    properties:
+      changedToBreakpoint:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

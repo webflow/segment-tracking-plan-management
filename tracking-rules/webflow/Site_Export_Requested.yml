@@ -1,0 +1,19 @@
+rules:
+  - key: Site Export Requested
+    type: TRACK
+    description: Site Export Requested
+    version: 1
+    labels: {}
+    properties:
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

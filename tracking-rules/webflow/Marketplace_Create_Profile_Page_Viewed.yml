@@ -1,0 +1,10 @@
+rules:
+  - key: Marketplace Create Profile Page Viewed
+    type: TRACK
+    description: Marketplace Create Profile Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      profileType:
+        type:
+          - string

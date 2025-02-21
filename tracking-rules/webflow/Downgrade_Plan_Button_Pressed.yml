@@ -1,0 +1,107 @@
+rules:
+  - key: Downgrade Plan Button Pressed
+    type: TRACK
+    description: Downgrade Plan Button Pressed
+    version: 1
+    labels: {}
+    properties:
+      comments: {}
+      initial plan frequency:
+        type:
+          - string
+      initial plan level:
+        type:
+          - string
+      new plan frequency:
+        type:
+          - string
+      new plan level:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      promotion applied:
+        type:
+          - boolean
+      reason:
+        items:
+          type: string
+        type: array
+      reason cancel Site plan:
+        type:
+          - string
+      reason cancel Workspace plan:
+        type:
+          - string
+      reason difficult to use:
+        items:
+          type: string
+        type: array
+      reason improvement areas:
+        items:
+          type: string
+        type: array
+      reason missing features:
+        items:
+          type: string
+        type: array
+      reason project canceled:
+        type:
+          - string
+      reason switch to competitor:
+        type:
+          - string
+      reason transferring site:
+        type:
+          - string
+      reason unnecessary features:
+        items:
+          type: string
+        type: array
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      stripe subscription id:
+        type:
+          - string
+      value of new plan: {}
+      workspace id:
+        type:
+          - string
+      workspace initial number of seats:
+        type:
+          - integer
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace new number of seats:
+        type:
+          - integer
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

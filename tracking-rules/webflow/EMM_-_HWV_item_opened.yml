@@ -1,0 +1,19 @@
+rules:
+  - key: EMM - HWV item opened
+    type: TRACK
+    description: EMM - HWV item opened
+    version: 1
+    labels: {}
+    properties:
+      item:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

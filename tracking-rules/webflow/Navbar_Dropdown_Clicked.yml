@@ -1,0 +1,10 @@
+rules:
+  - key: Navbar Dropdown Clicked
+    type: TRACK
+    description: Navbar Dropdown Clicked
+    version: 1
+    labels: {}
+    properties:
+      name:
+        type:
+          - string

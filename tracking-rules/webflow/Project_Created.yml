@@ -1,0 +1,100 @@
+rules:
+  - key: Project Created
+    type: TRACK
+    description: Project Created
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      category:
+        type:
+          - string
+      create method:
+        type:
+          - string
+      from site:
+        type:
+          - string
+      library cost:
+        type:
+          - string
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library selected position: {}
+      price type:
+        type:
+          - string
+      ref:
+        items:
+          type: string
+        type: array
+      site id: {}
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      siteId: {}
+      site_id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      team:
+        items: {}
+        type: array
+      team id: {}
+      teamId: {}
+      template cost:
+        type:
+          - string
+      template id:
+        type:
+          - string
+      template name:
+        type:
+          - string
+      timestamp:
+        type:
+          - integer
+      tutorial:
+        type:
+          - string
+      type:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id: {}
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan: {}
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count: {}
+      workspace slug:
+        type:
+          - string

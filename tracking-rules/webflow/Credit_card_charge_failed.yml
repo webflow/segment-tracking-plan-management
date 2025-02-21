@@ -1,0 +1,7 @@
+rules:
+  - key: Credit card charge failed
+    type: TRACK
+    description: Credit card charge failed
+    version: 1
+    labels: {}
+    properties: {}

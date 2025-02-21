@@ -1,0 +1,13 @@
+rules:
+  - key: Quick Link Clicked
+    type: TRACK
+    description: Quick Link Clicked
+    version: 1
+    labels: {}
+    properties:
+      link:
+        type:
+          - string
+      page:
+        type:
+          - string

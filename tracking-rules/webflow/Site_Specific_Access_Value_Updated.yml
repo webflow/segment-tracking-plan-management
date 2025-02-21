@@ -1,0 +1,19 @@
+rules:
+  - key: Site Specific Access Value Updated
+    type: TRACK
+    description: Site Specific Access Value Updated
+    version: 1
+    labels: {}
+    properties:
+      new site specific access:
+        type:
+          - boolean
+      site id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

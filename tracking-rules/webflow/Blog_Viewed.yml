@@ -1,0 +1,46 @@
+rules:
+  - key: Blog Viewed
+    type: TRACK
+    description: Blog Viewed
+    version: 1
+    labels: {}
+    properties:
+      category:
+        type:
+          - string
+      created at:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      loggedIn:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      post author:
+        type:
+          - string
+      post tag slug:
+        type:
+          - string
+      post title:
+        type:
+          - string
+      published at:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      source:
+        type:
+          - string
+      updated at:
+        type:
+          - string
+      wf session id:
+        type:
+          - string

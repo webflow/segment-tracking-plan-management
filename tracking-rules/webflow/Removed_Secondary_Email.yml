@@ -1,0 +1,7 @@
+rules:
+  - key: Removed Secondary Email
+    type: TRACK
+    description: Removed Secondary Email
+    version: 1
+    labels: {}
+    properties: {}

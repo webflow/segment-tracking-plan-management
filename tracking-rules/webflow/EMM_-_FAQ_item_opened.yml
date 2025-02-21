@@ -1,0 +1,19 @@
+rules:
+  - key: EMM - FAQ item opened
+    type: TRACK
+    description: EMM - FAQ item opened
+    version: 1
+    labels: {}
+    properties:
+      item:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

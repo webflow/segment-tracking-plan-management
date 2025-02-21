@@ -1,0 +1,22 @@
+rules:
+  - key: Site In Site Specific Access Workspace Created
+    type: TRACK
+    description: Site In Site Specific Access Workspace Created
+    version: 1
+    labels: {}
+    properties:
+      creator workspace role:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site specific access:
+        type:
+          - boolean
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

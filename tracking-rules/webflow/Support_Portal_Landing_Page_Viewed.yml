@@ -1,0 +1,7 @@
+rules:
+  - key: Support Portal Landing Page Viewed
+    type: TRACK
+    description: Support Portal Landing Page Viewed
+    version: 1
+    labels: {}
+    properties: {}

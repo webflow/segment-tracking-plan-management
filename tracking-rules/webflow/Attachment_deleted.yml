@@ -1,0 +1,10 @@
+rules:
+  - key: Attachment deleted
+    type: TRACK
+    description: Attachment deleted
+    version: 1
+    labels: {}
+    properties:
+      file:
+        type:
+          - string

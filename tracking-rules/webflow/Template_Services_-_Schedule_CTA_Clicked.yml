@@ -1,0 +1,25 @@
+rules:
+  - key: Template Services - Schedule CTA Clicked
+    type: TRACK
+    description: Template Services - Schedule CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      cta-__cpLocation:
+        type:
+          - string
+      cta-location:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template-name:
+        type:
+          - string

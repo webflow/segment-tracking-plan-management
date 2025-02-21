@@ -1,0 +1,69 @@
+rules:
+  - key: Showcase Viewed
+    type: TRACK
+    description: Showcase Viewed
+    version: 1
+    labels: {}
+    properties:
+      additionalTags:
+        items:
+          type: string
+        type: array
+      clone type:
+        type:
+          - string
+      designer id:
+        type:
+          - string
+      profile:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      section:
+        type:
+          - string
+      showcase collection slug:
+        type:
+          - string
+      showcase section:
+        type:
+          - string
+      showcasedToExpertProfile:
+        type:
+          - boolean
+      showcasedToUserProfile:
+        type:
+          - boolean
+      showcasedToWorkspaceProfile:
+        type:
+          - boolean
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      tags:
+        items:
+          type: string
+        type: array
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

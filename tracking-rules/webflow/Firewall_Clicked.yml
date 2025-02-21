@@ -1,0 +1,10 @@
+rules:
+  - key: Firewall Clicked
+    type: TRACK
+    description: Firewall Clicked
+    version: 1
+    labels: {}
+    properties:
+      intent:
+        type:
+          - string

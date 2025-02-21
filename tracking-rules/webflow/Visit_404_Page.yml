@@ -1,0 +1,8 @@
+rules:
+  - key: Visit 404 Page
+    type: TRACK
+    description: Visit 404 Page
+    version: 1
+    labels: {}
+    properties:
+      source: {}

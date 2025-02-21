@@ -1,0 +1,34 @@
+rules:
+  - key: Site Build Initiated
+    type: TRACK
+    description: Site Build Initiated
+    version: 1
+    labels: {}
+    properties:
+      days to initiate:
+        type:
+          - integer
+      days_to_initiate_build:
+        type:
+          - string
+      hours to initiate:
+        type:
+          - integer
+      hours_to_initiate_build:
+        type:
+          - string
+      initiatedAt:
+        type:
+          - string
+      minutes to initiate:
+        type:
+          - integer
+      minutes_to_initiate_build:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site_id:
+        type:
+          - string

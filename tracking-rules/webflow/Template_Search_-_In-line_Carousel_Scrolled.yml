@@ -1,0 +1,22 @@
+rules:
+  - key: Template Search - In-line Carousel Scrolled
+    type: TRACK
+    description: Template Search - In-line Carousel Scrolled
+    version: 1
+    labels: {}
+    properties:
+      currentSlideIndex:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      nextSlideIndex:
+        type:
+          - string
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Login to get support clicked
+    type: TRACK
+    description: Login to get support clicked
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string

@@ -1,0 +1,25 @@
+rules:
+  - key: University Viewed
+    type: TRACK
+    description: University Viewed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      loggedIn:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf session id:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: Template Services - Service Type Clicked
+    type: TRACK
+    description: Template Services - Service Type Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      service-type:
+        type:
+          - string
+      source:
+        type:
+          - string

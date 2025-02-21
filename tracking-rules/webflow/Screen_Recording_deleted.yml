@@ -1,0 +1,7 @@
+rules:
+  - key: Screen Recording deleted
+    type: TRACK
+    description: Screen Recording deleted
+    version: 1
+    labels: {}
+    properties: {}

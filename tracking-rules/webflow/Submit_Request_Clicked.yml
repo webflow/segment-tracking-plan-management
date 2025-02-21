@@ -1,0 +1,7 @@
+rules:
+  - key: Submit Request Clicked
+    type: TRACK
+    description: Submit Request Clicked
+    version: 1
+    labels: {}
+    properties: {}

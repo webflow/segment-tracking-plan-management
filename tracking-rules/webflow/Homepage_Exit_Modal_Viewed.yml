@@ -1,0 +1,16 @@
+rules:
+  - key: Homepage Exit Modal Viewed
+    type: TRACK
+    description: Homepage Exit Modal Viewed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

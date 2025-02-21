@@ -1,0 +1,34 @@
+rules:
+  - key: Show Required Payment Authentication Notice
+    type: TRACK
+    description: Show Required Payment Authentication Notice
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

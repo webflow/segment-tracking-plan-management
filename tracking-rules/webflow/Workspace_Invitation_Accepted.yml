@@ -1,0 +1,31 @@
+rules:
+  - key: Workspace Invitation Accepted
+    type: TRACK
+    description: Workspace Invitation Accepted
+    version: 1
+    labels: {}
+    properties:
+      recipient role:
+        type:
+          - string
+      recipient site role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace invite id:
+        type:
+          - string
+      workspace name:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string

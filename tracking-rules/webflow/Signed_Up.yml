@@ -1,0 +1,31 @@
+rules:
+  - key: Signed Up
+    type: TRACK
+    description: Signed Up
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

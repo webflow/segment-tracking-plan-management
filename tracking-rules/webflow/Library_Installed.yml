@@ -1,0 +1,26 @@
+rules:
+  - key: Library Installed
+    type: TRACK
+    description: Library Installed
+    version: 1
+    labels: {}
+    properties:
+      install_source:
+        type:
+          - string
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library version:
+        type:
+          - string
+      site id:
+        items:
+          type: string
+        type: array
+      workspace id:
+        type:
+          - string

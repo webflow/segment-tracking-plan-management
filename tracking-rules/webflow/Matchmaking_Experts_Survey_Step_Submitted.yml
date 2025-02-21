@@ -1,0 +1,64 @@
+rules:
+  - key: Matchmaking Experts Survey Step Submitted
+    type: TRACK
+    description: Matchmaking Experts Survey Step Submitted
+    version: 1
+    labels: {}
+    properties:
+      cta:
+        type:
+          - string
+      currentPage:
+        type:
+          - string
+      destinationPage:
+        type:
+          - string
+      options selected:
+        properties:
+          company-industry:
+            type:
+              - string
+          company-name:
+            type:
+              - string
+          company-role:
+            type:
+              - string
+          company-size:
+            type:
+              - string
+          label:
+            type:
+              - string
+          value:
+            type:
+              - string
+        type: object
+      projectUID:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: TS - Budget Option Selected
+    type: TRACK
+    description: TS - Budget Option Selected
+    version: 1
+    labels: {}
+    properties:
+      budget:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

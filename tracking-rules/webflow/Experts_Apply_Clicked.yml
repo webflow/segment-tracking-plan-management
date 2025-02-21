@@ -1,0 +1,22 @@
+rules:
+  - key: Experts Apply Clicked
+    type: TRACK
+    description: Experts Apply Clicked
+    version: 1
+    labels: {}
+    properties:
+      cta:
+        type:
+          - string
+      location:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

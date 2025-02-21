@@ -1,0 +1,50 @@
+rules:
+  - key: Email Suggestion Page Viewed
+    type: TRACK
+    description: Email Suggestion Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      page:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id: {}
+      site plan type:
+        type:
+          - string
+      siteId: {}
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

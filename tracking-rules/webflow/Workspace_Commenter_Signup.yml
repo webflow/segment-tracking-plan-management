@@ -1,0 +1,25 @@
+rules:
+  - key: Workspace Commenter Signup
+    type: TRACK
+    description: Workspace Commenter Signup
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

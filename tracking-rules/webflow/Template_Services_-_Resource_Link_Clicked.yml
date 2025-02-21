@@ -1,0 +1,19 @@
+rules:
+  - key: Template Services - Resource Link Clicked
+    type: TRACK
+    description: Template Services - Resource Link Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      resource:
+        type:
+          - string
+      source:
+        type:
+          - string

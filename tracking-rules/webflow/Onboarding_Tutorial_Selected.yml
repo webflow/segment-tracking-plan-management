@@ -1,0 +1,10 @@
+rules:
+  - key: Onboarding Tutorial Selected
+    type: TRACK
+    description: Onboarding Tutorial Selected
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string

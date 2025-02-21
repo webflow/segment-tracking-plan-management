@@ -1,0 +1,7 @@
+rules:
+  - key: Submit Request Confirmed
+    type: TRACK
+    description: Submit Request Confirmed
+    version: 1
+    labels: {}
+    properties: {}

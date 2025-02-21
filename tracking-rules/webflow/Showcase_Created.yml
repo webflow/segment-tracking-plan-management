@@ -1,0 +1,20 @@
+rules:
+  - key: Showcase Created
+    type: TRACK
+    description: Showcase Created
+    version: 1
+    labels: {}
+    properties:
+      showcasedToUserProfile:
+        type:
+          - boolean
+      showcasedToWorkspaceProfile:
+        type:
+          - boolean
+      site_id:
+        type:
+          - string
+      tags:
+        items:
+          type: string
+        type: array

@@ -1,0 +1,19 @@
+rules:
+  - key: Marketplace Order Transitioned
+    type: TRACK
+    description: Marketplace Order Transitioned
+    version: 1
+    labels: {}
+    properties:
+      marketplace order:
+        type:
+          - string
+      new status:
+        type:
+          - string
+      old status:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

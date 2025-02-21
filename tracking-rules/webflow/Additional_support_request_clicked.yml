@@ -1,0 +1,13 @@
+rules:
+  - key: Additional support request clicked
+    type: TRACK
+    description: Additional support request clicked
+    version: 1
+    labels: {}
+    properties:
+      label:
+        type:
+          - string
+      location:
+        type:
+          - string

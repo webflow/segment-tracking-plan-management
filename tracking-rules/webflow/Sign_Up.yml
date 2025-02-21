@@ -1,0 +1,151 @@
+rules:
+  - key: Sign Up
+    type: TRACK
+    description: Sign Up
+    version: 1
+    labels: {}
+    properties:
+      beta feature:
+        type:
+          - string
+      beta flag:
+        type:
+          - string
+      city:
+        type:
+          - string
+      country:
+        type:
+          - string
+      email:
+        type:
+          - string
+      first_touch_date:
+        type:
+          - string
+      initial_gclid:
+        type:
+          - string
+      initial_page_url:
+        type:
+          - string
+      initial_referrer:
+        type:
+          - string
+      initial_referring_domain:
+        type:
+          - string
+      initial_utm_campaign:
+        type:
+          - string
+      initial_utm_content:
+        type:
+          - string
+      initial_utm_medium:
+        type:
+          - string
+      initial_utm_source:
+        type:
+          - string
+      initial_utm_term:
+        type:
+          - string
+      invitedToWorkspace:
+        type:
+          - boolean
+      is previous user:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      marketing vertical code:
+        type:
+          - string
+      page:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      presignup_breadcrumbs:
+        items:
+          type: string
+        type: array
+      ref:
+        type:
+          - string
+      refId: {}
+      referrer affiliate click timestamp:
+        type:
+          - string
+      referrer affiliate id:
+        type:
+          - string
+      referrer partner key:
+        type:
+          - string
+      school: {}
+      signup method:
+        type:
+          - string
+      site id: {}
+      siteId: {}
+      source:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp: {}
+      transactionId: {}
+      trialEndsAt:
+        type:
+          - string
+      trigger: {}
+      type: {}
+      userAgent:
+        type:
+          - string
+      via: {}
+      wf session id:
+        type:
+          - string
+      wf_initial_referrer:
+        type:
+          - string
+      wf_initial_utm_campaign:
+        type:
+          - string
+      wf_initial_utm_content:
+        type:
+          - string
+      wf_initial_utm_medium:
+        type:
+          - string
+      wf_initial_utm_source:
+        type:
+          - string
+      wf_initial_utm_term:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

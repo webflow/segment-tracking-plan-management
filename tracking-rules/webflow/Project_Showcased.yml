@@ -1,0 +1,34 @@
+rules:
+  - key: Project Showcased
+    type: TRACK
+    description: Project Showcased
+    version: 1
+    labels: {}
+    properties:
+      isSiteCredit:
+        type:
+          - boolean
+      project id:
+        type:
+          - string
+      project image:
+        type:
+          - string
+      project name:
+        type:
+          - string
+      project url:
+        type:
+          - string
+      showcasedToUserProfile:
+        type:
+          - boolean
+      showcasedToWorkspaceProfile:
+        type:
+          - boolean
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

@@ -1,0 +1,16 @@
+rules:
+  - key: Experiment Conflicted
+    type: TRACK
+    description: Experiment Conflicted
+    version: 1
+    labels: {}
+    properties:
+      experiment:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

@@ -1,0 +1,13 @@
+rules:
+  - key: Ecommerce Membership Product Limit Exceeded
+    type: TRACK
+    description: Ecommerce Membership Product Limit Exceeded
+    version: 1
+    labels: {}
+    properties:
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

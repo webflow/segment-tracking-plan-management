@@ -1,0 +1,7 @@
+rules:
+  - key: Add CC Clicked
+    type: TRACK
+    description: Add CC Clicked
+    version: 1
+    labels: {}
+    properties: {}

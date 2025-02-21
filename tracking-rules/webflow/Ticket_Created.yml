@@ -1,0 +1,10 @@
+rules:
+  - key: Ticket Created
+    type: TRACK
+    description: Ticket Created
+    version: 1
+    labels: {}
+    properties:
+      ticketId:
+        type:
+          - integer

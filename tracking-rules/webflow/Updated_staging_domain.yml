@@ -1,0 +1,7 @@
+rules:
+  - key: Updated staging domain
+    type: TRACK
+    description: Updated staging domain
+    version: 1
+    labels: {}
+    properties: {}

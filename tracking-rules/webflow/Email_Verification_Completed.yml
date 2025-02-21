@@ -1,0 +1,13 @@
+rules:
+  - key: Email Verification Completed
+    type: TRACK
+    description: Email Verification Completed
+    version: 1
+    labels: {}
+    properties:
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

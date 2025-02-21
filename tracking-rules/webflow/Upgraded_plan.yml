@@ -1,0 +1,71 @@
+rules:
+  - key: Upgraded plan
+    type: TRACK
+    description: Upgraded plan
+    version: 1
+    labels: {}
+    properties:
+      city:
+        type:
+          - string
+      client work:
+        items:
+          type: string
+        type: array
+      country:
+        type:
+          - string
+      email:
+        type:
+          - string
+      legacy team id:
+        type:
+          - string
+      plan: {}
+      ref:
+        type:
+          - string
+      site id: {}
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      siteId: {}
+      team id: {}
+      teamId: {}
+      timestamp: {}
+      transactionId:
+        type:
+          - string
+      userAgent:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

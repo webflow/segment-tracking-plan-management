@@ -1,0 +1,22 @@
+rules:
+  - key: Partner Hub Page Viewed
+    type: TRACK
+    description: Partner Hub Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      page:
+        type:
+          - string
+      referer:
+        type:
+          - string
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceRole:
+        type:
+          - string

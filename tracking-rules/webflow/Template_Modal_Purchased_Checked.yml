@@ -1,0 +1,10 @@
+rules:
+  - key: Template Modal Purchased Checked
+    type: TRACK
+    description: Template Modal Purchased Checked
+    version: 1
+    labels: {}
+    properties:
+      checked:
+        type:
+          - boolean

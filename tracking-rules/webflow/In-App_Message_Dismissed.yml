@@ -1,0 +1,61 @@
+rules:
+  - key: In-App Message Dismissed
+    type: TRACK
+    description: In-App Message Dismissed
+    version: 1
+    labels: {}
+    properties:
+      __cpLocation:
+        type:
+          - string
+      action:
+        type:
+          - string
+      legacy team id:
+        type:
+          - string
+      location:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

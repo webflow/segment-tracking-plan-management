@@ -1,0 +1,16 @@
+rules:
+  - key: Google One Tap Closed
+    type: TRACK
+    description: Google One Tap Closed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

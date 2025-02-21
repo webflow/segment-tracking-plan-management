@@ -1,0 +1,28 @@
+rules:
+  - key: Hire Page Viewed
+    type: TRACK
+    description: Hire Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      cities:
+        items:
+          type: string
+        type: array
+      countries:
+        items:
+          type: string
+        type: array
+      page:
+        type:
+          - string
+      skills:
+        items:
+          type: string
+        type: array
+      source:
+        type:
+          - string
+      surface area:
+        type:
+          - string

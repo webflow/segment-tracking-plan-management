@@ -1,0 +1,7 @@
+rules:
+  - key: Typed in Swiftype Search
+    type: TRACK
+    description: Typed in Swiftype Search
+    version: 1
+    labels: {}
+    properties: {}

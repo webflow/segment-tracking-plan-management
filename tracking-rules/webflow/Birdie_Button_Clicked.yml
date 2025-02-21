@@ -1,0 +1,7 @@
+rules:
+  - key: Birdie Button Clicked
+    type: TRACK
+    description: Birdie Button Clicked
+    version: 1
+    labels: {}
+    properties: {}

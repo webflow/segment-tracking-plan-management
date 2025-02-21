@@ -1,0 +1,19 @@
+rules:
+  - key: TS - Help Modal Opened
+    type: TRACK
+    description: TS - Help Modal Opened
+    version: 1
+    labels: {}
+    properties:
+      cta-location:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

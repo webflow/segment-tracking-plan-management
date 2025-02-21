@@ -1,0 +1,19 @@
+rules:
+  - key: Specific Access Bulk Value Updated
+    type: TRACK
+    description: Specific Access Bulk Value Updated
+    version: 1
+    labels: {}
+    properties:
+      new site specific access:
+        type:
+          - boolean
+      updated sites count:
+        type:
+          - integer
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

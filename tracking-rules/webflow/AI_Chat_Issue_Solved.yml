@@ -1,0 +1,7 @@
+rules:
+  - key: AI Chat Issue Solved
+    type: TRACK
+    description: AI Chat Issue Solved
+    version: 1
+    labels: {}
+    properties: {}

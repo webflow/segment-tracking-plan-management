@@ -1,0 +1,7 @@
+rules:
+  - key: Squarespace VS Page View
+    type: TRACK
+    description: Squarespace VS Page View
+    version: 1
+    labels: {}
+    properties: {}

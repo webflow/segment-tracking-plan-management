@@ -1,0 +1,410 @@
+rules:
+  - key: Billing Action Tracked
+    type: TRACK
+    description: Billing Action Tracked
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      actorId:
+        type:
+          - string
+      actorType:
+        type:
+          - string
+      billId:
+        type:
+          - string
+      causedBy:
+        properties:
+          admin:
+            type:
+              - string
+          reason:
+            type:
+              - string
+          system:
+            type:
+              - string
+          user:
+            type:
+              - string
+        type: object
+      coupon:
+        properties:
+          __v:
+            type:
+              - integer
+          _id:
+            type:
+              - string
+          allowAccountItems:
+            type:
+              - boolean
+          allowMonthlyBill:
+            type:
+              - boolean
+          allowRetroactiveUse:
+            type:
+              - boolean
+          allowSiteItems:
+            type:
+              - boolean
+          allowTeamItems:
+            type:
+              - boolean
+          allowTemplatePurchases:
+            type:
+              - boolean
+          allowWorkspaceItems:
+            type:
+              - boolean
+          allowYearlyBill:
+            type:
+              - boolean
+          code:
+            type:
+              - string
+          createdBy:
+            type:
+              - string
+          createdOn:
+            type:
+              - string
+          department:
+            type:
+              - string
+          description:
+            type:
+              - string
+          durationInMonths:
+            type:
+              - integer
+          expiresOn:
+            type:
+              - string
+          maxRedemptionsPerUser:
+            type:
+              - integer
+          oneOff:
+            type:
+              - boolean
+          onlyFirstTemplate:
+            type:
+              - boolean
+          onlyPlanId:
+            items:
+              type: string
+            type: array
+          onlySchool:
+            type:
+              - boolean
+          onlyTemplateId:
+            type:
+              - array
+          onlyUnconverted:
+            type:
+              - boolean
+          onlyUserAgeAbove:
+            type:
+              - integer
+          onlyUserAgeUnder:
+            type:
+              - integer
+          percentOff:
+            type:
+              - integer
+          rebateUSD:
+            type:
+              - integer
+          redemptionsLeft:
+            type:
+              - integer
+        type: object
+      currency:
+        type:
+          - string
+      interval:
+        type:
+          - string
+      invoiceTargetSubscriptionId:
+        type:
+          - string
+      item: {}
+      itemId:
+        type:
+          - string
+      kind:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      newPlan:
+        type:
+          - string
+      opts:
+        properties:
+          invoiceTargetSubscriptionId:
+            type:
+              - string
+          removeTeamsHostingPlans:
+            type:
+              - boolean
+        type: object
+      origin: {}
+      ownerId:
+        type:
+          - string
+      ownerType:
+        type:
+          - string
+      partnerCode: {}
+      personId:
+        type:
+          - string
+      pile:
+        properties:
+          __v:
+            type:
+              - integer
+          _id:
+            type:
+              - string
+          archived:
+            type:
+              - boolean
+          chargeUSD:
+            type:
+              - integer
+          createdOn:
+            type:
+              - string
+          creditUSD:
+            type:
+              - integer
+          refill:
+            properties:
+              enabled:
+                type:
+                  - boolean
+              level:
+                type:
+                  - integer
+            type: object
+          target:
+            type:
+              - string
+        type: object
+      plan:
+        type:
+          - string
+      prorate:
+        type:
+          - string
+      removeTeamsHostingPlans:
+        type:
+          - boolean
+      replacement_id: {}
+      siteId:
+        type:
+          - string
+      source:
+        type:
+          - string
+      source_id:
+        type:
+          - string
+      subscriptionId:
+        type:
+          - string
+      targetId:
+        type:
+          - string
+      templateId:
+        type:
+          - string
+      trialEndsAt:
+        type:
+          - string
+      update:
+        properties:
+          causedBy:
+            properties:
+              admin:
+                type:
+                  - string
+            type: object
+          source:
+            type:
+              - string
+        type: object
+      updatedItem:
+        properties:
+          __v:
+            type:
+              - integer
+          _id:
+            type:
+              - string
+          bill:
+            type:
+              - string
+          bulkHostingUsed:
+            type:
+              - boolean
+          createdOn:
+            type:
+              - string
+          delinquentOn: {}
+          discount:
+            properties:
+              addedOn:
+                type:
+                  - string
+              couponData:
+                properties:
+                  __v:
+                    type:
+                      - integer
+                  _id:
+                    type:
+                      - string
+                  allowAccountItems:
+                    type:
+                      - boolean
+                  allowMonthlyBill:
+                    type:
+                      - boolean
+                  allowRetroactiveUse:
+                    type:
+                      - boolean
+                  allowSiteItems:
+                    type:
+                      - boolean
+                  allowTeamItems:
+                    type:
+                      - boolean
+                  allowTemplatePurchases:
+                    type:
+                      - boolean
+                  allowWorkspaceItems:
+                    type:
+                      - boolean
+                  allowYearlyBill:
+                    type:
+                      - boolean
+                  code:
+                    type:
+                      - string
+                  createdBy:
+                    type:
+                      - string
+                  createdOn:
+                    type:
+                      - string
+                  department:
+                    type:
+                      - string
+                  description:
+                    type:
+                      - string
+                  durationInMonths:
+                    type:
+                      - integer
+                  expiresOn:
+                    type:
+                      - string
+                  maxRedemptionsPerUser:
+                    type:
+                      - integer
+                  oneOff:
+                    type:
+                      - boolean
+                  onlyFirstTemplate:
+                    type:
+                      - boolean
+                  onlyPlanId:
+                    type:
+                      - array
+                  onlySchool:
+                    type:
+                      - boolean
+                  onlyTemplateId:
+                    type:
+                      - array
+                  onlyUnconverted:
+                    type:
+                      - boolean
+                  percentOff:
+                    type:
+                      - integer
+                  rebateUSD:
+                    type:
+                      - integer
+                  redemptionsLeft:
+                    type:
+                      - integer
+                type: object
+              migratedFromLegacyBilling:
+                type:
+                  - boolean
+            type: object
+          failedCharges:
+            type:
+              - integer
+          incidentalsLastInvoicedOn:
+            type:
+              - string
+          lastChargeId:
+            type:
+              - string
+          paidUntil:
+            type:
+              - string
+          partnerCode: {}
+          pastDueStripeInvoiceId: {}
+          paysFor:
+            properties:
+              org: {}
+              person: {}
+              sites:
+                items:
+                  type: string
+                type: array
+              workspace: {}
+            type: object
+          plan:
+            type:
+              - string
+          quantity:
+            type:
+              - integer
+          stripe:
+            properties:
+              discountId: {}
+              itemId:
+                type:
+                  - string
+              subscriptionId:
+                type:
+                  - string
+              subscriptionPaidUntil:
+                type:
+                  - string
+            type: object
+          target:
+            type:
+              - string
+        type: object
+      user:
+        properties:
+          email:
+            type:
+              - string
+        type: object
+      wf_source:
+        type:
+          - string

@@ -1,0 +1,12 @@
+rules:
+  - key: Open Update Email Page
+    type: TRACK
+    description: Open Update Email Page
+    version: 1
+    labels: {}
+    properties:
+      site id: {}
+      siteId: {}
+      team id: {}
+      teamId: {}
+      timestamp: {}

@@ -1,0 +1,25 @@
+rules:
+  - key: Required Payment Authentication Failed
+    type: TRACK
+    description: Required Payment Authentication Failed
+    version: 1
+    labels: {}
+    properties:
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

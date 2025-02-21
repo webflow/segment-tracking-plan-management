@@ -1,0 +1,16 @@
+rules:
+  - key: Marketplace Checkout Page Viewed
+    type: TRACK
+    description: Marketplace Checkout Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      can manage workspace billing:
+        type:
+          - boolean
+      is site limit reached:
+        type:
+          - boolean
+      marketplace product id:
+        type:
+          - string

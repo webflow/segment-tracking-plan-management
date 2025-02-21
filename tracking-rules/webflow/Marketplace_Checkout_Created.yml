@@ -1,0 +1,13 @@
+rules:
+  - key: Marketplace Checkout Created
+    type: TRACK
+    description: Marketplace Checkout Created
+    version: 1
+    labels: {}
+    properties:
+      marketplace order id:
+        type:
+          - string
+      workspace slug:
+        type:
+          - string

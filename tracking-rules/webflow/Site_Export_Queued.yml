@@ -1,0 +1,31 @@
+rules:
+  - key: Site Export Queued
+    type: TRACK
+    description: Site Export Queued
+    version: 1
+    labels: {}
+    properties:
+      ecommerce enabled:
+        type:
+          - string
+      export enabled:
+        type:
+          - string
+      short name:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

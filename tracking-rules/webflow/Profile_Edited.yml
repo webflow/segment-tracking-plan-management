@@ -1,0 +1,23 @@
+rules:
+  - key: Profile Edited
+    type: TRACK
+    description: Profile Edited
+    version: 1
+    labels: {}
+    properties:
+      editedFields:
+        items:
+          type: string
+        type: array
+      profileId:
+        type:
+          - string
+      profileName:
+        type:
+          - string
+      profileSlug:
+        type:
+          - string
+      tabName:
+        type:
+          - string

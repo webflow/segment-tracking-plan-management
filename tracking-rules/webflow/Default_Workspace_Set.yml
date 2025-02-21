@@ -1,0 +1,7 @@
+rules:
+  - key: Default Workspace Set
+    type: TRACK
+    description: Default Workspace Set
+    version: 1
+    labels: {}
+    properties: {}

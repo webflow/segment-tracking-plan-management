@@ -1,0 +1,67 @@
+rules:
+  - key: Site Integrations Settings Updated
+    type: TRACK
+    description: Site Integrations Settings Updated
+    version: 1
+    labels: {}
+    properties:
+      api token:
+        type:
+          - boolean
+      facebook pixel ID:
+        type:
+          - boolean
+      facebook pixel lazy load:
+        type:
+          - boolean
+      google IP address anonymization:
+        type:
+          - boolean
+      google analytics ID:
+        type:
+          - boolean
+      google gtag enabled:
+        type:
+          - boolean
+      google maps api key:
+        type:
+          - boolean
+      google optimize ID:
+        type:
+          - boolean
+      google universal analytics ID:
+        type:
+          - boolean
+      legacy team id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      webhook:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,7 @@
+rules:
+  - key: Screen Recording viewed
+    type: TRACK
+    description: Screen Recording viewed
+    version: 1
+    labels: {}
+    properties: {}

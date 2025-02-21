@@ -1,0 +1,16 @@
+rules:
+  - key: Free Domain Offer Initiated
+    type: TRACK
+    description: Free Domain Offer Initiated
+    version: 1
+    labels: {}
+    properties:
+      site id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

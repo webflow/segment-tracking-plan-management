@@ -1,0 +1,58 @@
+rules:
+  - key: Site SEO Settings Updated
+    type: TRACK
+    description: Site SEO Settings Updated
+    version: 1
+    labels: {}
+    properties:
+      default sitemap:
+        type:
+          - boolean
+      disable indexing:
+        type:
+          - boolean
+      global canonical tag url:
+        type:
+          - boolean
+      google site verification:
+        type:
+          - boolean
+      legacy team id:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      robots:
+        type:
+          - boolean
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      sitemap:
+        type:
+          - boolean
+      team id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Forum Topic Clicked
+    type: TRACK
+    description: Forum Topic Clicked
+    version: 1
+    labels: {}
+    properties:
+      topic:
+        type:
+          - string

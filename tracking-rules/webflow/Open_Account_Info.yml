@@ -1,0 +1,42 @@
+rules:
+  - key: Open Account Info
+    type: TRACK
+    description: Open Account Info
+    version: 1
+    labels: {}
+    properties:
+      legacy team id:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id: {}
+      site plan type:
+        type:
+          - string
+      siteId: {}
+      team id: {}
+      teamId: {}
+      timestamp: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

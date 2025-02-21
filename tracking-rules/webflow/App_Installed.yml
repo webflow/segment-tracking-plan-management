@@ -1,0 +1,31 @@
+rules:
+  - key: App Installed
+    type: TRACK
+    description: App Installed
+    version: 1
+    labels: {}
+    properties:
+      app id:
+        type:
+          - string
+      app name:
+        type:
+          - string
+      installation location:
+        type:
+          - string
+      installation type:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      type:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

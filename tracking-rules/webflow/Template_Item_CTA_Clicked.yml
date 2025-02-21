@@ -1,0 +1,68 @@
+rules:
+  - key: Template Item CTA Clicked
+    type: TRACK
+    description: Template Item CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      category:
+        type:
+          - string
+      ref:
+        items:
+          type: string
+        type: array
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      template cost:
+        type:
+          - integer
+      template id:
+        type:
+          - string
+      template index:
+        type:
+          - integer
+      template name:
+        type:
+          - string
+      template selected position:
+        type:
+          - integer
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

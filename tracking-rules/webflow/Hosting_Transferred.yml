@@ -1,0 +1,31 @@
+rules:
+  - key: Hosting Transferred
+    type: TRACK
+    description: Hosting Transferred
+    version: 1
+    labels: {}
+    properties:
+      clientBilling:
+        type:
+          - boolean
+      customDomains:
+        type:
+          - boolean
+      defaultDomain:
+        type:
+          - boolean
+      from:
+        type:
+          - string
+      source:
+        type:
+          - string
+      sslHosting:
+        type:
+          - boolean
+      to:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

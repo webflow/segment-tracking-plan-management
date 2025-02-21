@@ -1,0 +1,76 @@
+rules:
+  - key: Marketplace Viewed
+    type: TRACK
+    description: Marketplace Viewed
+    version: 1
+    labels: {}
+    properties:
+      app client id:
+        type:
+          - string
+      app id:
+        type:
+          - string
+      app name:
+        type:
+          - string
+      category:
+        type:
+          - string
+      id:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      mrp id:
+        type:
+          - string
+      mrp name:
+        type:
+          - string
+      mrp slug:
+        type:
+          - string
+      name:
+        type:
+          - string
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      ref:
+        type:
+          - string
+      search query:
+        type:
+          - string
+      source:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

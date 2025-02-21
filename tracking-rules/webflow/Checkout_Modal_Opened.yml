@@ -1,0 +1,80 @@
+rules:
+  - key: Checkout Modal Opened
+    type: TRACK
+    description: Checkout Modal Opened
+    version: 1
+    labels: {}
+    properties:
+      Plan Type:
+        type:
+          - string
+      initial number of seats:
+        type:
+          - integer
+      initial plan frequency: {}
+      initial plan level:
+        type:
+          - string
+      legacy initial number of seats:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      plan selected:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      selected plan:
+        type:
+          - string
+      selected plan id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      source:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

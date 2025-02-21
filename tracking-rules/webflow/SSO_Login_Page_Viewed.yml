@@ -1,0 +1,37 @@
+rules:
+  - key: SSO Login Page Viewed
+    type: TRACK
+    description: SSO Login Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      page:
+        type:
+          - string
+      page type:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

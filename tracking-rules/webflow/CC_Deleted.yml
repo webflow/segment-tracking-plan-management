@@ -1,0 +1,7 @@
+rules:
+  - key: CC Deleted
+    type: TRACK
+    description: CC Deleted
+    version: 1
+    labels: {}
+    properties: {}

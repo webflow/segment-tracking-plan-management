@@ -1,0 +1,7 @@
+rules:
+  - key: Remove Default Domain
+    type: TRACK
+    description: Remove Default Domain
+    version: 1
+    labels: {}
+    properties: {}

@@ -1,0 +1,16 @@
+rules:
+  - key: User Systems User CSV Imported
+    type: TRACK
+    description: User Systems User CSV Imported
+    version: 1
+    labels: {}
+    properties:
+      siteId:
+        type:
+          - string
+      source:
+        type:
+          - string
+      wf_source:
+        type:
+          - string

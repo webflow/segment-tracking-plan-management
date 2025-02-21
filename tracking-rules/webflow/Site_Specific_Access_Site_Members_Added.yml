@@ -1,0 +1,33 @@
+rules:
+  - key: Site Specific Access Site Members Added
+    type: TRACK
+    description: Site Specific Access Site Members Added
+    version: 1
+    labels: {}
+    properties:
+      added user data:
+        items:
+          properties:
+            canPublish:
+              type:
+                - boolean
+            siteRole:
+              type:
+                - string
+            userId:
+              type:
+                - string
+          type: object
+        type: array
+      num of users added:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

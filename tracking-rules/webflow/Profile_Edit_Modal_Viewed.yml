@@ -1,0 +1,19 @@
+rules:
+  - key: Profile Edit Modal Viewed
+    type: TRACK
+    description: Profile Edit Modal Viewed
+    version: 1
+    labels: {}
+    properties:
+      profileId:
+        type:
+          - string
+      profileName:
+        type:
+          - string
+      profileSlug:
+        type:
+          - string
+      tabName:
+        type:
+          - string

@@ -1,0 +1,16 @@
+rules:
+  - key: Google One Tap Closed by Tap Outside
+    type: TRACK
+    description: Google One Tap Closed by Tap Outside
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Landing Page Feature Card Clicked
+    type: TRACK
+    description: Landing Page Feature Card Clicked
+    version: 1
+    labels: {}
+    properties:
+      link:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: TS - Calendly Interaction Triggered
+    type: TRACK
+    description: TS - Calendly Interaction Triggered
+    version: 1
+    labels: {}
+    properties:
+      calendly-event:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

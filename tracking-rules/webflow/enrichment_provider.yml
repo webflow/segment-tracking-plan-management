@@ -1,0 +1,10 @@
+rules:
+  - key: enrichment_provider
+    type: TRACK
+    description: enrichment_provider
+    version: 1
+    labels: {}
+    properties:
+      email: {}
+      product: {}
+      type: {}

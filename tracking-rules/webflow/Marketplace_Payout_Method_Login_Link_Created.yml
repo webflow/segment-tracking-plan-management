@@ -1,0 +1,13 @@
+rules:
+  - key: Marketplace Payout Method Login Link Created
+    type: TRACK
+    description: Marketplace Payout Method Login Link Created
+    version: 1
+    labels: {}
+    properties:
+      payment provider:
+        type:
+          - string
+      workspace slug:
+        type:
+          - string
