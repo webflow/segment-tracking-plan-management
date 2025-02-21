@@ -1,0 +1,59 @@
+rules:
+  - key: Visit preview link
+    type: TRACK
+    description: Visit preview link
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        type:
+          - array
+      cms item count:
+        type:
+          - integer
+      collection count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        items:
+          type: string
+        type: array
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id: {}
+      pageId: {}
+      plan type:
+        type:
+          - string
+      planId: {}
+      previewType: {}
+      project item count:
+        type:
+          - integer
+      shortName: {}
+      site id: {}
+      site published:
+        type:
+          - boolean
+      site role: {}
+      siteId: {}
+      siteSubscriptionPlan: {}
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      tutorial: {}

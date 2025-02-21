@@ -1,0 +1,19 @@
+rules:
+  - key: Tutorial Section Viewed
+    type: TRACK
+    description: Tutorial Section Viewed
+    version: 1
+    labels: {}
+    properties:
+      __cpLocation:
+        type:
+          - string
+      isReopened:
+        type:
+          - boolean
+      location:
+        type:
+          - string
+      section type:
+        type:
+          - string

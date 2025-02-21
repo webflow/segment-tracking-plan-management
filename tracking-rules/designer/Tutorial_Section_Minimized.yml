@@ -1,0 +1,16 @@
+rules:
+  - key: Tutorial Section Minimized
+    type: TRACK
+    description: Tutorial Section Minimized
+    version: 1
+    labels: {}
+    properties:
+      __cpLocation:
+        type:
+          - string
+      location:
+        type:
+          - string
+      section type:
+        type:
+          - string

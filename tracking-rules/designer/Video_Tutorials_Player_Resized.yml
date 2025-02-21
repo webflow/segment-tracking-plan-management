@@ -1,0 +1,10 @@
+rules:
+  - key: Video Tutorials Player Resized
+    type: TRACK
+    description: Video Tutorials Player Resized
+    version: 1
+    labels: {}
+    properties:
+      playerWidth:
+        type:
+          - integer

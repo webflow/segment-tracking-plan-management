@@ -1,0 +1,842 @@
+rules:
+  - key: Usys Membership Product Created
+    type: TRACK
+    description: Usys Membership Product Created
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      item:
+        properties:
+          __altered:
+            type:
+              - boolean
+          __hash:
+            type:
+              - number
+          _archived:
+            type:
+              - boolean
+          _cid:
+            type:
+              - string
+          _draft:
+            type:
+              - boolean
+          _id:
+            type:
+              - string
+          _root:
+            properties:
+              bitmap:
+                type:
+                  - number
+              count:
+                type:
+                  - integer
+              nodes:
+                items:
+                  type: object
+                type: array
+              ownerID:
+                type:
+                  - object
+            type: object
+          additional-info:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          alt-product-type:
+            type:
+              - string
+          best-seller:
+            type:
+              - boolean
+          brand:
+            type:
+              - string
+          categories:
+            type:
+              - string
+          category:
+            items:
+              type: string
+            type: array
+          change-direction-before-loop:
+            type:
+              - boolean
+          color:
+            type:
+              - string
+          contains-ribbon:
+            type:
+              - boolean
+          course-about:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          course-content-column-1:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                data:
+                  type:
+                    - object
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          course-content-column-2:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                data:
+                  type:
+                    - object
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          course-downloadable-files:
+            type:
+              - integer
+          course-featured:
+            type:
+              - boolean
+          course-lenght:
+            type:
+              - string
+          course-teacher:
+            type:
+              - string
+          couse-introductory-video:
+            properties:
+              '@@__IMMUTABLE_ITERABLE__@@':
+                type:
+                  - boolean
+              '@@__IMMUTABLE_KEYED__@@':
+                type:
+                  - boolean
+              _defaultValues:
+                properties:
+                  aspectRatio:
+                    type:
+                      - integer
+                  author_name: {}
+                  description: {}
+                  height:
+                    type:
+                      - integer
+                  html: {}
+                  provider_name: {}
+                  thumbnail_url: {}
+                  title: {}
+                  type: {}
+                  url: {}
+                  width:
+                    type:
+                      - integer
+                type: object
+              _keys:
+                items:
+                  type: string
+                type: array
+              _map:
+                properties:
+                  aspectRatio:
+                    type:
+                      - integer
+                  height:
+                    type:
+                      - integer
+                  url:
+                    type:
+                      - string
+                  width:
+                    type:
+                      - integer
+                type: object
+              _name:
+                type:
+                  - string
+              size:
+                type:
+                  - integer
+            type: object
+          cover-image:
+            properties:
+              '@@__IMMUTABLE_ITERABLE__@@':
+                type:
+                  - boolean
+              '@@__IMMUTABLE_KEYED__@@':
+                type:
+                  - boolean
+              _defaultValues:
+                properties:
+                  alt: {}
+                  file: {}
+                  fileId:
+                    type:
+                      - string
+                  fileSize:
+                    type:
+                      - integer
+                  tmp: {}
+                  url:
+                    type:
+                      - string
+                type: object
+              _keys:
+                items:
+                  type: string
+                type: array
+              _map:
+                properties:
+                  alt: {}
+                  file:
+                    type:
+                      - object
+                  fileId:
+                    type:
+                      - string
+                  fileSize:
+                    type:
+                      - integer
+                  url:
+                    type:
+                      - string
+                type: object
+              _name:
+                type:
+                  - string
+              size:
+                type:
+                  - integer
+            type: object
+          created-by:
+            type:
+              - string
+          created-on:
+            type:
+              - string
+          credit-about:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                data:
+                  type:
+                    - object
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: string
+            type: array
+          credit-about-summary-card:
+            type:
+              - string
+          credit-about-summary-page:
+            type:
+              - string
+          credit-excerpt-card:
+            type:
+              - string
+          credit-popular:
+            type:
+              - boolean
+          credit-short-description-page:
+            type:
+              - string
+          date:
+            type:
+              - string
+          default-sku:
+            type:
+              - string
+          description:
+            type:
+              - string
+          descriptions:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          details:
+            type:
+              - string
+          ec-product-type:
+            type:
+              - string
+          featured:
+            type:
+              - boolean
+          featured-print:
+            type:
+              - boolean
+          featured-template:
+            type:
+              - boolean
+          full-description:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                data:
+                  type:
+                    - object
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          hosting:
+            type:
+              - boolean
+          i-want-lottie-do-not-loop:
+            type:
+              - boolean
+          icon:
+            type:
+              - string
+          is-a-zome:
+            type:
+              - boolean
+          is-featured:
+            type:
+              - boolean
+          level:
+            type:
+              - string
+          liked:
+            type:
+              - integer
+          limited-time-option:
+            type:
+              - boolean
+          link-1:
+            type:
+              - string
+          link-to-page:
+            type:
+              - string
+          most-popular:
+            type:
+              - boolean
+          name:
+            type:
+              - string
+          new-product:
+            type:
+              - boolean
+          on-sale:
+            type:
+              - boolean
+          order-rank:
+            type:
+              - integer
+          package-popular:
+            type:
+              - boolean
+          pattern:
+            type:
+              - string
+          plan-description:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: string
+            type: array
+          plan-description-excerpt:
+            type:
+              - string
+          plan-description-page-excerpt:
+            type:
+              - string
+          plan-feature-1:
+            type:
+              - string
+          plan-feature-2:
+            type:
+              - string
+          plan-feature-3:
+            type:
+              - string
+          plan-feature-4:
+            type:
+              - string
+          platform:
+            items:
+              type: string
+            type: array
+          popular:
+            type:
+              - boolean
+          product-category:
+            type:
+              - string
+          product-description:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                data:
+                  type:
+                    - object
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          product-display-price-per-month:
+            type:
+              - string
+          product-display-price-per-year:
+            type:
+              - string
+          product-excerpt:
+            type:
+              - string
+          product-is-popular:
+            type:
+              - boolean
+          product-item-id:
+            type:
+              - string
+          product-price-display-card-grid:
+            type:
+              - integer
+          product-short-description:
+            type:
+              - string
+          product-short-description-page:
+            type:
+              - string
+          product-summary:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                children:
+                  type:
+                    - array
+                classes:
+                  type:
+                    - array
+                data:
+                  type:
+                    - object
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+                v:
+                  type:
+                    - string
+              type: object
+            type: array
+          product-video-2-2:
+            type:
+              - string
+          published-by: {}
+          published-on: {}
+          qty:
+            type:
+              - string
+          review-1:
+            type:
+              - string
+          review-2:
+            type:
+              - string
+          review-3:
+            type:
+              - string
+          review-name-1:
+            type:
+              - string
+          review-name-2:
+            type:
+              - string
+          review-name-3:
+            type:
+              - string
+          satiated:
+            type:
+              - boolean
+          shippable:
+            type:
+              - boolean
+          shipping:
+            items:
+              properties:
+                _id:
+                  type:
+                    - string
+                tag:
+                  type:
+                    - string
+                text:
+                  type:
+                    - boolean
+                type:
+                  type:
+                    - string
+              type: string
+            type: array
+          signup-button:
+            type:
+              - boolean
+          size:
+            type:
+              - integer
+          sku-properties:
+            items:
+              properties:
+                enum:
+                  type:
+                    - array
+                id:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+              type: object
+            type: array
+          slug:
+            type:
+              - string
+          status:
+            type:
+              - string
+          submit-product-form:
+            type:
+              - boolean
+          tax-category:
+            type:
+              - string
+          this-product-has-options:
+            type:
+              - boolean
+          updated-by:
+            type:
+              - string
+          updated-on:
+            type:
+              - string
+          vendor:
+            type:
+              - string
+          video-course:
+            type:
+              - boolean
+          video-link:
+            properties:
+              '@@__IMMUTABLE_ITERABLE__@@':
+                type:
+                  - boolean
+              '@@__IMMUTABLE_KEYED__@@':
+                type:
+                  - boolean
+              __hash:
+                type:
+                  - number
+              _defaultValues:
+                properties:
+                  aspectRatio:
+                    type:
+                      - integer
+                  author_name: {}
+                  description: {}
+                  height:
+                    type:
+                      - integer
+                  html: {}
+                  provider_name: {}
+                  thumbnail_url: {}
+                  title: {}
+                  type: {}
+                  url: {}
+                  width:
+                    type:
+                      - integer
+                type: object
+              _keys:
+                items:
+                  type: string
+                type: array
+              _map:
+                properties:
+                  aspectRatio:
+                    type:
+                      - integer
+                  author_name:
+                    type:
+                      - string
+                  height:
+                    type:
+                      - integer
+                  html:
+                    type:
+                      - string
+                  provider_name:
+                    type:
+                      - string
+                  thumbnail_url:
+                    type:
+                      - string
+                  title:
+                    type:
+                      - string
+                  type:
+                    type:
+                      - string
+                  url:
+                    type:
+                      - string
+                  width:
+                    type:
+                      - integer
+                type: object
+              _name:
+                type:
+                  - string
+              size:
+                type:
+                  - integer
+            type: object
+        type: object
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

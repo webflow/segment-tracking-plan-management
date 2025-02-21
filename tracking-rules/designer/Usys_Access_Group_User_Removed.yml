@@ -1,0 +1,122 @@
+rules:
+  - key: Usys Access Group User Removed
+    type: TRACK
+    description: Usys Access Group User Removed
+    version: 1
+    labels: {}
+    properties:
+      access group:
+        properties:
+          _id:
+            type:
+              - string
+          access:
+            properties:
+              account:
+                properties:
+                  enabled:
+                    type:
+                      - boolean
+                type: object
+              commerce:
+                properties:
+                  products:
+                    type:
+                      - array
+                type: object
+            type: object
+          createdOn:
+            type:
+              - string
+          gatedContent:
+            properties:
+              pages:
+                items:
+                  type: object
+                type: array
+            type: object
+          name:
+            type:
+              - string
+          shortId:
+            type:
+              - string
+          slug:
+            type:
+              - string
+          updatedOn:
+            type:
+              - string
+        type: object
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      user:
+        properties:
+          groupAccess:
+            properties:
+              admin:
+                items:
+                  type: string
+                type: array
+              commerce:
+                items:
+                  type: string
+                type: array
+            type: object
+          status:
+            type:
+              - string
+        type: object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

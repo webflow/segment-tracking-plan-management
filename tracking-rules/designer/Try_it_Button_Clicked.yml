@@ -1,0 +1,7 @@
+rules:
+  - key: Try it Button Clicked
+    type: TRACK
+    description: Try it Button Clicked
+    version: 1
+    labels: {}
+    properties: {}
