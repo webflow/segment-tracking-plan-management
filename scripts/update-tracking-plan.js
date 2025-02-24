@@ -16,22 +16,28 @@ console.log('Tracking Plan ID:', trackingPlanId);
 
 // Function to get the list of changed files in the latest commit
 function getChangedFiles(directory) {
-  const changedFiles = execSync('git diff --name-only HEAD^ HEAD').toString().split('\n');
+  try {
+    const changedFiles = execSync('git diff --name-only HEAD^ HEAD').toString().split('\n');
+  } catch (error) {
+    console.error('Error getting changed files:', error.response ? error.response.data : error.message);
+  }
   return changedFiles.filter(file => file.startsWith(directory) && file.endsWith('.yml'));
 }
 
 // Function to load YAML files from an array of file paths
 function loadYamlFiles(files) {
   let allRules = [];
-
-  files.forEach(file => {
-    const fileContents = fs.readFileSync(file, 'utf8');
-    const data = yaml.load(fileContents);
-    allRules = allRules.concat(data.rules);
-  });
+  try {
+    files.forEach(file => {
+      const fileContents = fs.readFileSync(file, 'utf8');
+      const data = yaml.load(fileContents);
+      allRules = allRules.concat(data.rules);
+    });
 
   console.log('Loaded rules:', allRules);
-
+  } catch (error) {
+    console.error('Error loading yaml files:', error.response ? error.response.data : error.message);
+  }
   return allRules;
 }
 
