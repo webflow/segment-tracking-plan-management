@@ -1,0 +1,49 @@
+rules:
+  - key: Enterprise Lead Registered
+    type: TRACK
+    description: Enterprise Lead Registered
+    version: 1
+    labels: {}
+    properties:
+      integrations:
+        properties:
+          All:
+            type:
+              - boolean
+          Amplitude:
+            type:
+              - boolean
+          Facebook Conversion Tracking:
+            type:
+              - boolean
+          Facebook Pixel:
+            type:
+              - boolean
+          Google AdWords New:
+            type:
+              - boolean
+          LinkedIn Insight Tag:
+            type:
+              - boolean
+        type: object
+      ref:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -1,0 +1,89 @@
+rules:
+  - key: Collection Items Unpublished
+    type: TRACK
+    description: Collection Items Unpublished
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      cms version:
+        type:
+          - string
+      collection field count:
+        type:
+          - integer
+      collection id:
+        type:
+          - string
+      collection item count:
+        type:
+          - integer
+      collection name:
+        type:
+          - string
+      collection type:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      interface:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      number of cms items affected:
+        type:
+          - integer
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

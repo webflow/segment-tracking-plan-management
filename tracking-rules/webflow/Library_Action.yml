@@ -1,0 +1,104 @@
+rules:
+  - key: Library Action
+    type: TRACK
+    description: Library Action
+    version: 1
+    labels: {}
+    properties:
+      action:
+        properties:
+          archivedOn: {}
+          createdOn:
+            type:
+              - string
+          description:
+            type:
+              - string
+          id:
+            type:
+              - string
+          name:
+            type:
+              - string
+          ownerId:
+            type:
+              - string
+          ownerType:
+            type:
+              - string
+          publishedOn:
+            type:
+              - string
+          resourceId:
+            type:
+              - string
+          resourceType:
+            type:
+              - string
+          slug:
+            type:
+              - string
+          status:
+            type:
+              - string
+          thumbnailImage:
+            properties:
+              altText:
+                type:
+                  - string
+              url:
+                type:
+                  - string
+            type: object
+          updatedOn:
+            type:
+              - string
+          usedCount:
+            type:
+              - integer
+        type: object
+      assets count:
+        type:
+          - integer
+      blocked components count:
+        type:
+          - integer
+      components count:
+        type:
+          - integer
+      installs count:
+        type:
+          - integer
+      interactions count:
+        type:
+          - integer
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library source:
+        type:
+          - string
+      library type:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      variables count:
+        type:
+          - integer
+      version id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

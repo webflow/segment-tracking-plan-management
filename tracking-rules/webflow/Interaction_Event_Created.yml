@@ -1,0 +1,152 @@
+rules:
+  - key: Interaction Event Created
+    type: TRACK
+    description: Interaction Event Created
+    version: 1
+    labels: {}
+    properties:
+      CMS item count: {}
+      action type 1:
+        type:
+          - string
+      action_trigger:
+        type:
+          - string
+      action_type_1:
+        type:
+          - string
+      active tutorials:
+        type:
+          - array
+      breakpoint target:
+        items:
+          type: string
+        type: array
+      breakpoint_target:
+        items:
+          type: string
+        type: array
+      cms item count:
+        type:
+          - integer
+      collection count: {}
+      current_ix1_interactions_count:
+        type:
+          - integer
+      current_ix2_action_lists_count:
+        type:
+          - integer
+      current_ix2_events_count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      event_type:
+        type:
+          - string
+      ix_version_toggled:
+        type:
+          - string
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      planId:
+        type:
+          - string
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      seat count:
+        type:
+          - integer
+      shortName:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteSubscriptionPlan:
+        type:
+          - string
+      slug:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      trigger target:
+        type:
+          - string
+      trigger type:
+        type:
+          - string
+      trigger_target:
+        type:
+          - string
+      trigger_type:
+        type:
+          - string
+      tutorial: {}
+      type:
+        type:
+          - string
+      version:
+        type:
+          - integer
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

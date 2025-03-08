@@ -1,0 +1,79 @@
+rules:
+  - key: Connected Collection List to Multi-Image Field
+    type: TRACK
+    description: Connected Collection List to Multi-Image Field
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      collection count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      field_slug: {}
+      mode:
+        type:
+          - string
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId: {}
+      plan type:
+        type:
+          - string
+      planId: {}
+      project item count:
+        type:
+          - integer
+      shortName: {}
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId: {}
+      siteSubscriptionPlan: {}
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

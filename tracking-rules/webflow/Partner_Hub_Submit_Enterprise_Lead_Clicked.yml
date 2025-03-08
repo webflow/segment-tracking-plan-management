@@ -1,0 +1,16 @@
+rules:
+  - key: Partner Hub Submit Enterprise Lead Clicked
+    type: TRACK
+    description: Partner Hub Submit Enterprise Lead Clicked
+    version: 1
+    labels: {}
+    properties:
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceRole:
+        type:
+          - string

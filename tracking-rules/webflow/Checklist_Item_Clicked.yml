@@ -1,0 +1,10 @@
+rules:
+  - key: Checklist Item Clicked
+    type: TRACK
+    description: Checklist Item Clicked
+    version: 1
+    labels: {}
+    properties:
+      checklistItem:
+        type:
+          - string

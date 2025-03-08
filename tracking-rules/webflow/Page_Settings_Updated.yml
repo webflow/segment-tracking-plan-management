@@ -1,0 +1,110 @@
+rules:
+  - key: Page Settings Updated
+    type: TRACK
+    description: Page Settings Updated
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        type:
+          - array
+      cms item count:
+        type:
+          - integer
+      collection ID:
+        type:
+          - string
+      collection count:
+        type:
+          - integer
+      collection id:
+        type:
+          - string
+      collection template publishable:
+        type:
+          - boolean
+      custom code:
+        type:
+          - boolean
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      parent folder id:
+        type:
+          - string
+      password protection:
+        type:
+          - boolean
+      plan type:
+        type:
+          - string
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      seat count:
+        type:
+          - integer
+      seo description:
+        type:
+          - string
+      seo title:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      team id:
+        type:
+          - string
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

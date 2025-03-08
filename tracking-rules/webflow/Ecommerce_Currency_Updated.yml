@@ -1,0 +1,97 @@
+rules:
+  - key: Ecommerce Currency Updated
+    type: TRACK
+    description: Ecommerce Currency Updated
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      collection count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      location:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      new currency code:
+        type:
+          - string
+      old currency code:
+        type:
+          - string
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      planId:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      shortName:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteSubscriptionPlan:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

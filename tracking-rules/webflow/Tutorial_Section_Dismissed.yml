@@ -1,0 +1,13 @@
+rules:
+  - key: Tutorial Section Dismissed
+    type: TRACK
+    description: Tutorial Section Dismissed
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string
+      section type:
+        type:
+          - string

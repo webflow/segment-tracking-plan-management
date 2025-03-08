@@ -1,0 +1,7 @@
+rules:
+  - key: Multi-player -- Designer grant
+    type: TRACK
+    description: Multi-player -- Designer grant
+    version: 1
+    labels: {}
+    properties: {}

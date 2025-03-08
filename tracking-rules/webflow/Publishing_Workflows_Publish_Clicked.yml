@@ -1,0 +1,157 @@
+rules:
+  - key: Publishing Workflows Publish Clicked
+    type: TRACK
+    description: Publishing Workflows Publish Clicked
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      branch id:
+        type:
+          - string
+      branchId:
+        items:
+          properties:
+            _id:
+              type:
+                - string
+            branchId:
+              type:
+                - string
+            compiledAt:
+              type:
+                - string
+            createdOn:
+              type:
+                - string
+            default:
+              type:
+                - boolean
+            hasValidSSL:
+              type:
+                - boolean
+            lastPublicationId: {}
+            lastPublished:
+              type:
+                - string
+            lastPublishedBy:
+              type:
+                - string
+            name:
+              type:
+                - string
+            public:
+              type:
+                - boolean
+            site:
+              type:
+                - string
+            stage:
+              type:
+                - string
+            usesDNS01Validation:
+              type:
+                - boolean
+            usesFastlyEdge:
+              type:
+                - boolean
+          type: object
+        type: array
+      cms item count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      publish type:
+        type:
+          - string
+      publishType:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      source:
+        properties:
+          displayName:
+            type:
+              - string
+          hasChanges:
+            type:
+              - boolean
+          id:
+            type:
+              - string
+          isLoading:
+            type:
+              - boolean
+          isSelectedTarget:
+            type:
+              - boolean
+          lastCompiledTimestamp: {}
+          lastUpdatedTimestamp:
+            type:
+              - string
+          name:
+            type:
+              - string
+          publishTarget:
+            type:
+              - string
+          stage:
+            type:
+              - string
+        type: object
+      styles count:
+        type:
+          - integer
+      target:
+        type:
+          - string
+      targets:
+        items:
+          type: string
+        type: array
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

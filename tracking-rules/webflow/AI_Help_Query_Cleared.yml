@@ -1,0 +1,26 @@
+rules:
+  - key: AI Help Query Cleared
+    type: TRACK
+    description: AI Help Query Cleared
+    version: 1
+    labels: {}
+    properties:
+      interaction id:
+        type:
+          - string
+      key area:
+        type:
+          - string
+      page: {}
+      page id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      surface area:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

@@ -1,0 +1,70 @@
+rules:
+  - key: Add Panel Viewed
+    type: TRACK
+    description: Add Panel Viewed
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      from:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      title:
+        type:
+          - string
+      total collection count:
+        type:
+          - integer
+      tutorial:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

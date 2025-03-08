@@ -1,0 +1,171 @@
+rules:
+  - key: Custom Animation Created
+    type: TRACK
+    description: Custom Animation Created
+    version: 1
+    labels: {}
+    properties:
+      CMS item count: {}
+      action count:
+        type:
+          - integer
+      action type:
+        properties:
+          _map:
+            properties:
+              __altered:
+                type:
+                  - boolean
+              _root:
+                properties:
+                  entries:
+                    type:
+                      - array
+                type: object
+              size:
+                type:
+                  - integer
+            type: object
+        type: object
+      action_count:
+        type:
+          - integer
+      action_selection:
+        type:
+          - string
+      action_trigger:
+        type:
+          - string
+      action_type:
+        type:
+          - string
+      active tutorials:
+        type:
+          - string
+      affect target:
+        items:
+          type: string
+        type: array
+      affect_target:
+        items:
+          type: string
+        type: array
+      animation_action_add_method:
+        type:
+          - string
+      animation_affected_elements_count:
+        type:
+          - integer
+      animation_name:
+        type:
+          - string
+      animation_type:
+        type:
+          - string
+      breakpoint_target:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      collection count: {}
+      current_ix1_interactions_count:
+        type:
+          - integer
+      current_ix2_action_lists_count:
+        type:
+          - integer
+      current_ix2_events_count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      event_type:
+        type:
+          - string
+      ix_version_toggled:
+        type:
+          - string
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      planId:
+        type:
+          - string
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      seat count:
+        type:
+          - integer
+      shortName:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteSubscriptionPlan:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      trigger_target:
+        type:
+          - string
+      tutorial: {}
+      unlinked_action_warning: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

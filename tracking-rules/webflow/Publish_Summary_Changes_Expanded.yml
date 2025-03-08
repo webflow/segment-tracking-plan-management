@@ -1,0 +1,31 @@
+rules:
+  - key: Publish Summary Changes Expanded
+    type: TRACK
+    description: Publish Summary Changes Expanded
+    version: 1
+    labels: {}
+    properties:
+      card:
+        type:
+          - string
+      changeCount:
+        type:
+          - integer
+      siteId:
+        type:
+          - string
+      siteShortName:
+        type:
+          - string
+      totalChangeCount:
+        type:
+          - integer
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceSlug:
+        type:
+          - string

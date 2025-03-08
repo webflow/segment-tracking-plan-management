@@ -1,0 +1,96 @@
+rules:
+  - key: Ecommerce Getting Started CTA Clicked
+    type: TRACK
+    description: Ecommerce Getting Started CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      CMS item count:
+        type:
+          - integer
+      active tutorials:
+        type:
+          - array
+      cms item count:
+        type:
+          - integer
+      collection count:
+        type:
+          - integer
+      ec_getting_started_todo: {}
+      ec_getting_started_todo_completed: {}
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      initiation_source: {}
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId: {}
+      plan type:
+        type:
+          - string
+      planId: {}
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      seat count:
+        type:
+          - integer
+      shortName: {}
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId: {}
+      siteSubscriptionPlan: {}
+      styles count:
+        type:
+          - integer
+      team id: {}
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

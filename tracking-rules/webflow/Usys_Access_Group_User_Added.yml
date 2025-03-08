@@ -1,0 +1,224 @@
+rules:
+  - key: Usys Access Group User Added
+    type: TRACK
+    description: Usys Access Group User Added
+    version: 1
+    labels: {}
+    properties:
+      access group:
+        properties:
+          _id:
+            type:
+              - string
+          access:
+            properties:
+              account:
+                properties:
+                  enabled:
+                    type:
+                      - boolean
+                type: object
+              commerce:
+                properties:
+                  products:
+                    type:
+                      - array
+                type: object
+            type: object
+          createdOn:
+            type:
+              - string
+          gatedContent:
+            properties:
+              pages:
+                items:
+                  type: object
+                type: array
+            type: object
+          name:
+            type:
+              - string
+          shortId:
+            type:
+              - string
+          slug:
+            type:
+              - string
+          updatedOn:
+            type:
+              - string
+        type: object
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      user:
+        properties:
+          '':
+            type:
+              - string
+          _id:
+            type:
+              - string
+          auth:
+            properties:
+              bcrypt:
+                properties:
+                  createdOn:
+                    type:
+                      - string
+                  exists:
+                    type:
+                      - boolean
+                type: object
+            type: object
+          common fields:
+            properties:
+              acceptCommunications:
+                type:
+                  - boolean
+              acceptPrivacy:
+                type:
+                  - boolean
+              email:
+                type:
+                  - string
+              name:
+                type:
+                  - string
+            type: object
+          commonFields:
+            properties:
+              acceptCommunications:
+                type:
+                  - boolean
+              acceptPrivacy:
+                type:
+                  - boolean
+              email:
+                type:
+                  - string
+              name:
+                type:
+                  - string
+            type: object
+          createdOn:
+            type:
+              - string
+          customFields:
+            properties:
+              1f007ef923b39b048088c61edf69b0ba:
+                properties:
+                  id:
+                    type:
+                      - string
+                  name:
+                    type:
+                      - string
+                  slug:
+                    type:
+                      - string
+                type: object
+              66f215744a13d7a24fed5f86ff45fa0c:
+                type:
+                  - string
+              aa49e803dab27cb1ecab2343d3d5f6f0:
+                type:
+                  - integer
+            type: object
+          emailChangedOn:
+            type:
+              - string
+          emailVerified:
+            type:
+              - boolean
+          group access:
+            properties:
+              admin:
+                items:
+                  type: string
+                type: array
+              commerce:
+                type:
+                  - array
+            type: object
+          groupAccess:
+            properties:
+              admin:
+                items:
+                  type: string
+                type: array
+              commerce:
+                type:
+                  - array
+            type: object
+          lastLogin:
+            type:
+              - string
+          lowercase email:
+            type:
+              - string
+          lowercaseEmail:
+            type:
+              - string
+          site:
+            type:
+              - string
+          status:
+            type:
+              - string
+          updatedOn:
+            type:
+              - string
+        type: object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

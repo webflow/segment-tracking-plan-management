@@ -1,0 +1,7 @@
+rules:
+  - key: Multi-player -- Designer deny
+    type: TRACK
+    description: Multi-player -- Designer deny
+    version: 1
+    labels: {}
+    properties: {}
