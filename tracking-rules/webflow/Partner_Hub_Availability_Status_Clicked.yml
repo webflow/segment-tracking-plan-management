@@ -1,0 +1,16 @@
+rules:
+  - key: Partner Hub Availability Status Clicked
+    type: TRACK
+    description: Partner Hub Availability Status Clicked
+    version: 1
+    labels: {}
+    properties:
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceRole:
+        type:
+          - string

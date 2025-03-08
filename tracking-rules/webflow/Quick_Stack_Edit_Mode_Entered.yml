@@ -1,0 +1,7 @@
+rules:
+  - key: Quick Stack Edit Mode Entered
+    type: TRACK
+    description: Quick Stack Edit Mode Entered
+    version: 1
+    labels: {}
+    properties: {}

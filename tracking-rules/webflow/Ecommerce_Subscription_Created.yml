@@ -1,0 +1,341 @@
+rules:
+  - key: Ecommerce Subscription Created
+    type: TRACK
+    description: Ecommerce Subscription Created
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      billing period:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      item:
+        properties:
+          __altered:
+            type:
+              - boolean
+          __hash:
+            type:
+              - number
+          _archived:
+            type:
+              - boolean
+          _cid:
+            type:
+              - string
+          _draft:
+            type:
+              - boolean
+          _id:
+            type:
+              - string
+          _root:
+            properties:
+              bitmap:
+                type:
+                  - number
+              nodes:
+                items:
+                  type: object
+                type: array
+              ownerID:
+                type:
+                  - object
+            type: object
+          compare-at-price: {}
+          created-by:
+            type:
+              - string
+          created-on:
+            type:
+              - string
+          default-sku:
+            type:
+              - string
+          download-files:
+            type:
+              - array
+          ec-product-type:
+            type:
+              - string
+          ec-sku-billing-method:
+            type:
+              - string
+          ec-sku-subscription-plan:
+            properties:
+              frequency:
+                type:
+                  - integer
+              interval:
+                type:
+                  - string
+              plans:
+                type:
+                  - array
+              trial:
+                type:
+                  - integer
+            type: object
+          height: {}
+          inventory:
+            properties:
+              inventoryType:
+                type:
+                  - string
+              quantity:
+                type:
+                  - integer
+            type: object
+          length: {}
+          main-image: {}
+          more-images:
+            type:
+              - array
+          name:
+            type:
+              - string
+          price:
+            properties:
+              unit:
+                type:
+                  - string
+              value:
+                type:
+                  - integer
+            type: object
+          product:
+            type:
+              - string
+          published-by: {}
+          published-on: {}
+          shippable:
+            type:
+              - boolean
+          size:
+            type:
+              - integer
+          sku: {}
+          sku-properties:
+            items:
+              properties:
+                enum:
+                  type:
+                    - array
+                id:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+              type: object
+            type: array
+          sku-values:
+            type:
+              - object
+          slug:
+            type:
+              - string
+          tax-category:
+            type:
+              - string
+          updated-by:
+            type:
+              - string
+          updated-on:
+            type:
+              - string
+          weight: {}
+          width: {}
+        type: object
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      price:
+        properties:
+          unit:
+            type:
+              - string
+          value:
+            type:
+              - integer
+        type: object
+      product:
+        properties:
+          defaultSkuId:
+            type:
+              - string
+          inventoryType:
+            type:
+              - string
+          quantity:
+            type:
+              - integer
+          variants:
+            properties:
+              __altered:
+                type:
+                  - boolean
+              _root:
+                properties:
+                  entries:
+                    type:
+                      - array
+                type: object
+              size:
+                type:
+                  - integer
+            type: object
+        type: object
+      product type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      subscription:
+        properties:
+          _archived:
+            type:
+              - boolean
+          _cid:
+            type:
+              - string
+          _draft:
+            type:
+              - boolean
+          _id:
+            type:
+              - string
+          compare-at-price: {}
+          created-by:
+            type:
+              - string
+          created-on:
+            type:
+              - string
+          download-files:
+            type:
+              - array
+          ec-sku-billing-method:
+            type:
+              - string
+          ec-sku-subscription-plan:
+            properties:
+              frequency:
+                type:
+                  - integer
+              interval:
+                type:
+                  - string
+              plans:
+                type:
+                  - array
+              trial:
+                type:
+                  - integer
+            type: object
+          height: {}
+          inventory:
+            properties:
+              inventoryType:
+                type:
+                  - string
+              quantity:
+                type:
+                  - integer
+            type: object
+          length: {}
+          main-image: {}
+          more-images:
+            type:
+              - array
+          name:
+            type:
+              - string
+          price:
+            properties:
+              unit:
+                type:
+                  - string
+              value:
+                type:
+                  - integer
+            type: object
+          product:
+            type:
+              - string
+          published-by: {}
+          published-on: {}
+          sku: {}
+          sku-values:
+            properties:
+              278245c1365abad0b36a0a3291dd85e3:
+                type:
+                  - string
+              eb83c93a8e07f5530c2613abe304bd34:
+                type:
+                  - string
+              mint-1634928341282-18364632679753257:
+                type:
+                  - string
+            type: object
+          slug:
+            type:
+              - string
+          updated-by:
+            type:
+              - string
+          updated-on:
+            type:
+              - string
+          weight: {}
+          width: {}
+        type: object
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

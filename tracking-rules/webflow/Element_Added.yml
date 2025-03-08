@@ -1,0 +1,320 @@
+rules:
+  - key: Element Added
+    type: TRACK
+    description: Element Added
+    version: 1
+    labels: {}
+    properties:
+      CMS item count: {}
+      XSCP assets pasted:
+        type:
+          - integer
+      XSCP assets reused:
+        type:
+          - integer
+      XSCP dropped links:
+        type:
+          - integer
+      XSCP elements pasted:
+        type:
+          - integer
+      XSCP ix1 interactions pasted:
+        type:
+          - integer
+      XSCP ix1 interactions renamed:
+        type:
+          - integer
+      XSCP ix1 interactions reused:
+        type:
+          - integer
+      XSCP ix2 action lists pasted:
+        type:
+          - integer
+      XSCP ix2 action lists renamed:
+        type:
+          - integer
+      XSCP ix2 events pasted:
+        type:
+          - integer
+      XSCP styles pasted:
+        type:
+          - integer
+      XSCP styles renamed:
+        type:
+          - integer
+      XSCP styles reused:
+        type:
+          - integer
+      XSCP symbols unlinked:
+        type:
+          - integer
+      action:
+        properties:
+          anchorNodeId:
+            type:
+              - string
+          dropBounds:
+            properties:
+              left:
+                type:
+                  - integer
+              widthHalf:
+                type:
+                  - integer
+            type: object
+          dropTargets:
+            type:
+              - array
+          initialMousePosition:
+            properties:
+              'y': {}
+            type: object
+          interimCloneId:
+            type:
+              - string
+          interimDragNode:
+            properties:
+              node:
+                properties:
+                  __hash:
+                    type:
+                      - integer
+                type: object
+              nodePlugin:
+                type:
+                  - string
+            type: object
+          location:
+            type:
+              - string
+        type: object
+      active tutorials:
+        items:
+          type: string
+        type: array
+      atomKey:
+        type:
+          - string
+      child elements:
+        type:
+          - array
+      cms item count:
+        type:
+          - integer
+      collection: {}
+      collection count: {}
+      collection id:
+        type:
+          - string
+      collection name:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      enterprise billing:
+        type:
+          - boolean
+      error:
+        type:
+          - boolean
+      in collection list:
+        type:
+          - boolean
+      in slot:
+        type:
+          - boolean
+      in symbol:
+        type:
+          - boolean
+      isElementInSlot:
+        properties:
+          in slot:
+            type:
+              - boolean
+        type: object
+      isHeroSectionPresent:
+        type:
+          - boolean
+      legacy seat count:
+        type:
+          - integer
+      legacy team id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library search: {}
+      library type:
+        type:
+          - string
+      library version:
+        type:
+          - string
+      location:
+        properties:
+          ancestorOrigins:
+            type:
+              - object
+          hash:
+            type:
+              - string
+          host:
+            type:
+              - string
+          href:
+            type:
+              - string
+          origin:
+            type:
+              - string
+          pathname:
+            type:
+              - string
+          port:
+            type:
+              - string
+          protocol:
+            type:
+              - string
+          search:
+            type:
+              - string
+        type: object
+      message:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      name:
+        type:
+          - string
+      nested symbol:
+        type:
+          - boolean
+      orgId: {}
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      pageId:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      planId:
+        type:
+          - string
+      pluginKey:
+        type:
+          - string
+      project count:
+        type:
+          - integer
+      project item count:
+        type:
+          - integer
+      ref:
+        type:
+          - string
+      root node:
+        properties:
+          _id:
+            type:
+              - string
+          children:
+            items:
+              type: string
+            type: array
+          classes:
+            items:
+              type: string
+            type: array
+          data:
+            properties:
+              tag:
+                type:
+                  - string
+            type: object
+          tag:
+            type:
+              - string
+          type:
+            type:
+              - string
+        type: object
+      running tutorials:
+        items:
+          type: string
+        type: array
+      seat count:
+        type:
+          - integer
+      shortName:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteSubscriptionPlan:
+        type:
+          - string
+      source:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      symbol ID:
+        type:
+          - string
+      team id:
+        type:
+          - string
+      test:
+        type:
+          - string
+      total collection count:
+        type:
+          - integer
+      tutorial:
+        type:
+          - string
+      type:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

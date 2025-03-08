@@ -1,0 +1,19 @@
+rules:
+  - key: App install clicked from Designer
+    type: TRACK
+    description: App install clicked from Designer
+    version: 1
+    labels: {}
+    properties:
+      id:
+        type:
+          - string
+      installationType:
+        type:
+          - string
+      name:
+        type:
+          - string
+      slug:
+        type:
+          - string

@@ -1,0 +1,22 @@
+rules:
+  - key: Partner Hub Resource Viewed
+    type: TRACK
+    description: Partner Hub Resource Viewed
+    version: 1
+    labels: {}
+    properties:
+      resourceName:
+        type:
+          - string
+      resourceType:
+        type:
+          - string
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceRole:
+        type:
+          - string

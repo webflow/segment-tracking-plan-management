@@ -1,0 +1,28 @@
+rules:
+  - key: Tutorial Section Viewed
+    type: TRACK
+    description: Tutorial Section Viewed
+    version: 1
+    labels: {}
+    properties:
+      isReopened:
+        type:
+          - boolean
+      location:
+        type:
+          - string
+      section type:
+        type:
+          - string
+      temp:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer

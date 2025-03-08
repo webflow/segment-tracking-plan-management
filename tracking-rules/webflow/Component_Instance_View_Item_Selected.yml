@@ -1,0 +1,16 @@
+rules:
+  - key: Component Instance View Item Selected
+    type: TRACK
+    description: Component Instance View Item Selected
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string
+      method:
+        type:
+          - string
+      section type:
+        type:
+          - string

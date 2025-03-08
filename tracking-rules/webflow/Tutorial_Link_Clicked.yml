@@ -1,0 +1,40 @@
+rules:
+  - key: Tutorial Link Clicked
+    type: TRACK
+    description: Tutorial Link Clicked
+    version: 1
+    labels: {}
+    properties:
+      article index:
+        type:
+          - integer
+      article name:
+        type:
+          - string
+      articleIndex:
+        type:
+          - integer
+      category index:
+        type:
+          - integer
+      categoryIndex:
+        type:
+          - integer
+      location:
+        type:
+          - string
+      tutorial id:
+        type:
+          - string
+      tutorial index:
+        type:
+          - integer
+      tutorial name:
+        type:
+          - string
+      tutorialName:
+        type:
+          - string
+      variant:
+        type:
+          - string
