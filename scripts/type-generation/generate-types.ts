@@ -72,7 +72,7 @@ function saveIndexFile(types: GeneratedType[], outputDir: string) {
   const indexContent = types
     .map((type) => `export * from "./${type.name}";`)
     .join("\n");
-  const indexFilePath = `${outputDir}/index.d.ts`;
+  const indexFilePath = `${outputDir}/index.ts`;
   fs.writeFileSync(indexFilePath, indexContent);
 }
 

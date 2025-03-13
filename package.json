@@ -23,5 +23,6 @@
   "exports": {
     "./dist/types/webflow/*.ts": "./*.ts"
   },
-  "types": "./index.d.ts"
+  "main": "./index.js",
+  "types": "./dist/types/webflow/index.ts"
 }
