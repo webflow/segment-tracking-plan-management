@@ -63,7 +63,7 @@ function compileSchemas(testPlanFile: TestPlanJSON): Promise<GeneratedType[]> {
 
 function saveTypesToFile(types: GeneratedType[], outputDir: string) {
   types.forEach((type) => {
-    const filePath = `${outputDir}/${type.name}.d.ts`;
+    const filePath = `${outputDir}/${type.name}.ts`;
     fs.writeFileSync(filePath, type.content);
   });
 }
