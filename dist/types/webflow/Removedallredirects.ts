@@ -8,8 +8,5 @@
 export interface RemovedAllRedirects {
   event: "Removed all redirects";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

@@ -14,7 +14,5 @@ export interface SiteTransferRequestReceived {
     "site name"?: string;
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

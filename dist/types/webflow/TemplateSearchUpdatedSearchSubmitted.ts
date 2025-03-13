@@ -13,7 +13,5 @@ export interface TemplateSearchUpdatedSearchSubmitted {
     page?: string;
     source?: string;
     updatedSearchTerm?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -5,6 +5,7 @@ import { rimraf } from "rimraf";
 
 const compilerOptions = {
   inferStringEnumKeysFromValues: false,
+  additionalProperties: false,
 };
 
 function readSchemaFile(path: string) {

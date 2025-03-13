@@ -15,7 +15,5 @@ export interface InventorySyncCSVRequested {
     inv_sync_variants_total?: number;
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

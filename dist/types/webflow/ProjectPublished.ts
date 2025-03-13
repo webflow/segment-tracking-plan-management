@@ -25,7 +25,5 @@ export interface ProjectPublished {
     "wf session id"?: string;
     wf_source?: string;
     "workspace id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

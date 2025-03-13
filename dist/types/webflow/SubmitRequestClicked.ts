@@ -8,8 +8,5 @@
 export interface SubmitRequestClicked {
   event: "Submit Request Clicked";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

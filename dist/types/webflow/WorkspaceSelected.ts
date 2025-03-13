@@ -16,7 +16,6 @@ export interface WorkspaceSelected {
       location?: {
         city?: string;
         country?: string;
-        [k: string]: unknown;
       };
       name?: string;
       profileImg?: string;
@@ -27,9 +26,6 @@ export interface WorkspaceSelected {
       slug?: string;
       updatedOn?: string;
       usedSeats?: number;
-      [k: string]: unknown;
     };
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

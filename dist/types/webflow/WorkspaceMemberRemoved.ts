@@ -14,7 +14,5 @@ export interface WorkspaceMemberRemoved {
     source?: string;
     wf_source?: string;
     "workspace name"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

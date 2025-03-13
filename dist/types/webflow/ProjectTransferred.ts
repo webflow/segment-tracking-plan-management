@@ -14,7 +14,5 @@ export interface ProjectTransferred {
     "target id"?: string;
     "target type"?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

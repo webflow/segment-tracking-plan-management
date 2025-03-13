@@ -291,7 +291,6 @@ export interface SiteIntegrationsMarketingFormAdded {
         website_email?: string;
         what_best_describes_your_business_?: string;
         zip?: string;
-        [k: string]: unknown;
       };
       integrationAuth?: string;
       metadata?: {
@@ -299,11 +298,9 @@ export interface SiteIntegrationsMarketingFormAdded {
         hubspotFormName?: string;
         marketoFormId?: number;
         marketoFormName?: string;
-        [k: string]: unknown;
       };
       site?: string;
       webflowFormName?: string;
-      [k: string]: unknown;
     };
     "legacy team id"?: string;
     "site id"?: string;
@@ -315,7 +312,5 @@ export interface SiteIntegrationsMarketingFormAdded {
     "workspace role"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

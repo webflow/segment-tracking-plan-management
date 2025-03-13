@@ -8,8 +8,5 @@
 export interface SubmitRequestCancelled {
   event: "Submit Request Cancelled";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

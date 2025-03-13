@@ -14,7 +14,5 @@ export interface TemplateDetailPagePreviewCTAClicked {
     page?: string;
     source?: string;
     template?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

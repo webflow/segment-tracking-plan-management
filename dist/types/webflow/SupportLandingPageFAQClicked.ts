@@ -10,7 +10,5 @@ export interface SupportLandingPageFAQClicked {
   type: "track";
   properties: {
     link?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

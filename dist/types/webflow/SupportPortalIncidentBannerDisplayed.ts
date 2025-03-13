@@ -12,7 +12,5 @@ export interface SupportPortalIncidentBannerDisplayed {
     impact?: string;
     incident?: string;
     status?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

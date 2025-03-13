@@ -13,7 +13,6 @@ export interface PasswordResetFailed {
       column?: number;
       line?: number;
       sourceURL?: string;
-      [k: string]: unknown;
     };
     "error type"?: string;
     page?: string;
@@ -23,7 +22,5 @@ export interface PasswordResetFailed {
     "workspace plan type"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

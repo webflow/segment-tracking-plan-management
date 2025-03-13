@@ -24,7 +24,5 @@ export interface ExpertsViewed {
     source?: string;
     utm?: string;
     "wf session id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

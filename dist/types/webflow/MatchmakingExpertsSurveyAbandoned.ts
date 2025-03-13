@@ -22,7 +22,6 @@ export interface MatchmakingExpertsSurveyAbandoned {
         "company-name"?: string;
         "company-role"?: string;
         "company-size"?: string;
-        [k: string]: unknown;
       };
       country?: string;
       "custom-budget-amount"?: string;
@@ -34,7 +33,6 @@ export interface MatchmakingExpertsSurveyAbandoned {
       ownerOfSite?: unknown;
       projectFinishedBy?: unknown;
       services?: string[];
-      [k: string]: unknown;
     };
     "workspace id"?: string;
     "workspace is enterprise"?: boolean;
@@ -43,7 +41,5 @@ export interface MatchmakingExpertsSurveyAbandoned {
     "workspace plan type"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

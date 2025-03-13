@@ -15,7 +15,5 @@ export interface TemplateServicesScheduleCTAClicked {
     page?: string;
     source?: string;
     "template-name"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

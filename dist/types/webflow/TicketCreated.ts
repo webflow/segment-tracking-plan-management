@@ -10,7 +10,5 @@ export interface TicketCreated {
   type: "track";
   properties: {
     ticketId?: number;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -45,7 +45,5 @@ export interface ProjectCreated {
     "workspace role"?: string;
     "workspace seat count"?: unknown;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

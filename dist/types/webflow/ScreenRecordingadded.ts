@@ -8,8 +8,5 @@
 export interface ScreenRecordingAdded {
   event: "Screen Recording added";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

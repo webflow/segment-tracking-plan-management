@@ -18,7 +18,6 @@ export interface BillingActionTracked {
       reason?: string;
       system?: string;
       user?: string;
-      [k: string]: unknown;
     };
     coupon?: {
       __v?: number;
@@ -50,7 +49,6 @@ export interface BillingActionTracked {
       percentOff?: number;
       rebateUSD?: number;
       redemptionsLeft?: number;
-      [k: string]: unknown;
     };
     currency?: string;
     interval?: string;
@@ -63,7 +61,6 @@ export interface BillingActionTracked {
     opts?: {
       invoiceTargetSubscriptionId?: string;
       removeTeamsHostingPlans?: boolean;
-      [k: string]: unknown;
     };
     origin?: unknown;
     ownerId?: string;
@@ -80,10 +77,8 @@ export interface BillingActionTracked {
       refill?: {
         enabled?: boolean;
         level?: number;
-        [k: string]: unknown;
       };
       target?: string;
-      [k: string]: unknown;
     };
     plan?: string;
     prorate?: string;
@@ -99,10 +94,8 @@ export interface BillingActionTracked {
     update?: {
       causedBy?: {
         admin?: string;
-        [k: string]: unknown;
       };
       source?: string;
-      [k: string]: unknown;
     };
     updatedItem?: {
       __v?: number;
@@ -141,10 +134,8 @@ export interface BillingActionTracked {
           percentOff?: number;
           rebateUSD?: number;
           redemptionsLeft?: number;
-          [k: string]: unknown;
         };
         migratedFromLegacyBilling?: boolean;
-        [k: string]: unknown;
       };
       failedCharges?: number;
       incidentalsLastInvoicedOn?: string;
@@ -157,7 +148,6 @@ export interface BillingActionTracked {
         person?: unknown;
         sites?: string[];
         workspace?: unknown;
-        [k: string]: unknown;
       };
       plan?: string;
       quantity?: number;
@@ -166,17 +156,12 @@ export interface BillingActionTracked {
         itemId?: string;
         subscriptionId?: string;
         subscriptionPaidUntil?: string;
-        [k: string]: unknown;
       };
       target?: string;
-      [k: string]: unknown;
     };
     user?: {
       email?: string;
-      [k: string]: unknown;
     };
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

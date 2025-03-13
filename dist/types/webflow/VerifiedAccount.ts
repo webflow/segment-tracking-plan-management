@@ -8,8 +8,5 @@
 export interface VerifiedAccount {
   event: "Verified Account";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

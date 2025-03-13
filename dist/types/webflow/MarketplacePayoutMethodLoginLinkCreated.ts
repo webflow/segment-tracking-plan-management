@@ -11,7 +11,5 @@ export interface MarketplacePayoutMethodLoginLinkCreated {
   properties: {
     "payment provider"?: string;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

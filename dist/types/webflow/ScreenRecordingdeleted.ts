@@ -8,8 +8,5 @@
 export interface ScreenRecordingDeleted {
   event: "Screen Recording deleted";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

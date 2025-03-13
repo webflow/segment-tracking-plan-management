@@ -8,8 +8,5 @@
 export interface RemovedSecondaryEmail {
   event: "Removed Secondary Email";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

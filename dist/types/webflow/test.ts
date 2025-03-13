@@ -8,8 +8,5 @@
 export interface Test {
   event: "test";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

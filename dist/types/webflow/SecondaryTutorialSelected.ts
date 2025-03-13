@@ -10,7 +10,5 @@ export interface SecondaryTutorialSelected {
   type: "track";
   properties: {
     ref?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -19,7 +19,6 @@ export interface MatchmakingExpertsSurveyStepSubmitted {
       "company-size"?: string;
       label?: string;
       value?: string;
-      [k: string]: unknown;
     };
     projectUID?: string;
     ref?: string;
@@ -30,7 +29,5 @@ export interface MatchmakingExpertsSurveyStepSubmitted {
     "workspace plan type"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

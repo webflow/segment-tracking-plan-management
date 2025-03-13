@@ -10,7 +10,5 @@ export interface Visit404Page {
   type: "track";
   properties: {
     source?: unknown;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

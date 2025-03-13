@@ -22,7 +22,5 @@ export interface BlogViewed {
     source?: string;
     "updated at"?: string;
     "wf session id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

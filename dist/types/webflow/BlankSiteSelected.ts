@@ -10,7 +10,5 @@ export interface BlankSiteSelected {
   type: "track";
   properties: {
     ref?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

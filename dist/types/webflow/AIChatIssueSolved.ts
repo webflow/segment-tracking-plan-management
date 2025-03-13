@@ -8,8 +8,5 @@
 export interface AIChatIssueSolved {
   event: "AI Chat Issue Solved";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

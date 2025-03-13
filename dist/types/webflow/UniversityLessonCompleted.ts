@@ -16,7 +16,5 @@ export interface UniversityLessonCompleted {
     page?: string;
     source?: string;
     "video id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

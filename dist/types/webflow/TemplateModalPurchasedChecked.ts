@@ -10,7 +10,5 @@ export interface TemplateModalPurchasedChecked {
   type: "track";
   properties: {
     checked?: boolean;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

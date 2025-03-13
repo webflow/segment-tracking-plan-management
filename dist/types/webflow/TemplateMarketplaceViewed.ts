@@ -19,7 +19,5 @@ export interface TemplateMarketplaceViewed {
     template?: string;
     "template author"?: string;
     "wf session id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

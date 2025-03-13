@@ -11,7 +11,5 @@ export interface AttachmentAdded {
   properties: {
     file?: string;
     size?: number;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

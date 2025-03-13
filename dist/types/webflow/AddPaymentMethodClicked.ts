@@ -22,7 +22,5 @@ export interface AddPaymentMethodClicked {
     "workspace plan type"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

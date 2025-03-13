@@ -13,7 +13,6 @@ export interface UpgradeModalWorkspaceSelected {
       manageableSites?: number;
       ref?: string;
       upgradeType?: string;
-      [k: string]: unknown;
     };
     "legacy team id"?: string;
     "manageable sites"?: number;
@@ -35,7 +34,5 @@ export interface UpgradeModalWorkspaceSelected {
     "workspace role"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

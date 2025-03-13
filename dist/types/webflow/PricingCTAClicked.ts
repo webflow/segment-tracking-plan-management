@@ -18,7 +18,5 @@ export interface PricingCTAClicked {
     "surface area"?: string;
     "workspace id"?: string;
     "workspace plan id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

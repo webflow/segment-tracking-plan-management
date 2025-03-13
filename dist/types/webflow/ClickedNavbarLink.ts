@@ -12,7 +12,5 @@ export interface ClickedNavbarLink {
     breakpoint?: string;
     link?: string;
     name?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

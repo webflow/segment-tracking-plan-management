@@ -21,7 +21,5 @@ export interface WorkspaceInvitationSent {
     "workspace invite id"?: string;
     "workspace name"?: string;
     "workspace plan"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

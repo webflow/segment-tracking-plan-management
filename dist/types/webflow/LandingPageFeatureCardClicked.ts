@@ -10,7 +10,5 @@ export interface LandingPageFeatureCardClicked {
   type: "track";
   properties: {
     link?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

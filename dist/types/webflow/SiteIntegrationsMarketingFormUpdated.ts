@@ -301,7 +301,6 @@ export interface SiteIntegrationsMarketingFormUpdated {
         utm_term?: string;
         "visitor code"?: string;
         zip?: string;
-        [k: string]: unknown;
       };
       integrationAuth?: string;
       metadata?: {
@@ -309,13 +308,9 @@ export interface SiteIntegrationsMarketingFormUpdated {
         hubspotFormName?: string;
         marketoFormId?: number;
         marketoFormName?: string;
-        [k: string]: unknown;
       };
       site?: string;
       webflowFormName?: string;
-      [k: string]: unknown;
     };
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -12,7 +12,5 @@ export interface EnrichmentProvider {
     email?: unknown;
     product?: unknown;
     type?: unknown;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

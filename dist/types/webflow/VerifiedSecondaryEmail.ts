@@ -8,8 +8,5 @@
 export interface VerifiedSecondaryEmail {
   event: "Verified Secondary Email";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

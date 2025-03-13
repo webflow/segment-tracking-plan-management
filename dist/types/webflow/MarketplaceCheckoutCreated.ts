@@ -11,7 +11,5 @@ export interface MarketplaceCheckoutCreated {
   properties: {
     "marketplace order id"?: string;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -8,8 +8,5 @@
 export interface RemoveDefaultDomain {
   event: "Remove Default Domain";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

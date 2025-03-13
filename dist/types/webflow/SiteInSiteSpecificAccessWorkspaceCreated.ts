@@ -14,7 +14,5 @@ export interface SiteInSiteSpecificAccessWorkspaceCreated {
     "site specific access"?: boolean;
     wf_source?: string;
     "workspace id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

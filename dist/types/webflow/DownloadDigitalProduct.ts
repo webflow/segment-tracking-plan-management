@@ -11,7 +11,5 @@ export interface DownloadDigitalProduct {
   properties: {
     "page type"?: string;
     ref?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -8,8 +8,5 @@
 export interface UpdatedStagingDomain {
   event: "Updated staging domain";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

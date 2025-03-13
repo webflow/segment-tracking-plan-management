@@ -14,7 +14,5 @@ export interface OpenUpdateEmailPage {
     "team id"?: unknown;
     teamId?: unknown;
     timestamp?: unknown;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

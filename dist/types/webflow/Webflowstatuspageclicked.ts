@@ -8,8 +8,5 @@
 export interface WebflowStatusPageClicked {
   event: "Webflow status page clicked";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

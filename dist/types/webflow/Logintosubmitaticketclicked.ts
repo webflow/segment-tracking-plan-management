@@ -10,7 +10,5 @@ export interface LoginToSubmitATicketClicked {
   type: "track";
   properties: {
     location?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

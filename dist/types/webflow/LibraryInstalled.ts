@@ -15,7 +15,5 @@ export interface LibraryInstalled {
     "library version"?: string;
     "site id"?: string[];
     "workspace id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

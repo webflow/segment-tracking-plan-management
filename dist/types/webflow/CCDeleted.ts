@@ -8,8 +8,5 @@
 export interface CCDeleted {
   event: "CC Deleted";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

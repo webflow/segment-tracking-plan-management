@@ -13,13 +13,10 @@ export interface SiteSpecificAccessSiteMembersAdded {
       canPublish?: boolean;
       siteRole?: string;
       userId?: string;
-      [k: string]: unknown;
     }[];
     "num of users added"?: number;
     "site id"?: string;
     wf_source?: string;
     "workspace id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

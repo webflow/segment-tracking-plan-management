@@ -8,8 +8,5 @@
 export interface TypedInSwiftypeSearch {
   event: "Typed in Swiftype Search";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

@@ -11,7 +11,5 @@ export interface EmailVerificationStarted {
   properties: {
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

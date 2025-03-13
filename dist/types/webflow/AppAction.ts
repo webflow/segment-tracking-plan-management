@@ -10,7 +10,5 @@ export interface AppAction {
   type: "track";
   properties: {
     action?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

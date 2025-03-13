@@ -16,7 +16,5 @@ export interface ShowcaseSearchResultsViewed {
     "workspace plan"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

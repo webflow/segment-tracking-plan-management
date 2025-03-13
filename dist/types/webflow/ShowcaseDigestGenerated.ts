@@ -23,7 +23,5 @@ export interface ShowcaseDigestGenerated {
     "start date"?: string;
     "total views"?: number;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

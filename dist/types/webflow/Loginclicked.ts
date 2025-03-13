@@ -10,7 +10,5 @@ export interface LoginClicked {
   type: "track";
   properties: {
     location?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

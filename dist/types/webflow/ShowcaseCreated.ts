@@ -13,7 +13,5 @@ export interface ShowcaseCreated {
     showcasedToWorkspaceProfile?: boolean;
     site_id?: string;
     tags?: string[];
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

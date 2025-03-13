@@ -12,7 +12,5 @@ export interface EcommerceProductCSVExported {
     location?: string;
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

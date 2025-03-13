@@ -10,7 +10,5 @@ export interface EmailVerificationSent {
   type: "track";
   properties: {
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

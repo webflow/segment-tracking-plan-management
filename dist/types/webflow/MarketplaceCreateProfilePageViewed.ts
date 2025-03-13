@@ -10,7 +10,5 @@ export interface MarketplaceCreateProfilePageViewed {
   type: "track";
   properties: {
     profileType?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

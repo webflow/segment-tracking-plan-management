@@ -15,7 +15,5 @@ export interface UniversityViewed {
     ref?: string;
     source?: string;
     "wf session id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

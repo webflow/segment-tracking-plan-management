@@ -10,7 +10,5 @@ export interface LoginToGetSupportClicked {
   type: "track";
   properties: {
     location?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

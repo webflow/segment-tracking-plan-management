@@ -10,7 +10,5 @@ export interface AttachmentDeleted {
   type: "track";
   properties: {
     file?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

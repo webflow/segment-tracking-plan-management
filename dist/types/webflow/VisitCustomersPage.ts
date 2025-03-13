@@ -10,7 +10,5 @@ export interface VisitCustomersPage {
   type: "track";
   properties: {
     source?: unknown;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

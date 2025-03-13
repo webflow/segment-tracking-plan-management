@@ -30,7 +30,5 @@ export interface InvoicePaymentSucceeded {
     tax?: number;
     total?: number;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

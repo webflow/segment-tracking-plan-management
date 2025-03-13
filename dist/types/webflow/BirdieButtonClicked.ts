@@ -8,8 +8,5 @@
 export interface BirdieButtonClicked {
   event: "Birdie Button Clicked";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

@@ -16,7 +16,5 @@ export interface WordsTranslated {
     wf_source?: string;
     wordsTranslated?: number;
     workspaceId?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

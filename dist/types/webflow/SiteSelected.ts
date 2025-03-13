@@ -15,7 +15,6 @@ export interface SiteSelected {
       _status?: {
         code?: string;
         lastChanged?: string;
-        [k: string]: unknown;
       };
       active?: boolean;
       annotationCount?: number;
@@ -40,7 +39,6 @@ export interface SiteSelected {
       emailFormOptions?: {
         incSubInfo?: boolean;
         incUnsubLink?: boolean;
-        [k: string]: unknown;
       };
       emailFormReplyTo?: unknown;
       emailFormSubject?: unknown;
@@ -61,7 +59,6 @@ export interface SiteSelected {
         resource?: string;
         resourceModel?: string;
         type?: string;
-        [k: string]: unknown;
       }[];
       isStagingPrivate?: boolean;
       lastExport?: string;
@@ -243,14 +240,12 @@ export interface SiteSelected {
           '{"type":"fromLibrary","val":["uDesign Components",["Hero"]]}'?: boolean;
           '{"type":"fromLibrary","val":["uDesign Components",["Navbar"]]}'?: boolean;
           '{"type":"fromLibrary","val":["uDesign Components",["Pricing"]]}'?: boolean;
-          [k: string]: unknown;
         };
         auditResultsIgnored?: string[];
         auditResultsRead?: string[];
         logicLibraryVisibilityStates?: {
           actions?: boolean;
           utilities?: boolean;
-          [k: string]: unknown;
         };
         numSiteVisit?: number;
         pageSettingVisibilityStates?: {
@@ -262,7 +257,6 @@ export interface SiteSelected {
           rss?: boolean;
           search?: boolean;
           seo?: boolean;
-          [k: string]: unknown;
         };
         pageVisibilityStates?: {
           cms?: boolean;
@@ -271,7 +265,6 @@ export interface SiteSelected {
           static?: boolean;
           user?: boolean;
           utility?: boolean;
-          [k: string]: unknown;
         };
         stylePanelVisibilityStates?: {
           __focusMode__?: boolean;
@@ -293,9 +286,7 @@ export interface SiteSelected {
           spacing?: boolean;
           typography?: boolean;
           typographyAdvanced?: boolean;
-          [k: string]: unknown;
         };
-        [k: string]: unknown;
       };
       previewId?: unknown;
       previewUrl?: string;
@@ -311,7 +302,6 @@ export interface SiteSelected {
       siteCredits?: {
         id?: string;
         type?: string;
-        [k: string]: unknown;
       }[];
       siteFileDependenciesInitialized?: boolean;
       siteSpecificAccess?: boolean;
@@ -324,9 +314,6 @@ export interface SiteSelected {
       version?: number;
       webClipUrl?: string;
       workspace?: string;
-      [k: string]: unknown;
     };
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

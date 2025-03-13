@@ -8,8 +8,5 @@
 export interface SubmitRequestConfirmed {
   event: "Submit Request Confirmed";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

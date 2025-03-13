@@ -8,8 +8,5 @@
 export interface DefaultWorkspaceSet {
   event: "Default Workspace Set";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

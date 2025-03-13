@@ -10,7 +10,5 @@ export interface NavbarDropdownClicked {
   type: "track";
   properties: {
     name?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

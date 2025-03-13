@@ -11,7 +11,5 @@ export interface AdditionalSupportRequestClicked {
   properties: {
     label?: string;
     location?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -12,7 +12,5 @@ export interface ContactSalesExitModalViewed {
     "logged in"?: boolean;
     page?: string;
     source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

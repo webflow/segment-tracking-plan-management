@@ -11,7 +11,5 @@ export interface MarketplaceOrderCreated {
   properties: {
     "seller workspace id"?: string;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

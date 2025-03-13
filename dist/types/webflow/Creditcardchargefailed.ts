@@ -8,8 +8,5 @@
 export interface CreditCardChargeFailed {
   event: "Credit card charge failed";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

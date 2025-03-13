@@ -12,7 +12,5 @@ export interface MarketplaceCheckoutPageViewed {
     "can manage workspace billing"?: boolean;
     "is site limit reached"?: boolean;
     "marketplace product id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

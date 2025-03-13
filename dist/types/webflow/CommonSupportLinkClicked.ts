@@ -10,7 +10,5 @@ export interface CommonSupportLinkClicked {
   type: "track";
   properties: {
     question?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

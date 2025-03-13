@@ -13,7 +13,5 @@ export interface TemplateServicesServiceTypeClicked {
     page?: string;
     "service-type"?: string;
     source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

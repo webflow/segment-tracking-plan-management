@@ -13,7 +13,5 @@ export interface BetaFeatureToggled {
     source?: string;
     value?: boolean;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

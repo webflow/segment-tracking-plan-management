@@ -17,7 +17,5 @@ export interface HostingTransferred {
     sslHosting?: boolean;
     to?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

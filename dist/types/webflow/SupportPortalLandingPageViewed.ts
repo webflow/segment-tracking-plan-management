@@ -8,8 +8,5 @@
 export interface SupportPortalLandingPageViewed {
   event: "Support Portal Landing Page Viewed";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

@@ -40,7 +40,5 @@ export interface DesignerOpened {
     "workspace is enterprise"?: boolean;
     "workspace plan"?: string;
     "workspace seat count"?: number;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -12,7 +12,5 @@ export interface FreeDomainOfferInitiated {
     "site id"?: string;
     wf_source?: string;
     "workspace id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

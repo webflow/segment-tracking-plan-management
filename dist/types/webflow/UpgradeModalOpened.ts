@@ -12,7 +12,6 @@ export interface UpgradeModalOpened {
     data?: {
       ref?: string;
       upgradeType?: string;
-      [k: string]: unknown;
     };
     "legacy team id"?: string;
     name?: string;
@@ -32,7 +31,5 @@ export interface UpgradeModalOpened {
     "workspace role"?: string;
     "workspace seat count"?: number;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

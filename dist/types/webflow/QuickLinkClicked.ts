@@ -11,7 +11,5 @@ export interface QuickLinkClicked {
   properties: {
     link?: string;
     page?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

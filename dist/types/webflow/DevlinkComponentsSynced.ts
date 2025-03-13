@@ -18,7 +18,5 @@ export interface DevlinkComponentsSynced {
     "site id"?: string;
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

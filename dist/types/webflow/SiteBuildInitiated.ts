@@ -18,7 +18,5 @@ export interface SiteBuildInitiated {
     minutes_to_initiate_build?: string;
     "site id"?: string;
     site_id?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

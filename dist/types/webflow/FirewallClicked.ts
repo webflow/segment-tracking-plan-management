@@ -10,7 +10,5 @@ export interface FirewallClicked {
   type: "track";
   properties: {
     intent?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

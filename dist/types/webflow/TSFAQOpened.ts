@@ -13,7 +13,5 @@ export interface TSFAQOpened {
     page?: string;
     question?: string;
     source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

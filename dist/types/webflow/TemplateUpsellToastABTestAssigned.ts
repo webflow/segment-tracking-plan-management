@@ -13,7 +13,5 @@ export interface BTestAssigned {
     page?: string;
     source?: string;
     variant?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

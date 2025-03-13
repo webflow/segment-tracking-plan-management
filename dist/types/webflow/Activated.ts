@@ -16,7 +16,5 @@ export interface Activated {
     months_to_activation?: string;
     site_id?: string;
     weeks_to_activation?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

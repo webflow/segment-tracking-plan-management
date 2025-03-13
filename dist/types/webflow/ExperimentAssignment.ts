@@ -20,53 +20,40 @@ export interface ExperimentAssignment {
         authState?: {
           important?: boolean;
           value?: unknown[];
-          [k: string]: unknown;
         };
         companySize?: {
           important?: boolean;
           value?: unknown[];
-          [k: string]: unknown;
         };
         createdAfter?: {
           important?: boolean;
           value?: string;
-          [k: string]: unknown;
         };
         segmentationCategory?: {
           important?: boolean;
           value?: unknown[];
-          [k: string]: unknown;
         };
-        [k: string]: unknown;
       };
       workspace?: {
         maxSeats?: {
           important?: boolean;
-          [k: string]: unknown;
         };
         minSeats?: {
           important?: boolean;
-          [k: string]: unknown;
         };
         plan?: {
           important?: boolean;
           value?: unknown[];
-          [k: string]: unknown;
         };
         role?: {
           important?: boolean;
           value?: unknown[];
-          [k: string]: unknown;
         };
-        [k: string]: unknown;
       };
-      [k: string]: unknown;
     };
     "team id"?: unknown;
     timestamp?: number;
     wf_source?: string;
     workspaceId?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

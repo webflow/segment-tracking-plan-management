@@ -11,7 +11,5 @@ export interface IntentDetected {
   properties: {
     currentIntent?: string;
     intent?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

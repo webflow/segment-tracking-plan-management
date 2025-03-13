@@ -15,7 +15,5 @@ export interface HirePageViewed {
     skills?: string[];
     source?: string;
     "surface area"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

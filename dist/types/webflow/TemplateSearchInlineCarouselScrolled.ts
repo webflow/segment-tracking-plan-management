@@ -14,7 +14,5 @@ export interface TemplateSearchInLineCarouselScrolled {
     nextSlideIndex?: string;
     page?: string;
     source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

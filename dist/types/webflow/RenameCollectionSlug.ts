@@ -12,7 +12,5 @@ export interface RenameCollectionSlug {
     dbId?: string;
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

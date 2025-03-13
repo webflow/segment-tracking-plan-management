@@ -15,7 +15,5 @@ export interface MarketplaceFiltersChanged {
   properties: {
     category?: PropertiesPropertiesPropertiesCategory;
     tags?: PropertiesPropertiesPropertiesTags;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

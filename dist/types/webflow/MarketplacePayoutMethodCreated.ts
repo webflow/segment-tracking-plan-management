@@ -12,7 +12,5 @@ export interface MarketplacePayoutMethodCreated {
     country?: string;
     "payment provider"?: string;
     "workspace slug"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

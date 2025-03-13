@@ -8,8 +8,5 @@
 export interface AddCCClicked {
   event: "Add CC Clicked";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

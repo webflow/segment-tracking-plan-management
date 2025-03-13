@@ -13,7 +13,5 @@ export interface SpecificAccessBulkValueUpdated {
     "updated sites count"?: number;
     wf_source?: string;
     "workspace id"?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

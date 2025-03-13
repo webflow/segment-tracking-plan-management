@@ -10,7 +10,5 @@ export interface ForumTopicClicked {
   type: "track";
   properties: {
     topic?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

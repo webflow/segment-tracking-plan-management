@@ -10,7 +10,5 @@ export interface MarketplaceCategoryClicked {
   type: "track";
   properties: {
     category?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

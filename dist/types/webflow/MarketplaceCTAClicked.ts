@@ -37,7 +37,5 @@ export interface MarketplaceCTAClicked {
     "workspace id"?: string;
     "workspace plan"?: string;
     "workspace seat count"?: number;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

@@ -18,7 +18,5 @@ export interface ProjectShowcased {
     showcasedToWorkspaceProfile?: boolean;
     source?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

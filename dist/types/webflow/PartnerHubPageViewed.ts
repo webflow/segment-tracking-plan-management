@@ -14,7 +14,5 @@ export interface PartnerHubPageViewed {
     userId?: string;
     workspaceId?: string;
     workspaceRole?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

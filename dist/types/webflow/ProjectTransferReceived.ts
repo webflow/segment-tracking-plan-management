@@ -14,7 +14,5 @@ export interface ProjectTransferReceived {
     "template id"?: string;
     type?: string;
     wf_source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

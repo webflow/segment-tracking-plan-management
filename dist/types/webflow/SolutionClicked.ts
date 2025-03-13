@@ -10,7 +10,5 @@ export interface SolutionClicked {
   type: "track";
   properties: {
     article?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

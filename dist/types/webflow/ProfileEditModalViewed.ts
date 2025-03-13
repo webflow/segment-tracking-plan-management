@@ -13,7 +13,5 @@ export interface ProfileEditModalViewed {
     profileName?: string;
     profileSlug?: string;
     tabName?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

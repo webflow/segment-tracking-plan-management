@@ -12,7 +12,5 @@ export interface TemplateModalSelected {
     category?: string;
     ref?: string;
     type?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

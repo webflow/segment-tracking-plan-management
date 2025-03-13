@@ -8,8 +8,5 @@
 export interface SupportFormViewed {
   event: "Support Form Viewed";
   type: "track";
-  properties: {
-    [k: string]: unknown;
-  };
-  [k: string]: unknown;
+  properties: {};
 }

@@ -18,7 +18,5 @@ export interface ExperimentViewed {
     sectionName?: string;
     variationId?: string;
     variationName?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }

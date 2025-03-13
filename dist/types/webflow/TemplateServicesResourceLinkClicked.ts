@@ -13,7 +13,5 @@ export interface TemplateServicesResourceLinkClicked {
     page?: string;
     resource?: string;
     source?: string;
-    [k: string]: unknown;
   };
-  [k: string]: unknown;
 }
