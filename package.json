@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-types": "ts-node ./scripts/type-generation/generate-types.ts",
+    "check-types": "tsc ./scripts/type-generation/generate-types.ts --noEmit"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.28.0",
-    "js-yaml": "^4.1.0"
+    "axios": "^1.8.3",
+    "js-yaml": "^4.1.0",
+    "json-schema-to-typescript": "^15.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
   }
 }
