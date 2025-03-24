@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - My payment failed — what should I do? Clicked
+    type: TRACK
+    description: Quick Help - My payment failed — what should I do? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

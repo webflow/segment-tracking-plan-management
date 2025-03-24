@@ -1,0 +1,7 @@
+rules:
+  - key: Get support button hero clicked
+    type: TRACK
+    description: Get support button hero clicked
+    version: 1
+    labels: {}
+    properties: {}

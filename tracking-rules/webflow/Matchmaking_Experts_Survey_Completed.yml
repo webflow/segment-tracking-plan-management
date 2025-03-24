@@ -43,9 +43,7 @@ rules:
           kindOfSite:
             type:
               - string
-          language:
-            type:
-              - string
+          language: {}
           locationPreference:
             type:
               - string

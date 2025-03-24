@@ -1,0 +1,16 @@
+rules:
+  - key: Help Center Search Results Viewed
+    type: TRACK
+    description: Help Center Search Results Viewed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

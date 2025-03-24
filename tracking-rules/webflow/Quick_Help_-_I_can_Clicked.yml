@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - I can Clicked
+    type: TRACK
+    description: Quick Help - I can Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Google site verification'
+    type: TRACK
+    description: 'Help Center Article: Google site verification'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

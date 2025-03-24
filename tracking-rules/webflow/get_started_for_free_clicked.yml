@@ -1,0 +1,7 @@
+rules:
+  - key: get_started_for_free_clicked
+    type: TRACK
+    description: get_started_for_free_clicked
+    version: 1
+    labels: {}
+    properties: {}

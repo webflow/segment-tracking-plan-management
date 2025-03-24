@@ -1,0 +1,22 @@
+rules:
+  - key: Card Clicked
+    type: TRACK
+    description: Card Clicked
+    version: 1
+    labels: {}
+    properties:
+      description:
+        type:
+          - string
+      destination:
+        type:
+          - string
+      element_type:
+        type:
+          - string
+      path:
+        type:
+          - string
+      title:
+        type:
+          - string

@@ -1,0 +1,7 @@
+rules:
+  - key: Continue Button Clicked in Site & Workspace
+    type: TRACK
+    description: Continue Button Clicked in Site & Workspace
+    version: 1
+    labels: {}
+    properties: {}

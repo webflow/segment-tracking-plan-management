@@ -5,7 +5,13 @@ rules:
     version: 1
     labels: {}
     properties:
+      __cpLocation:
+        type:
+          - string
       action:
+        type:
+          - string
+      cta:
         type:
           - string
       ids:
@@ -36,6 +42,15 @@ rules:
       type:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string

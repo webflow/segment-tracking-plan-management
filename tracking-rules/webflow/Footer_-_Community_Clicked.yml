@@ -1,0 +1,16 @@
+rules:
+  - key: Footer - Community Clicked
+    type: TRACK
+    description: Footer - Community Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

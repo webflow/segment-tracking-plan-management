@@ -1,0 +1,16 @@
+rules:
+  - key: Find a Webflow Partner Clicked
+    type: TRACK
+    description: Find a Webflow Partner Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

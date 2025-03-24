@@ -1,0 +1,19 @@
+rules:
+  - key: Template Detail Page - Full Description Expanded
+    type: TRACK
+    description: Template Detail Page - Full Description Expanded
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template:
+        type:
+          - string

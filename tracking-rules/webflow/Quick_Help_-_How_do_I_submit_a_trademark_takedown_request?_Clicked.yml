@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - How do I submit a trademark takedown request? Clicked
+    type: TRACK
+    description: Quick Help - How do I submit a trademark takedown request? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

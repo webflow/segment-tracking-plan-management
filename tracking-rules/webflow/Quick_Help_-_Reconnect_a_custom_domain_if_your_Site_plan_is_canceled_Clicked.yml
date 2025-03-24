@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - Reconnect a custom domain if your Site plan is canceled
+      Clicked
+    type: TRACK
+    description: >-
+      Quick Help - Reconnect a custom domain if your Site plan is canceled
+      Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

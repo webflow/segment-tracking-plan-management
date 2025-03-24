@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Intro to the box model'
+    type: TRACK
+    description: 'Help Center Article: Intro to the box model'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

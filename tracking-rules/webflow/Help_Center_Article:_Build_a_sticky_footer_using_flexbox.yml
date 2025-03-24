@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Build a sticky footer using flexbox'
+    type: TRACK
+    description: 'Help Center Article: Build a sticky footer using flexbox'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

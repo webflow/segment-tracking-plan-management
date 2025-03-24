@@ -14,6 +14,12 @@ rules:
       app name:
         type:
           - string
+      email:
+        type:
+          - string
+      has subscription:
+        type:
+          - boolean
       id:
         type:
           - string
@@ -21,6 +27,12 @@ rules:
         type:
           - integer
       installation location:
+        type:
+          - string
+      lastUpdatedSite:
+        type:
+          - string
+      lastUpdatedSiteName:
         type:
           - string
       mrp name:

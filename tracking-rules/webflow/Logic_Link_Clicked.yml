@@ -1,0 +1,16 @@
+rules:
+  - key: Logic Link Clicked
+    type: TRACK
+    description: Logic Link Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

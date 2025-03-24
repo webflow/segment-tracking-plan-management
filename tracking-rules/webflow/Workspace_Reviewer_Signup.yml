@@ -1,0 +1,10 @@
+rules:
+  - key: Workspace Reviewer Signup
+    type: TRACK
+    description: Workspace Reviewer Signup
+    version: 1
+    labels: {}
+    properties:
+      ref:
+        type:
+          - string

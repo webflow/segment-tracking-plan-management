@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - Understanding per page JavaScript and asynchronously loading
+      JavaScript Clicked
+    type: TRACK
+    description: >-
+      Quick Help - Understanding per page JavaScript and asynchronously loading
+      JavaScript Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -1,0 +1,16 @@
+rules:
+  - key: Add a site plan Clicked
+    type: TRACK
+    description: Add a site plan Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

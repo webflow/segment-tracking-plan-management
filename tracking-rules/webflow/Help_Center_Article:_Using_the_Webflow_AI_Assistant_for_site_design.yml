@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Using the Webflow AI Assistant for site design'
+    type: TRACK
+    description: 'Help Center Article: Using the Webflow AI Assistant for site design'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

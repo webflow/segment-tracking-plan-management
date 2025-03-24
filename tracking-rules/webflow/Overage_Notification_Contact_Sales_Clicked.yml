@@ -1,0 +1,848 @@
+rules:
+  - key: Overage Notification Contact Sales Clicked
+    type: TRACK
+    description: Overage Notification Contact Sales Clicked
+    version: 1
+    labels: {}
+    properties:
+      '0':
+        properties:
+          __cursor:
+            type:
+              - string
+          __typename:
+            type:
+              - string
+          activities:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                actor:
+                  type:
+                    - object
+                data:
+                  type:
+                    - object
+                id:
+                  type:
+                    - string
+                inserted_at:
+                  type:
+                    - string
+                recipient:
+                  type:
+                    - object
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          actors:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                created_at: {}
+                email:
+                  type:
+                    - string
+                firstName:
+                  type:
+                    - string
+                id:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                role:
+                  type:
+                    - string
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          archived_at: {}
+          blocks:
+            items:
+              properties:
+                content:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                rendered:
+                  type:
+                    - string
+                type:
+                  type:
+                    - string
+              type: object
+            type: array
+          clicked_at: {}
+          data:
+            properties:
+              bannerId:
+                type:
+                  - string
+              currentPlan:
+                type:
+                  - string
+              currentPlanId:
+                type:
+                  - string
+              currentUsage:
+                type:
+                  - integer
+              featureNotificationType:
+                type:
+                  - string
+              isBandwidthAddonMaxedOut:
+                type:
+                  - boolean
+              nextTierPlan:
+                type:
+                  - string
+              notificationType:
+                type:
+                  - string
+              occurrence:
+                type:
+                  - string
+              siteId:
+                type:
+                  - string
+              siteName:
+                type:
+                  - string
+              siteSlug:
+                type:
+                  - string
+              usageLimit:
+                type:
+                  - integer
+              usageLimitGB:
+                type:
+                  - integer
+              wentOverHighUsageThresholdPreviousMonth:
+                type:
+                  - boolean
+              wentOverThresholdPreviousMonth:
+                type:
+                  - boolean
+              workspaceName:
+                type:
+                  - string
+              workspaceSlug:
+                type:
+                  - string
+            type: object
+          id:
+            type:
+              - string
+          inserted_at:
+            type:
+              - string
+          interacted_at: {}
+          link_clicked_at: {}
+          read_at: {}
+          seen_at: {}
+          source:
+            properties:
+              __typename:
+                type:
+                  - string
+              categories:
+                type:
+                  - array
+              key:
+                type:
+                  - string
+              version_id:
+                type:
+                  - string
+            type: object
+          tenant: {}
+          total_activities:
+            type:
+              - integer
+          total_actors:
+            type:
+              - integer
+          updated_at:
+            type:
+              - string
+        type: object
+      '1':
+        properties:
+          __cursor:
+            type:
+              - string
+          __typename:
+            type:
+              - string
+          activities:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                actor:
+                  type:
+                    - object
+                data:
+                  type:
+                    - object
+                id:
+                  type:
+                    - string
+                inserted_at:
+                  type:
+                    - string
+                recipient:
+                  type:
+                    - object
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          actors:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                created_at: {}
+                email:
+                  type:
+                    - string
+                firstName:
+                  type:
+                    - string
+                id:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                role:
+                  type:
+                    - string
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          archived_at: {}
+          blocks:
+            items:
+              properties:
+                content:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                rendered:
+                  type:
+                    - string
+                type:
+                  type:
+                    - string
+              type: object
+            type: array
+          clicked_at: {}
+          data:
+            properties:
+              bannerId:
+                type:
+                  - string
+              currentPlan:
+                type:
+                  - string
+              currentPlanId:
+                type:
+                  - string
+              currentUsage:
+                type:
+                  - integer
+              featureNotificationType:
+                type:
+                  - string
+              isBandwidthAddonMaxedOut:
+                type:
+                  - boolean
+              nextResetDate:
+                type:
+                  - string
+              nextTierPlan:
+                type:
+                  - string
+              notificationType:
+                type:
+                  - string
+              occurrence:
+                type:
+                  - string
+              siteId:
+                type:
+                  - string
+              siteName:
+                type:
+                  - string
+              siteSlug:
+                type:
+                  - string
+              usageLimit:
+                type:
+                  - integer
+              usageLimitGB:
+                type:
+                  - integer
+              wentOverHighUsageThresholdPreviousMonth:
+                type:
+                  - boolean
+              wentOverThresholdPreviousMonth:
+                type:
+                  - boolean
+              workspaceName:
+                type:
+                  - string
+              workspaceSlug:
+                type:
+                  - string
+            type: object
+          id:
+            type:
+              - string
+          inserted_at:
+            type:
+              - string
+          interacted_at:
+            type:
+              - string
+          link_clicked_at: {}
+          read_at:
+            type:
+              - string
+          seen_at: {}
+          source:
+            properties:
+              __typename:
+                type:
+                  - string
+              categories:
+                type:
+                  - array
+              key:
+                type:
+                  - string
+              version_id:
+                type:
+                  - string
+            type: object
+          tenant: {}
+          total_activities:
+            type:
+              - integer
+          total_actors:
+            type:
+              - integer
+          updated_at:
+            type:
+              - string
+        type: object
+      '2':
+        properties:
+          __cursor:
+            type:
+              - string
+          __typename:
+            type:
+              - string
+          activities:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                actor:
+                  type:
+                    - object
+                data:
+                  type:
+                    - object
+                id:
+                  type:
+                    - string
+                inserted_at:
+                  type:
+                    - string
+                recipient:
+                  type:
+                    - object
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          actors:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                created_at: {}
+                email:
+                  type:
+                    - string
+                firstName:
+                  type:
+                    - string
+                id:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                role:
+                  type:
+                    - string
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          archived_at: {}
+          blocks:
+            items:
+              properties:
+                content:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                rendered:
+                  type:
+                    - string
+                type:
+                  type:
+                    - string
+              type: object
+            type: array
+          clicked_at: {}
+          data:
+            properties:
+              bannerId:
+                type:
+                  - string
+              currentPlan:
+                type:
+                  - string
+              currentPlanId:
+                type:
+                  - string
+              currentUsage:
+                type:
+                  - integer
+              featureNotificationType:
+                type:
+                  - string
+              isBandwidthAddonMaxedOut:
+                type:
+                  - boolean
+              nextResetDate:
+                type:
+                  - string
+              nextTierPlan:
+                type:
+                  - string
+              notificationType:
+                type:
+                  - string
+              occurrence:
+                type:
+                  - string
+              siteId:
+                type:
+                  - string
+              siteName:
+                type:
+                  - string
+              siteSlug:
+                type:
+                  - string
+              usageLimit:
+                type:
+                  - integer
+              usageLimitGB:
+                type:
+                  - integer
+              wentOverHighUsageThresholdPreviousMonth:
+                type:
+                  - boolean
+              wentOverThresholdPreviousMonth:
+                type:
+                  - boolean
+              workspaceName:
+                type:
+                  - string
+              workspaceSlug:
+                type:
+                  - string
+            type: object
+          id:
+            type:
+              - string
+          inserted_at:
+            type:
+              - string
+          interacted_at:
+            type:
+              - string
+          link_clicked_at: {}
+          read_at:
+            type:
+              - string
+          seen_at: {}
+          source:
+            properties:
+              __typename:
+                type:
+                  - string
+              categories:
+                type:
+                  - array
+              key:
+                type:
+                  - string
+              version_id:
+                type:
+                  - string
+            type: object
+          tenant: {}
+          total_activities:
+            type:
+              - integer
+          total_actors:
+            type:
+              - integer
+          updated_at:
+            type:
+              - string
+        type: object
+      '3':
+        properties:
+          __cursor:
+            type:
+              - string
+          __typename:
+            type:
+              - string
+          activities:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                id:
+                  type:
+                    - string
+                inserted_at:
+                  type:
+                    - string
+                recipient:
+                  type:
+                    - object
+                updated_at:
+                  type:
+                    - string
+              type: string
+            type: array
+          actors:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                created_at: {}
+                email:
+                  type:
+                    - string
+                firstName:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                role:
+                  type:
+                    - string
+                updated_at:
+                  type:
+                    - string
+              type: object
+            type: array
+          archived_at: {}
+          blocks:
+            items:
+              properties:
+                content:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+                rendered:
+                  type:
+                    - string
+                type:
+                  type:
+                    - string
+              type: string
+            type: array
+          data:
+            properties:
+              currentPlanId:
+                type:
+                  - string
+              currentUsage:
+                type:
+                  - integer
+              featureNotificationType:
+                type:
+                  - string
+              nextResetDate:
+                type:
+                  - string
+              nextTierPlan:
+                type:
+                  - string
+              notificationType:
+                type:
+                  - string
+              occurrence:
+                type:
+                  - string
+              siteId:
+                type:
+                  - string
+              siteName:
+                type:
+                  - string
+              usageLimitGB:
+                type:
+                  - integer
+              wentOverHighUsageThresholdPreviousMonth:
+                type:
+                  - boolean
+              wentOverThresholdPreviousMonth:
+                type:
+                  - boolean
+              workspaceName:
+                type:
+                  - string
+              workspaceSlug:
+                type:
+                  - string
+            type: object
+          id:
+            type:
+              - string
+          inserted_at:
+            type:
+              - string
+          interacted_at:
+            type:
+              - string
+          link_clicked_at: {}
+          source:
+            properties:
+              __typename:
+                type:
+                  - string
+              categories:
+                type:
+                  - array
+              version_id:
+                type:
+                  - string
+            type: object
+          tenant: {}
+          total_actors:
+            type:
+              - integer
+        type: object
+      '4':
+        properties:
+          __typename:
+            type:
+              - string
+          activities:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                actor:
+                  type:
+                    - object
+                data:
+                  type:
+                    - object
+                inserted_at:
+                  type:
+                    - string
+                recipient:
+                  type:
+                    - object
+                updated_at:
+                  type:
+                    - string
+              type: string
+            type: array
+          actors:
+            items:
+              properties:
+                __typename:
+                  type:
+                    - string
+                created_at: {}
+                firstName:
+                  type:
+                    - string
+                id:
+                  type:
+                    - string
+                name:
+                  type:
+                    - string
+              type: object
+            type: array
+          archived_at: {}
+          blocks:
+            items:
+              type: object
+            type: array
+          data:
+            properties:
+              bannerId:
+                type:
+                  - string
+              currentPlanId:
+                type:
+                  - string
+              featureNotificationType:
+                type:
+                  - string
+              nextResetDate:
+                type:
+                  - string
+              nextTierPlan:
+                type:
+                  - string
+              occurrence:
+                type:
+                  - string
+              siteName:
+                type:
+                  - string
+              siteSlug:
+                type:
+                  - string
+              usageLimit:
+                type:
+                  - integer
+              wentOverThresholdPreviousMonth:
+                type:
+                  - boolean
+              workspaceName:
+                type:
+                  - string
+              workspaceSlug:
+                type:
+                  - string
+            type: object
+          id:
+            type:
+              - string
+          inserted_at:
+            type:
+              - string
+          interacted_at:
+            type:
+              - string
+          link_clicked_at: {}
+          seen_at: {}
+          source:
+            properties:
+              __typename:
+                type:
+                  - string
+              categories:
+                type:
+                  - array
+              key:
+                type:
+                  - string
+              version_id:
+                type:
+                  - string
+            type: object
+          tenant: {}
+          updated_at:
+            type:
+              - string
+        type: object
+      current usage:
+        type:
+          - integer
+      feature notification type:
+        type:
+          - string
+      occurrence:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      usage limit:
+        type:
+          - integer
+      went over high usage threshold previous month:
+        type:
+          - boolean
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

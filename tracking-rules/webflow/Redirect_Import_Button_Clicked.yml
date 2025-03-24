@@ -1,0 +1,13 @@
+rules:
+  - key: Redirect Import Button Clicked
+    type: TRACK
+    description: Redirect Import Button Clicked
+    version: 1
+    labels: {}
+    properties:
+      site_id:
+        type:
+          - string
+      workspace_id:
+        type:
+          - string

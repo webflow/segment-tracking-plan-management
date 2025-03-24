@@ -1,0 +1,16 @@
+rules:
+  - key: Footer - Privacy policy Clicked
+    type: TRACK
+    description: Footer - Privacy policy Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

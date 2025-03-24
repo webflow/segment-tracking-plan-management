@@ -1,0 +1,19 @@
+rules:
+  - key: Secondary Thumbnail - Experiment Assigned
+    type: TRACK
+    description: Secondary Thumbnail - Experiment Assigned
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      variant:
+        type:
+          - string

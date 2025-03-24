@@ -1,0 +1,28 @@
+rules:
+  - key: Page Building Component Added
+    type: TRACK
+    description: Page Building Component Added
+    version: 1
+    labels: {}
+    properties:
+      component root id:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      page id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site role:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

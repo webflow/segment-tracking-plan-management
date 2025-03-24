@@ -1,0 +1,13 @@
+rules:
+  - key: Time Active on Page
+    type: TRACK
+    description: Time Active on Page
+    version: 1
+    labels: {}
+    properties:
+      page:
+        type:
+          - string
+      timeSpent:
+        type:
+          - number

@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Prevent spam in form submissions'
+    type: TRACK
+    description: 'Help Center Article: Prevent spam in form submissions'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

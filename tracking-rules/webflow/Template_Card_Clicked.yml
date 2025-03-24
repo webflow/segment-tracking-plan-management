@@ -1,0 +1,34 @@
+rules:
+  - key: Template Card Clicked
+    type: TRACK
+    description: Template Card Clicked
+    version: 1
+    labels: {}
+    properties:
+      has_secondary_thumbnail:
+        type:
+          - boolean
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      secondary_thumbnail_variant:
+        type:
+          - string
+      source:
+        type:
+          - string
+      source_page_title:
+        type:
+          - string
+      source_page_url:
+        type:
+          - string
+      template_index:
+        type:
+          - integer
+      template_name:
+        type:
+          - string

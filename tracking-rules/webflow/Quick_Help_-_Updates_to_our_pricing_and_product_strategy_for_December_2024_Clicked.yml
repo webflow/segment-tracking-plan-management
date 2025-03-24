@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - Updates to our pricing and product strategy for December 2024
+      Clicked
+    type: TRACK
+    description: >-
+      Quick Help - Updates to our pricing and product strategy for December 2024
+      Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -14,16 +14,12 @@ rules:
       company:
         type:
           - string
-      company size:
-        type:
-          - string
+      company size: {}
       consent: {}
       country:
         type:
           - string
-      email:
-        type:
-          - string
+      email: {}
       first name:
         type:
           - string
@@ -36,9 +32,7 @@ rules:
       logged in:
         type:
           - boolean
-      message:
-        type:
-          - string
+      message: {}
       page:
         type:
           - string

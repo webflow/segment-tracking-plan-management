@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Control text wrapping and line breaking'
+    type: TRACK
+    description: 'Help Center Article: Control text wrapping and line breaking'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

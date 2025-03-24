@@ -1,0 +1,16 @@
+rules:
+  - key: Endpoint URL Clicked
+    type: TRACK
+    description: Endpoint URL Clicked
+    version: 1
+    labels: {}
+    properties:
+      element_type:
+        type:
+          - string
+      endpoint:
+        type:
+          - string
+      path:
+        type:
+          - string

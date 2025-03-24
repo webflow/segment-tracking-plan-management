@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - How do I report spam, phishing, or abuse? Clicked
+    type: TRACK
+    description: Quick Help - How do I report spam, phishing, or abuse? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

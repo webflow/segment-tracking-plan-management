@@ -1,0 +1,19 @@
+rules:
+  - key: Related Templates - Fallback to Similar
+    type: TRACK
+    description: Related Templates - Fallback to Similar
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template:
+        type:
+          - string

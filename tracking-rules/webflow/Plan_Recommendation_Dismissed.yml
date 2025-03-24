@@ -8,7 +8,9 @@ rules:
       banner version:
         type:
           - string
-      initial plan level: {}
+      initial plan level:
+        type:
+          - string
       plan type:
         type:
           - string
@@ -30,6 +32,9 @@ rules:
       site slug:
         type:
           - string
+      workspace addons:
+        type:
+          - object
       workspace id:
         type:
           - string
@@ -43,6 +48,9 @@ rules:
         type:
           - string
       workspace plan type:
+        type:
+          - string
+      workspace role:
         type:
           - string
       workspace seat count:

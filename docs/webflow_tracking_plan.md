@@ -80,6 +80,195 @@ analytics.track("AI Chat Issue Solved", {})
 <!-- panels:end -->
 
 
+## AI Site Builder Site Initialized
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **prompt** | `string` | No description | ❌ |
+| **section categories** | `array` | No description | ❌ |
+| **section count** | `integer` | No description | ❌ |
+| **sections** | `object` | No description | ❌ |
+| **sections.career** | `string` | No description | ❌ |
+| **sections.contact** | `string` | No description | ❌ |
+| **sections.content feed** | `string` | No description | ❌ |
+| **sections.content header** | `string` | No description | ❌ |
+| **sections.cta** | `string` | No description | ❌ |
+| **sections.event feed** | `string` | No description | ❌ |
+| **sections.faq** | `string` | No description | ❌ |
+| **sections.feature** | `string` | No description | ❌ |
+| **sections.footer** | `string` | No description | ❌ |
+| **sections.gallery** | `string` | No description | ❌ |
+| **sections.hero** | `string` | No description | ❌ |
+| **sections.logo** | `string` | No description | ❌ |
+| **sections.metrics** | `string` | No description | ❌ |
+| **sections.nav** | `string` | No description | ❌ |
+| **sections.pricing** | `string` | No description | ❌ |
+| **sections.team** | `string` | No description | ❌ |
+| **sections.testimonial** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **siteName** | `string` | No description | ❌ |
+| **theme** | `object` | No description | ❌ |
+| **theme.buttonPackId** | `string` | No description | ❌ |
+| **theme.cardPackId** | `string` | No description | ❌ |
+| **theme.colorPackId** | `string` | No description | ❌ |
+| **theme.containerPackId** | `string` | No description | ❌ |
+| **theme.fontPackId** | `string` | No description | ❌ |
+| **theme.formPackId** | `string` | No description | ❌ |
+| **theme.imagePackId** | `string` | No description | ❌ |
+| **theme.roundnessPackId** | `string` | No description | ❌ |
+| **theme.sectionVariancePackId** | `string` | No description | ❌ |
+| **theme.spacingPackId** | `string` | No description | ❌ |
+| **theme.tonePackId** | `string` | No description | ❌ |
+| **theme.typographyPackId** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AI Site Builder Site Initialized", {
+  "prompt": "<<type: string, required: false>>",
+  "section categories": "<<type: array, required: false>>",
+  "section count": "<<type: integer, required: false>>",
+  "sections": {
+    "career": "<<type: string, required: false>>",
+    "contact": "<<type: string, required: false>>",
+    "content feed": "<<type: string, required: false>>",
+    "content header": "<<type: string, required: false>>",
+    "cta": "<<type: string, required: false>>",
+    "event feed": "<<type: string, required: false>>",
+    "faq": "<<type: string, required: false>>",
+    "feature": "<<type: string, required: false>>",
+    "footer": "<<type: string, required: false>>",
+    "gallery": "<<type: string, required: false>>",
+    "hero": "<<type: string, required: false>>",
+    "logo": "<<type: string, required: false>>",
+    "metrics": "<<type: string, required: false>>",
+    "nav": "<<type: string, required: false>>",
+    "pricing": "<<type: string, required: false>>",
+    "team": "<<type: string, required: false>>",
+    "testimonial": "<<type: string, required: false>>"
+  },
+  "siteId": "<<type: string, required: false>>",
+  "siteName": "<<type: string, required: false>>",
+  "theme": {
+    "buttonPackId": "<<type: string, required: false>>",
+    "cardPackId": "<<type: string, required: false>>",
+    "colorPackId": "<<type: string, required: false>>",
+    "containerPackId": "<<type: string, required: false>>",
+    "fontPackId": "<<type: string, required: false>>",
+    "formPackId": "<<type: string, required: false>>",
+    "imagePackId": "<<type: string, required: false>>",
+    "roundnessPackId": "<<type: string, required: false>>",
+    "sectionVariancePackId": "<<type: string, required: false>>",
+    "spacingPackId": "<<type: string, required: false>>",
+    "tonePackId": "<<type: string, required: false>>",
+    "typographyPackId": "<<type: string, required: false>>"
+  },
+  "wf_source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AI Site Generator Selected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **AISBExperimentVariant** | `string` | No description | ❌ |
+| **enabledAISiteGenViaMarketingSite** | `boolean` | No description | ❌ |
+| **isInAiSiteGenFlag** | `boolean` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **shouldShowAISiteGenOption** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AI Site Generator Selected", {
+  "AISBExperimentVariant": "<<type: string, required: false>>",
+  "enabledAISiteGenViaMarketingSite": "<<type: boolean, required: false>>",
+  "isInAiSiteGenFlag": "<<type: boolean, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "shouldShowAISiteGenOption": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA ENT Workspace Beta Agreement Accepted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA ENT Workspace Beta Agreement Accepted", {
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Accessibility Checkbox Clicked
 
 <!-- tabs:start -->
@@ -104,6 +293,38 @@ analytics.track("Accessibility Checkbox Clicked", {
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Accordion Interaction
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **element_type** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+| **title** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Accordion Interaction", {
+  "action": "<<type: string, required: false>>",
+  "element_type": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>",
+  "title": "<<type: string, required: false>>"
 })
 ```
 
@@ -191,7 +412,7 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **is 2FA** | `boolean` | No description | ❌ |
-| **maintain 2FA 30 days** | `boolean` | No description | ❌ |
+| **maintain 2FA 30 days** | `string` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
@@ -218,7 +439,7 @@ No description provided
 ```javascript
 analytics.track("Account Login Succeeded", {
   "is 2FA": "<<type: boolean, required: false>>",
-  "maintain 2FA 30 days": "<<type: boolean, required: false>>",
+  "maintain 2FA 30 days": "<<type: string, required: false>>",
   "page": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
@@ -354,29 +575,6 @@ analytics.track("Activated", {
 <!-- panels:end -->
 
 
-## Add CC Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-#### **JS**
-
-```javascript
-analytics.track("Add CC Clicked", {})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
 ## Add Payment Method Clicked
 
 <!-- tabs:start -->
@@ -395,11 +593,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -412,13 +614,48 @@ analytics.track("Add Payment Method Clicked", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Add a site plan Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Add a site plan Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -451,11 +688,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -474,11 +715,16 @@ analytics.track("Add-ons CTA Clicked", {
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -512,11 +758,15 @@ No description provided
 | **source** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
 | **triggered by** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -534,11 +784,16 @@ analytics.track("Add-ons Modal Opened", {
   "source": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
   "triggered by": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -614,7 +869,7 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **legacy team id** | `string` | No description | ❌ |
-| **name** | `unknown` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -634,7 +889,7 @@ No description provided
 ```javascript
 analytics.track("Added Google Font", {
   "legacy team id": "<<type: string, required: false>>",
-  "name": "<<type: unknown, required: false>>",
+  "name": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -765,6 +1020,44 @@ analytics.track("App Action", {
 <!-- panels:end -->
 
 
+## App Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **app description** | `string` | No description | ❌ |
+| **app id** | `string` | No description | ❌ |
+| **app name** | `string` | No description | ❌ |
+| **has designer extension** | `boolean` | No description | ❌ |
+| **has oauth application** | `boolean` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("App Created", {
+  "app description": "<<type: string, required: false>>",
+  "app id": "<<type: string, required: false>>",
+  "app name": "<<type: string, required: false>>",
+  "has designer extension": "<<type: boolean, required: false>>",
+  "has oauth application": "<<type: boolean, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## App Installed
 
 <!-- tabs:start -->
@@ -859,7 +1152,7 @@ analytics.track("Attachment deleted", {
 <!-- panels:end -->
 
 
-## Beta Feature Toggled
+## Banner Viewed
 
 <!-- tabs:start -->
 ### **Details**
@@ -871,18 +1164,12 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **beta flag** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-| **value** | `boolean` | No description | ❌ |
-| **wf_source** | `string` | No description | ❌ |
+| **banner** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Beta Feature Toggled", {
-  "beta flag": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>",
-  "value": "<<type: boolean, required: false>>",
-  "wf_source": "<<type: string, required: false>>"
+analytics.track("Banner Viewed", {
+  "banner": "<<type: string, required: false>>"
 })
 ```
 
@@ -953,7 +1240,7 @@ No description provided
 | **opts** | `object` | No description | ❌ |
 | **opts.invoiceTargetSubscriptionId** | `string` | No description | ❌ |
 | **opts.removeTeamsHostingPlans** | `boolean` | No description | ❌ |
-| **origin** | `unknown` | No description | ❌ |
+| **origin** | `string` | No description | ❌ |
 | **ownerId** | `string` | No description | ❌ |
 | **ownerType** | `string` | No description | ❌ |
 | **partnerCode** | `unknown` | No description | ❌ |
@@ -1101,7 +1388,7 @@ analytics.track("Billing Action Tracked", {
     "invoiceTargetSubscriptionId": "<<type: string, required: false>>",
     "removeTeamsHostingPlans": "<<type: boolean, required: false>>"
   },
-  "origin": "<<type: unknown, required: false>>",
+  "origin": "<<type: string, required: false>>",
   "ownerId": "<<type: string, required: false>>",
   "ownerType": "<<type: string, required: false>>",
   "partnerCode": "<<type: unknown, required: false>>",
@@ -1245,12 +1532,20 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **AISBExperimentVariant** | `string` | No description | ❌ |
+| **enabledAISiteGenViaMarketingSite** | `boolean` | No description | ❌ |
+| **isInAiSiteGenFlag** | `boolean` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
+| **shouldShowAISiteGenOption** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Blank Site Selected", {
-  "ref": "<<type: string, required: false>>"
+  "AISBExperimentVariant": "<<type: string, required: false>>",
+  "enabledAISiteGenViaMarketingSite": "<<type: boolean, required: false>>",
+  "isInAiSiteGenFlag": "<<type: boolean, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "shouldShowAISiteGenOption": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1309,7 +1604,7 @@ analytics.track("Blog Viewed", {
 <!-- panels:end -->
 
 
-## CC Deleted
+## Bulk Redirect Imported
 
 <!-- tabs:start -->
 ### **Details**
@@ -1321,10 +1616,19 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **num_redirects** | `integer` | No description | ❌ |
+| **site_id** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace_id** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("CC Deleted", {})
+analytics.track("Bulk Redirect Imported", {
+  "num_redirects": "<<type: integer, required: false>>",
+  "site_id": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace_id": "<<type: string, required: false>>"
+})
 ```
 
 <!-- tabs:end -->
@@ -1400,6 +1704,36 @@ analytics.track("CMS Item Published", {
 <!-- panels:end -->
 
 
+## CMS Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("CMS Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## CTA Clicked
 
 <!-- tabs:start -->
@@ -1412,12 +1746,15 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
 | **button CTA** | `string` | No description | ❌ |
 | **button action** | `string` | No description | ❌ |
 | **button action and type** | `string` | No description | ❌ |
 | **button cta** | `string` | No description | ❌ |
 | **cities** | `array` | No description | ❌ |
 | **countries** | `array` | No description | ❌ |
+| **cta** | `string` | No description | ❌ |
+| **currentStep** | `string` | No description | ❌ |
 | **ids** | `array` | No description | ❌ |
 | **ids.items** | `object` | Contains the structure for array items | ❌ |
 | **ids.items.__v** | `integer` | No description | ❌ |
@@ -1549,6 +1886,7 @@ No description provided
 | **ids.items.webClipUrl** | `string` | No description | ❌ |
 | **ids.items.workspace** | `string` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
 | **modal name** | `string` | No description | ❌ |
 | **modal type** | `string` | No description | ❌ |
@@ -1556,10 +1894,11 @@ No description provided
 | **page section** | `string` | No description | ❌ |
 | **page step** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
+| **position** | `string` | No description | ❌ |
 | **position on page** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **scroll** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site ids** | `array` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -1568,13 +1907,18 @@ No description provided
 | **skills** | `array` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **sso** | `boolean` | No description | ❌ |
+| **stepCount** | `integer` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
 | **target** | `string` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **teamId** | `unknown` | No description | ❌ |
 | **timestamp** | `integer` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **url** | `string` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -1587,12 +1931,15 @@ No description provided
 
 ```javascript
 analytics.track("CTA Clicked", {
+  "action": "<<type: string, required: false>>",
   "button CTA": "<<type: string, required: false>>",
   "button action": "<<type: string, required: false>>",
   "button action and type": "<<type: string, required: false>>",
   "button cta": "<<type: string, required: false>>",
   "cities": "<<type: array, required: false>>",
   "countries": "<<type: array, required: false>>",
+  "cta": "<<type: string, required: false>>",
+  "currentStep": "<<type: string, required: false>>",
   "ids": [
     {
       "__v": "<<type: integer, required: false>>",
@@ -1732,6 +2079,7 @@ analytics.track("CTA Clicked", {
     }
   ],
   "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
   "modal name": "<<type: string, required: false>>",
   "modal type": "<<type: string, required: false>>",
@@ -1739,10 +2087,11 @@ analytics.track("CTA Clicked", {
   "page section": "<<type: string, required: false>>",
   "page step": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
+  "position": "<<type: string, required: false>>",
   "position on page": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "scroll": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site ids": "<<type: array, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -1751,13 +2100,19 @@ analytics.track("CTA Clicked", {
   "skills": "<<type: array, required: false>>",
   "source": "<<type: string, required: false>>",
   "sso": "<<type: boolean, required: false>>",
+  "stepCount": "<<type: integer, required: false>>",
   "surface area": "<<type: string, required: false>>",
   "target": "<<type: string, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "teamId": "<<type: unknown, required: false>>",
   "timestamp": "<<type: integer, required: false>>",
   "type": "<<type: string, required: false>>",
+  "url": "<<type: string, required: false>>",
   "wf session id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -1766,6 +2121,63 @@ analytics.track("CTA Clicked", {
   "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Can't log in clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Can't log in clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Card Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **description** | `string` | No description | ❌ |
+| **destination** | `string` | No description | ❌ |
+| **element_type** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+| **title** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Card Clicked", {
+  "description": "<<type: string, required: false>>",
+  "destination": "<<type: string, required: false>>",
+  "element_type": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>",
+  "title": "<<type: string, required: false>>"
 })
 ```
 
@@ -1824,6 +2236,162 @@ analytics.track("Changed Password", {
 <!-- panels:end -->
 
 
+## Chat with Webflow Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Chat with Webflow Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Checkout Address Autocomplete
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.city** | `string` | No description | ❌ |
+| **value.country** | `string` | No description | ❌ |
+| **value.line1** | `string` | No description | ❌ |
+| **value.line2** | `string` | No description | ❌ |
+| **value.name** | `string` | No description | ❌ |
+| **value.postalCode** | `string` | No description | ❌ |
+| **value.state** | `string` | No description | ❌ |
+| **value.vat** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Checkout Address Autocomplete", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "value": {
+    "city": "<<type: string, required: false>>",
+    "country": "<<type: string, required: false>>",
+    "line1": "<<type: string, required: false>>",
+    "line2": "<<type: string, required: false>>",
+    "name": "<<type: string, required: false>>",
+    "postalCode": "<<type: string, required: false>>",
+    "state": "<<type: string, required: false>>",
+    "vat": "<<type: string, required: false>>"
+  },
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Checkout Edit Payment Method Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Checkout Edit Payment Method Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Checkout Modal Closed
 
 <!-- tabs:start -->
@@ -1837,6 +2405,7 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **action** | `string` | No description | ❌ |
+| **close reason** | `string` | No description | ❌ |
 | **fields with values** | `array` | No description | ❌ |
 | **plan selected** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
@@ -1847,6 +2416,9 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -1860,6 +2432,7 @@ No description provided
 ```javascript
 analytics.track("Checkout Modal Closed", {
   "action": "<<type: string, required: false>>",
+  "close reason": "<<type: string, required: false>>",
   "fields with values": "<<type: array, required: false>>",
   "plan selected": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
@@ -1870,6 +2443,10 @@ analytics.track("Checkout Modal Closed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "team id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -1904,6 +2481,7 @@ No description provided
 | **initial plan level** | `string` | No description | ❌ |
 | **legacy initial number of seats** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
+| **payment method status** | `string` | No description | ❌ |
 | **plan selected** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
@@ -1915,6 +2493,9 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -1933,6 +2514,7 @@ analytics.track("Checkout Modal Opened", {
   "initial plan level": "<<type: string, required: false>>",
   "legacy initial number of seats": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
+  "payment method status": "<<type: string, required: false>>",
   "plan selected": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
@@ -1944,6 +2526,10 @@ analytics.track("Checkout Modal Opened", {
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "team id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -1984,7 +2570,7 @@ No description provided
 | **comments** | `unknown` | No description | ❌ |
 | **currency of new plan** | `string` | No description | ❌ |
 | **initial number of seats** | `integer` | No description | ❌ |
-| **initial plan frequency** | `unknown` | No description | ❌ |
+| **initial plan frequency** | `string` | No description | ❌ |
 | **initial plan level** | `string` | No description | ❌ |
 | **legacy new number of seats** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
@@ -2007,9 +2593,15 @@ No description provided
 | **stripe subscription id** | `string` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **value of new plan** | `integer` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace initial number of seats** | `integer` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace new addons** | `object` | No description | ❌ |
+| **workspace new addons.full seat count** | `integer` | No description | ❌ |
+| **workspace new addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace new number of seats** | `integer` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
@@ -2033,7 +2625,7 @@ analytics.track("Checkout Payment Button Pressed", {
   "comments": "<<type: unknown, required: false>>",
   "currency of new plan": "<<type: string, required: false>>",
   "initial number of seats": "<<type: integer, required: false>>",
-  "initial plan frequency": "<<type: unknown, required: false>>",
+  "initial plan frequency": "<<type: string, required: false>>",
   "initial plan level": "<<type: string, required: false>>",
   "legacy new number of seats": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
@@ -2056,9 +2648,17 @@ analytics.track("Checkout Payment Button Pressed", {
   "stripe subscription id": "<<type: string, required: false>>",
   "team id": "<<type: string, required: false>>",
   "value of new plan": "<<type: integer, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace initial number of seats": "<<type: integer, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace new addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace new number of seats": "<<type: integer, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
@@ -2104,6 +2704,38 @@ analytics.track("Clicked Navbar Link", {
 <!-- panels:end -->
 
 
+## Code Copied
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **content_preview** | `string` | No description | ❌ |
+| **element_type** | `string` | No description | ❌ |
+| **language** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Code Copied", {
+  "content_preview": "<<type: string, required: false>>",
+  "element_type": "<<type: string, required: false>>",
+  "language": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Common Support Link Clicked
 
 <!-- tabs:start -->
@@ -2130,7 +2762,7 @@ analytics.track("Common Support Link Clicked", {
 <!-- panels:end -->
 
 
-## Contact Sales Exit Modal Viewed
+## Community forum Card Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -2148,10 +2780,112 @@ No description provided
 #### **JS**
 
 ```javascript
-analytics.track("Contact Sales Exit Modal Viewed", {
+analytics.track("Community forum Card Clicked", {
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Connect a domain Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Connect a domain Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Continue Button Clicked in Message
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Continue Button Clicked in Message", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Continue Button Clicked in Site & Workspace
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Continue Button Clicked in Site & Workspace", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Continue Button Clicked in Suggested Solutions
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **firewall** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Continue Button Clicked in Suggested Solutions", {
+  "firewall": "<<type: string, required: false>>"
 })
 ```
 
@@ -2183,6 +2917,469 @@ analytics.track("Credit card charge failed", {})
 <!-- panels:end -->
 
 
+## Custom Role Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **base_role** | `string` | No description | ❌ |
+| **role_id** | `string` | No description | ❌ |
+| **role_name** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Custom Role Created", {
+  "base_role": "<<type: string, required: false>>",
+  "role_id": "<<type: string, required: false>>",
+  "role_name": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Custom Role Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **base_role** | `string` | No description | ❌ |
+| **role_id** | `string` | No description | ❌ |
+| **role_name** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Custom Role Deleted", {
+  "base_role": "<<type: string, required: false>>",
+  "role_id": "<<type: string, required: false>>",
+  "role_name": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Custom Role Duplicate And Edit Button Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Custom Role Duplicate And Edit Button Clicked", {
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": "<<type: object, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Custom Role Edit Button Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Custom Role Edit Button Clicked", {
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Custom Role Modal Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **modal_type** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Custom Role Modal Opened", {
+  "modal_type": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Custom Role Updated
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **base_role** | `string` | No description | ❌ |
+| **role_id** | `string` | No description | ❌ |
+| **role_name** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Custom Role Updated", {
+  "base_role": "<<type: string, required: false>>",
+  "role_id": "<<type: string, required: false>>",
+  "role_name": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Dashboard Link Clicked Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Dashboard Link Clicked Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Dashboard Sort Selected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **initial value** | `string` | No description | ❌ |
+| **new value** | `string` | No description | ❌ |
+| **site count** | `integer` | No description | ❌ |
+| **user id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Dashboard Sort Selected", {
+  "initial value": "<<type: string, required: false>>",
+  "new value": "<<type: string, required: false>>",
+  "site count": "<<type: integer, required: false>>",
+  "user id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Dashboard View Toggled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **initial value** | `string` | No description | ❌ |
+| **new value** | `string` | No description | ❌ |
+| **site count** | `integer` | No description | ❌ |
+| **user id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Dashboard View Toggled", {
+  "initial value": "<<type: string, required: false>>",
+  "new value": "<<type: string, required: false>>",
+  "site count": "<<type: integer, required: false>>",
+  "user id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Dashboard Viewed
 
 <!-- tabs:start -->
@@ -2199,7 +3396,7 @@ No description provided
 | **page** | `string` | No description | ❌ |
 | **ref** | `array` | No description | ❌ |
 | **section** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
@@ -2209,6 +3406,9 @@ No description provided
 | **teamId** | `unknown` | No description | ❌ |
 | **timestamp** | `integer` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -2225,7 +3425,7 @@ analytics.track("Dashboard Viewed", {
   "page": "<<type: string, required: false>>",
   "ref": "<<type: array, required: false>>",
   "section": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
@@ -2235,6 +3435,10 @@ analytics.track("Dashboard Viewed", {
   "teamId": "<<type: unknown, required: false>>",
   "timestamp": "<<type: integer, required: false>>",
   "wf session id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -2291,11 +3495,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -2307,11 +3515,16 @@ analytics.track("Delete CMS Modal Closed", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -2339,11 +3552,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -2355,13 +3572,48 @@ analytics.track("Delete CMS Modal Opened", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Designer Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Designer Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -2397,6 +3649,7 @@ No description provided
 | **num total instances** | `integer` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
+| **plan** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **project count** | `integer` | No description | ❌ |
 | **project item count** | `integer` | No description | ❌ |
@@ -2432,6 +3685,7 @@ analytics.track("Designer Opened", {
   "num total instances": "<<type: integer, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
+  "plan": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "project count": "<<type: integer, required: false>>",
   "project item count": "<<type: integer, required: false>>",
@@ -2448,6 +3702,70 @@ analytics.track("Designer Opened", {
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Developer Docs Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Developer Docs Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Developer docs Card Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Developer docs Card Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -2638,6 +3956,9 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **stripe subscription id** | `string` | No description | ❌ |
 | **value of new plan** | `unknown` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace initial number of seats** | `integer` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
@@ -2645,6 +3966,7 @@ No description provided
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -2675,6 +3997,10 @@ analytics.track("Downgrade Plan Button Pressed", {
   "site slug": "<<type: string, required: false>>",
   "stripe subscription id": "<<type: string, required: false>>",
   "value of new plan": "<<type: unknown, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace initial number of seats": "<<type: integer, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
@@ -2682,6 +4008,7 @@ analytics.track("Downgrade Plan Button Pressed", {
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -2720,64 +4047,6 @@ analytics.track("Download Digital Product", {
 <!-- panels:end -->
 
 
-## Dropdown Opened
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **dropdown id** | `string` | No description | ❌ |
-| **initial value** | `string` | No description | ❌ |
-| **page** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-| **surface area** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Dropdown Opened", {
-  "dropdown id": "<<type: string, required: false>>",
-  "initial value": "<<type: string, required: false>>",
-  "page": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>",
-  "surface area": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
 ## Dropdown Selected
 
 <!-- tabs:start -->
@@ -2804,11 +4073,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -2829,11 +4102,16 @@ analytics.track("Dropdown Selected", {
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -2844,7 +4122,7 @@ analytics.track("Dropdown Selected", {
 <!-- panels:end -->
 
 
-## EMM - FAQ item opened
+## Ecommerce Link Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -2856,47 +4134,13 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **item** | `string` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("EMM - FAQ item opened", {
-  "item": "<<type: string, required: false>>",
-  "logged in": "<<type: boolean, required: false>>",
-  "page": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## EMM - HWV item opened
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **item** | `string` | No description | ❌ |
-| **logged in** | `boolean` | No description | ❌ |
-| **page** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("EMM - HWV item opened", {
-  "item": "<<type: string, required: false>>",
+analytics.track("Ecommerce Link Clicked", {
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>"
@@ -2958,6 +4202,64 @@ analytics.track("Ecommerce Product CSV Exported", {
   "location": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "wf_source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Edit Custom Code
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **custom code location** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Edit Custom Code", {
+  "custom code location": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Editor Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Editor Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -3346,6 +4648,36 @@ analytics.track("Enabled Two-Factor Authentication", {
 <!-- panels:end -->
 
 
+## Endpoint URL Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **element_type** | `string` | No description | ❌ |
+| **endpoint** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Endpoint URL Clicked", {
+  "element_type": "<<type: string, required: false>>",
+  "endpoint": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Enter Password Page Viewed
 
 <!-- tabs:start -->
@@ -3366,7 +4698,7 @@ No description provided
 | **site id** | `unknown` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
-| **suggested email used** | `unknown` | No description | ❌ |
+| **suggested email used** | `boolean` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **teamId** | `unknown` | No description | ❌ |
 | **timestamp** | `integer` | No description | ❌ |
@@ -3391,7 +4723,7 @@ analytics.track("Enter Password Page Viewed", {
   "site id": "<<type: unknown, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
-  "suggested email used": "<<type: unknown, required: false>>",
+  "suggested email used": "<<type: boolean, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "teamId": "<<type: unknown, required: false>>",
   "timestamp": "<<type: integer, required: false>>",
@@ -3404,6 +4736,36 @@ analytics.track("Enter Password Page Viewed", {
   "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Enterprise Card Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Enterprise Card Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -3775,6 +5137,36 @@ analytics.track("Experts Viewed", {
 <!-- panels:end -->
 
 
+## Find a Webflow Partner Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Find a Webflow Partner Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Firewall Clicked
 
 <!-- tabs:start -->
@@ -3801,7 +5193,7 @@ analytics.track("Firewall Clicked", {
 <!-- panels:end -->
 
 
-## Firewall Displayed
+## Firewall shown
 
 <!-- tabs:start -->
 ### **Details**
@@ -3813,12 +5205,792 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **intent** | `string` | No description | ❌ |
+| **firewall** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Firewall Displayed", {
-  "intent": "<<type: string, required: false>>"
+analytics.track("Firewall shown", {
+  "firewall": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - About Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - About Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Become an Affiliate Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Become an Affiliate Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Blog Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Blog Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Careers Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Careers Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Community Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Community Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Cookie policy Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Cookie policy Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Courses Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Courses Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Developers Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Developers Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Ebooks Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Ebooks Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Facebook Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Facebook Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Forum Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Forum Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Hire designers Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Hire designers Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Instagram Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Instagram Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Made in Webflow Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Made in Webflow Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Marketplace Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Marketplace Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Privacy policy Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Privacy policy Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Sitemap Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Sitemap Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Status Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Status Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Support Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Support Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Terms of Service Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Terms of Service Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - TikTok Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - TikTok Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - University Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - University Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - Wishlist Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - Wishlist Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - X Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - X Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer - YouTube Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer - YouTube Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Footer -Dashboard Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Footer -Dashboard Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -3913,7 +6085,7 @@ analytics.track("Forum Topic Clicked", {
 <!-- panels:end -->
 
 
-## Free Domain Banner Clicked
+## Get Started Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -3925,36 +6097,16 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **action** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Free Domain Banner Clicked", {
-  "action": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
+analytics.track("Get Started Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -3963,7 +6115,7 @@ analytics.track("Free Domain Banner Clicked", {
 <!-- panels:end -->
 
 
-## Free Domain Menu Item Clicked
+## Get Support Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -3975,124 +6127,16 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Free Domain Menu Item Clicked", {
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Free Domain Offer Claimed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **site id** | `string` | No description | ❌ |
-| **wf_source** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Free Domain Offer Claimed", {
-  "site id": "<<type: string, required: false>>",
-  "wf_source": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Free Domain Offer Initiated
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **site id** | `string` | No description | ❌ |
-| **wf_source** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Free Domain Offer Initiated", {
-  "site id": "<<type: string, required: false>>",
-  "wf_source": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Free Domain Offer Redeemed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **site id** | `string` | No description | ❌ |
-| **wf_source** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Free Domain Offer Redeemed", {
-  "site id": "<<type: string, required: false>>",
-  "wf_source": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>"
+analytics.track("Get Support Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -4119,6 +6163,61 @@ No description provided
 ```javascript
 analytics.track("Get Support button clicked", {
   "location": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Get support button hero clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Get support button hero clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## GitHub Example Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **element_type** | `string` | No description | ❌ |
+| **full_url** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+| **repository** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("GitHub Example Clicked", {
+  "element_type": "<<type: string, required: false>>",
+  "full_url": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>",
+  "repository": "<<type: string, required: false>>"
 })
 ```
 
@@ -4247,6 +6346,2494 @@ analytics.track("Google One Tap Viewed", {
 <!-- panels:end -->
 
 
+## Help Center Article Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Add SEO title and meta description
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Add SEO title and meta description", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Add a calendar to your site with Calendly
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Add a calendar to your site with Calendly", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Add Google Fonts
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Add Google Fonts", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Animate an element while scrolling
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Animate an element while scrolling", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Background styles
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Background styles", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Bandwidth overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Bandwidth overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Build a sticky footer using flexbox
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Build a sticky footer using flexbox", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Buy a custom domain through Webflow
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Buy a custom domain through Webflow", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Center elements with flexbox
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Center elements with flexbox", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Classes
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Classes", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Code block
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Code block", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Collaborate in the Webflow Designer
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Collaborate in the Webflow Designer", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Collections overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Collections overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Components overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Components overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Configure taxes on Ecommerce orders
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Configure taxes on Ecommerce orders", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Connect a custom domain overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Connect a custom domain overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Connect a payment provider
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Connect a payment provider", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Control text wrapping and line breaking
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Control text wrapping and line breaking", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Create a sitemap in Webflow
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Create a sitemap in Webflow", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Create static page templates
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Create static page templates", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Create a custom accordion
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Create a custom accordion", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Custom code embed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Custom code embed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Custom code in head and body tags
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Custom code in head and body tags", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Custom dropdown menu
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Custom dropdown menu", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Date/time field
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Date/time field", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Drafted pages
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Drafted pages", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Embed Lottie animations
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Embed Lottie animations", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Flexbox
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Flexbox", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Form file upload
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Form file upload", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Forms overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Forms overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Google site verification
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Google site verification", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: HTML tags
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: HTML tags", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Image
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Image", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Image conversion tool
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Image conversion tool", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Image field
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Image field", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Import/export Collection content
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Import/export Collection content", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Inline text formatting
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Inline text formatting", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Intro to Webflow
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Intro to Webflow", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Intro to the Audit panel
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Intro to the Audit panel", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Intro to the Editor
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Intro to the Editor", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Intro to the Webflow Designer
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Intro to the Webflow Designer", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Intro to the box model
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Intro to the box model", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Lightbox
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Lightbox", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Localization overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Localization overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Logic sunset
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Logic sunset", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Make your site more accessible
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Make your site more accessible", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Manually connect a custom domain
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Manually connect a custom domain", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Map
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Map", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Migrate from WordPress to Webflow CMS
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Migrate from WordPress to Webflow CMS", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Multi-image field overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Multi-image field overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Navigator
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Navigator", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Overflow: hidden
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Overflow: hidden", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Overview of After Effects and Lottie in Webflow
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Overview of After Effects and Lottie in Webflow", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Page URLs
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Page URLs", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Prevent spam in form submissions
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Prevent spam in form submissions", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Quick Stack
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Quick Stack", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Set 301 redirects to maintain SEO ranking
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Set 301 redirects to maintain SEO ranking", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Spacing (margin and padding)
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Spacing (margin and padding)", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Transfer a site
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Transfer a site", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Triggers and animations
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Triggers and animations", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Troubleshoot issues in Webflow
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Troubleshoot issues in Webflow", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Update your Dashboard notification settings
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Update your Dashboard notification settings", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Upload custom fonts
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Upload custom fonts", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Using the Webflow AI Assistant for site design
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Using the Webflow AI Assistant for site design", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Webflow User Accounts overview
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Webflow User Accounts overview", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Webflow staging subdomain
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Webflow staging subdomain", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Article: Workspace roles and permissions
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Article: Workspace roles and permissions", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Category Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Category Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Homepage
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Homepage", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Homepage Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Homepage Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Quick Help Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Quick Help Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Search Results
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Search Results", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Search Results Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Search Results Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Section Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Section Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Section: Billing and invoicing
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **redirect** | `boolean` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Section: Billing and invoicing", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "redirect": "<<type: boolean, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Help Center Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Help Center Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Hire Page Viewed
 
 <!-- tabs:start -->
@@ -4313,6 +8900,36 @@ analytics.track("Homepage Exit Modal Viewed", {
 <!-- panels:end -->
 
 
+## Hosting Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Hosting Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Hosting Transferred
 
 <!-- tabs:start -->
@@ -4366,15 +8983,26 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **action** | `string` | No description | ❌ |
+| **contact sales qualified** | `boolean` | No description | ❌ |
 | **cta** | `string` | No description | ❌ |
+| **current month usage** | `integer` | No description | ❌ |
+| **current plan id** | `string` | No description | ❌ |
+| **feature notification type** | `string` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previous month usage** | `unknown` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
+| **site name** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **usage limit** | `integer` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -4383,20 +9011,33 @@ No description provided
 | **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
+| **workspace_role** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("In-App Message CTA Clicked", {
   "action": "<<type: string, required: false>>",
+  "contact sales qualified": "<<type: boolean, required: false>>",
   "cta": "<<type: string, required: false>>",
+  "current month usage": "<<type: integer, required: false>>",
+  "current plan id": "<<type: string, required: false>>",
+  "feature notification type": "<<type: string, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previous month usage": "<<type: unknown, required: false>>",
   "ref": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
+  "site name": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "type": "<<type: string, required: false>>",
+  "usage limit": "<<type: integer, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -4404,7 +9045,8 @@ analytics.track("In-App Message CTA Clicked", {
   "workspace plan type": "<<type: string, required: false>>",
   "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
+  "workspace slug": "<<type: string, required: false>>",
+  "workspace_role": "<<type: string, required: false>>"
 })
 ```
 
@@ -4435,6 +9077,9 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -4457,6 +9102,10 @@ analytics.track("In-App Message Dismissed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "type": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -4487,7 +9136,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **__cpLocation** | `string` | No description | ❌ |
 | **action** | `string` | No description | ❌ |
-| **expiresAt** | `unknown` | No description | ❌ |
+| **expiresAt** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
@@ -4495,11 +9144,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -4508,7 +9161,7 @@ No description provided
 analytics.track("In-App Message Expired", {
   "__cpLocation": "<<type: string, required: false>>",
   "action": "<<type: string, required: false>>",
-  "expiresAt": "<<type: unknown, required: false>>",
+  "expiresAt": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
@@ -4516,11 +9169,16 @@ analytics.track("In-App Message Expired", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "type": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -4543,7 +9201,9 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **__cpLocation** | `string` | No description | ❌ |
 | **action** | `string` | No description | ❌ |
+| **cta** | `string` | No description | ❌ |
 | **ids** | `array` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
@@ -4553,6 +9213,9 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -4565,7 +9228,9 @@ No description provided
 
 ```javascript
 analytics.track("In-App Message Viewed", {
+  "__cpLocation": "<<type: string, required: false>>",
   "action": "<<type: string, required: false>>",
+  "cta": "<<type: string, required: false>>",
   "ids": "<<type: array, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
@@ -4575,6 +9240,10 @@ analytics.track("In-App Message Viewed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "type": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -4591,7 +9260,7 @@ analytics.track("In-App Message Viewed", {
 <!-- panels:end -->
 
 
-## Intent Detected
+## Interactions Link Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -4603,14 +9272,50 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **currentIntent** | `string` | No description | ❌ |
-| **intent** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Intent Detected", {
-  "currentIntent": "<<type: string, required: false>>",
-  "intent": "<<type: string, required: false>>"
+analytics.track("Interactions Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Interactive Element Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **controls** | `unknown` | No description | ❌ |
+| **element_type** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+| **state** | `string` | No description | ❌ |
+| **text** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Interactive Element Clicked", {
+  "controls": "<<type: unknown, required: false>>",
+  "element_type": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>",
+  "state": "<<type: string, required: false>>",
+  "text": "<<type: string, required: false>>"
 })
 ```
 
@@ -4670,13 +9375,14 @@ No description provided
 | **attempt** | `integer` | No description | ❌ |
 | **card type** | `string` | No description | ❌ |
 | **item** | `string` | No description | ❌ |
-| **item slug** | `unknown` | No description | ❌ |
+| **item slug** | `string` | No description | ❌ |
 | **last 4 digits** | `string` | No description | ❌ |
 | **message** | `string` | No description | ❌ |
 | **owner kind** | `string` | No description | ❌ |
 | **plan name** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
+| **treatment payment exp** | `string` | No description | ❌ |
 | **wf_source** | `string` | No description | ❌ |
 #### **JS**
 
@@ -4685,13 +9391,14 @@ analytics.track("Invoice Charge Failed", {
   "attempt": "<<type: integer, required: false>>",
   "card type": "<<type: string, required: false>>",
   "item": "<<type: string, required: false>>",
-  "item slug": "<<type: unknown, required: false>>",
+  "item slug": "<<type: string, required: false>>",
   "last 4 digits": "<<type: string, required: false>>",
   "message": "<<type: string, required: false>>",
   "owner kind": "<<type: string, required: false>>",
   "plan name": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
+  "treatment payment exp": "<<type: string, required: false>>",
   "wf_source": "<<type: string, required: false>>"
 })
 ```
@@ -4793,6 +9500,214 @@ analytics.track("Landing Page Feature Card Clicked", {
 <!-- panels:end -->
 
 
+## Learn Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Learn Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Legacy Plan Change Modal Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **selected plan id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Legacy Plan Change Modal Closed", {
+  "ref": "<<type: string, required: false>>",
+  "selected plan id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Legacy Plan Change Modal Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **selected plan id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Legacy Plan Change Modal Opened", {
+  "ref": "<<type: string, required: false>>",
+  "selected plan id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Library Action
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **adobe fonts count** | `integer` | No description | ❌ |
+| **assets count** | `integer` | No description | ❌ |
+| **blocked symbols count** | `integer` | No description | ❌ |
+| **custom fonts count** | `integer` | No description | ❌ |
+| **google fonts count** | `integer` | No description | ❌ |
+| **installs count** | `integer` | No description | ❌ |
+| **interactions count** | `integer` | No description | ❌ |
+| **library id** | `string` | No description | ❌ |
+| **library name** | `string` | No description | ❌ |
+| **library type** | `string` | No description | ❌ |
+| **library version id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **symbols count** | `integer` | No description | ❌ |
+| **variables count** | `integer` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Library Action", {
+  "action": "<<type: string, required: false>>",
+  "adobe fonts count": "<<type: integer, required: false>>",
+  "assets count": "<<type: integer, required: false>>",
+  "blocked symbols count": "<<type: integer, required: false>>",
+  "custom fonts count": "<<type: integer, required: false>>",
+  "google fonts count": "<<type: integer, required: false>>",
+  "installs count": "<<type: integer, required: false>>",
+  "interactions count": "<<type: integer, required: false>>",
+  "library id": "<<type: string, required: false>>",
+  "library name": "<<type: string, required: false>>",
+  "library type": "<<type: string, required: false>>",
+  "library version id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "symbols count": "<<type: integer, required: false>>",
+  "variables count": "<<type: integer, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Library Installed
 
 <!-- tabs:start -->
@@ -4821,6 +9736,70 @@ analytics.track("Library Installed", {
   "library version": "<<type: string, required: false>>",
   "site id": "<<type: array, required: false>>",
   "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Library Orphaned Content Recovered
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **components detached** | `integer` | No description | ❌ |
+| **components updated** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Library Orphaned Content Recovered", {
+  "components detached": "<<type: integer, required: false>>",
+  "components updated": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Logic Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Logic Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -4907,6 +9886,186 @@ analytics.track("Login to submit a ticket clicked", {
 <!-- panels:end -->
 
 
+## Marketplace - Apps Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace - Apps Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Marketplace - Hire a Certified Partner Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace - Hire a Certified Partner Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Marketplace - Libraries Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace - Libraries Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Marketplace - Made in Webflow Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace - Made in Webflow Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Marketplace - Overview Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace - Overview Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Marketplace - Templates Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace - Templates Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Marketplace App Authorized to Site
 
 <!-- tabs:start -->
@@ -4922,9 +10081,13 @@ No description provided
 | **app client id** | `string` | No description | ❌ |
 | **app id** | `string` | No description | ❌ |
 | **app name** | `string` | No description | ❌ |
+| **email** | `string` | No description | ❌ |
+| **has subscription** | `boolean` | No description | ❌ |
 | **id** | `string` | No description | ❌ |
 | **install count** | `integer` | No description | ❌ |
 | **installation location** | `string` | No description | ❌ |
+| **lastUpdatedSite** | `string` | No description | ❌ |
+| **lastUpdatedSiteName** | `string` | No description | ❌ |
 | **mrp name** | `string` | No description | ❌ |
 | **mrp slug** | `string` | No description | ❌ |
 | **name** | `string` | No description | ❌ |
@@ -4946,9 +10109,13 @@ analytics.track("Marketplace App Authorized to Site", {
   "app client id": "<<type: string, required: false>>",
   "app id": "<<type: string, required: false>>",
   "app name": "<<type: string, required: false>>",
+  "email": "<<type: string, required: false>>",
+  "has subscription": "<<type: boolean, required: false>>",
   "id": "<<type: string, required: false>>",
   "install count": "<<type: integer, required: false>>",
   "installation location": "<<type: string, required: false>>",
+  "lastUpdatedSite": "<<type: string, required: false>>",
+  "lastUpdatedSiteName": "<<type: string, required: false>>",
   "mrp name": "<<type: string, required: false>>",
   "mrp slug": "<<type: string, required: false>>",
   "name": "<<type: string, required: false>>",
@@ -5046,6 +10213,7 @@ No description provided
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **link** | `string` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
+| **loggedIn** | `boolean` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **name** | `string` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
@@ -5078,6 +10246,7 @@ analytics.track("Marketplace CTA Clicked", {
   "ecommerce item count": "<<type: integer, required: false>>",
   "link": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
+  "loggedIn": "<<type: boolean, required: false>>",
   "mode": "<<type: string, required: false>>",
   "name": "<<type: string, required: false>>",
   "page": "<<type: string, required: false>>",
@@ -5144,12 +10313,14 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **marketplace order id** | `string` | No description | ❌ |
+| **marketplace subscription id** | `string` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Marketplace Checkout Created", {
   "marketplace order id": "<<type: string, required: false>>",
+  "marketplace subscription id": "<<type: string, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
 ```
@@ -5211,11 +10382,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -5232,11 +10407,16 @@ analytics.track("Marketplace Checkout Redirect Page Viewed", {
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -5270,11 +10450,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -5292,11 +10476,16 @@ analytics.track("Marketplace Checkout Redirected", {
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -5346,13 +10535,13 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **category** | `string` | No description | ❌ |
-| **tags** | `array,null` | No description | ❌ |
+| **tags** | `array` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Marketplace Filters Changed", {
   "category": "<<type: string, required: false>>",
-  "tags": "<<type: array,null, required: false>>"
+  "tags": "<<type: array, required: false>>"
 })
 ```
 
@@ -5383,11 +10572,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -5404,11 +10597,16 @@ analytics.track("Marketplace Hub Page Viewed", {
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -5537,6 +10735,66 @@ analytics.track("Marketplace Payout Method Login Link Created", {
 <!-- panels:end -->
 
 
+## Marketplace Subscription Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **seller workspace id** | `string` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace Subscription Created", {
+  "seller workspace id": "<<type: string, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Marketplace Subscription Transitioned
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **marketplace subscription** | `string` | No description | ❌ |
+| **new status** | `string` | No description | ❌ |
+| **old status** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Marketplace Subscription Transitioned", {
+  "marketplace subscription": "<<type: string, required: false>>",
+  "new status": "<<type: string, required: false>>",
+  "old status": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Marketplace Viewed
 
 <!-- tabs:start -->
@@ -5636,12 +10894,15 @@ No description provided
 | **values.custom-budget-amount** | `string` | No description | ❌ |
 | **values.existing-link** | `string` | No description | ❌ |
 | **values.kindOfSite** | `unknown` | No description | ❌ |
-| **values.language** | `unknown` | No description | ❌ |
+| **values.language** | `string` | No description | ❌ |
 | **values.locationPreference** | `unknown` | No description | ❌ |
 | **values.migrating-link** | `string` | No description | ❌ |
 | **values.ownerOfSite** | `unknown` | No description | ❌ |
 | **values.projectFinishedBy** | `unknown` | No description | ❌ |
 | **values.services** | `array` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -5671,12 +10932,16 @@ analytics.track("Matchmaking Experts Survey Abandoned", {
     "custom-budget-amount": "<<type: string, required: false>>",
     "existing-link": "<<type: string, required: false>>",
     "kindOfSite": "<<type: unknown, required: false>>",
-    "language": "<<type: unknown, required: false>>",
+    "language": "<<type: string, required: false>>",
     "locationPreference": "<<type: unknown, required: false>>",
     "migrating-link": "<<type: string, required: false>>",
     "ownerOfSite": "<<type: unknown, required: false>>",
     "projectFinishedBy": "<<type: unknown, required: false>>",
     "services": "<<type: array, required: false>>"
+  },
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
   },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
@@ -5718,7 +10983,7 @@ No description provided
 | **values.custom-budget-amount** | `string` | No description | ❌ |
 | **values.existing-link** | `string` | No description | ❌ |
 | **values.kindOfSite** | `string` | No description | ❌ |
-| **values.language** | `string` | No description | ❌ |
+| **values.language** | `unknown` | No description | ❌ |
 | **values.locationPreference** | `string` | No description | ❌ |
 | **values.migrating-link** | `string` | No description | ❌ |
 | **values.ownerOfSite** | `string` | No description | ❌ |
@@ -5757,7 +11022,7 @@ analytics.track("Matchmaking Experts Survey Completed", {
     "custom-budget-amount": "<<type: string, required: false>>",
     "existing-link": "<<type: string, required: false>>",
     "kindOfSite": "<<type: string, required: false>>",
-    "language": "<<type: string, required: false>>",
+    "language": "<<type: unknown, required: false>>",
     "locationPreference": "<<type: string, required: false>>",
     "migrating-link": "<<type: string, required: false>>",
     "ownerOfSite": "<<type: string, required: false>>",
@@ -5801,12 +11066,16 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **projectUID** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
+| **ref** | `unknown` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -5814,12 +11083,17 @@ No description provided
 ```javascript
 analytics.track("Matchmaking Experts Survey Page Viewed", {
   "projectUID": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
+  "ref": "<<type: unknown, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -5859,12 +11133,15 @@ No description provided
 | **values.custom-budget-amount** | `string` | No description | ❌ |
 | **values.existing-link** | `string` | No description | ❌ |
 | **values.kindOfSite** | `unknown` | No description | ❌ |
-| **values.language** | `unknown` | No description | ❌ |
+| **values.language** | `string` | No description | ❌ |
 | **values.locationPreference** | `unknown` | No description | ❌ |
 | **values.migrating-link** | `string` | No description | ❌ |
 | **values.ownerOfSite** | `unknown` | No description | ❌ |
 | **values.projectFinishedBy** | `unknown` | No description | ❌ |
 | **values.services** | `array` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -5894,12 +11171,16 @@ analytics.track("Matchmaking Experts Survey Resumed", {
     "custom-budget-amount": "<<type: string, required: false>>",
     "existing-link": "<<type: string, required: false>>",
     "kindOfSite": "<<type: unknown, required: false>>",
-    "language": "<<type: unknown, required: false>>",
+    "language": "<<type: string, required: false>>",
     "locationPreference": "<<type: unknown, required: false>>",
     "migrating-link": "<<type: string, required: false>>",
     "ownerOfSite": "<<type: unknown, required: false>>",
     "projectFinishedBy": "<<type: unknown, required: false>>",
     "services": "<<type: array, required: false>>"
+  },
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
   },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
@@ -5998,11 +11279,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **variant** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -6016,11 +11301,16 @@ analytics.track("Matchmaking Note CTA Clicked", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "variant": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -6061,11 +11351,15 @@ No description provided
 | **styles count** | `integer` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **variant** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -6090,55 +11384,16 @@ analytics.track("Matchmaking Note Dismissed", {
   "styles count": "<<type: integer, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
   "variant": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Matchmaking Note Viewed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **variant** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Matchmaking Note Viewed", {
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "variant": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -6209,6 +11464,36 @@ analytics.track("Member Subscription Created", {
   "product type": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "wf_source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Memberships Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Memberships Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -6309,11 +11594,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -6326,11 +11615,16 @@ analytics.track("New Project Page Back", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -6361,11 +11655,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -6380,13 +11678,44 @@ analytics.track("New Project Page Viewed", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Notice dismissed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ID** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Notice dismissed", {
+  "ID": "<<type: string, required: false>>"
 })
 ```
 
@@ -6421,94 +11750,6 @@ analytics.track("Onboarding Tutorial Selected", {
 <!-- panels:end -->
 
 
-## Open Account Info
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **legacy team id** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **siteId** | `unknown` | No description | ❌ |
-| **team id** | `unknown` | No description | ❌ |
-| **teamId** | `unknown` | No description | ❌ |
-| **timestamp** | `unknown` | No description | ❌ |
-| **wf session id** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace role** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Open Account Info", {
-  "legacy team id": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "siteId": "<<type: unknown, required: false>>",
-  "team id": "<<type: unknown, required: false>>",
-  "teamId": "<<type: unknown, required: false>>",
-  "timestamp": "<<type: unknown, required: false>>",
-  "wf session id": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace role": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Open Update Email Page
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **site id** | `unknown` | No description | ❌ |
-| **siteId** | `unknown` | No description | ❌ |
-| **team id** | `unknown` | No description | ❌ |
-| **teamId** | `unknown` | No description | ❌ |
-| **timestamp** | `unknown` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Open Update Email Page", {
-  "site id": "<<type: unknown, required: false>>",
-  "siteId": "<<type: unknown, required: false>>",
-  "team id": "<<type: unknown, required: false>>",
-  "teamId": "<<type: unknown, required: false>>",
-  "timestamp": "<<type: unknown, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
 ## Order Completed
 
 <!-- tabs:start -->
@@ -6526,11 +11767,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -6542,13 +11787,1630 @@ analytics.track("Order Completed", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Badge Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **is near limit variant** | `boolean` | No description | ❌ |
+| **is over limit variant** | `boolean` | No description | ❌ |
+| **is upgrading soon variant** | `boolean` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Badge Clicked", {
+  "is near limit variant": "<<type: boolean, required: false>>",
+  "is over limit variant": "<<type: boolean, required: false>>",
+  "is upgrading soon variant": "<<type: boolean, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **contact sales qualified** | `boolean` | No description | ❌ |
+| **current month usage** | `integer` | No description | ❌ |
+| **current plan id** | `string` | No description | ❌ |
+| **current usage** | `integer` | No description | ❌ |
+| **feature notification type** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previous month usage** | `unknown` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site name** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **usage limit** | `integer` | No description | ❌ |
+| **went over high usage threshold previous month** | `boolean` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Closed", {
+  "action": "<<type: string, required: false>>",
+  "contact sales qualified": "<<type: boolean, required: false>>",
+  "current month usage": "<<type: integer, required: false>>",
+  "current plan id": "<<type: string, required: false>>",
+  "current usage": "<<type: integer, required: false>>",
+  "feature notification type": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previous month usage": "<<type: unknown, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site name": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "usage limit": "<<type: integer, required: false>>",
+  "went over high usage threshold previous month": "<<type: boolean, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Contact Sales Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **0** | `object` | No description | ❌ |
+| **0.__cursor** | `string` | No description | ❌ |
+| **0.__typename** | `string` | No description | ❌ |
+| **0.activities** | `array` | No description | ❌ |
+| **0.activities.items** | `object` | Contains the structure for array items | ❌ |
+| **0.activities.items.__typename** | `string` | No description | ❌ |
+| **0.activities.items.actor** | `object` | No description | ❌ |
+| **0.activities.items.data** | `object` | No description | ❌ |
+| **0.activities.items.id** | `string` | No description | ❌ |
+| **0.activities.items.inserted_at** | `string` | No description | ❌ |
+| **0.activities.items.recipient** | `object` | No description | ❌ |
+| **0.activities.items.updated_at** | `string` | No description | ❌ |
+| **0.actors** | `array` | No description | ❌ |
+| **0.actors.items** | `object` | Contains the structure for array items | ❌ |
+| **0.actors.items.__typename** | `string` | No description | ❌ |
+| **0.actors.items.created_at** | `unknown` | No description | ❌ |
+| **0.actors.items.email** | `string` | No description | ❌ |
+| **0.actors.items.firstName** | `string` | No description | ❌ |
+| **0.actors.items.id** | `string` | No description | ❌ |
+| **0.actors.items.name** | `string` | No description | ❌ |
+| **0.actors.items.role** | `string` | No description | ❌ |
+| **0.actors.items.updated_at** | `string` | No description | ❌ |
+| **0.archived_at** | `unknown` | No description | ❌ |
+| **0.blocks** | `array` | No description | ❌ |
+| **0.blocks.items** | `object` | Contains the structure for array items | ❌ |
+| **0.blocks.items.content** | `string` | No description | ❌ |
+| **0.blocks.items.name** | `string` | No description | ❌ |
+| **0.blocks.items.rendered** | `string` | No description | ❌ |
+| **0.blocks.items.type** | `string` | No description | ❌ |
+| **0.clicked_at** | `unknown` | No description | ❌ |
+| **0.data** | `object` | No description | ❌ |
+| **0.data.bannerId** | `string` | No description | ❌ |
+| **0.data.currentPlan** | `string` | No description | ❌ |
+| **0.data.currentPlanId** | `string` | No description | ❌ |
+| **0.data.currentUsage** | `integer` | No description | ❌ |
+| **0.data.featureNotificationType** | `string` | No description | ❌ |
+| **0.data.isBandwidthAddonMaxedOut** | `boolean` | No description | ❌ |
+| **0.data.nextTierPlan** | `string` | No description | ❌ |
+| **0.data.notificationType** | `string` | No description | ❌ |
+| **0.data.occurrence** | `string` | No description | ❌ |
+| **0.data.siteId** | `string` | No description | ❌ |
+| **0.data.siteName** | `string` | No description | ❌ |
+| **0.data.siteSlug** | `string` | No description | ❌ |
+| **0.data.usageLimit** | `integer` | No description | ❌ |
+| **0.data.usageLimitGB** | `integer` | No description | ❌ |
+| **0.data.wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **0.data.wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **0.data.workspaceName** | `string` | No description | ❌ |
+| **0.data.workspaceSlug** | `string` | No description | ❌ |
+| **0.id** | `string` | No description | ❌ |
+| **0.inserted_at** | `string` | No description | ❌ |
+| **0.interacted_at** | `unknown` | No description | ❌ |
+| **0.link_clicked_at** | `unknown` | No description | ❌ |
+| **0.read_at** | `unknown` | No description | ❌ |
+| **0.seen_at** | `unknown` | No description | ❌ |
+| **0.source** | `object` | No description | ❌ |
+| **0.source.__typename** | `string` | No description | ❌ |
+| **0.source.categories** | `array` | No description | ❌ |
+| **0.source.key** | `string` | No description | ❌ |
+| **0.source.version_id** | `string` | No description | ❌ |
+| **0.tenant** | `unknown` | No description | ❌ |
+| **0.total_activities** | `integer` | No description | ❌ |
+| **0.total_actors** | `integer` | No description | ❌ |
+| **0.updated_at** | `string` | No description | ❌ |
+| **1** | `object` | No description | ❌ |
+| **1.__cursor** | `string` | No description | ❌ |
+| **1.__typename** | `string` | No description | ❌ |
+| **1.activities** | `array` | No description | ❌ |
+| **1.activities.items** | `object` | Contains the structure for array items | ❌ |
+| **1.activities.items.__typename** | `string` | No description | ❌ |
+| **1.activities.items.actor** | `object` | No description | ❌ |
+| **1.activities.items.data** | `object` | No description | ❌ |
+| **1.activities.items.id** | `string` | No description | ❌ |
+| **1.activities.items.inserted_at** | `string` | No description | ❌ |
+| **1.activities.items.recipient** | `object` | No description | ❌ |
+| **1.activities.items.updated_at** | `string` | No description | ❌ |
+| **1.actors** | `array` | No description | ❌ |
+| **1.actors.items** | `object` | Contains the structure for array items | ❌ |
+| **1.actors.items.__typename** | `string` | No description | ❌ |
+| **1.actors.items.created_at** | `unknown` | No description | ❌ |
+| **1.actors.items.email** | `string` | No description | ❌ |
+| **1.actors.items.firstName** | `string` | No description | ❌ |
+| **1.actors.items.id** | `string` | No description | ❌ |
+| **1.actors.items.name** | `string` | No description | ❌ |
+| **1.actors.items.role** | `string` | No description | ❌ |
+| **1.actors.items.updated_at** | `string` | No description | ❌ |
+| **1.archived_at** | `unknown` | No description | ❌ |
+| **1.blocks** | `array` | No description | ❌ |
+| **1.blocks.items** | `object` | Contains the structure for array items | ❌ |
+| **1.blocks.items.content** | `string` | No description | ❌ |
+| **1.blocks.items.name** | `string` | No description | ❌ |
+| **1.blocks.items.rendered** | `string` | No description | ❌ |
+| **1.blocks.items.type** | `string` | No description | ❌ |
+| **1.clicked_at** | `unknown` | No description | ❌ |
+| **1.data** | `object` | No description | ❌ |
+| **1.data.bannerId** | `string` | No description | ❌ |
+| **1.data.currentPlan** | `string` | No description | ❌ |
+| **1.data.currentPlanId** | `string` | No description | ❌ |
+| **1.data.currentUsage** | `integer` | No description | ❌ |
+| **1.data.featureNotificationType** | `string` | No description | ❌ |
+| **1.data.isBandwidthAddonMaxedOut** | `boolean` | No description | ❌ |
+| **1.data.nextResetDate** | `string` | No description | ❌ |
+| **1.data.nextTierPlan** | `string` | No description | ❌ |
+| **1.data.notificationType** | `string` | No description | ❌ |
+| **1.data.occurrence** | `string` | No description | ❌ |
+| **1.data.siteId** | `string` | No description | ❌ |
+| **1.data.siteName** | `string` | No description | ❌ |
+| **1.data.siteSlug** | `string` | No description | ❌ |
+| **1.data.usageLimit** | `integer` | No description | ❌ |
+| **1.data.usageLimitGB** | `integer` | No description | ❌ |
+| **1.data.wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **1.data.wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **1.data.workspaceName** | `string` | No description | ❌ |
+| **1.data.workspaceSlug** | `string` | No description | ❌ |
+| **1.id** | `string` | No description | ❌ |
+| **1.inserted_at** | `string` | No description | ❌ |
+| **1.interacted_at** | `string` | No description | ❌ |
+| **1.link_clicked_at** | `unknown` | No description | ❌ |
+| **1.read_at** | `string` | No description | ❌ |
+| **1.seen_at** | `unknown` | No description | ❌ |
+| **1.source** | `object` | No description | ❌ |
+| **1.source.__typename** | `string` | No description | ❌ |
+| **1.source.categories** | `array` | No description | ❌ |
+| **1.source.key** | `string` | No description | ❌ |
+| **1.source.version_id** | `string` | No description | ❌ |
+| **1.tenant** | `unknown` | No description | ❌ |
+| **1.total_activities** | `integer` | No description | ❌ |
+| **1.total_actors** | `integer` | No description | ❌ |
+| **1.updated_at** | `string` | No description | ❌ |
+| **2** | `object` | No description | ❌ |
+| **2.__cursor** | `string` | No description | ❌ |
+| **2.__typename** | `string` | No description | ❌ |
+| **2.activities** | `array` | No description | ❌ |
+| **2.activities.items** | `object` | Contains the structure for array items | ❌ |
+| **2.activities.items.__typename** | `string` | No description | ❌ |
+| **2.activities.items.actor** | `object` | No description | ❌ |
+| **2.activities.items.data** | `object` | No description | ❌ |
+| **2.activities.items.id** | `string` | No description | ❌ |
+| **2.activities.items.inserted_at** | `string` | No description | ❌ |
+| **2.activities.items.recipient** | `object` | No description | ❌ |
+| **2.activities.items.updated_at** | `string` | No description | ❌ |
+| **2.actors** | `array` | No description | ❌ |
+| **2.actors.items** | `object` | Contains the structure for array items | ❌ |
+| **2.actors.items.__typename** | `string` | No description | ❌ |
+| **2.actors.items.created_at** | `unknown` | No description | ❌ |
+| **2.actors.items.email** | `string` | No description | ❌ |
+| **2.actors.items.firstName** | `string` | No description | ❌ |
+| **2.actors.items.id** | `string` | No description | ❌ |
+| **2.actors.items.name** | `string` | No description | ❌ |
+| **2.actors.items.role** | `string` | No description | ❌ |
+| **2.actors.items.updated_at** | `string` | No description | ❌ |
+| **2.archived_at** | `unknown` | No description | ❌ |
+| **2.blocks** | `array` | No description | ❌ |
+| **2.blocks.items** | `object` | Contains the structure for array items | ❌ |
+| **2.blocks.items.content** | `string` | No description | ❌ |
+| **2.blocks.items.name** | `string` | No description | ❌ |
+| **2.blocks.items.rendered** | `string` | No description | ❌ |
+| **2.blocks.items.type** | `string` | No description | ❌ |
+| **2.clicked_at** | `unknown` | No description | ❌ |
+| **2.data** | `object` | No description | ❌ |
+| **2.data.bannerId** | `string` | No description | ❌ |
+| **2.data.currentPlan** | `string` | No description | ❌ |
+| **2.data.currentPlanId** | `string` | No description | ❌ |
+| **2.data.currentUsage** | `integer` | No description | ❌ |
+| **2.data.featureNotificationType** | `string` | No description | ❌ |
+| **2.data.isBandwidthAddonMaxedOut** | `boolean` | No description | ❌ |
+| **2.data.nextResetDate** | `string` | No description | ❌ |
+| **2.data.nextTierPlan** | `string` | No description | ❌ |
+| **2.data.notificationType** | `string` | No description | ❌ |
+| **2.data.occurrence** | `string` | No description | ❌ |
+| **2.data.siteId** | `string` | No description | ❌ |
+| **2.data.siteName** | `string` | No description | ❌ |
+| **2.data.siteSlug** | `string` | No description | ❌ |
+| **2.data.usageLimit** | `integer` | No description | ❌ |
+| **2.data.usageLimitGB** | `integer` | No description | ❌ |
+| **2.data.wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **2.data.wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **2.data.workspaceName** | `string` | No description | ❌ |
+| **2.data.workspaceSlug** | `string` | No description | ❌ |
+| **2.id** | `string` | No description | ❌ |
+| **2.inserted_at** | `string` | No description | ❌ |
+| **2.interacted_at** | `string` | No description | ❌ |
+| **2.link_clicked_at** | `unknown` | No description | ❌ |
+| **2.read_at** | `string` | No description | ❌ |
+| **2.seen_at** | `unknown` | No description | ❌ |
+| **2.source** | `object` | No description | ❌ |
+| **2.source.__typename** | `string` | No description | ❌ |
+| **2.source.categories** | `array` | No description | ❌ |
+| **2.source.key** | `string` | No description | ❌ |
+| **2.source.version_id** | `string` | No description | ❌ |
+| **2.tenant** | `unknown` | No description | ❌ |
+| **2.total_activities** | `integer` | No description | ❌ |
+| **2.total_actors** | `integer` | No description | ❌ |
+| **2.updated_at** | `string` | No description | ❌ |
+| **3** | `object` | No description | ❌ |
+| **3.__cursor** | `string` | No description | ❌ |
+| **3.__typename** | `string` | No description | ❌ |
+| **3.activities** | `array` | No description | ❌ |
+| **3.activities.items** | `object` | Contains the structure for array items | ❌ |
+| **3.activities.items.__typename** | `string` | No description | ❌ |
+| **3.activities.items.id** | `string` | No description | ❌ |
+| **3.activities.items.inserted_at** | `string` | No description | ❌ |
+| **3.activities.items.recipient** | `object` | No description | ❌ |
+| **3.activities.items.updated_at** | `string` | No description | ❌ |
+| **3.actors** | `array` | No description | ❌ |
+| **3.actors.items** | `object` | Contains the structure for array items | ❌ |
+| **3.actors.items.__typename** | `string` | No description | ❌ |
+| **3.actors.items.created_at** | `unknown` | No description | ❌ |
+| **3.actors.items.email** | `string` | No description | ❌ |
+| **3.actors.items.firstName** | `string` | No description | ❌ |
+| **3.actors.items.name** | `string` | No description | ❌ |
+| **3.actors.items.role** | `string` | No description | ❌ |
+| **3.actors.items.updated_at** | `string` | No description | ❌ |
+| **3.archived_at** | `unknown` | No description | ❌ |
+| **3.blocks** | `array` | No description | ❌ |
+| **3.blocks.items** | `object` | Contains the structure for array items | ❌ |
+| **3.blocks.items.content** | `string` | No description | ❌ |
+| **3.blocks.items.name** | `string` | No description | ❌ |
+| **3.blocks.items.rendered** | `string` | No description | ❌ |
+| **3.blocks.items.type** | `string` | No description | ❌ |
+| **3.data** | `object` | No description | ❌ |
+| **3.data.currentPlanId** | `string` | No description | ❌ |
+| **3.data.currentUsage** | `integer` | No description | ❌ |
+| **3.data.featureNotificationType** | `string` | No description | ❌ |
+| **3.data.nextResetDate** | `string` | No description | ❌ |
+| **3.data.nextTierPlan** | `string` | No description | ❌ |
+| **3.data.notificationType** | `string` | No description | ❌ |
+| **3.data.occurrence** | `string` | No description | ❌ |
+| **3.data.siteId** | `string` | No description | ❌ |
+| **3.data.siteName** | `string` | No description | ❌ |
+| **3.data.usageLimitGB** | `integer` | No description | ❌ |
+| **3.data.wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **3.data.wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **3.data.workspaceName** | `string` | No description | ❌ |
+| **3.data.workspaceSlug** | `string` | No description | ❌ |
+| **3.id** | `string` | No description | ❌ |
+| **3.inserted_at** | `string` | No description | ❌ |
+| **3.interacted_at** | `string` | No description | ❌ |
+| **3.link_clicked_at** | `unknown` | No description | ❌ |
+| **3.source** | `object` | No description | ❌ |
+| **3.source.__typename** | `string` | No description | ❌ |
+| **3.source.categories** | `array` | No description | ❌ |
+| **3.source.version_id** | `string` | No description | ❌ |
+| **3.tenant** | `unknown` | No description | ❌ |
+| **3.total_actors** | `integer` | No description | ❌ |
+| **4** | `object` | No description | ❌ |
+| **4.__typename** | `string` | No description | ❌ |
+| **4.activities** | `array` | No description | ❌ |
+| **4.activities.items** | `object` | Contains the structure for array items | ❌ |
+| **4.activities.items.__typename** | `string` | No description | ❌ |
+| **4.activities.items.actor** | `object` | No description | ❌ |
+| **4.activities.items.data** | `object` | No description | ❌ |
+| **4.activities.items.inserted_at** | `string` | No description | ❌ |
+| **4.activities.items.recipient** | `object` | No description | ❌ |
+| **4.activities.items.updated_at** | `string` | No description | ❌ |
+| **4.actors** | `array` | No description | ❌ |
+| **4.actors.items** | `object` | Contains the structure for array items | ❌ |
+| **4.actors.items.__typename** | `string` | No description | ❌ |
+| **4.actors.items.created_at** | `unknown` | No description | ❌ |
+| **4.actors.items.firstName** | `string` | No description | ❌ |
+| **4.actors.items.id** | `string` | No description | ❌ |
+| **4.actors.items.name** | `string` | No description | ❌ |
+| **4.archived_at** | `unknown` | No description | ❌ |
+| **4.blocks** | `array` | No description | ❌ |
+| **4.data** | `object` | No description | ❌ |
+| **4.data.bannerId** | `string` | No description | ❌ |
+| **4.data.currentPlanId** | `string` | No description | ❌ |
+| **4.data.featureNotificationType** | `string` | No description | ❌ |
+| **4.data.nextResetDate** | `string` | No description | ❌ |
+| **4.data.nextTierPlan** | `string` | No description | ❌ |
+| **4.data.occurrence** | `string` | No description | ❌ |
+| **4.data.siteName** | `string` | No description | ❌ |
+| **4.data.siteSlug** | `string` | No description | ❌ |
+| **4.data.usageLimit** | `integer` | No description | ❌ |
+| **4.data.wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **4.data.workspaceName** | `string` | No description | ❌ |
+| **4.data.workspaceSlug** | `string` | No description | ❌ |
+| **4.id** | `string` | No description | ❌ |
+| **4.inserted_at** | `string` | No description | ❌ |
+| **4.interacted_at** | `string` | No description | ❌ |
+| **4.link_clicked_at** | `unknown` | No description | ❌ |
+| **4.seen_at** | `unknown` | No description | ❌ |
+| **4.source** | `object` | No description | ❌ |
+| **4.source.__typename** | `string` | No description | ❌ |
+| **4.source.categories** | `array` | No description | ❌ |
+| **4.source.key** | `string` | No description | ❌ |
+| **4.source.version_id** | `string` | No description | ❌ |
+| **4.tenant** | `unknown` | No description | ❌ |
+| **4.updated_at** | `string` | No description | ❌ |
+| **current usage** | `integer` | No description | ❌ |
+| **feature notification type** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **usage limit** | `integer` | No description | ❌ |
+| **went over high usage threshold previous month** | `boolean` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Contact Sales Clicked", {
+  "0": {
+    "__cursor": "<<type: string, required: false>>",
+    "__typename": "<<type: string, required: false>>",
+    "activities": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "actor": "<<type: object, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "inserted_at": "<<type: string, required: false>>",
+        "recipient": "<<type: object, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "actors": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "created_at": "<<type: unknown, required: false>>",
+        "email": "<<type: string, required: false>>",
+        "firstName": "<<type: string, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "role": "<<type: string, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "archived_at": "<<type: unknown, required: false>>",
+    "blocks": [
+      {
+        "content": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "rendered": "<<type: string, required: false>>",
+        "type": "<<type: string, required: false>>"
+      }
+    ],
+    "clicked_at": "<<type: unknown, required: false>>",
+    "data": {
+      "bannerId": "<<type: string, required: false>>",
+      "currentPlan": "<<type: string, required: false>>",
+      "currentPlanId": "<<type: string, required: false>>",
+      "currentUsage": "<<type: integer, required: false>>",
+      "featureNotificationType": "<<type: string, required: false>>",
+      "isBandwidthAddonMaxedOut": "<<type: boolean, required: false>>",
+      "nextTierPlan": "<<type: string, required: false>>",
+      "notificationType": "<<type: string, required: false>>",
+      "occurrence": "<<type: string, required: false>>",
+      "siteId": "<<type: string, required: false>>",
+      "siteName": "<<type: string, required: false>>",
+      "siteSlug": "<<type: string, required: false>>",
+      "usageLimit": "<<type: integer, required: false>>",
+      "usageLimitGB": "<<type: integer, required: false>>",
+      "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "workspaceName": "<<type: string, required: false>>",
+      "workspaceSlug": "<<type: string, required: false>>"
+    },
+    "id": "<<type: string, required: false>>",
+    "inserted_at": "<<type: string, required: false>>",
+    "interacted_at": "<<type: unknown, required: false>>",
+    "link_clicked_at": "<<type: unknown, required: false>>",
+    "read_at": "<<type: unknown, required: false>>",
+    "seen_at": "<<type: unknown, required: false>>",
+    "source": {
+      "__typename": "<<type: string, required: false>>",
+      "categories": "<<type: array, required: false>>",
+      "key": "<<type: string, required: false>>",
+      "version_id": "<<type: string, required: false>>"
+    },
+    "tenant": "<<type: unknown, required: false>>",
+    "total_activities": "<<type: integer, required: false>>",
+    "total_actors": "<<type: integer, required: false>>",
+    "updated_at": "<<type: string, required: false>>"
+  },
+  "1": {
+    "__cursor": "<<type: string, required: false>>",
+    "__typename": "<<type: string, required: false>>",
+    "activities": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "actor": "<<type: object, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "inserted_at": "<<type: string, required: false>>",
+        "recipient": "<<type: object, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "actors": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "created_at": "<<type: unknown, required: false>>",
+        "email": "<<type: string, required: false>>",
+        "firstName": "<<type: string, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "role": "<<type: string, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "archived_at": "<<type: unknown, required: false>>",
+    "blocks": [
+      {
+        "content": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "rendered": "<<type: string, required: false>>",
+        "type": "<<type: string, required: false>>"
+      }
+    ],
+    "clicked_at": "<<type: unknown, required: false>>",
+    "data": {
+      "bannerId": "<<type: string, required: false>>",
+      "currentPlan": "<<type: string, required: false>>",
+      "currentPlanId": "<<type: string, required: false>>",
+      "currentUsage": "<<type: integer, required: false>>",
+      "featureNotificationType": "<<type: string, required: false>>",
+      "isBandwidthAddonMaxedOut": "<<type: boolean, required: false>>",
+      "nextResetDate": "<<type: string, required: false>>",
+      "nextTierPlan": "<<type: string, required: false>>",
+      "notificationType": "<<type: string, required: false>>",
+      "occurrence": "<<type: string, required: false>>",
+      "siteId": "<<type: string, required: false>>",
+      "siteName": "<<type: string, required: false>>",
+      "siteSlug": "<<type: string, required: false>>",
+      "usageLimit": "<<type: integer, required: false>>",
+      "usageLimitGB": "<<type: integer, required: false>>",
+      "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "workspaceName": "<<type: string, required: false>>",
+      "workspaceSlug": "<<type: string, required: false>>"
+    },
+    "id": "<<type: string, required: false>>",
+    "inserted_at": "<<type: string, required: false>>",
+    "interacted_at": "<<type: string, required: false>>",
+    "link_clicked_at": "<<type: unknown, required: false>>",
+    "read_at": "<<type: string, required: false>>",
+    "seen_at": "<<type: unknown, required: false>>",
+    "source": {
+      "__typename": "<<type: string, required: false>>",
+      "categories": "<<type: array, required: false>>",
+      "key": "<<type: string, required: false>>",
+      "version_id": "<<type: string, required: false>>"
+    },
+    "tenant": "<<type: unknown, required: false>>",
+    "total_activities": "<<type: integer, required: false>>",
+    "total_actors": "<<type: integer, required: false>>",
+    "updated_at": "<<type: string, required: false>>"
+  },
+  "2": {
+    "__cursor": "<<type: string, required: false>>",
+    "__typename": "<<type: string, required: false>>",
+    "activities": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "actor": "<<type: object, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "inserted_at": "<<type: string, required: false>>",
+        "recipient": "<<type: object, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "actors": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "created_at": "<<type: unknown, required: false>>",
+        "email": "<<type: string, required: false>>",
+        "firstName": "<<type: string, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "role": "<<type: string, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "archived_at": "<<type: unknown, required: false>>",
+    "blocks": [
+      {
+        "content": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "rendered": "<<type: string, required: false>>",
+        "type": "<<type: string, required: false>>"
+      }
+    ],
+    "clicked_at": "<<type: unknown, required: false>>",
+    "data": {
+      "bannerId": "<<type: string, required: false>>",
+      "currentPlan": "<<type: string, required: false>>",
+      "currentPlanId": "<<type: string, required: false>>",
+      "currentUsage": "<<type: integer, required: false>>",
+      "featureNotificationType": "<<type: string, required: false>>",
+      "isBandwidthAddonMaxedOut": "<<type: boolean, required: false>>",
+      "nextResetDate": "<<type: string, required: false>>",
+      "nextTierPlan": "<<type: string, required: false>>",
+      "notificationType": "<<type: string, required: false>>",
+      "occurrence": "<<type: string, required: false>>",
+      "siteId": "<<type: string, required: false>>",
+      "siteName": "<<type: string, required: false>>",
+      "siteSlug": "<<type: string, required: false>>",
+      "usageLimit": "<<type: integer, required: false>>",
+      "usageLimitGB": "<<type: integer, required: false>>",
+      "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "workspaceName": "<<type: string, required: false>>",
+      "workspaceSlug": "<<type: string, required: false>>"
+    },
+    "id": "<<type: string, required: false>>",
+    "inserted_at": "<<type: string, required: false>>",
+    "interacted_at": "<<type: string, required: false>>",
+    "link_clicked_at": "<<type: unknown, required: false>>",
+    "read_at": "<<type: string, required: false>>",
+    "seen_at": "<<type: unknown, required: false>>",
+    "source": {
+      "__typename": "<<type: string, required: false>>",
+      "categories": "<<type: array, required: false>>",
+      "key": "<<type: string, required: false>>",
+      "version_id": "<<type: string, required: false>>"
+    },
+    "tenant": "<<type: unknown, required: false>>",
+    "total_activities": "<<type: integer, required: false>>",
+    "total_actors": "<<type: integer, required: false>>",
+    "updated_at": "<<type: string, required: false>>"
+  },
+  "3": {
+    "__cursor": "<<type: string, required: false>>",
+    "__typename": "<<type: string, required: false>>",
+    "activities": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "inserted_at": "<<type: string, required: false>>",
+        "recipient": "<<type: object, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "actors": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "created_at": "<<type: unknown, required: false>>",
+        "email": "<<type: string, required: false>>",
+        "firstName": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "role": "<<type: string, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "archived_at": "<<type: unknown, required: false>>",
+    "blocks": [
+      {
+        "content": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>",
+        "rendered": "<<type: string, required: false>>",
+        "type": "<<type: string, required: false>>"
+      }
+    ],
+    "data": {
+      "currentPlanId": "<<type: string, required: false>>",
+      "currentUsage": "<<type: integer, required: false>>",
+      "featureNotificationType": "<<type: string, required: false>>",
+      "nextResetDate": "<<type: string, required: false>>",
+      "nextTierPlan": "<<type: string, required: false>>",
+      "notificationType": "<<type: string, required: false>>",
+      "occurrence": "<<type: string, required: false>>",
+      "siteId": "<<type: string, required: false>>",
+      "siteName": "<<type: string, required: false>>",
+      "usageLimitGB": "<<type: integer, required: false>>",
+      "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "workspaceName": "<<type: string, required: false>>",
+      "workspaceSlug": "<<type: string, required: false>>"
+    },
+    "id": "<<type: string, required: false>>",
+    "inserted_at": "<<type: string, required: false>>",
+    "interacted_at": "<<type: string, required: false>>",
+    "link_clicked_at": "<<type: unknown, required: false>>",
+    "source": {
+      "__typename": "<<type: string, required: false>>",
+      "categories": "<<type: array, required: false>>",
+      "version_id": "<<type: string, required: false>>"
+    },
+    "tenant": "<<type: unknown, required: false>>",
+    "total_actors": "<<type: integer, required: false>>"
+  },
+  "4": {
+    "__typename": "<<type: string, required: false>>",
+    "activities": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "actor": "<<type: object, required: false>>",
+        "data": "<<type: object, required: false>>",
+        "inserted_at": "<<type: string, required: false>>",
+        "recipient": "<<type: object, required: false>>",
+        "updated_at": "<<type: string, required: false>>"
+      }
+    ],
+    "actors": [
+      {
+        "__typename": "<<type: string, required: false>>",
+        "created_at": "<<type: unknown, required: false>>",
+        "firstName": "<<type: string, required: false>>",
+        "id": "<<type: string, required: false>>",
+        "name": "<<type: string, required: false>>"
+      }
+    ],
+    "archived_at": "<<type: unknown, required: false>>",
+    "blocks": "<<type: array, required: false>>",
+    "data": {
+      "bannerId": "<<type: string, required: false>>",
+      "currentPlanId": "<<type: string, required: false>>",
+      "featureNotificationType": "<<type: string, required: false>>",
+      "nextResetDate": "<<type: string, required: false>>",
+      "nextTierPlan": "<<type: string, required: false>>",
+      "occurrence": "<<type: string, required: false>>",
+      "siteName": "<<type: string, required: false>>",
+      "siteSlug": "<<type: string, required: false>>",
+      "usageLimit": "<<type: integer, required: false>>",
+      "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+      "workspaceName": "<<type: string, required: false>>",
+      "workspaceSlug": "<<type: string, required: false>>"
+    },
+    "id": "<<type: string, required: false>>",
+    "inserted_at": "<<type: string, required: false>>",
+    "interacted_at": "<<type: string, required: false>>",
+    "link_clicked_at": "<<type: unknown, required: false>>",
+    "seen_at": "<<type: unknown, required: false>>",
+    "source": {
+      "__typename": "<<type: string, required: false>>",
+      "categories": "<<type: array, required: false>>",
+      "key": "<<type: string, required: false>>",
+      "version_id": "<<type: string, required: false>>"
+    },
+    "tenant": "<<type: unknown, required: false>>",
+    "updated_at": "<<type: string, required: false>>"
+  },
+  "current usage": "<<type: integer, required: false>>",
+  "feature notification type": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "usage limit": "<<type: integer, required: false>>",
+  "went over high usage threshold previous month": "<<type: boolean, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Go To Billing Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **bannerId** | `string` | No description | ❌ |
+| **currentPlan** | `string` | No description | ❌ |
+| **currentPlanId** | `string` | No description | ❌ |
+| **currentUsage** | `integer` | No description | ❌ |
+| **featureNotificationType** | `string` | No description | ❌ |
+| **isBandwidthAddonMaxedOut** | `boolean` | No description | ❌ |
+| **nextResetDate** | `string` | No description | ❌ |
+| **nextTierPlan** | `string` | No description | ❌ |
+| **notificationType** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previousUsage** | `unknown` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **siteName** | `string` | No description | ❌ |
+| **siteSlug** | `string` | No description | ❌ |
+| **usageLimit** | `integer` | No description | ❌ |
+| **usageLimitFormatted** | `string` | No description | ❌ |
+| **usageLimitGB** | `integer` | No description | ❌ |
+| **wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceName** | `string` | No description | ❌ |
+| **workspaceSlug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Go To Billing Clicked", {
+  "bannerId": "<<type: string, required: false>>",
+  "currentPlan": "<<type: string, required: false>>",
+  "currentPlanId": "<<type: string, required: false>>",
+  "currentUsage": "<<type: integer, required: false>>",
+  "featureNotificationType": "<<type: string, required: false>>",
+  "isBandwidthAddonMaxedOut": "<<type: boolean, required: false>>",
+  "nextResetDate": "<<type: string, required: false>>",
+  "nextTierPlan": "<<type: string, required: false>>",
+  "notificationType": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previousUsage": "<<type: unknown, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "siteName": "<<type: string, required: false>>",
+  "siteSlug": "<<type: string, required: false>>",
+  "usageLimit": "<<type: integer, required: false>>",
+  "usageLimitFormatted": "<<type: string, required: false>>",
+  "usageLimitGB": "<<type: integer, required: false>>",
+  "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+  "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceName": "<<type: string, required: false>>",
+  "workspaceSlug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Learn more Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **contact sales qualified** | `boolean` | No description | ❌ |
+| **current month usage** | `integer` | No description | ❌ |
+| **current plan id** | `string` | No description | ❌ |
+| **current usage** | `integer` | No description | ❌ |
+| **feature notification type** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previous month usage** | `unknown` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site name** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **usage limit** | `integer` | No description | ❌ |
+| **went over high usage threshold previous month** | `boolean` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Learn more Clicked", {
+  "action": "<<type: string, required: false>>",
+  "contact sales qualified": "<<type: boolean, required: false>>",
+  "current month usage": "<<type: integer, required: false>>",
+  "current plan id": "<<type: string, required: false>>",
+  "current usage": "<<type: integer, required: false>>",
+  "feature notification type": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previous month usage": "<<type: unknown, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site name": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "usage limit": "<<type: integer, required: false>>",
+  "went over high usage threshold previous month": "<<type: boolean, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification See Usage Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **bannerId** | `string` | No description | ❌ |
+| **currentPlan** | `string` | No description | ❌ |
+| **currentPlanId** | `string` | No description | ❌ |
+| **currentUsage** | `integer` | No description | ❌ |
+| **featureNotificationType** | `string` | No description | ❌ |
+| **isBandwidthAddonMaxedOut** | `boolean` | No description | ❌ |
+| **isCompletedAutoUpgradeDetermined** | `boolean` | No description | ❌ |
+| **nextResetDate** | `string` | No description | ❌ |
+| **nextTierPlan** | `string` | No description | ❌ |
+| **notificationType** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previousUsage** | `unknown` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **siteName** | `string` | No description | ❌ |
+| **siteSlug** | `string` | No description | ❌ |
+| **subscriptionUpdatedOrigin** | `boolean` | No description | ❌ |
+| **usageLimit** | `integer` | No description | ❌ |
+| **usageLimitFormatted** | `string` | No description | ❌ |
+| **usageLimitGB** | `integer` | No description | ❌ |
+| **wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceName** | `string` | No description | ❌ |
+| **workspaceSlug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification See Usage Clicked", {
+  "bannerId": "<<type: string, required: false>>",
+  "currentPlan": "<<type: string, required: false>>",
+  "currentPlanId": "<<type: string, required: false>>",
+  "currentUsage": "<<type: integer, required: false>>",
+  "featureNotificationType": "<<type: string, required: false>>",
+  "isBandwidthAddonMaxedOut": "<<type: boolean, required: false>>",
+  "isCompletedAutoUpgradeDetermined": "<<type: boolean, required: false>>",
+  "nextResetDate": "<<type: string, required: false>>",
+  "nextTierPlan": "<<type: string, required: false>>",
+  "notificationType": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previousUsage": "<<type: unknown, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "siteName": "<<type: string, required: false>>",
+  "siteSlug": "<<type: string, required: false>>",
+  "subscriptionUpdatedOrigin": "<<type: boolean, required: false>>",
+  "usageLimit": "<<type: integer, required: false>>",
+  "usageLimitFormatted": "<<type: string, required: false>>",
+  "usageLimitGB": "<<type: integer, required: false>>",
+  "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+  "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceName": "<<type: string, required: false>>",
+  "workspaceSlug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Sent
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **current usage** | `integer` | No description | ❌ |
+| **detected auto upgrade** | `boolean` | No description | ❌ |
+| **is bandwidth addon maxed out** | `boolean` | No description | ❌ |
+| **notification type** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previous month high usage overage** | `boolean` | No description | ❌ |
+| **previous month overage** | `boolean` | No description | ❌ |
+| **previous month usage** | `unknown` | No description | ❌ |
+| **recipients** | `array` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site usage limit** | `integer` | No description | ❌ |
+| **site usage limit GB** | `integer` | No description | ❌ |
+| **site usage limit formatted** | `string` | No description | ❌ |
+| **subscription updated origin** | `boolean` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Sent", {
+  "current usage": "<<type: integer, required: false>>",
+  "detected auto upgrade": "<<type: boolean, required: false>>",
+  "is bandwidth addon maxed out": "<<type: boolean, required: false>>",
+  "notification type": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previous month high usage overage": "<<type: boolean, required: false>>",
+  "previous month overage": "<<type: boolean, required: false>>",
+  "previous month usage": "<<type: unknown, required: false>>",
+  "recipients": "<<type: array, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site usage limit": "<<type: integer, required: false>>",
+  "site usage limit GB": "<<type: integer, required: false>>",
+  "site usage limit formatted": "<<type: string, required: false>>",
+  "subscription updated origin": "<<type: boolean, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Upgrade Now Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **bannerId** | `string` | No description | ❌ |
+| **currentPlan** | `string` | No description | ❌ |
+| **currentPlanId** | `string` | No description | ❌ |
+| **currentUsage** | `integer` | No description | ❌ |
+| **featureNotificationType** | `string` | No description | ❌ |
+| **isBandwidthAddonMaxedOut** | `boolean` | No description | ❌ |
+| **isCompletedAutoUpgradeDetermined** | `boolean` | No description | ❌ |
+| **nextResetDate** | `string` | No description | ❌ |
+| **nextTierPlan** | `string` | No description | ❌ |
+| **notificationType** | `string` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previousUsage** | `unknown` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **siteName** | `string` | No description | ❌ |
+| **siteSlug** | `string` | No description | ❌ |
+| **subscriptionUpdatedOrigin** | `boolean` | No description | ❌ |
+| **usageLimit** | `integer` | No description | ❌ |
+| **usageLimitFormatted** | `string` | No description | ❌ |
+| **usageLimitGB** | `integer` | No description | ❌ |
+| **wentOverHighUsageThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **wentOverThresholdPreviousMonth** | `boolean` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceName** | `string` | No description | ❌ |
+| **workspaceSlug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Upgrade Now Clicked", {
+  "bannerId": "<<type: string, required: false>>",
+  "currentPlan": "<<type: string, required: false>>",
+  "currentPlanId": "<<type: string, required: false>>",
+  "currentUsage": "<<type: integer, required: false>>",
+  "featureNotificationType": "<<type: string, required: false>>",
+  "isBandwidthAddonMaxedOut": "<<type: boolean, required: false>>",
+  "isCompletedAutoUpgradeDetermined": "<<type: boolean, required: false>>",
+  "nextResetDate": "<<type: string, required: false>>",
+  "nextTierPlan": "<<type: string, required: false>>",
+  "notificationType": "<<type: string, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previousUsage": "<<type: unknown, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "siteName": "<<type: string, required: false>>",
+  "siteSlug": "<<type: string, required: false>>",
+  "subscriptionUpdatedOrigin": "<<type: boolean, required: false>>",
+  "usageLimit": "<<type: integer, required: false>>",
+  "usageLimitFormatted": "<<type: string, required: false>>",
+  "usageLimitGB": "<<type: integer, required: false>>",
+  "wentOverHighUsageThresholdPreviousMonth": "<<type: boolean, required: false>>",
+  "wentOverThresholdPreviousMonth": "<<type: boolean, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceName": "<<type: string, required: false>>",
+  "workspaceSlug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Overage Notification Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **contact sales qualified** | `boolean` | No description | ❌ |
+| **current month usage** | `integer` | No description | ❌ |
+| **current plan id** | `string` | No description | ❌ |
+| **current usage** | `integer` | No description | ❌ |
+| **feature notification type** | `string` | No description | ❌ |
+| **multiple** | `boolean` | No description | ❌ |
+| **occurrence** | `string` | No description | ❌ |
+| **previous month usage** | `unknown` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site name** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **usage limit** | `integer` | No description | ❌ |
+| **went over high usage threshold previous month** | `boolean` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Overage Notification Viewed", {
+  "action": "<<type: string, required: false>>",
+  "contact sales qualified": "<<type: boolean, required: false>>",
+  "current month usage": "<<type: integer, required: false>>",
+  "current plan id": "<<type: string, required: false>>",
+  "current usage": "<<type: integer, required: false>>",
+  "feature notification type": "<<type: string, required: false>>",
+  "multiple": "<<type: boolean, required: false>>",
+  "occurrence": "<<type: string, required: false>>",
+  "previous month usage": "<<type: unknown, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site name": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "usage limit": "<<type: integer, required: false>>",
+  "went over high usage threshold previous month": "<<type: boolean, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Page Building Component Added
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **component root id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Page Building Component Added", {
+  "component root id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Page Building Component Moved
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **component root id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Page Building Component Moved", {
+  "component root id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Page Building Component Removed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **component root id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Page Building Component Removed", {
+  "component root id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Availability Status Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Availability Status Clicked", {
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Code Copied
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **location** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Code Copied", {
+  "location": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Commission Explainer Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Commission Explainer Opened", {
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Manipulative Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **params** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Manipulative Viewed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "params": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Onboarding Step Completed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **requirement** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **step** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Onboarding Step Completed", {
+  "requirement": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "step": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>"
 })
 ```
 
@@ -6570,6 +13432,9 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **page** | `string` | No description | ❌ |
+| **params** | `object` | No description | ❌ |
+| **params.paramCollectionSlug** | `string` | No description | ❌ |
+| **params.paramWorkspaceSlug** | `string` | No description | ❌ |
 | **referer** | `string` | No description | ❌ |
 | **userId** | `string` | No description | ❌ |
 | **workspaceId** | `string` | No description | ❌ |
@@ -6579,7 +13444,107 @@ No description provided
 ```javascript
 analytics.track("Partner Hub Page Viewed", {
   "page": "<<type: string, required: false>>",
+  "params": {
+    "paramCollectionSlug": "<<type: string, required: false>>",
+    "paramWorkspaceSlug": "<<type: string, required: false>>"
+  },
   "referer": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Resource Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **resourceName** | `string` | No description | ❌ |
+| **resourceType** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Resource Viewed", {
+  "resourceName": "<<type: string, required: false>>",
+  "resourceType": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Step Waived
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **requirement** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Step Waived", {
+  "requirement": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Partner Hub Submit Enterprise Lead Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Partner Hub Submit Enterprise Lead Clicked", {
   "userId": "<<type: string, required: false>>",
   "workspaceId": "<<type: string, required: false>>",
   "workspaceRole": "<<type: string, required: false>>"
@@ -6781,7 +13746,7 @@ No description provided
 | **charged amount** | `integer` | No description | ❌ |
 | **currency of new plan** | `string` | No description | ❌ |
 | **initial number of seats** | `integer` | No description | ❌ |
-| **initial plan frequency** | `unknown` | No description | ❌ |
+| **initial plan frequency** | `string` | No description | ❌ |
 | **initial plan level** | `string` | No description | ❌ |
 | **legacy new number of seats** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
@@ -6800,9 +13765,15 @@ No description provided
 | **stripe subscription id** | `string` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **value of new plan** | `integer` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace initial number of seats** | `integer` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace new addons** | `object` | No description | ❌ |
+| **workspace new addons.full seat count** | `integer` | No description | ❌ |
+| **workspace new addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace new number of seats** | `integer` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
@@ -6825,7 +13796,7 @@ analytics.track("Payment Failed", {
   "charged amount": "<<type: integer, required: false>>",
   "currency of new plan": "<<type: string, required: false>>",
   "initial number of seats": "<<type: integer, required: false>>",
-  "initial plan frequency": "<<type: unknown, required: false>>",
+  "initial plan frequency": "<<type: string, required: false>>",
   "initial plan level": "<<type: string, required: false>>",
   "legacy new number of seats": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
@@ -6844,9 +13815,17 @@ analytics.track("Payment Failed", {
   "stripe subscription id": "<<type: string, required: false>>",
   "team id": "<<type: string, required: false>>",
   "value of new plan": "<<type: integer, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace initial number of seats": "<<type: integer, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace new addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace new number of seats": "<<type: integer, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
@@ -6885,7 +13864,7 @@ No description provided
 | **charged amount** | `integer` | No description | ❌ |
 | **currency of new plan** | `string` | No description | ❌ |
 | **initial number of seats** | `integer` | No description | ❌ |
-| **initial plan frequency** | `unknown` | No description | ❌ |
+| **initial plan frequency** | `string` | No description | ❌ |
 | **initial plan level** | `string` | No description | ❌ |
 | **legacy new number of seats** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
@@ -6904,9 +13883,15 @@ No description provided
 | **stripe subscription id** | `string` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **value of new plan** | `integer` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace initial number of seats** | `integer` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace new addons** | `object` | No description | ❌ |
+| **workspace new addons.full seat count** | `integer` | No description | ❌ |
+| **workspace new addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace new number of seats** | `integer` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
@@ -6929,7 +13914,7 @@ analytics.track("Payment Success", {
   "charged amount": "<<type: integer, required: false>>",
   "currency of new plan": "<<type: string, required: false>>",
   "initial number of seats": "<<type: integer, required: false>>",
-  "initial plan frequency": "<<type: unknown, required: false>>",
+  "initial plan frequency": "<<type: string, required: false>>",
   "initial plan level": "<<type: string, required: false>>",
   "legacy new number of seats": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
@@ -6948,9 +13933,17 @@ analytics.track("Payment Success", {
   "stripe subscription id": "<<type: string, required: false>>",
   "team id": "<<type: string, required: false>>",
   "value of new plan": "<<type: integer, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace initial number of seats": "<<type: integer, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace new addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace new number of seats": "<<type: integer, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
@@ -6991,6 +13984,9 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -7016,6 +14012,10 @@ analytics.track("Paywall Encountered", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "team id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -7032,7 +14032,7 @@ analytics.track("Paywall Encountered", {
 <!-- panels:end -->
 
 
-## Plan Confusion Modal Clicked
+## Person profile created
 
 <!-- tabs:start -->
 ### **Details**
@@ -7044,84 +14044,12 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **value** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Plan Confusion Modal Clicked", {
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "value": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Plan Confusion Modal Viewed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Plan Confusion Modal Viewed", {
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
+analytics.track("Person profile created", {
+  "wf_source": "<<type: string, required: false>>"
 })
 ```
 
@@ -7146,7 +14074,7 @@ No description provided
 | **add-on new quantity** | `integer` | No description | ❌ |
 | **charged amount** | `integer` | No description | ❌ |
 | **comment** | `string` | No description | ❌ |
-| **comments** | `string` | No description | ❌ |
+| **comments** | `unknown` | No description | ❌ |
 | **cost of new plan** | `integer` | No description | ❌ |
 | **currency of new plan** | `string` | No description | ❌ |
 | **initial number of seats** | `integer` | No description | ❌ |
@@ -7156,13 +14084,13 @@ No description provided
 | **legacy new number of seats** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **new number of seats** | `integer` | No description | ❌ |
-| **new plan frequency** | `unknown` | No description | ❌ |
+| **new plan frequency** | `string` | No description | ❌ |
 | **new plan level** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
-| **promotion applied** | `unknown` | No description | ❌ |
+| **promotion applied** | `boolean` | No description | ❌ |
 | **promotion code** | `unknown` | No description | ❌ |
-| **promotion type** | `unknown` | No description | ❌ |
-| **promotion value** | `unknown` | No description | ❌ |
+| **promotion type** | `string` | No description | ❌ |
+| **promotion value** | `integer` | No description | ❌ |
 | **reason** | `array` | No description | ❌ |
 | **reason cancel Site plan** | `string` | No description | ❌ |
 | **reason cancel Workspace plan** | `string` | No description | ❌ |
@@ -7174,22 +14102,28 @@ No description provided
 | **reason transferring site** | `string` | No description | ❌ |
 | **reason unnecessary features** | `array` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
-| **stripe subscription id** | `unknown` | No description | ❌ |
+| **stripe subscription id** | `string` | No description | ❌ |
 | **switch to competitor** | `unknown` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **teamId** | `unknown` | No description | ❌ |
 | **timestamp** | `integer` | No description | ❌ |
 | **transferring site** | `string` | No description | ❌ |
-| **value of new plan** | `integer` | No description | ❌ |
+| **value of new plan** | `unknown` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace initial number of seats** | `integer` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace new addons** | `object` | No description | ❌ |
+| **workspace new addons.full seat count** | `integer` | No description | ❌ |
+| **workspace new addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace new number of seats** | `integer` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
@@ -7205,7 +14139,7 @@ analytics.track("Plan Modified", {
   "add-on new quantity": "<<type: integer, required: false>>",
   "charged amount": "<<type: integer, required: false>>",
   "comment": "<<type: string, required: false>>",
-  "comments": "<<type: string, required: false>>",
+  "comments": "<<type: unknown, required: false>>",
   "cost of new plan": "<<type: integer, required: false>>",
   "currency of new plan": "<<type: string, required: false>>",
   "initial number of seats": "<<type: integer, required: false>>",
@@ -7215,13 +14149,13 @@ analytics.track("Plan Modified", {
   "legacy new number of seats": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "new number of seats": "<<type: integer, required: false>>",
-  "new plan frequency": "<<type: unknown, required: false>>",
+  "new plan frequency": "<<type: string, required: false>>",
   "new plan level": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
-  "promotion applied": "<<type: unknown, required: false>>",
+  "promotion applied": "<<type: boolean, required: false>>",
   "promotion code": "<<type: unknown, required: false>>",
-  "promotion type": "<<type: unknown, required: false>>",
-  "promotion value": "<<type: unknown, required: false>>",
+  "promotion type": "<<type: string, required: false>>",
+  "promotion value": "<<type: integer, required: false>>",
   "reason": "<<type: array, required: false>>",
   "reason cancel Site plan": "<<type: string, required: false>>",
   "reason cancel Workspace plan": "<<type: string, required: false>>",
@@ -7233,79 +14167,35 @@ analytics.track("Plan Modified", {
   "reason transferring site": "<<type: string, required: false>>",
   "reason unnecessary features": "<<type: array, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
-  "stripe subscription id": "<<type: unknown, required: false>>",
+  "stripe subscription id": "<<type: string, required: false>>",
   "switch to competitor": "<<type: unknown, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "teamId": "<<type: unknown, required: false>>",
   "timestamp": "<<type: integer, required: false>>",
   "transferring site": "<<type: string, required: false>>",
-  "value of new plan": "<<type: integer, required: false>>",
+  "value of new plan": "<<type: unknown, required: false>>",
   "wf session id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace initial number of seats": "<<type: integer, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace new addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace new number of seats": "<<type: integer, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
   "workspace role": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Plan Object Tab Pressed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **plan type** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **tab** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Plan Object Tab Pressed", {
-  "plan type": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "tab": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7337,11 +14227,13 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7357,11 +14249,13 @@ analytics.track("Plan Recommendation", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": "<<type: object, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7393,11 +14287,13 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7413,11 +14309,13 @@ analytics.track("Plan Recommendation Clicked", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": "<<type: object, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7441,7 +14339,7 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **banner version** | `string` | No description | ❌ |
-| **initial plan level** | `unknown` | No description | ❌ |
+| **initial plan level** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **recommended plan level** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
@@ -7449,11 +14347,13 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7461,7 +14361,7 @@ No description provided
 ```javascript
 analytics.track("Plan Recommendation Dismissed", {
   "banner version": "<<type: string, required: false>>",
-  "initial plan level": "<<type: unknown, required: false>>",
+  "initial plan level": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "recommended plan level": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
@@ -7469,11 +14369,13 @@ analytics.track("Plan Recommendation Dismissed", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": "<<type: object, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7502,6 +14404,9 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace new number of seats** | `integer` | No description | ❌ |
@@ -7522,6 +14427,10 @@ analytics.track("Plan Seats Updated", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace new number of seats": "<<type: integer, required: false>>",
@@ -7562,11 +14471,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **transactionId** | `string` | No description | ❌ |
 | **userAgent** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7583,11 +14496,16 @@ analytics.track("Plan Upgraded by Business", {
   "site slug": "<<type: string, required: false>>",
   "transactionId": "<<type: string, required: false>>",
   "userAgent": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7618,13 +14536,17 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
-| **transactionId** | `unknown` | No description | ❌ |
+| **transactionId** | `string` | No description | ❌ |
 | **userAgent** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7639,13 +14561,18 @@ analytics.track("Plan Upgraded by Company", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
-  "transactionId": "<<type: unknown, required: false>>",
+  "transactionId": "<<type: string, required: false>>",
   "userAgent": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7678,11 +14605,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **transactionId** | `string` | No description | ❌ |
 | **userAgent** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7699,11 +14630,16 @@ analytics.track("Plan Upgraded by SP", {
   "site slug": "<<type: string, required: false>>",
   "transactionId": "<<type: string, required: false>>",
   "userAgent": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7736,11 +14672,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **transactionId** | `string` | No description | ❌ |
 | **userAgent** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7757,11 +14697,16 @@ analytics.track("Plan Upgraded by Self", {
   "site slug": "<<type: string, required: false>>",
   "transactionId": "<<type: string, required: false>>",
   "userAgent": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7794,11 +14739,15 @@ No description provided
 | **site slug** | `string` | No description | ❌ |
 | **transactionId** | `string` | No description | ❌ |
 | **userAgent** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -7815,63 +14764,16 @@ analytics.track("Plan Upgraded from Free", {
   "site slug": "<<type: string, required: false>>",
   "transactionId": "<<type: string, required: false>>",
   "userAgent": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Plans Page Viewed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **plan type** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **site slug** | `string` | No description | ❌ |
-| **tab** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Plans Page Viewed", {
-  "plan type": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "site slug": "<<type: string, required: false>>",
-  "tab": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan id": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -7916,6 +14818,433 @@ analytics.track("Pricing CTA Clicked", {
   "surface area": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Closed", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Go To Seats Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Go To Seats Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Go to Billing Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Go to Billing Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Go to Plans Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Go to Plans Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Link Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Sent
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **recipients** | `array` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Sent", {
+  "recipients": "<<type: array, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Upgrade Now Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Upgrade Now Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Pricing Update Notification Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Pricing Update Notification Viewed", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
 })
 ```
 
@@ -8009,11 +15338,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -8027,11 +15360,16 @@ analytics.track("Profile Settings Page Viewed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -8057,14 +15395,14 @@ No description provided
 | **action** | `string` | No description | ❌ |
 | **category** | `string` | No description | ❌ |
 | **create method** | `string` | No description | ❌ |
-| **from site** | `string` | No description | ❌ |
+| **from site** | `unknown` | No description | ❌ |
 | **library cost** | `string` | No description | ❌ |
 | **library id** | `string` | No description | ❌ |
 | **library name** | `string` | No description | ❌ |
 | **library selected position** | `unknown` | No description | ❌ |
 | **price type** | `string` | No description | ❌ |
 | **ref** | `array` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
@@ -8082,13 +15420,16 @@ No description provided
 | **type** | `string` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
 | **wf_source** | `string` | No description | ❌ |
-| **workspace id** | `unknown` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `unknown` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
 | **workspace role** | `string` | No description | ❌ |
-| **workspace seat count** | `unknown` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
 
@@ -8097,14 +15438,14 @@ analytics.track("Project Created", {
   "action": "<<type: string, required: false>>",
   "category": "<<type: string, required: false>>",
   "create method": "<<type: string, required: false>>",
-  "from site": "<<type: string, required: false>>",
+  "from site": "<<type: unknown, required: false>>",
   "library cost": "<<type: string, required: false>>",
   "library id": "<<type: string, required: false>>",
   "library name": "<<type: string, required: false>>",
   "library selected position": "<<type: unknown, required: false>>",
   "price type": "<<type: string, required: false>>",
   "ref": "<<type: array, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
@@ -8122,13 +15463,17 @@ analytics.track("Project Created", {
   "type": "<<type: string, required: false>>",
   "wf session id": "<<type: string, required: false>>",
   "wf_source": "<<type: string, required: false>>",
-  "workspace id": "<<type: unknown, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: unknown, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
   "workspace role": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: unknown, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
 ```
@@ -8448,6 +15793,982 @@ analytics.track("Project Transferred", {
 <!-- panels:end -->
 
 
+## Property Toggle Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **element_type** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+| **property** | `string` | No description | ❌ |
+| **state** | `unknown` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Property Toggle Clicked", {
+  "element_type": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>",
+  "property": "<<type: string, required: false>>",
+  "state": "<<type: unknown, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Publishing Page Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **legacy team id** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Publishing Page Viewed", {
+  "legacy team id": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Can I accept payments with iDEAL in Webflow Ecommerce? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Can I accept payments with iDEAL in Webflow Ecommerce? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Can I bulk-import my products in Webflow Ecommerce? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Can I bulk-import my products in Webflow Ecommerce? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Feature sunsets/deprecations Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Feature sunsets/deprecations Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I report spam, phishing, or abuse? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I report spam, phishing, or abuse? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I reset my password? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I reset my password? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I resolve the “That domain is already connected to a Webflow site” error? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I resolve the “That domain is already connected to a Webflow site” error? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I submit a DMCA takedown request? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I submit a DMCA takedown request? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I submit a trademark takedown request? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I submit a trademark takedown request? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I unarchive a Workspace? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I unarchive a Workspace? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How do I unarchive my site? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How do I unarchive my site? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How to Switch from WordPress to Webflow: A Step-by-Step Guide Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How to Switch from WordPress to Webflow: A Step-by-Step Guide Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How to fix “User is required” or “missing username or email” error when logging into Webflow Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How to fix “User is required” or “missing username or email” error when logging into Webflow Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - How to redeem your Webflow for startups discount Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - How to redeem your Webflow for startups discount Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - I Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - I Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - I can Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - I can Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - I can’t access the email associated with my Webflow account Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - I can’t access the email associated with my Webflow account Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - I need to transfer my Workspace to someone else Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - I need to transfer my Workspace to someone else Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - I signed up for a Webflow account but didn Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - I signed up for a Webflow account but didn Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - My payment failed — what should I do? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - My payment failed — what should I do? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Nonprofit Organization (NPO) discount Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Nonprofit Organization (NPO) discount Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Reconnect a custom domain if your Site plan is canceled Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Reconnect a custom domain if your Site plan is canceled Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - The owner of our Workspace  has left our organization. How do I transfer ownership? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - The owner of our Workspace  has left our organization. How do I transfer ownership? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Unable to log in? Recover your account Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Unable to log in? Recover your account Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Understanding per page JavaScript and asynchronously loading JavaScript Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Understanding per page JavaScript and asynchronously loading JavaScript Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Updates to our pricing and product strategy for December 2024 Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Updates to our pricing and product strategy for December 2024 Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Webflow for educators Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Webflow for educators Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Webflow for students Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Webflow for students Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - What’s the grace period discount? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - What’s the grace period discount? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Why can’t I archive my site? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Why can’t I archive my site? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Quick Help - Why was I charged when my site exceeded its bandwidth limit? Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Quick Help - Why was I charged when my site exceeded its bandwidth limit? Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Quick Link Clicked
 
 <!-- tabs:start -->
@@ -8476,7 +16797,7 @@ analytics.track("Quick Link Clicked", {
 <!-- panels:end -->
 
 
-## Recover your account clicked
+## Quick help Card Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -8488,12 +16809,207 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **location** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Recover your account clicked", {
-  "location": "<<type: string, required: false>>"
+analytics.track("Quick help Card Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Redirect Export Button Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Redirect Export Button Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Redirect Import Button Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site_id** | `string` | No description | ❌ |
+| **workspace_id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Redirect Import Button Clicked", {
+  "site_id": "<<type: string, required: false>>",
+  "workspace_id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Redirect Import Modal Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Redirect Import Modal Closed", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Redirect Import Modal Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Redirect Import Modal Opened", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Related Article Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Related Article Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Related Templates - Experiment Assigned
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **variant** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Related Templates - Experiment Assigned", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "variant": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Related Templates - Fallback to Similar
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Related Templates - Fallback to Similar", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "template": "<<type: string, required: false>>"
 })
 ```
 
@@ -8543,11 +17059,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -8560,11 +17080,16 @@ analytics.track("Remove Payment Method Cancelled", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -8593,11 +17118,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -8610,11 +17139,16 @@ analytics.track("Remove Payment Method Clicked", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -8643,11 +17177,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -8660,11 +17198,16 @@ analytics.track("Remove Payment Method Confirmed", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -8805,6 +17348,90 @@ analytics.track("Rename Collection Slug", {
 <!-- panels:end -->
 
 
+## Request Sent
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **element_type** | `string` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Request Sent", {
+  "element_type": "<<type: string, required: false>>",
+  "path": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Request form submitted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **form** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Request form submitted", {
+  "form": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Request refund Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Request refund Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Required Payment Authentication Completed
 
 <!-- tabs:start -->
@@ -8913,6 +17540,191 @@ analytics.track("Required Payment Authentication Started", {
 <!-- panels:end -->
 
 
+## Resources - Blog Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Resources - Blog Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Resources - Community Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Resources - Community Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Resources - Ebooks Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Resources - Ebooks Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Resources - Forum Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Resources - Forum Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Rich text content pasted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **is sanitized** | `boolean` | No description | ❌ |
+| **sanitized data** | `object` | No description | ❌ |
+| **sanitized data.clean** | `string` | No description | ❌ |
+| **sanitized data.raw** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Rich text content pasted", {
+  "is sanitized": "<<type: boolean, required: false>>",
+  "sanitized data": {
+    "clean": "<<type: string, required: false>>",
+    "raw": "<<type: string, required: false>>"
+  },
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## SEO Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("SEO Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## SSO Login Page Viewed
 
 <!-- tabs:start -->
@@ -8949,6 +17761,34 @@ analytics.track("SSO Login Page Viewed", {
   "workspace plan type": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Save Custom Code
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **custom code location** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Save Custom Code", {
+  "custom code location": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -9026,6 +17866,38 @@ analytics.track("Screen Recording viewed", {})
 <!-- panels:end -->
 
 
+## Scroll Depth Reached
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **depth** | `integer` | No description | ❌ |
+| **pageHeight** | `integer` | No description | ❌ |
+| **path** | `string` | No description | ❌ |
+| **viewportHeight** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Scroll Depth Reached", {
+  "depth": "<<type: integer, required: false>>",
+  "pageHeight": "<<type: integer, required: false>>",
+  "path": "<<type: string, required: false>>",
+  "viewportHeight": "<<type: integer, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Secondary Email Removal Completed
 
 <!-- tabs:start -->
@@ -9044,6 +17916,38 @@ No description provided
 ```javascript
 analytics.track("Secondary Email Removal Completed", {
   "wf_source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Secondary Thumbnail - Experiment Assigned
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **variant** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Secondary Thumbnail - Experiment Assigned", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "variant": "<<type: string, required: false>>"
 })
 ```
 
@@ -9078,6 +17982,36 @@ analytics.track("Secondary Tutorial Selected", {
 <!-- panels:end -->
 
 
+## Security Link Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Security Link Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Segmentation Survey Completed
 
 <!-- tabs:start -->
@@ -9090,7 +18024,9 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **anythingElse** | `string` | No description | ❌ |
 | **become expert interest** | `string` | No description | ❌ |
+| **budget** | `string` | No description | ❌ |
 | **build** | `array` | No description | ❌ |
 | **building for** | `string` | No description | ❌ |
 | **buildingFor** | `unknown` | No description | ❌ |
@@ -9112,8 +18048,10 @@ No description provided
 | **existing site platform: other** | `string` | No description | ❌ |
 | **hire expert interest** | `string` | No description | ❌ |
 | **hireExpert** | `unknown` | No description | ❌ |
-| **isStudent** | `unknown` | No description | ❌ |
+| **isStudent** | `string` | No description | ❌ |
+| **locationPreference** | `string` | No description | ❌ |
 | **number of steps** | `integer` | No description | ❌ |
+| **onboardProjAirtableUID** | `string` | No description | ❌ |
 | **onboarding questionnaire submitted** | `string` | No description | ❌ |
 | **onboarding questionnaire version** | `string` | No description | ❌ |
 | **persona** | `string` | No description | ❌ |
@@ -9147,7 +18085,9 @@ No description provided
 
 ```javascript
 analytics.track("Segmentation Survey Completed", {
+  "anythingElse": "<<type: string, required: false>>",
   "become expert interest": "<<type: string, required: false>>",
+  "budget": "<<type: string, required: false>>",
   "build": "<<type: array, required: false>>",
   "building for": "<<type: string, required: false>>",
   "buildingFor": "<<type: unknown, required: false>>",
@@ -9169,8 +18109,10 @@ analytics.track("Segmentation Survey Completed", {
   "existing site platform: other": "<<type: string, required: false>>",
   "hire expert interest": "<<type: string, required: false>>",
   "hireExpert": "<<type: unknown, required: false>>",
-  "isStudent": "<<type: unknown, required: false>>",
+  "isStudent": "<<type: string, required: false>>",
+  "locationPreference": "<<type: string, required: false>>",
   "number of steps": "<<type: integer, required: false>>",
+  "onboardProjAirtableUID": "<<type: string, required: false>>",
   "onboarding questionnaire submitted": "<<type: string, required: false>>",
   "onboarding questionnaire version": "<<type: string, required: false>>",
   "persona": "<<type: string, required: false>>",
@@ -9221,14 +18163,22 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **page type** | `string` | No description | ❌ |
-| **redirect** | `boolean` | No description | ❌ |
+| **redirect** | `unknown` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
 | **trigger source** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -9236,14 +18186,23 @@ No description provided
 ```javascript
 analytics.track("Segmentation Survey Page Viewed", {
   "page type": "<<type: string, required: false>>",
-  "redirect": "<<type: boolean, required: false>>",
+  "redirect": "<<type: unknown, required: false>>",
   "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
   "trigger source": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -9269,11 +18228,16 @@ No description provided
 | **business owner** | `boolean` | No description | ❌ |
 | **email opt-in** | `boolean` | No description | ❌ |
 | **option order** | `array` | No description | ❌ |
-| **options selected** | `array` | No description | ❌ |
+| **options selected** | `object` | No description | ❌ |
+| **options selected.budget** | `string` | No description | ❌ |
+| **options selected.location** | `string` | No description | ❌ |
 | **position of selected option** | `integer` | No description | ❌ |
 | **pre-checked email opt-in** | `boolean` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
 | **step name** | `string` | No description | ❌ |
 | **step number** | `string` | No description | ❌ |
@@ -9282,6 +18246,9 @@ No description provided
 | **timestamp** | `integer` | No description | ❌ |
 | **trigger source** | `string` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -9297,11 +18264,17 @@ analytics.track("Segmentation Survey Step Submitted", {
   "business owner": "<<type: boolean, required: false>>",
   "email opt-in": "<<type: boolean, required: false>>",
   "option order": "<<type: array, required: false>>",
-  "options selected": "<<type: array, required: false>>",
+  "options selected": {
+    "budget": "<<type: string, required: false>>",
+    "location": "<<type: string, required: false>>"
+  },
   "position of selected option": "<<type: integer, required: false>>",
   "pre-checked email opt-in": "<<type: boolean, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
   "step name": "<<type: string, required: false>>",
   "step number": "<<type: string, required: false>>",
@@ -9310,6 +18283,10 @@ analytics.track("Segmentation Survey Step Submitted", {
   "timestamp": "<<type: integer, required: false>>",
   "trigger source": "<<type: string, required: false>>",
   "wf session id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -9434,7 +18411,7 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **action** | `unknown` | No description | ❌ |
+| **action** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **site id** | `unknown` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -9453,7 +18430,7 @@ No description provided
 
 ```javascript
 analytics.track("Showcase Action", {
-  "action": "<<type: unknown, required: false>>",
+  "action": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "site id": "<<type: unknown, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -9659,6 +18636,7 @@ No description provided
 | **additionalTags** | `array` | No description | ❌ |
 | **clone type** | `string` | No description | ❌ |
 | **designer id** | `string` | No description | ❌ |
+| **loggedIn** | `boolean` | No description | ❌ |
 | **profile** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **section** | `string` | No description | ❌ |
@@ -9683,6 +18661,7 @@ analytics.track("Showcase Viewed", {
   "additionalTags": "<<type: array, required: false>>",
   "clone type": "<<type: string, required: false>>",
   "designer id": "<<type: string, required: false>>",
+  "loggedIn": "<<type: boolean, required: false>>",
   "profile": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "section": "<<type: string, required: false>>",
@@ -9797,13 +18776,16 @@ No description provided
 | **referrer partner key** | `string` | No description | ❌ |
 | **school** | `unknown` | No description | ❌ |
 | **signup method** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
-| **team id** | `unknown` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
 | **teamId** | `unknown` | No description | ❌ |
 | **timestamp** | `unknown` | No description | ❌ |
-| **transactionId** | `unknown` | No description | ❌ |
+| **transactionId** | `string` | No description | ❌ |
 | **trialEndsAt** | `string` | No description | ❌ |
 | **trigger** | `unknown` | No description | ❌ |
 | **type** | `unknown` | No description | ❌ |
@@ -9816,11 +18798,15 @@ No description provided
 | **wf_initial_utm_medium** | `string` | No description | ❌ |
 | **wf_initial_utm_source** | `string` | No description | ❌ |
 | **wf_initial_utm_term** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -9856,13 +18842,16 @@ analytics.track("Sign Up", {
   "referrer partner key": "<<type: string, required: false>>",
   "school": "<<type: unknown, required: false>>",
   "signup method": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
   "source": "<<type: string, required: false>>",
-  "team id": "<<type: unknown, required: false>>",
+  "team id": "<<type: string, required: false>>",
   "teamId": "<<type: unknown, required: false>>",
   "timestamp": "<<type: unknown, required: false>>",
-  "transactionId": "<<type: unknown, required: false>>",
+  "transactionId": "<<type: string, required: false>>",
   "trialEndsAt": "<<type: string, required: false>>",
   "trigger": "<<type: unknown, required: false>>",
   "type": "<<type: unknown, required: false>>",
@@ -9875,11 +18864,16 @@ analytics.track("Sign Up", {
   "wf_initial_utm_medium": "<<type: string, required: false>>",
   "wf_initial_utm_source": "<<type: string, required: false>>",
   "wf_initial_utm_term": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -9971,11 +18965,19 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -9983,11 +18985,198 @@ No description provided
 ```javascript
 analytics.track("Signed Up", {
   "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Since You Been Gone Modal Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Since You Been Gone Modal Closed", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Since You Been Gone Modal Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Since You Been Gone Modal Viewed", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Site Billing Page Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **cancellation source** | `string` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **primary upgrade source** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **tab** | `string` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **teamId** | `unknown` | No description | ❌ |
+| **timestamp** | `integer` | No description | ❌ |
+| **upgrade prompt** | `string` | No description | ❌ |
+| **upgrade source page** | `string` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Site Billing Page Viewed", {
+  "cancellation source": "<<type: string, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "primary upgrade source": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "tab": "<<type: string, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "teamId": "<<type: unknown, required: false>>",
+  "timestamp": "<<type: integer, required: false>>",
+  "upgrade prompt": "<<type: string, required: false>>",
+  "upgrade source page": "<<type: string, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -11526,11 +20715,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **tab** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -11543,11 +20736,16 @@ analytics.track("Site Plans Page Viewed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "tab": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -12266,11 +21464,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -12284,11 +21486,16 @@ analytics.track("Site Settings Page Viewed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -12315,6 +21522,7 @@ No description provided
 | **added user data.items** | `object` | Contains the structure for array items | ❌ |
 | **added user data.items.canPublish** | `boolean` | No description | ❌ |
 | **added user data.items.siteRole** | `string` | No description | ❌ |
+| **added user data.items.siteRoleId** | `string` | No description | ❌ |
 | **added user data.items.userId** | `string` | No description | ❌ |
 | **num of users added** | `integer` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
@@ -12328,6 +21536,7 @@ analytics.track("Site Specific Access Site Members Added", {
     {
       "canPublish": "<<type: boolean, required: false>>",
       "siteRole": "<<type: string, required: false>>",
+      "siteRoleId": "<<type: string, required: false>>",
       "userId": "<<type: string, required: false>>"
     }
   ],
@@ -12424,11 +21633,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -12440,11 +21653,16 @@ analytics.track("Site Transfer Canceled", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -12472,11 +21690,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -12488,11 +21710,16 @@ analytics.track("Site Transfer Modal Canceled", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -12520,11 +21747,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -12536,11 +21767,16 @@ analytics.track("Site Transfer Modal Opened", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -12572,11 +21808,15 @@ No description provided
 | **transfer email** | `string` | No description | ❌ |
 | **transfer workspace id** | `string` | No description | ❌ |
 | **transfer workspace slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -12592,11 +21832,16 @@ analytics.track("Site Transfer Modal Submitted", {
   "transfer email": "<<type: string, required: false>>",
   "transfer workspace id": "<<type: string, required: false>>",
   "transfer workspace slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -12734,7 +21979,7 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **after** | `unknown` | No description | ❌ |
+| **after** | `string` | No description | ❌ |
 | **card** | `string` | No description | ❌ |
 | **cus** | `string` | No description | ❌ |
 | **function** | `string` | No description | ❌ |
@@ -12751,7 +21996,7 @@ No description provided
 
 ```javascript
 analytics.track("Stripe Method Called", {
-  "after": "<<type: unknown, required: false>>",
+  "after": "<<type: string, required: false>>",
   "card": "<<type: string, required: false>>",
   "cus": "<<type: string, required: false>>",
   "function": "<<type: string, required: false>>",
@@ -12811,55 +22056,6 @@ No description provided
 
 ```javascript
 analytics.track("Submit Request Clicked", {})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Submit Request Confirmed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-#### **JS**
-
-```javascript
-analytics.track("Submit Request Confirmed", {})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Submit a ticket clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **location** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Submit a ticket clicked", {
-  "location": "<<type: string, required: false>>"
-})
 ```
 
 <!-- tabs:end -->
@@ -12991,12 +22187,16 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **survey type** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan selected** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -13013,12 +22213,17 @@ analytics.track("Survey Modal Closed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "survey type": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan selected": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -13049,11 +22254,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **survey type** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -13068,11 +22277,16 @@ analytics.track("Survey Modal Opened", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "survey type": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -13110,12 +22324,16 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **survey type** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan selected** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -13137,12 +22355,17 @@ analytics.track("Survey Submitted", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "survey type": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan selected": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -13208,38 +22431,6 @@ analytics.track("TS - Calendly Interaction Triggered", {
   "calendly-event": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## TS - FAQ Opened
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **logged in** | `boolean` | No description | ❌ |
-| **page** | `string` | No description | ❌ |
-| **question** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("TS - FAQ Opened", {
-  "logged in": "<<type: boolean, required: false>>",
-  "page": "<<type: string, required: false>>",
-  "question": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>"
 })
 ```
@@ -13331,11 +22522,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **tab** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -13348,13 +22543,158 @@ analytics.track("Tab Pressed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "tab": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Card Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **has_secondary_thumbnail** | `boolean` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **secondary_thumbnail_variant** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **source_page_title** | `string` | No description | ❌ |
+| **source_page_url** | `string` | No description | ❌ |
+| **template_index** | `integer` | No description | ❌ |
+| **template_name** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Card Clicked", {
+  "has_secondary_thumbnail": "<<type: boolean, required: false>>",
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "secondary_thumbnail_variant": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "source_page_title": "<<type: string, required: false>>",
+  "source_page_url": "<<type: string, required: false>>",
+  "template_index": "<<type: integer, required: false>>",
+  "template_name": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Detail Page - Browse Author Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
+| **variant** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Detail Page - Browse Author Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "template": "<<type: string, required: false>>",
+  "variant": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Detail Page - Full Description Collapsed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Detail Page - Full Description Collapsed", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "template": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Detail Page - Full Description Expanded
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Detail Page - Full Description Expanded", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "template": "<<type: string, required: false>>"
 })
 ```
 
@@ -13431,6 +22771,86 @@ analytics.track("Template Detail Page - Preview CTA Clicked", {
 <!-- panels:end -->
 
 
+## Template Detail Page - Related Templates Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **click_area** | `string` | No description | ❌ |
+| **clicked_template** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
+| **template_index** | `integer` | No description | ❌ |
+| **variant** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Detail Page - Related Templates Clicked", {
+  "click_area": "<<type: string, required: false>>",
+  "clicked_template": "<<type: string, required: false>>",
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "template": "<<type: string, required: false>>",
+  "template_index": "<<type: integer, required: false>>",
+  "variant": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Detail Page - Similar Templates Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **click_area** | `string` | No description | ❌ |
+| **clicked_template** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
+| **template_index** | `integer` | No description | ❌ |
+| **variant** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Detail Page - Similar Templates Clicked", {
+  "click_area": "<<type: string, required: false>>",
+  "clicked_template": "<<type: string, required: false>>",
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "template": "<<type: string, required: false>>",
+  "template_index": "<<type: integer, required: false>>",
+  "variant": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Template Item CTA Clicked
 
 <!-- tabs:start -->
@@ -13450,11 +22870,14 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
-| **template cost** | `integer` | No description | ❌ |
+| **template cost** | `string` | No description | ❌ |
 | **template id** | `string` | No description | ❌ |
 | **template index** | `integer` | No description | ❌ |
 | **template name** | `string` | No description | ❌ |
 | **template selected position** | `integer` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -13474,11 +22897,15 @@ analytics.track("Template Item CTA Clicked", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
-  "template cost": "<<type: integer, required: false>>",
+  "template cost": "<<type: string, required: false>>",
   "template id": "<<type: string, required: false>>",
   "template index": "<<type: integer, required: false>>",
   "template name": "<<type: string, required: false>>",
   "template selected position": "<<type: integer, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -13577,15 +23004,23 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **AISBExperimentVariant** | `string` | No description | ❌ |
 | **category** | `string` | No description | ❌ |
+| **enabledAISiteGenViaMarketingSite** | `boolean` | No description | ❌ |
+| **isInAiSiteGenFlag** | `boolean` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
+| **shouldShowAISiteGenOption** | `boolean` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Template Modal Selected", {
+  "AISBExperimentVariant": "<<type: string, required: false>>",
   "category": "<<type: string, required: false>>",
+  "enabledAISiteGenViaMarketingSite": "<<type: boolean, required: false>>",
+  "isInAiSiteGenFlag": "<<type: boolean, required: false>>",
   "ref": "<<type: string, required: false>>",
+  "shouldShowAISiteGenOption": "<<type: boolean, required: false>>",
   "type": "<<type: string, required: false>>"
 })
 ```
@@ -13618,6 +23053,38 @@ analytics.track("Template Search - Changed IFrame Breakpoint", {
   "changedToBreakpoint": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Search - Clicked Buy Btn
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **price** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Search - Clicked Buy Btn", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "price": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>"
 })
 ```
@@ -13779,6 +23246,38 @@ analytics.track("Template Search - Image Popup Opened", {
 <!-- panels:end -->
 
 
+## Template Search - Image Scrolled Inside Popup
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **scrollingToIndex** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Search - Image Scrolled Inside Popup", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "scrollingToIndex": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Template Search - In-line Carousel Scrolled
 
 <!-- tabs:start -->
@@ -13879,6 +23378,70 @@ analytics.track("Template Search - Next Page Clicked", {
 <!-- panels:end -->
 
 
+## Template Search - Opened Iframe in New Tab
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Search - Opened Iframe in New Tab", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Template Search - Prev Page Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **currentPage** | `string` | No description | ❌ |
+| **destinationPage** | `string` | No description | ❌ |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Template Search - Prev Page Clicked", {
+  "currentPage": "<<type: string, required: false>>",
+  "destinationPage": "<<type: string, required: false>>",
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Template Search - Updated Search Submitted
 
 <!-- tabs:start -->
@@ -13924,18 +23487,21 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **ref** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **teamId** | `unknown` | No description | ❌ |
-| **template** | `unknown` | No description | ❌ |
+| **template** | `string` | No description | ❌ |
 | **template cost** | `string` | No description | ❌ |
 | **template id** | `string` | No description | ❌ |
 | **timestamp** | `unknown` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -13949,18 +23515,22 @@ No description provided
 ```javascript
 analytics.track("Template Selected", {
   "ref": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "teamId": "<<type: unknown, required: false>>",
-  "template": "<<type: unknown, required: false>>",
+  "template": "<<type: string, required: false>>",
   "template cost": "<<type: string, required: false>>",
   "template id": "<<type: string, required: false>>",
   "timestamp": "<<type: unknown, required: false>>",
   "wf session id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -13999,74 +23569,6 @@ analytics.track("Template Services - Detail Toast Closed", {
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Template Services - Resource Link Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **logged in** | `boolean` | No description | ❌ |
-| **page** | `string` | No description | ❌ |
-| **resource** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Template Services - Resource Link Clicked", {
-  "logged in": "<<type: boolean, required: false>>",
-  "page": "<<type: string, required: false>>",
-  "resource": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Template Services - Schedule CTA Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **cta-__cpLocation** | `string` | No description | ❌ |
-| **cta-location** | `string` | No description | ❌ |
-| **logged in** | `boolean` | No description | ❌ |
-| **page** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-| **template-name** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Template Services - Schedule CTA Clicked", {
-  "cta-__cpLocation": "<<type: string, required: false>>",
-  "cta-location": "<<type: string, required: false>>",
-  "logged in": "<<type: boolean, required: false>>",
-  "page": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>",
-  "template-name": "<<type: string, required: false>>"
 })
 ```
 
@@ -14165,7 +23667,113 @@ analytics.track("Ticket Created", {
 <!-- panels:end -->
 
 
-## Typed in Swiftype Search
+## Time Active on Page
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **page** | `string` | No description | ❌ |
+| **timeSpent** | `number` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Time Active on Page", {
+  "page": "<<type: string, required: false>>",
+  "timeSpent": "<<type: number, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Toggled Bot Protection
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **value** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Toggled Bot Protection", {
+  "value": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Toggled Hide Branding
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **legacy team id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **siteId** | `unknown` | No description | ❌ |
+| **team id** | `unknown` | No description | ❌ |
+| **teamId** | `unknown` | No description | ❌ |
+| **timestamp** | `unknown` | No description | ❌ |
+| **wf session id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Toggled Hide Branding", {
+  "legacy team id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "siteId": "<<type: unknown, required: false>>",
+  "team id": "<<type: unknown, required: false>>",
+  "teamId": "<<type: unknown, required: false>>",
+  "timestamp": "<<type: unknown, required: false>>",
+  "wf session id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Toggled Webflow badge
 
 <!-- tabs:start -->
 ### **Details**
@@ -14180,7 +23788,37 @@ No description provided
 #### **JS**
 
 ```javascript
-analytics.track("Typed in Swiftype Search", {})
+analytics.track("Toggled Webflow badge", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Top Search Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Top Search Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
 ```
 
 <!-- tabs:end -->
@@ -14341,7 +23979,7 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **course** | `string` | No description | ❌ |
-| **course progress** | `integer` | No description | ❌ |
+| **course progress** | `array` | No description | ❌ |
 | **lesson name** | `string` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
@@ -14352,7 +23990,7 @@ No description provided
 ```javascript
 analytics.track("University Lesson Completed", {
   "course": "<<type: string, required: false>>",
-  "course progress": "<<type: integer, required: false>>",
+  "course progress": "<<type: array, required: false>>",
   "lesson name": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
@@ -14420,11 +24058,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -14437,11 +24079,16 @@ analytics.track("Update Payment Method Clicked", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -14470,6 +24117,9 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -14487,6 +24137,10 @@ analytics.track("Update Payment Method Confirmed", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -14514,14 +24168,14 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **account** | `unknown` | No description | ❌ |
-| **blog** | `unknown` | No description | ❌ |
-| **events** | `unknown` | No description | ❌ |
-| **feature** | `unknown` | No description | ❌ |
+| **account** | `boolean` | No description | ❌ |
+| **blog** | `boolean` | No description | ❌ |
+| **events** | `boolean` | No description | ❌ |
+| **feature** | `boolean` | No description | ❌ |
 | **followerUpdates** | `unknown` | No description | ❌ |
-| **product** | `unknown` | No description | ❌ |
+| **product** | `boolean` | No description | ❌ |
 | **showcaseActivity** | `boolean` | No description | ❌ |
-| **showcaseActivityWeekly** | `unknown` | No description | ❌ |
+| **showcaseActivityWeekly** | `boolean` | No description | ❌ |
 | **site id** | `unknown` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
@@ -14538,14 +24192,14 @@ No description provided
 
 ```javascript
 analytics.track("Updated Email Notifications", {
-  "account": "<<type: unknown, required: false>>",
-  "blog": "<<type: unknown, required: false>>",
-  "events": "<<type: unknown, required: false>>",
-  "feature": "<<type: unknown, required: false>>",
+  "account": "<<type: boolean, required: false>>",
+  "blog": "<<type: boolean, required: false>>",
+  "events": "<<type: boolean, required: false>>",
+  "feature": "<<type: boolean, required: false>>",
   "followerUpdates": "<<type: unknown, required: false>>",
-  "product": "<<type: unknown, required: false>>",
+  "product": "<<type: boolean, required: false>>",
   "showcaseActivity": "<<type: boolean, required: false>>",
-  "showcaseActivityWeekly": "<<type: unknown, required: false>>",
+  "showcaseActivityWeekly": "<<type: boolean, required: false>>",
   "site id": "<<type: unknown, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
   "team id": "<<type: unknown, required: false>>",
@@ -14688,9 +24342,13 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **legacy team id** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
+| **setting** | `string` | No description | ❌ |
+| **settings_name** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
+| **site_id** | `string` | No description | ❌ |
+| **site_slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **teamId** | `unknown` | No description | ❌ |
@@ -14702,15 +24360,20 @@ No description provided
 | **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
+| **workspace_id** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Updated Site Settings", {
   "legacy team id": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
+  "setting": "<<type: string, required: false>>",
+  "settings_name": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
+  "site_id": "<<type: string, required: false>>",
+  "site_slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "teamId": "<<type: unknown, required: false>>",
@@ -14721,7 +24384,8 @@ analytics.track("Updated Site Settings", {
   "workspace plan type": "<<type: string, required: false>>",
   "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
+  "workspace slug": "<<type: string, required: false>>",
+  "workspace_id": "<<type: string, required: false>>"
 })
 ```
 
@@ -14832,6 +24496,9 @@ No description provided
 | **source** | `string` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
 | **upgradeType** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -14858,6 +24525,10 @@ analytics.track("Upgrade Modal Closed", {
   "source": "<<type: string, required: false>>",
   "type": "<<type: string, required: false>>",
   "upgradeType": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -14899,6 +24570,9 @@ No description provided
 | **source** | `string` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
 | **upgradeType** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -14925,6 +24599,10 @@ analytics.track("Upgrade Modal Opened", {
   "source": "<<type: string, required: false>>",
   "type": "<<type: string, required: false>>",
   "upgradeType": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -14969,6 +24647,9 @@ No description provided
 | **source** | `string` | No description | ❌ |
 | **upgradeType** | `string` | No description | ❌ |
 | **workspace** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -14998,6 +24679,10 @@ analytics.track("Upgrade Modal Workspace Selected", {
   "source": "<<type: string, required: false>>",
   "upgradeType": "<<type: string, required: false>>",
   "workspace": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -15031,9 +24716,9 @@ No description provided
 | **country** | `string` | No description | ❌ |
 | **email** | `string` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
-| **plan** | `unknown` | No description | ❌ |
+| **plan** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
@@ -15044,11 +24729,15 @@ No description provided
 | **transactionId** | `string` | No description | ❌ |
 | **userAgent** | `string` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -15060,9 +24749,9 @@ analytics.track("Upgraded plan", {
   "country": "<<type: string, required: false>>",
   "email": "<<type: string, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
-  "plan": "<<type: unknown, required: false>>",
+  "plan": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
@@ -15073,43 +24762,18 @@ analytics.track("Upgraded plan", {
   "transactionId": "<<type: string, required: false>>",
   "userAgent": "<<type: string, required: false>>",
   "wf session id": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## User Systems Enabled
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **siteId** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-| **wf_source** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("User Systems Enabled", {
-  "siteId": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>",
-  "wf_source": "<<type: string, required: false>>"
 })
 ```
 
@@ -15194,6 +24858,36 @@ analytics.track("Verified Secondary Email", {})
 <!-- panels:end -->
 
 
+## View updates Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("View updates Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Visit 404 Page
 
 <!-- tabs:start -->
@@ -15206,12 +24900,12 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **source** | `unknown` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Visit 404 Page", {
-  "source": "<<type: unknown, required: false>>"
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -15232,12 +24926,12 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **source** | `unknown` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Visit Customers Page", {
-  "source": "<<type: unknown, required: false>>"
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -15263,53 +24957,193 @@ No description provided
 | **isExpert** | `boolean` | No description | ❌ |
 | **isOwnProfile** | `boolean` | No description | ❌ |
 | **numShowcasedSites** | `integer` | No description | ❌ |
+| **param** | `string` | No description | ❌ |
+| **param","ac0x3f031q":"ac0x3f031q","":"** | `string` | No description | ❌ |
+| **param","b5n66sa8d8":"b5n66sa8d8","":"** | `string` | No description | ❌ |
+| **param","brrrbn33wf":"brrrbn33wf","":"** | `string` | No description | ❌ |
+| **param","bsrkdq5w2i":"bsrkdq5w2i","":"** | `string` | No description | ❌ |
+| **param","bwytyf25ip":"bwytyf25ip","":"** | `string` | No description | ❌ |
+| **param","bx3rvd6nn1":"bx3rvd6nn1","":"** | `string` | No description | ❌ |
+| **param","dql8tr7hmg":"dql8tr7hmg","":"** | `string` | No description | ❌ |
+| **param","edfspz14u3":"edfspz14u3","":"** | `string` | No description | ❌ |
+| **param","esbg3mxk0r":"esbg3mxk0r","":"** | `string` | No description | ❌ |
+| **param","evct49q6xo":"evct49q6xo","":"** | `string` | No description | ❌ |
+| **param","fnbubrqvam":"fnbubrqvam","":"** | `string` | No description | ❌ |
+| **param","fuknfn82sm":"fuknfn82sm","":"** | `string` | No description | ❌ |
+| **param","ge8i5pt1zm":"ge8i5pt1zm","":"** | `string` | No description | ❌ |
+| **param","hxfrs8n70i":"hxfrs8n70i","":"** | `string` | No description | ❌ |
+| **param","idf4akic16":"idf4akic16","":"** | `string` | No description | ❌ |
+| **param","ig6l878ok0":"ig6l878ok0","":"** | `string` | No description | ❌ |
+| **param","iu9n7u7jso":"iu9n7u7jso","":"** | `string` | No description | ❌ |
+| **param","j7xa5mh8xb":"j7xa5mh8xb","":"** | `string` | No description | ❌ |
+| **param","jsht5wn0eh":"jsht5wn0eh","":"** | `string` | No description | ❌ |
+| **param","k8gkcz6grz":"k8gkcz6grz","":"** | `string` | No description | ❌ |
+| **param","ka8ltspc2j":"ka8ltspc2j","":"** | `string` | No description | ❌ |
+| **param","kzpo1xwlhf":"kzpo1xwlhf","":"** | `string` | No description | ❌ |
+| **param","lgbl4q8q83":"lgbl4q8q83","":"** | `string` | No description | ❌ |
+| **param","m6ir3mpz34":"m6ir3mpz34","":"** | `string` | No description | ❌ |
+| **param","nn3bty9fsh":"nn3bty9fsh","":"** | `string` | No description | ❌ |
+| **param","o0by461lb8":"o0by461lb8","":"** | `string` | No description | ❌ |
+| **param","o5icwef790":"o5icwef790","":"** | `string` | No description | ❌ |
+| **param","oi8lrramtm":"oi8lrramtm","":"** | `string` | No description | ❌ |
+| **param","pskdk9n0nq":"pskdk9n0nq","":"** | `string` | No description | ❌ |
+| **param","pt0bngy0m1":"pt0bngy0m1","":"** | `string` | No description | ❌ |
+| **param","pwcoolc5of":"pwcoolc5of","":"** | `string` | No description | ❌ |
+| **param","s6muhpsd31":"s6muhpsd31","":"** | `string` | No description | ❌ |
+| **param","uuf6y3y2y8":"uuf6y3y2y8","":"** | `string` | No description | ❌ |
+| **param","uvukotrrig":"uvukotrrig","":"** | `string` | No description | ❌ |
+| **param","wzuurfdijf":"wzuurfdijf","":"** | `string` | No description | ❌ |
+| **param","z4aem92yok":"z4aem92yok","":"** | `string` | No description | ❌ |
+| **param","zgzlkr66fu":"zgzlkr66fu","":"** | `string` | No description | ❌ |
+| **param","zltp5xoquz":"zltp5xoquz","":"** | `string` | No description | ❌ |
+| **param//ab0wf2vby9** | `string` | No description | ❌ |
+| **param//auewxgbott** | `string` | No description | ❌ |
+| **param//b42mzueiqw** | `string` | No description | ❌ |
+| **param//bdbh75osqp** | `string` | No description | ❌ |
+| **param//bgtl15bjxf** | `string` | No description | ❌ |
+| **param//c4weehb6os** | `string` | No description | ❌ |
+| **param//cvygmgi6te** | `string` | No description | ❌ |
+| **param//dkbqnr5xve** | `string` | No description | ❌ |
+| **param//dpe8g93ekm** | `string` | No description | ❌ |
+| **param//dw374yaw9g** | `string` | No description | ❌ |
+| **param//fps8ekecne** | `string` | No description | ❌ |
+| **param//h1vov50qyk** | `string` | No description | ❌ |
+| **param//hbrisiou7s** | `string` | No description | ❌ |
+| **param//he2skp9x2u** | `string` | No description | ❌ |
+| **param//hi8rjnlpt9** | `string` | No description | ❌ |
+| **param//irzrxqy520** | `string` | No description | ❌ |
+| **param//jdztvb9vm1** | `string` | No description | ❌ |
+| **param//jmhbtlel3d** | `string` | No description | ❌ |
+| **param//k48ict7rk3** | `string` | No description | ❌ |
+| **param//k68kbmmsgr** | `string` | No description | ❌ |
+| **param//khctlurc1q** | `string` | No description | ❌ |
+| **param//kpivb30zz5** | `string` | No description | ❌ |
+| **param//kufcbgusnz** | `string` | No description | ❌ |
+| **param//lspvn3pq1l** | `string` | No description | ❌ |
+| **param//m1wc0q6u0s** | `string` | No description | ❌ |
+| **param//n8rvrhxs2f** | `string` | No description | ❌ |
+| **param//nfnc6488yd** | `string` | No description | ❌ |
+| **param//ntefjd8uzc** | `string` | No description | ❌ |
+| **param//o0av5dpl35** | `string` | No description | ❌ |
+| **param//o4l4x052sm** | `string` | No description | ❌ |
+| **param//pdklpyr8i2** | `string` | No description | ❌ |
+| **param//pwhu4off3x** | `string` | No description | ❌ |
+| **param//qqdw23wo96** | `string` | No description | ❌ |
+| **param//rn9fbupjn9** | `string` | No description | ❌ |
+| **param//rzy4q8uka0** | `string` | No description | ❌ |
+| **param//s36let8oax** | `string` | No description | ❌ |
+| **param//s8c74osa5j** | `string` | No description | ❌ |
+| **param//t6zvjvtsmn** | `string` | No description | ❌ |
+| **param//tybsr5z6ur** | `string` | No description | ❌ |
+| **param//u53fw7xv9h** | `string` | No description | ❌ |
+| **param//uuyjj7xwcn** | `string` | No description | ❌ |
+| **param//vat8b2h1s5** | `string` | No description | ❌ |
+| **param//w8g3ni9xpa** | `string` | No description | ❌ |
+| **param//x3b3vwd3y5** | `string` | No description | ❌ |
+| **param//xkz9z7tq9j** | `string` | No description | ❌ |
+| **param//xyisgomxb1** | `string` | No description | ❌ |
+| **param//ye2j32e2uo** | `string` | No description | ❌ |
+| **param//yk2zk5pmn7** | `string` | No description | ❌ |
+| **param//ykvq1va04y** | `string` | No description | ❌ |
+| **param//yp1xqkjo79** | `string` | No description | ❌ |
+| **param//zznn8e9p8g** | `string` | No description | ❌ |
 | **param/edit** | `string` | No description | ❌ |
+| **param9fdacd48_page** | `string` | No description | ❌ |
 | **param<br** | `string` | No description | ❌ |
+| **paramASddas** | `string` | No description | ❌ |
+| **paramAsfd** | `string` | No description | ❌ |
 | **paramBvred** | `string` | No description | ❌ |
+| **paramBxmv0eknwt** | `string` | No description | ❌ |
+| **paramCheckbox-Free** | `string` | No description | ❌ |
+| **paramCho3f2a1wh** | `string` | No description | ❌ |
+| **paramCloneable** | `string` | No description | ❌ |
 | **paramDarkschemeovr** | `string` | No description | ❌ |
 | **paramDescriptionFromFileType** | `string` | No description | ❌ |
+| **paramDosi5vqz6i** | `string` | No description | ❌ |
+| **paramE642diyjzl** | `string` | No description | ❌ |
+| **paramE6v973o30v** | `string` | No description | ❌ |
 | **paramEdit** | `string` | No description | ❌ |
+| **paramEog7cwpqcj** | `string` | No description | ❌ |
 | **paramFbclid** | `string` | No description | ❌ |
+| **paramFeatures** | `string` | No description | ❌ |
+| **paramForm** | `string` | No description | ❌ |
+| **paramFrom** | `string` | No description | ❌ |
+| **paramFunctionality** | `array` | No description | ❌ |
 | **paramGad_source** | `string` | No description | ❌ |
+| **paramGbraid** | `string` | No description | ❌ |
 | **paramGclid** | `string` | No description | ❌ |
 | **paramGidzl** | `string` | No description | ❌ |
 | **paramGspk** | `string` | No description | ❌ |
 | **paramGsxid** | `string` | No description | ❌ |
+| **paramHl** | `string` | No description | ❌ |
+| **paramHss_channel** | `string` | No description | ❌ |
+| **paramHttp://cdfof6kdxu** | `object` | No description | ❌ |
+| **paramHttp://cdfof6kdxu.com** | `string` | No description | ❌ |
+| **paramHttp://had5lpmhhm** | `object` | No description | ❌ |
+| **paramHttp://had5lpmhhm.com** | `string` | No description | ❌ |
+| **paramJhfzqald4v** | `string` | No description | ❌ |
+| **paramKeaczwuxab** | `string` | No description | ❌ |
+| **paramLdj6buxm4g** | `string` | No description | ❌ |
 | **paramLtclid** | `string` | No description | ❌ |
+| **paramLutges1abn** | `string` | No description | ❌ |
 | **paramMbstx** | `string` | No description | ❌ |
+| **paramMc_cid** | `string` | No description | ❌ |
+| **paramMc_eid** | `string` | No description | ❌ |
+| **paramMil66npajz** | `string` | No description | ❌ |
 | **paramMkt_tok** | `string` | No description | ❌ |
 | **paramMode** | `string` | No description | ❌ |
+| **paramMsockid** | `string` | No description | ❌ |
+| **paramN3g40c4tzc** | `string` | No description | ❌ |
 | **paramNbcs** | `string` | No description | ❌ |
 | **paramOikm** | `string` | No description | ❌ |
 | **paramPs_partner** | `string` | No description | ❌ |
 | **paramPs_partner_key** | `string` | No description | ❌ |
 | **paramPs_xid** | `string` | No description | ❌ |
+| **paramPscd** | `string` | No description | ❌ |
+| **paramQdir7yhxvy** | `string` | No description | ❌ |
+| **paramR5opqsu5o0** | `string` | No description | ❌ |
 | **paramRef** | `string` | No description | ❌ |
 | **paramReferrer** | `string` | No description | ❌ |
 | **paramResubmit** | `string` | No description | ❌ |
 | **paramRfsn** | `string` | No description | ❌ |
 | **paramRoutes** | `array` | No description | ❌ |
+| **paramRuq68wsctg** | `string` | No description | ❌ |
 | **paramS** | `string` | No description | ❌ |
+| **paramSearch** | `string` | No description | ❌ |
 | **paramSid1** | `string` | No description | ❌ |
 | **paramSlug** | `string` | No description | ❌ |
 | **paramSource** | `string` | No description | ❌ |
 | **paramSpm** | `string` | No description | ❌ |
+| **paramSsId** | `string` | No description | ❌ |
 | **paramStatus** | `string` | No description | ❌ |
+| **paramT** | `string` | No description | ❌ |
 | **paramTest1** | `string` | No description | ❌ |
 | **paramTest2** | `string` | No description | ❌ |
 | **paramTrk** | `string` | No description | ❌ |
+| **paramTtclid** | `string` | No description | ❌ |
+| **paramU5369cmsre** | `string` | No description | ❌ |
+| **paramUtm-source** | `string` | No description | ❌ |
 | **paramUtm_adgroup** | `string` | No description | ❌ |
 | **paramUtm_adname** | `string` | No description | ❌ |
 | **paramUtm_camapign** | `string` | No description | ❌ |
 | **paramUtm_campaign** | `string` | No description | ❌ |
 | **paramUtm_content** | `string` | No description | ❌ |
+| **paramUtm_id** | `string` | No description | ❌ |
 | **paramUtm_medium** | `array` | No description | ❌ |
 | **paramUtm_source** | `string` | No description | ❌ |
 | **paramUtm_term** | `string` | No description | ❌ |
 | **paramUybv** | `string` | No description | ❌ |
 | **paramVia** | `string` | No description | ❌ |
+| **paramWbe4bd6gmy** | `string` | No description | ❌ |
+| **paramWbraid** | `string` | No description | ❌ |
 | **paramZarsrc** | `string` | No description | ❌ |
+| **paramZj84qqw3r5** | `string` | No description | ❌ |
+| **paramZksas48k2b** | `string` | No description | ❌ |
+| **paramZohyfwrtbd** | `string` | No description | ❌ |
+| **param_hsenc** | `string` | No description | ❌ |
+| **param_hsmi** | `string` | No description | ❌ |
 | **param_se** | `string` | No description | ❌ |
+| **param_vd** | `string` | No description | ❌ |
 | **param_x_tr_hist** | `string` | No description | ❌ |
 | **profileId** | `string` | No description | ❌ |
 | **profileName** | `string` | No description | ❌ |
@@ -15330,53 +25164,195 @@ analytics.track("Visit Workspace Profile", {
   "isExpert": "<<type: boolean, required: false>>",
   "isOwnProfile": "<<type: boolean, required: false>>",
   "numShowcasedSites": "<<type: integer, required: false>>",
+  "param": "<<type: string, required: false>>",
+  "param\",\"ac0x3f031q\":\"ac0x3f031q\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"b5n66sa8d8\":\"b5n66sa8d8\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"brrrbn33wf\":\"brrrbn33wf\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"bsrkdq5w2i\":\"bsrkdq5w2i\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"bwytyf25ip\":\"bwytyf25ip\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"bx3rvd6nn1\":\"bx3rvd6nn1\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"dql8tr7hmg\":\"dql8tr7hmg\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"edfspz14u3\":\"edfspz14u3\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"esbg3mxk0r\":\"esbg3mxk0r\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"evct49q6xo\":\"evct49q6xo\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"fnbubrqvam\":\"fnbubrqvam\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"fuknfn82sm\":\"fuknfn82sm\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"ge8i5pt1zm\":\"ge8i5pt1zm\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"hxfrs8n70i\":\"hxfrs8n70i\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"idf4akic16\":\"idf4akic16\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"ig6l878ok0\":\"ig6l878ok0\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"iu9n7u7jso\":\"iu9n7u7jso\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"j7xa5mh8xb\":\"j7xa5mh8xb\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"jsht5wn0eh\":\"jsht5wn0eh\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"k8gkcz6grz\":\"k8gkcz6grz\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"ka8ltspc2j\":\"ka8ltspc2j\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"kzpo1xwlhf\":\"kzpo1xwlhf\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"lgbl4q8q83\":\"lgbl4q8q83\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"m6ir3mpz34\":\"m6ir3mpz34\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"nn3bty9fsh\":\"nn3bty9fsh\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"o0by461lb8\":\"o0by461lb8\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"o5icwef790\":\"o5icwef790\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"oi8lrramtm\":\"oi8lrramtm\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"pskdk9n0nq\":\"pskdk9n0nq\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"pt0bngy0m1\":\"pt0bngy0m1\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"pwcoolc5of\":\"pwcoolc5of\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"s6muhpsd31\":\"s6muhpsd31\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"uuf6y3y2y8\":\"uuf6y3y2y8\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"uvukotrrig\":\"uvukotrrig\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"wzuurfdijf\":\"wzuurfdijf\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"z4aem92yok\":\"z4aem92yok\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"zgzlkr66fu\":\"zgzlkr66fu\",\"\":\"": "<<type: string, required: false>>",
+  "param\",\"zltp5xoquz\":\"zltp5xoquz\",\"\":\"": "<<type: string, required: false>>",
+  "param//ab0wf2vby9": "<<type: string, required: false>>",
+  "param//auewxgbott": "<<type: string, required: false>>",
+  "param//b42mzueiqw": "<<type: string, required: false>>",
+  "param//bdbh75osqp": "<<type: string, required: false>>",
+  "param//bgtl15bjxf": "<<type: string, required: false>>",
+  "param//c4weehb6os": "<<type: string, required: false>>",
+  "param//cvygmgi6te": "<<type: string, required: false>>",
+  "param//dkbqnr5xve": "<<type: string, required: false>>",
+  "param//dpe8g93ekm": "<<type: string, required: false>>",
+  "param//dw374yaw9g": "<<type: string, required: false>>",
+  "param//fps8ekecne": "<<type: string, required: false>>",
+  "param//h1vov50qyk": "<<type: string, required: false>>",
+  "param//hbrisiou7s": "<<type: string, required: false>>",
+  "param//he2skp9x2u": "<<type: string, required: false>>",
+  "param//hi8rjnlpt9": "<<type: string, required: false>>",
+  "param//irzrxqy520": "<<type: string, required: false>>",
+  "param//jdztvb9vm1": "<<type: string, required: false>>",
+  "param//jmhbtlel3d": "<<type: string, required: false>>",
+  "param//k48ict7rk3": "<<type: string, required: false>>",
+  "param//k68kbmmsgr": "<<type: string, required: false>>",
+  "param//khctlurc1q": "<<type: string, required: false>>",
+  "param//kpivb30zz5": "<<type: string, required: false>>",
+  "param//kufcbgusnz": "<<type: string, required: false>>",
+  "param//lspvn3pq1l": "<<type: string, required: false>>",
+  "param//m1wc0q6u0s": "<<type: string, required: false>>",
+  "param//n8rvrhxs2f": "<<type: string, required: false>>",
+  "param//nfnc6488yd": "<<type: string, required: false>>",
+  "param//ntefjd8uzc": "<<type: string, required: false>>",
+  "param//o0av5dpl35": "<<type: string, required: false>>",
+  "param//o4l4x052sm": "<<type: string, required: false>>",
+  "param//pdklpyr8i2": "<<type: string, required: false>>",
+  "param//pwhu4off3x": "<<type: string, required: false>>",
+  "param//qqdw23wo96": "<<type: string, required: false>>",
+  "param//rn9fbupjn9": "<<type: string, required: false>>",
+  "param//rzy4q8uka0": "<<type: string, required: false>>",
+  "param//s36let8oax": "<<type: string, required: false>>",
+  "param//s8c74osa5j": "<<type: string, required: false>>",
+  "param//t6zvjvtsmn": "<<type: string, required: false>>",
+  "param//tybsr5z6ur": "<<type: string, required: false>>",
+  "param//u53fw7xv9h": "<<type: string, required: false>>",
+  "param//uuyjj7xwcn": "<<type: string, required: false>>",
+  "param//vat8b2h1s5": "<<type: string, required: false>>",
+  "param//w8g3ni9xpa": "<<type: string, required: false>>",
+  "param//x3b3vwd3y5": "<<type: string, required: false>>",
+  "param//xkz9z7tq9j": "<<type: string, required: false>>",
+  "param//xyisgomxb1": "<<type: string, required: false>>",
+  "param//ye2j32e2uo": "<<type: string, required: false>>",
+  "param//yk2zk5pmn7": "<<type: string, required: false>>",
+  "param//ykvq1va04y": "<<type: string, required: false>>",
+  "param//yp1xqkjo79": "<<type: string, required: false>>",
+  "param//zznn8e9p8g": "<<type: string, required: false>>",
   "param/edit": "<<type: string, required: false>>",
+  "param9fdacd48_page": "<<type: string, required: false>>",
   "param<br": "<<type: string, required: false>>",
+  "paramASddas": "<<type: string, required: false>>",
+  "paramAsfd": "<<type: string, required: false>>",
   "paramBvred": "<<type: string, required: false>>",
+  "paramBxmv0eknwt": "<<type: string, required: false>>",
+  "paramCheckbox-Free": "<<type: string, required: false>>",
+  "paramCho3f2a1wh": "<<type: string, required: false>>",
+  "paramCloneable": "<<type: string, required: false>>",
   "paramDarkschemeovr": "<<type: string, required: false>>",
   "paramDescriptionFromFileType": "<<type: string, required: false>>",
+  "paramDosi5vqz6i": "<<type: string, required: false>>",
+  "paramE642diyjzl": "<<type: string, required: false>>",
+  "paramE6v973o30v": "<<type: string, required: false>>",
   "paramEdit": "<<type: string, required: false>>",
+  "paramEog7cwpqcj": "<<type: string, required: false>>",
   "paramFbclid": "<<type: string, required: false>>",
+  "paramFeatures": "<<type: string, required: false>>",
+  "paramForm": "<<type: string, required: false>>",
+  "paramFrom": "<<type: string, required: false>>",
+  "paramFunctionality": "<<type: array, required: false>>",
   "paramGad_source": "<<type: string, required: false>>",
+  "paramGbraid": "<<type: string, required: false>>",
   "paramGclid": "<<type: string, required: false>>",
   "paramGidzl": "<<type: string, required: false>>",
   "paramGspk": "<<type: string, required: false>>",
   "paramGsxid": "<<type: string, required: false>>",
+  "paramHl": "<<type: string, required: false>>",
+  "paramHss_channel": "<<type: string, required: false>>",
+  "paramHttp://cdfof6kdxu": {
+    "com": "<<type: string, required: false>>"
+  },
+  "paramHttp://had5lpmhhm": {
+    "com": "<<type: string, required: false>>"
+  },
+  "paramJhfzqald4v": "<<type: string, required: false>>",
+  "paramKeaczwuxab": "<<type: string, required: false>>",
+  "paramLdj6buxm4g": "<<type: string, required: false>>",
   "paramLtclid": "<<type: string, required: false>>",
+  "paramLutges1abn": "<<type: string, required: false>>",
   "paramMbstx": "<<type: string, required: false>>",
+  "paramMc_cid": "<<type: string, required: false>>",
+  "paramMc_eid": "<<type: string, required: false>>",
+  "paramMil66npajz": "<<type: string, required: false>>",
   "paramMkt_tok": "<<type: string, required: false>>",
   "paramMode": "<<type: string, required: false>>",
+  "paramMsockid": "<<type: string, required: false>>",
+  "paramN3g40c4tzc": "<<type: string, required: false>>",
   "paramNbcs": "<<type: string, required: false>>",
   "paramOikm": "<<type: string, required: false>>",
   "paramPs_partner": "<<type: string, required: false>>",
   "paramPs_partner_key": "<<type: string, required: false>>",
   "paramPs_xid": "<<type: string, required: false>>",
+  "paramPscd": "<<type: string, required: false>>",
+  "paramQdir7yhxvy": "<<type: string, required: false>>",
+  "paramR5opqsu5o0": "<<type: string, required: false>>",
   "paramRef": "<<type: string, required: false>>",
   "paramReferrer": "<<type: string, required: false>>",
   "paramResubmit": "<<type: string, required: false>>",
   "paramRfsn": "<<type: string, required: false>>",
   "paramRoutes": "<<type: array, required: false>>",
+  "paramRuq68wsctg": "<<type: string, required: false>>",
   "paramS": "<<type: string, required: false>>",
+  "paramSearch": "<<type: string, required: false>>",
   "paramSid1": "<<type: string, required: false>>",
   "paramSlug": "<<type: string, required: false>>",
   "paramSource": "<<type: string, required: false>>",
   "paramSpm": "<<type: string, required: false>>",
+  "paramSsId": "<<type: string, required: false>>",
   "paramStatus": "<<type: string, required: false>>",
+  "paramT": "<<type: string, required: false>>",
   "paramTest1": "<<type: string, required: false>>",
   "paramTest2": "<<type: string, required: false>>",
   "paramTrk": "<<type: string, required: false>>",
+  "paramTtclid": "<<type: string, required: false>>",
+  "paramU5369cmsre": "<<type: string, required: false>>",
+  "paramUtm-source": "<<type: string, required: false>>",
   "paramUtm_adgroup": "<<type: string, required: false>>",
   "paramUtm_adname": "<<type: string, required: false>>",
   "paramUtm_camapign": "<<type: string, required: false>>",
   "paramUtm_campaign": "<<type: string, required: false>>",
   "paramUtm_content": "<<type: string, required: false>>",
+  "paramUtm_id": "<<type: string, required: false>>",
   "paramUtm_medium": "<<type: array, required: false>>",
   "paramUtm_source": "<<type: string, required: false>>",
   "paramUtm_term": "<<type: string, required: false>>",
   "paramUybv": "<<type: string, required: false>>",
   "paramVia": "<<type: string, required: false>>",
+  "paramWbe4bd6gmy": "<<type: string, required: false>>",
+  "paramWbraid": "<<type: string, required: false>>",
   "paramZarsrc": "<<type: string, required: false>>",
+  "paramZj84qqw3r5": "<<type: string, required: false>>",
+  "paramZksas48k2b": "<<type: string, required: false>>",
+  "paramZohyfwrtbd": "<<type: string, required: false>>",
+  "param_hsenc": "<<type: string, required: false>>",
+  "param_hsmi": "<<type: string, required: false>>",
   "param_se": "<<type: string, required: false>>",
+  "param_vd": "<<type: string, required: false>>",
   "param_x_tr_hist": "<<type: string, required: false>>",
   "profileId": "<<type: string, required: false>>",
   "profileName": "<<type: string, required: false>>",
@@ -15388,6 +25364,126 @@ analytics.track("Visit Workspace Profile", {
   "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Webflow 101 Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Webflow 101 Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Webflow Logo Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Webflow Logo Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Webflow University Card Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Webflow University Card Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Webflow features Card Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **logged in** | `boolean` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Webflow features Card Clicked", {
+  "logged in": "<<type: boolean, required: false>>",
+  "page": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -15434,15 +25530,15 @@ No description provided
 | **button CTA** | `string` | No description | ❌ |
 | **button action and type** | `string` | No description | ❌ |
 | **company** | `string` | No description | ❌ |
-| **company size** | `string` | No description | ❌ |
+| **company size** | `unknown` | No description | ❌ |
 | **consent** | `unknown` | No description | ❌ |
 | **country** | `string` | No description | ❌ |
-| **email** | `string` | No description | ❌ |
+| **email** | `unknown` | No description | ❌ |
 | **first name** | `string` | No description | ❌ |
 | **form name** | `string` | No description | ❌ |
 | **last name** | `string` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
-| **message** | `string` | No description | ❌ |
+| **message** | `unknown` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
 | **phone** | `string` | No description | ❌ |
@@ -15462,15 +25558,15 @@ analytics.track("Website Form Submitted", {
   "button CTA": "<<type: string, required: false>>",
   "button action and type": "<<type: string, required: false>>",
   "company": "<<type: string, required: false>>",
-  "company size": "<<type: string, required: false>>",
+  "company size": "<<type: unknown, required: false>>",
   "consent": "<<type: unknown, required: false>>",
   "country": "<<type: string, required: false>>",
-  "email": "<<type: string, required: false>>",
+  "email": "<<type: unknown, required: false>>",
   "first name": "<<type: string, required: false>>",
   "form name": "<<type: string, required: false>>",
   "last name": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
-  "message": "<<type: string, required: false>>",
+  "message": "<<type: unknown, required: false>>",
   "page": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
   "phone": "<<type: string, required: false>>",
@@ -15503,6 +25599,7 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **Redirect** | `boolean` | No description | ❌ |
 | **btnError** | `unknown` | No description | ❌ |
 | **btnVersion** | `string` | No description | ❌ |
 | **headerError** | `unknown` | No description | ❌ |
@@ -15538,6 +25635,7 @@ No description provided
 
 ```javascript
 analytics.track("Website Viewed", {
+  "Redirect": "<<type: boolean, required: false>>",
   "btnError": "<<type: unknown, required: false>>",
   "btnVersion": "<<type: string, required: false>>",
   "headerError": "<<type: unknown, required: false>>",
@@ -15615,7 +25713,7 @@ analytics.track("Words Translated", {
 <!-- panels:end -->
 
 
-## Workspace Commenter Signup
+## Workspace Billing Page Viewed
 
 <!-- tabs:start -->
 ### **Details**
@@ -15627,20 +25725,102 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **legacy team id** | `string` | No description | ❌ |
+| **primary upgrade source** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **upgrade prompt** | `string` | No description | ❌ |
+| **upgrade source page** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
-| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Workspace Commenter Signup", {
+analytics.track("Workspace Billing Page Viewed", {
+  "legacy team id": "<<type: string, required: false>>",
+  "primary upgrade source": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "upgrade prompt": "<<type: string, required: false>>",
+  "upgrade source page": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Workspace Frictionless Invite Purchased
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **new addon type** | `string` | No description | ❌ |
+| **new quantity** | `integer` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace new addons** | `object` | No description | ❌ |
+| **workspace new addons.full seat count** | `integer` | No description | ❌ |
+| **workspace new addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Workspace Frictionless Invite Purchased", {
+  "new addon type": "<<type: string, required: false>>",
+  "new quantity": "<<type: integer, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace new addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
 })
@@ -15781,11 +25961,17 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
+| **can manage site billing** | `boolean` | No description | ❌ |
 | **can publish** | `boolean` | No description | ❌ |
+| **display price** | `string` | No description | ❌ |
 | **email** | `string` | No description | ❌ |
+| **interval** | `string` | No description | ❌ |
 | **invitation link** | `string` | No description | ❌ |
 | **inviter name** | `string` | No description | ❌ |
 | **recipient role** | `string` | No description | ❌ |
+| **request date** | `string` | No description | ❌ |
+| **site name** | `string` | No description | ❌ |
+| **site plan name** | `string` | No description | ❌ |
 | **site role** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **wf_source** | `string` | No description | ❌ |
@@ -15797,11 +25983,17 @@ No description provided
 
 ```javascript
 analytics.track("Workspace Invitation Sent", {
+  "can manage site billing": "<<type: boolean, required: false>>",
   "can publish": "<<type: boolean, required: false>>",
+  "display price": "<<type: string, required: false>>",
   "email": "<<type: string, required: false>>",
+  "interval": "<<type: string, required: false>>",
   "invitation link": "<<type: string, required: false>>",
   "inviter name": "<<type: string, required: false>>",
   "recipient role": "<<type: string, required: false>>",
+  "request date": "<<type: string, required: false>>",
+  "site name": "<<type: string, required: false>>",
+  "site plan name": "<<type: string, required: false>>",
   "site role": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "wf_source": "<<type: string, required: false>>",
@@ -15851,7 +26043,7 @@ analytics.track("Workspace Member Removed", {
 <!-- panels:end -->
 
 
-## Workspace Plan Page Viewed
+## Workspace Member Selected
 
 <!-- tabs:start -->
 ### **Details**
@@ -15863,36 +26055,12 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **primary upgrade source** | `string` | No description | ❌ |
-| **ref** | `string` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site plan type** | `string` | No description | ❌ |
-| **tab** | `string` | No description | ❌ |
-| **upgrade prompt** | `string` | No description | ❌ |
-| **upgrade source page** | `string` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace plan type** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-| **workspace slug** | `string` | No description | ❌ |
+| **workspaceMember** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Workspace Plan Page Viewed", {
-  "primary upgrade source": "<<type: string, required: false>>",
-  "ref": "<<type: string, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site plan type": "<<type: string, required: false>>",
-  "tab": "<<type: string, required: false>>",
-  "upgrade prompt": "<<type: string, required: false>>",
-  "upgrade source page": "<<type: string, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace plan type": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>",
-  "workspace slug": "<<type: string, required: false>>"
+analytics.track("Workspace Member Selected", {
+  "workspaceMember": "<<type: string, required: false>>"
 })
 ```
 
@@ -15918,11 +26086,15 @@ No description provided
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -15934,13 +26106,44 @@ analytics.track("Workspace Profile Image Updated", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Workspace Reviewer Signup
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Workspace Reviewer Signup", {
+  "ref": "<<type: string, required: false>>"
 })
 ```
 
@@ -16026,11 +26229,15 @@ No description provided
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 #### **JS**
@@ -16044,13 +26251,676 @@ analytics.track("Workspace Settings Page Viewed", {
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Workspace profile created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **wf_source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Workspace profile created", {
+  "wf_source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Client Invite Accepted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **siteName** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Client Invite Accepted", {
+  "site id": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "siteName": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Client Invite Page Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **inviterWorkspaceId** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **siteName** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Client Invite Page Viewed", {
+  "inviterWorkspaceId": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "siteName": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Delayed Segmentation Survey Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **step** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Delayed Segmentation Survey Viewed", {
+  "site id": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "step": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Payment Request Sent
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **clientEmail** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Payment Request Sent", {
+  "clientEmail": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Request Payment Page Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Request Payment Page Viewed", {
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Site Plan Charge To Client Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Site Plan Charge To Client Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Site Plan Pay On Your Own Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+| **workspaceRole** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Site Plan Pay On Your Own Clicked", {
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>",
+  "workspaceRole": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Site Transfer Accepted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Site Transfer Accepted", {
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Site Transfer Requested
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **email** | `string` | No description | ❌ |
+| **receiverWorkspaceId** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Site Transfer Requested", {
+  "email": "<<type: string, required: false>>",
+  "receiverWorkspaceId": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Client payments] Update Payment Method Confirmed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **form context** | `string` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site plan id** | `string` | No description | ❌ |
+| **site plan type** | `string` | No description | ❌ |
+| **site slug** | `string` | No description | ❌ |
+| **workspace addons** | `object` | No description | ❌ |
+| **workspace addons.full seat count** | `integer` | No description | ❌ |
+| **workspace addons.limited seat count** | `integer` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace plan id** | `string` | No description | ❌ |
+| **workspace plan type** | `string` | No description | ❌ |
+| **workspace role** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **workspace slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Client payments] Update Payment Method Confirmed", {
+  "form context": "<<type: string, required: false>>",
+  "ref": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site plan id": "<<type: string, required: false>>",
+  "site plan type": "<<type: string, required: false>>",
+  "site slug": "<<type: string, required: false>>",
+  "workspace addons": {
+    "full seat count": "<<type: integer, required: false>>",
+    "limited seat count": "<<type: integer, required: false>>"
+  },
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace plan id": "<<type: string, required: false>>",
+  "workspace plan type": "<<type: string, required: false>>",
+  "workspace role": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "workspace slug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## [Invite guest modal] Guest email entered
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **emailValidationSucceeded** | `boolean` | No description | ❌ |
+| **guestDomain** | `string` | No description | ❌ |
+| **guestDomainMatchesHostDomain** | `boolean` | No description | ❌ |
+| **guestHadAllowlistedDomain** | `boolean` | No description | ❌ |
+| **guestHadWhitelistedDomain** | `boolean` | No description | ❌ |
+| **hostDomain** | `string` | No description | ❌ |
+| **wf_source** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspacePlan** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("[Invite guest modal] Guest email entered", {
+  "emailValidationSucceeded": "<<type: boolean, required: false>>",
+  "guestDomain": "<<type: string, required: false>>",
+  "guestDomainMatchesHostDomain": "<<type: boolean, required: false>>",
+  "guestHadAllowlistedDomain": "<<type: boolean, required: false>>",
+  "guestHadWhitelistedDomain": "<<type: boolean, required: false>>",
+  "hostDomain": "<<type: string, required: false>>",
+  "wf_source": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspacePlan": "<<type: string, required: false>>"
 })
 ```
 
@@ -16071,16 +26941,16 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **email** | `unknown` | No description | ❌ |
-| **product** | `unknown` | No description | ❌ |
-| **type** | `unknown` | No description | ❌ |
+| **email** | `string` | No description | ❌ |
+| **product** | `string` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("enrichment_provider", {
-  "email": "<<type: unknown, required: false>>",
-  "product": "<<type: unknown, required: false>>",
-  "type": "<<type: unknown, required: false>>"
+  "email": "<<type: string, required: false>>",
+  "product": "<<type: string, required: false>>",
+  "type": "<<type: string, required: false>>"
 })
 ```
 
@@ -16089,7 +26959,7 @@ analytics.track("enrichment_provider", {
 <!-- panels:end -->
 
 
-## test
+## get_started_for_free_clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -16104,7 +26974,33 @@ No description provided
 #### **JS**
 
 ```javascript
-analytics.track("test", {})
+analytics.track("get_started_for_free_clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## help_option_clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **option** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("help_option_clicked", {
+  "option": "<<type: string, required: false>>"
+})
 ```
 
 <!-- tabs:end -->

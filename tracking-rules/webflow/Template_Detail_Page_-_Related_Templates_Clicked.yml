@@ -1,0 +1,31 @@
+rules:
+  - key: Template Detail Page - Related Templates Clicked
+    type: TRACK
+    description: Template Detail Page - Related Templates Clicked
+    version: 1
+    labels: {}
+    properties:
+      click_area:
+        type:
+          - string
+      clicked_template:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string
+      template:
+        type:
+          - string
+      template_index:
+        type:
+          - integer
+      variant:
+        type:
+          - string

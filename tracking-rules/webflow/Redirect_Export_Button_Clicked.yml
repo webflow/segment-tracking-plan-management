@@ -1,0 +1,7 @@
+rules:
+  - key: Redirect Export Button Clicked
+    type: TRACK
+    description: Redirect Export Button Clicked
+    version: 1
+    labels: {}
+    properties: {}

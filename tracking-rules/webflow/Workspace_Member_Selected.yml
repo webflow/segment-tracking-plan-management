@@ -1,0 +1,10 @@
+rules:
+  - key: Workspace Member Selected
+    type: TRACK
+    description: Workspace Member Selected
+    version: 1
+    labels: {}
+    properties:
+      workspaceMember:
+        type:
+          - string

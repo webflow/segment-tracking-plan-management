@@ -20,13 +20,304 @@ rules:
       numShowcasedSites:
         type:
           - integer
+      param:
+        type:
+          - string
+      param","ac0x3f031q":"ac0x3f031q","":":
+        type:
+          - string
+      param","b5n66sa8d8":"b5n66sa8d8","":":
+        type:
+          - string
+      param","brrrbn33wf":"brrrbn33wf","":":
+        type:
+          - string
+      param","bsrkdq5w2i":"bsrkdq5w2i","":":
+        type:
+          - string
+      param","bwytyf25ip":"bwytyf25ip","":":
+        type:
+          - string
+      param","bx3rvd6nn1":"bx3rvd6nn1","":":
+        type:
+          - string
+      param","dql8tr7hmg":"dql8tr7hmg","":":
+        type:
+          - string
+      param","edfspz14u3":"edfspz14u3","":":
+        type:
+          - string
+      param","esbg3mxk0r":"esbg3mxk0r","":":
+        type:
+          - string
+      param","evct49q6xo":"evct49q6xo","":":
+        type:
+          - string
+      param","fnbubrqvam":"fnbubrqvam","":":
+        type:
+          - string
+      param","fuknfn82sm":"fuknfn82sm","":":
+        type:
+          - string
+      param","ge8i5pt1zm":"ge8i5pt1zm","":":
+        type:
+          - string
+      param","hxfrs8n70i":"hxfrs8n70i","":":
+        type:
+          - string
+      param","idf4akic16":"idf4akic16","":":
+        type:
+          - string
+      param","ig6l878ok0":"ig6l878ok0","":":
+        type:
+          - string
+      param","iu9n7u7jso":"iu9n7u7jso","":":
+        type:
+          - string
+      param","j7xa5mh8xb":"j7xa5mh8xb","":":
+        type:
+          - string
+      param","jsht5wn0eh":"jsht5wn0eh","":":
+        type:
+          - string
+      param","k8gkcz6grz":"k8gkcz6grz","":":
+        type:
+          - string
+      param","ka8ltspc2j":"ka8ltspc2j","":":
+        type:
+          - string
+      param","kzpo1xwlhf":"kzpo1xwlhf","":":
+        type:
+          - string
+      param","lgbl4q8q83":"lgbl4q8q83","":":
+        type:
+          - string
+      param","m6ir3mpz34":"m6ir3mpz34","":":
+        type:
+          - string
+      param","nn3bty9fsh":"nn3bty9fsh","":":
+        type:
+          - string
+      param","o0by461lb8":"o0by461lb8","":":
+        type:
+          - string
+      param","o5icwef790":"o5icwef790","":":
+        type:
+          - string
+      param","oi8lrramtm":"oi8lrramtm","":":
+        type:
+          - string
+      param","pskdk9n0nq":"pskdk9n0nq","":":
+        type:
+          - string
+      param","pt0bngy0m1":"pt0bngy0m1","":":
+        type:
+          - string
+      param","pwcoolc5of":"pwcoolc5of","":":
+        type:
+          - string
+      param","s6muhpsd31":"s6muhpsd31","":":
+        type:
+          - string
+      param","uuf6y3y2y8":"uuf6y3y2y8","":":
+        type:
+          - string
+      param","uvukotrrig":"uvukotrrig","":":
+        type:
+          - string
+      param","wzuurfdijf":"wzuurfdijf","":":
+        type:
+          - string
+      param","z4aem92yok":"z4aem92yok","":":
+        type:
+          - string
+      param","zgzlkr66fu":"zgzlkr66fu","":":
+        type:
+          - string
+      param","zltp5xoquz":"zltp5xoquz","":":
+        type:
+          - string
+      param//ab0wf2vby9:
+        type:
+          - string
+      param//auewxgbott:
+        type:
+          - string
+      param//b42mzueiqw:
+        type:
+          - string
+      param//bdbh75osqp:
+        type:
+          - string
+      param//bgtl15bjxf:
+        type:
+          - string
+      param//c4weehb6os:
+        type:
+          - string
+      param//cvygmgi6te:
+        type:
+          - string
+      param//dkbqnr5xve:
+        type:
+          - string
+      param//dpe8g93ekm:
+        type:
+          - string
+      param//dw374yaw9g:
+        type:
+          - string
+      param//fps8ekecne:
+        type:
+          - string
+      param//h1vov50qyk:
+        type:
+          - string
+      param//hbrisiou7s:
+        type:
+          - string
+      param//he2skp9x2u:
+        type:
+          - string
+      param//hi8rjnlpt9:
+        type:
+          - string
+      param//irzrxqy520:
+        type:
+          - string
+      param//jdztvb9vm1:
+        type:
+          - string
+      param//jmhbtlel3d:
+        type:
+          - string
+      param//k48ict7rk3:
+        type:
+          - string
+      param//k68kbmmsgr:
+        type:
+          - string
+      param//khctlurc1q:
+        type:
+          - string
+      param//kpivb30zz5:
+        type:
+          - string
+      param//kufcbgusnz:
+        type:
+          - string
+      param//lspvn3pq1l:
+        type:
+          - string
+      param//m1wc0q6u0s:
+        type:
+          - string
+      param//n8rvrhxs2f:
+        type:
+          - string
+      param//nfnc6488yd:
+        type:
+          - string
+      param//ntefjd8uzc:
+        type:
+          - string
+      param//o0av5dpl35:
+        type:
+          - string
+      param//o4l4x052sm:
+        type:
+          - string
+      param//pdklpyr8i2:
+        type:
+          - string
+      param//pwhu4off3x:
+        type:
+          - string
+      param//qqdw23wo96:
+        type:
+          - string
+      param//rn9fbupjn9:
+        type:
+          - string
+      param//rzy4q8uka0:
+        type:
+          - string
+      param//s36let8oax:
+        type:
+          - string
+      param//s8c74osa5j:
+        type:
+          - string
+      param//t6zvjvtsmn:
+        type:
+          - string
+      param//tybsr5z6ur:
+        type:
+          - string
+      param//u53fw7xv9h:
+        type:
+          - string
+      param//uuyjj7xwcn:
+        type:
+          - string
+      param//vat8b2h1s5:
+        type:
+          - string
+      param//w8g3ni9xpa:
+        type:
+          - string
+      param//x3b3vwd3y5:
+        type:
+          - string
+      param//xkz9z7tq9j:
+        type:
+          - string
+      param//xyisgomxb1:
+        type:
+          - string
+      param//ye2j32e2uo:
+        type:
+          - string
+      param//yk2zk5pmn7:
+        type:
+          - string
+      param//ykvq1va04y:
+        type:
+          - string
+      param//yp1xqkjo79:
+        type:
+          - string
+      param//zznn8e9p8g:
+        type:
+          - string
       param/edit:
+        type:
+          - string
+      param9fdacd48_page:
         type:
           - string
       param<br:
         type:
           - string
+      paramASddas:
+        type:
+          - string
+      paramAsfd:
+        type:
+          - string
       paramBvred:
+        type:
+          - string
+      paramBxmv0eknwt:
+        type:
+          - string
+      paramCheckbox-Free:
+        type:
+          - string
+      paramCho3f2a1wh:
+        type:
+          - string
+      paramCloneable:
         type:
           - string
       paramDarkschemeovr:
@@ -35,13 +326,41 @@ rules:
       paramDescriptionFromFileType:
         type:
           - string
+      paramDosi5vqz6i:
+        type:
+          - string
+      paramE642diyjzl:
+        type:
+          - string
+      paramE6v973o30v:
+        type:
+          - string
       paramEdit:
+        type:
+          - string
+      paramEog7cwpqcj:
         type:
           - string
       paramFbclid:
         type:
           - string
+      paramFeatures:
+        type:
+          - string
+      paramForm:
+        type:
+          - string
+      paramFrom:
+        type:
+          - string
+      paramFunctionality:
+        items:
+          type: string
+        type: array
       paramGad_source:
+        type:
+          - string
+      paramGbraid:
         type:
           - string
       paramGclid:
@@ -56,16 +375,61 @@ rules:
       paramGsxid:
         type:
           - string
+      paramHl:
+        type:
+          - string
+      paramHss_channel:
+        type:
+          - string
+      paramHttp://cdfof6kdxu:
+        properties:
+          com:
+            type:
+              - string
+        type: object
+      paramHttp://had5lpmhhm:
+        properties:
+          com:
+            type:
+              - string
+        type: object
+      paramJhfzqald4v:
+        type:
+          - string
+      paramKeaczwuxab:
+        type:
+          - string
+      paramLdj6buxm4g:
+        type:
+          - string
       paramLtclid:
         type:
           - string
+      paramLutges1abn:
+        type:
+          - string
       paramMbstx:
+        type:
+          - string
+      paramMc_cid:
+        type:
+          - string
+      paramMc_eid:
+        type:
+          - string
+      paramMil66npajz:
         type:
           - string
       paramMkt_tok:
         type:
           - string
       paramMode:
+        type:
+          - string
+      paramMsockid:
+        type:
+          - string
+      paramN3g40c4tzc:
         type:
           - string
       paramNbcs:
@@ -81,6 +445,15 @@ rules:
         type:
           - string
       paramPs_xid:
+        type:
+          - string
+      paramPscd:
+        type:
+          - string
+      paramQdir7yhxvy:
+        type:
+          - string
+      paramR5opqsu5o0:
         type:
           - string
       paramRef:
@@ -99,7 +472,13 @@ rules:
         items:
           type: string
         type: array
+      paramRuq68wsctg:
+        type:
+          - string
       paramS:
+        type:
+          - string
+      paramSearch:
         type:
           - string
       paramSid1:
@@ -114,7 +493,13 @@ rules:
       paramSpm:
         type:
           - string
+      paramSsId:
+        type:
+          - string
       paramStatus:
+        type:
+          - string
+      paramT:
         type:
           - string
       paramTest1:
@@ -124,6 +509,15 @@ rules:
         type:
           - string
       paramTrk:
+        type:
+          - string
+      paramTtclid:
+        type:
+          - string
+      paramU5369cmsre:
+        type:
+          - string
+      paramUtm-source:
         type:
           - string
       paramUtm_adgroup:
@@ -139,6 +533,9 @@ rules:
         type:
           - string
       paramUtm_content:
+        type:
+          - string
+      paramUtm_id:
         type:
           - string
       paramUtm_medium:
@@ -157,10 +554,34 @@ rules:
       paramVia:
         type:
           - string
+      paramWbe4bd6gmy:
+        type:
+          - string
+      paramWbraid:
+        type:
+          - string
       paramZarsrc:
         type:
           - string
+      paramZj84qqw3r5:
+        type:
+          - string
+      paramZksas48k2b:
+        type:
+          - string
+      paramZohyfwrtbd:
+        type:
+          - string
+      param_hsenc:
+        type:
+          - string
+      param_hsmi:
+        type:
+          - string
       param_se:
+        type:
+          - string
+      param_vd:
         type:
           - string
       param_x_tr_hist:

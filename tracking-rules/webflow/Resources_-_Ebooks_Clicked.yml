@@ -1,0 +1,16 @@
+rules:
+  - key: Resources - Ebooks Clicked
+    type: TRACK
+    description: Resources - Ebooks Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

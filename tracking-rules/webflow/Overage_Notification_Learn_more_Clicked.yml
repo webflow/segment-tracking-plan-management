@@ -1,0 +1,86 @@
+rules:
+  - key: Overage Notification Learn more Clicked
+    type: TRACK
+    description: Overage Notification Learn more Clicked
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      contact sales qualified:
+        type:
+          - boolean
+      current month usage:
+        type:
+          - integer
+      current plan id:
+        type:
+          - string
+      current usage:
+        type:
+          - integer
+      feature notification type:
+        type:
+          - string
+      occurrence:
+        type:
+          - string
+      previous month usage: {}
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site name:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      usage limit:
+        type:
+          - integer
+      went over high usage threshold previous month:
+        type:
+          - boolean
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

@@ -8,6 +8,9 @@ rules:
       marketplace order id:
         type:
           - string
+      marketplace subscription id:
+        type:
+          - string
       workspace slug:
         type:
           - string

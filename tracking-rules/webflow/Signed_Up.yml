@@ -8,6 +8,27 @@ rules:
       ref:
         type:
           - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string
@@ -21,6 +42,9 @@ rules:
         type:
           - string
       workspace plan type:
+        type:
+          - string
+      workspace role:
         type:
           - string
       workspace seat count:

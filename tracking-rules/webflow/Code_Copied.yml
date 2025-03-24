@@ -1,0 +1,19 @@
+rules:
+  - key: Code Copied
+    type: TRACK
+    description: Code Copied
+    version: 1
+    labels: {}
+    properties:
+      content_preview:
+        type:
+          - string
+      element_type:
+        type:
+          - string
+      language:
+        type:
+          - string
+      path:
+        type:
+          - string

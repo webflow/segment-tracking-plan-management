@@ -44,6 +44,15 @@ rules:
       team id:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string

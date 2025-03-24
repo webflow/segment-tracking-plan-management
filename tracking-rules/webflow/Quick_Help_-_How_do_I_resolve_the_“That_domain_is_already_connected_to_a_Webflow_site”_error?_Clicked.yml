@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - How do I resolve the “That domain is already connected to a
+      Webflow site” error? Clicked
+    type: TRACK
+    description: >-
+      Quick Help - How do I resolve the “That domain is already connected to a
+      Webflow site” error? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

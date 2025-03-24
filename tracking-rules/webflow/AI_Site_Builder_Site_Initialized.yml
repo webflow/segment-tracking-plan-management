@@ -1,0 +1,119 @@
+rules:
+  - key: AI Site Builder Site Initialized
+    type: TRACK
+    description: AI Site Builder Site Initialized
+    version: 1
+    labels: {}
+    properties:
+      prompt:
+        type:
+          - string
+      section categories:
+        items:
+          type: string
+        type: array
+      section count:
+        type:
+          - integer
+      sections:
+        properties:
+          career:
+            type:
+              - string
+          contact:
+            type:
+              - string
+          content feed:
+            type:
+              - string
+          content header:
+            type:
+              - string
+          cta:
+            type:
+              - string
+          event feed:
+            type:
+              - string
+          faq:
+            type:
+              - string
+          feature:
+            type:
+              - string
+          footer:
+            type:
+              - string
+          gallery:
+            type:
+              - string
+          hero:
+            type:
+              - string
+          logo:
+            type:
+              - string
+          metrics:
+            type:
+              - string
+          nav:
+            type:
+              - string
+          pricing:
+            type:
+              - string
+          team:
+            type:
+              - string
+          testimonial:
+            type:
+              - string
+        type: object
+      siteId:
+        type:
+          - string
+      siteName:
+        type:
+          - string
+      theme:
+        properties:
+          buttonPackId:
+            type:
+              - string
+          cardPackId:
+            type:
+              - string
+          colorPackId:
+            type:
+              - string
+          containerPackId:
+            type:
+              - string
+          fontPackId:
+            type:
+              - string
+          formPackId:
+            type:
+              - string
+          imagePackId:
+            type:
+              - string
+          roundnessPackId:
+            type:
+              - string
+          sectionVariancePackId:
+            type:
+              - string
+          spacingPackId:
+            type:
+              - string
+          tonePackId:
+            type:
+              - string
+          typographyPackId:
+            type:
+              - string
+        type: object
+      wf_source:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Create a custom accordion'
+    type: TRACK
+    description: 'Help Center Article: Create a custom accordion'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

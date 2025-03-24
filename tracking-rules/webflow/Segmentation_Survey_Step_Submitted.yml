@@ -16,9 +16,14 @@ rules:
           type: string
         type: array
       options selected:
-        items:
-          type: string
-        type: array
+        properties:
+          budget:
+            type:
+              - string
+          location:
+            type:
+              - string
+        type: object
       position of selected option:
         type:
           - integer
@@ -28,7 +33,18 @@ rules:
       ref:
         type:
           - string
-      site id: {}
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
       siteId: {}
       step name:
         type:
@@ -47,6 +63,15 @@ rules:
       wf session id:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string

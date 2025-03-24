@@ -1,0 +1,10 @@
+rules:
+  - key: Firewall shown
+    type: TRACK
+    description: Firewall shown
+    version: 1
+    labels: {}
+    properties:
+      firewall:
+        type:
+          - string

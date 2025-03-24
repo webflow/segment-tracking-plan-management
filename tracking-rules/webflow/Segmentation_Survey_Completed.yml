@@ -5,7 +5,13 @@ rules:
     version: 1
     labels: {}
     properties:
+      anythingElse:
+        type:
+          - string
       become expert interest:
+        type:
+          - string
+      budget:
         type:
           - string
       build:
@@ -69,10 +75,18 @@ rules:
         type:
           - string
       hireExpert: {}
-      isStudent: {}
+      isStudent:
+        type:
+          - string
+      locationPreference:
+        type:
+          - string
       number of steps:
         type:
           - integer
+      onboardProjAirtableUID:
+        type:
+          - string
       onboarding questionnaire submitted:
         type:
           - string

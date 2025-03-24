@@ -1,0 +1,16 @@
+rules:
+  - key: Resources - Forum Clicked
+    type: TRACK
+    description: Resources - Forum Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

@@ -1,0 +1,16 @@
+rules:
+  - key: Footer - Forum Clicked
+    type: TRACK
+    description: Footer - Forum Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

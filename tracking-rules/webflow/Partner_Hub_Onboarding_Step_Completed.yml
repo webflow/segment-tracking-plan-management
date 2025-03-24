@@ -1,0 +1,22 @@
+rules:
+  - key: Partner Hub Onboarding Step Completed
+    type: TRACK
+    description: Partner Hub Onboarding Step Completed
+    version: 1
+    labels: {}
+    properties:
+      requirement:
+        type:
+          - string
+      role:
+        type:
+          - string
+      step:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string

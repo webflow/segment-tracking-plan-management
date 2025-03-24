@@ -1,0 +1,22 @@
+rules:
+  - key: AI Site Generator Selected
+    type: TRACK
+    description: AI Site Generator Selected
+    version: 1
+    labels: {}
+    properties:
+      AISBExperimentVariant:
+        type:
+          - string
+      enabledAISiteGenViaMarketingSite:
+        type:
+          - boolean
+      isInAiSiteGenFlag:
+        type:
+          - boolean
+      ref:
+        type:
+          - string
+      shouldShowAISiteGenOption:
+        type:
+          - boolean

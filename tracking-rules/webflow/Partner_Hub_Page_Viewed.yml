@@ -8,6 +8,15 @@ rules:
       page:
         type:
           - string
+      params:
+        properties:
+          paramCollectionSlug:
+            type:
+              - string
+          paramWorkspaceSlug:
+            type:
+              - string
+        type: object
       referer:
         type:
           - string

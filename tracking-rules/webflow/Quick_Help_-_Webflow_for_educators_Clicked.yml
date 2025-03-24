@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - Webflow for educators Clicked
+    type: TRACK
+    description: Quick Help - Webflow for educators Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

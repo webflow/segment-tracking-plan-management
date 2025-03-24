@@ -1,0 +1,19 @@
+rules:
+  - key: Template Search - Image Scrolled Inside Popup
+    type: TRACK
+    description: Template Search - Image Scrolled Inside Popup
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      scrollingToIndex:
+        type:
+          - string
+      source:
+        type:
+          - string

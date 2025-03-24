@@ -21,6 +21,9 @@ rules:
       legacy team id:
         type:
           - string
+      payment method status:
+        type:
+          - string
       plan selected:
         type:
           - string
@@ -54,6 +57,15 @@ rules:
       team id:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string

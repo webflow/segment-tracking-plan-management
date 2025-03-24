@@ -1,0 +1,16 @@
+rules:
+  - key: Webflow 101 Clicked
+    type: TRACK
+    description: Webflow 101 Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

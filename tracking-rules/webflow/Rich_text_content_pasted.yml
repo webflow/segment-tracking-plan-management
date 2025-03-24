@@ -1,0 +1,22 @@
+rules:
+  - key: Rich text content pasted
+    type: TRACK
+    description: Rich text content pasted
+    version: 1
+    labels: {}
+    properties:
+      is sanitized:
+        type:
+          - boolean
+      sanitized data:
+        properties:
+          clean:
+            type:
+              - string
+          raw:
+            type:
+              - string
+        type: object
+      source:
+        type:
+          - string

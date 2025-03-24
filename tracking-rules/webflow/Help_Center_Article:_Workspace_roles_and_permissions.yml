@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Workspace roles and permissions'
+    type: TRACK
+    description: 'Help Center Article: Workspace roles and permissions'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

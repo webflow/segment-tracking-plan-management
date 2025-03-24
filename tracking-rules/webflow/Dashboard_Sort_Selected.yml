@@ -1,0 +1,37 @@
+rules:
+  - key: Dashboard Sort Selected
+    type: TRACK
+    description: Dashboard Sort Selected
+    version: 1
+    labels: {}
+    properties:
+      initial value:
+        type:
+          - string
+      new value:
+        type:
+          - string
+      site count:
+        type:
+          - integer
+      user id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

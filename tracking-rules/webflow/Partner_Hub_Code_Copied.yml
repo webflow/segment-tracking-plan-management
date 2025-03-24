@@ -1,0 +1,19 @@
+rules:
+  - key: Partner Hub Code Copied
+    type: TRACK
+    description: Partner Hub Code Copied
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceRole:
+        type:
+          - string

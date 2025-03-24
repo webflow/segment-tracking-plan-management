@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Connect a custom domain overview'
+    type: TRACK
+    description: 'Help Center Article: Connect a custom domain overview'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

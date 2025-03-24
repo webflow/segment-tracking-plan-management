@@ -8,7 +8,19 @@ rules:
       action:
         type:
           - string
+      contact sales qualified:
+        type:
+          - boolean
       cta:
+        type:
+          - string
+      current month usage:
+        type:
+          - integer
+      current plan id:
+        type:
+          - string
+      feature notification type:
         type:
           - string
       legacy team id:
@@ -17,10 +29,17 @@ rules:
       location:
         type:
           - string
+      occurrence:
+        type:
+          - string
+      previous month usage: {}
       ref:
         type:
           - string
       site id:
+        type:
+          - string
+      site name:
         type:
           - string
       site plan id:
@@ -35,6 +54,18 @@ rules:
       type:
         type:
           - string
+      usage limit:
+        type:
+          - integer
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string
@@ -57,5 +88,8 @@ rules:
         type:
           - integer
       workspace slug:
+        type:
+          - string
+      workspace_role:
         type:
           - string

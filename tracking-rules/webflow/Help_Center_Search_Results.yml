@@ -1,0 +1,19 @@
+rules:
+  - key: Help Center Search Results
+    type: TRACK
+    description: Help Center Search Results
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

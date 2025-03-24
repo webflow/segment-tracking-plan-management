@@ -1,0 +1,17 @@
+rules:
+  - key: Pricing Update Notification Sent
+    type: TRACK
+    description: Pricing Update Notification Sent
+    version: 1
+    labels: {}
+    properties:
+      recipients:
+        items:
+          type: string
+        type: array
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

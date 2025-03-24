@@ -1,0 +1,19 @@
+rules:
+  - key: Accordion Interaction
+    type: TRACK
+    description: Accordion Interaction
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      element_type:
+        type:
+          - string
+      path:
+        type:
+          - string
+      title:
+        type:
+          - string

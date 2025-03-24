@@ -1,0 +1,122 @@
+rules:
+  - key: Overage Notification See Usage Clicked
+    type: TRACK
+    description: Overage Notification See Usage Clicked
+    version: 1
+    labels: {}
+    properties:
+      bannerId:
+        type:
+          - string
+      currentPlan:
+        type:
+          - string
+      currentPlanId:
+        type:
+          - string
+      currentUsage:
+        type:
+          - integer
+      featureNotificationType:
+        type:
+          - string
+      isBandwidthAddonMaxedOut:
+        type:
+          - boolean
+      isCompletedAutoUpgradeDetermined:
+        type:
+          - boolean
+      nextResetDate:
+        type:
+          - string
+      nextTierPlan:
+        type:
+          - string
+      notificationType:
+        type:
+          - string
+      occurrence:
+        type:
+          - string
+      previousUsage: {}
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteName:
+        type:
+          - string
+      siteSlug:
+        type:
+          - string
+      subscriptionUpdatedOrigin:
+        type:
+          - boolean
+      usageLimit:
+        type:
+          - integer
+      usageLimitFormatted:
+        type:
+          - string
+      usageLimitGB:
+        type:
+          - integer
+      wentOverHighUsageThresholdPreviousMonth:
+        type:
+          - boolean
+      wentOverThresholdPreviousMonth:
+        type:
+          - boolean
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string
+      workspaceName:
+        type:
+          - string
+      workspaceSlug:
+        type:
+          - string

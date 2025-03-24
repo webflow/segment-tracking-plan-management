@@ -1,0 +1,13 @@
+rules:
+  - key: Save Custom Code
+    type: TRACK
+    description: Save Custom Code
+    version: 1
+    labels: {}
+    properties:
+      custom code location:
+        type:
+          - string
+      source:
+        type:
+          - string

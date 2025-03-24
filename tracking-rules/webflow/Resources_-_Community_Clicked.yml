@@ -1,0 +1,16 @@
+rules:
+  - key: Resources - Community Clicked
+    type: TRACK
+    description: Resources - Community Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

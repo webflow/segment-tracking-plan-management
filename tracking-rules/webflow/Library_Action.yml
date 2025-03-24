@@ -1,0 +1,61 @@
+rules:
+  - key: Library Action
+    type: TRACK
+    description: Library Action
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      adobe fonts count:
+        type:
+          - integer
+      assets count:
+        type:
+          - integer
+      blocked symbols count:
+        type:
+          - integer
+      custom fonts count:
+        type:
+          - integer
+      google fonts count:
+        type:
+          - integer
+      installs count:
+        type:
+          - integer
+      interactions count:
+        type:
+          - integer
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library type:
+        type:
+          - string
+      library version id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      source:
+        type:
+          - string
+      symbols count:
+        type:
+          - integer
+      variables count:
+        type:
+          - integer
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

@@ -17,9 +17,7 @@ rules:
       comment:
         type:
           - string
-      comments:
-        type:
-          - string
+      comments: {}
       cost of new plan:
         type:
           - integer
@@ -47,17 +45,25 @@ rules:
       new number of seats:
         type:
           - integer
-      new plan frequency: {}
+      new plan frequency:
+        type:
+          - string
       new plan level:
         type:
           - string
       plan type:
         type:
           - string
-      promotion applied: {}
+      promotion applied:
+        type:
+          - boolean
       promotion code: {}
-      promotion type: {}
-      promotion value: {}
+      promotion type:
+        type:
+          - string
+      promotion value:
+        type:
+          - integer
       reason:
         items:
           type: string
@@ -96,7 +102,9 @@ rules:
       ref:
         type:
           - string
-      site id: {}
+      site id:
+        type:
+          - string
       site plan id:
         type:
           - string
@@ -107,7 +115,9 @@ rules:
         type:
           - string
       siteId: {}
-      stripe subscription id: {}
+      stripe subscription id:
+        type:
+          - string
       switch to competitor: {}
       team id: {}
       teamId: {}
@@ -117,12 +127,19 @@ rules:
       transferring site:
         type:
           - string
-      value of new plan:
-        type:
-          - integer
+      value of new plan: {}
       wf session id:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string
@@ -132,6 +149,15 @@ rules:
       workspace is enterprise:
         type:
           - boolean
+      workspace new addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace new number of seats:
         type:
           - integer

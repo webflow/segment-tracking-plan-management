@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - How do I submit a DMCA takedown request? Clicked
+    type: TRACK
+    description: Quick Help - How do I submit a DMCA takedown request? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

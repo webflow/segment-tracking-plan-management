@@ -1,0 +1,13 @@
+rules:
+  - key: Request Sent
+    type: TRACK
+    description: Request Sent
+    version: 1
+    labels: {}
+    properties:
+      element_type:
+        type:
+          - string
+      path:
+        type:
+          - string

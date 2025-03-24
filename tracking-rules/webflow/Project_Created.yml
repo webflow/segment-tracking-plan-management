@@ -14,9 +14,7 @@ rules:
       create method:
         type:
           - string
-      from site:
-        type:
-          - string
+      from site: {}
       library cost:
         type:
           - string
@@ -34,7 +32,9 @@ rules:
         items:
           type: string
         type: array
-      site id: {}
+      site id:
+        type:
+          - string
       site plan id:
         type:
           - string
@@ -80,11 +80,24 @@ rules:
       wf_source:
         type:
           - string
-      workspace id: {}
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
+      workspace id:
+        type:
+          - string
       workspace is enterprise:
         type:
           - boolean
-      workspace plan: {}
+      workspace plan:
+        type:
+          - string
       workspace plan id:
         type:
           - string
@@ -94,7 +107,9 @@ rules:
       workspace role:
         type:
           - string
-      workspace seat count: {}
+      workspace seat count:
+        type:
+          - integer
       workspace slug:
         type:
           - string

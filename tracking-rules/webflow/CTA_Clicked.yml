@@ -5,6 +5,9 @@ rules:
     version: 1
     labels: {}
     properties:
+      action:
+        type:
+          - string
       button CTA:
         type:
           - string
@@ -25,6 +28,12 @@ rules:
         items:
           type: string
         type: array
+      cta:
+        type:
+          - string
+      currentStep:
+        type:
+          - string
       ids:
         items:
           properties:
@@ -401,6 +410,9 @@ rules:
       legacy team id:
         type:
           - string
+      location:
+        type:
+          - string
       logged in:
         type:
           - boolean
@@ -422,6 +434,9 @@ rules:
       page type:
         type:
           - string
+      position:
+        type:
+          - string
       position on page:
         type:
           - string
@@ -431,7 +446,9 @@ rules:
       scroll:
         type:
           - string
-      site id: {}
+      site id:
+        type:
+          - string
       site ids:
         items:
           type: string
@@ -456,6 +473,9 @@ rules:
       sso:
         type:
           - boolean
+      stepCount:
+        type:
+          - integer
       surface area:
         type:
           - string
@@ -470,9 +490,21 @@ rules:
       type:
         type:
           - string
+      url:
+        type:
+          - string
       wf session id:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string

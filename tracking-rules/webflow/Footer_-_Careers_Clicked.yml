@@ -1,0 +1,16 @@
+rules:
+  - key: Footer - Careers Clicked
+    type: TRACK
+    description: Footer - Careers Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

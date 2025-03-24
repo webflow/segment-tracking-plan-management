@@ -8,7 +8,9 @@ rules:
       ref:
         type:
           - string
-      site id: {}
+      site id:
+        type:
+          - string
       site plan id:
         type:
           - string
@@ -21,7 +23,9 @@ rules:
       siteId: {}
       team id: {}
       teamId: {}
-      template: {}
+      template:
+        type:
+          - string
       template cost:
         type:
           - string
@@ -32,6 +36,15 @@ rules:
       wf session id:
         type:
           - string
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string

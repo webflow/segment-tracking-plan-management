@@ -1,0 +1,16 @@
+rules:
+  - key: Marketplace - Apps Clicked
+    type: TRACK
+    description: Marketplace - Apps Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

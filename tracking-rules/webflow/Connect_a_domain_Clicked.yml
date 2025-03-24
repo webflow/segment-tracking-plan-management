@@ -1,0 +1,16 @@
+rules:
+  - key: Connect a domain Clicked
+    type: TRACK
+    description: Connect a domain Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

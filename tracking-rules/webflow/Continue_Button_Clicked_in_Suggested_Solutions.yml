@@ -1,0 +1,10 @@
+rules:
+  - key: Continue Button Clicked in Suggested Solutions
+    type: TRACK
+    description: Continue Button Clicked in Suggested Solutions
+    version: 1
+    labels: {}
+    properties:
+      firewall:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: Scroll Depth Reached
+    type: TRACK
+    description: Scroll Depth Reached
+    version: 1
+    labels: {}
+    properties:
+      depth:
+        type:
+          - integer
+      pageHeight:
+        type:
+          - integer
+      path:
+        type:
+          - string
+      viewportHeight:
+        type:
+          - integer

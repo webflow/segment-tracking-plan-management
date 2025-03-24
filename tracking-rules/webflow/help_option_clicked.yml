@@ -1,0 +1,10 @@
+rules:
+  - key: help_option_clicked
+    type: TRACK
+    description: help_option_clicked
+    version: 1
+    labels: {}
+    properties:
+      option:
+        type:
+          - string

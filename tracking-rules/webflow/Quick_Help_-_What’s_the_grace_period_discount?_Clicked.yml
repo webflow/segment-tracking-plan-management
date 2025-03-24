@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - What’s the grace period discount? Clicked
+    type: TRACK
+    description: Quick Help - What’s the grace period discount? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

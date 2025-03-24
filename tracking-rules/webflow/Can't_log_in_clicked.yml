@@ -1,0 +1,7 @@
+rules:
+  - key: Can't log in clicked
+    type: TRACK
+    description: Can't log in clicked
+    version: 1
+    labels: {}
+    properties: {}

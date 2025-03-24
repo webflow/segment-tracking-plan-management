@@ -1,0 +1,28 @@
+rules:
+  - key: App Created
+    type: TRACK
+    description: App Created
+    version: 1
+    labels: {}
+    properties:
+      app description:
+        type:
+          - string
+      app id:
+        type:
+          - string
+      app name:
+        type:
+          - string
+      has designer extension:
+        type:
+          - boolean
+      has oauth application:
+        type:
+          - boolean
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

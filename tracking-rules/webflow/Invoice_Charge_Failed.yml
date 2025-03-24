@@ -14,7 +14,9 @@ rules:
       item:
         type:
           - string
-      item slug: {}
+      item slug:
+        type:
+          - string
       last 4 digits:
         type:
           - string
@@ -31,6 +33,9 @@ rules:
         type:
           - string
       source:
+        type:
+          - string
+      treatment payment exp:
         type:
           - string
       wf_source:

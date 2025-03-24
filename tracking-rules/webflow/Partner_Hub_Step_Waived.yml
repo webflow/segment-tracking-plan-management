@@ -1,0 +1,19 @@
+rules:
+  - key: Partner Hub Step Waived
+    type: TRACK
+    description: Partner Hub Step Waived
+    version: 1
+    labels: {}
+    properties:
+      requirement:
+        type:
+          - string
+      role:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string

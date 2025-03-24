@@ -1,0 +1,22 @@
+rules:
+  - key: Template Search - Prev Page Clicked
+    type: TRACK
+    description: Template Search - Prev Page Clicked
+    version: 1
+    labels: {}
+    properties:
+      currentPage:
+        type:
+          - string
+      destinationPage:
+        type:
+          - string
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

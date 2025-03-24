@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Drafted pages'
+    type: TRACK
+    description: 'Help Center Article: Drafted pages'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

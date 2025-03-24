@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Article: Configure taxes on Ecommerce orders'
+    type: TRACK
+    description: 'Help Center Article: Configure taxes on Ecommerce orders'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

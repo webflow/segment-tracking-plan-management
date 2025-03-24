@@ -32,6 +32,9 @@ rules:
       logged in:
         type:
           - boolean
+      loggedIn:
+        type:
+          - boolean
       mode:
         type:
           - string

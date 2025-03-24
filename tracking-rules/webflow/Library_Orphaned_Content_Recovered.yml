@@ -1,0 +1,22 @@
+rules:
+  - key: Library Orphaned Content Recovered
+    type: TRACK
+    description: Library Orphaned Content Recovered
+    version: 1
+    labels: {}
+    properties:
+      components detached:
+        type:
+          - integer
+      components updated:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

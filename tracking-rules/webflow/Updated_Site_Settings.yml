@@ -11,6 +11,12 @@ rules:
       ref:
         type:
           - string
+      setting:
+        type:
+          - string
+      settings_name:
+        type:
+          - string
       site id:
         type:
           - string
@@ -18,6 +24,12 @@ rules:
         type:
           - string
       siteId: {}
+      site_id:
+        type:
+          - string
+      site_slug:
+        type:
+          - string
       source:
         type:
           - string
@@ -43,5 +55,8 @@ rules:
         type:
           - integer
       workspace slug:
+        type:
+          - string
+      workspace_id:
         type:
           - string

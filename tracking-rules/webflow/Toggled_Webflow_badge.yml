@@ -1,0 +1,7 @@
+rules:
+  - key: Toggled Webflow badge
+    type: TRACK
+    description: Toggled Webflow badge
+    version: 1
+    labels: {}
+    properties: {}

@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - Can I bulk-import my products in Webflow Ecommerce? Clicked
+    type: TRACK
+    description: Quick Help - Can I bulk-import my products in Webflow Ecommerce? Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

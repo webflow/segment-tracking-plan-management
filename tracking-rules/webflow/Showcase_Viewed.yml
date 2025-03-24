@@ -15,6 +15,9 @@ rules:
       designer id:
         type:
           - string
+      loggedIn:
+        type:
+          - boolean
       profile:
         type:
           - string

@@ -1,0 +1,10 @@
+rules:
+  - key: Person profile created
+    type: TRACK
+    description: Person profile created
+    version: 1
+    labels: {}
+    properties:
+      wf_source:
+        type:
+          - string

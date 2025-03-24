@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - Why was I charged when my site exceeded its bandwidth limit?
+      Clicked
+    type: TRACK
+    description: >-
+      Quick Help - Why was I charged when my site exceeded its bandwidth limit?
+      Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

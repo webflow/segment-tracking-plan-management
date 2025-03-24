@@ -5,10 +5,19 @@ rules:
     version: 1
     labels: {}
     properties:
+      can manage site billing:
+        type:
+          - boolean
       can publish:
         type:
           - boolean
+      display price:
+        type:
+          - string
       email:
+        type:
+          - string
+      interval:
         type:
           - string
       invitation link:
@@ -18,6 +27,15 @@ rules:
         type:
           - string
       recipient role:
+        type:
+          - string
+      request date:
+        type:
+          - string
+      site name:
+        type:
+          - string
+      site plan name:
         type:
           - string
       site role:

@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - How to fix “User is required” or “missing username or email”
+      error when logging into Webflow Clicked
+    type: TRACK
+    description: >-
+      Quick Help - How to fix “User is required” or “missing username or email”
+      error when logging into Webflow Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

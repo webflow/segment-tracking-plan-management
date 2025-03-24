@@ -1,0 +1,16 @@
+rules:
+  - key: Developer docs Card Clicked
+    type: TRACK
+    description: Developer docs Card Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

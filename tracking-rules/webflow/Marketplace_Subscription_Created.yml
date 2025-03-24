@@ -1,0 +1,13 @@
+rules:
+  - key: Marketplace Subscription Created
+    type: TRACK
+    description: Marketplace Subscription Created
+    version: 1
+    labels: {}
+    properties:
+      seller workspace id:
+        type:
+          - string
+      workspace slug:
+        type:
+          - string

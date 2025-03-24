@@ -1,0 +1,16 @@
+rules:
+  - key: Partner Hub Manipulative Viewed
+    type: TRACK
+    description: Partner Hub Manipulative Viewed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      params:
+        type:
+          - string
+      source:
+        type:
+          - string

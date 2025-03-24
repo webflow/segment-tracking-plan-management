@@ -1,0 +1,34 @@
+rules:
+  - key: '[Invite guest modal] Guest email entered'
+    type: TRACK
+    description: '[Invite guest modal] Guest email entered'
+    version: 1
+    labels: {}
+    properties:
+      emailValidationSucceeded:
+        type:
+          - boolean
+      guestDomain:
+        type:
+          - string
+      guestDomainMatchesHostDomain:
+        type:
+          - boolean
+      guestHadAllowlistedDomain:
+        type:
+          - boolean
+      guestHadWhitelistedDomain:
+        type:
+          - boolean
+      hostDomain:
+        type:
+          - string
+      wf_source:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspacePlan:
+        type:
+          - string

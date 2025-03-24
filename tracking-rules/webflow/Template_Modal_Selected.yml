@@ -5,12 +5,24 @@ rules:
     version: 1
     labels: {}
     properties:
+      AISBExperimentVariant:
+        type:
+          - string
       category:
         type:
           - string
+      enabledAISiteGenViaMarketingSite:
+        type:
+          - boolean
+      isInAiSiteGenFlag:
+        type:
+          - boolean
       ref:
         type:
           - string
+      shouldShowAISiteGenOption:
+        type:
+          - boolean
       type:
         type:
           - string

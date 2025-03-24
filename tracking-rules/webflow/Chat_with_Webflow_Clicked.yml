@@ -1,0 +1,7 @@
+rules:
+  - key: Chat with Webflow Clicked
+    type: TRACK
+    description: Chat with Webflow Clicked
+    version: 1
+    labels: {}
+    properties: {}

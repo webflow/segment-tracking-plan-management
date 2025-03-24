@@ -10,7 +10,7 @@ rules:
           - boolean
       maintain 2FA 30 days:
         type:
-          - boolean
+          - string
       page:
         type:
           - string

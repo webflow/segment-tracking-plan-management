@@ -1,0 +1,10 @@
+rules:
+  - key: Toggled Bot Protection
+    type: TRACK
+    description: Toggled Bot Protection
+    version: 1
+    labels: {}
+    properties:
+      value:
+        type:
+          - boolean

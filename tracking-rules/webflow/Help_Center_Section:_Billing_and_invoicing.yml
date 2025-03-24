@@ -1,0 +1,19 @@
+rules:
+  - key: 'Help Center Section: Billing and invoicing'
+    type: TRACK
+    description: 'Help Center Section: Billing and invoicing'
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      redirect:
+        type:
+          - boolean
+      source:
+        type:
+          - string

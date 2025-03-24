@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - I signed up for a Webflow account but didn Clicked
+    type: TRACK
+    description: Quick Help - I signed up for a Webflow account but didn Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

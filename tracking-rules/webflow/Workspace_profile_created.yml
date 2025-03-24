@@ -1,0 +1,10 @@
+rules:
+  - key: Workspace profile created
+    type: TRACK
+    description: Workspace profile created
+    version: 1
+    labels: {}
+    properties:
+      wf_source:
+        type:
+          - string

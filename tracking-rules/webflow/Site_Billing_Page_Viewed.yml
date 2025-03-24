@@ -1,0 +1,63 @@
+rules:
+  - key: Site Billing Page Viewed
+    type: TRACK
+    description: Site Billing Page Viewed
+    version: 1
+    labels: {}
+    properties:
+      cancellation source:
+        type:
+          - string
+      legacy team id:
+        type:
+          - string
+      primary upgrade source:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      tab:
+        type:
+          - string
+      team id: {}
+      teamId: {}
+      timestamp:
+        type:
+          - integer
+      upgrade prompt:
+        type:
+          - string
+      upgrade source page:
+        type:
+          - string
+      wf session id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string
+      workspace plan:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

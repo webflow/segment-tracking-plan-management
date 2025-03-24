@@ -6,14 +6,9 @@ rules:
     labels: {}
     properties:
       category:
-        id: /properties/properties/properties/category
         type:
           - string
       tags:
-        id: /properties/properties/properties/tags
         items:
-          id: /properties/properties/properties/tags/items
           type: string
-        type:
-          - array
-          - 'null'
+        type: array

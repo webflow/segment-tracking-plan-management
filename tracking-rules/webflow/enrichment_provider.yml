@@ -5,6 +5,12 @@ rules:
     version: 1
     labels: {}
     properties:
-      email: {}
-      product: {}
-      type: {}
+      email:
+        type:
+          - string
+      product:
+        type:
+          - string
+      type:
+        type:
+          - string

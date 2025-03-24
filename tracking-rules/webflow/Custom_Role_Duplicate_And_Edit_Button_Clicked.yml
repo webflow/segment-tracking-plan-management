@@ -1,0 +1,46 @@
+rules:
+  - key: Custom Role Duplicate And Edit Button Clicked
+    type: TRACK
+    description: Custom Role Duplicate And Edit Button Clicked
+    version: 1
+    labels: {}
+    properties:
+      site id:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site plan type:
+        type:
+          - string
+      site slug:
+        type:
+          - string
+      workspace addons:
+        type:
+          - object
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace plan id:
+        type:
+          - string
+      workspace plan type:
+        type:
+          - string
+      workspace role:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      workspace slug:
+        type:
+          - string

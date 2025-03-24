@@ -5,16 +5,28 @@ rules:
     version: 1
     labels: {}
     properties:
-      account: {}
-      blog: {}
-      events: {}
-      feature: {}
+      account:
+        type:
+          - boolean
+      blog:
+        type:
+          - boolean
+      events:
+        type:
+          - boolean
+      feature:
+        type:
+          - boolean
       followerUpdates: {}
-      product: {}
+      product:
+        type:
+          - boolean
       showcaseActivity:
         type:
           - boolean
-      showcaseActivityWeekly: {}
+      showcaseActivityWeekly:
+        type:
+          - boolean
       site id: {}
       siteId: {}
       team id: {}

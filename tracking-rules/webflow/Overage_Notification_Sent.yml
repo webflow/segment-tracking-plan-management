@@ -1,0 +1,60 @@
+rules:
+  - key: Overage Notification Sent
+    type: TRACK
+    description: Overage Notification Sent
+    version: 1
+    labels: {}
+    properties:
+      current usage:
+        type:
+          - integer
+      detected auto upgrade:
+        type:
+          - boolean
+      is bandwidth addon maxed out:
+        type:
+          - boolean
+      notification type:
+        type:
+          - string
+      occurrence:
+        type:
+          - string
+      previous month high usage overage:
+        type:
+          - boolean
+      previous month overage:
+        type:
+          - boolean
+      previous month usage: {}
+      recipients:
+        items:
+          type: string
+        type: array
+      site id:
+        type:
+          - string
+      site plan:
+        type:
+          - string
+      site plan id:
+        type:
+          - string
+      site usage limit:
+        type:
+          - integer
+      site usage limit GB:
+        type:
+          - integer
+      site usage limit formatted:
+        type:
+          - string
+      subscription updated origin:
+        type:
+          - boolean
+      wf_source:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

@@ -9,8 +9,9 @@ rules:
         type:
           - string
       course progress:
-        type:
-          - integer
+        items:
+          type: string
+        type: array
       lesson name:
         type:
           - string

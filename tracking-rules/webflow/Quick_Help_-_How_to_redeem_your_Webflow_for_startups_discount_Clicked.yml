@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - How to redeem your Webflow for startups discount Clicked
+    type: TRACK
+    description: Quick Help - How to redeem your Webflow for startups discount Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

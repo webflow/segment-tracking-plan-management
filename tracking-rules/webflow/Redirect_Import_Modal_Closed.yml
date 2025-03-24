@@ -1,0 +1,7 @@
+rules:
+  - key: Redirect Import Modal Closed
+    type: TRACK
+    description: Redirect Import Modal Closed
+    version: 1
+    labels: {}
+    properties: {}

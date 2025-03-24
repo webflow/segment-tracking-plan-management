@@ -1,0 +1,20 @@
+rules:
+  - key: >-
+      Quick Help - I can’t access the email associated with my Webflow account
+      Clicked
+    type: TRACK
+    description: >-
+      Quick Help - I can’t access the email associated with my Webflow account
+      Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

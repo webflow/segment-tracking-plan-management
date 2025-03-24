@@ -51,6 +51,9 @@ rules:
       page id:
         type:
           - string
+      plan:
+        type:
+          - string
       plan type:
         type:
           - string

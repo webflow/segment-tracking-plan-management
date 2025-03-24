@@ -39,7 +39,9 @@ rules:
       initial number of seats:
         type:
           - integer
-      initial plan frequency: {}
+      initial plan frequency:
+        type:
+          - string
       initial plan level:
         type:
           - string
@@ -109,6 +111,15 @@ rules:
       value of new plan:
         type:
           - integer
+      workspace addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace id:
         type:
           - string
@@ -118,6 +129,15 @@ rules:
       workspace is enterprise:
         type:
           - boolean
+      workspace new addons:
+        properties:
+          full seat count:
+            type:
+              - integer
+          limited seat count:
+            type:
+              - integer
+        type: object
       workspace new number of seats:
         type:
           - integer

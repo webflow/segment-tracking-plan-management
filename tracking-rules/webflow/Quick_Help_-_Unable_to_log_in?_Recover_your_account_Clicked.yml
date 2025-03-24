@@ -1,0 +1,16 @@
+rules:
+  - key: Quick Help - Unable to log in? Recover your account Clicked
+    type: TRACK
+    description: Quick Help - Unable to log in? Recover your account Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

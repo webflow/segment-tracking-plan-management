@@ -1,0 +1,10 @@
+rules:
+  - key: Notice dismissed
+    type: TRACK
+    description: Notice dismissed
+    version: 1
+    labels: {}
+    properties:
+      ID:
+        type:
+          - string

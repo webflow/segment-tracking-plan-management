@@ -1,0 +1,16 @@
+rules:
+  - key: Partner Hub Commission Explainer Opened
+    type: TRACK
+    description: Partner Hub Commission Explainer Opened
+    version: 1
+    labels: {}
+    properties:
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceRole:
+        type:
+          - string

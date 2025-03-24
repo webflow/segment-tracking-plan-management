@@ -1,0 +1,10 @@
+rules:
+  - key: Banner Viewed
+    type: TRACK
+    description: Banner Viewed
+    version: 1
+    labels: {}
+    properties:
+      banner:
+        type:
+          - string

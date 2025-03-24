@@ -1,0 +1,17 @@
+rules:
+  - key: Property Toggle Clicked
+    type: TRACK
+    description: Property Toggle Clicked
+    version: 1
+    labels: {}
+    properties:
+      element_type:
+        type:
+          - string
+      path:
+        type:
+          - string
+      property:
+        type:
+          - string
+      state: {}

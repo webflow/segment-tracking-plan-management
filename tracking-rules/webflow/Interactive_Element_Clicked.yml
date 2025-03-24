@@ -1,0 +1,20 @@
+rules:
+  - key: Interactive Element Clicked
+    type: TRACK
+    description: Interactive Element Clicked
+    version: 1
+    labels: {}
+    properties:
+      controls: {}
+      element_type:
+        type:
+          - string
+      path:
+        type:
+          - string
+      state:
+        type:
+          - string
+      text:
+        type:
+          - string

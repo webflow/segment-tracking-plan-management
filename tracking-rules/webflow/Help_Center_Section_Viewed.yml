@@ -1,0 +1,19 @@
+rules:
+  - key: Help Center Section Viewed
+    type: TRACK
+    description: Help Center Section Viewed
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      ref:
+        type:
+          - string
+      source:
+        type:
+          - string

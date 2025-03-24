@@ -1,0 +1,16 @@
+rules:
+  - key: Footer - Blog Clicked
+    type: TRACK
+    description: Footer - Blog Clicked
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      source:
+        type:
+          - string

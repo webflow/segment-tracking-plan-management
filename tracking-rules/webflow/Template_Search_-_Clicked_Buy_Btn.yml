@@ -1,0 +1,19 @@
+rules:
+  - key: Template Search - Clicked Buy Btn
+    type: TRACK
+    description: Template Search - Clicked Buy Btn
+    version: 1
+    labels: {}
+    properties:
+      logged in:
+        type:
+          - boolean
+      page:
+        type:
+          - string
+      price:
+        type:
+          - string
+      source:
+        type:
+          - string

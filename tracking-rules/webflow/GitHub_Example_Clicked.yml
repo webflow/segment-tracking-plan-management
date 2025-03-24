@@ -1,0 +1,19 @@
+rules:
+  - key: GitHub Example Clicked
+    type: TRACK
+    description: GitHub Example Clicked
+    version: 1
+    labels: {}
+    properties:
+      element_type:
+        type:
+          - string
+      full_url:
+        type:
+          - string
+      path:
+        type:
+          - string
+      repository:
+        type:
+          - string

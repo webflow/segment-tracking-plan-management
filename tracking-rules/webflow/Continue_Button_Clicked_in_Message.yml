@@ -1,0 +1,7 @@
+rules:
+  - key: Continue Button Clicked in Message
+    type: TRACK
+    description: Continue Button Clicked in Message
+    version: 1
+    labels: {}
+    properties: {}

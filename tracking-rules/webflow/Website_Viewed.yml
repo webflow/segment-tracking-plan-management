@@ -5,6 +5,9 @@ rules:
     version: 1
     labels: {}
     properties:
+      Redirect:
+        type:
+          - boolean
       btnError: {}
       btnVersion:
         type:
