@@ -14,3 +14,6 @@ rules:
       section type:
         type:
           - string
+      site type:
+        type:
+          - string

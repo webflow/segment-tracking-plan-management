@@ -1,0 +1,23 @@
+rules:
+  - key: Optimization Site Publish Modal
+    type: TRACK
+    description: Optimization Site Publish Modal
+    version: 1
+    labels: {}
+    properties:
+      action:
+        type:
+          - string
+      mode: {}
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

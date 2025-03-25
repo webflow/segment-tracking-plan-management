@@ -1,0 +1,22 @@
+rules:
+  - key: AIDA Clicked While Disabled
+    type: TRACK
+    description: AIDA Clicked While Disabled
+    version: 1
+    labels: {}
+    properties:
+      siteProperties:
+        properties:
+          currentPageId:
+            type:
+              - string
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object

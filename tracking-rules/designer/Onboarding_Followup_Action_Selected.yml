@@ -13,7 +13,7 @@ rules:
           - string
       active tutorials:
         type:
-          - array
+          - string
       cms item count:
         type:
           - integer

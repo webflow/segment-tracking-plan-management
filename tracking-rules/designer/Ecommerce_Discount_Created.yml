@@ -18,6 +18,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       discount type:
         type:
           - string
@@ -89,3 +92,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

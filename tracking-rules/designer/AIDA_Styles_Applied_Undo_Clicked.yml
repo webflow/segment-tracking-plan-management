@@ -1,0 +1,52 @@
+rules:
+  - key: AIDA Styles Applied Undo Clicked
+    type: TRACK
+    description: AIDA Styles Applied Undo Clicked
+    version: 1
+    labels: {}
+    properties:
+      copilotRequestId:
+        type:
+          - string
+      messageType:
+        type:
+          - string
+      nodeProperties:
+        properties:
+          hasChildren:
+            type:
+              - boolean
+          nodeId:
+            type:
+              - string
+          tagName:
+            type:
+              - string
+        type: object
+      selectedCategory:
+        type:
+          - string
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object
+      stylesProperties:
+        properties:
+          classesCreatedCount:
+            type:
+              - integer
+          classesUsedCount:
+            type:
+              - integer
+          variablesUsedCount:
+            type:
+              - integer
+        type: object

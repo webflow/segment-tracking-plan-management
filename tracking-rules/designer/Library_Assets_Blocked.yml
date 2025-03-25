@@ -1,0 +1,13 @@
+rules:
+  - key: Library Assets Blocked
+    type: TRACK
+    description: Library Assets Blocked
+    version: 1
+    labels: {}
+    properties:
+      asset count:
+        type:
+          - integer
+      library action:
+        type:
+          - string

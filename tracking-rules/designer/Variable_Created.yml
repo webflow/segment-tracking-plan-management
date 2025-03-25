@@ -11,6 +11,9 @@ rules:
       cms item count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -84,13 +87,16 @@ rules:
                   - string
               value:
                 type:
-                  - number
+                  - integer
               variableId:
                 type:
                   - string
             type: object
         type: object
       var_id:
+        type:
+          - string
+      variable_collection_name:
         type:
           - string
       workspace id:
@@ -105,3 +111,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

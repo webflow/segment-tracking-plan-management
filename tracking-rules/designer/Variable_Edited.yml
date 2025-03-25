@@ -11,18 +11,57 @@ rules:
       cms item count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
       ecommerce item count:
         type:
           - integer
+      edit source:
+        type:
+          - string
+      edit types:
+        items:
+          type: string
+        type: array
+      edit_type:
+        items:
+          type: string
+        type: array
+      edit_types:
+        items:
+          type: string
+        type: array
       location:
         type:
           - string
       mode:
         type:
           - string
+      name:
+        type:
+          - string
+      new_mode_value:
+        properties:
+          type:
+            type:
+              - string
+          value:
+            properties:
+              unit:
+                type:
+                  - string
+              value:
+                type:
+                  - number
+              variableId:
+                type:
+                  - string
+            type: object
+        type: object
       new_name:
         type:
           - string
@@ -56,7 +95,31 @@ rules:
                   - string
               value:
                 type:
-                  - integer
+                  - number
+              variableId:
+                type:
+                  - string
+            type: object
+        type: object
+      new_value_group_value:
+        type:
+          - string
+      new_value_order:
+        type:
+          - string
+      orig_mode_value:
+        properties:
+          type:
+            type:
+              - string
+          value:
+            properties:
+              unit:
+                type:
+                  - string
+              value:
+                type:
+                  - number
               variableId:
                 type:
                   - string
@@ -90,17 +153,26 @@ rules:
               - string
           value:
             properties:
+              number:
+                type:
+                  - string
               unit:
                 type:
                   - string
               value:
                 type:
-                  - integer
+                  - number
               variableId:
                 type:
                   - string
             type: object
         type: object
+      orig_value_group_value:
+        type:
+          - string
+      orig_value_order:
+        type:
+          - string
       page count:
         type:
           - integer
@@ -129,9 +201,82 @@ rules:
         type:
           - integer
       tutorial: {}
+      type:
+        type:
+          - string
+      value:
+        properties:
+          origin:
+            properties:
+              rule: {}
+              type:
+                type:
+                  - string
+            type: object
+          type:
+            type:
+              - string
+          value:
+            properties:
+              unit:
+                type:
+                  - string
+              value:
+                type:
+                  - integer
+              variableId:
+                type:
+                  - string
+            type: object
+        type: object
       var_id:
         type:
           - string
+      variable_mode_id:
+        type:
+          - string
+      variables:
+        items:
+          properties:
+            edit types:
+              items:
+                type: string
+              type: array
+            name:
+              type:
+                - string
+            new_value_group_value:
+              type:
+                - string
+            new_value_order:
+              type:
+                - string
+            orig_value_group_value:
+              type:
+                - string
+            orig_value_order:
+              type:
+                - string
+            type:
+              type:
+                - string
+            value:
+              properties:
+                origin:
+                  type:
+                    - object
+                type:
+                  type:
+                    - string
+                value:
+                  type:
+                    - string
+              type: object
+            var_id:
+              type:
+                - string
+          type: object
+        type: array
       workspace id:
         type:
           - string
@@ -144,3 +289,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

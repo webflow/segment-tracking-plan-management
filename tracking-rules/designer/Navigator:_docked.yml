@@ -18,6 +18,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -40,9 +43,7 @@ rules:
       page count:
         type:
           - integer
-      page id:
-        type:
-          - string
+      page id: {}
       pageId: {}
       plan type:
         type:
@@ -58,9 +59,7 @@ rules:
         type:
           - integer
       shortName: {}
-      site id:
-        type:
-          - string
+      site id: {}
       site published:
         type:
           - boolean
@@ -90,3 +89,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

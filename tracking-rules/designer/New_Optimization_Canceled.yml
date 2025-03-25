@@ -1,0 +1,29 @@
+rules:
+  - key: New Optimization Canceled
+    type: TRACK
+    description: New Optimization Canceled
+    version: 1
+    labels: {}
+    properties:
+      format:
+        type:
+          - string
+      mode: {}
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

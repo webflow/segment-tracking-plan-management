@@ -1,0 +1,74 @@
+rules:
+  - key: Insights Tracking Defaults Edited
+    type: TRACK
+    description: Insights Tracking Defaults Edited
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      new_tracking_defaults:
+        type:
+          - string
+      original_tracking_defaults:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

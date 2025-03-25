@@ -18,8 +18,15 @@ rules:
       collection count:
         type:
           - integer
-      ec_getting_started_todo: {}
-      ec_getting_started_todo_completed: {}
+      designer workflow:
+        type:
+          - string
+      ec_getting_started_todo:
+        type:
+          - string
+      ec_getting_started_todo_completed:
+        type:
+          - boolean
       ecommerce enabled:
         type:
           - boolean
@@ -29,7 +36,9 @@ rules:
       enterprise billing:
         type:
           - boolean
-      initiation_source: {}
+      initiation_source:
+        type:
+          - string
       legacy seat count:
         type:
           - integer
@@ -95,3 +104,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

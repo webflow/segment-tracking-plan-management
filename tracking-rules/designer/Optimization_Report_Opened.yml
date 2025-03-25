@@ -1,0 +1,26 @@
+rules:
+  - key: Optimization Report Opened
+    type: TRACK
+    description: Optimization Report Opened
+    version: 1
+    labels: {}
+    properties:
+      mode: {}
+      optimizationId:
+        type:
+          - string
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

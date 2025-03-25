@@ -1,0 +1,16 @@
+rules:
+  - key: AISG Pack Selected
+    type: TRACK
+    description: AISG Pack Selected
+    version: 1
+    labels: {}
+    properties:
+      feature:
+        type:
+          - string
+      label:
+        type:
+          - string
+      packType:
+        type:
+          - string

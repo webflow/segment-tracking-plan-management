@@ -25,6 +25,9 @@ rules:
       custom code:
         type:
           - boolean
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -49,7 +52,9 @@ rules:
       page id:
         type:
           - string
-      parent folder id: {}
+      parent folder id:
+        type:
+          - string
       password protection:
         type:
           - boolean
@@ -102,3 +107,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

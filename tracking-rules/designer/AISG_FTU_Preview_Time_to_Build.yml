@@ -1,0 +1,10 @@
+rules:
+  - key: AISG FTU Preview Time to Build
+    type: TRACK
+    description: AISG FTU Preview Time to Build
+    version: 1
+    labels: {}
+    properties:
+      buildTimeSeconds:
+        type:
+          - number

@@ -1,0 +1,32 @@
+rules:
+  - key: New Optimization Created
+    type: TRACK
+    description: New Optimization Created
+    version: 1
+    labels: {}
+    properties:
+      format:
+        type:
+          - string
+      mode: {}
+      optimizationId:
+        type:
+          - string
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

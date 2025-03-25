@@ -1,0 +1,28 @@
+rules:
+  - key: AIDA Section Picker Freeform Prompt Submitted
+    type: TRACK
+    description: AIDA Section Picker Freeform Prompt Submitted
+    version: 1
+    labels: {}
+    properties:
+      copilotRequestId:
+        type:
+          - string
+      messageType:
+        type:
+          - string
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object
+      userInput:
+        type:
+          - string

@@ -1,0 +1,101 @@
+rules:
+  - key: Collection Item Generated
+    type: TRACK
+    description: Collection Item Generated
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      bulk:
+        type:
+          - boolean
+      cms item count:
+        type:
+          - integer
+      cms version:
+        type:
+          - string
+      collection field count:
+        type:
+          - integer
+      collection id:
+        type:
+          - string
+      collection item count:
+        type:
+          - integer
+      collection name:
+        type:
+          - string
+      collection type:
+        type:
+          - string
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      number of items:
+        type:
+          - integer
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      prompt:
+        type:
+          - string
+      requestId:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

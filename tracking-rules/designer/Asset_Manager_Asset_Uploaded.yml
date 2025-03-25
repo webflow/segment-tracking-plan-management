@@ -24,6 +24,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -42,6 +45,9 @@ rules:
       file size:
         type:
           - integer
+      from well-known folder:
+        type:
+          - boolean
       image height:
         type:
           - integer
@@ -109,3 +115,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

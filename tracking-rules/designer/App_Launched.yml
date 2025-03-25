@@ -8,18 +8,77 @@ rules:
       active tutorials:
         type:
           - string
+      api version:
+        type:
+          - string
+      app connections:
+        items:
+          type: string
+        type: array
       app id:
         type:
           - string
+      app intents:
+        properties:
+          Image:
+            items:
+              type: string
+            type: array
+          form:
+            items:
+              type: string
+            type: array
+          image:
+            items:
+              type: string
+            type: array
+        type: object
       cms item count:
         type:
           - integer
+      current app connection:
+        properties:
+          resourceId:
+            type:
+              - string
+          resourceParentId:
+            type:
+              - string
+          resourceType:
+            type:
+              - string
+          value:
+            type:
+              - string
+        type: object
+      current app intent:
+        properties:
+          form:
+            type:
+              - string
+          image:
+            type:
+              - string
+        type: object
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
       ecommerce item count:
         type:
           - integer
+      environment:
+        type:
+          - string
+      feature flags:
+        items:
+          type: string
+        type: array
+      location:
+        type:
+          - string
       mode:
         type:
           - string
@@ -44,6 +103,9 @@ rules:
       site role:
         type:
           - string
+      source:
+        type:
+          - string
       styles count:
         type:
           - integer
@@ -63,3 +125,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

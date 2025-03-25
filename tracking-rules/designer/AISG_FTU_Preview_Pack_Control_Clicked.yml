@@ -1,0 +1,10 @@
+rules:
+  - key: AISG FTU Preview Pack Control Clicked
+    type: TRACK
+    description: AISG FTU Preview Pack Control Clicked
+    version: 1
+    labels: {}
+    properties:
+      pack popover:
+        type:
+          - string

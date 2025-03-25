@@ -1,0 +1,40 @@
+rules:
+  - key: AIDA Iteration Undo Clicked
+    type: TRACK
+    description: AIDA Iteration Undo Clicked
+    version: 1
+    labels: {}
+    properties:
+      categoryName:
+        type:
+          - string
+      copilotRequestId:
+        type:
+          - string
+      messageType:
+        type:
+          - string
+      nodeProperties:
+        properties:
+          hasChildren:
+            type:
+              - boolean
+          nodeId:
+            type:
+              - string
+          tagName:
+            type:
+              - string
+        type: object
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object

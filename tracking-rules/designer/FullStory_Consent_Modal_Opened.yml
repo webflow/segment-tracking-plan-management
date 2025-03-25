@@ -1,0 +1,19 @@
+rules:
+  - key: FullStory Consent Modal Opened
+    type: TRACK
+    description: FullStory Consent Modal Opened
+    version: 1
+    labels: {}
+    properties:
+      enabledBetaFeatures:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string

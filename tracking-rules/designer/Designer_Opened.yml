@@ -13,7 +13,7 @@ rules:
           - boolean
       active tutorials:
         type:
-          - array
+          - string
       activityLog:
         type:
           - boolean
@@ -78,6 +78,9 @@ rules:
         type:
           - boolean
       design mode:
+        type:
+          - string
+      designer workflow:
         type:
           - string
       designerSubdomain:
@@ -354,3 +357,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

@@ -17,6 +17,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -26,8 +29,12 @@ rules:
       enterprise billing:
         type:
           - boolean
-      initiation_source: {}
-      inv_sync_platform: {}
+      initiation_source:
+        type:
+          - string
+      inv_sync_platform:
+        type:
+          - string
       legacy seat count:
         type:
           - integer
@@ -90,3 +97,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

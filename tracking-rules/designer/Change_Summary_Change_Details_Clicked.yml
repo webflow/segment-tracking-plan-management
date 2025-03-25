@@ -1,0 +1,28 @@
+rules:
+  - key: Change Summary Change Details Clicked
+    type: TRACK
+    description: Change Summary Change Details Clicked
+    version: 1
+    labels: {}
+    properties:
+      card:
+        type:
+          - string
+      item:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      siteShortName:
+        type:
+          - string
+      userId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceSlug:
+        type:
+          - string

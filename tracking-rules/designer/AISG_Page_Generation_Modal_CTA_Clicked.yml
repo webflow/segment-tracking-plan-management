@@ -1,0 +1,10 @@
+rules:
+  - key: AISG Page Generation Modal CTA Clicked
+    type: TRACK
+    description: AISG Page Generation Modal CTA Clicked
+    version: 1
+    labels: {}
+    properties:
+      cta:
+        type:
+          - string

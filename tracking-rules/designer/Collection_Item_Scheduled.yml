@@ -7,7 +7,7 @@ rules:
     properties:
       active tutorials:
         type:
-          - array
+          - string
       bulk:
         type:
           - boolean
@@ -15,6 +15,9 @@ rules:
         type:
           - integer
       cms version:
+        type:
+          - string
+      designer workflow:
         type:
           - string
       ecommerce enabled:
@@ -93,3 +96,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

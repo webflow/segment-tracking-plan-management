@@ -1,0 +1,29 @@
+rules:
+  - key: Optimization Settings Clicked
+    type: TRACK
+    description: Optimization Settings Clicked
+    version: 1
+    labels: {}
+    properties:
+      mode: {}
+      optimizationId:
+        type:
+          - string
+      optimizationName:
+        type:
+          - string
+      pageName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

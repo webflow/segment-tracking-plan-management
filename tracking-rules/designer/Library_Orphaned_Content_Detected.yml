@@ -1,0 +1,28 @@
+rules:
+  - key: Library Orphaned Content Detected
+    type: TRACK
+    description: Library Orphaned Content Detected
+    version: 1
+    labels: {}
+    properties:
+      branch id:
+        type:
+          - string
+      locale id:
+        type:
+          - string
+      orphaned components:
+        type:
+          - integer
+      orphaned variables:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      workspace id:
+        type:
+          - string

@@ -1,0 +1,19 @@
+rules:
+  - key: AIDA Consent Viewed
+    type: TRACK
+    description: AIDA Consent Viewed
+    version: 1
+    labels: {}
+    properties:
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object

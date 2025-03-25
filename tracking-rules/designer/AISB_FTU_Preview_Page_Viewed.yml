@@ -1,0 +1,7 @@
+rules:
+  - key: AISB FTU Preview Page Viewed
+    type: TRACK
+    description: AISB FTU Preview Page Viewed
+    version: 1
+    labels: {}
+    properties: {}

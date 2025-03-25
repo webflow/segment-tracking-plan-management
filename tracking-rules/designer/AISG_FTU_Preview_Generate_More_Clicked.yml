@@ -1,0 +1,7 @@
+rules:
+  - key: AISG FTU Preview Generate More Clicked
+    type: TRACK
+    description: AISG FTU Preview Generate More Clicked
+    version: 1
+    labels: {}
+    properties: {}

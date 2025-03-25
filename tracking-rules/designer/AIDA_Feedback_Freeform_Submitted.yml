@@ -1,0 +1,40 @@
+rules:
+  - key: AIDA Feedback Freeform Submitted
+    type: TRACK
+    description: AIDA Feedback Freeform Submitted
+    version: 1
+    labels: {}
+    properties:
+      copilotRequestId:
+        type:
+          - string
+      messageType:
+        type:
+          - string
+      nodeProperties:
+        properties:
+          hasChildren:
+            type:
+              - boolean
+          nodeId:
+            type:
+              - string
+          tagName:
+            type:
+              - string
+        type: object
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object
+      userInput:
+        type:
+          - string

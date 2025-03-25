@@ -1,0 +1,31 @@
+rules:
+  - key: AIDA Quick Add Section
+    type: TRACK
+    description: AIDA Quick Add Section
+    version: 1
+    labels: {}
+    properties:
+      nodeProperties:
+        properties:
+          hasChildren:
+            type:
+              - boolean
+          nodeId:
+            type:
+              - string
+          tagName:
+            type:
+              - string
+        type: object
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object

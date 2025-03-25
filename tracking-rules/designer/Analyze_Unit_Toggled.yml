@@ -1,0 +1,13 @@
+rules:
+  - key: Analyze Unit Toggled
+    type: TRACK
+    description: Analyze Unit Toggled
+    version: 1
+    labels: {}
+    properties:
+      new_unit_value:
+        type:
+          - string
+      original_unit_value:
+        type:
+          - string

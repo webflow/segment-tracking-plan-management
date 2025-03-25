@@ -1,0 +1,34 @@
+rules:
+  - key: AIDA Closed
+    type: TRACK
+    description: AIDA Closed
+    version: 1
+    labels: {}
+    properties:
+      nodeProperties:
+        properties:
+          hasChildren:
+            type:
+              - boolean
+          nodeId:
+            type:
+              - string
+          tagName:
+            type:
+              - string
+        type: object
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object
+      source:
+        type:
+          - string

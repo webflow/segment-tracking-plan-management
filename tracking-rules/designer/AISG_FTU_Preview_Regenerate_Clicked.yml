@@ -1,0 +1,7 @@
+rules:
+  - key: AISG FTU Preview Regenerate Clicked
+    type: TRACK
+    description: AISG FTU Preview Regenerate Clicked
+    version: 1
+    labels: {}
+    properties: {}

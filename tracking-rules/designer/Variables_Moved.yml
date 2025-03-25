@@ -1,0 +1,106 @@
+rules:
+  - key: Variables Moved
+    type: TRACK
+    description: Variables Moved
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      collection_id:
+        type:
+          - string
+      collection_name:
+        type:
+          - string
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      orig_collection_id:
+        type:
+          - string
+      orig_collection_name:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      variable_modes:
+        type:
+          - array
+      variables:
+        items:
+          properties:
+            name:
+              type:
+                - string
+            type:
+              type:
+                - string
+            value:
+              properties:
+                type:
+                  type:
+                    - string
+                value:
+                  type:
+                    - object
+              type: object
+            var_id:
+              type:
+                - string
+          type: object
+        type: array
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

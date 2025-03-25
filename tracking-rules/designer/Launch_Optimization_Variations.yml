@@ -1,0 +1,41 @@
+rules:
+  - key: Launch Optimization Variations
+    type: TRACK
+    description: Launch Optimization Variations
+    version: 1
+    labels: {}
+    properties:
+      allVariations:
+        type:
+          - boolean
+      cta:
+        type:
+          - string
+      mode: {}
+      numVariations:
+        type:
+          - integer
+      optimizationId:
+        type:
+          - string
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      variationId:
+        type:
+          - string
+      variationName:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

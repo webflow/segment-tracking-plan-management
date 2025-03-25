@@ -1,0 +1,23 @@
+rules:
+  - key: Insights Panel Clicked
+    type: TRACK
+    description: Insights Panel Clicked
+    version: 1
+    labels: {}
+    properties:
+      mode: {}
+      pageName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

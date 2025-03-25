@@ -1,0 +1,7 @@
+rules:
+  - key: AISG FTU Preview Exit Clicked
+    type: TRACK
+    description: AISG FTU Preview Exit Clicked
+    version: 1
+    labels: {}
+    properties: {}

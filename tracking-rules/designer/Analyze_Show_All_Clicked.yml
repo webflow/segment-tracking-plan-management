@@ -1,0 +1,13 @@
+rules:
+  - key: Analyze Show All Clicked
+    type: TRACK
+    description: Analyze Show All Clicked
+    version: 1
+    labels: {}
+    properties:
+      location:
+        type:
+          - string
+      show_all_type:
+        type:
+          - string

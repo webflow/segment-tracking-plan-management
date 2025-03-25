@@ -10,15 +10,22 @@ rules:
           - integer
       active tutorials:
         type:
-          - array
+          - string
       cms item count:
         type:
           - integer
-      cms_field_slug: {}
-      cms_field_type: {}
+      cms_field_slug:
+        type:
+          - string
+      cms_field_type:
+        type:
+          - string
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -93,3 +100,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

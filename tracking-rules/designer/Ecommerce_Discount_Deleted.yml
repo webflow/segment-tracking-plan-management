@@ -10,13 +10,16 @@ rules:
           - integer
       active tutorials:
         type:
-          - array
+          - string
       cms item count:
         type:
           - integer
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -82,3 +85,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

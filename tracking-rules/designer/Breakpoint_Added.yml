@@ -25,6 +25,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -38,6 +41,9 @@ rules:
         type:
           - integer
       legacy team id:
+        type:
+          - string
+      location:
         type:
           - string
       mode:
@@ -70,6 +76,9 @@ rules:
       site role:
         type:
           - string
+      source:
+        type:
+          - string
       styles count:
         type:
           - integer
@@ -92,3 +101,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

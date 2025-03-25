@@ -1,0 +1,28 @@
+rules:
+  - key: AIDA Preview Options Show More Clicked
+    type: TRACK
+    description: AIDA Preview Options Show More Clicked
+    version: 1
+    labels: {}
+    properties:
+      copilotRequestId:
+        type:
+          - string
+      messageType:
+        type:
+          - string
+      selectedCategory:
+        type:
+          - string
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object

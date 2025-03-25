@@ -11,7 +11,9 @@ rules:
       key area:
         type:
           - string
-      page: {}
+      page:
+        type:
+          - string
       page id:
         type:
           - string

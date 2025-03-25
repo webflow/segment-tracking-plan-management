@@ -11,6 +11,12 @@ rules:
       cms item count:
         type:
           - integer
+      delete source:
+        type:
+          - string
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -24,6 +30,9 @@ rules:
         type:
           - string
       name:
+        type:
+          - string
+      orig_value_group_value:
         type:
           - string
       page count:
@@ -93,6 +102,32 @@ rules:
       var_id:
         type:
           - string
+      variables:
+        items:
+          properties:
+            name:
+              type:
+                - string
+            orig_value_group_value:
+              type:
+                - string
+            type:
+              type:
+                - string
+            value:
+              properties:
+                type:
+                  type:
+                    - string
+                value:
+                  type:
+                    - object
+              type: object
+            var_id:
+              type:
+                - string
+          type: object
+        type: array
       workspace id:
         type:
           - string
@@ -105,3 +140,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

@@ -1,0 +1,30 @@
+rules:
+  - key: Library Element Blocked
+    type: TRACK
+    description: Library Element Blocked
+    version: 1
+    labels: {}
+    properties:
+      element:
+        items:
+          type: string
+        type: array
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library type:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      symbol id:
+        items:
+          type: string
+        type: array
+      workspace id:
+        type:
+          - string

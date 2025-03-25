@@ -11,6 +11,9 @@ rules:
       cms item count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -44,6 +47,9 @@ rules:
       site role:
         type:
           - string
+      source:
+        type:
+          - string
       styles count:
         type:
           - integer
@@ -63,3 +69,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

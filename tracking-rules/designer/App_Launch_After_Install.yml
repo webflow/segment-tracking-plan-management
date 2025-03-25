@@ -1,0 +1,142 @@
+rules:
+  - key: App Launch After Install
+    type: TRACK
+    description: App Launch After Install
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      api version:
+        type:
+          - string
+      app connections:
+        items:
+          type: string
+        type: array
+      app id:
+        type:
+          - string
+      app intents:
+        properties:
+          form:
+            type:
+              - array
+          image:
+            items:
+              type: string
+            type: array
+        type: object
+      cms item count:
+        type:
+          - integer
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      feature flags:
+        properties:
+          appConnections:
+            type:
+              - boolean
+          comboClasses:
+            type:
+              - boolean
+          customCode:
+            type:
+              - boolean
+          expandedAppModes:
+            type:
+              - boolean
+          xscp:
+            type:
+              - boolean
+        type: object
+      location:
+        properties:
+          ancestorOrigins:
+            type:
+              - object
+          hash:
+            type:
+              - string
+          host:
+            type:
+              - string
+          hostname:
+            type:
+              - string
+          href:
+            type:
+              - string
+          origin:
+            type:
+              - string
+          pathname:
+            type:
+              - string
+          port:
+            type:
+              - string
+          protocol:
+            type:
+              - string
+          search:
+            type:
+              - string
+          selenium1736261119621:
+            type:
+              - boolean
+        type: object
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

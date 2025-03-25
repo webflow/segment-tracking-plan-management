@@ -1,0 +1,35 @@
+rules:
+  - key: Variation Edited
+    type: TRACK
+    description: Variation Edited
+    version: 1
+    labels: {}
+    properties:
+      editType:
+        type:
+          - string
+      mode: {}
+      optimizationId:
+        type:
+          - string
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      variationId:
+        type:
+          - string
+      variationName:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

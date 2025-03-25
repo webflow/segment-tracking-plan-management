@@ -1,0 +1,33 @@
+rules:
+  - key: Analyze Page Filter Edited
+    type: TRACK
+    description: Analyze Page Filter Edited
+    version: 1
+    labels: {}
+    properties:
+      filter_type:
+        type:
+          - string
+      location:
+        type:
+          - string
+      new_date_filter_value:
+        items:
+          type: string
+        type: array
+      new_device_type_value:
+        type:
+          - string
+      new_search_query_value:
+        type:
+          - string
+      original_date_filter_value:
+        items:
+          type: string
+        type: array
+      original_device_type_value:
+        type:
+          - string
+      original_search_query_value:
+        type:
+          - string

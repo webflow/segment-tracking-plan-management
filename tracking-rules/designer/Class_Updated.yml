@@ -16,6 +16,9 @@ rules:
         items:
           type: string
         type: array
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -37,6 +40,17 @@ rules:
       mode:
         type:
           - string
+      orig_variable_modes:
+        items:
+          properties:
+            collection:
+              type:
+                - string
+            mode:
+              type:
+                - string
+          type: object
+        type: array
       page count:
         type:
           - integer
@@ -90,6 +104,17 @@ rules:
       type:
         type:
           - string
+      variable_modes:
+        items:
+          properties:
+            collection:
+              type:
+                - string
+            mode:
+              type:
+                - string
+          type: object
+        type: array
       workspace id:
         type:
           - string
@@ -102,3 +127,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

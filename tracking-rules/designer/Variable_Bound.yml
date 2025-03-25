@@ -14,12 +14,27 @@ rules:
       cms item count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
       ecommerce item count:
         type:
           - integer
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library type:
+        type:
+          - string
+      library version id:
+        type:
+          - string
       location:
         type:
           - string
@@ -99,6 +114,12 @@ rules:
       var_id:
         type:
           - string
+      variable_collection:
+        type:
+          - string
+      variable_collection_id:
+        type:
+          - string
       workspace id:
         type:
           - string
@@ -111,3 +132,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

@@ -1,0 +1,7 @@
+rules:
+  - key: AISG FTU Preview Theme Tile Clicked
+    type: TRACK
+    description: AISG FTU Preview Theme Tile Clicked
+    version: 1
+    labels: {}
+    properties: {}

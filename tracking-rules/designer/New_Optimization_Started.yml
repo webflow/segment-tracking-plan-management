@@ -1,0 +1,23 @@
+rules:
+  - key: New Optimization Started
+    type: TRACK
+    description: New Optimization Started
+    version: 1
+    labels: {}
+    properties:
+      mode: {}
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      type:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

@@ -1,0 +1,7 @@
+rules:
+  - key: Calendly Event Type Viewed
+    type: TRACK
+    description: Calendly Event Type Viewed
+    version: 1
+    labels: {}
+    properties: {}

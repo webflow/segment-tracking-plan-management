@@ -10,7 +10,7 @@ rules:
           - integer
       active tutorials:
         type:
-          - array
+          - string
       bound:
         type:
           - boolean
@@ -20,6 +20,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -75,6 +78,9 @@ rules:
         type:
           - integer
       tutorial: {}
+      type:
+        type:
+          - string
       wf session id:
         type:
           - string
@@ -90,3 +96,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

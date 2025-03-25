@@ -1,0 +1,7 @@
+rules:
+  - key: AISG FTU Preview Edit Prompt Clicked
+    type: TRACK
+    description: AISG FTU Preview Edit Prompt Clicked
+    version: 1
+    labels: {}
+    properties: {}

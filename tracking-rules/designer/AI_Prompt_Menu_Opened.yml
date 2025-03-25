@@ -1,0 +1,88 @@
+rules:
+  - key: AI Prompt Menu Opened
+    type: TRACK
+    description: AI Prompt Menu Opened
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      cms version:
+        type:
+          - string
+      collection item id:
+        type:
+          - string
+      current status:
+        type:
+          - string
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      item type:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      previous status: {}
+      project item count:
+        type:
+          - integer
+      promptMenuEntry:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      source:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      variants count: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

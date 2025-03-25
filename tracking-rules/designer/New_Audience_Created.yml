@@ -1,0 +1,32 @@
+rules:
+  - key: New Audience Created
+    type: TRACK
+    description: New Audience Created
+    version: 1
+    labels: {}
+    properties:
+      audienceId:
+        type:
+          - string
+      audienceName:
+        type:
+          - string
+      mode: {}
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      source:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

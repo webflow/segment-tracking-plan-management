@@ -1,0 +1,22 @@
+rules:
+  - key: AIDA FTUX Viewed
+    type: TRACK
+    description: AIDA FTUX Viewed
+    version: 1
+    labels: {}
+    properties:
+      siteProperties:
+        properties:
+          currentPageId:
+            type:
+              - string
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object

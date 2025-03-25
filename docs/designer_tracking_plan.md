@@ -24,6 +24,88 @@ analytics.track(""Add fonts" clicked in the Style Panel", {})
 <!-- panels:end -->
 
 
+## AI Content Generation Requested
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **cms version** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **generation entry** | `string` | No description | ❌ |
+| **generationEntry** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **output format** | `string` | No description | ❌ |
+| **outputFormat** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **prompt** | `string` | No description | ❌ |
+| **quick modification prompt used** | `boolean` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AI Content Generation Requested", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "cms version": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "generation entry": "<<type: string, required: false>>",
+  "generationEntry": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "output format": "<<type: string, required: false>>",
+  "outputFormat": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "prompt": "<<type: string, required: false>>",
+  "quick modification prompt used": "<<type: boolean, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## AI Help CTA Clicked
 
 <!-- tabs:start -->
@@ -41,7 +123,7 @@ No description provided
 | **cta name** | `string` | No description | ❌ |
 | **interaction id** | `string` | No description | ❌ |
 | **key area** | `string` | No description | ❌ |
-| **page** | `string` | No description | ❌ |
+| **page** | `unknown` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
@@ -55,7 +137,7 @@ analytics.track("AI Help CTA Clicked", {
   "cta name": "<<type: string, required: false>>",
   "interaction id": "<<type: string, required: false>>",
   "key area": "<<type: string, required: false>>",
-  "page": "<<type: string, required: false>>",
+  "page": "<<type: unknown, required: false>>",
   "page id": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
@@ -122,7 +204,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **interaction id** | `string` | No description | ❌ |
 | **key area** | `string` | No description | ❌ |
-| **page** | `unknown` | No description | ❌ |
+| **page** | `string` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **surface area** | `string` | No description | ❌ |
@@ -133,7 +215,7 @@ No description provided
 analytics.track("AI Help Query Cleared", {
   "interaction id": "<<type: string, required: false>>",
   "key area": "<<type: string, required: false>>",
-  "page": "<<type: unknown, required: false>>",
+  "page": "<<type: string, required: false>>",
   "page id": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "surface area": "<<type: string, required: false>>",
@@ -184,6 +266,1749 @@ analytics.track("AI Help Query Entered", {
 <!-- panels:end -->
 
 
+## AI Prompt Menu Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **cms version** | `string` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
+| **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **item type** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **previous status** | `unknown` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **promptMenuEntry** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variants count** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AI Prompt Menu Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "cms version": "<<type: string, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
+  "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "item type": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "previous status": "<<type: unknown, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "promptMenuEntry": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variants count": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Classes Created Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **stylesProperties** | `object` | No description | ❌ |
+| **stylesProperties.classesCreatedCount** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Classes Created Clicked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "stylesProperties": {
+    "classesCreatedCount": "<<type: integer, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Classes Used Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **stylesProperties** | `object` | No description | ❌ |
+| **stylesProperties.classesUsedCount** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Classes Used Clicked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "stylesProperties": {
+    "classesUsedCount": "<<type: integer, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Clear Thread Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Clear Thread Clicked", {
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Clicked While Disabled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.currentPageId** | `string` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Clicked While Disabled", {
+  "siteProperties": {
+    "currentPageId": "<<type: string, required: false>>",
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Closed", {
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Consent Accepted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Consent Accepted", {
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Consent Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Consent Viewed", {
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Downvote Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Downvote Clicked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Element Added to Canvas
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Element Added to Canvas", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Error Message
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **error** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Error Message", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "error": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA FTUX Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.currentPageId** | `string` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA FTUX Viewed", {
+  "siteProperties": {
+    "currentPageId": "<<type: string, required: false>>",
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Feedback Freeform Submitted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **userInput** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Feedback Freeform Submitted", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "userInput": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Feedback Submitted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **feedBackOption** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Feedback Submitted", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "feedBackOption": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Generated Properties
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **stylesProperties** | `object` | No description | ❌ |
+| **stylesProperties.classesCreatedCount** | `integer` | No description | ❌ |
+| **stylesProperties.classesUsedCount** | `integer` | No description | ❌ |
+| **stylesProperties.variablesUsedCount** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Generated Properties", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "stylesProperties": {
+    "classesCreatedCount": "<<type: integer, required: false>>",
+    "classesUsedCount": "<<type: integer, required: false>>",
+    "variablesUsedCount": "<<type: integer, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Iteration Added to Canvas
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **iterationCategory** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Iteration Added to Canvas", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "iterationCategory": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Iteration Category Picked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **iterationCategory** | `array` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Iteration Category Picked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "iterationCategory": "<<type: array, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Iteration Submitted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **selectedCategories** | `array` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **value** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Iteration Submitted", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "selectedCategories": "<<type: array, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "value": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Iteration Undo Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **categoryName** | `string` | No description | ❌ |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Iteration Undo Clicked", {
+  "categoryName": "<<type: string, required: false>>",
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Opened", {
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "source": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Preview Options Selected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **componentSelected** | `string` | No description | ❌ |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **selectedCategory** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Preview Options Selected", {
+  "componentSelected": "<<type: string, required: false>>",
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "selectedCategory": "<<type: string, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Preview Options Show More Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **selectedCategory** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Preview Options Show More Clicked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "selectedCategory": "<<type: string, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Preview Options Undo Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **componentSelected** | `string` | No description | ❌ |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **selectedCategory** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Preview Options Undo Clicked", {
+  "componentSelected": "<<type: string, required: false>>",
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "selectedCategory": "<<type: string, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Quick Add Section
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Quick Add Section", {
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Section Picker Freeform Prompt Submitted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **userInput** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Section Picker Freeform Prompt Submitted", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "userInput": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Section Picker Option Selected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **componentSelected** | `string` | No description | ❌ |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **selectedCategory** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Section Picker Option Selected", {
+  "componentSelected": "<<type: string, required: false>>",
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "selectedCategory": "<<type: string, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Styles Applied Undo Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **messageType** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **selectedCategory** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **stylesProperties** | `object` | No description | ❌ |
+| **stylesProperties.classesCreatedCount** | `integer` | No description | ❌ |
+| **stylesProperties.classesUsedCount** | `integer` | No description | ❌ |
+| **stylesProperties.variablesUsedCount** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Styles Applied Undo Clicked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "messageType": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "selectedCategory": "<<type: string, required: false>>",
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "stylesProperties": {
+    "classesCreatedCount": "<<type: integer, required: false>>",
+    "classesUsedCount": "<<type: integer, required: false>>",
+    "variablesUsedCount": "<<type: integer, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AIDA Variables Used Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **copilotRequestId** | `string` | No description | ❌ |
+| **nodeProperties** | `object` | No description | ❌ |
+| **nodeProperties.hasChildren** | `boolean` | No description | ❌ |
+| **nodeProperties.nodeId** | `string` | No description | ❌ |
+| **nodeProperties.tagName** | `string` | No description | ❌ |
+| **siteProperties** | `object` | No description | ❌ |
+| **siteProperties.pageId** | `string` | No description | ❌ |
+| **siteProperties.siteId** | `string` | No description | ❌ |
+| **siteProperties.workspaceId** | `string` | No description | ❌ |
+| **stylesProperties** | `object` | No description | ❌ |
+| **stylesProperties.variablesUsedCount** | `integer` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AIDA Variables Used Clicked", {
+  "copilotRequestId": "<<type: string, required: false>>",
+  "nodeProperties": {
+    "hasChildren": "<<type: boolean, required: false>>",
+    "nodeId": "<<type: string, required: false>>",
+    "tagName": "<<type: string, required: false>>"
+  },
+  "siteProperties": {
+    "pageId": "<<type: string, required: false>>",
+    "siteId": "<<type: string, required: false>>",
+    "workspaceId": "<<type: string, required: false>>"
+  },
+  "stylesProperties": {
+    "variablesUsedCount": "<<type: integer, required: false>>"
+  }
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISB FTU Preview Page Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("AISB FTU Preview Page Viewed", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Edit Prompt Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Edit Prompt Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Exit Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Exit Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Generate More Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Generate More Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Pack Control Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **pack popover** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Pack Control Clicked", {
+  "pack popover": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Regenerate Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Regenerate Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Start Building Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **showExistingUserTutorial** | `boolean` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Start Building Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "showExistingUserTutorial": "<<type: boolean, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Theme Tile Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Theme Tile Clicked", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG FTU Preview Time to Build
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **buildTimeSeconds** | `number` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG FTU Preview Time to Build", {
+  "buildTimeSeconds": "<<type: number, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG Hovered Section Controls Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **feature** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG Hovered Section Controls Clicked", {
+  "action": "<<type: string, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "feature": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG Pack Selected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **feature** | `string` | No description | ❌ |
+| **label** | `string` | No description | ❌ |
+| **packType** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG Pack Selected", {
+  "feature": "<<type: string, required: false>>",
+  "label": "<<type: string, required: false>>",
+  "packType": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG Page Generation Modal CTA Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **cta** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG Page Generation Modal CTA Clicked", {
+  "cta": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## AISG Theme Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **themePacks** | `object` | No description | ❌ |
+| **themePacks.buttonPackId** | `string` | No description | ❌ |
+| **themePacks.cardPackId** | `string` | No description | ❌ |
+| **themePacks.colorPackId** | `string` | No description | ❌ |
+| **themePacks.containerPackId** | `string` | No description | ❌ |
+| **themePacks.fontPackId** | `string` | No description | ❌ |
+| **themePacks.formPackId** | `string` | No description | ❌ |
+| **themePacks.imagePackId** | `string` | No description | ❌ |
+| **themePacks.roundnessPackId** | `string` | No description | ❌ |
+| **themePacks.sectionVariancePackId** | `string` | No description | ❌ |
+| **themePacks.spacingPackId** | `string` | No description | ❌ |
+| **themePacks.typographyPackId** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("AISG Theme Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "themePacks": {
+    "buttonPackId": "<<type: string, required: false>>",
+    "cardPackId": "<<type: string, required: false>>",
+    "colorPackId": "<<type: string, required: false>>",
+    "containerPackId": "<<type: string, required: false>>",
+    "fontPackId": "<<type: string, required: false>>",
+    "formPackId": "<<type: string, required: false>>",
+    "imagePackId": "<<type: string, required: false>>",
+    "roundnessPackId": "<<type: string, required: false>>",
+    "sectionVariancePackId": "<<type: string, required: false>>",
+    "spacingPackId": "<<type: string, required: false>>",
+    "typographyPackId": "<<type: string, required: false>>"
+  },
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Access Control Settings Updated
 
 <!-- tabs:start -->
@@ -198,6 +2023,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -220,12 +2046,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Access Control Settings Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -247,7 +2075,8 @@ analytics.track("Access Control Settings Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -270,6 +2099,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -294,12 +2124,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Access Group Restricted Content Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -323,7 +2155,8 @@ analytics.track("Access Group Restricted Content Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -344,12 +2177,12 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **minutes** | `unknown` | No description | ❌ |
+| **minutes** | `integer` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Active in Designer", {
-  "minutes": "<<type: unknown, required: false>>"
+  "minutes": "<<type: integer, required: false>>"
 })
 ```
 
@@ -372,6 +2205,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -389,12 +2223,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Activity Log Filters Applied", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -411,7 +2247,8 @@ analytics.track("Activity Log Filters Applied", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -434,6 +2271,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -455,12 +2293,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Activity Log Pagination Button Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -481,7 +2321,8 @@ analytics.track("Activity Log Pagination Button Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -503,9 +2344,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -530,14 +2372,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Activity Log Panel Event Clicked", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -561,7 +2405,8 @@ analytics.track("Activity Log Panel Event Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -583,9 +2428,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -609,14 +2455,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Activity Log Panel Opened", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -639,7 +2487,8 @@ analytics.track("Activity Log Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -662,6 +2511,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **from** | `string` | No description | ❌ |
@@ -680,12 +2530,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Add Panel Viewed", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "from": "<<type: string, required: false>>",
@@ -703,39 +2555,8 @@ analytics.track("Add Panel Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Add-ons CTA Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **action** | `string` | No description | ❌ |
-| **button action and type** | `string` | No description | ❌ |
-| **button cta** | `string` | No description | ❌ |
-| **source** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Add-ons CTA Clicked", {
-  "action": "<<type: string, required: false>>",
-  "button action and type": "<<type: string, required: false>>",
-  "button cta": "<<type: string, required: false>>",
-  "source": "<<type: string, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -760,15 +2581,16 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **field_slug** | `unknown` | No description | ❌ |
-| **image_fields_in_collection** | `unknown` | No description | ❌ |
+| **field_slug** | `string` | No description | ❌ |
+| **image_fields_in_collection** | `integer` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
-| **multi_image_fields_in_collection** | `unknown` | No description | ❌ |
+| **multi_image_fields_in_collection** | `integer` | No description | ❌ |
 | **orgId** | `unknown` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -793,6 +2615,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -801,15 +2624,16 @@ analytics.track("Added Image Field to Collection", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "field_slug": "<<type: unknown, required: false>>",
-  "image_fields_in_collection": "<<type: unknown, required: false>>",
+  "field_slug": "<<type: string, required: false>>",
+  "image_fields_in_collection": "<<type: integer, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
-  "multi_image_fields_in_collection": "<<type: unknown, required: false>>",
+  "multi_image_fields_in_collection": "<<type: integer, required: false>>",
   "orgId": "<<type: unknown, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -833,7 +2657,8 @@ analytics.track("Added Image Field to Collection", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -858,15 +2683,16 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **field_slug** | `unknown` | No description | ❌ |
-| **image_fields_in_collection** | `unknown` | No description | ❌ |
+| **field_slug** | `string` | No description | ❌ |
+| **image_fields_in_collection** | `integer` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
-| **multi_image_fields_in_collection** | `unknown` | No description | ❌ |
+| **multi_image_fields_in_collection** | `integer` | No description | ❌ |
 | **orgId** | `unknown` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -891,6 +2717,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -899,15 +2726,16 @@ analytics.track("Added Image to Image Field", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "field_slug": "<<type: unknown, required: false>>",
-  "image_fields_in_collection": "<<type: unknown, required: false>>",
+  "field_slug": "<<type: string, required: false>>",
+  "image_fields_in_collection": "<<type: integer, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
-  "multi_image_fields_in_collection": "<<type: unknown, required: false>>",
+  "multi_image_fields_in_collection": "<<type: integer, required: false>>",
   "orgId": "<<type: unknown, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -931,7 +2759,8 @@ analytics.track("Added Image to Image Field", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -956,15 +2785,16 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **field_slug** | `unknown` | No description | ❌ |
-| **image_fields_in_collection** | `unknown` | No description | ❌ |
+| **field_slug** | `string` | No description | ❌ |
+| **image_fields_in_collection** | `integer` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
-| **multi_image_fields_in_collection** | `unknown` | No description | ❌ |
+| **multi_image_fields_in_collection** | `integer` | No description | ❌ |
 | **orgId** | `unknown` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -989,6 +2819,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -997,15 +2828,16 @@ analytics.track("Added Multi-Image Field to Collection", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "field_slug": "<<type: unknown, required: false>>",
-  "image_fields_in_collection": "<<type: unknown, required: false>>",
+  "field_slug": "<<type: string, required: false>>",
+  "image_fields_in_collection": "<<type: integer, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
-  "multi_image_fields_in_collection": "<<type: unknown, required: false>>",
+  "multi_image_fields_in_collection": "<<type: integer, required: false>>",
   "orgId": "<<type: unknown, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -1029,7 +2861,8 @@ analytics.track("Added Multi-Image Field to Collection", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1038,7 +2871,7 @@ analytics.track("Added Multi-Image Field to Collection", {
 <!-- panels:end -->
 
 
-## Align Tag Clicked
+## Align Tag Viewed
 
 <!-- tabs:start -->
 ### **Details**
@@ -1053,7 +2886,7 @@ No description provided
 #### **JS**
 
 ```javascript
-analytics.track("Align Tag Clicked", {})
+analytics.track("Align Tag Viewed", {})
 ```
 
 <!-- tabs:end -->
@@ -1077,6 +2910,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -1101,6 +2935,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -1109,6 +2944,7 @@ analytics.track("All Assets Selected", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -1132,7 +2968,598 @@ analytics.track("All Assets Selected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze & Optimize Tab Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze & Optimize Tab Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze & Optimize Tab Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze & Optimize Tab Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Mode Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Mode Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Mode Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **page_id** | `string` | No description | ❌ |
+| **parent_page_id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **slug** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **title** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Mode Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "page_id": "<<type: string, required: false>>",
+  "parent_page_id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "slug": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "title": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Page Detail Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **page_id** | `string` | No description | ❌ |
+| **parent_page_id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **slug** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **title** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Page Detail Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "page_id": "<<type: string, required: false>>",
+  "parent_page_id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "slug": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "title": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Page Filter Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **filter_type** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **new_date_filter_value** | `array` | No description | ❌ |
+| **new_device_type_value** | `string` | No description | ❌ |
+| **new_search_query_value** | `string` | No description | ❌ |
+| **original_date_filter_value** | `array` | No description | ❌ |
+| **original_device_type_value** | `string` | No description | ❌ |
+| **original_search_query_value** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Page Filter Edited", {
+  "filter_type": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "new_date_filter_value": "<<type: array, required: false>>",
+  "new_device_type_value": "<<type: string, required: false>>",
+  "new_search_query_value": "<<type: string, required: false>>",
+  "original_date_filter_value": "<<type: array, required: false>>",
+  "original_device_type_value": "<<type: string, required: false>>",
+  "original_search_query_value": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Pages Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Pages Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Show All Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **location** | `string` | No description | ❌ |
+| **show_all_type** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Show All Clicked", {
+  "location": "<<type: string, required: false>>",
+  "show_all_type": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Site Overview Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Site Overview Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Analyze Unit Toggled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **new_unit_value** | `string` | No description | ❌ |
+| **original_unit_value** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Analyze Unit Toggled", {
+  "new_unit_value": "<<type: string, required: false>>",
+  "original_unit_value": "<<type: string, required: false>>"
 })
 ```
 
@@ -1158,6 +3585,7 @@ No description provided
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `unknown` | No description | ❌ |
 | **comment action** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -1188,6 +3616,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -1197,6 +3626,7 @@ analytics.track("Annotation deleted", {
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: unknown, required: false>>",
   "comment action": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -1226,7 +3656,8 @@ analytics.track("Annotation deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1248,10 +3679,192 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
+| **api invocations** | `object` | No description | ❌ |
+| **api invocations.Asset** | `object` | No description | ❌ |
+| **api invocations.Asset.getAltText** | `integer` | No description | ❌ |
+| **api invocations.Asset.getMimeType** | `integer` | No description | ❌ |
+| **api invocations.Asset.getName** | `integer` | No description | ❌ |
+| **api invocations.Asset.getParent** | `integer` | No description | ❌ |
+| **api invocations.Asset.getUrl** | `integer` | No description | ❌ |
+| **api invocations.Asset.setAltText** | `integer` | No description | ❌ |
+| **api invocations.BuilderElement** | `object` | No description | ❌ |
+| **api invocations.BuilderElement.append** | `integer` | No description | ❌ |
+| **api invocations.BuilderElement.setTag** | `integer` | No description | ❌ |
+| **api invocations.Component** | `object` | No description | ❌ |
+| **api invocations.Component.getName** | `integer` | No description | ❌ |
+| **api invocations.Component.getRootElement** | `integer` | No description | ❌ |
+| **api invocations.DOM** | `object` | No description | ❌ |
+| **api invocations.DOM.getAllAttributes** | `integer` | No description | ❌ |
+| **api invocations.DOM.getAttribute** | `integer` | No description | ❌ |
+| **api invocations.DOM.getTag** | `integer` | No description | ❌ |
+| **api invocations.DOM.removeAttribute** | `integer` | No description | ❌ |
+| **api invocations.DOM.setAttribute** | `integer` | No description | ❌ |
+| **api invocations.DOM.setTag** | `integer` | No description | ❌ |
+| **api invocations.Form** | `object` | No description | ❌ |
+| **api invocations.Form.getName** | `integer` | No description | ❌ |
+| **api invocations.Form.setName** | `integer` | No description | ❌ |
+| **api invocations.Heading** | `object` | No description | ❌ |
+| **api invocations.Heading.getHeadingLevel** | `integer` | No description | ❌ |
+| **api invocations.Heading.setHeadingLevel** | `integer` | No description | ❌ |
+| **api invocations.Image** | `object` | No description | ❌ |
+| **api invocations.Image.getAltText** | `integer` | No description | ❌ |
+| **api invocations.Image.getAsset** | `integer` | No description | ❌ |
+| **api invocations.Image.setAltText** | `integer` | No description | ❌ |
+| **api invocations.Image.setAsset** | `integer` | No description | ❌ |
+| **api invocations.Link** | `object` | No description | ❌ |
+| **api invocations.Link.getValue** | `integer` | No description | ❌ |
+| **api invocations.Link.setSettings** | `integer` | No description | ❌ |
+| **api invocations.String** | `object` | No description | ❌ |
+| **api invocations.String.getText** | `integer` | No description | ❌ |
+| **api invocations.String.setText** | `integer` | No description | ❌ |
+| **api invocations.canForAppMode** | `integer` | No description | ❌ |
+| **api invocations.collection** | `object` | No description | ❌ |
+| **api invocations.collection.createColorVariable** | `integer` | No description | ❌ |
+| **api invocations.collection.createFontFamilyVariable** | `integer` | No description | ❌ |
+| **api invocations.collection.createNumberVariable** | `integer` | No description | ❌ |
+| **api invocations.collection.createPercentageVariable** | `integer` | No description | ❌ |
+| **api invocations.collection.createSizeVariable** | `integer` | No description | ❌ |
+| **api invocations.collection.getAllVariables** | `integer` | No description | ❌ |
+| **api invocations.collection.getName** | `integer` | No description | ❌ |
+| **api invocations.collection.getVariable** | `integer` | No description | ❌ |
+| **api invocations.collection.getVariableByName** | `integer` | No description | ❌ |
+| **api invocations.createAsset** | `integer` | No description | ❌ |
+| **api invocations.createAssetFolder** | `integer` | No description | ❌ |
+| **api invocations.createDOM** | `integer` | No description | ❌ |
+| **api invocations.createPage** | `integer` | No description | ❌ |
+| **api invocations.createPageFolder** | `integer` | No description | ❌ |
+| **api invocations.createString** | `integer` | No description | ❌ |
+| **api invocations.createStyle** | `integer` | No description | ❌ |
+| **api invocations.createVariableCollection** | `integer` | No description | ❌ |
+| **api invocations.createVariableMode** | `integer` | No description | ❌ |
+| **api invocations.element** | `object` | No description | ❌ |
+| **api invocations.element.after** | `integer` | No description | ❌ |
+| **api invocations.element.append** | `integer` | No description | ❌ |
+| **api invocations.element.before** | `integer` | No description | ❌ |
+| **api invocations.element.destroy** | `integer` | No description | ❌ |
+| **api invocations.element.detach** | `integer` | No description | ❌ |
+| **api invocations.element.getAllCustomAttributes** | `integer` | No description | ❌ |
+| **api invocations.element.getChildren** | `integer` | No description | ❌ |
+| **api invocations.element.getCustomAttribute** | `integer` | No description | ❌ |
+| **api invocations.element.getDomId** | `integer` | No description | ❌ |
+| **api invocations.element.getElementComponent** | `integer` | No description | ❌ |
+| **api invocations.element.getStyles** | `integer` | No description | ❌ |
+| **api invocations.element.prepend** | `integer` | No description | ❌ |
+| **api invocations.element.remove** | `integer` | No description | ❌ |
+| **api invocations.element.removeCustomAttribute** | `integer` | No description | ❌ |
+| **api invocations.element.save** | `integer` | No description | ❌ |
+| **api invocations.element.setAppConnection** | `integer` | No description | ❌ |
+| **api invocations.element.setChildren** | `integer` | No description | ❌ |
+| **api invocations.element.setCustomAttribute** | `integer` | No description | ❌ |
+| **api invocations.element.setDomId** | `integer` | No description | ❌ |
+| **api invocations.element.setStyles** | `integer` | No description | ❌ |
+| **api invocations.element.setTextContent** | `integer` | No description | ❌ |
+| **api invocations.elementBuilder** | `integer` | No description | ❌ |
+| **api invocations.enterComponent** | `integer` | No description | ❌ |
+| **api invocations.exitComponent** | `integer` | No description | ❌ |
+| **api invocations.getAllAssetFolders** | `integer` | No description | ❌ |
+| **api invocations.getAllAssets** | `integer` | No description | ❌ |
+| **api invocations.getAllComponents** | `integer` | No description | ❌ |
+| **api invocations.getAllElements** | `integer` | No description | ❌ |
+| **api invocations.getAllPagesAndFolders** | `integer` | No description | ❌ |
+| **api invocations.getAllStyles** | `integer` | No description | ❌ |
+| **api invocations.getAllVariableCollections** | `integer` | No description | ❌ |
+| **api invocations.getAllVariableModes** | `integer` | No description | ❌ |
+| **api invocations.getAppConnection** | `integer` | No description | ❌ |
+| **api invocations.getAppConnectionResource** | `integer` | No description | ❌ |
+| **api invocations.getAppSubscriptions** | `integer` | No description | ❌ |
+| **api invocations.getAssetById** | `integer` | No description | ❌ |
+| **api invocations.getCurrentPage** | `integer` | No description | ❌ |
+| **api invocations.getElementAppConnections** | `integer` | No description | ❌ |
+| **api invocations.getEncryptedSiteUserInfo** | `integer` | No description | ❌ |
+| **api invocations.getIdToken** | `integer` | No description | ❌ |
+| **api invocations.getLaunchContext** | `integer` | No description | ❌ |
+| **api invocations.getMediaQuery** | `integer` | No description | ❌ |
+| **api invocations.getPseudoMode** | `integer` | No description | ❌ |
+| **api invocations.getRootElement** | `integer` | No description | ❌ |
+| **api invocations.getSelectedElement** | `integer` | No description | ❌ |
+| **api invocations.getSiteCustomCode** | `integer` | No description | ❌ |
+| **api invocations.getSiteInfo** | `integer` | No description | ❌ |
+| **api invocations.getStyleByName** | `integer` | No description | ❌ |
+| **api invocations.getVariableCollection** | `integer` | No description | ❌ |
+| **api invocations.getVariableModeByName** | `integer` | No description | ❌ |
+| **api invocations.insertXscpValue** | `integer` | No description | ❌ |
+| **api invocations.notify** | `integer` | No description | ❌ |
+| **api invocations.page** | `object` | No description | ❌ |
+| **api invocations.page.getCollectionId** | `integer` | No description | ❌ |
+| **api invocations.page.getCollectionName** | `integer` | No description | ❌ |
+| **api invocations.page.getDescription** | `integer` | No description | ❌ |
+| **api invocations.page.getKind** | `integer` | No description | ❌ |
+| **api invocations.page.getName** | `integer` | No description | ❌ |
+| **api invocations.page.getOpenGraphDescription** | `integer` | No description | ❌ |
+| **api invocations.page.getOpenGraphImage** | `integer` | No description | ❌ |
+| **api invocations.page.getOpenGraphTitle** | `integer` | No description | ❌ |
+| **api invocations.page.getParent** | `integer` | No description | ❌ |
+| **api invocations.page.getPublishPath** | `integer` | No description | ❌ |
+| **api invocations.page.getSearchDescription** | `integer` | No description | ❌ |
+| **api invocations.page.getSearchImage** | `integer` | No description | ❌ |
+| **api invocations.page.getSearchTitle** | `integer` | No description | ❌ |
+| **api invocations.page.getSlug** | `integer` | No description | ❌ |
+| **api invocations.page.getTitle** | `integer` | No description | ❌ |
+| **api invocations.page.getUtilityPageKey** | `integer` | No description | ❌ |
+| **api invocations.page.isDraft** | `integer` | No description | ❌ |
+| **api invocations.page.isExcludedFromSearch** | `integer` | No description | ❌ |
+| **api invocations.page.isHomepage** | `integer` | No description | ❌ |
+| **api invocations.page.isPasswordProtected** | `integer` | No description | ❌ |
+| **api invocations.page.save** | `integer` | No description | ❌ |
+| **api invocations.page.setDescription** | `integer` | No description | ❌ |
+| **api invocations.page.setMetadata** | `integer` | No description | ❌ |
+| **api invocations.page.setName** | `integer` | No description | ❌ |
+| **api invocations.page.setOpenGraphDescription** | `integer` | No description | ❌ |
+| **api invocations.page.setOpenGraphImage** | `integer` | No description | ❌ |
+| **api invocations.page.setOpenGraphTitle** | `integer` | No description | ❌ |
+| **api invocations.page.setParent** | `integer` | No description | ❌ |
+| **api invocations.page.setSearchDescription** | `integer` | No description | ❌ |
+| **api invocations.page.setSearchTitle** | `integer` | No description | ❌ |
+| **api invocations.page.setSlug** | `integer` | No description | ❌ |
+| **api invocations.page.setTitle** | `integer` | No description | ❌ |
+| **api invocations.page.useDescriptionAsOpenGraphDescription** | `integer` | No description | ❌ |
+| **api invocations.page.useDescriptionAsSearchDescription** | `integer` | No description | ❌ |
+| **api invocations.page.useTitleAsOpenGraphTitle** | `integer` | No description | ❌ |
+| **api invocations.page.useTitleAsSearchTitle** | `integer` | No description | ❌ |
+| **api invocations.page.usesDescriptionAsOpenGraphDescription** | `integer` | No description | ❌ |
+| **api invocations.page.usesDescriptionAsSearchDescription** | `integer` | No description | ❌ |
+| **api invocations.page.usesOpenGraphImageAsSearchImage** | `integer` | No description | ❌ |
+| **api invocations.page.usesTitleAsOpenGraphTitle** | `integer` | No description | ❌ |
+| **api invocations.page.usesTitleAsSearchTitle** | `integer` | No description | ❌ |
+| **api invocations.registerComponent** | `integer` | No description | ❌ |
+| **api invocations.removeVariableCollection** | `integer` | No description | ❌ |
+| **api invocations.setExtensionSize** | `integer` | No description | ❌ |
+| **api invocations.setPageCustomCode** | `integer` | No description | ❌ |
+| **api invocations.setSelectedElement** | `integer` | No description | ❌ |
+| **api invocations.setSiteCustomCode** | `integer` | No description | ❌ |
+| **api invocations.style** | `object` | No description | ❌ |
+| **api invocations.style.clearAllProperties** | `integer` | No description | ❌ |
+| **api invocations.style.clearProperties** | `integer` | No description | ❌ |
+| **api invocations.style.clearProperty** | `integer` | No description | ❌ |
+| **api invocations.style.getName** | `integer` | No description | ❌ |
+| **api invocations.style.getProperties** | `integer` | No description | ❌ |
+| **api invocations.style.getProperty** | `integer` | No description | ❌ |
+| **api invocations.style.remove** | `integer` | No description | ❌ |
+| **api invocations.style.save** | `integer` | No description | ❌ |
+| **api invocations.style.setProperties** | `integer` | No description | ❌ |
+| **api invocations.style.setProperty** | `integer` | No description | ❌ |
+| **api invocations.switchPage** | `integer` | No description | ❌ |
+| **api invocations.unregisterComponent** | `integer` | No description | ❌ |
+| **api invocations.variable** | `object` | No description | ❌ |
+| **api invocations.variable.get** | `integer` | No description | ❌ |
+| **api invocations.variable.getName** | `integer` | No description | ❌ |
+| **api invocations.variable.set** | `integer` | No description | ❌ |
+| **api invocations.variableMode** | `object` | No description | ❌ |
+| **api invocations.variableMode.getName** | `integer` | No description | ❌ |
+| **api version** | `string` | No description | ❌ |
 | **app id** | `string` | No description | ❌ |
+| **app name** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
+| **launched after install** | `boolean` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -1267,15 +3880,214 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("App Closed", {
   "active tutorials": "<<type: string, required: false>>",
+  "api invocations": {
+    "Asset": {
+      "getAltText": "<<type: integer, required: false>>",
+      "getMimeType": "<<type: integer, required: false>>",
+      "getName": "<<type: integer, required: false>>",
+      "getParent": "<<type: integer, required: false>>",
+      "getUrl": "<<type: integer, required: false>>",
+      "setAltText": "<<type: integer, required: false>>"
+    },
+    "BuilderElement": {
+      "append": "<<type: integer, required: false>>",
+      "setTag": "<<type: integer, required: false>>"
+    },
+    "Component": {
+      "getName": "<<type: integer, required: false>>",
+      "getRootElement": "<<type: integer, required: false>>"
+    },
+    "DOM": {
+      "getAllAttributes": "<<type: integer, required: false>>",
+      "getAttribute": "<<type: integer, required: false>>",
+      "getTag": "<<type: integer, required: false>>",
+      "removeAttribute": "<<type: integer, required: false>>",
+      "setAttribute": "<<type: integer, required: false>>",
+      "setTag": "<<type: integer, required: false>>"
+    },
+    "Form": {
+      "getName": "<<type: integer, required: false>>",
+      "setName": "<<type: integer, required: false>>"
+    },
+    "Heading": {
+      "getHeadingLevel": "<<type: integer, required: false>>",
+      "setHeadingLevel": "<<type: integer, required: false>>"
+    },
+    "Image": {
+      "getAltText": "<<type: integer, required: false>>",
+      "getAsset": "<<type: integer, required: false>>",
+      "setAltText": "<<type: integer, required: false>>",
+      "setAsset": "<<type: integer, required: false>>"
+    },
+    "Link": {
+      "getValue": "<<type: integer, required: false>>",
+      "setSettings": "<<type: integer, required: false>>"
+    },
+    "String": {
+      "getText": "<<type: integer, required: false>>",
+      "setText": "<<type: integer, required: false>>"
+    },
+    "canForAppMode": "<<type: integer, required: false>>",
+    "collection": {
+      "createColorVariable": "<<type: integer, required: false>>",
+      "createFontFamilyVariable": "<<type: integer, required: false>>",
+      "createNumberVariable": "<<type: integer, required: false>>",
+      "createPercentageVariable": "<<type: integer, required: false>>",
+      "createSizeVariable": "<<type: integer, required: false>>",
+      "getAllVariables": "<<type: integer, required: false>>",
+      "getName": "<<type: integer, required: false>>",
+      "getVariable": "<<type: integer, required: false>>",
+      "getVariableByName": "<<type: integer, required: false>>"
+    },
+    "createAsset": "<<type: integer, required: false>>",
+    "createAssetFolder": "<<type: integer, required: false>>",
+    "createDOM": "<<type: integer, required: false>>",
+    "createPage": "<<type: integer, required: false>>",
+    "createPageFolder": "<<type: integer, required: false>>",
+    "createString": "<<type: integer, required: false>>",
+    "createStyle": "<<type: integer, required: false>>",
+    "createVariableCollection": "<<type: integer, required: false>>",
+    "createVariableMode": "<<type: integer, required: false>>",
+    "element": {
+      "after": "<<type: integer, required: false>>",
+      "append": "<<type: integer, required: false>>",
+      "before": "<<type: integer, required: false>>",
+      "destroy": "<<type: integer, required: false>>",
+      "detach": "<<type: integer, required: false>>",
+      "getAllCustomAttributes": "<<type: integer, required: false>>",
+      "getChildren": "<<type: integer, required: false>>",
+      "getCustomAttribute": "<<type: integer, required: false>>",
+      "getDomId": "<<type: integer, required: false>>",
+      "getElementComponent": "<<type: integer, required: false>>",
+      "getStyles": "<<type: integer, required: false>>",
+      "prepend": "<<type: integer, required: false>>",
+      "remove": "<<type: integer, required: false>>",
+      "removeCustomAttribute": "<<type: integer, required: false>>",
+      "save": "<<type: integer, required: false>>",
+      "setAppConnection": "<<type: integer, required: false>>",
+      "setChildren": "<<type: integer, required: false>>",
+      "setCustomAttribute": "<<type: integer, required: false>>",
+      "setDomId": "<<type: integer, required: false>>",
+      "setStyles": "<<type: integer, required: false>>",
+      "setTextContent": "<<type: integer, required: false>>"
+    },
+    "elementBuilder": "<<type: integer, required: false>>",
+    "enterComponent": "<<type: integer, required: false>>",
+    "exitComponent": "<<type: integer, required: false>>",
+    "getAllAssetFolders": "<<type: integer, required: false>>",
+    "getAllAssets": "<<type: integer, required: false>>",
+    "getAllComponents": "<<type: integer, required: false>>",
+    "getAllElements": "<<type: integer, required: false>>",
+    "getAllPagesAndFolders": "<<type: integer, required: false>>",
+    "getAllStyles": "<<type: integer, required: false>>",
+    "getAllVariableCollections": "<<type: integer, required: false>>",
+    "getAllVariableModes": "<<type: integer, required: false>>",
+    "getAppConnection": "<<type: integer, required: false>>",
+    "getAppConnectionResource": "<<type: integer, required: false>>",
+    "getAppSubscriptions": "<<type: integer, required: false>>",
+    "getAssetById": "<<type: integer, required: false>>",
+    "getCurrentPage": "<<type: integer, required: false>>",
+    "getElementAppConnections": "<<type: integer, required: false>>",
+    "getEncryptedSiteUserInfo": "<<type: integer, required: false>>",
+    "getIdToken": "<<type: integer, required: false>>",
+    "getLaunchContext": "<<type: integer, required: false>>",
+    "getMediaQuery": "<<type: integer, required: false>>",
+    "getPseudoMode": "<<type: integer, required: false>>",
+    "getRootElement": "<<type: integer, required: false>>",
+    "getSelectedElement": "<<type: integer, required: false>>",
+    "getSiteCustomCode": "<<type: integer, required: false>>",
+    "getSiteInfo": "<<type: integer, required: false>>",
+    "getStyleByName": "<<type: integer, required: false>>",
+    "getVariableCollection": "<<type: integer, required: false>>",
+    "getVariableModeByName": "<<type: integer, required: false>>",
+    "insertXscpValue": "<<type: integer, required: false>>",
+    "notify": "<<type: integer, required: false>>",
+    "page": {
+      "getCollectionId": "<<type: integer, required: false>>",
+      "getCollectionName": "<<type: integer, required: false>>",
+      "getDescription": "<<type: integer, required: false>>",
+      "getKind": "<<type: integer, required: false>>",
+      "getName": "<<type: integer, required: false>>",
+      "getOpenGraphDescription": "<<type: integer, required: false>>",
+      "getOpenGraphImage": "<<type: integer, required: false>>",
+      "getOpenGraphTitle": "<<type: integer, required: false>>",
+      "getParent": "<<type: integer, required: false>>",
+      "getPublishPath": "<<type: integer, required: false>>",
+      "getSearchDescription": "<<type: integer, required: false>>",
+      "getSearchImage": "<<type: integer, required: false>>",
+      "getSearchTitle": "<<type: integer, required: false>>",
+      "getSlug": "<<type: integer, required: false>>",
+      "getTitle": "<<type: integer, required: false>>",
+      "getUtilityPageKey": "<<type: integer, required: false>>",
+      "isDraft": "<<type: integer, required: false>>",
+      "isExcludedFromSearch": "<<type: integer, required: false>>",
+      "isHomepage": "<<type: integer, required: false>>",
+      "isPasswordProtected": "<<type: integer, required: false>>",
+      "save": "<<type: integer, required: false>>",
+      "setDescription": "<<type: integer, required: false>>",
+      "setMetadata": "<<type: integer, required: false>>",
+      "setName": "<<type: integer, required: false>>",
+      "setOpenGraphDescription": "<<type: integer, required: false>>",
+      "setOpenGraphImage": "<<type: integer, required: false>>",
+      "setOpenGraphTitle": "<<type: integer, required: false>>",
+      "setParent": "<<type: integer, required: false>>",
+      "setSearchDescription": "<<type: integer, required: false>>",
+      "setSearchTitle": "<<type: integer, required: false>>",
+      "setSlug": "<<type: integer, required: false>>",
+      "setTitle": "<<type: integer, required: false>>",
+      "useDescriptionAsOpenGraphDescription": "<<type: integer, required: false>>",
+      "useDescriptionAsSearchDescription": "<<type: integer, required: false>>",
+      "useTitleAsOpenGraphTitle": "<<type: integer, required: false>>",
+      "useTitleAsSearchTitle": "<<type: integer, required: false>>",
+      "usesDescriptionAsOpenGraphDescription": "<<type: integer, required: false>>",
+      "usesDescriptionAsSearchDescription": "<<type: integer, required: false>>",
+      "usesOpenGraphImageAsSearchImage": "<<type: integer, required: false>>",
+      "usesTitleAsOpenGraphTitle": "<<type: integer, required: false>>",
+      "usesTitleAsSearchTitle": "<<type: integer, required: false>>"
+    },
+    "registerComponent": "<<type: integer, required: false>>",
+    "removeVariableCollection": "<<type: integer, required: false>>",
+    "setExtensionSize": "<<type: integer, required: false>>",
+    "setPageCustomCode": "<<type: integer, required: false>>",
+    "setSelectedElement": "<<type: integer, required: false>>",
+    "setSiteCustomCode": "<<type: integer, required: false>>",
+    "style": {
+      "clearAllProperties": "<<type: integer, required: false>>",
+      "clearProperties": "<<type: integer, required: false>>",
+      "clearProperty": "<<type: integer, required: false>>",
+      "getName": "<<type: integer, required: false>>",
+      "getProperties": "<<type: integer, required: false>>",
+      "getProperty": "<<type: integer, required: false>>",
+      "remove": "<<type: integer, required: false>>",
+      "save": "<<type: integer, required: false>>",
+      "setProperties": "<<type: integer, required: false>>",
+      "setProperty": "<<type: integer, required: false>>"
+    },
+    "switchPage": "<<type: integer, required: false>>",
+    "unregisterComponent": "<<type: integer, required: false>>",
+    "variable": {
+      "get": "<<type: integer, required: false>>",
+      "getName": "<<type: integer, required: false>>",
+      "set": "<<type: integer, required: false>>"
+    },
+    "variableMode": {
+      "getName": "<<type: integer, required: false>>"
+    }
+  },
+  "api version": "<<type: string, required: false>>",
   "app id": "<<type: string, required: false>>",
+  "app name": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
+  "launched after install": "<<type: boolean, required: false>>",
   "mode": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -1290,7 +4102,125 @@ analytics.track("App Closed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## App Launch After Install
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **api version** | `string` | No description | ❌ |
+| **app connections** | `array` | No description | ❌ |
+| **app id** | `string` | No description | ❌ |
+| **app intents** | `object` | No description | ❌ |
+| **app intents.form** | `array` | No description | ❌ |
+| **app intents.image** | `array` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **feature flags** | `object` | No description | ❌ |
+| **feature flags.appConnections** | `boolean` | No description | ❌ |
+| **feature flags.comboClasses** | `boolean` | No description | ❌ |
+| **feature flags.customCode** | `boolean` | No description | ❌ |
+| **feature flags.expandedAppModes** | `boolean` | No description | ❌ |
+| **feature flags.xscp** | `boolean` | No description | ❌ |
+| **location** | `object` | No description | ❌ |
+| **location.ancestorOrigins** | `object` | No description | ❌ |
+| **location.hash** | `string` | No description | ❌ |
+| **location.host** | `string` | No description | ❌ |
+| **location.hostname** | `string` | No description | ❌ |
+| **location.href** | `string` | No description | ❌ |
+| **location.origin** | `string` | No description | ❌ |
+| **location.pathname** | `string` | No description | ❌ |
+| **location.port** | `string` | No description | ❌ |
+| **location.protocol** | `string` | No description | ❌ |
+| **location.search** | `string` | No description | ❌ |
+| **location.selenium1736261119621** | `boolean` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("App Launch After Install", {
+  "active tutorials": "<<type: string, required: false>>",
+  "api version": "<<type: string, required: false>>",
+  "app connections": "<<type: array, required: false>>",
+  "app id": "<<type: string, required: false>>",
+  "app intents": {
+    "form": "<<type: array, required: false>>",
+    "image": "<<type: array, required: false>>"
+  },
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "feature flags": {
+    "appConnections": "<<type: boolean, required: false>>",
+    "comboClasses": "<<type: boolean, required: false>>",
+    "customCode": "<<type: boolean, required: false>>",
+    "expandedAppModes": "<<type: boolean, required: false>>",
+    "xscp": "<<type: boolean, required: false>>"
+  },
+  "location": {
+    "ancestorOrigins": "<<type: object, required: false>>",
+    "hash": "<<type: string, required: false>>",
+    "host": "<<type: string, required: false>>",
+    "hostname": "<<type: string, required: false>>",
+    "href": "<<type: string, required: false>>",
+    "origin": "<<type: string, required: false>>",
+    "pathname": "<<type: string, required: false>>",
+    "port": "<<type: string, required: false>>",
+    "protocol": "<<type: string, required: false>>",
+    "search": "<<type: string, required: false>>",
+    "selenium1736261119621": "<<type: boolean, required: false>>"
+  },
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1312,10 +4242,119 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
+| **api version** | `string` | No description | ❌ |
+| **app connections** | `array` | No description | ❌ |
 | **app id** | `string` | No description | ❌ |
+| **app intents** | `object` | No description | ❌ |
+| **app intents.Image** | `array` | No description | ❌ |
+| **app intents.form** | `array` | No description | ❌ |
+| **app intents.image** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **current app connection** | `object` | No description | ❌ |
+| **current app connection.resourceId** | `string` | No description | ❌ |
+| **current app connection.resourceParentId** | `string` | No description | ❌ |
+| **current app connection.resourceType** | `string` | No description | ❌ |
+| **current app connection.value** | `string` | No description | ❌ |
+| **current app intent** | `object` | No description | ❌ |
+| **current app intent.form** | `string` | No description | ❌ |
+| **current app intent.image** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
+| **environment** | `string` | No description | ❌ |
+| **feature flags** | `array` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("App Launched", {
+  "active tutorials": "<<type: string, required: false>>",
+  "api version": "<<type: string, required: false>>",
+  "app connections": "<<type: array, required: false>>",
+  "app id": "<<type: string, required: false>>",
+  "app intents": {
+    "Image": "<<type: array, required: false>>",
+    "form": "<<type: array, required: false>>",
+    "image": "<<type: array, required: false>>"
+  },
+  "cms item count": "<<type: integer, required: false>>",
+  "current app connection": {
+    "resourceId": "<<type: string, required: false>>",
+    "resourceParentId": "<<type: string, required: false>>",
+    "resourceType": "<<type: string, required: false>>",
+    "value": "<<type: string, required: false>>"
+  },
+  "current app intent": {
+    "form": "<<type: string, required: false>>",
+    "image": "<<type: string, required: false>>"
+  },
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "environment": "<<type: string, required: false>>",
+  "feature flags": "<<type: array, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## App Window Toggled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **appId** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **minimized** | `boolean` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -1331,15 +4370,18 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("App Launched", {
+analytics.track("App Window Toggled", {
   "active tutorials": "<<type: string, required: false>>",
-  "app id": "<<type: string, required: false>>",
+  "appId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
+  "minimized": "<<type: boolean, required: false>>",
   "mode": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -1354,7 +4396,8 @@ analytics.track("App Launched", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1465,6 +4508,7 @@ No description provided
 | **installationType** | `string` | No description | ❌ |
 | **name** | `string` | No description | ❌ |
 | **slug** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -1472,35 +4516,8 @@ analytics.track("App install clicked from Designer", {
   "id": "<<type: string, required: false>>",
   "installationType": "<<type: string, required: false>>",
   "name": "<<type: string, required: false>>",
-  "slug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## App launched from quick find menu
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **id** | `string` | No description | ❌ |
-| **name** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("App launched from quick find menu", {
-  "id": "<<type: string, required: false>>",
-  "name": "<<type: string, required: false>>"
+  "slug": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>"
 })
 ```
 
@@ -1523,8 +4540,10 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
+| **from** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -1540,14 +4559,17 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Apps panel opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
+  "from": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -1562,7 +4584,8 @@ analytics.track("Apps panel opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1571,7 +4594,7 @@ analytics.track("Apps panel opened", {
 <!-- panels:end -->
 
 
-## Apps search input loses focus
+## Asset Action Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -1583,12 +4606,70 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **searchString** | `string` | No description | ❌ |
+| **action** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **asset extension** | `string` | No description | ❌ |
+| **asset id** | `string` | No description | ❌ |
+| **asset type** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **library name** | `string` | No description | ❌ |
+| **library type** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **shared_resource_profile_id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **version_resource_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Apps search input loses focus", {
-  "searchString": "<<type: string, required: false>>"
+analytics.track("Asset Action Clicked", {
+  "action": "<<type: string, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "asset extension": "<<type: string, required: false>>",
+  "asset id": "<<type: string, required: false>>",
+  "asset type": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "library name": "<<type: string, required: false>>",
+  "library type": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "shared_resource_profile_id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "version_resource_id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1615,12 +4696,14 @@ No description provided
 | **asset type** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
 | **file hash** | `string` | No description | ❌ |
 | **file id** | `string` | No description | ❌ |
 | **file size** | `integer` | No description | ❌ |
+| **from well-known folder** | `boolean` | No description | ❌ |
 | **image height** | `integer` | No description | ❌ |
 | **image width** | `integer` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
@@ -1644,6 +4727,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -1654,12 +4738,14 @@ analytics.track("Asset Manager Asset Uploaded", {
   "asset type": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
   "file hash": "<<type: string, required: false>>",
   "file id": "<<type: string, required: false>>",
   "file size": "<<type: integer, required: false>>",
+  "from well-known folder": "<<type: boolean, required: false>>",
   "image height": "<<type: integer, required: false>>",
   "image width": "<<type: integer, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
@@ -1682,7 +4768,8 @@ analytics.track("Asset Manager Asset Uploaded", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1705,6 +4792,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -1726,12 +4814,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Asset Manager Assets Compression Rate-limited", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -1752,7 +4842,8 @@ analytics.track("Asset Manager Assets Compression Rate-limited", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1775,6 +4866,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -1797,12 +4889,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Asset Manager Assets Compression Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -1824,7 +4918,8 @@ analytics.track("Asset Manager Assets Compression Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1846,9 +4941,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -1873,14 +4969,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Asset Manager Assets Deleted", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -1904,7 +5002,8 @@ analytics.track("Asset Manager Assets Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -1929,6 +5028,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -1953,6 +5053,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -1961,6 +5062,7 @@ analytics.track("Asset Manager Assets Moved", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -1984,7 +5086,8 @@ analytics.track("Asset Manager Assets Moved", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2009,6 +5112,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2034,6 +5138,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2042,6 +5147,7 @@ analytics.track("Asset Manager Opened", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2066,7 +5172,92 @@ analytics.track("Asset Manager Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Asset Settings Changed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **alt text changed** | `boolean` | No description | ❌ |
+| **alt text type changed** | `boolean` | No description | ❌ |
+| **asset extension** | `string` | No description | ❌ |
+| **asset id** | `string` | No description | ❌ |
+| **asset type** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **folder changed** | `boolean` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **name changed** | `boolean` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Asset Settings Changed", {
+  "action": "<<type: string, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "alt text changed": "<<type: boolean, required: false>>",
+  "alt text type changed": "<<type: boolean, required: false>>",
+  "asset extension": "<<type: string, required: false>>",
+  "asset id": "<<type: string, required: false>>",
+  "asset type": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "folder changed": "<<type: boolean, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name changed": "<<type: boolean, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2094,6 +5285,7 @@ No description provided
 | **audit id** | `string` | No description | ❌ |
 | **audit priority** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2117,6 +5309,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2128,6 +5321,7 @@ analytics.track("Audit Wizard action clicked", {
   "audit id": "<<type: string, required: false>>",
   "audit priority": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2150,7 +5344,8 @@ analytics.track("Audit Wizard action clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2178,6 +5373,7 @@ No description provided
 | **audit id** | `string` | No description | ❌ |
 | **audit priority** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2201,6 +5397,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2212,6 +5409,7 @@ analytics.track("Audit fixed", {
   "audit id": "<<type: string, required: false>>",
   "audit priority": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2234,7 +5432,8 @@ analytics.track("Audit fixed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2262,6 +5461,7 @@ No description provided
 | **audit id** | `string` | No description | ❌ |
 | **audit priority** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2285,6 +5485,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2296,6 +5497,7 @@ analytics.track("Audit ignored", {
   "audit id": "<<type: string, required: false>>",
   "audit priority": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2318,7 +5520,8 @@ analytics.track("Audit ignored", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2344,6 +5547,7 @@ No description provided
 | **audits on current page** | `integer` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2368,6 +5572,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2377,6 +5582,7 @@ analytics.track("Audit panel opened", {
   "audits on current page": "<<type: integer, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2400,7 +5606,8 @@ analytics.track("Audit panel opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2428,6 +5635,7 @@ No description provided
 | **audit id** | `string` | No description | ❌ |
 | **audit priority** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2451,6 +5659,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2462,6 +5671,7 @@ analytics.track("Audit unignored", {
   "audit id": "<<type: string, required: false>>",
   "audit priority": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2484,7 +5694,8 @@ analytics.track("Audit unignored", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2508,6 +5719,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **audits on current page** | `integer` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2532,6 +5744,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2539,6 +5752,7 @@ analytics.track("Audited project published", {
   "active tutorials": "<<type: string, required: false>>",
   "audits on current page": "<<type: integer, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2562,7 +5776,8 @@ analytics.track("Audited project published", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2584,9 +5799,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2617,14 +5833,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Automatic 301 Redirect Created", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2654,7 +5872,8 @@ analytics.track("Automatic 301 Redirect Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2676,9 +5895,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2693,7 +5913,7 @@ No description provided
 | **planId** | `unknown` | No description | ❌ |
 | **project count** | `integer` | No description | ❌ |
 | **project item count** | `integer` | No description | ❌ |
-| **reason** | `unknown` | No description | ❌ |
+| **reason** | `string` | No description | ❌ |
 | **seat count** | `integer` | No description | ❌ |
 | **shortName** | `unknown` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
@@ -2710,14 +5930,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Automatic 301 Redirect Failed", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2732,7 +5954,7 @@ analytics.track("Automatic 301 Redirect Failed", {
   "planId": "<<type: unknown, required: false>>",
   "project count": "<<type: integer, required: false>>",
   "project item count": "<<type: integer, required: false>>",
-  "reason": "<<type: unknown, required: false>>",
+  "reason": "<<type: string, required: false>>",
   "seat count": "<<type: integer, required: false>>",
   "shortName": "<<type: unknown, required: false>>",
   "site id": "<<type: string, required: false>>",
@@ -2748,7 +5970,8 @@ analytics.track("Automatic 301 Redirect Failed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2772,6 +5995,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **beta flag** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2797,6 +6021,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2804,6 +6029,7 @@ analytics.track("Beta Feature Toggled", {
   "active tutorials": "<<type: string, required: false>>",
   "beta flag": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2828,7 +6054,344 @@ analytics.track("Beta Feature Toggled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Branch Review Modal Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Branch Review Modal Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Branch Review Request Approved
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Branch Review Request Approved", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Branch Review Request Cancelled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Branch Review Request Cancelled", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Branch Review Request Sent
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **hasMessage** | `boolean` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **totalReviewers** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Branch Review Request Sent", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "hasMessage": "<<type: boolean, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "totalReviewers": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Branch blocked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Branch blocked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2852,6 +6415,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -2871,6 +6435,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2878,6 +6443,7 @@ analytics.track("Branch conflicts resolved", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -2896,7 +6462,8 @@ analytics.track("Branch conflicts resolved", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2920,6 +6487,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -2943,6 +6511,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -2950,6 +6519,7 @@ analytics.track("Branch merge initiated", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -2972,7 +6542,8 @@ analytics.track("Branch merge initiated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -2996,6 +6567,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -3015,6 +6587,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3022,6 +6595,7 @@ analytics.track("Branch merge initiated with conflicts", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -3040,7 +6614,8 @@ analytics.track("Branch merge initiated with conflicts", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3064,6 +6639,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -3083,6 +6659,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3090,6 +6667,7 @@ analytics.track("Branch update initiated", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -3108,7 +6686,8 @@ analytics.track("Branch update initiated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3132,6 +6711,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -3151,6 +6731,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3158,6 +6739,7 @@ analytics.track("Branch update initiated with conflicts", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -3176,7 +6758,8 @@ analytics.track("Branch update initiated with conflicts", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3203,11 +6786,13 @@ No description provided
 | **breakpoint** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
@@ -3218,6 +6803,7 @@ No description provided
 | **site id** | `string` | No description | ❌ |
 | **site published** | `boolean` | No description | ❌ |
 | **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
@@ -3226,6 +6812,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3236,11 +6823,13 @@ analytics.track("Breakpoint Added", {
   "breakpoint": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
+  "location": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
@@ -3251,6 +6840,7 @@ analytics.track("Breakpoint Added", {
   "site id": "<<type: string, required: false>>",
   "site published": "<<type: boolean, required: false>>",
   "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: string, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
@@ -3258,7 +6848,80 @@ analytics.track("Breakpoint Added", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Breakpoint Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **breakpoint** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Breakpoint Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "breakpoint": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3282,6 +6945,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **appearance settings value** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -3299,6 +6963,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3306,6 +6971,7 @@ analytics.track("Brightness Set", {
   "active tutorials": "<<type: string, required: false>>",
   "appearance settings value": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -3322,7 +6988,8 @@ analytics.track("Brightness Set", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3344,9 +7011,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -3371,14 +7039,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("CMS Limit Exceeded", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -3402,7 +7072,148 @@ analytics.track("CMS Limit Exceeded", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## CMS Tab Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("CMS Tab Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## CMS Tab Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("CMS Tab Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3424,9 +7235,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -3451,14 +7263,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("CMS Warning Viewed", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -3482,7 +7296,8 @@ analytics.track("CMS Warning Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3507,6 +7322,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -3531,6 +7347,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3539,6 +7356,7 @@ analytics.track("CSS Copied", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -3562,7 +7380,8 @@ analytics.track("CSS Copied", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3585,6 +7404,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -3607,12 +7427,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("CSV import started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -3634,7 +7456,8 @@ analytics.track("CSV import started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3656,13 +7479,14 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **failedItems** | `unknown` | No description | ❌ |
+| **failedItems** | `string` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -3690,18 +7514,20 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("CSV imported with errors", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "failedItems": "<<type: unknown, required: false>>",
+  "failedItems": "<<type: string, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -3728,7 +7554,8 @@ analytics.track("CSV imported with errors", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3755,6 +7582,7 @@ No description provided
 | **collection count** | `integer` | No description | ❌ |
 | **collectionHasReferences** | `boolean` | No description | ❌ |
 | **columnsLinkedToReferenceFields** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -3787,6 +7615,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -3797,6 +7626,7 @@ analytics.track("CSV successfully imported", {
   "collection count": "<<type: integer, required: false>>",
   "collectionHasReferences": "<<type: boolean, required: false>>",
   "columnsLinkedToReferenceFields": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -3828,7 +7658,8 @@ analytics.track("CSV successfully imported", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -3907,6 +7738,408 @@ analytics.track("CTA Clicked", {
 <!-- panels:end -->
 
 
+## Calendly Event Scheduled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Calendly Event Scheduled", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Calendly Event Type Viewed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Calendly Event Type Viewed", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Canvas Bar Pinned
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **location position** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **position** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Canvas Bar Pinned", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "location position": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "position": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Canvas Mode Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Canvas Mode Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Canvas Revealed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Canvas Revealed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Canvas Settings Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **location position** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Canvas Settings Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "location position": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Change Summary Change Details Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **card** | `string` | No description | ❌ |
+| **item** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **siteShortName** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceSlug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Change Summary Change Details Clicked", {
+  "card": "<<type: string, required: false>>",
+  "item": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "siteShortName": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceSlug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Change Summary Changes Expanded
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **card** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **siteShortName** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceSlug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Change Summary Changes Expanded", {
+  "card": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "siteShortName": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceSlug": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Checklist Item Clicked
 
 <!-- tabs:start -->
@@ -3947,6 +8180,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -3971,12 +8205,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Class Applied", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4000,7 +8236,8 @@ analytics.track("Class Applied", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4027,6 +8264,7 @@ No description provided
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
 | **css properties** | `array` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4034,6 +8272,10 @@ No description provided
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
+| **orig_variable_modes** | `array` | No description | ❌ |
+| **orig_variable_modes.items** | `object` | Contains the structure for array items | ❌ |
+| **orig_variable_modes.items.collection** | `string` | No description | ❌ |
+| **orig_variable_modes.items.mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
@@ -4052,10 +8294,15 @@ No description provided
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **variable_modes** | `array` | No description | ❌ |
+| **variable_modes.items** | `object` | Contains the structure for array items | ❌ |
+| **variable_modes.items.collection** | `string` | No description | ❌ |
+| **variable_modes.items.mode** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4066,6 +8313,7 @@ analytics.track("Class Created", {
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
   "css properties": "<<type: array, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4073,6 +8321,12 @@ analytics.track("Class Created", {
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
+  "orig_variable_modes": [
+    {
+      "collection": "<<type: string, required: false>>",
+      "mode": "<<type: string, required: false>>"
+    }
+  ],
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
@@ -4091,10 +8345,17 @@ analytics.track("Class Created", {
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
   "type": "<<type: string, required: false>>",
+  "variable_modes": [
+    {
+      "collection": "<<type: string, required: false>>",
+      "mode": "<<type: string, required: false>>"
+    }
+  ],
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4118,6 +8379,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **css properties** | `array` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4125,6 +8387,10 @@ No description provided
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
+| **orig_variable_modes** | `array` | No description | ❌ |
+| **orig_variable_modes.items** | `object` | Contains the structure for array items | ❌ |
+| **orig_variable_modes.items.collection** | `string` | No description | ❌ |
+| **orig_variable_modes.items.mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
@@ -4144,10 +8410,15 @@ No description provided
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
 | **type** | `string` | No description | ❌ |
+| **variable_modes** | `array` | No description | ❌ |
+| **variable_modes.items** | `object` | Contains the structure for array items | ❌ |
+| **variable_modes.items.collection** | `string` | No description | ❌ |
+| **variable_modes.items.mode** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4155,6 +8426,7 @@ analytics.track("Class Updated", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "css properties": "<<type: array, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4162,6 +8434,12 @@ analytics.track("Class Updated", {
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
+  "orig_variable_modes": [
+    {
+      "collection": "<<type: string, required: false>>",
+      "mode": "<<type: string, required: false>>"
+    }
+  ],
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
@@ -4181,10 +8459,17 @@ analytics.track("Class Updated", {
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
   "type": "<<type: string, required: false>>",
+  "variable_modes": [
+    {
+      "collection": "<<type: string, required: false>>",
+      "mode": "<<type: string, required: false>>"
+    }
+  ],
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4209,6 +8494,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4237,12 +8523,13 @@ No description provided
 | **total collection count** | `integer` | No description | ❌ |
 | **total number of fields** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
-| **used template schema** | `string` | No description | ❌ |
+| **used template schema** | `boolean` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4251,6 +8538,7 @@ analytics.track("Collection Created", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4279,12 +8567,13 @@ analytics.track("Collection Created", {
   "total collection count": "<<type: integer, required: false>>",
   "total number of fields": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
-  "used template schema": "<<type: string, required: false>>",
+  "used template schema": "<<type: boolean, required: false>>",
   "wf session id": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4306,9 +8595,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4341,14 +8631,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Deleted", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4380,7 +8672,8 @@ analytics.track("Collection Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4409,6 +8702,7 @@ No description provided
 | **collection item count** | `integer` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -4427,6 +8721,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4439,6 +8734,7 @@ analytics.track("Collection Duplicated", {
   "collection item count": "<<type: integer, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -4456,7 +8752,8 @@ analytics.track("Collection Duplicated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4479,6 +8776,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4502,12 +8800,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Archiving Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4530,7 +8830,8 @@ analytics.track("Collection Item Archiving Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4554,6 +8855,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4577,6 +8879,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4584,6 +8887,7 @@ analytics.track("Collection Item Create Cancellation", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4606,7 +8910,8 @@ analytics.track("Collection Item Create Cancellation", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4635,9 +8940,11 @@ No description provided
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4667,6 +8974,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4679,9 +8987,11 @@ analytics.track("Collection Item Created", {
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4710,7 +9020,8 @@ analytics.track("Collection Item Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4738,9 +9049,11 @@ No description provided
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4765,11 +9078,12 @@ No description provided
 | **team id** | `string` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
-| **variants count** | `unknown` | No description | ❌ |
+| **variants count** | `integer` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -4781,9 +9095,11 @@ analytics.track("Collection Item Deleted", {
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4808,11 +9124,12 @@ analytics.track("Collection Item Deleted", {
   "team id": "<<type: string, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
-  "variants count": "<<type: unknown, required: false>>",
+  "variants count": "<<type: integer, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4835,6 +9152,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4858,12 +9176,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Deleting Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4886,7 +9206,8 @@ analytics.track("Collection Item Deleting Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4909,6 +9230,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -4932,12 +9254,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Drafting Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -4960,7 +9284,96 @@ analytics.track("Collection Item Drafting Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Collection Item Generated
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **bulk** | `boolean` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **cms version** | `string` | No description | ❌ |
+| **collection field count** | `integer` | No description | ❌ |
+| **collection id** | `string` | No description | ❌ |
+| **collection item count** | `integer` | No description | ❌ |
+| **collection name** | `string` | No description | ❌ |
+| **collection type** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **number of items** | `integer` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **prompt** | `string` | No description | ❌ |
+| **requestId** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Collection Item Generated", {
+  "active tutorials": "<<type: string, required: false>>",
+  "bulk": "<<type: boolean, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "cms version": "<<type: string, required: false>>",
+  "collection field count": "<<type: integer, required: false>>",
+  "collection id": "<<type: string, required: false>>",
+  "collection item count": "<<type: integer, required: false>>",
+  "collection name": "<<type: string, required: false>>",
+  "collection type": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "number of items": "<<type: integer, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "prompt": "<<type: string, required: false>>",
+  "requestId": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -4983,6 +9396,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5006,12 +9420,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Publishing Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5034,7 +9450,90 @@ analytics.track("Collection Item Publishing Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Collection Item Response
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **cms version** | `string` | No description | ❌ |
+| **collection field count** | `integer` | No description | ❌ |
+| **collection id** | `string` | No description | ❌ |
+| **collection item count** | `integer` | No description | ❌ |
+| **collection name** | `string` | No description | ❌ |
+| **collection type** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Collection Item Response", {
+  "action": "<<type: string, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "cms version": "<<type: string, required: false>>",
+  "collection field count": "<<type: integer, required: false>>",
+  "collection id": "<<type: string, required: false>>",
+  "collection item count": "<<type: integer, required: false>>",
+  "collection name": "<<type: string, required: false>>",
+  "collection type": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5055,10 +9554,11 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **bulk** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **cms version** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5085,14 +9585,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Scheduled", {
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "bulk": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "cms version": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5118,7 +9620,8 @@ analytics.track("Collection Item Scheduled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5146,9 +9649,11 @@ No description provided
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5176,6 +9681,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -5187,9 +9693,11 @@ analytics.track("Collection Item Started", {
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5216,7 +9724,8 @@ analytics.track("Collection Item Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5243,9 +9752,11 @@ No description provided
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5273,6 +9784,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -5283,9 +9795,11 @@ analytics.track("Collection Item Unpublished", {
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5312,7 +9826,8 @@ analytics.track("Collection Item Unpublished", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5335,6 +9850,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5358,12 +9874,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Unpublishing Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5386,7 +9904,8 @@ analytics.track("Collection Item Unpublishing Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5407,16 +9926,18 @@ No description provided
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **bulk** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **cms version** | `string` | No description | ❌ |
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5447,20 +9968,23 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Item Unscheduled", {
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "bulk": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "cms version": "<<type: string, required: false>>",
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5490,7 +10014,8 @@ analytics.track("Collection Item Unscheduled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5519,9 +10044,11 @@ No description provided
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5557,11 +10084,12 @@ No description provided
 | **total collection count** | `integer` | No description | ❌ |
 | **total items updated count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
-| **variants count** | `integer` | No description | ❌ |
+| **variants count** | `unknown` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -5574,9 +10102,11 @@ analytics.track("Collection Item Updated", {
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5613,11 +10143,12 @@ analytics.track("Collection Item Updated", {
   "total collection count": "<<type: integer, required: false>>",
   "total items updated count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
-  "variants count": "<<type: integer, required: false>>",
+  "variants count": "<<type: unknown, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5640,6 +10171,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5661,12 +10193,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Items Published", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5687,7 +10221,8 @@ analytics.track("Collection Items Published", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5710,6 +10245,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5731,12 +10267,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection Items Publishing Failed", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5757,7 +10295,8 @@ analytics.track("Collection Items Publishing Failed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5786,6 +10325,7 @@ No description provided
 | **collection item count** | `integer` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5810,6 +10350,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -5822,6 +10363,7 @@ analytics.track("Collection Items Unpublished", {
   "collection item count": "<<type: integer, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5845,7 +10387,8 @@ analytics.track("Collection Items Unpublished", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5874,6 +10417,7 @@ No description provided
 | **collection item count** | `integer` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5898,6 +10442,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -5910,6 +10455,7 @@ analytics.track("Collection Items Unpublishing Failed", {
   "collection item count": "<<type: integer, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -5933,7 +10479,8 @@ analytics.track("Collection Items Unpublishing Failed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -5956,6 +10503,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -5979,12 +10527,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Collection List Connected", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6007,7 +10557,80 @@ analytics.track("Collection List Connected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Collection List Limit Changed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **limit** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **nested collection list** | `boolean` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Collection List Limit Changed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "limit": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "nested collection list": "<<type: boolean, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6032,6 +10655,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6053,6 +10677,7 @@ No description provided
 | **site role** | `string` | No description | ❌ |
 | **siteId** | `string` | No description | ❌ |
 | **siteSubscriptionPlan** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
@@ -6062,6 +10687,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6070,6 +10696,7 @@ analytics.track("Collection List Viewed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6091,6 +10718,7 @@ analytics.track("Collection List Viewed", {
   "site role": "<<type: string, required: false>>",
   "siteId": "<<type: string, required: false>>",
   "siteSubscriptionPlan": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
@@ -6099,7 +10727,8 @@ analytics.track("Collection List Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6126,6 +10755,7 @@ No description provided
 | **cms version** | `string` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6157,6 +10787,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6167,6 +10798,7 @@ analytics.track("Collection Started", {
   "cms version": "<<type: string, required: false>>",
   "collection count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6197,7 +10829,8 @@ analytics.track("Collection Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6222,6 +10855,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6240,7 +10874,7 @@ No description provided
 | **planId** | `string` | No description | ❌ |
 | **project count** | `integer` | No description | ❌ |
 | **project item count** | `integer` | No description | ❌ |
-| **renamed** | `string` | No description | ❌ |
+| **renamed** | `boolean` | No description | ❌ |
 | **seat count** | `integer` | No description | ❌ |
 | **shortName** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
@@ -6259,6 +10893,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6267,6 +10902,7 @@ analytics.track("Collection Updated", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6285,7 +10921,7 @@ analytics.track("Collection Updated", {
   "planId": "<<type: string, required: false>>",
   "project count": "<<type: integer, required: false>>",
   "project item count": "<<type: integer, required: false>>",
-  "renamed": "<<type: string, required: false>>",
+  "renamed": "<<type: boolean, required: false>>",
   "seat count": "<<type: integer, required: false>>",
   "shortName": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
@@ -6303,7 +10939,8 @@ analytics.track("Collection Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6329,6 +10966,7 @@ No description provided
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
 | **color** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6352,6 +10990,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6361,6 +11000,7 @@ analytics.track("Color Emulation Selected", {
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
   "color": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6383,7 +11023,8 @@ analytics.track("Color Emulation Selected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6408,6 +11049,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6431,6 +11073,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6439,6 +11082,7 @@ analytics.track("Comment Created", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6461,7 +11105,78 @@ analytics.track("Comment Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Comment Mode Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Comment Mode Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6487,6 +11202,10 @@ No description provided
 | **available** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **custom code preview settings value** | `string` | No description | ❌ |
+| **custom code site settings value** | `string` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6502,6 +11221,7 @@ No description provided
 | **site id** | `string` | No description | ❌ |
 | **site published** | `boolean` | No description | ❌ |
 | **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
@@ -6510,6 +11230,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6519,6 +11240,10 @@ analytics.track("Comment Mode Opened", {
   "available": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "custom code preview settings value": "<<type: string, required: false>>",
+  "custom code site settings value": "<<type: string, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6534,6 +11259,7 @@ analytics.track("Comment Mode Opened", {
   "site id": "<<type: string, required: false>>",
   "site published": "<<type: boolean, required: false>>",
   "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: string, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
@@ -6541,7 +11267,8 @@ analytics.track("Comment Mode Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6567,6 +11294,7 @@ No description provided
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
 | **comment action** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6592,6 +11320,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6601,6 +11330,7 @@ analytics.track("Comment Updated", {
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
   "comment action": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6625,7 +11355,8 @@ analytics.track("Comment Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6704,6 +11435,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -6721,12 +11453,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Components Panel Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -6743,7 +11477,8 @@ analytics.track("Components Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6768,10 +11503,11 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **field_slug** | `unknown` | No description | ❌ |
+| **field_slug** | `string` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -6799,6 +11535,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6807,10 +11544,11 @@ analytics.track("Connected Collection List to Multi-Image Field", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "field_slug": "<<type: unknown, required: false>>",
+  "field_slug": "<<type: string, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -6837,7 +11575,8 @@ analytics.track("Connected Collection List to Multi-Image Field", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6859,11 +11598,12 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
-| **cms_field_slug** | `unknown` | No description | ❌ |
-| **cms_field_type** | `unknown` | No description | ❌ |
+| **cms_field_slug** | `string` | No description | ❌ |
+| **cms_field_type** | `string` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6894,16 +11634,18 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Connected Lightbox Media to CMS Content", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
-  "cms_field_slug": "<<type: unknown, required: false>>",
-  "cms_field_type": "<<type: unknown, required: false>>",
+  "cms_field_slug": "<<type: string, required: false>>",
+  "cms_field_type": "<<type: string, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -6933,7 +11675,76 @@ analytics.track("Connected Lightbox Media to CMS Content", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Content Editor Add Menu Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Content Editor Add Menu Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -6957,6 +11768,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collectionId** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -6982,6 +11794,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -6989,6 +11802,7 @@ analytics.track("Content Editor Link Page Bound", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collectionId": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -7013,7 +11827,8 @@ analytics.track("Content Editor Link Page Bound", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7041,6 +11856,7 @@ No description provided
 | **affect target** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `unknown` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -7071,6 +11887,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -7082,6 +11899,7 @@ analytics.track("Custom Animation Created", {
   "affect target": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: unknown, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -7111,7 +11929,8 @@ analytics.track("Custom Animation Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7134,6 +11953,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **intent** | `string` | No description | ❌ |
@@ -7155,12 +11975,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Data Manager Modal Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "intent": "<<type: string, required: false>>",
@@ -7181,7 +12003,8 @@ analytics.track("Data Manager Modal Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7204,6 +12027,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -7221,12 +12045,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Designer Image Alt Text Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -7243,7 +12069,8 @@ analytics.track("Designer Image Alt Text Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7266,6 +12093,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -7283,12 +12111,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Designer Image Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -7305,7 +12135,8 @@ analytics.track("Designer Image Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7351,7 +12182,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
 | **CSVReferenceSupport** | `boolean` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **activityLog** | `boolean` | No description | ❌ |
 | **allowCustomSiteHeader** | `boolean` | No description | ❌ |
 | **annotations** | `boolean` | No description | ❌ |
@@ -7374,6 +12205,7 @@ No description provided
 | **customClassInRichText** | `boolean` | No description | ❌ |
 | **dccLimit** | `boolean` | No description | ❌ |
 | **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **designerSubdomain** | `boolean` | No description | ❌ |
 | **disableBlockers** | `boolean` | No description | ❌ |
 | **dl** | `boolean` | No description | ❌ |
@@ -7470,13 +12302,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Designer Opened", {
   "CMS item count": "<<type: integer, required: false>>",
   "CSVReferenceSupport": "<<type: boolean, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "activityLog": "<<type: boolean, required: false>>",
   "allowCustomSiteHeader": "<<type: boolean, required: false>>",
   "annotations": "<<type: boolean, required: false>>",
@@ -7499,6 +12332,7 @@ analytics.track("Designer Opened", {
   "customClassInRichText": "<<type: boolean, required: false>>",
   "dccLimit": "<<type: boolean, required: false>>",
   "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "designerSubdomain": "<<type: boolean, required: false>>",
   "disableBlockers": "<<type: boolean, required: false>>",
   "dl": "<<type: boolean, required: false>>",
@@ -7594,7 +12428,8 @@ analytics.track("Designer Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7617,6 +12452,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -7635,12 +12471,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Designer Settings Panel Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -7658,7 +12496,8 @@ analytics.track("Designer Settings Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7681,6 +12520,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -7698,12 +12538,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Devlink Config Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -7720,33 +12562,8 @@ analytics.track("Devlink Config Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Dismissed Button Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **type** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Dismissed Button Clicked", {
-  "type": "<<type: string, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7772,6 +12589,7 @@ No description provided
 | **business country** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -7803,6 +12621,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -7812,6 +12631,7 @@ analytics.track("Ecommerce Business Address Added", {
   "business country": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -7842,7 +12662,8 @@ analytics.track("Ecommerce Business Address Added", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7864,9 +12685,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -7898,14 +12720,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Checkout Disabled", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -7936,7 +12760,8 @@ analytics.track("Ecommerce Checkout Disabled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -7958,9 +12783,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -7992,14 +12818,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Checkout Enabled", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8030,7 +12858,8 @@ analytics.track("Ecommerce Checkout Enabled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8052,9 +12881,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8085,14 +12915,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Creation Conflict Detected", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8122,7 +12954,8 @@ analytics.track("Ecommerce Creation Conflict Detected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8147,6 +12980,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8180,6 +13014,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -8188,6 +13023,7 @@ analytics.track("Ecommerce Currency Updated", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8220,7 +13056,8 @@ analytics.track("Ecommerce Currency Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8245,6 +13082,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **discount type** | `string` | No description | ❌ |
 | **discount value** | `integer` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
@@ -8270,6 +13108,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -8278,6 +13117,7 @@ analytics.track("Ecommerce Discount Created", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "discount type": "<<type: string, required: false>>",
   "discount value": "<<type: integer, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
@@ -8302,7 +13142,8 @@ analytics.track("Ecommerce Discount Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8324,9 +13165,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8350,14 +13192,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Discount Deleted", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8380,7 +13224,8 @@ analytics.track("Ecommerce Discount Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8405,6 +13250,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
@@ -8428,6 +13274,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -8436,6 +13283,7 @@ analytics.track("Ecommerce Discount Status Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
@@ -8458,7 +13306,8 @@ analytics.track("Ecommerce Discount Status Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8480,9 +13329,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8506,14 +13356,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Discount Updated", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8536,7 +13388,8 @@ analytics.track("Ecommerce Discount Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8561,11 +13414,12 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ec_conflicts_cms_names** | `array` | No description | ❌ |
 | **ec_conflicts_cms_slugs** | `array` | No description | ❌ |
 | **ec_conflicts_folder_slugs** | `array` | No description | ❌ |
 | **ec_conflicts_page_slugs** | `array` | No description | ❌ |
-| **ec_conflicts_total** | `unknown` | No description | ❌ |
+| **ec_conflicts_total** | `integer` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8596,6 +13450,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -8604,11 +13459,12 @@ analytics.track("Ecommerce Enable Modal Viewed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ec_conflicts_cms_names": "<<type: array, required: false>>",
   "ec_conflicts_cms_slugs": "<<type: array, required: false>>",
   "ec_conflicts_folder_slugs": "<<type: array, required: false>>",
   "ec_conflicts_page_slugs": "<<type: array, required: false>>",
-  "ec_conflicts_total": "<<type: unknown, required: false>>",
+  "ec_conflicts_total": "<<type: integer, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8638,7 +13494,8 @@ analytics.track("Ecommerce Enable Modal Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8663,6 +13520,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8693,6 +13551,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -8701,6 +13560,7 @@ analytics.track("Ecommerce Enabled", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8730,7 +13590,8 @@ analytics.track("Ecommerce Enabled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8755,12 +13616,13 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
-| **ec_getting_started_todo** | `unknown` | No description | ❌ |
-| **ec_getting_started_todo_completed** | `unknown` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ec_getting_started_todo** | `string` | No description | ❌ |
+| **ec_getting_started_todo_completed** | `boolean` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **initiation_source** | `unknown` | No description | ❌ |
+| **initiation_source** | `string` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -8788,6 +13650,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -8796,12 +13659,13 @@ analytics.track("Ecommerce Getting Started CTA Clicked", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
-  "ec_getting_started_todo": "<<type: unknown, required: false>>",
-  "ec_getting_started_todo_completed": "<<type: unknown, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ec_getting_started_todo": "<<type: string, required: false>>",
+  "ec_getting_started_todo_completed": "<<type: boolean, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "initiation_source": "<<type: unknown, required: false>>",
+  "initiation_source": "<<type: string, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -8828,7 +13692,8 @@ analytics.track("Ecommerce Getting Started CTA Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8850,9 +13715,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8878,14 +13744,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Integration Connected", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8910,7 +13778,8 @@ analytics.track("Ecommerce Integration Connected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -8932,9 +13801,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -8960,14 +13830,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Integration Deleted", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -8992,7 +13864,176 @@ analytics.track("Ecommerce Integration Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Ecommerce Integration Disabled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **integration name** | `string` | No description | ❌ |
+| **integration type** | `string` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Ecommerce Integration Disabled", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "integration name": "<<type: string, required: false>>",
+  "integration type": "<<type: string, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Ecommerce Integration Enabled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **CMS item count** | `integer` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **integration name** | `string` | No description | ❌ |
+| **integration type** | `string` | No description | ❌ |
+| **legacy seat count** | `integer` | No description | ❌ |
+| **legacy team id** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project count** | `integer` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **seat count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **team id** | `string` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Ecommerce Integration Enabled", {
+  "CMS item count": "<<type: integer, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "integration name": "<<type: string, required: false>>",
+  "integration type": "<<type: string, required: false>>",
+  "legacy seat count": "<<type: integer, required: false>>",
+  "legacy team id": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project count": "<<type: integer, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "seat count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "team id": "<<type: string, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9014,9 +14055,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9041,14 +14083,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Ecommerce Issue Detected", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9072,7 +14116,8 @@ analytics.track("Ecommerce Issue Detected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9097,6 +14142,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9118,6 +14164,7 @@ No description provided
 | **site role** | `string` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
 | **siteSubscriptionPlan** | `unknown` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
@@ -9127,6 +14174,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -9135,6 +14183,7 @@ analytics.track("Ecommerce Panel Viewed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9156,6 +14205,7 @@ analytics.track("Ecommerce Panel Viewed", {
   "site role": "<<type: string, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
   "siteSubscriptionPlan": "<<type: unknown, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
@@ -9164,7 +14214,8 @@ analytics.track("Ecommerce Panel Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9189,6 +14240,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9221,6 +14273,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -9229,6 +14282,7 @@ analytics.track("Ecommerce Payment Provider Connected", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9260,7 +14314,8 @@ analytics.track("Ecommerce Payment Provider Connected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9286,6 +14341,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9317,6 +14373,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -9326,6 +14383,7 @@ analytics.track("Ecommerce Setup Guide Viewed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9356,7 +14414,8 @@ analytics.track("Ecommerce Setup Guide Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9380,6 +14439,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **billing period** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9403,6 +14463,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -9410,6 +14471,7 @@ analytics.track("Ecommerce Subscription Created", {
   "active tutorials": "<<type: string, required: false>>",
   "billing period": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9432,7 +14494,78 @@ analytics.track("Ecommerce Subscription Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Edit Custom Code
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **custom code location** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Edit Custom Code", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "custom code location": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9460,6 +14593,7 @@ No description provided
 | **cms item count** | `integer` | No description | ❌ |
 | **collection** | `string` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9468,10 +14602,12 @@ No description provided
 | **in symbol** | `boolean` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
+| **library id** | `string` | No description | ❌ |
 | **library name** | `string` | No description | ❌ |
 | **library search** | `unknown` | No description | ❌ |
 | **library type** | `string` | No description | ❌ |
 | **library version** | `string` | No description | ❌ |
+| **library version id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **name** | `string` | No description | ❌ |
 | **nested symbol** | `boolean` | No description | ❌ |
@@ -9502,6 +14638,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -9513,6 +14650,7 @@ analytics.track("Element Added", {
   "cms item count": "<<type: integer, required: false>>",
   "collection": "<<type: string, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9521,10 +14659,12 @@ analytics.track("Element Added", {
   "in symbol": "<<type: boolean, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
+  "library id": "<<type: string, required: false>>",
   "library name": "<<type: string, required: false>>",
   "library search": "<<type: unknown, required: false>>",
   "library type": "<<type: string, required: false>>",
   "library version": "<<type: string, required: false>>",
+  "library version id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
   "name": "<<type: string, required: false>>",
   "nested symbol": "<<type: boolean, required: false>>",
@@ -9554,7 +14694,80 @@ analytics.track("Element Added", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Element Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **node id list** | `array` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **trigger** | `string` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Element Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "node id list": "<<type: array, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "trigger": "<<type: string, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9577,6 +14790,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **element type** | `string` | No description | ❌ |
@@ -9595,12 +14809,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Element Email Link Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "element type": "<<type: string, required: false>>",
@@ -9618,7 +14834,8 @@ analytics.track("Element Email Link Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9643,6 +14860,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9669,6 +14887,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -9677,6 +14896,7 @@ analytics.track("Element Moved", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9702,7 +14922,8 @@ analytics.track("Element Moved", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9725,6 +14946,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **element type** | `string` | No description | ❌ |
@@ -9743,12 +14965,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Element Section Link Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "element type": "<<type: string, required: false>>",
@@ -9766,7 +14990,8 @@ analytics.track("Element Section Link Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9789,6 +15014,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **element type** | `string` | No description | ❌ |
@@ -9807,12 +15033,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Element Static Page Link Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "element type": "<<type: string, required: false>>",
@@ -9830,7 +15058,8 @@ analytics.track("Element Static Page Link Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9853,6 +15082,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **element type** | `string` | No description | ❌ |
@@ -9871,12 +15101,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Element Telephone Link Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "element type": "<<type: string, required: false>>",
@@ -9894,7 +15126,8 @@ analytics.track("Element Telephone Link Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9917,6 +15150,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -9941,12 +15175,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Element Text Updated", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -9970,7 +15206,8 @@ analytics.track("Element Text Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -9993,6 +15230,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **element type** | `string` | No description | ❌ |
@@ -10011,12 +15249,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Element URL Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "element type": "<<type: string, required: false>>",
@@ -10034,33 +15274,8 @@ analytics.track("Element URL Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Eleventh Event
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **prop2** | `string` | this is a single property | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Eleventh Event", {
-  "prop2": "<<type: string, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10106,6 +15321,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -10122,12 +15338,14 @@ No description provided
 | **workspace id** | `string` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Email Verification Resend Failed", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -10143,7 +15361,8 @@ analytics.track("Email Verification Resend Failed", {
   "tutorial": "<<type: unknown, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10166,6 +15385,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -10183,12 +15403,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Email Verification Resend Succeeded", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -10205,7 +15427,356 @@ analytics.track("Email Verification Resend Succeeded", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Embed Editor Shown
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Embed Editor Shown", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Entering Optimization Click Goal Mode
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Entering Optimization Click Goal Mode", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Entering Optimization Redirect Test Mode
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Entering Optimization Redirect Test Mode", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Exiting Optimization Click Goal
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Exiting Optimization Click Goal", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Exiting Optimization Redirect Test
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Exiting Optimization Redirect Test", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10228,6 +15799,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -10246,12 +15818,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Export initiated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -10269,7 +15843,8 @@ analytics.track("Export initiated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10292,6 +15867,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **itemName** | `string` | No description | ❌ |
@@ -10311,12 +15887,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Finder Search Item Selected", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "itemName": "<<type: string, required: false>>",
@@ -10335,7 +15913,8 @@ analytics.track("Finder Search Item Selected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10358,6 +15937,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -10380,12 +15960,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Finder Toggled", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -10407,7 +15989,8 @@ analytics.track("Finder Toggled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10432,6 +16015,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -10456,6 +16040,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -10464,6 +16049,7 @@ analytics.track("Focus Mode Toggled", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -10487,7 +16073,199 @@ analytics.track("Focus Mode Toggled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Form Submission Notifications Dropdown Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+#### **JS**
+
+```javascript
+analytics.track("Form Submission Notifications Dropdown Opened", {})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Form Submission Notifications Modified
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Form Submission Notifications Modified", {
+  "action": "<<type: string, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## FullStory Consent
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **consent granted** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("FullStory Consent", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "consent granted": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## FullStory Consent Modal Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **enabledBetaFeatures** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **userId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("FullStory Consent Modal Opened", {
+  "enabledBetaFeatures": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "userId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>"
 })
 ```
 
@@ -10512,6 +16290,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -10536,6 +16315,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -10544,6 +16324,7 @@ analytics.track("Handover Request Started", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -10567,7 +16348,8 @@ analytics.track("Handover Request Started", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10589,9 +16371,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -10616,14 +16399,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Handover Response Created", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -10647,7 +16432,8 @@ analytics.track("Handover Response Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10670,6 +16456,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -10687,12 +16474,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Help Panel Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -10709,7 +16498,250 @@ analytics.track("Help Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Insights Panel Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **mode** | `unknown` | No description | ❌ |
+| **pageName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Insights Panel Clicked", {
+  "mode": "<<type: unknown, required: false>>",
+  "pageName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Insights Settings Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Insights Settings Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Insights Tracking Defaults Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **new_tracking_defaults** | `string` | No description | ❌ |
+| **original_tracking_defaults** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Insights Tracking Defaults Edited", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "new_tracking_defaults": "<<type: string, required: false>>",
+  "original_tracking_defaults": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Insights Tracking Toggled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **new_tracking_state** | `boolean` | No description | ❌ |
+| **original_tracking_state** | `boolean` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Insights Tracking Toggled", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "new_tracking_state": "<<type: boolean, required: false>>",
+  "original_tracking_state": "<<type: boolean, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10736,6 +16768,7 @@ No description provided
 | **breakpoint target** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `unknown` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -10771,6 +16804,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -10781,6 +16815,7 @@ analytics.track("Interaction Event Created", {
   "breakpoint target": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: unknown, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -10815,7 +16850,8 @@ analytics.track("Interaction Event Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10840,11 +16876,12 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **initiation_source** | `unknown` | No description | ❌ |
-| **inv_sync_platform** | `unknown` | No description | ❌ |
+| **initiation_source** | `string` | No description | ❌ |
+| **inv_sync_platform** | `string` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -10871,6 +16908,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -10879,11 +16917,12 @@ analytics.track("Inventory Sync Disabled", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "initiation_source": "<<type: unknown, required: false>>",
-  "inv_sync_platform": "<<type: unknown, required: false>>",
+  "initiation_source": "<<type: string, required: false>>",
+  "inv_sync_platform": "<<type: string, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -10909,7 +16948,8 @@ analytics.track("Inventory Sync Disabled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -10931,14 +16971,15 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **initiation_source** | `unknown` | No description | ❌ |
-| **inv_sync_platform** | `unknown` | No description | ❌ |
+| **initiation_source** | `string` | No description | ❌ |
+| **inv_sync_platform** | `string` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -10966,19 +17007,21 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Inventory Sync Enabled", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "initiation_source": "<<type: unknown, required: false>>",
-  "inv_sync_platform": "<<type: unknown, required: false>>",
+  "initiation_source": "<<type: string, required: false>>",
+  "inv_sync_platform": "<<type: string, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -11005,7 +17048,196 @@ analytics.track("Inventory Sync Enabled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Launch Optimization Variations
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **allVariations** | `boolean` | No description | ❌ |
+| **cta** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **numVariations** | `integer` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **variationId** | `string` | No description | ❌ |
+| **variationName** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Launch Optimization Variations", {
+  "allVariations": "<<type: boolean, required: false>>",
+  "cta": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "numVariations": "<<type: integer, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "variationId": "<<type: string, required: false>>",
+  "variationName": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Library Assets Blocked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **asset count** | `integer` | No description | ❌ |
+| **library action** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Library Assets Blocked", {
+  "asset count": "<<type: integer, required: false>>",
+  "library action": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Library Element Blocked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **element** | `array` | No description | ❌ |
+| **library id** | `string` | No description | ❌ |
+| **library name** | `string` | No description | ❌ |
+| **library type** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **symbol id** | `array` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Library Element Blocked", {
+  "element": "<<type: array, required: false>>",
+  "library id": "<<type: string, required: false>>",
+  "library name": "<<type: string, required: false>>",
+  "library type": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "symbol id": "<<type: array, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Library Orphaned Content Detected
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **branch id** | `string` | No description | ❌ |
+| **locale id** | `string` | No description | ❌ |
+| **orphaned components** | `integer` | No description | ❌ |
+| **orphaned variables** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Library Orphaned Content Detected", {
+  "branch id": "<<type: string, required: false>>",
+  "locale id": "<<type: string, required: false>>",
+  "orphaned components": "<<type: integer, required: false>>",
+  "orphaned variables": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Library Orphaned Content Recovered
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **branch id** | `unknown` | No description | ❌ |
+| **components detached** | `integer` | No description | ❌ |
+| **components updated** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Library Orphaned Content Recovered", {
+  "branch id": "<<type: unknown, required: false>>",
+  "components detached": "<<type: integer, required: false>>",
+  "components updated": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>"
 })
 ```
 
@@ -11028,6 +17260,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11051,12 +17284,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Library Uninstalled", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11079,7 +17314,38 @@ analytics.track("Library Uninstalled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Like button app details opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **id** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **slug** | `string` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Like button app details opened", {
+  "id": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "slug": "<<type: string, required: false>>"
 })
 ```
 
@@ -11116,6 +17382,214 @@ analytics.track("Locale Add Clicked", {
 <!-- panels:end -->
 
 
+## Locale Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Locale Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Logic Flows Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Logic Flows Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Logic Flows Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Logic Flows Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Logic Flows Panel Opened
 
 <!-- tabs:start -->
@@ -11130,6 +17604,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -11148,12 +17623,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Logic Flows Panel Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -11171,7 +17648,8 @@ analytics.track("Logic Flows Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11197,6 +17675,7 @@ No description provided
 | **button action and type** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **cta** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11225,6 +17704,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -11234,6 +17714,7 @@ analytics.track("Marketplace CTA Clicked", {
   "button action and type": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "cta": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11261,7 +17742,8 @@ analytics.track("Marketplace CTA Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11283,9 +17765,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11314,14 +17797,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Multi-Image Field Max Exceeded", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11349,7 +17834,8 @@ analytics.track("Multi-Image Field Max Exceeded", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11427,6 +17913,74 @@ analytics.track("Multi-player -- Designer request", {})
 <!-- panels:end -->
 
 
+## Navigator Node Toggled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Navigator Node Toggled", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
 ## Navigator: docked
 
 <!-- tabs:start -->
@@ -11443,6 +17997,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11451,7 +18006,7 @@ No description provided
 | **mode** | `string` | No description | ❌ |
 | **orgId** | `unknown` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
-| **page id** | `string` | No description | ❌ |
+| **page id** | `unknown` | No description | ❌ |
 | **pageId** | `unknown` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **planId** | `unknown` | No description | ❌ |
@@ -11459,7 +18014,7 @@ No description provided
 | **project item count** | `integer` | No description | ❌ |
 | **seat count** | `integer` | No description | ❌ |
 | **shortName** | `unknown` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
+| **site id** | `unknown` | No description | ❌ |
 | **site published** | `boolean` | No description | ❌ |
 | **site role** | `unknown` | No description | ❌ |
 | **siteId** | `unknown` | No description | ❌ |
@@ -11473,6 +18028,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -11481,6 +18037,7 @@ analytics.track("Navigator: docked", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11489,7 +18046,7 @@ analytics.track("Navigator: docked", {
   "mode": "<<type: string, required: false>>",
   "orgId": "<<type: unknown, required: false>>",
   "page count": "<<type: integer, required: false>>",
-  "page id": "<<type: string, required: false>>",
+  "page id": "<<type: unknown, required: false>>",
   "pageId": "<<type: unknown, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "planId": "<<type: unknown, required: false>>",
@@ -11497,7 +18054,7 @@ analytics.track("Navigator: docked", {
   "project item count": "<<type: integer, required: false>>",
   "seat count": "<<type: integer, required: false>>",
   "shortName": "<<type: unknown, required: false>>",
-  "site id": "<<type: string, required: false>>",
+  "site id": "<<type: unknown, required: false>>",
   "site published": "<<type: boolean, required: false>>",
   "site role": "<<type: unknown, required: false>>",
   "siteId": "<<type: unknown, required: false>>",
@@ -11510,7 +18067,8 @@ analytics.track("Navigator: docked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11532,9 +18090,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11559,14 +18118,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Nested Collection List Connected", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11590,7 +18151,50 @@ analytics.track("Nested Collection List Connected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Audience Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **audienceId** | `string` | No description | ❌ |
+| **audienceName** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Audience Created", {
+  "audienceId": "<<type: string, required: false>>",
+  "audienceName": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11615,6 +18219,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11640,6 +18245,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -11648,6 +18254,7 @@ analytics.track("New Feature Notification Dismissed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11672,7 +18279,8 @@ analytics.track("New Feature Notification Dismissed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11697,6 +18305,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11722,6 +18331,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -11730,6 +18340,7 @@ analytics.track("New Feature Notification Viewed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11754,7 +18365,296 @@ analytics.track("New Feature Notification Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Optimization Canceled
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **format** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Optimization Canceled", {
+  "format": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Optimization Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **format** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Optimization Created", {
+  "format": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Optimization Started
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **mode** | `unknown` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Optimization Started", {
+  "mode": "<<type: unknown, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Variable Collection Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Variable Collection Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Variable Mode Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Variable Mode Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## New Variation Added
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("New Variation Added", {
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11777,6 +18677,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -11794,12 +18695,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Nine Box Flex Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -11816,7 +18719,8 @@ analytics.track("Nine Box Flex Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11839,6 +18743,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -11856,12 +18761,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Nine Box Grid Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -11878,7 +18785,8 @@ analytics.track("Nine Box Grid Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11901,6 +18809,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -11924,12 +18833,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Node Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -11952,7 +18863,8 @@ analytics.track("Node Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -11977,10 +18889,11 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
-| **id** | `unknown` | No description | ❌ |
+| **id** | `string` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -12008,6 +18921,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12016,10 +18930,11 @@ analytics.track("Notification Opened", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
-  "id": "<<type: unknown, required: false>>",
+  "id": "<<type: string, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -12046,7 +18961,8 @@ analytics.track("Notification Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12069,7 +18985,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
 | **action** | `string` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
@@ -12093,7 +19009,7 @@ No description provided
 analytics.track("Onboarding Followup Action Selected", {
   "CMS item count": "<<type: integer, required: false>>",
   "action": "<<type: string, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
@@ -12134,6 +19050,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **checklistState** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12157,6 +19074,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12164,6 +19082,7 @@ analytics.track("Onboarding Preferences Edited", {
   "active tutorials": "<<type: string, required: false>>",
   "checklistState": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12186,7 +19105,8 @@ analytics.track("Onboarding Preferences Edited", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12211,6 +19131,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12232,11 +19153,12 @@ No description provided
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
-| **tutorial** | `string` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12245,6 +19167,7 @@ analytics.track("Onboarding Step Completed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12266,11 +19189,12 @@ analytics.track("Onboarding Step Completed", {
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: string, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
-  "tutorial": "<<type: string, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12295,6 +19219,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12319,6 +19244,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12327,6 +19253,7 @@ analytics.track("Onboarding Step Failed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12350,7 +19277,8 @@ analytics.track("Onboarding Step Failed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12375,6 +19303,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12400,6 +19329,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12408,6 +19338,7 @@ analytics.track("Onboarding Tutorial Completed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12432,7 +19363,8 @@ analytics.track("Onboarding Tutorial Completed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12457,6 +19389,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12484,6 +19417,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12492,6 +19426,7 @@ analytics.track("Onboarding Tutorial Dismissed", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12518,7 +19453,8 @@ analytics.track("Onboarding Tutorial Dismissed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12568,9 +19504,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12593,19 +19530,21 @@ No description provided
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `string` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
-| **tutorial** | `string` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Onboarding Tutorial Viewed", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12628,11 +19567,242 @@ analytics.track("Onboarding Tutorial Viewed", {
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: string, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
-  "tutorial": "<<type: string, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Optimization Overview Filters Applied
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **customerId** | `string` | No description | ❌ |
+| **filterType** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Optimization Overview Filters Applied", {
+  "customerId": "<<type: string, required: false>>",
+  "filterType": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Optimization Overview Panel Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **mode** | `unknown` | No description | ❌ |
+| **pageName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Optimization Overview Panel Clicked", {
+  "mode": "<<type: unknown, required: false>>",
+  "pageName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Optimization Report Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Optimization Report Opened", {
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Optimization Settings Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **pageName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Optimization Settings Clicked", {
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "pageName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Optimization Site Publish Modal
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **action** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Optimization Site Publish Modal", {
+  "action": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Optimize Filters Applied
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **customerId** | `string` | No description | ❌ |
+| **filterType** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Optimize Filters Applied", {
+  "customerId": "<<type: string, required: false>>",
+  "filterType": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12658,6 +19828,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12688,6 +19859,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12697,6 +19869,7 @@ analytics.track("Page Created", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12726,7 +19899,76 @@ analytics.track("Page Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Page Settings Opened
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Page Settings Opened", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12754,6 +19996,7 @@ No description provided
 | **collection id** | `unknown` | No description | ❌ |
 | **collection template publishable** | `boolean` | No description | ❌ |
 | **custom code** | `boolean` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12762,7 +20005,7 @@ No description provided
 | **mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
-| **parent folder id** | `unknown` | No description | ❌ |
+| **parent folder id** | `string` | No description | ❌ |
 | **password protection** | `boolean` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **project count** | `integer` | No description | ❌ |
@@ -12781,6 +20024,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12792,6 +20036,7 @@ analytics.track("Page Settings Updated", {
   "collection id": "<<type: unknown, required: false>>",
   "collection template publishable": "<<type: boolean, required: false>>",
   "custom code": "<<type: boolean, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12800,7 +20045,7 @@ analytics.track("Page Settings Updated", {
   "mode": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
-  "parent folder id": "<<type: unknown, required: false>>",
+  "parent folder id": "<<type: string, required: false>>",
   "password protection": "<<type: boolean, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "project count": "<<type: integer, required: false>>",
@@ -12818,7 +20063,8 @@ analytics.track("Page Settings Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12842,6 +20088,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12867,6 +20114,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12874,6 +20122,7 @@ analytics.track("Page branch created", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12898,7 +20147,8 @@ analytics.track("Page branch created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -12922,6 +20172,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -12946,6 +20197,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -12953,6 +20205,7 @@ analytics.track("Page branch deleted", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -12976,7 +20229,8 @@ analytics.track("Page branch deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13000,6 +20254,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13024,6 +20279,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13031,6 +20287,7 @@ analytics.track("Page branch merged", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13054,7 +20311,8 @@ analytics.track("Page branch merged", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13078,6 +20336,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branchId** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13101,6 +20360,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13108,6 +20368,7 @@ analytics.track("Page branch updated", {
   "active tutorials": "<<type: string, required: false>>",
   "branchId": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13130,7 +20391,8 @@ analytics.track("Page branch updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13153,6 +20415,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **from** | `string` | No description | ❌ |
@@ -13164,6 +20427,7 @@ No description provided
 | **site id** | `string` | No description | ❌ |
 | **site published** | `boolean` | No description | ❌ |
 | **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
@@ -13171,12 +20435,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Pages Panel Viewed", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "from": "<<type: string, required: false>>",
@@ -13188,13 +20454,15 @@ analytics.track("Pages Panel Viewed", {
   "site id": "<<type: string, required: false>>",
   "site published": "<<type: boolean, required: false>>",
   "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13323,6 +20591,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13346,12 +20615,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Presence Position Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13374,7 +20645,80 @@ analytics.track("Presence Position Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Preview Custom Code
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **custom code preview settings value** | `string` | No description | ❌ |
+| **custom code site settings value** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Preview Custom Code", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "custom code preview settings value": "<<type: string, required: false>>",
+  "custom code site settings value": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13442,9 +20786,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13468,14 +20813,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Project Exported", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13498,7 +20845,78 @@ analytics.track("Project Exported", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Project Preview Closed
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Project Preview Closed", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13524,6 +20942,10 @@ No description provided
 | **breakpoint** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **custom code preview settings value** | `string` | No description | ❌ |
+| **custom code site settings value** | `string` | No description | ❌ |
+| **design mode** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13532,7 +20954,7 @@ No description provided
 | **mode** | `array` | No description | ❌ |
 | **orgId** | `unknown` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
-| **page id** | `unknown` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
 | **pageId** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
 | **planId** | `string` | No description | ❌ |
@@ -13540,11 +20962,12 @@ No description provided
 | **project item count** | `integer` | No description | ❌ |
 | **seat count** | `integer` | No description | ❌ |
 | **shortName** | `string` | No description | ❌ |
-| **site id** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
 | **site published** | `boolean` | No description | ❌ |
 | **site role** | `string` | No description | ❌ |
 | **siteId** | `string` | No description | ❌ |
 | **siteSubscriptionPlan** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **team id** | `unknown` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
@@ -13554,6 +20977,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13563,6 +20987,10 @@ analytics.track("Project Previewed", {
   "breakpoint": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "custom code preview settings value": "<<type: string, required: false>>",
+  "custom code site settings value": "<<type: string, required: false>>",
+  "design mode": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13571,7 +20999,7 @@ analytics.track("Project Previewed", {
   "mode": "<<type: array, required: false>>",
   "orgId": "<<type: unknown, required: false>>",
   "page count": "<<type: integer, required: false>>",
-  "page id": "<<type: unknown, required: false>>",
+  "page id": "<<type: string, required: false>>",
   "pageId": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
   "planId": "<<type: string, required: false>>",
@@ -13579,11 +21007,12 @@ analytics.track("Project Previewed", {
   "project item count": "<<type: integer, required: false>>",
   "seat count": "<<type: integer, required: false>>",
   "shortName": "<<type: string, required: false>>",
-  "site id": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
   "site published": "<<type: boolean, required: false>>",
   "site role": "<<type: string, required: false>>",
   "siteId": "<<type: string, required: false>>",
   "siteSubscriptionPlan": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
@@ -13592,7 +21021,8 @@ analytics.track("Project Previewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13615,6 +21045,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13638,12 +21069,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Project refresh UI triggered", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13666,81 +21099,8 @@ analytics.track("Project refresh UI triggered", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Publish Summary Change Details Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **card** | `string` | No description | ❌ |
-| **item** | `string` | No description | ❌ |
-| **siteId** | `string` | No description | ❌ |
-| **siteShortName** | `string` | No description | ❌ |
-| **userId** | `string` | No description | ❌ |
-| **workspaceId** | `string` | No description | ❌ |
-| **workspaceSlug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Publish Summary Change Details Clicked", {
-  "card": "<<type: string, required: false>>",
-  "item": "<<type: string, required: false>>",
-  "siteId": "<<type: string, required: false>>",
-  "siteShortName": "<<type: string, required: false>>",
-  "userId": "<<type: string, required: false>>",
-  "workspaceId": "<<type: string, required: false>>",
-  "workspaceSlug": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Publish Summary Changes Expanded
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **card** | `string` | No description | ❌ |
-| **siteId** | `string` | No description | ❌ |
-| **siteShortName** | `string` | No description | ❌ |
-| **userId** | `string` | No description | ❌ |
-| **workspaceId** | `string` | No description | ❌ |
-| **workspaceSlug** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Publish Summary Changes Expanded", {
-  "card": "<<type: string, required: false>>",
-  "siteId": "<<type: string, required: false>>",
-  "siteShortName": "<<type: string, required: false>>",
-  "userId": "<<type: string, required: false>>",
-  "workspaceId": "<<type: string, required: false>>",
-  "workspaceSlug": "<<type: string, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13765,6 +21125,7 @@ No description provided
 | **checklist item** | `string` | No description | ❌ |
 | **checklist type** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -13788,6 +21149,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13796,6 +21158,7 @@ analytics.track("Publish dropdown toggled", {
   "checklist item": "<<type: string, required: false>>",
   "checklist type": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -13818,7 +21181,8 @@ analytics.track("Publish dropdown toggled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -13842,6 +21206,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **branch id** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -13863,6 +21228,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13870,6 +21236,7 @@ analytics.track("Publishing Workflows Publish Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "branch id": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -13890,61 +21257,8 @@ analytics.track("Publishing Workflows Publish Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Quick Add Empty Section State Button Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **buttonLabel** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Quick Add Empty Section State Button Clicked", {
-  "buttonLabel": "<<type: string, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Quick Add Empty Section State Viewed
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **isGhost** | `boolean` | No description | ❌ |
-| **section** | `string` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Quick Add Empty Section State Viewed", {
-  "isGhost": "<<type: boolean, required: false>>",
-  "section": "<<type: string, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14048,6 +21362,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -14066,12 +21381,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Redo triggered", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -14089,7 +21406,8 @@ analytics.track("Redo triggered", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14147,6 +21465,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -14164,12 +21483,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Safari 17.2 notification displayed", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -14186,7 +21507,84 @@ analytics.track("Safari 17.2 notification displayed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Save Custom Code
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **app id** | `string` | No description | ❌ |
+| **app name** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **custom code location** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Save Custom Code", {
+  "active tutorials": "<<type: string, required: false>>",
+  "app id": "<<type: string, required: false>>",
+  "app name": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "custom code location": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14209,6 +21607,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -14226,12 +21625,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Share site clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -14248,7 +21649,8 @@ analytics.track("Share site clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14270,16 +21672,18 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **cms version** | `string` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
 | **collection field count** | `integer` | No description | ❌ |
 | **collection id** | `string` | No description | ❌ |
 | **collection item count** | `integer` | No description | ❌ |
+| **collection item id** | `string` | No description | ❌ |
 | **collection name** | `string` | No description | ❌ |
 | **collection type** | `string` | No description | ❌ |
 | **current status** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -14310,21 +21714,24 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Single Item Published", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "cms version": "<<type: string, required: false>>",
   "collection count": "<<type: integer, required: false>>",
   "collection field count": "<<type: integer, required: false>>",
   "collection id": "<<type: string, required: false>>",
   "collection item count": "<<type: integer, required: false>>",
+  "collection item id": "<<type: string, required: false>>",
   "collection name": "<<type: string, required: false>>",
   "collection type": "<<type: string, required: false>>",
   "current status": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -14354,7 +21761,8 @@ analytics.track("Single Item Published", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14378,6 +21786,7 @@ No description provided
 | **__cpLocation** | `string` | No description | ❌ |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **is_open** | `boolean` | No description | ❌ |
@@ -14398,6 +21807,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -14405,6 +21815,7 @@ analytics.track("Style Variable Bind Menu Toggled", {
   "__cpLocation": "<<type: string, required: false>>",
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "is_open": "<<type: boolean, required: false>>",
@@ -14424,7 +21835,8 @@ analytics.track("Style Variable Bind Menu Toggled", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14447,6 +21859,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -14464,12 +21877,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Styles Panel Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -14486,7 +21901,74 @@ analytics.track("Styles Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Switch to Build Mode Clicked
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Switch to Build Mode Clicked", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14509,6 +21991,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -14526,12 +22009,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Switch to Design Mode Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -14548,7 +22033,8 @@ analytics.track("Switch to Design Mode Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14557,7 +22043,7 @@ analytics.track("Switch to Design Mode Clicked", {
 <!-- panels:end -->
 
 
-## Switch to Edit Mode Clicked
+## Switch to View Mode Clicked
 
 <!-- tabs:start -->
 ### **Details**
@@ -14571,6 +22057,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -14588,12 +22075,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Switch to Edit Mode Clicked", {
+analytics.track("Switch to View Mode Clicked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -14610,7 +22099,8 @@ analytics.track("Switch to Edit Mode Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14636,11 +22126,17 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
+| **from library** | `boolean` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
+| **library id** | `string` | No description | ❌ |
+| **library name** | `string` | No description | ❌ |
+| **library type** | `string` | No description | ❌ |
+| **library version id** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **nested symbol** | `boolean` | No description | ❌ |
@@ -14663,6 +22159,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -14672,11 +22169,17 @@ analytics.track("Symbol Created", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
+  "from library": "<<type: boolean, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
+  "library id": "<<type: string, required: false>>",
+  "library name": "<<type: string, required: false>>",
+  "library type": "<<type: string, required: false>>",
+  "library version id": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
   "nested symbol": "<<type: boolean, required: false>>",
@@ -14698,7 +22201,8 @@ analytics.track("Symbol Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14720,9 +22224,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -14747,14 +22252,16 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Symbol Deleted", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -14778,7 +22285,8 @@ analytics.track("Symbol Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14803,10 +22311,11 @@ No description provided
 | **CMS collection id** | `string` | No description | ❌ |
 | **CMS collection name** | `string` | No description | ❌ |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **bound to parent** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -14832,6 +22341,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -14840,10 +22350,11 @@ analytics.track("Symbol Field Bound", {
   "CMS collection id": "<<type: string, required: false>>",
   "CMS collection name": "<<type: string, required: false>>",
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "bound to parent": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -14868,7 +22379,8 @@ analytics.track("Symbol Field Bound", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14894,6 +22406,7 @@ No description provided
 | **bound to parent** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -14921,6 +22434,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -14930,6 +22444,7 @@ analytics.track("Symbol Field Created", {
   "bound to parent": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -14956,7 +22471,8 @@ analytics.track("Symbol Field Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -14978,10 +22494,11 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **bound** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15001,20 +22518,23 @@ No description provided
 | **team id** | `string` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Symbol Field Deleted", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "bound": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15034,11 +22554,13 @@ analytics.track("Symbol Field Deleted", {
   "team id": "<<type: string, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
   "wf session id": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15060,10 +22582,11 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
-| **bound to parent** | `boolean` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **bound to parent** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15091,15 +22614,17 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Symbol Field Override Applied", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
-  "bound to parent": "<<type: boolean, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "bound to parent": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15126,7 +22651,8 @@ analytics.track("Symbol Field Override Applied", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15149,10 +22675,11 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
 | **action** | `string` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
-| **bound to parent** | `boolean` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
+| **bound to parent** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15178,16 +22705,18 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Symbol Field Override Reset", {
   "CMS item count": "<<type: integer, required: false>>",
   "action": "<<type: string, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
-  "bound to parent": "<<type: boolean, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
+  "bound to parent": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15212,7 +22741,8 @@ analytics.track("Symbol Field Override Reset", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15234,10 +22764,11 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **bound to parent** | `boolean` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15262,15 +22793,17 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Symbol Field Unbound", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "bound to parent": "<<type: boolean, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15294,7 +22827,8 @@ analytics.track("Symbol Field Unbound", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15319,6 +22853,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15346,6 +22881,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -15354,6 +22890,7 @@ analytics.track("Symbol Field Updated", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15380,7 +22917,8 @@ analytics.track("Symbol Field Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15403,11 +22941,17 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
+| **has collection list** | `boolean` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
+| **library id** | `string` | No description | ❌ |
+| **library name** | `string` | No description | ❌ |
+| **library type** | `string` | No description | ❌ |
+| **library version id** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
@@ -15425,17 +22969,24 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Symbol Unlinked", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
+  "has collection list": "<<type: boolean, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
+  "library id": "<<type: string, required: false>>",
+  "library name": "<<type: string, required: false>>",
+  "library type": "<<type: string, required: false>>",
+  "library version id": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
@@ -15452,7 +23003,8 @@ analytics.track("Symbol Unlinked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15475,9 +23027,10 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
 | **__cpLocation** | `string` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15510,15 +23063,17 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Tooltip Opened", {
   "CMS item count": "<<type: integer, required: false>>",
   "__cpLocation": "<<type: string, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15550,31 +23105,9 @@ analytics.track("Tooltip Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Try it Button Clicked
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-#### **JS**
-
-```javascript
-analytics.track("Try it Button Clicked", {})
 ```
 
 <!-- tabs:end -->
@@ -15631,13 +23164,15 @@ No description provided
 | **__cpLocation** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **section type** | `string` | No description | ❌ |
+| **site type** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Tutorial Section Dismissed", {
   "__cpLocation": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
-  "section type": "<<type: string, required: false>>"
+  "section type": "<<type: string, required: false>>",
+  "site type": "<<type: string, required: false>>"
 })
 ```
 
@@ -15661,13 +23196,15 @@ No description provided
 | **__cpLocation** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **section type** | `string` | No description | ❌ |
+| **site type** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Tutorial Section Minimized", {
   "__cpLocation": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
-  "section type": "<<type: string, required: false>>"
+  "section type": "<<type: string, required: false>>",
+  "site type": "<<type: string, required: false>>"
 })
 ```
 
@@ -15692,6 +23229,7 @@ No description provided
 | **isReopened** | `boolean` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **section type** | `string` | No description | ❌ |
+| **site type** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -15699,7 +23237,8 @@ analytics.track("Tutorial Section Viewed", {
   "__cpLocation": "<<type: string, required: false>>",
   "isReopened": "<<type: boolean, required: false>>",
   "location": "<<type: string, required: false>>",
-  "section type": "<<type: string, required: false>>"
+  "section type": "<<type: string, required: false>>",
+  "site type": "<<type: string, required: false>>"
 })
 ```
 
@@ -15722,6 +23261,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -15740,12 +23280,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Undo triggered", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -15763,7 +23305,8 @@ analytics.track("Undo triggered", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15788,6 +23331,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15813,6 +23357,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -15821,6 +23366,7 @@ analytics.track("University Link Clicked", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15845,7 +23391,8 @@ analytics.track("University Link Clicked", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15870,6 +23417,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -15896,6 +23444,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -15904,6 +23453,7 @@ analytics.track("University Video Modal Opened", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -15929,7 +23479,8 @@ analytics.track("University Video Modal Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -15952,6 +23503,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -15963,6 +23515,7 @@ No description provided
 | **site id** | `string` | No description | ❌ |
 | **site published** | `boolean` | No description | ❌ |
 | **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
 | **styles count** | `integer` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
@@ -15970,12 +23523,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Users Panel Opened", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -15987,13 +23542,15 @@ analytics.track("Users Panel Opened", {
   "site id": "<<type: string, required: false>>",
   "site published": "<<type: boolean, required: false>>",
   "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
   "styles count": "<<type: integer, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16030,6 +23587,7 @@ No description provided
 | **access group.updatedOn** | `string` | No description | ❌ |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -16052,6 +23610,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -16077,6 +23636,7 @@ analytics.track("Usys Access Group User Added", {
   },
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -16100,7 +23660,8 @@ analytics.track("Usys Access Group User Added", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16137,6 +23698,7 @@ No description provided
 | **access group.updatedOn** | `string` | No description | ❌ |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -16159,6 +23721,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -16184,6 +23747,7 @@ analytics.track("Usys Access Group User Removed", {
   },
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -16207,7 +23771,8 @@ analytics.track("Usys Access Group User Removed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16230,6 +23795,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -16267,12 +23833,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys Group Created", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -16314,7 +23882,8 @@ analytics.track("Usys Group Created", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16338,6 +23907,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **deletedCount** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -16359,6 +23929,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -16366,6 +23937,7 @@ analytics.track("Usys Group Deleted", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "deletedCount": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -16386,7 +23958,8 @@ analytics.track("Usys Group Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16409,6 +23982,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -16430,12 +24004,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys Group Limit Exceeded", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -16456,7 +24032,8 @@ analytics.track("Usys Group Limit Exceeded", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16479,6 +24056,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -16501,12 +24079,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys Group Paid Connected", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -16528,7 +24108,8 @@ analytics.track("Usys Group Paid Connected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16551,6 +24132,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -16573,12 +24155,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys Group Paid Disconnected", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -16600,7 +24184,8 @@ analytics.track("Usys Group Paid Disconnected", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -16623,6 +24208,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -16646,12 +24232,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys Group Updated", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -16674,656 +24262,8 @@ analytics.track("Usys Group Updated", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
-})
-```
-
-<!-- tabs:end -->
-
-<!-- panels:end -->
-
-
-## Usys Membership Product Created
-
-<!-- tabs:start -->
-### **Details**
-
-#### **Description**
-
-No description provided
-#### **Properties**
-
-| **Name** | `Type` | Description | Required? |
-| :--- | :--- | :--- | :--- |
-| **active tutorials** | `string` | No description | ❌ |
-| **cms item count** | `integer` | No description | ❌ |
-| **ecommerce enabled** | `boolean` | No description | ❌ |
-| **ecommerce item count** | `integer` | No description | ❌ |
-| **enterprise billing** | `boolean` | No description | ❌ |
-| **item** | `object` | No description | ❌ |
-| **item.__altered** | `boolean` | No description | ❌ |
-| **item.__hash** | `number` | No description | ❌ |
-| **item._archived** | `boolean` | No description | ❌ |
-| **item._cid** | `string` | No description | ❌ |
-| **item._draft** | `boolean` | No description | ❌ |
-| **item._id** | `string` | No description | ❌ |
-| **item._root** | `object` | No description | ❌ |
-| **item._root.bitmap** | `number` | No description | ❌ |
-| **item._root.count** | `integer` | No description | ❌ |
-| **item._root.nodes** | `array` | No description | ❌ |
-| **item._root.ownerID** | `object` | No description | ❌ |
-| **item.additional-info** | `array` | No description | ❌ |
-| **item.additional-info.items** | `object` | Contains the structure for array items | ❌ |
-| **item.additional-info.items._id** | `string` | No description | ❌ |
-| **item.additional-info.items.children** | `array` | No description | ❌ |
-| **item.additional-info.items.classes** | `array` | No description | ❌ |
-| **item.additional-info.items.tag** | `string` | No description | ❌ |
-| **item.additional-info.items.text** | `boolean` | No description | ❌ |
-| **item.additional-info.items.type** | `string` | No description | ❌ |
-| **item.additional-info.items.v** | `string` | No description | ❌ |
-| **item.alt-product-type** | `string` | No description | ❌ |
-| **item.best-seller** | `boolean` | No description | ❌ |
-| **item.brand** | `string` | No description | ❌ |
-| **item.categories** | `string` | No description | ❌ |
-| **item.category** | `array` | No description | ❌ |
-| **item.change-direction-before-loop** | `boolean` | No description | ❌ |
-| **item.color** | `string` | No description | ❌ |
-| **item.contains-ribbon** | `boolean` | No description | ❌ |
-| **item.course-about** | `array` | No description | ❌ |
-| **item.course-about.items** | `object` | Contains the structure for array items | ❌ |
-| **item.course-about.items._id** | `string` | No description | ❌ |
-| **item.course-about.items.children** | `array` | No description | ❌ |
-| **item.course-about.items.classes** | `array` | No description | ❌ |
-| **item.course-about.items.tag** | `string` | No description | ❌ |
-| **item.course-about.items.text** | `boolean` | No description | ❌ |
-| **item.course-about.items.type** | `string` | No description | ❌ |
-| **item.course-about.items.v** | `string` | No description | ❌ |
-| **item.course-content-column-1** | `array` | No description | ❌ |
-| **item.course-content-column-1.items** | `object` | Contains the structure for array items | ❌ |
-| **item.course-content-column-1.items._id** | `string` | No description | ❌ |
-| **item.course-content-column-1.items.children** | `array` | No description | ❌ |
-| **item.course-content-column-1.items.classes** | `array` | No description | ❌ |
-| **item.course-content-column-1.items.data** | `object` | No description | ❌ |
-| **item.course-content-column-1.items.tag** | `string` | No description | ❌ |
-| **item.course-content-column-1.items.text** | `boolean` | No description | ❌ |
-| **item.course-content-column-1.items.type** | `string` | No description | ❌ |
-| **item.course-content-column-1.items.v** | `string` | No description | ❌ |
-| **item.course-content-column-2** | `array` | No description | ❌ |
-| **item.course-content-column-2.items** | `object` | Contains the structure for array items | ❌ |
-| **item.course-content-column-2.items._id** | `string` | No description | ❌ |
-| **item.course-content-column-2.items.children** | `array` | No description | ❌ |
-| **item.course-content-column-2.items.classes** | `array` | No description | ❌ |
-| **item.course-content-column-2.items.data** | `object` | No description | ❌ |
-| **item.course-content-column-2.items.tag** | `string` | No description | ❌ |
-| **item.course-content-column-2.items.text** | `boolean` | No description | ❌ |
-| **item.course-content-column-2.items.type** | `string` | No description | ❌ |
-| **item.course-content-column-2.items.v** | `string` | No description | ❌ |
-| **item.course-downloadable-files** | `integer` | No description | ❌ |
-| **item.course-featured** | `boolean` | No description | ❌ |
-| **item.course-lenght** | `string` | No description | ❌ |
-| **item.course-teacher** | `string` | No description | ❌ |
-| **item.couse-introductory-video** | `object` | No description | ❌ |
-| **item.couse-introductory-video.@@__IMMUTABLE_ITERABLE__@@** | `boolean` | No description | ❌ |
-| **item.couse-introductory-video.@@__IMMUTABLE_KEYED__@@** | `boolean` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues** | `object` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.aspectRatio** | `integer` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.author_name** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.description** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.height** | `integer` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.html** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.provider_name** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.thumbnail_url** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.title** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.type** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.url** | `unknown` | No description | ❌ |
-| **item.couse-introductory-video._defaultValues.width** | `integer` | No description | ❌ |
-| **item.couse-introductory-video._keys** | `array` | No description | ❌ |
-| **item.couse-introductory-video._map** | `object` | No description | ❌ |
-| **item.couse-introductory-video._map.aspectRatio** | `integer` | No description | ❌ |
-| **item.couse-introductory-video._map.height** | `integer` | No description | ❌ |
-| **item.couse-introductory-video._map.url** | `string` | No description | ❌ |
-| **item.couse-introductory-video._map.width** | `integer` | No description | ❌ |
-| **item.couse-introductory-video._name** | `string` | No description | ❌ |
-| **item.couse-introductory-video.size** | `integer` | No description | ❌ |
-| **item.cover-image** | `object` | No description | ❌ |
-| **item.cover-image.@@__IMMUTABLE_ITERABLE__@@** | `boolean` | No description | ❌ |
-| **item.cover-image.@@__IMMUTABLE_KEYED__@@** | `boolean` | No description | ❌ |
-| **item.cover-image._defaultValues** | `object` | No description | ❌ |
-| **item.cover-image._defaultValues.alt** | `unknown` | No description | ❌ |
-| **item.cover-image._defaultValues.file** | `unknown` | No description | ❌ |
-| **item.cover-image._defaultValues.fileId** | `string` | No description | ❌ |
-| **item.cover-image._defaultValues.fileSize** | `integer` | No description | ❌ |
-| **item.cover-image._defaultValues.tmp** | `unknown` | No description | ❌ |
-| **item.cover-image._defaultValues.url** | `string` | No description | ❌ |
-| **item.cover-image._keys** | `array` | No description | ❌ |
-| **item.cover-image._map** | `object` | No description | ❌ |
-| **item.cover-image._map.alt** | `unknown` | No description | ❌ |
-| **item.cover-image._map.file** | `object` | No description | ❌ |
-| **item.cover-image._map.fileId** | `string` | No description | ❌ |
-| **item.cover-image._map.fileSize** | `integer` | No description | ❌ |
-| **item.cover-image._map.url** | `string` | No description | ❌ |
-| **item.cover-image._name** | `string` | No description | ❌ |
-| **item.cover-image.size** | `integer` | No description | ❌ |
-| **item.created-by** | `string` | No description | ❌ |
-| **item.created-on** | `string` | No description | ❌ |
-| **item.credit-about** | `array` | No description | ❌ |
-| **item.credit-about.items** | `object` | Contains the structure for array items | ❌ |
-| **item.credit-about.items._id** | `string` | No description | ❌ |
-| **item.credit-about.items.children** | `array` | No description | ❌ |
-| **item.credit-about.items.classes** | `array` | No description | ❌ |
-| **item.credit-about.items.data** | `object` | No description | ❌ |
-| **item.credit-about.items.tag** | `string` | No description | ❌ |
-| **item.credit-about.items.text** | `boolean` | No description | ❌ |
-| **item.credit-about.items.type** | `string` | No description | ❌ |
-| **item.credit-about.items.v** | `string` | No description | ❌ |
-| **item.credit-about-summary-card** | `string` | No description | ❌ |
-| **item.credit-about-summary-page** | `string` | No description | ❌ |
-| **item.credit-excerpt-card** | `string` | No description | ❌ |
-| **item.credit-popular** | `boolean` | No description | ❌ |
-| **item.credit-short-description-page** | `string` | No description | ❌ |
-| **item.date** | `string` | No description | ❌ |
-| **item.default-sku** | `string` | No description | ❌ |
-| **item.description** | `string` | No description | ❌ |
-| **item.descriptions** | `array` | No description | ❌ |
-| **item.descriptions.items** | `object` | Contains the structure for array items | ❌ |
-| **item.descriptions.items._id** | `string` | No description | ❌ |
-| **item.descriptions.items.children** | `array` | No description | ❌ |
-| **item.descriptions.items.classes** | `array` | No description | ❌ |
-| **item.descriptions.items.tag** | `string` | No description | ❌ |
-| **item.descriptions.items.text** | `boolean` | No description | ❌ |
-| **item.descriptions.items.type** | `string` | No description | ❌ |
-| **item.descriptions.items.v** | `string` | No description | ❌ |
-| **item.details** | `string` | No description | ❌ |
-| **item.ec-product-type** | `string` | No description | ❌ |
-| **item.featured** | `boolean` | No description | ❌ |
-| **item.featured-print** | `boolean` | No description | ❌ |
-| **item.featured-template** | `boolean` | No description | ❌ |
-| **item.full-description** | `array` | No description | ❌ |
-| **item.full-description.items** | `object` | Contains the structure for array items | ❌ |
-| **item.full-description.items._id** | `string` | No description | ❌ |
-| **item.full-description.items.children** | `array` | No description | ❌ |
-| **item.full-description.items.classes** | `array` | No description | ❌ |
-| **item.full-description.items.data** | `object` | No description | ❌ |
-| **item.full-description.items.text** | `boolean` | No description | ❌ |
-| **item.full-description.items.type** | `string` | No description | ❌ |
-| **item.full-description.items.v** | `string` | No description | ❌ |
-| **item.hosting** | `boolean` | No description | ❌ |
-| **item.i-want-lottie-do-not-loop** | `boolean` | No description | ❌ |
-| **item.icon** | `string` | No description | ❌ |
-| **item.is-a-zome** | `boolean` | No description | ❌ |
-| **item.is-featured** | `boolean` | No description | ❌ |
-| **item.level** | `string` | No description | ❌ |
-| **item.liked** | `integer` | No description | ❌ |
-| **item.limited-time-option** | `boolean` | No description | ❌ |
-| **item.link-1** | `string` | No description | ❌ |
-| **item.link-to-page** | `string` | No description | ❌ |
-| **item.most-popular** | `boolean` | No description | ❌ |
-| **item.name** | `string` | No description | ❌ |
-| **item.new-product** | `boolean` | No description | ❌ |
-| **item.on-sale** | `boolean` | No description | ❌ |
-| **item.order-rank** | `integer` | No description | ❌ |
-| **item.package-popular** | `boolean` | No description | ❌ |
-| **item.pattern** | `string` | No description | ❌ |
-| **item.plan-description** | `array` | No description | ❌ |
-| **item.plan-description.items** | `object` | Contains the structure for array items | ❌ |
-| **item.plan-description.items._id** | `string` | No description | ❌ |
-| **item.plan-description.items.children** | `array` | No description | ❌ |
-| **item.plan-description.items.classes** | `array` | No description | ❌ |
-| **item.plan-description.items.tag** | `string` | No description | ❌ |
-| **item.plan-description.items.text** | `boolean` | No description | ❌ |
-| **item.plan-description.items.type** | `string` | No description | ❌ |
-| **item.plan-description.items.v** | `string` | No description | ❌ |
-| **item.plan-description-excerpt** | `string` | No description | ❌ |
-| **item.plan-description-page-excerpt** | `string` | No description | ❌ |
-| **item.plan-feature-1** | `string` | No description | ❌ |
-| **item.plan-feature-2** | `string` | No description | ❌ |
-| **item.plan-feature-3** | `string` | No description | ❌ |
-| **item.plan-feature-4** | `string` | No description | ❌ |
-| **item.platform** | `array` | No description | ❌ |
-| **item.popular** | `boolean` | No description | ❌ |
-| **item.product-category** | `string` | No description | ❌ |
-| **item.product-description** | `array` | No description | ❌ |
-| **item.product-description.items** | `object` | Contains the structure for array items | ❌ |
-| **item.product-description.items._id** | `string` | No description | ❌ |
-| **item.product-description.items.children** | `array` | No description | ❌ |
-| **item.product-description.items.classes** | `array` | No description | ❌ |
-| **item.product-description.items.data** | `object` | No description | ❌ |
-| **item.product-description.items.tag** | `string` | No description | ❌ |
-| **item.product-description.items.text** | `boolean` | No description | ❌ |
-| **item.product-description.items.type** | `string` | No description | ❌ |
-| **item.product-description.items.v** | `string` | No description | ❌ |
-| **item.product-display-price-per-month** | `string` | No description | ❌ |
-| **item.product-display-price-per-year** | `string` | No description | ❌ |
-| **item.product-excerpt** | `string` | No description | ❌ |
-| **item.product-is-popular** | `boolean` | No description | ❌ |
-| **item.product-item-id** | `string` | No description | ❌ |
-| **item.product-price-display-card-grid** | `integer` | No description | ❌ |
-| **item.product-short-description** | `string` | No description | ❌ |
-| **item.product-short-description-page** | `string` | No description | ❌ |
-| **item.product-summary** | `array` | No description | ❌ |
-| **item.product-summary.items** | `object` | Contains the structure for array items | ❌ |
-| **item.product-summary.items._id** | `string` | No description | ❌ |
-| **item.product-summary.items.children** | `array` | No description | ❌ |
-| **item.product-summary.items.classes** | `array` | No description | ❌ |
-| **item.product-summary.items.data** | `object` | No description | ❌ |
-| **item.product-summary.items.tag** | `string` | No description | ❌ |
-| **item.product-summary.items.text** | `boolean` | No description | ❌ |
-| **item.product-summary.items.type** | `string` | No description | ❌ |
-| **item.product-summary.items.v** | `string` | No description | ❌ |
-| **item.product-video-2-2** | `string` | No description | ❌ |
-| **item.published-by** | `unknown` | No description | ❌ |
-| **item.published-on** | `unknown` | No description | ❌ |
-| **item.qty** | `string` | No description | ❌ |
-| **item.review-1** | `string` | No description | ❌ |
-| **item.review-2** | `string` | No description | ❌ |
-| **item.review-3** | `string` | No description | ❌ |
-| **item.review-name-1** | `string` | No description | ❌ |
-| **item.review-name-2** | `string` | No description | ❌ |
-| **item.review-name-3** | `string` | No description | ❌ |
-| **item.satiated** | `boolean` | No description | ❌ |
-| **item.shippable** | `boolean` | No description | ❌ |
-| **item.shipping** | `array` | No description | ❌ |
-| **item.shipping.items** | `object` | Contains the structure for array items | ❌ |
-| **item.shipping.items._id** | `string` | No description | ❌ |
-| **item.shipping.items.tag** | `string` | No description | ❌ |
-| **item.shipping.items.text** | `boolean` | No description | ❌ |
-| **item.shipping.items.type** | `string` | No description | ❌ |
-| **item.signup-button** | `boolean` | No description | ❌ |
-| **item.size** | `integer` | No description | ❌ |
-| **item.sku-properties** | `array` | No description | ❌ |
-| **item.sku-properties.items** | `object` | Contains the structure for array items | ❌ |
-| **item.sku-properties.items.enum** | `array` | No description | ❌ |
-| **item.sku-properties.items.id** | `string` | No description | ❌ |
-| **item.sku-properties.items.name** | `string` | No description | ❌ |
-| **item.slug** | `string` | No description | ❌ |
-| **item.status** | `string` | No description | ❌ |
-| **item.submit-product-form** | `boolean` | No description | ❌ |
-| **item.tax-category** | `string` | No description | ❌ |
-| **item.this-product-has-options** | `boolean` | No description | ❌ |
-| **item.updated-by** | `string` | No description | ❌ |
-| **item.updated-on** | `string` | No description | ❌ |
-| **item.vendor** | `string` | No description | ❌ |
-| **item.video-course** | `boolean` | No description | ❌ |
-| **item.video-link** | `object` | No description | ❌ |
-| **item.video-link.@@__IMMUTABLE_ITERABLE__@@** | `boolean` | No description | ❌ |
-| **item.video-link.@@__IMMUTABLE_KEYED__@@** | `boolean` | No description | ❌ |
-| **item.video-link.__hash** | `number` | No description | ❌ |
-| **item.video-link._defaultValues** | `object` | No description | ❌ |
-| **item.video-link._defaultValues.aspectRatio** | `integer` | No description | ❌ |
-| **item.video-link._defaultValues.author_name** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.description** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.height** | `integer` | No description | ❌ |
-| **item.video-link._defaultValues.html** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.provider_name** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.thumbnail_url** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.title** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.type** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.url** | `unknown` | No description | ❌ |
-| **item.video-link._defaultValues.width** | `integer` | No description | ❌ |
-| **item.video-link._keys** | `array` | No description | ❌ |
-| **item.video-link._map** | `object` | No description | ❌ |
-| **item.video-link._map.aspectRatio** | `integer` | No description | ❌ |
-| **item.video-link._map.author_name** | `string` | No description | ❌ |
-| **item.video-link._map.height** | `integer` | No description | ❌ |
-| **item.video-link._map.html** | `string` | No description | ❌ |
-| **item.video-link._map.provider_name** | `string` | No description | ❌ |
-| **item.video-link._map.thumbnail_url** | `string` | No description | ❌ |
-| **item.video-link._map.title** | `string` | No description | ❌ |
-| **item.video-link._map.type** | `string` | No description | ❌ |
-| **item.video-link._map.url** | `string` | No description | ❌ |
-| **item.video-link._map.width** | `integer` | No description | ❌ |
-| **item.video-link._name** | `string` | No description | ❌ |
-| **item.video-link.size** | `integer` | No description | ❌ |
-| **legacy seat count** | `integer` | No description | ❌ |
-| **legacy team id** | `string` | No description | ❌ |
-| **mode** | `string` | No description | ❌ |
-| **page count** | `integer` | No description | ❌ |
-| **page id** | `string` | No description | ❌ |
-| **plan type** | `string` | No description | ❌ |
-| **project count** | `integer` | No description | ❌ |
-| **project item count** | `integer` | No description | ❌ |
-| **site id** | `string` | No description | ❌ |
-| **site published** | `boolean` | No description | ❌ |
-| **styles count** | `integer` | No description | ❌ |
-| **total collection count** | `integer` | No description | ❌ |
-| **workspace id** | `string` | No description | ❌ |
-| **workspace is enterprise** | `boolean` | No description | ❌ |
-| **workspace plan** | `string` | No description | ❌ |
-| **workspace seat count** | `integer` | No description | ❌ |
-#### **JS**
-
-```javascript
-analytics.track("Usys Membership Product Created", {
-  "active tutorials": "<<type: string, required: false>>",
-  "cms item count": "<<type: integer, required: false>>",
-  "ecommerce enabled": "<<type: boolean, required: false>>",
-  "ecommerce item count": "<<type: integer, required: false>>",
-  "enterprise billing": "<<type: boolean, required: false>>",
-  "item": {
-    "__altered": "<<type: boolean, required: false>>",
-    "__hash": "<<type: number, required: false>>",
-    "_archived": "<<type: boolean, required: false>>",
-    "_cid": "<<type: string, required: false>>",
-    "_draft": "<<type: boolean, required: false>>",
-    "_id": "<<type: string, required: false>>",
-    "_root": {
-      "bitmap": "<<type: number, required: false>>",
-      "count": "<<type: integer, required: false>>",
-      "nodes": "<<type: array, required: false>>",
-      "ownerID": "<<type: object, required: false>>"
-    },
-    "additional-info": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "alt-product-type": "<<type: string, required: false>>",
-    "best-seller": "<<type: boolean, required: false>>",
-    "brand": "<<type: string, required: false>>",
-    "categories": "<<type: string, required: false>>",
-    "category": "<<type: array, required: false>>",
-    "change-direction-before-loop": "<<type: boolean, required: false>>",
-    "color": "<<type: string, required: false>>",
-    "contains-ribbon": "<<type: boolean, required: false>>",
-    "course-about": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "course-content-column-1": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "data": "<<type: object, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "course-content-column-2": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "data": "<<type: object, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "course-downloadable-files": "<<type: integer, required: false>>",
-    "course-featured": "<<type: boolean, required: false>>",
-    "course-lenght": "<<type: string, required: false>>",
-    "course-teacher": "<<type: string, required: false>>",
-    "couse-introductory-video": {
-      "@@__IMMUTABLE_ITERABLE__@@": "<<type: boolean, required: false>>",
-      "@@__IMMUTABLE_KEYED__@@": "<<type: boolean, required: false>>",
-      "_defaultValues": {
-        "aspectRatio": "<<type: integer, required: false>>",
-        "author_name": "<<type: unknown, required: false>>",
-        "description": "<<type: unknown, required: false>>",
-        "height": "<<type: integer, required: false>>",
-        "html": "<<type: unknown, required: false>>",
-        "provider_name": "<<type: unknown, required: false>>",
-        "thumbnail_url": "<<type: unknown, required: false>>",
-        "title": "<<type: unknown, required: false>>",
-        "type": "<<type: unknown, required: false>>",
-        "url": "<<type: unknown, required: false>>",
-        "width": "<<type: integer, required: false>>"
-      },
-      "_keys": "<<type: array, required: false>>",
-      "_map": {
-        "aspectRatio": "<<type: integer, required: false>>",
-        "height": "<<type: integer, required: false>>",
-        "url": "<<type: string, required: false>>",
-        "width": "<<type: integer, required: false>>"
-      },
-      "_name": "<<type: string, required: false>>",
-      "size": "<<type: integer, required: false>>"
-    },
-    "cover-image": {
-      "@@__IMMUTABLE_ITERABLE__@@": "<<type: boolean, required: false>>",
-      "@@__IMMUTABLE_KEYED__@@": "<<type: boolean, required: false>>",
-      "_defaultValues": {
-        "alt": "<<type: unknown, required: false>>",
-        "file": "<<type: unknown, required: false>>",
-        "fileId": "<<type: string, required: false>>",
-        "fileSize": "<<type: integer, required: false>>",
-        "tmp": "<<type: unknown, required: false>>",
-        "url": "<<type: string, required: false>>"
-      },
-      "_keys": "<<type: array, required: false>>",
-      "_map": {
-        "alt": "<<type: unknown, required: false>>",
-        "file": "<<type: object, required: false>>",
-        "fileId": "<<type: string, required: false>>",
-        "fileSize": "<<type: integer, required: false>>",
-        "url": "<<type: string, required: false>>"
-      },
-      "_name": "<<type: string, required: false>>",
-      "size": "<<type: integer, required: false>>"
-    },
-    "created-by": "<<type: string, required: false>>",
-    "created-on": "<<type: string, required: false>>",
-    "credit-about": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "data": "<<type: object, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "credit-about-summary-card": "<<type: string, required: false>>",
-    "credit-about-summary-page": "<<type: string, required: false>>",
-    "credit-excerpt-card": "<<type: string, required: false>>",
-    "credit-popular": "<<type: boolean, required: false>>",
-    "credit-short-description-page": "<<type: string, required: false>>",
-    "date": "<<type: string, required: false>>",
-    "default-sku": "<<type: string, required: false>>",
-    "description": "<<type: string, required: false>>",
-    "descriptions": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "details": "<<type: string, required: false>>",
-    "ec-product-type": "<<type: string, required: false>>",
-    "featured": "<<type: boolean, required: false>>",
-    "featured-print": "<<type: boolean, required: false>>",
-    "featured-template": "<<type: boolean, required: false>>",
-    "full-description": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "data": "<<type: object, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "hosting": "<<type: boolean, required: false>>",
-    "i-want-lottie-do-not-loop": "<<type: boolean, required: false>>",
-    "icon": "<<type: string, required: false>>",
-    "is-a-zome": "<<type: boolean, required: false>>",
-    "is-featured": "<<type: boolean, required: false>>",
-    "level": "<<type: string, required: false>>",
-    "liked": "<<type: integer, required: false>>",
-    "limited-time-option": "<<type: boolean, required: false>>",
-    "link-1": "<<type: string, required: false>>",
-    "link-to-page": "<<type: string, required: false>>",
-    "most-popular": "<<type: boolean, required: false>>",
-    "name": "<<type: string, required: false>>",
-    "new-product": "<<type: boolean, required: false>>",
-    "on-sale": "<<type: boolean, required: false>>",
-    "order-rank": "<<type: integer, required: false>>",
-    "package-popular": "<<type: boolean, required: false>>",
-    "pattern": "<<type: string, required: false>>",
-    "plan-description": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "plan-description-excerpt": "<<type: string, required: false>>",
-    "plan-description-page-excerpt": "<<type: string, required: false>>",
-    "plan-feature-1": "<<type: string, required: false>>",
-    "plan-feature-2": "<<type: string, required: false>>",
-    "plan-feature-3": "<<type: string, required: false>>",
-    "plan-feature-4": "<<type: string, required: false>>",
-    "platform": "<<type: array, required: false>>",
-    "popular": "<<type: boolean, required: false>>",
-    "product-category": "<<type: string, required: false>>",
-    "product-description": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "data": "<<type: object, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "product-display-price-per-month": "<<type: string, required: false>>",
-    "product-display-price-per-year": "<<type: string, required: false>>",
-    "product-excerpt": "<<type: string, required: false>>",
-    "product-is-popular": "<<type: boolean, required: false>>",
-    "product-item-id": "<<type: string, required: false>>",
-    "product-price-display-card-grid": "<<type: integer, required: false>>",
-    "product-short-description": "<<type: string, required: false>>",
-    "product-short-description-page": "<<type: string, required: false>>",
-    "product-summary": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "children": "<<type: array, required: false>>",
-        "classes": "<<type: array, required: false>>",
-        "data": "<<type: object, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "v": "<<type: string, required: false>>"
-      }
-    ],
-    "product-video-2-2": "<<type: string, required: false>>",
-    "published-by": "<<type: unknown, required: false>>",
-    "published-on": "<<type: unknown, required: false>>",
-    "qty": "<<type: string, required: false>>",
-    "review-1": "<<type: string, required: false>>",
-    "review-2": "<<type: string, required: false>>",
-    "review-3": "<<type: string, required: false>>",
-    "review-name-1": "<<type: string, required: false>>",
-    "review-name-2": "<<type: string, required: false>>",
-    "review-name-3": "<<type: string, required: false>>",
-    "satiated": "<<type: boolean, required: false>>",
-    "shippable": "<<type: boolean, required: false>>",
-    "shipping": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "tag": "<<type: string, required: false>>",
-        "text": "<<type: boolean, required: false>>",
-        "type": "<<type: string, required: false>>"
-      }
-    ],
-    "signup-button": "<<type: boolean, required: false>>",
-    "size": "<<type: integer, required: false>>",
-    "sku-properties": [
-      {
-        "enum": "<<type: array, required: false>>",
-        "id": "<<type: string, required: false>>",
-        "name": "<<type: string, required: false>>"
-      }
-    ],
-    "slug": "<<type: string, required: false>>",
-    "status": "<<type: string, required: false>>",
-    "submit-product-form": "<<type: boolean, required: false>>",
-    "tax-category": "<<type: string, required: false>>",
-    "this-product-has-options": "<<type: boolean, required: false>>",
-    "updated-by": "<<type: string, required: false>>",
-    "updated-on": "<<type: string, required: false>>",
-    "vendor": "<<type: string, required: false>>",
-    "video-course": "<<type: boolean, required: false>>",
-    "video-link": {
-      "@@__IMMUTABLE_ITERABLE__@@": "<<type: boolean, required: false>>",
-      "@@__IMMUTABLE_KEYED__@@": "<<type: boolean, required: false>>",
-      "__hash": "<<type: number, required: false>>",
-      "_defaultValues": {
-        "aspectRatio": "<<type: integer, required: false>>",
-        "author_name": "<<type: unknown, required: false>>",
-        "description": "<<type: unknown, required: false>>",
-        "height": "<<type: integer, required: false>>",
-        "html": "<<type: unknown, required: false>>",
-        "provider_name": "<<type: unknown, required: false>>",
-        "thumbnail_url": "<<type: unknown, required: false>>",
-        "title": "<<type: unknown, required: false>>",
-        "type": "<<type: unknown, required: false>>",
-        "url": "<<type: unknown, required: false>>",
-        "width": "<<type: integer, required: false>>"
-      },
-      "_keys": "<<type: array, required: false>>",
-      "_map": {
-        "aspectRatio": "<<type: integer, required: false>>",
-        "author_name": "<<type: string, required: false>>",
-        "height": "<<type: integer, required: false>>",
-        "html": "<<type: string, required: false>>",
-        "provider_name": "<<type: string, required: false>>",
-        "thumbnail_url": "<<type: string, required: false>>",
-        "title": "<<type: string, required: false>>",
-        "type": "<<type: string, required: false>>",
-        "url": "<<type: string, required: false>>",
-        "width": "<<type: integer, required: false>>"
-      },
-      "_name": "<<type: string, required: false>>",
-      "size": "<<type: integer, required: false>>"
-    }
-  },
-  "legacy seat count": "<<type: integer, required: false>>",
-  "legacy team id": "<<type: string, required: false>>",
-  "mode": "<<type: string, required: false>>",
-  "page count": "<<type: integer, required: false>>",
-  "page id": "<<type: string, required: false>>",
-  "plan type": "<<type: string, required: false>>",
-  "project count": "<<type: integer, required: false>>",
-  "project item count": "<<type: integer, required: false>>",
-  "site id": "<<type: string, required: false>>",
-  "site published": "<<type: boolean, required: false>>",
-  "styles count": "<<type: integer, required: false>>",
-  "total collection count": "<<type: integer, required: false>>",
-  "workspace id": "<<type: string, required: false>>",
-  "workspace is enterprise": "<<type: boolean, required: false>>",
-  "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17346,6 +24286,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -17370,12 +24311,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys User Invited", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -17399,7 +24342,8 @@ analytics.track("Usys User Invited", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17422,6 +24366,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -17444,12 +24389,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Usys Warning Viewed", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -17471,7 +24418,8 @@ analytics.track("Usys Warning Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17495,8 +24443,13 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **bind_action** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
+| **library id** | `string` | No description | ❌ |
+| **library name** | `string` | No description | ❌ |
+| **library type** | `string` | No description | ❌ |
+| **library version id** | `string` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
 | **name** | `string` | No description | ❌ |
@@ -17524,10 +24477,13 @@ No description provided
 | **value.value.value** | `integer` | No description | ❌ |
 | **value.value.variableId** | `string` | No description | ❌ |
 | **var_id** | `string` | No description | ❌ |
+| **variable_collection** | `string` | No description | ❌ |
+| **variable_collection_id** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -17535,8 +24491,13 @@ analytics.track("Variable Bound", {
   "active tutorials": "<<type: string, required: false>>",
   "bind_action": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
+  "library id": "<<type: string, required: false>>",
+  "library name": "<<type: string, required: false>>",
+  "library type": "<<type: string, required: false>>",
+  "library version id": "<<type: string, required: false>>",
   "location": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
   "name": "<<type: string, required: false>>",
@@ -17568,10 +24529,229 @@ analytics.track("Variable Bound", {
     }
   },
   "var_id": "<<type: string, required: false>>",
+  "variable_collection": "<<type: string, required: false>>",
+  "variable_collection_id": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Collection Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source_variable_collection_id** | `unknown` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variable_collection_id** | `string` | No description | ❌ |
+| **variable_collection_name** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Collection Created", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source_variable_collection_id": "<<type: unknown, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variable_collection_id": "<<type: string, required: false>>",
+  "variable_collection_name": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Collection Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variable_collection_id** | `string` | No description | ❌ |
+| **variable_collection_name** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Collection Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variable_collection_id": "<<type: string, required: false>>",
+  "variable_collection_name": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Collection Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **orig_variable_collection_name** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variable_collection_id** | `string` | No description | ❌ |
+| **variable_collection_name** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Collection Edited", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "orig_variable_collection_name": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variable_collection_id": "<<type: string, required: false>>",
+  "variable_collection_name": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17594,6 +24774,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
@@ -17619,19 +24800,22 @@ No description provided
 | **value.type** | `string` | No description | ❌ |
 | **value.value** | `object` | No description | ❌ |
 | **value.value.unit** | `string` | No description | ❌ |
-| **value.value.value** | `number` | No description | ❌ |
+| **value.value.value** | `integer` | No description | ❌ |
 | **value.value.variableId** | `string` | No description | ❌ |
 | **var_id** | `string` | No description | ❌ |
+| **variable_collection_name** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Variable Created", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "location": "<<type: string, required: false>>",
@@ -17659,15 +24843,17 @@ analytics.track("Variable Created", {
     "type": "<<type: string, required: false>>",
     "value": {
       "unit": "<<type: string, required: false>>",
-      "value": "<<type: number, required: false>>",
+      "value": "<<type: integer, required: false>>",
       "variableId": "<<type: string, required: false>>"
     }
   },
   "var_id": "<<type: string, required: false>>",
+  "variable_collection_name": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17690,6 +24876,588 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **delete source** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **orig_value_group_value** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.origin** | `object` | No description | ❌ |
+| **value.origin.rule** | `object` | No description | ❌ |
+| **value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **value.origin.rule.tokens** | `array` | No description | ❌ |
+| **value.origin.type** | `string` | No description | ❌ |
+| **value.type** | `string` | No description | ❌ |
+| **value.value** | `object` | No description | ❌ |
+| **value.value.unit** | `string` | No description | ❌ |
+| **value.value.value** | `integer` | No description | ❌ |
+| **value.value.variableId** | `string` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **variables** | `array` | No description | ❌ |
+| **variables.items** | `object` | Contains the structure for array items | ❌ |
+| **variables.items.name** | `string` | No description | ❌ |
+| **variables.items.orig_value_group_value** | `string` | No description | ❌ |
+| **variables.items.type** | `string` | No description | ❌ |
+| **variables.items.value** | `object` | No description | ❌ |
+| **variables.items.value.type** | `string` | No description | ❌ |
+| **variables.items.value.value** | `object` | No description | ❌ |
+| **variables.items.var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "delete source": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "orig_value_group_value": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "var_id": "<<type: string, required: false>>",
+  "variables": [
+    {
+      "name": "<<type: string, required: false>>",
+      "orig_value_group_value": "<<type: string, required: false>>",
+      "type": "<<type: string, required: false>>",
+      "value": {
+        "type": "<<type: string, required: false>>",
+        "value": "<<type: object, required: false>>"
+      },
+      "var_id": "<<type: string, required: false>>"
+    }
+  ],
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **edit source** | `string` | No description | ❌ |
+| **edit types** | `array` | No description | ❌ |
+| **edit_type** | `array` | No description | ❌ |
+| **edit_types** | `array` | No description | ❌ |
+| **location** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **new_mode_value** | `object` | No description | ❌ |
+| **new_mode_value.type** | `string` | No description | ❌ |
+| **new_mode_value.value** | `object` | No description | ❌ |
+| **new_mode_value.value.unit** | `string` | No description | ❌ |
+| **new_mode_value.value.value** | `number` | No description | ❌ |
+| **new_mode_value.value.variableId** | `string` | No description | ❌ |
+| **new_name** | `string` | No description | ❌ |
+| **new_type** | `string` | No description | ❌ |
+| **new_value** | `object` | No description | ❌ |
+| **new_value.origin** | `object` | No description | ❌ |
+| **new_value.origin.rule** | `object` | No description | ❌ |
+| **new_value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **new_value.origin.rule.tokens** | `array` | No description | ❌ |
+| **new_value.origin.type** | `string` | No description | ❌ |
+| **new_value.type** | `string` | No description | ❌ |
+| **new_value.value** | `object` | No description | ❌ |
+| **new_value.value.unit** | `string` | No description | ❌ |
+| **new_value.value.value** | `number` | No description | ❌ |
+| **new_value.value.variableId** | `string` | No description | ❌ |
+| **new_value_group_value** | `string` | No description | ❌ |
+| **new_value_order** | `string` | No description | ❌ |
+| **orig_mode_value** | `object` | No description | ❌ |
+| **orig_mode_value.type** | `string` | No description | ❌ |
+| **orig_mode_value.value** | `object` | No description | ❌ |
+| **orig_mode_value.value.unit** | `string` | No description | ❌ |
+| **orig_mode_value.value.value** | `number` | No description | ❌ |
+| **orig_mode_value.value.variableId** | `string` | No description | ❌ |
+| **orig_name** | `string` | No description | ❌ |
+| **orig_type** | `string` | No description | ❌ |
+| **orig_value** | `object` | No description | ❌ |
+| **orig_value.origin** | `object` | No description | ❌ |
+| **orig_value.origin.rule** | `object` | No description | ❌ |
+| **orig_value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
+| **orig_value.origin.rule.tokens** | `array` | No description | ❌ |
+| **orig_value.origin.type** | `string` | No description | ❌ |
+| **orig_value.type** | `string` | No description | ❌ |
+| **orig_value.value** | `object` | No description | ❌ |
+| **orig_value.value.number** | `string` | No description | ❌ |
+| **orig_value.value.unit** | `string` | No description | ❌ |
+| **orig_value.value.value** | `number` | No description | ❌ |
+| **orig_value.value.variableId** | `string` | No description | ❌ |
+| **orig_value_group_value** | `string` | No description | ❌ |
+| **orig_value_order** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.origin** | `object` | No description | ❌ |
+| **value.origin.rule** | `unknown` | No description | ❌ |
+| **value.origin.type** | `string` | No description | ❌ |
+| **value.type** | `string` | No description | ❌ |
+| **value.value** | `object` | No description | ❌ |
+| **value.value.unit** | `string` | No description | ❌ |
+| **value.value.value** | `integer` | No description | ❌ |
+| **value.value.variableId** | `string` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **variable_mode_id** | `string` | No description | ❌ |
+| **variables** | `array` | No description | ❌ |
+| **variables.items** | `object` | Contains the structure for array items | ❌ |
+| **variables.items.edit types** | `array` | No description | ❌ |
+| **variables.items.name** | `string` | No description | ❌ |
+| **variables.items.new_value_group_value** | `string` | No description | ❌ |
+| **variables.items.new_value_order** | `string` | No description | ❌ |
+| **variables.items.orig_value_group_value** | `string` | No description | ❌ |
+| **variables.items.orig_value_order** | `string` | No description | ❌ |
+| **variables.items.type** | `string` | No description | ❌ |
+| **variables.items.value** | `object` | No description | ❌ |
+| **variables.items.value.origin** | `object` | No description | ❌ |
+| **variables.items.value.type** | `string` | No description | ❌ |
+| **variables.items.value.value** | `string` | No description | ❌ |
+| **variables.items.var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Edited", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "edit source": "<<type: string, required: false>>",
+  "edit types": "<<type: array, required: false>>",
+  "edit_type": "<<type: array, required: false>>",
+  "edit_types": "<<type: array, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "new_mode_value": {
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: number, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "new_name": "<<type: string, required: false>>",
+  "new_type": "<<type: string, required: false>>",
+  "new_value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: number, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "new_value_group_value": "<<type: string, required: false>>",
+  "new_value_order": "<<type: string, required: false>>",
+  "orig_mode_value": {
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: number, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "orig_name": "<<type: string, required: false>>",
+  "orig_type": "<<type: string, required: false>>",
+  "orig_value": {
+    "origin": {
+      "rule": {
+        "mediaQueryKey": "<<type: string, required: false>>",
+        "tokens": "<<type: array, required: false>>"
+      },
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "number": "<<type: string, required: false>>",
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: number, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "orig_value_group_value": "<<type: string, required: false>>",
+  "orig_value_order": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "value": {
+    "origin": {
+      "rule": "<<type: unknown, required: false>>",
+      "type": "<<type: string, required: false>>"
+    },
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "var_id": "<<type: string, required: false>>",
+  "variable_mode_id": "<<type: string, required: false>>",
+  "variables": [
+    {
+      "edit types": "<<type: array, required: false>>",
+      "name": "<<type: string, required: false>>",
+      "new_value_group_value": "<<type: string, required: false>>",
+      "new_value_order": "<<type: string, required: false>>",
+      "orig_value_group_value": "<<type: string, required: false>>",
+      "orig_value_order": "<<type: string, required: false>>",
+      "type": "<<type: string, required: false>>",
+      "value": {
+        "origin": "<<type: object, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "value": "<<type: string, required: false>>"
+      },
+      "var_id": "<<type: string, required: false>>"
+    }
+  ],
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Mode Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **responsive_condition** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source_variable_mode_id** | `unknown` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variable_mode_id** | `string` | No description | ❌ |
+| **variable_mode_name** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Mode Created", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "responsive_condition": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source_variable_mode_id": "<<type: unknown, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variable_mode_id": "<<type: string, required: false>>",
+  "variable_mode_name": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Mode Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **responsive_condition** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variable_mode_id** | `string` | No description | ❌ |
+| **variable_mode_name** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Mode Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "responsive_condition": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variable_mode_id": "<<type: string, required: false>>",
+  "variable_mode_name": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Mode Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **orig_responsive_condition** | `unknown` | No description | ❌ |
+| **orig_variable_mode_name** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **responsive_condition** | `unknown` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **variable_mode_id** | `string` | No description | ❌ |
+| **variable_mode_name** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Mode Edited", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "orig_responsive_condition": "<<type: unknown, required: false>>",
+  "orig_variable_mode_name": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "responsive_condition": "<<type: unknown, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "variable_mode_id": "<<type: string, required: false>>",
+  "variable_mode_name": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variable Reorder Started
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
@@ -17722,12 +25490,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Variable Deleted", {
+analytics.track("Variable Reorder Started", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "location": "<<type: string, required: false>>",
@@ -17763,7 +25533,8 @@ analytics.track("Variable Deleted", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17772,7 +25543,7 @@ analytics.track("Variable Deleted", {
 <!-- panels:end -->
 
 
-## Variable Edited
+## Variable Selected
 
 <!-- tabs:start -->
 ### **Details**
@@ -17786,36 +25557,127 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
-| **new_name** | `string` | No description | ❌ |
-| **new_type** | `string` | No description | ❌ |
-| **new_value** | `object` | No description | ❌ |
-| **new_value.origin** | `object` | No description | ❌ |
-| **new_value.origin.rule** | `object` | No description | ❌ |
-| **new_value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
-| **new_value.origin.rule.tokens** | `array` | No description | ❌ |
-| **new_value.origin.type** | `string` | No description | ❌ |
-| **new_value.type** | `string` | No description | ❌ |
-| **new_value.value** | `object` | No description | ❌ |
-| **new_value.value.unit** | `string` | No description | ❌ |
-| **new_value.value.value** | `integer` | No description | ❌ |
-| **new_value.value.variableId** | `string` | No description | ❌ |
-| **orig_name** | `string` | No description | ❌ |
-| **orig_type** | `string` | No description | ❌ |
-| **orig_value** | `object` | No description | ❌ |
-| **orig_value.origin** | `object` | No description | ❌ |
-| **orig_value.origin.rule** | `object` | No description | ❌ |
-| **orig_value.origin.rule.mediaQueryKey** | `string` | No description | ❌ |
-| **orig_value.origin.rule.tokens** | `array` | No description | ❌ |
-| **orig_value.origin.type** | `string` | No description | ❌ |
-| **orig_value.type** | `string` | No description | ❌ |
-| **orig_value.value** | `object` | No description | ❌ |
-| **orig_value.value.unit** | `string` | No description | ❌ |
-| **orig_value.value.value** | `integer` | No description | ❌ |
-| **orig_value.value.variableId** | `string` | No description | ❌ |
+| **name** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **selection started source** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **type** | `string` | No description | ❌ |
+| **value** | `object` | No description | ❌ |
+| **value.type** | `string` | No description | ❌ |
+| **value.value** | `object` | No description | ❌ |
+| **value.value.unit** | `string` | No description | ❌ |
+| **value.value.value** | `integer` | No description | ❌ |
+| **value.value.variableId** | `string` | No description | ❌ |
+| **var_id** | `string` | No description | ❌ |
+| **var_ids** | `array` | No description | ❌ |
+| **variables** | `array` | No description | ❌ |
+| **variables.items** | `object` | Contains the structure for array items | ❌ |
+| **variables.items.name** | `string` | No description | ❌ |
+| **variables.items.type** | `string` | No description | ❌ |
+| **variables.items.value** | `object` | No description | ❌ |
+| **variables.items.value.origin** | `object` | No description | ❌ |
+| **variables.items.value.type** | `string` | No description | ❌ |
+| **variables.items.value.value** | `object` | No description | ❌ |
+| **variables.items.var_id** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variable Selected", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "location": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "name": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "selection started source": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "type": "<<type: string, required: false>>",
+  "value": {
+    "type": "<<type: string, required: false>>",
+    "value": {
+      "unit": "<<type: string, required: false>>",
+      "value": "<<type: integer, required: false>>",
+      "variableId": "<<type: string, required: false>>"
+    }
+  },
+  "var_id": "<<type: string, required: false>>",
+  "var_ids": "<<type: array, required: false>>",
+  "variables": [
+    {
+      "name": "<<type: string, required: false>>",
+      "type": "<<type: string, required: false>>",
+      "value": {
+        "origin": "<<type: object, required: false>>",
+        "type": "<<type: string, required: false>>",
+        "value": "<<type: object, required: false>>"
+      },
+      "var_id": "<<type: string, required: false>>"
+    }
+  ],
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variables Moved
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **collection_id** | `string` | No description | ❌ |
+| **collection_name** | `string` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **orig_collection_id** | `string` | No description | ❌ |
+| **orig_collection_name** | `string` | No description | ❌ |
 | **page count** | `integer` | No description | ❌ |
 | **page id** | `string` | No description | ❌ |
 | **plan type** | `string` | No description | ❌ |
@@ -17826,55 +25688,34 @@ No description provided
 | **styles count** | `integer` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
-| **var_id** | `string` | No description | ❌ |
+| **variable_modes** | `array` | No description | ❌ |
+| **variables** | `array` | No description | ❌ |
+| **variables.items** | `object` | Contains the structure for array items | ❌ |
+| **variables.items.name** | `string` | No description | ❌ |
+| **variables.items.type** | `string` | No description | ❌ |
+| **variables.items.value** | `object` | No description | ❌ |
+| **variables.items.value.type** | `string` | No description | ❌ |
+| **variables.items.value.value** | `object` | No description | ❌ |
+| **variables.items.var_id** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
-analytics.track("Variable Edited", {
+analytics.track("Variables Moved", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "collection_id": "<<type: string, required: false>>",
+  "collection_name": "<<type: string, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
-  "location": "<<type: string, required: false>>",
   "mode": "<<type: string, required: false>>",
-  "new_name": "<<type: string, required: false>>",
-  "new_type": "<<type: string, required: false>>",
-  "new_value": {
-    "origin": {
-      "rule": {
-        "mediaQueryKey": "<<type: string, required: false>>",
-        "tokens": "<<type: array, required: false>>"
-      },
-      "type": "<<type: string, required: false>>"
-    },
-    "type": "<<type: string, required: false>>",
-    "value": {
-      "unit": "<<type: string, required: false>>",
-      "value": "<<type: integer, required: false>>",
-      "variableId": "<<type: string, required: false>>"
-    }
-  },
-  "orig_name": "<<type: string, required: false>>",
-  "orig_type": "<<type: string, required: false>>",
-  "orig_value": {
-    "origin": {
-      "rule": {
-        "mediaQueryKey": "<<type: string, required: false>>",
-        "tokens": "<<type: array, required: false>>"
-      },
-      "type": "<<type: string, required: false>>"
-    },
-    "type": "<<type: string, required: false>>",
-    "value": {
-      "unit": "<<type: string, required: false>>",
-      "value": "<<type: integer, required: false>>",
-      "variableId": "<<type: string, required: false>>"
-    }
-  },
+  "orig_collection_id": "<<type: string, required: false>>",
+  "orig_collection_name": "<<type: string, required: false>>",
   "page count": "<<type: integer, required: false>>",
   "page id": "<<type: string, required: false>>",
   "plan type": "<<type: string, required: false>>",
@@ -17885,11 +25726,23 @@ analytics.track("Variable Edited", {
   "styles count": "<<type: integer, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
-  "var_id": "<<type: string, required: false>>",
+  "variable_modes": "<<type: array, required: false>>",
+  "variables": [
+    {
+      "name": "<<type: string, required: false>>",
+      "type": "<<type: string, required: false>>",
+      "value": {
+        "type": "<<type: string, required: false>>",
+        "value": "<<type: object, required: false>>"
+      },
+      "var_id": "<<type: string, required: false>>"
+    }
+  ],
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17913,6 +25766,7 @@ No description provided
 | **__cpLocation** | `string` | No description | ❌ |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
@@ -17931,6 +25785,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -17938,6 +25793,7 @@ analytics.track("Variables Panel Opened", {
   "__cpLocation": "<<type: string, required: false>>",
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "location": "<<type: string, required: false>>",
@@ -17955,7 +25811,52 @@ analytics.track("Variables Panel Opened", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Variation Edited
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **editType** | `string` | No description | ❌ |
+| **mode** | `unknown` | No description | ❌ |
+| **optimizationId** | `string` | No description | ❌ |
+| **optimizationName** | `string` | No description | ❌ |
+| **role** | `string` | No description | ❌ |
+| **siteId** | `string` | No description | ❌ |
+| **variationId** | `string` | No description | ❌ |
+| **variationName** | `string` | No description | ❌ |
+| **workspaceId** | `string` | No description | ❌ |
+| **workspaceIsEnterprise** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Variation Edited", {
+  "editType": "<<type: string, required: false>>",
+  "mode": "<<type: unknown, required: false>>",
+  "optimizationId": "<<type: string, required: false>>",
+  "optimizationName": "<<type: string, required: false>>",
+  "role": "<<type: string, required: false>>",
+  "siteId": "<<type: string, required: false>>",
+  "variationId": "<<type: string, required: false>>",
+  "variationName": "<<type: string, required: false>>",
+  "workspaceId": "<<type: string, required: false>>",
+  "workspaceIsEnterprise": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -17979,6 +25880,7 @@ No description provided
 | **active tutorials** | `string` | No description | ❌ |
 | **checklistType** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -18001,6 +25903,7 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -18008,6 +25911,7 @@ analytics.track("Video Tutorials Panel Viewed", {
   "active tutorials": "<<type: string, required: false>>",
   "checklistType": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -18029,7 +25933,8 @@ analytics.track("Video Tutorials Panel Viewed", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -18078,6 +25983,7 @@ No description provided
 | :--- | :--- | :--- | :--- |
 | **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `string` | No description | ❌ |
@@ -18098,12 +26004,14 @@ No description provided
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Video tutorial played", {
   "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: string, required: false>>",
@@ -18123,7 +26031,8 @@ analytics.track("Video tutorial played", {
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -18148,6 +26057,7 @@ No description provided
 | **active tutorials** | `array` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **enterprise billing** | `boolean` | No description | ❌ |
@@ -18174,13 +26084,14 @@ No description provided
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
 | **videoTutorial** | `unknown` | No description | ❌ |
-| **videoTutorialTitle** | `string` | No description | ❌ |
+| **videoTutorialTitle** | `unknown` | No description | ❌ |
 | **videoTutorialTriggeredFrom** | `string` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace is enterprise** | `boolean` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -18189,6 +26100,7 @@ analytics.track("Video tutorial selected", {
   "active tutorials": "<<type: array, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "enterprise billing": "<<type: boolean, required: false>>",
@@ -18215,13 +26127,14 @@ analytics.track("Video tutorial selected", {
   "total collection count": "<<type: integer, required: false>>",
   "tutorial": "<<type: unknown, required: false>>",
   "videoTutorial": "<<type: unknown, required: false>>",
-  "videoTutorialTitle": "<<type: string, required: false>>",
+  "videoTutorialTitle": "<<type: unknown, required: false>>",
   "videoTutorialTriggeredFrom": "<<type: string, required: false>>",
   "wf session id": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace is enterprise": "<<type: boolean, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
-  "workspace seat count": "<<type: integer, required: false>>"
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 
@@ -18243,9 +26156,10 @@ No description provided
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **CMS item count** | `integer` | No description | ❌ |
-| **active tutorials** | `array` | No description | ❌ |
+| **active tutorials** | `string` | No description | ❌ |
 | **cms item count** | `integer` | No description | ❌ |
 | **collection count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
 | **ecommerce enabled** | `boolean` | No description | ❌ |
 | **ecommerce item count** | `integer` | No description | ❌ |
 | **mode** | `array` | No description | ❌ |
@@ -18267,14 +26181,16 @@ No description provided
 | **team id** | `unknown` | No description | ❌ |
 | **total collection count** | `integer` | No description | ❌ |
 | **tutorial** | `unknown` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Visit preview link", {
   "CMS item count": "<<type: integer, required: false>>",
-  "active tutorials": "<<type: array, required: false>>",
+  "active tutorials": "<<type: string, required: false>>",
   "cms item count": "<<type: integer, required: false>>",
   "collection count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
   "ecommerce enabled": "<<type: boolean, required: false>>",
   "ecommerce item count": "<<type: integer, required: false>>",
   "mode": "<<type: array, required: false>>",
@@ -18295,7 +26211,216 @@ analytics.track("Visit preview link", {
   "styles count": "<<type: integer, required: false>>",
   "team id": "<<type: unknown, required: false>>",
   "total collection count": "<<type: integer, required: false>>",
-  "tutorial": "<<type: unknown, required: false>>"
+  "tutorial": "<<type: unknown, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Webhook Created
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **webhookId** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Webhook Created", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "webhookId": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Webhook Deleted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **webhookId** | `string` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Webhook Deleted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "webhookId": "<<type: string, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
+})
+```
+
+<!-- tabs:end -->
+
+<!-- panels:end -->
+
+
+## Writing Assistant Freeform Feedback Submitted
+
+<!-- tabs:start -->
+### **Details**
+
+#### **Description**
+
+No description provided
+#### **Properties**
+
+| **Name** | `Type` | Description | Required? |
+| :--- | :--- | :--- | :--- |
+| **active tutorials** | `string` | No description | ❌ |
+| **cms item count** | `integer` | No description | ❌ |
+| **designer workflow** | `string` | No description | ❌ |
+| **ecommerce enabled** | `boolean` | No description | ❌ |
+| **ecommerce item count** | `integer` | No description | ❌ |
+| **feedback** | `string` | No description | ❌ |
+| **mode** | `string` | No description | ❌ |
+| **page count** | `integer` | No description | ❌ |
+| **page id** | `string` | No description | ❌ |
+| **plan type** | `string` | No description | ❌ |
+| **project item count** | `integer` | No description | ❌ |
+| **requestId** | `string` | No description | ❌ |
+| **site id** | `string` | No description | ❌ |
+| **site published** | `boolean` | No description | ❌ |
+| **site role** | `string` | No description | ❌ |
+| **source** | `string` | No description | ❌ |
+| **styles count** | `integer` | No description | ❌ |
+| **total collection count** | `integer` | No description | ❌ |
+| **tutorial** | `unknown` | No description | ❌ |
+| **workspace id** | `string` | No description | ❌ |
+| **workspace is enterprise** | `boolean` | No description | ❌ |
+| **workspace plan** | `string` | No description | ❌ |
+| **workspace seat count** | `integer` | No description | ❌ |
+| **wxp enabled** | `boolean` | No description | ❌ |
+#### **JS**
+
+```javascript
+analytics.track("Writing Assistant Freeform Feedback Submitted", {
+  "active tutorials": "<<type: string, required: false>>",
+  "cms item count": "<<type: integer, required: false>>",
+  "designer workflow": "<<type: string, required: false>>",
+  "ecommerce enabled": "<<type: boolean, required: false>>",
+  "ecommerce item count": "<<type: integer, required: false>>",
+  "feedback": "<<type: string, required: false>>",
+  "mode": "<<type: string, required: false>>",
+  "page count": "<<type: integer, required: false>>",
+  "page id": "<<type: string, required: false>>",
+  "plan type": "<<type: string, required: false>>",
+  "project item count": "<<type: integer, required: false>>",
+  "requestId": "<<type: string, required: false>>",
+  "site id": "<<type: string, required: false>>",
+  "site published": "<<type: boolean, required: false>>",
+  "site role": "<<type: string, required: false>>",
+  "source": "<<type: string, required: false>>",
+  "styles count": "<<type: integer, required: false>>",
+  "total collection count": "<<type: integer, required: false>>",
+  "tutorial": "<<type: unknown, required: false>>",
+  "workspace id": "<<type: string, required: false>>",
+  "workspace is enterprise": "<<type: boolean, required: false>>",
+  "workspace plan": "<<type: string, required: false>>",
+  "workspace seat count": "<<type: integer, required: false>>",
+  "wxp enabled": "<<type: boolean, required: false>>"
 })
 ```
 

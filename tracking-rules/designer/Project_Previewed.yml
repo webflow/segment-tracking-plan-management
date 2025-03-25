@@ -21,6 +21,18 @@ rules:
       collection count:
         type:
           - integer
+      custom code preview settings value:
+        type:
+          - string
+      custom code site settings value:
+        type:
+          - string
+      design mode:
+        type:
+          - string
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -44,7 +56,9 @@ rules:
       page count:
         type:
           - integer
-      page id: {}
+      page id:
+        type:
+          - string
       pageId:
         type:
           - string
@@ -66,7 +80,9 @@ rules:
       shortName:
         type:
           - string
-      site id: {}
+      site id:
+        type:
+          - string
       site published:
         type:
           - boolean
@@ -77,6 +93,9 @@ rules:
         type:
           - string
       siteSubscriptionPlan:
+        type:
+          - string
+      source:
         type:
           - string
       styles count:
@@ -102,3 +121,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

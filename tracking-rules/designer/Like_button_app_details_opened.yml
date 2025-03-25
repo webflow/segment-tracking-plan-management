@@ -1,0 +1,16 @@
+rules:
+  - key: Like button app details opened
+    type: TRACK
+    description: Like button app details opened
+    version: 1
+    labels: {}
+    properties:
+      id:
+        type:
+          - string
+      name:
+        type:
+          - string
+      slug:
+        type:
+          - string

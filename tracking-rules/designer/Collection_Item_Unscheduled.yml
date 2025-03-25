@@ -7,7 +7,7 @@ rules:
     properties:
       active tutorials:
         type:
-          - array
+          - string
       bulk:
         type:
           - boolean
@@ -26,6 +26,9 @@ rules:
       collection item count:
         type:
           - integer
+      collection item id:
+        type:
+          - string
       collection name:
         type:
           - string
@@ -33,6 +36,9 @@ rules:
         type:
           - string
       current status:
+        type:
+          - string
+      designer workflow:
         type:
           - string
       ecommerce enabled:
@@ -121,3 +127,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

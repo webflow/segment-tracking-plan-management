@@ -1,0 +1,131 @@
+rules:
+  - key: Variable Selected
+    type: TRACK
+    description: Variable Selected
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      location:
+        type:
+          - string
+      mode:
+        type:
+          - string
+      name:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      selection started source:
+        type:
+          - string
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      type:
+        type:
+          - string
+      value:
+        properties:
+          type:
+            type:
+              - string
+          value:
+            properties:
+              unit:
+                type:
+                  - string
+              value:
+                type:
+                  - integer
+              variableId:
+                type:
+                  - string
+            type: object
+        type: object
+      var_id:
+        type:
+          - string
+      var_ids:
+        items:
+          type: string
+        type: array
+      variables:
+        items:
+          properties:
+            name:
+              type:
+                - string
+            type:
+              type:
+                - string
+            value:
+              properties:
+                origin:
+                  type:
+                    - object
+                type:
+                  type:
+                    - string
+                value:
+                  type:
+                    - object
+              type: object
+            var_id:
+              type:
+                - string
+          type: object
+        type: array
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

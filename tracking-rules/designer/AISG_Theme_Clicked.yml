@@ -1,0 +1,104 @@
+rules:
+  - key: AISG Theme Clicked
+    type: TRACK
+    description: AISG Theme Clicked
+    version: 1
+    labels: {}
+    properties:
+      active tutorials:
+        type:
+          - string
+      cms item count:
+        type:
+          - integer
+      designer workflow:
+        type:
+          - string
+      ecommerce enabled:
+        type:
+          - boolean
+      ecommerce item count:
+        type:
+          - integer
+      mode:
+        type:
+          - string
+      page count:
+        type:
+          - integer
+      page id:
+        type:
+          - string
+      plan type:
+        type:
+          - string
+      project item count:
+        type:
+          - integer
+      site id:
+        type:
+          - string
+      site published:
+        type:
+          - boolean
+      site role:
+        type:
+          - string
+      styles count:
+        type:
+          - integer
+      themePacks:
+        properties:
+          buttonPackId:
+            type:
+              - string
+          cardPackId:
+            type:
+              - string
+          colorPackId:
+            type:
+              - string
+          containerPackId:
+            type:
+              - string
+          fontPackId:
+            type:
+              - string
+          formPackId:
+            type:
+              - string
+          imagePackId:
+            type:
+              - string
+          roundnessPackId:
+            type:
+              - string
+          sectionVariancePackId:
+            type:
+              - string
+          spacingPackId:
+            type:
+              - string
+          typographyPackId:
+            type:
+              - string
+        type: object
+      total collection count:
+        type:
+          - integer
+      tutorial: {}
+      workspace id:
+        type:
+          - string
+      workspace is enterprise:
+        type:
+          - boolean
+      workspace plan:
+        type:
+          - string
+      workspace seat count:
+        type:
+          - integer
+      wxp enabled:
+        type:
+          - boolean

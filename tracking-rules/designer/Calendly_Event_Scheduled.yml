@@ -1,0 +1,7 @@
+rules:
+  - key: Calendly Event Scheduled
+    type: TRACK
+    description: Calendly Event Scheduled
+    version: 1
+    labels: {}
+    properties: {}

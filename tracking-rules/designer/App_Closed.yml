@@ -8,18 +8,564 @@ rules:
       active tutorials:
         type:
           - string
+      api invocations:
+        properties:
+          Asset:
+            properties:
+              getAltText:
+                type:
+                  - integer
+              getMimeType:
+                type:
+                  - integer
+              getName:
+                type:
+                  - integer
+              getParent:
+                type:
+                  - integer
+              getUrl:
+                type:
+                  - integer
+              setAltText:
+                type:
+                  - integer
+            type: object
+          BuilderElement:
+            properties:
+              append:
+                type:
+                  - integer
+              setTag:
+                type:
+                  - integer
+            type: object
+          Component:
+            properties:
+              getName:
+                type:
+                  - integer
+              getRootElement:
+                type:
+                  - integer
+            type: object
+          DOM:
+            properties:
+              getAllAttributes:
+                type:
+                  - integer
+              getAttribute:
+                type:
+                  - integer
+              getTag:
+                type:
+                  - integer
+              removeAttribute:
+                type:
+                  - integer
+              setAttribute:
+                type:
+                  - integer
+              setTag:
+                type:
+                  - integer
+            type: object
+          Form:
+            properties:
+              getName:
+                type:
+                  - integer
+              setName:
+                type:
+                  - integer
+            type: object
+          Heading:
+            properties:
+              getHeadingLevel:
+                type:
+                  - integer
+              setHeadingLevel:
+                type:
+                  - integer
+            type: object
+          Image:
+            properties:
+              getAltText:
+                type:
+                  - integer
+              getAsset:
+                type:
+                  - integer
+              setAltText:
+                type:
+                  - integer
+              setAsset:
+                type:
+                  - integer
+            type: object
+          Link:
+            properties:
+              getValue:
+                type:
+                  - integer
+              setSettings:
+                type:
+                  - integer
+            type: object
+          String:
+            properties:
+              getText:
+                type:
+                  - integer
+              setText:
+                type:
+                  - integer
+            type: object
+          canForAppMode:
+            type:
+              - integer
+          collection:
+            properties:
+              createColorVariable:
+                type:
+                  - integer
+              createFontFamilyVariable:
+                type:
+                  - integer
+              createNumberVariable:
+                type:
+                  - integer
+              createPercentageVariable:
+                type:
+                  - integer
+              createSizeVariable:
+                type:
+                  - integer
+              getAllVariables:
+                type:
+                  - integer
+              getName:
+                type:
+                  - integer
+              getVariable:
+                type:
+                  - integer
+              getVariableByName:
+                type:
+                  - integer
+            type: object
+          createAsset:
+            type:
+              - integer
+          createAssetFolder:
+            type:
+              - integer
+          createDOM:
+            type:
+              - integer
+          createPage:
+            type:
+              - integer
+          createPageFolder:
+            type:
+              - integer
+          createString:
+            type:
+              - integer
+          createStyle:
+            type:
+              - integer
+          createVariableCollection:
+            type:
+              - integer
+          createVariableMode:
+            type:
+              - integer
+          element:
+            properties:
+              after:
+                type:
+                  - integer
+              append:
+                type:
+                  - integer
+              before:
+                type:
+                  - integer
+              destroy:
+                type:
+                  - integer
+              detach:
+                type:
+                  - integer
+              getAllCustomAttributes:
+                type:
+                  - integer
+              getChildren:
+                type:
+                  - integer
+              getCustomAttribute:
+                type:
+                  - integer
+              getDomId:
+                type:
+                  - integer
+              getElementComponent:
+                type:
+                  - integer
+              getStyles:
+                type:
+                  - integer
+              prepend:
+                type:
+                  - integer
+              remove:
+                type:
+                  - integer
+              removeCustomAttribute:
+                type:
+                  - integer
+              save:
+                type:
+                  - integer
+              setAppConnection:
+                type:
+                  - integer
+              setChildren:
+                type:
+                  - integer
+              setCustomAttribute:
+                type:
+                  - integer
+              setDomId:
+                type:
+                  - integer
+              setStyles:
+                type:
+                  - integer
+              setTextContent:
+                type:
+                  - integer
+            type: object
+          elementBuilder:
+            type:
+              - integer
+          enterComponent:
+            type:
+              - integer
+          exitComponent:
+            type:
+              - integer
+          getAllAssetFolders:
+            type:
+              - integer
+          getAllAssets:
+            type:
+              - integer
+          getAllComponents:
+            type:
+              - integer
+          getAllElements:
+            type:
+              - integer
+          getAllPagesAndFolders:
+            type:
+              - integer
+          getAllStyles:
+            type:
+              - integer
+          getAllVariableCollections:
+            type:
+              - integer
+          getAllVariableModes:
+            type:
+              - integer
+          getAppConnection:
+            type:
+              - integer
+          getAppConnectionResource:
+            type:
+              - integer
+          getAppSubscriptions:
+            type:
+              - integer
+          getAssetById:
+            type:
+              - integer
+          getCurrentPage:
+            type:
+              - integer
+          getElementAppConnections:
+            type:
+              - integer
+          getEncryptedSiteUserInfo:
+            type:
+              - integer
+          getIdToken:
+            type:
+              - integer
+          getLaunchContext:
+            type:
+              - integer
+          getMediaQuery:
+            type:
+              - integer
+          getPseudoMode:
+            type:
+              - integer
+          getRootElement:
+            type:
+              - integer
+          getSelectedElement:
+            type:
+              - integer
+          getSiteCustomCode:
+            type:
+              - integer
+          getSiteInfo:
+            type:
+              - integer
+          getStyleByName:
+            type:
+              - integer
+          getVariableCollection:
+            type:
+              - integer
+          getVariableModeByName:
+            type:
+              - integer
+          insertXscpValue:
+            type:
+              - integer
+          notify:
+            type:
+              - integer
+          page:
+            properties:
+              getCollectionId:
+                type:
+                  - integer
+              getCollectionName:
+                type:
+                  - integer
+              getDescription:
+                type:
+                  - integer
+              getKind:
+                type:
+                  - integer
+              getName:
+                type:
+                  - integer
+              getOpenGraphDescription:
+                type:
+                  - integer
+              getOpenGraphImage:
+                type:
+                  - integer
+              getOpenGraphTitle:
+                type:
+                  - integer
+              getParent:
+                type:
+                  - integer
+              getPublishPath:
+                type:
+                  - integer
+              getSearchDescription:
+                type:
+                  - integer
+              getSearchImage:
+                type:
+                  - integer
+              getSearchTitle:
+                type:
+                  - integer
+              getSlug:
+                type:
+                  - integer
+              getTitle:
+                type:
+                  - integer
+              getUtilityPageKey:
+                type:
+                  - integer
+              isDraft:
+                type:
+                  - integer
+              isExcludedFromSearch:
+                type:
+                  - integer
+              isHomepage:
+                type:
+                  - integer
+              isPasswordProtected:
+                type:
+                  - integer
+              save:
+                type:
+                  - integer
+              setDescription:
+                type:
+                  - integer
+              setMetadata:
+                type:
+                  - integer
+              setName:
+                type:
+                  - integer
+              setOpenGraphDescription:
+                type:
+                  - integer
+              setOpenGraphImage:
+                type:
+                  - integer
+              setOpenGraphTitle:
+                type:
+                  - integer
+              setParent:
+                type:
+                  - integer
+              setSearchDescription:
+                type:
+                  - integer
+              setSearchTitle:
+                type:
+                  - integer
+              setSlug:
+                type:
+                  - integer
+              setTitle:
+                type:
+                  - integer
+              useDescriptionAsOpenGraphDescription:
+                type:
+                  - integer
+              useDescriptionAsSearchDescription:
+                type:
+                  - integer
+              useTitleAsOpenGraphTitle:
+                type:
+                  - integer
+              useTitleAsSearchTitle:
+                type:
+                  - integer
+              usesDescriptionAsOpenGraphDescription:
+                type:
+                  - integer
+              usesDescriptionAsSearchDescription:
+                type:
+                  - integer
+              usesOpenGraphImageAsSearchImage:
+                type:
+                  - integer
+              usesTitleAsOpenGraphTitle:
+                type:
+                  - integer
+              usesTitleAsSearchTitle:
+                type:
+                  - integer
+            type: object
+          registerComponent:
+            type:
+              - integer
+          removeVariableCollection:
+            type:
+              - integer
+          setExtensionSize:
+            type:
+              - integer
+          setPageCustomCode:
+            type:
+              - integer
+          setSelectedElement:
+            type:
+              - integer
+          setSiteCustomCode:
+            type:
+              - integer
+          style:
+            properties:
+              clearAllProperties:
+                type:
+                  - integer
+              clearProperties:
+                type:
+                  - integer
+              clearProperty:
+                type:
+                  - integer
+              getName:
+                type:
+                  - integer
+              getProperties:
+                type:
+                  - integer
+              getProperty:
+                type:
+                  - integer
+              remove:
+                type:
+                  - integer
+              save:
+                type:
+                  - integer
+              setProperties:
+                type:
+                  - integer
+              setProperty:
+                type:
+                  - integer
+            type: object
+          switchPage:
+            type:
+              - integer
+          unregisterComponent:
+            type:
+              - integer
+          variable:
+            properties:
+              get:
+                type:
+                  - integer
+              getName:
+                type:
+                  - integer
+              set:
+                type:
+                  - integer
+            type: object
+          variableMode:
+            properties:
+              getName:
+                type:
+                  - integer
+            type: object
+        type: object
+      api version:
+        type:
+          - string
       app id:
+        type:
+          - string
+      app name:
         type:
           - string
       cms item count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
       ecommerce item count:
         type:
           - integer
+      launched after install:
+        type:
+          - boolean
       mode:
         type:
           - string
@@ -63,3 +609,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

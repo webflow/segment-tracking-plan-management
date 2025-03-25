@@ -18,6 +18,9 @@ rules:
       collection count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -27,8 +30,12 @@ rules:
       enterprise billing:
         type:
           - boolean
-      field_slug: {}
-      image_fields_in_collection: {}
+      field_slug:
+        type:
+          - string
+      image_fields_in_collection:
+        type:
+          - integer
       legacy seat count:
         type:
           - integer
@@ -38,7 +45,9 @@ rules:
       mode:
         type:
           - string
-      multi_image_fields_in_collection: {}
+      multi_image_fields_in_collection:
+        type:
+          - integer
       orgId: {}
       page count:
         type:
@@ -95,3 +104,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

@@ -11,6 +11,9 @@ rules:
       cms item count:
         type:
           - integer
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -20,10 +23,25 @@ rules:
       enterprise billing:
         type:
           - boolean
+      has collection list:
+        type:
+          - boolean
       legacy seat count:
         type:
           - integer
       legacy team id:
+        type:
+          - string
+      library id:
+        type:
+          - string
+      library name:
+        type:
+          - string
+      library type:
+        type:
+          - string
+      library version id:
         type:
           - string
       location:
@@ -75,3 +93,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

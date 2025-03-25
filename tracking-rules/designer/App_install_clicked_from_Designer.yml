@@ -17,3 +17,6 @@ rules:
       slug:
         type:
           - string
+      source:
+        type:
+          - string

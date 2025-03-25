@@ -1,0 +1,32 @@
+rules:
+  - key: Optimize Filters Applied
+    type: TRACK
+    description: Optimize Filters Applied
+    version: 1
+    labels: {}
+    properties:
+      customerId:
+        type:
+          - string
+      filterType:
+        type:
+          - string
+      mode: {}
+      optimizationId:
+        type:
+          - string
+      optimizationName:
+        type:
+          - string
+      role:
+        type:
+          - string
+      siteId:
+        type:
+          - string
+      workspaceId:
+        type:
+          - string
+      workspaceIsEnterprise:
+        type:
+          - boolean

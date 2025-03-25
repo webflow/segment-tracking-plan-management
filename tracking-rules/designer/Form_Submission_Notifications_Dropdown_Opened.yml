@@ -1,0 +1,7 @@
+rules:
+  - key: Form Submission Notifications Dropdown Opened
+    type: TRACK
+    description: Form Submission Notifications Dropdown Opened
+    version: 1
+    labels: {}
+    properties: {}

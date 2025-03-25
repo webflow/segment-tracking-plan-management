@@ -24,6 +24,9 @@ rules:
         type:
           - integer
       collection count: {}
+      designer workflow:
+        type:
+          - string
       ecommerce enabled:
         type:
           - boolean
@@ -108,3 +111,6 @@ rules:
       workspace seat count:
         type:
           - integer
+      wxp enabled:
+        type:
+          - boolean

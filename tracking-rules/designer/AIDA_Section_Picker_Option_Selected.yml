@@ -1,0 +1,31 @@
+rules:
+  - key: AIDA Section Picker Option Selected
+    type: TRACK
+    description: AIDA Section Picker Option Selected
+    version: 1
+    labels: {}
+    properties:
+      componentSelected:
+        type:
+          - string
+      copilotRequestId:
+        type:
+          - string
+      messageType:
+        type:
+          - string
+      selectedCategory:
+        type:
+          - string
+      siteProperties:
+        properties:
+          pageId:
+            type:
+              - string
+          siteId:
+            type:
+              - string
+          workspaceId:
+            type:
+              - string
+        type: object
