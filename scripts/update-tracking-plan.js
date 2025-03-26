@@ -18,10 +18,10 @@ console.log('Tracking Plan ID:', trackingPlanId);
 function getChangedFiles(directory) {
   try {
     const files = execSync('git diff --name-only HEAD^ HEAD').toString().split('\n');
+    return files.filter(file => file.startsWith(directory) && file.endsWith('.yml'));
   } catch (error) {
     console.error('Error getting changed files:', error.response ? error.response.data : error.message);
   }
-  return files.filter(file => file.startsWith(directory) && file.endsWith('.yml'));
 }
 
 // Function to load YAML files from an array of file paths
