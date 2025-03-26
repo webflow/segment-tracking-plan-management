@@ -10,8 +10,8 @@ rules:
           - string
       ref:
         type:
-	  - string
-	  - null
+          - string
+          - null
       workspace addons:
         properties:
           full seat count:

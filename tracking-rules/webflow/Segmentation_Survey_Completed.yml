@@ -78,7 +78,7 @@ rules:
       isStudent:
         type:
           - string
-	  - null
+          - null
       locationPreference:
         type:
           - string

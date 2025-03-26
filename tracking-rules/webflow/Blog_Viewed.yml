@@ -11,7 +11,7 @@ rules:
       created at:
         type:
           - string
-	  - null
+          - null
       logged in:
         type:
           - boolean

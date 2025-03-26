@@ -10,8 +10,8 @@ rules:
           - string
       course progress:
         type:
-	  - integer
-	  - null
+          - integer
+          - null
       lesson name:
         type:
           - string

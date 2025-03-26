@@ -33,8 +33,8 @@ rules:
             type: ["object", "null]
           country:
             type:
-	      - string
-	      - null
+              - string
+              - null
           custom-budget-amount:
             type:
               - string
@@ -45,9 +45,9 @@ rules:
             type:
               - string
           language:
-	    type:
-	      - string
-	      - null
+            type:
+              - string
+              - null
           locationPreference:
             type:
               - string

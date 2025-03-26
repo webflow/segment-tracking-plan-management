@@ -50,7 +50,7 @@ rules:
       workspace role:
         type:
           - string
-	  - null
+          - null
       workspace seat count:
         type:
           - integer

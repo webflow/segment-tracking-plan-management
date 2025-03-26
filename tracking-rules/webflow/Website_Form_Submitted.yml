@@ -16,35 +16,35 @@ rules:
           - string
       company size:
         type:
-	  - string
-	  - null
+          - string
+          - null
       consent: {}
       country:
         type:
           - string
       email:
         type:
-	  - string
-	  - null
+          - string
+          - null
       first name:
         type:
           - string
-	  - null
+          - null
       form name:
         type:
           - string
-	  - null
+          - null
       last name:
         type:
           - string
-	  - null
+          - null
       logged in:
         type:
           - boolean
       message:
         type:
-	  - string
-	  - null
+          - string
+          - null
       page:
         type:
           - string

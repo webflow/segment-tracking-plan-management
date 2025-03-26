@@ -14,11 +14,11 @@ rules:
       resource id:
         type:
           - string
-	  - null
+          - null
       resource type:
         type:
           - string
-	  - null
+          - null
       site id:
         type:
           - string

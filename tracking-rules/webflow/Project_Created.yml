@@ -14,11 +14,11 @@ rules:
       create method:
         type:
           - string
-	  - null
+          - null
       from site:
         type:
-	  - string
-	  - null
+          - string
+          - null
       library cost:
         type:
           - string
@@ -34,8 +34,8 @@ rules:
           - string
       ref:
         type:
-	  - string
-	  - null
+          - string
+          - null
       site id:
         type:
           - string

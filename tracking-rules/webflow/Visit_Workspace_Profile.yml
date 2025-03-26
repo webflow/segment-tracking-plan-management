@@ -541,7 +541,7 @@ rules:
       paramUtm_medium:
         type:
           - string
-	  - null
+          - null
       paramUtm_source:
         type:
           - string

@@ -10,8 +10,8 @@ rules:
           - string
       search:
         type:
-	  - string
-	  - null
+          - string
+          - null
       site id:
         type:
           - string

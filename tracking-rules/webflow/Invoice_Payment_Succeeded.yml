@@ -62,7 +62,7 @@ rules:
       tax:
         type:
           - integer
-	  - null
+          - null
       total:
         type:
           - integer

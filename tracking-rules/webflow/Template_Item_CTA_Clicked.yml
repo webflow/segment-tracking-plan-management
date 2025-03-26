@@ -28,7 +28,7 @@ rules:
       template cost:
         type:
           - integer
-	  - null
+          - null
       template id:
         type:
           - string

@@ -7,15 +7,15 @@ rules:
     properties:
       profileId:
         type:
-	  - string
-	  - null
+          - string
+          - null
       profileName:
         type:
           - string
       profileSlug:
         type:
-	  - string
-	  - null
+          - string
+          - null
       tabName:
         type:
           - string

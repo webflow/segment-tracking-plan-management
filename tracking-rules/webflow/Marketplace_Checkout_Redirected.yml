@@ -21,7 +21,7 @@ rules:
       resource type:
         type:
           - string
-	  - null
+          - null
       site id:
         type:
           - string
