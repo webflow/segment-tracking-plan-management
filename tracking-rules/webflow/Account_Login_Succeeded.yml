@@ -8,6 +8,7 @@ rules:
       is 2FA:
         type:
           - boolean
+          - 'null'
       maintain 2FA 30 days:
         type:
           - boolean
