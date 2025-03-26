@@ -10,7 +10,7 @@ rules:
           - string
       redirect:
         type:
-	  - boolean
+          - boolean
 	  - null
       ref:
         type:

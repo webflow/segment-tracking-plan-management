@@ -540,7 +540,7 @@ rules:
           - string
       paramUtm_medium:
         type:
-	  - string
+          - string
 	  - null
       paramUtm_source:
         type:

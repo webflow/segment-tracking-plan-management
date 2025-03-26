@@ -19,7 +19,7 @@ rules:
           - string
       comments:
         type:
-	  - string
+          - string
 	  - null
       cost of new plan:
         type:

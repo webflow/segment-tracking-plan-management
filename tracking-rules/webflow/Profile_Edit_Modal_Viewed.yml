@@ -6,12 +6,16 @@ rules:
     labels: {}
     properties:
       profileId:
-        type: ["string, "null"]
+        type:
+	  - string
+	  - null
       profileName:
         type:
           - string
       profileSlug:
-        type: ["string", "null"]
+        type:
+	  - string
+	  - null
       tabName:
         type:
           - string

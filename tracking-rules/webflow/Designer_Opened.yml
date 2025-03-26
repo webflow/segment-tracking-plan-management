@@ -31,7 +31,7 @@ rules:
           - string
       mode:
         type:
-	  - string
+          - string
 	  - null
       num designer-teammates:
         type:
