@@ -20,4 +20,4 @@ rules:
       workspaceRole:
         type:
           - string
-          - null
+          - 'null'

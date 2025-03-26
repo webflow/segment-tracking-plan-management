@@ -14,7 +14,7 @@ rules:
       destinationPage:
         type:
           - string
-          - null
+          - 'null'
       options selected:
         properties:
           company-industry:

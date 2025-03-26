@@ -11,7 +11,7 @@ rules:
       search:
         type:
           - string
-          - null
+          - 'null'
       site id:
         type:
           - string
