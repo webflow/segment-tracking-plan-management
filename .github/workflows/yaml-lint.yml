@@ -2,9 +2,11 @@ name: Validate Yaml
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - 'main'
   pull_request:
-    branches: [ ** ]
+    branches:
+      - '**'
 
 jobs:
   validate-yaml:
