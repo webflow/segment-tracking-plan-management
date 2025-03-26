@@ -852,4 +852,4 @@ rules:
           workspace:
             type:
               - string
-        type: object
+        type: ["object", "string"]

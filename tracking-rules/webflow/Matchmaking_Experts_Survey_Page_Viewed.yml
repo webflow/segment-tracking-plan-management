@@ -8,7 +8,10 @@ rules:
       projectUID:
         type:
           - string
-      ref: {}
+      ref:
+        type:
+	  - string
+	  - null
       workspace addons:
         properties:
           full seat count:

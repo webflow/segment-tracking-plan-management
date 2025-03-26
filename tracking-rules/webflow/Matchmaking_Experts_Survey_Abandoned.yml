@@ -42,6 +42,7 @@ rules:
           country:
             type:
               - string
+	      - null
           custom-budget-amount:
             type:
               - string
@@ -52,6 +53,7 @@ rules:
           language:
             type:
               - string
+	      - null
           locationPreference: {}
           migrating-link:
             type:
@@ -62,7 +64,7 @@ rules:
             items:
               type: string
             type: array
-        type: object
+        type: ["object", "null"]
       workspace addons:
         properties:
           full seat count:

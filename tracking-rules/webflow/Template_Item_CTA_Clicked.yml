@@ -12,9 +12,7 @@ rules:
         type:
           - string
       ref:
-        items:
-          type: string
-        type: array
+        type: string
       site id:
         type:
           - string
@@ -29,7 +27,8 @@ rules:
           - string
       template cost:
         type:
-          - string
+          - integer
+	  - null
       template id:
         type:
           - string

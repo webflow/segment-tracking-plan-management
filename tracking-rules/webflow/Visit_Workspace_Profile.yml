@@ -539,9 +539,9 @@ rules:
         type:
           - string
       paramUtm_medium:
-        items:
-          type: string
-        type: array
+        type:
+	  - string
+	  - null
       paramUtm_source:
         type:
           - string

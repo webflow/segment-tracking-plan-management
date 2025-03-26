@@ -8,7 +8,10 @@ rules:
       page type:
         type:
           - string
-      redirect: {}
+      redirect:
+        type:
+	  - boolean
+	  - null
       ref:
         type:
           - string

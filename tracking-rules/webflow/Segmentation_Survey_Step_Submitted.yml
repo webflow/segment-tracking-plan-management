@@ -23,7 +23,7 @@ rules:
           location:
             type:
               - string
-        type: object
+        type: any
       position of selected option:
         type:
           - integer

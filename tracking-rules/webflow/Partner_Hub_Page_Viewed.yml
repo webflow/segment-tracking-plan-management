@@ -29,3 +29,4 @@ rules:
       workspaceRole:
         type:
           - string
+	  - null

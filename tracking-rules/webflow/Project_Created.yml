@@ -14,7 +14,11 @@ rules:
       create method:
         type:
           - string
-      from site: {}
+	  - null
+      from site:
+        type:
+	  - string
+	  - null
       library cost:
         type:
           - string
@@ -29,9 +33,9 @@ rules:
         type:
           - string
       ref:
-        items:
-          type: string
-        type: array
+        type:
+	  - string
+	  - null
       site id:
         type:
           - string
