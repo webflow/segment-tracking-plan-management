@@ -11,7 +11,7 @@ rules:
       client work:
         items:
           type: string
-        type: array
+        type: ["array", "null"]
       country:
         type:
           - string

@@ -8,7 +8,7 @@ rules:
       additionalTags:
         items:
           type: string
-        type: array
+        type: ["array", "null"]
       clone type:
         type:
           - string
@@ -51,7 +51,7 @@ rules:
       tags:
         items:
           type: string
-        type: array
+        type: ["array", "null"]
       workspace id:
         type:
           - string

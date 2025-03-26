@@ -30,10 +30,13 @@ rules:
               company-size:
                 type:
                   - string
-            type: object
+            type:
+              - object
+              - null
           country:
             type:
               - string
+              - null
           custom-budget-amount:
             type:
               - string
@@ -43,7 +46,10 @@ rules:
           kindOfSite:
             type:
               - string
-          language: {}
+          language:
+            type:
+              - string
+              - null
           locationPreference:
             type:
               - string

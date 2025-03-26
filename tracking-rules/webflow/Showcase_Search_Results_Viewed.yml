@@ -9,9 +9,9 @@ rules:
         type:
           - string
       search:
-        items:
-          type: string
-        type: array
+        type:
+          - string
+          - null
       site id:
         type:
           - string

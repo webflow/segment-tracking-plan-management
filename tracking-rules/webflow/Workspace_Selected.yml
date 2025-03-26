@@ -52,4 +52,4 @@ rules:
           usedSeats:
             type:
               - integer
-        type: object
+        type: ["object", "string", "null"]

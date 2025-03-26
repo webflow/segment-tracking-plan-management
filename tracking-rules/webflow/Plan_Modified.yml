@@ -17,7 +17,10 @@ rules:
       comment:
         type:
           - string
-      comments: {}
+      comments:
+        type:
+          - string
+          - null
       cost of new plan:
         type:
           - integer
@@ -127,7 +130,10 @@ rules:
       transferring site:
         type:
           - string
-      value of new plan: {}
+      value of new plan:
+        type:
+          - integer
+          - null
       wf session id:
         type:
           - string

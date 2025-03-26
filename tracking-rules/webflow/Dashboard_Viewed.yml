@@ -12,9 +12,7 @@ rules:
         type:
           - string
       ref:
-        items:
-          type: string
-        type: array
+        type: ["string", "null"]
       section:
         type:
           - string

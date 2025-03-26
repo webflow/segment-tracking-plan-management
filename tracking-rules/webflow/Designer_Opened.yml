@@ -30,9 +30,9 @@ rules:
         type:
           - string
       mode:
-        items:
-          type: string
-        type: array
+        type:
+          - string
+          - null
       num designer-teammates:
         type:
           - integer

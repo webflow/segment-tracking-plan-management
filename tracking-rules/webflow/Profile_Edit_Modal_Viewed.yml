@@ -8,12 +8,14 @@ rules:
       profileId:
         type:
           - string
+          - null
       profileName:
         type:
           - string
       profileSlug:
         type:
           - string
+          - null
       tabName:
         type:
           - string
