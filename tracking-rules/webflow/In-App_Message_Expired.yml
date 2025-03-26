@@ -14,7 +14,7 @@ rules:
       expiresAt:
         type:
           - string
-          - null
+          - 'null'
       location:
         type:
           - string

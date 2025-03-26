@@ -11,7 +11,7 @@ rules:
       course progress:
         type:
           - integer
-          - null
+          - 'null'
       lesson name:
         type:
           - string

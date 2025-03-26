@@ -20,7 +20,7 @@ rules:
       comments:
         type:
           - string
-          - null
+          - 'null'
       cost of new plan:
         type:
           - integer
@@ -133,7 +133,7 @@ rules:
       value of new plan:
         type:
           - integer
-          - null
+          - 'null'
       wf session id:
         type:
           - string

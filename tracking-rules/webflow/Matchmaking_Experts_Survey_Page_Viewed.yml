@@ -11,7 +11,7 @@ rules:
       ref:
         type:
           - string
-          - null
+          - 'null'
       workspace addons:
         properties:
           full seat count:

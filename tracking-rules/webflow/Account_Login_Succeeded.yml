@@ -11,7 +11,7 @@ rules:
       maintain 2FA 30 days:
         type:
           - boolean
-          - null
+          - 'null'
       page:
         type:
           - string
@@ -24,7 +24,7 @@ rules:
       show password:
         type:
           - boolean
-          - null
+          - 'null'
       signup method:
         type:
           - string

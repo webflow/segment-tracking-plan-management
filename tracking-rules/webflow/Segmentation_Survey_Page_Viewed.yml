@@ -11,7 +11,7 @@ rules:
       redirect:
         type:
           - boolean
-          - null
+          - 'null'
       ref:
         type:
           - string

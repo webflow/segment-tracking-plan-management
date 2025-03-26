@@ -440,7 +440,7 @@ rules:
       position on page:
         type:
           - string
-          - null
+          - 'null'
       ref:
         type:
           - string

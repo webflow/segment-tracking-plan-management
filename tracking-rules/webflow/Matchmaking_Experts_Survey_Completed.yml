@@ -32,11 +32,11 @@ rules:
                   - string
             type:
               - object
-              - null
+              - 'null'
           country:
             type:
               - string
-              - null
+              - 'null'
           custom-budget-amount:
             type:
               - string
@@ -49,7 +49,7 @@ rules:
           language:
             type:
               - string
-              - null
+              - 'null'
           locationPreference:
             type:
               - string

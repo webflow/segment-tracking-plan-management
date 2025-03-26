@@ -32,7 +32,7 @@ rules:
       mode:
         type:
           - string
-          - null
+          - 'null'
       num designer-teammates:
         type:
           - integer

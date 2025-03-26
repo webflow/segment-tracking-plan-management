@@ -17,7 +17,7 @@ rules:
       company size:
         type:
           - string
-          - null
+          - 'null'
       consent: {}
       country:
         type:
@@ -25,26 +25,26 @@ rules:
       email:
         type:
           - string
-          - null
+          - 'null'
       first name:
         type:
           - string
-          - null
+          - 'null'
       form name:
         type:
           - string
-          - null
+          - 'null'
       last name:
         type:
           - string
-          - null
+          - 'null'
       logged in:
         type:
           - boolean
       message:
         type:
           - string
-          - null
+          - 'null'
       page:
         type:
           - string
