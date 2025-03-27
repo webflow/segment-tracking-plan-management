@@ -668,9 +668,7 @@
               },
               "maintain 2FA 30 days": {
                 "type": [
-                  "boolean",
-                  "null",
-                  "string"
+                  "any"
                 ]
               },
               "page": {
@@ -690,9 +688,7 @@
               },
               "show password": {
                 "type": [
-                  "boolean",
-                  "null",
-                  "string"
+                  "any"
                 ]
               },
               "signup method": {
@@ -772,7 +768,7 @@
         ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-27T16:20:01.000Z",
+      "updatedAt": "2025-03-27T16:38:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -16466,9 +16462,7 @@
                       }
                     },
                     "type": [
-                      "object",
-                      "null",
-                      "string"
+                      "any"
                     ]
                   },
                   "country": {
@@ -16572,7 +16566,7 @@
         ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-27T16:20:01.000Z",
+      "updatedAt": "2025-03-27T16:38:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -37517,9 +37511,7 @@
               },
               "template cost": {
                 "type": [
-                  "integer",
-                  "null",
-                  "string"
+                  "any"
                 ]
               },
               "template id": {
@@ -37605,7 +37597,7 @@
         ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-27T16:20:01.000Z",
+      "updatedAt": "2025-03-27T16:38:55.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {

@@ -412,11 +412,11 @@ Account Login Succeeded.
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **is 2FA** | `boolean` | No description | ❌ |
-| **maintain 2FA 30 days** | `boolean,null,string` | No description | ❌ |
+| **maintain 2FA 30 days** | `any` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **show password** | `boolean,null,string` | No description | ❌ |
+| **show password** | `any` | No description | ❌ |
 | **signup method** | `string` | No description | ❌ |
 | **site id** | `unknown` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -439,11 +439,11 @@ Account Login Succeeded.
 ```javascript
 analytics.track("Account Login Succeeded", {
   "is 2FA": "<<type: boolean, required: false>>",
-  "maintain 2FA 30 days": "<<type: boolean,null,string, required: false>>",
+  "maintain 2FA 30 days": "<<type: any, required: false>>",
   "page": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "show password": "<<type: boolean,null,string, required: false>>",
+  "show password": "<<type: any, required: false>>",
   "signup method": "<<type: string, required: false>>",
   "site id": "<<type: unknown, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -22134,7 +22134,7 @@ Template Item CTA Clicked.
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
-| **template cost** | `integer,null,string` | No description | ❌ |
+| **template cost** | `any` | No description | ❌ |
 | **template id** | `string` | No description | ❌ |
 | **template index** | `integer` | No description | ❌ |
 | **template name** | `string` | No description | ❌ |
@@ -22161,7 +22161,7 @@ analytics.track("Template Item CTA Clicked", {
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
-  "template cost": "<<type: integer,null,string, required: false>>",
+  "template cost": "<<type: any, required: false>>",
   "template id": "<<type: string, required: false>>",
   "template index": "<<type: integer, required: false>>",
   "template name": "<<type: string, required: false>>",
