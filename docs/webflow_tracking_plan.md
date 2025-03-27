@@ -406,17 +406,17 @@ analytics.track("Account Login Failed", {
 
 #### **Description**
 
-No description provided
+Account Login Succeeded.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **is 2FA** | `boolean` | No description | ❌ |
-| **maintain 2FA 30 days** | `string` | No description | ❌ |
+| **maintain 2FA 30 days** | `boolean,null` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **show password** | `boolean` | No description | ❌ |
+| **show password** | `boolean,null` | No description | ❌ |
 | **signup method** | `string` | No description | ❌ |
 | **site id** | `unknown` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -439,11 +439,11 @@ No description provided
 ```javascript
 analytics.track("Account Login Succeeded", {
   "is 2FA": "<<type: boolean, required: false>>",
-  "maintain 2FA 30 days": "<<type: string, required: false>>",
+  "maintain 2FA 30 days": "<<type: boolean,null, required: false>>",
   "page": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "show password": "<<type: boolean, required: false>>",
+  "show password": "<<type: boolean,null, required: false>>",
   "signup method": "<<type: string, required: false>>",
   "site id": "<<type: unknown, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -1185,7 +1185,7 @@ analytics.track("Banner Viewed", {
 
 #### **Description**
 
-No description provided
+Billing Action Tracked.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -1199,36 +1199,7 @@ No description provided
 | **causedBy.reason** | `string` | No description | ❌ |
 | **causedBy.system** | `string` | No description | ❌ |
 | **causedBy.user** | `string` | No description | ❌ |
-| **coupon** | `object` | No description | ❌ |
-| **coupon.__v** | `integer` | No description | ❌ |
-| **coupon._id** | `string` | No description | ❌ |
-| **coupon.allowAccountItems** | `boolean` | No description | ❌ |
-| **coupon.allowMonthlyBill** | `boolean` | No description | ❌ |
-| **coupon.allowRetroactiveUse** | `boolean` | No description | ❌ |
-| **coupon.allowSiteItems** | `boolean` | No description | ❌ |
-| **coupon.allowTeamItems** | `boolean` | No description | ❌ |
-| **coupon.allowTemplatePurchases** | `boolean` | No description | ❌ |
-| **coupon.allowWorkspaceItems** | `boolean` | No description | ❌ |
-| **coupon.allowYearlyBill** | `boolean` | No description | ❌ |
-| **coupon.code** | `string` | No description | ❌ |
-| **coupon.createdBy** | `string` | No description | ❌ |
-| **coupon.createdOn** | `string` | No description | ❌ |
-| **coupon.department** | `string` | No description | ❌ |
-| **coupon.description** | `string` | No description | ❌ |
-| **coupon.durationInMonths** | `integer` | No description | ❌ |
-| **coupon.expiresOn** | `string` | No description | ❌ |
-| **coupon.maxRedemptionsPerUser** | `integer` | No description | ❌ |
-| **coupon.oneOff** | `boolean` | No description | ❌ |
-| **coupon.onlyFirstTemplate** | `boolean` | No description | ❌ |
-| **coupon.onlyPlanId** | `array` | No description | ❌ |
-| **coupon.onlySchool** | `boolean` | No description | ❌ |
-| **coupon.onlyTemplateId** | `array` | No description | ❌ |
-| **coupon.onlyUnconverted** | `boolean` | No description | ❌ |
-| **coupon.onlyUserAgeAbove** | `integer` | No description | ❌ |
-| **coupon.onlyUserAgeUnder** | `integer` | No description | ❌ |
-| **coupon.percentOff** | `integer` | No description | ❌ |
-| **coupon.rebateUSD** | `integer` | No description | ❌ |
-| **coupon.redemptionsLeft** | `integer` | No description | ❌ |
+| **coupon** | `any` | No description | ❌ |
 | **currency** | `string` | No description | ❌ |
 | **interval** | `string` | No description | ❌ |
 | **invoiceTargetSubscriptionId** | `string` | No description | ❌ |
@@ -1345,37 +1316,7 @@ analytics.track("Billing Action Tracked", {
     "system": "<<type: string, required: false>>",
     "user": "<<type: string, required: false>>"
   },
-  "coupon": {
-    "__v": "<<type: integer, required: false>>",
-    "_id": "<<type: string, required: false>>",
-    "allowAccountItems": "<<type: boolean, required: false>>",
-    "allowMonthlyBill": "<<type: boolean, required: false>>",
-    "allowRetroactiveUse": "<<type: boolean, required: false>>",
-    "allowSiteItems": "<<type: boolean, required: false>>",
-    "allowTeamItems": "<<type: boolean, required: false>>",
-    "allowTemplatePurchases": "<<type: boolean, required: false>>",
-    "allowWorkspaceItems": "<<type: boolean, required: false>>",
-    "allowYearlyBill": "<<type: boolean, required: false>>",
-    "code": "<<type: string, required: false>>",
-    "createdBy": "<<type: string, required: false>>",
-    "createdOn": "<<type: string, required: false>>",
-    "department": "<<type: string, required: false>>",
-    "description": "<<type: string, required: false>>",
-    "durationInMonths": "<<type: integer, required: false>>",
-    "expiresOn": "<<type: string, required: false>>",
-    "maxRedemptionsPerUser": "<<type: integer, required: false>>",
-    "oneOff": "<<type: boolean, required: false>>",
-    "onlyFirstTemplate": "<<type: boolean, required: false>>",
-    "onlyPlanId": "<<type: array, required: false>>",
-    "onlySchool": "<<type: boolean, required: false>>",
-    "onlyTemplateId": "<<type: array, required: false>>",
-    "onlyUnconverted": "<<type: boolean, required: false>>",
-    "onlyUserAgeAbove": "<<type: integer, required: false>>",
-    "onlyUserAgeUnder": "<<type: integer, required: false>>",
-    "percentOff": "<<type: integer, required: false>>",
-    "rebateUSD": "<<type: integer, required: false>>",
-    "redemptionsLeft": "<<type: integer, required: false>>"
-  },
+  "coupon": "<<type: any, required: false>>",
   "currency": "<<type: string, required: false>>",
   "interval": "<<type: string, required: false>>",
   "invoiceTargetSubscriptionId": "<<type: string, required: false>>",
@@ -1561,13 +1502,13 @@ analytics.track("Blank Site Selected", {
 
 #### **Description**
 
-No description provided
+Blog Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **category** | `string` | No description | ❌ |
-| **created at** | `string` | No description | ❌ |
+| **created at** | `string,null` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
 | **loggedIn** | `boolean` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
@@ -1584,7 +1525,7 @@ No description provided
 ```javascript
 analytics.track("Blog Viewed", {
   "category": "<<type: string, required: false>>",
-  "created at": "<<type: string, required: false>>",
+  "created at": "<<type: string,null, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
   "loggedIn": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
@@ -1741,7 +1682,7 @@ analytics.track("CMS Link Clicked", {
 
 #### **Description**
 
-No description provided
+CTA Clicked.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -1895,7 +1836,7 @@ No description provided
 | **page step** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
 | **position** | `string` | No description | ❌ |
-| **position on page** | `string` | No description | ❌ |
+| **position on page** | `string,null` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **scroll** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
@@ -2088,7 +2029,7 @@ analytics.track("CTA Clicked", {
   "page step": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
   "position": "<<type: string, required: false>>",
-  "position on page": "<<type: string, required: false>>",
+  "position on page": "<<type: string,null, required: false>>",
   "ref": "<<type: string, required: false>>",
   "scroll": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
@@ -3387,14 +3328,14 @@ analytics.track("Dashboard View Toggled", {
 
 #### **Description**
 
-No description provided
+Dashboard Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **legacy team id** | `string` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
-| **ref** | `array` | No description | ❌ |
+| **ref** | `string,null` | No description | ❌ |
 | **section** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
@@ -3423,7 +3364,7 @@ No description provided
 analytics.track("Dashboard Viewed", {
   "legacy team id": "<<type: string, required: false>>",
   "page": "<<type: string, required: false>>",
-  "ref": "<<type: array, required: false>>",
+  "ref": "<<type: string,null, required: false>>",
   "section": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
@@ -3629,7 +3570,7 @@ analytics.track("Designer Link Clicked", {
 
 #### **Description**
 
-No description provided
+Designer Opened.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -3642,7 +3583,7 @@ No description provided
 | **enterprise billing** | `boolean` | No description | ❌ |
 | **legacy seat count** | `integer` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
-| **mode** | `array` | No description | ❌ |
+| **mode** | `string,null` | No description | ❌ |
 | **num designer-teammates** | `integer` | No description | ❌ |
 | **num editor-teammates** | `integer` | No description | ❌ |
 | **num self-instances** | `integer` | No description | ❌ |
@@ -3678,7 +3619,7 @@ analytics.track("Designer Opened", {
   "enterprise billing": "<<type: boolean, required: false>>",
   "legacy seat count": "<<type: integer, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
-  "mode": "<<type: array, required: false>>",
+  "mode": "<<type: string,null, required: false>>",
   "num designer-teammates": "<<type: integer, required: false>>",
   "num editor-teammates": "<<type: integer, required: false>>",
   "num self-instances": "<<type: integer, required: false>>",
@@ -9129,14 +9070,14 @@ analytics.track("In-App Message Dismissed", {
 
 #### **Description**
 
-No description provided
+In-App Message Expired.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **__cpLocation** | `string` | No description | ❌ |
 | **action** | `string` | No description | ❌ |
-| **expiresAt** | `string` | No description | ❌ |
+| **expiresAt** | `string,null` | No description | ❌ |
 | **location** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
@@ -9161,7 +9102,7 @@ No description provided
 analytics.track("In-App Message Expired", {
   "__cpLocation": "<<type: string, required: false>>",
   "action": "<<type: string, required: false>>",
-  "expiresAt": "<<type: string, required: false>>",
+  "expiresAt": "<<type: string,null, required: false>>",
   "location": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
@@ -9297,7 +9238,7 @@ analytics.track("Interactions Link Clicked", {
 
 #### **Description**
 
-No description provided
+Interactive Element Clicked.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -9305,7 +9246,7 @@ No description provided
 | **controls** | `unknown` | No description | ❌ |
 | **element_type** | `string` | No description | ❌ |
 | **path** | `string` | No description | ❌ |
-| **state** | `string` | No description | ❌ |
+| **state** | `string,null` | No description | ❌ |
 | **text** | `string` | No description | ❌ |
 #### **JS**
 
@@ -9314,7 +9255,7 @@ analytics.track("Interactive Element Clicked", {
   "controls": "<<type: unknown, required: false>>",
   "element_type": "<<type: string, required: false>>",
   "path": "<<type: string, required: false>>",
-  "state": "<<type: string, required: false>>",
+  "state": "<<type: string,null, required: false>>",
   "text": "<<type: string, required: false>>"
 })
 ```
@@ -9415,7 +9356,7 @@ analytics.track("Invoice Charge Failed", {
 
 #### **Description**
 
-No description provided
+Invoice Payment Succeeded.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -9438,7 +9379,7 @@ No description provided
 | **projectName** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
 | **subTotal** | `integer` | No description | ❌ |
-| **tax** | `integer` | No description | ❌ |
+| **tax** | `integer,null` | No description | ❌ |
 | **total** | `integer` | No description | ❌ |
 | **wf_source** | `string` | No description | ❌ |
 #### **JS**
@@ -9463,7 +9404,7 @@ analytics.track("Invoice Payment Succeeded", {
   "projectName": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
   "subTotal": "<<type: integer, required: false>>",
-  "tax": "<<type: integer, required: false>>",
+  "tax": "<<type: integer,null, required: false>>",
   "total": "<<type: integer, required: false>>",
   "wf_source": "<<type: string, required: false>>"
 })
@@ -10367,15 +10308,15 @@ analytics.track("Marketplace Checkout Page Viewed", {
 
 #### **Description**
 
-No description provided
+Marketplace Checkout Redirect Page Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **page** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **resource id** | `string` | No description | ❌ |
-| **resource type** | `string` | No description | ❌ |
+| **resource id** | `string,null` | No description | ❌ |
+| **resource type** | `string,null` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -10399,8 +10340,8 @@ No description provided
 analytics.track("Marketplace Checkout Redirect Page Viewed", {
   "page": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "resource id": "<<type: string, required: false>>",
-  "resource type": "<<type: string, required: false>>",
+  "resource id": "<<type: string,null, required: false>>",
+  "resource type": "<<type: string,null, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -10434,7 +10375,7 @@ analytics.track("Marketplace Checkout Redirect Page Viewed", {
 
 #### **Description**
 
-No description provided
+Marketplace Checkout Redirected.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -10442,8 +10383,8 @@ No description provided
 | **page** | `string` | No description | ❌ |
 | **redirected to** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
-| **resource id** | `string` | No description | ❌ |
-| **resource type** | `string` | No description | ❌ |
+| **resource id** | `string,null` | No description | ❌ |
+| **resource type** | `string,null` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -10468,8 +10409,8 @@ analytics.track("Marketplace Checkout Redirected", {
   "page": "<<type: string, required: false>>",
   "redirected to": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
-  "resource id": "<<type: string, required: false>>",
-  "resource type": "<<type: string, required: false>>",
+  "resource id": "<<type: string,null, required: false>>",
+  "resource type": "<<type: string,null, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -10529,19 +10470,19 @@ analytics.track("Marketplace Create Profile Page Viewed", {
 
 #### **Description**
 
-No description provided
+Marketplace Filters Changed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **category** | `string` | No description | ❌ |
-| **tags** | `array` | No description | ❌ |
+| **tags** | `array,null` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Marketplace Filters Changed", {
   "category": "<<type: string, required: false>>",
-  "tags": "<<type: array, required: false>>"
+  "tags": "<<type: array,null, required: false>>"
 })
 ```
 
@@ -10872,7 +10813,7 @@ analytics.track("Marketplace Viewed", {
 
 #### **Description**
 
-No description provided
+Matchmaking Experts Survey Abandoned.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -10882,24 +10823,7 @@ No description provided
 | **ref** | `string` | No description | ❌ |
 | **searchParams** | `string` | No description | ❌ |
 | **submissionState** | `integer` | No description | ❌ |
-| **values** | `object` | No description | ❌ |
-| **values.anythingElse** | `unknown` | No description | ❌ |
-| **values.budget** | `unknown` | No description | ❌ |
-| **values.companyMeta** | `object` | No description | ❌ |
-| **values.companyMeta.company-industry** | `string` | No description | ❌ |
-| **values.companyMeta.company-name** | `string` | No description | ❌ |
-| **values.companyMeta.company-role** | `string` | No description | ❌ |
-| **values.companyMeta.company-size** | `string` | No description | ❌ |
-| **values.country** | `string` | No description | ❌ |
-| **values.custom-budget-amount** | `string` | No description | ❌ |
-| **values.existing-link** | `string` | No description | ❌ |
-| **values.kindOfSite** | `unknown` | No description | ❌ |
-| **values.language** | `string` | No description | ❌ |
-| **values.locationPreference** | `unknown` | No description | ❌ |
-| **values.migrating-link** | `string` | No description | ❌ |
-| **values.ownerOfSite** | `unknown` | No description | ❌ |
-| **values.projectFinishedBy** | `unknown` | No description | ❌ |
-| **values.services** | `array` | No description | ❌ |
+| **values** | `object,null` | No description | ❌ |
 | **workspace addons** | `object` | No description | ❌ |
 | **workspace addons.full seat count** | `integer` | No description | ❌ |
 | **workspace addons.limited seat count** | `integer` | No description | ❌ |
@@ -10919,26 +10843,7 @@ analytics.track("Matchmaking Experts Survey Abandoned", {
   "ref": "<<type: string, required: false>>",
   "searchParams": "<<type: string, required: false>>",
   "submissionState": "<<type: integer, required: false>>",
-  "values": {
-    "anythingElse": "<<type: unknown, required: false>>",
-    "budget": "<<type: unknown, required: false>>",
-    "companyMeta": {
-      "company-industry": "<<type: string, required: false>>",
-      "company-name": "<<type: string, required: false>>",
-      "company-role": "<<type: string, required: false>>",
-      "company-size": "<<type: string, required: false>>"
-    },
-    "country": "<<type: string, required: false>>",
-    "custom-budget-amount": "<<type: string, required: false>>",
-    "existing-link": "<<type: string, required: false>>",
-    "kindOfSite": "<<type: unknown, required: false>>",
-    "language": "<<type: string, required: false>>",
-    "locationPreference": "<<type: unknown, required: false>>",
-    "migrating-link": "<<type: string, required: false>>",
-    "ownerOfSite": "<<type: unknown, required: false>>",
-    "projectFinishedBy": "<<type: unknown, required: false>>",
-    "services": "<<type: array, required: false>>"
-  },
+  "values": "<<type: object,null, required: false>>",
   "workspace addons": {
     "full seat count": "<<type: integer, required: false>>",
     "limited seat count": "<<type: integer, required: false>>"
@@ -10965,7 +10870,7 @@ analytics.track("Matchmaking Experts Survey Abandoned", {
 
 #### **Description**
 
-No description provided
+Matchmaking Experts Survey Completed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -10974,16 +10879,12 @@ No description provided
 | **values** | `object` | No description | ❌ |
 | **values.anythingElse** | `string` | No description | ❌ |
 | **values.budget** | `string` | No description | ❌ |
-| **values.companyMeta** | `object` | No description | ❌ |
-| **values.companyMeta.company-industry** | `string` | No description | ❌ |
-| **values.companyMeta.company-name** | `string` | No description | ❌ |
-| **values.companyMeta.company-role** | `string` | No description | ❌ |
-| **values.companyMeta.company-size** | `string` | No description | ❌ |
-| **values.country** | `string` | No description | ❌ |
+| **values.companyMeta** | `object,null` | No description | ❌ |
+| **values.country** | `string,null` | No description | ❌ |
 | **values.custom-budget-amount** | `string` | No description | ❌ |
 | **values.existing-link** | `string` | No description | ❌ |
 | **values.kindOfSite** | `string` | No description | ❌ |
-| **values.language** | `unknown` | No description | ❌ |
+| **values.language** | `string,null` | No description | ❌ |
 | **values.locationPreference** | `string` | No description | ❌ |
 | **values.migrating-link** | `string` | No description | ❌ |
 | **values.ownerOfSite** | `string` | No description | ❌ |
@@ -11012,17 +10913,12 @@ analytics.track("Matchmaking Experts Survey Completed", {
   "values": {
     "anythingElse": "<<type: string, required: false>>",
     "budget": "<<type: string, required: false>>",
-    "companyMeta": {
-      "company-industry": "<<type: string, required: false>>",
-      "company-name": "<<type: string, required: false>>",
-      "company-role": "<<type: string, required: false>>",
-      "company-size": "<<type: string, required: false>>"
-    },
-    "country": "<<type: string, required: false>>",
+    "companyMeta": "<<type: object,null, required: false>>",
+    "country": "<<type: string,null, required: false>>",
     "custom-budget-amount": "<<type: string, required: false>>",
     "existing-link": "<<type: string, required: false>>",
     "kindOfSite": "<<type: string, required: false>>",
-    "language": "<<type: unknown, required: false>>",
+    "language": "<<type: string,null, required: false>>",
     "locationPreference": "<<type: string, required: false>>",
     "migrating-link": "<<type: string, required: false>>",
     "ownerOfSite": "<<type: string, required: false>>",
@@ -11060,13 +10956,13 @@ analytics.track("Matchmaking Experts Survey Completed", {
 
 #### **Description**
 
-No description provided
+Matchmaking Experts Survey Page Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **projectUID** | `string` | No description | ❌ |
-| **ref** | `unknown` | No description | ❌ |
+| **ref** | `string,null` | No description | ❌ |
 | **workspace addons** | `object` | No description | ❌ |
 | **workspace addons.full seat count** | `integer` | No description | ❌ |
 | **workspace addons.limited seat count** | `integer` | No description | ❌ |
@@ -11083,7 +10979,7 @@ No description provided
 ```javascript
 analytics.track("Matchmaking Experts Survey Page Viewed", {
   "projectUID": "<<type: string, required: false>>",
-  "ref": "<<type: unknown, required: false>>",
+  "ref": "<<type: string,null, required: false>>",
   "workspace addons": {
     "full seat count": "<<type: integer, required: false>>",
     "limited seat count": "<<type: integer, required: false>>"
@@ -11111,7 +11007,7 @@ analytics.track("Matchmaking Experts Survey Page Viewed", {
 
 #### **Description**
 
-No description provided
+Matchmaking Experts Survey Resumed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -11124,16 +11020,12 @@ No description provided
 | **values** | `object` | No description | ❌ |
 | **values.anythingElse** | `unknown` | No description | ❌ |
 | **values.budget** | `unknown` | No description | ❌ |
-| **values.companyMeta** | `object` | No description | ❌ |
-| **values.companyMeta.company-industry** | `string` | No description | ❌ |
-| **values.companyMeta.company-name** | `string` | No description | ❌ |
-| **values.companyMeta.company-role** | `string` | No description | ❌ |
-| **values.companyMeta.company-size** | `string` | No description | ❌ |
-| **values.country** | `string` | No description | ❌ |
+| **values.companyMeta** | `object,null` | No description | ❌ |
+| **values.country** | `string,null` | No description | ❌ |
 | **values.custom-budget-amount** | `string` | No description | ❌ |
 | **values.existing-link** | `string` | No description | ❌ |
 | **values.kindOfSite** | `unknown` | No description | ❌ |
-| **values.language** | `string` | No description | ❌ |
+| **values.language** | `string,null` | No description | ❌ |
 | **values.locationPreference** | `unknown` | No description | ❌ |
 | **values.migrating-link** | `string` | No description | ❌ |
 | **values.ownerOfSite** | `unknown` | No description | ❌ |
@@ -11161,17 +11053,12 @@ analytics.track("Matchmaking Experts Survey Resumed", {
   "values": {
     "anythingElse": "<<type: unknown, required: false>>",
     "budget": "<<type: unknown, required: false>>",
-    "companyMeta": {
-      "company-industry": "<<type: string, required: false>>",
-      "company-name": "<<type: string, required: false>>",
-      "company-role": "<<type: string, required: false>>",
-      "company-size": "<<type: string, required: false>>"
-    },
-    "country": "<<type: string, required: false>>",
+    "companyMeta": "<<type: object,null, required: false>>",
+    "country": "<<type: string,null, required: false>>",
     "custom-budget-amount": "<<type: string, required: false>>",
     "existing-link": "<<type: string, required: false>>",
     "kindOfSite": "<<type: unknown, required: false>>",
-    "language": "<<type: string, required: false>>",
+    "language": "<<type: string,null, required: false>>",
     "locationPreference": "<<type: unknown, required: false>>",
     "migrating-link": "<<type: string, required: false>>",
     "ownerOfSite": "<<type: unknown, required: false>>",
@@ -11204,21 +11091,15 @@ analytics.track("Matchmaking Experts Survey Resumed", {
 
 #### **Description**
 
-No description provided
+Matchmaking Experts Survey Step Submitted.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **cta** | `string` | No description | ❌ |
 | **currentPage** | `string` | No description | ❌ |
-| **destinationPage** | `string` | No description | ❌ |
-| **options selected** | `object` | No description | ❌ |
-| **options selected.company-industry** | `string` | No description | ❌ |
-| **options selected.company-name** | `string` | No description | ❌ |
-| **options selected.company-role** | `string` | No description | ❌ |
-| **options selected.company-size** | `string` | No description | ❌ |
-| **options selected.label** | `string` | No description | ❌ |
-| **options selected.value** | `string` | No description | ❌ |
+| **destinationPage** | `string,null` | No description | ❌ |
+| **options selected** | `any` | No description | ❌ |
 | **projectUID** | `string` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
@@ -11234,15 +11115,8 @@ No description provided
 analytics.track("Matchmaking Experts Survey Step Submitted", {
   "cta": "<<type: string, required: false>>",
   "currentPage": "<<type: string, required: false>>",
-  "destinationPage": "<<type: string, required: false>>",
-  "options selected": {
-    "company-industry": "<<type: string, required: false>>",
-    "company-name": "<<type: string, required: false>>",
-    "company-role": "<<type: string, required: false>>",
-    "company-size": "<<type: string, required: false>>",
-    "label": "<<type: string, required: false>>",
-    "value": "<<type: string, required: false>>"
-  },
+  "destinationPage": "<<type: string,null, required: false>>",
+  "options selected": "<<type: any, required: false>>",
   "projectUID": "<<type: string, required: false>>",
   "ref": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
@@ -13332,21 +13206,21 @@ analytics.track("Partner Hub Code Copied", {
 
 #### **Description**
 
-No description provided
+Partner Hub Commission Explainer Opened.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **userId** | `string` | No description | ❌ |
 | **workspaceId** | `string` | No description | ❌ |
-| **workspaceRole** | `string` | No description | ❌ |
+| **workspaceRole** | `string,null` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Partner Hub Commission Explainer Opened", {
   "userId": "<<type: string, required: false>>",
   "workspaceId": "<<type: string, required: false>>",
-  "workspaceRole": "<<type: string, required: false>>"
+  "workspaceRole": "<<type: string,null, required: false>>"
 })
 ```
 
@@ -13426,7 +13300,7 @@ analytics.track("Partner Hub Onboarding Step Completed", {
 
 #### **Description**
 
-No description provided
+Partner Hub Page Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -13438,7 +13312,7 @@ No description provided
 | **referer** | `string` | No description | ❌ |
 | **userId** | `string` | No description | ❌ |
 | **workspaceId** | `string` | No description | ❌ |
-| **workspaceRole** | `string` | No description | ❌ |
+| **workspaceRole** | `string,null` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13451,7 +13325,7 @@ analytics.track("Partner Hub Page Viewed", {
   "referer": "<<type: string, required: false>>",
   "userId": "<<type: string, required: false>>",
   "workspaceId": "<<type: string, required: false>>",
-  "workspaceRole": "<<type: string, required: false>>"
+  "workspaceRole": "<<type: string,null, required: false>>"
 })
 ```
 
@@ -13467,7 +13341,7 @@ analytics.track("Partner Hub Page Viewed", {
 
 #### **Description**
 
-No description provided
+Partner Hub Resource Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -13476,7 +13350,7 @@ No description provided
 | **resourceType** | `string` | No description | ❌ |
 | **userId** | `string` | No description | ❌ |
 | **workspaceId** | `string` | No description | ❌ |
-| **workspaceRole** | `string` | No description | ❌ |
+| **workspaceRole** | `string,null` | No description | ❌ |
 #### **JS**
 
 ```javascript
@@ -13485,7 +13359,7 @@ analytics.track("Partner Hub Resource Viewed", {
   "resourceType": "<<type: string, required: false>>",
   "userId": "<<type: string, required: false>>",
   "workspaceId": "<<type: string, required: false>>",
-  "workspaceRole": "<<type: string, required: false>>"
+  "workspaceRole": "<<type: string,null, required: false>>"
 })
 ```
 
@@ -14065,7 +13939,7 @@ analytics.track("Person profile created", {
 
 #### **Description**
 
-No description provided
+Plan Modified.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -14074,7 +13948,7 @@ No description provided
 | **add-on new quantity** | `integer` | No description | ❌ |
 | **charged amount** | `integer` | No description | ❌ |
 | **comment** | `string` | No description | ❌ |
-| **comments** | `unknown` | No description | ❌ |
+| **comments** | `string,null` | No description | ❌ |
 | **cost of new plan** | `integer` | No description | ❌ |
 | **currency of new plan** | `string` | No description | ❌ |
 | **initial number of seats** | `integer` | No description | ❌ |
@@ -14113,7 +13987,7 @@ No description provided
 | **teamId** | `unknown` | No description | ❌ |
 | **timestamp** | `integer` | No description | ❌ |
 | **transferring site** | `string` | No description | ❌ |
-| **value of new plan** | `unknown` | No description | ❌ |
+| **value of new plan** | `integer,null` | No description | ❌ |
 | **wf session id** | `string` | No description | ❌ |
 | **workspace addons** | `object` | No description | ❌ |
 | **workspace addons.full seat count** | `integer` | No description | ❌ |
@@ -14139,7 +14013,7 @@ analytics.track("Plan Modified", {
   "add-on new quantity": "<<type: integer, required: false>>",
   "charged amount": "<<type: integer, required: false>>",
   "comment": "<<type: string, required: false>>",
-  "comments": "<<type: unknown, required: false>>",
+  "comments": "<<type: string,null, required: false>>",
   "cost of new plan": "<<type: integer, required: false>>",
   "currency of new plan": "<<type: string, required: false>>",
   "initial number of seats": "<<type: integer, required: false>>",
@@ -14178,7 +14052,7 @@ analytics.track("Plan Modified", {
   "teamId": "<<type: unknown, required: false>>",
   "timestamp": "<<type: integer, required: false>>",
   "transferring site": "<<type: string, required: false>>",
-  "value of new plan": "<<type: unknown, required: false>>",
+  "value of new plan": "<<type: integer,null, required: false>>",
   "wf session id": "<<type: string, required: false>>",
   "workspace addons": {
     "full seat count": "<<type: integer, required: false>>",
@@ -15260,22 +15134,22 @@ analytics.track("Pricing Update Notification Viewed", {
 
 #### **Description**
 
-No description provided
+Profile Edit Modal Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **profileId** | `string` | No description | ❌ |
+| **profileId** | `string,null` | No description | ❌ |
 | **profileName** | `string` | No description | ❌ |
-| **profileSlug** | `string` | No description | ❌ |
+| **profileSlug** | `string,null` | No description | ❌ |
 | **tabName** | `string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Profile Edit Modal Viewed", {
-  "profileId": "<<type: string, required: false>>",
+  "profileId": "<<type: string,null, required: false>>",
   "profileName": "<<type: string, required: false>>",
-  "profileSlug": "<<type: string, required: false>>",
+  "profileSlug": "<<type: string,null, required: false>>",
   "tabName": "<<type: string, required: false>>"
 })
 ```
@@ -15387,21 +15261,21 @@ analytics.track("Profile Settings Page Viewed", {
 
 #### **Description**
 
-No description provided
+Project Created.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **action** | `string` | No description | ❌ |
 | **category** | `string` | No description | ❌ |
-| **create method** | `string` | No description | ❌ |
-| **from site** | `unknown` | No description | ❌ |
+| **create method** | `string,null` | No description | ❌ |
+| **from site** | `string,null` | No description | ❌ |
 | **library cost** | `string` | No description | ❌ |
 | **library id** | `string` | No description | ❌ |
 | **library name** | `string` | No description | ❌ |
 | **library selected position** | `unknown` | No description | ❌ |
 | **price type** | `string` | No description | ❌ |
-| **ref** | `array` | No description | ❌ |
+| **ref** | `string,null` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
@@ -15437,14 +15311,14 @@ No description provided
 analytics.track("Project Created", {
   "action": "<<type: string, required: false>>",
   "category": "<<type: string, required: false>>",
-  "create method": "<<type: string, required: false>>",
-  "from site": "<<type: unknown, required: false>>",
+  "create method": "<<type: string,null, required: false>>",
+  "from site": "<<type: string,null, required: false>>",
   "library cost": "<<type: string, required: false>>",
   "library id": "<<type: string, required: false>>",
   "library name": "<<type: string, required: false>>",
   "library selected position": "<<type: unknown, required: false>>",
   "price type": "<<type: string, required: false>>",
-  "ref": "<<type: array, required: false>>",
+  "ref": "<<type: string,null, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
@@ -18019,7 +17893,7 @@ analytics.track("Security Link Clicked", {
 
 #### **Description**
 
-No description provided
+Segmentation Survey Completed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -18048,7 +17922,7 @@ No description provided
 | **existing site platform: other** | `string` | No description | ❌ |
 | **hire expert interest** | `string` | No description | ❌ |
 | **hireExpert** | `unknown` | No description | ❌ |
-| **isStudent** | `string` | No description | ❌ |
+| **isStudent** | `string,null` | No description | ❌ |
 | **locationPreference** | `string` | No description | ❌ |
 | **number of steps** | `integer` | No description | ❌ |
 | **onboardProjAirtableUID** | `string` | No description | ❌ |
@@ -18109,7 +17983,7 @@ analytics.track("Segmentation Survey Completed", {
   "existing site platform: other": "<<type: string, required: false>>",
   "hire expert interest": "<<type: string, required: false>>",
   "hireExpert": "<<type: unknown, required: false>>",
-  "isStudent": "<<type: string, required: false>>",
+  "isStudent": "<<type: string,null, required: false>>",
   "locationPreference": "<<type: string, required: false>>",
   "number of steps": "<<type: integer, required: false>>",
   "onboardProjAirtableUID": "<<type: string, required: false>>",
@@ -18157,13 +18031,13 @@ analytics.track("Segmentation Survey Completed", {
 
 #### **Description**
 
-No description provided
+Segmentation Survey Page Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **page type** | `string` | No description | ❌ |
-| **redirect** | `unknown` | No description | ❌ |
+| **redirect** | `boolean,null` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
@@ -18186,7 +18060,7 @@ No description provided
 ```javascript
 analytics.track("Segmentation Survey Page Viewed", {
   "page type": "<<type: string, required: false>>",
-  "redirect": "<<type: unknown, required: false>>",
+  "redirect": "<<type: boolean,null, required: false>>",
   "ref": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
@@ -18220,7 +18094,7 @@ analytics.track("Segmentation Survey Page Viewed", {
 
 #### **Description**
 
-No description provided
+Segmentation Survey Step Submitted.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -18228,9 +18102,7 @@ No description provided
 | **business owner** | `boolean` | No description | ❌ |
 | **email opt-in** | `boolean` | No description | ❌ |
 | **option order** | `array` | No description | ❌ |
-| **options selected** | `object` | No description | ❌ |
-| **options selected.budget** | `string` | No description | ❌ |
-| **options selected.location** | `string` | No description | ❌ |
+| **options selected** | `any` | No description | ❌ |
 | **position of selected option** | `integer` | No description | ❌ |
 | **pre-checked email opt-in** | `boolean` | No description | ❌ |
 | **ref** | `string` | No description | ❌ |
@@ -18264,10 +18136,7 @@ analytics.track("Segmentation Survey Step Submitted", {
   "business owner": "<<type: boolean, required: false>>",
   "email opt-in": "<<type: boolean, required: false>>",
   "option order": "<<type: array, required: false>>",
-  "options selected": {
-    "budget": "<<type: string, required: false>>",
-    "location": "<<type: string, required: false>>"
-  },
+  "options selected": "<<type: any, required: false>>",
   "position of selected option": "<<type: integer, required: false>>",
   "pre-checked email opt-in": "<<type: boolean, required: false>>",
   "ref": "<<type: string, required: false>>",
@@ -18590,13 +18459,13 @@ analytics.track("Showcase Digest Generated", {
 
 #### **Description**
 
-No description provided
+Showcase Search Results Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **ref** | `string` | No description | ❌ |
-| **search** | `array` | No description | ❌ |
+| **search** | `string,null` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
@@ -18607,7 +18476,7 @@ No description provided
 ```javascript
 analytics.track("Showcase Search Results Viewed", {
   "ref": "<<type: string, required: false>>",
-  "search": "<<type: array, required: false>>",
+  "search": "<<type: string,null, required: false>>",
   "site id": "<<type: string, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
@@ -18628,12 +18497,12 @@ analytics.track("Showcase Search Results Viewed", {
 
 #### **Description**
 
-No description provided
+Showcase Viewed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **additionalTags** | `array` | No description | ❌ |
+| **additionalTags** | `array,null` | No description | ❌ |
 | **clone type** | `string` | No description | ❌ |
 | **designer id** | `string` | No description | ❌ |
 | **loggedIn** | `boolean` | No description | ❌ |
@@ -18647,7 +18516,7 @@ No description provided
 | **showcasedToWorkspaceProfile** | `boolean` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **source** | `string` | No description | ❌ |
-| **tags** | `array` | No description | ❌ |
+| **tags** | `array,null` | No description | ❌ |
 | **workspace id** | `string` | No description | ❌ |
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
@@ -18658,7 +18527,7 @@ No description provided
 
 ```javascript
 analytics.track("Showcase Viewed", {
-  "additionalTags": "<<type: array, required: false>>",
+  "additionalTags": "<<type: array,null, required: false>>",
   "clone type": "<<type: string, required: false>>",
   "designer id": "<<type: string, required: false>>",
   "loggedIn": "<<type: boolean, required: false>>",
@@ -18672,7 +18541,7 @@ analytics.track("Showcase Viewed", {
   "showcasedToWorkspaceProfile": "<<type: boolean, required: false>>",
   "site id": "<<type: string, required: false>>",
   "source": "<<type: string, required: false>>",
-  "tags": "<<type: array, required: false>>",
+  "tags": "<<type: array,null, required: false>>",
   "workspace id": "<<type: string, required: false>>",
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
@@ -20821,622 +20690,17 @@ analytics.track("Site SEO Settings Updated", {
 
 #### **Description**
 
-No description provided
+Site Selected.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **site** | `object` | No description | ❌ |
-| **site.__v** | `integer` | No description | ❌ |
-| **site._id** | `string` | No description | ❌ |
-| **site._status** | `object` | No description | ❌ |
-| **site._status.code** | `string` | No description | ❌ |
-| **site._status.lastChanged** | `string` | No description | ❌ |
-| **site.active** | `boolean` | No description | ❌ |
-| **site.annotationCount** | `integer` | No description | ❌ |
-| **site.apolloMaxRequestsPerSecond** | `number` | No description | ❌ |
-| **site.archived** | `boolean` | No description | ❌ |
-| **site.assetSize** | `integer` | No description | ❌ |
-| **site.authStr** | `unknown` | No description | ❌ |
-| **site.authUser** | `unknown` | No description | ❌ |
-| **site.brandLogo** | `unknown` | No description | ❌ |
-| **site.brandName** | `unknown` | No description | ❌ |
-| **site.captchaPlugin** | `string` | No description | ❌ |
-| **site.cloneOf** | `string` | No description | ❌ |
-| **site.compiledAt** | `unknown` | No description | ❌ |
-| **site.createdBy** | `string` | No description | ❌ |
-| **site.createdOn** | `string` | No description | ❌ |
-| **site.dashboardFolder** | `unknown` | No description | ❌ |
-| **site.database** | `string` | No description | ❌ |
-| **site.designTime** | `integer` | No description | ❌ |
-| **site.dirty** | `boolean` | No description | ❌ |
-| **site.domain** | `string` | No description | ❌ |
-| **site.emailFormFromLabel** | `unknown` | No description | ❌ |
-| **site.emailFormOptions** | `object` | No description | ❌ |
-| **site.emailFormOptions.incSubInfo** | `boolean` | No description | ❌ |
-| **site.emailFormOptions.incUnsubLink** | `boolean` | No description | ❌ |
-| **site.emailFormReplyTo** | `unknown` | No description | ❌ |
-| **site.emailFormSubject** | `unknown` | No description | ❌ |
-| **site.emailFormTarget** | `string` | No description | ❌ |
-| **site.emailFormTemplate** | `unknown` | No description | ❌ |
-| **site.exportCount** | `integer` | No description | ❌ |
-| **site.exportedToStigg** | `boolean` | No description | ❌ |
-| **site.faviconUrl** | `string` | No description | ❌ |
-| **site.formFileLoginRequired** | `boolean` | No description | ❌ |
-| **site.formSubmissions** | `integer` | No description | ❌ |
-| **site.formsHaveBeenMigrated** | `boolean` | No description | ❌ |
-| **site.hostingPlanName** | `string` | No description | ❌ |
-| **site.indexPage** | `string` | No description | ❌ |
-| **site.installedMarketplaceResources** | `array` | No description | ❌ |
-| **site.installedMarketplaceResources.items** | `object` | Contains the structure for array items | ❌ |
-| **site.installedMarketplaceResources.items._id** | `string` | No description | ❌ |
-| **site.installedMarketplaceResources.items.installer** | `string` | No description | ❌ |
-| **site.installedMarketplaceResources.items.installerModel** | `string` | No description | ❌ |
-| **site.installedMarketplaceResources.items.resource** | `string` | No description | ❌ |
-| **site.installedMarketplaceResources.items.resourceModel** | `string` | No description | ❌ |
-| **site.installedMarketplaceResources.items.type** | `string` | No description | ❌ |
-| **site.isStagingPrivate** | `boolean` | No description | ❌ |
-| **site.lastExport** | `string` | No description | ❌ |
-| **site.lastFormInvoice** | `string` | No description | ❌ |
-| **site.lastPublicationId** | `unknown` | No description | ❌ |
-| **site.lastPublished** | `unknown` | No description | ❌ |
-| **site.lastPublishedBy** | `unknown` | No description | ❌ |
-| **site.lastSearchIndex** | `unknown` | No description | ❌ |
-| **site.lastSearchIndexAuto** | `unknown` | No description | ❌ |
-| **site.lastSearchIndexManual** | `unknown` | No description | ❌ |
-| **site.lastSnapped** | `string` | No description | ❌ |
-| **site.lastUpdated** | `string` | No description | ❌ |
-| **site.lockDeletion** | `boolean` | No description | ❌ |
-| **site.lockedReason** | `unknown` | No description | ❌ |
-| **site.maxPages** | `unknown` | No description | ❌ |
-| **site.name** | `string` | No description | ❌ |
-| **site.newFormDatas** | `integer` | No description | ❌ |
-| **site.oldPreviewId** | `string` | No description | ❌ |
-| **site.pages** | `array` | No description | ❌ |
-| **site.persistentUIState** | `object` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates** | `object` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Basic** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.CMS** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Components** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Features** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Footer** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Forms** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Gallery** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Hero** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Layout** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Logos** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Media** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Pricing** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Team** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Testimonial** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.Typography** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Advanced"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"CMS"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Ecommerce"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Features"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Forms"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Gallery"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Hero"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Logos"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Media"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Navigation"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Structure"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Typography"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"basic","val":"Users"}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Brand Section"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["CTA Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Content Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["FAQ Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Feature Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Footer Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Form Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Header Section"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Navigation"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Pricing Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Conversion Flow Library",["Testimonial Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Accordions"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Blog Cards"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Call to Actions"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Contact Forms"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Content Cards"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Content Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Dropdowns"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Ecommerce Cards"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Footers"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Galleries"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Headers"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Heros"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Logo Strips"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Pricing Cards"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Stats"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Team Members"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Testimonials"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Elements Webflow Library",["Top Bars"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["404"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Blog"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["CTA"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Contact Us"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Cookie"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["FAQ"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Feature"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Footer"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Hero"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Logo"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Navbar"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Pricing"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Privacy Policy"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Solution Cards"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Flow Library",["Testimonials"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Account"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Banner"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["CTA"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Career"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Contact"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Content"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Feature"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Footer"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Gallery"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Header"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Logo"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Navigation"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Pricing"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Testimonial"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Accordian"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Alert"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Avatar"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Breadcrumb"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Button"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Checkbox, Radio & Toggle"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Dropdown"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Input Field"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Interaction"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Modal"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["FlowUI - Component Library",["Utility / Tab"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Call to action"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Clients"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["FAQ"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Feature"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Footer"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Hero"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Navbar"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Pricing"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Process"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Productivity"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Lynx",["Testimonials"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Banners"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Blog Header Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Blog Posts"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Blog Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["CTA Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Client-First Structure"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Contact Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["FAQ Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Feature Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Footers"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Gallery Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Header Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Logo Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Navbars"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Pricing Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Style Guide"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Team Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Relume Library Lite",["Testimonial Sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Features"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Footer"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Gallery"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Hero"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Logos"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Navigation"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Pricing"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Team"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Starter library",["Testimonial"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Banners"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Blog page headers"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Blog posts"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Blog sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["CTA sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Careers sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Contact sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["FAQ sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Features sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Footers"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Header sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Hero header sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Logos sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Navbars"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Pricing sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Team sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Untitled UI",["Testimonial sections"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["Waves Library",["Top Bars"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["CTA"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["Cards"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["FAQ"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["Footer"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["Hero"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["Navbar"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.addTabVisibilityStates.{"type":"fromLibrary","val":["uDesign Components",["Pricing"]]}** | `boolean` | No description | ❌ |
-| **site.persistentUIState.auditResultsIgnored** | `array` | No description | ❌ |
-| **site.persistentUIState.auditResultsRead** | `array` | No description | ❌ |
-| **site.persistentUIState.logicLibraryVisibilityStates** | `object` | No description | ❌ |
-| **site.persistentUIState.logicLibraryVisibilityStates.actions** | `boolean` | No description | ❌ |
-| **site.persistentUIState.logicLibraryVisibilityStates.utilities** | `boolean` | No description | ❌ |
-| **site.persistentUIState.numSiteVisit** | `integer` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates** | `object` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.accessControl** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.custom** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.general** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.graph** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.publish** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.rss** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.search** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageSettingVisibilityStates.seo** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates** | `object` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates.cms** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates.ecommerce** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates.publish** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates.static** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates.user** | `boolean` | No description | ❌ |
-| **site.persistentUIState.pageVisibilityStates.utility** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates** | `object` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.__focusMode__** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.backgrounds** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.borders** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.bordersAdvanced** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.effects** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.expandedCss** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.flexAlignAdvanced** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.flexChild** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.flexChildAdvanced** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.gridAlignAdvanced** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.gridItem** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.layout** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.listItem** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.position** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.positionAdvanced** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.size** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.spacing** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.typography** | `boolean` | No description | ❌ |
-| **site.persistentUIState.stylePanelVisibilityStates.typographyAdvanced** | `boolean` | No description | ❌ |
-| **site.previewId** | `unknown` | No description | ❌ |
-| **site.previewUrl** | `string` | No description | ❌ |
-| **site.previewUrlSm** | `string` | No description | ❌ |
-| **site.public** | `boolean` | No description | ❌ |
-| **site.recaptchaRequired** | `boolean` | No description | ❌ |
-| **site.recaptchaSecretKey** | `unknown` | No description | ❌ |
-| **site.recaptchaSiteKey** | `unknown` | No description | ❌ |
-| **site.responsiveImages** | `boolean` | No description | ❌ |
-| **site.searchIndexShard** | `string` | No description | ❌ |
-| **site.searchIndexSlice** | `string` | No description | ❌ |
-| **site.shortName** | `string` | No description | ❌ |
-| **site.siteCredits** | `array` | No description | ❌ |
-| **site.siteCredits.items** | `object` | Contains the structure for array items | ❌ |
-| **site.siteCredits.items.id** | `string` | No description | ❌ |
-| **site.siteCredits.items.type** | `string` | No description | ❌ |
-| **site.siteFileDependenciesInitialized** | `boolean` | No description | ❌ |
-| **site.siteSpecificAccess** | `boolean` | No description | ❌ |
-| **site.sslHosting** | `boolean` | No description | ❌ |
-| **site.styleCount** | `integer` | No description | ❌ |
-| **site.styleOps** | `integer` | No description | ❌ |
-| **site.template** | `unknown` | No description | ❌ |
-| **site.templateOf** | `string` | No description | ❌ |
-| **site.timezone** | `string` | No description | ❌ |
-| **site.version** | `integer` | No description | ❌ |
-| **site.webClipUrl** | `string` | No description | ❌ |
-| **site.workspace** | `string` | No description | ❌ |
+| **site** | `object,string` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Site Selected", {
-  "site": {
-    "__v": "<<type: integer, required: false>>",
-    "_id": "<<type: string, required: false>>",
-    "_status": {
-      "code": "<<type: string, required: false>>",
-      "lastChanged": "<<type: string, required: false>>"
-    },
-    "active": "<<type: boolean, required: false>>",
-    "annotationCount": "<<type: integer, required: false>>",
-    "apolloMaxRequestsPerSecond": "<<type: number, required: false>>",
-    "archived": "<<type: boolean, required: false>>",
-    "assetSize": "<<type: integer, required: false>>",
-    "authStr": "<<type: unknown, required: false>>",
-    "authUser": "<<type: unknown, required: false>>",
-    "brandLogo": "<<type: unknown, required: false>>",
-    "brandName": "<<type: unknown, required: false>>",
-    "captchaPlugin": "<<type: string, required: false>>",
-    "cloneOf": "<<type: string, required: false>>",
-    "compiledAt": "<<type: unknown, required: false>>",
-    "createdBy": "<<type: string, required: false>>",
-    "createdOn": "<<type: string, required: false>>",
-    "dashboardFolder": "<<type: unknown, required: false>>",
-    "database": "<<type: string, required: false>>",
-    "designTime": "<<type: integer, required: false>>",
-    "dirty": "<<type: boolean, required: false>>",
-    "domain": "<<type: string, required: false>>",
-    "emailFormFromLabel": "<<type: unknown, required: false>>",
-    "emailFormOptions": {
-      "incSubInfo": "<<type: boolean, required: false>>",
-      "incUnsubLink": "<<type: boolean, required: false>>"
-    },
-    "emailFormReplyTo": "<<type: unknown, required: false>>",
-    "emailFormSubject": "<<type: unknown, required: false>>",
-    "emailFormTarget": "<<type: string, required: false>>",
-    "emailFormTemplate": "<<type: unknown, required: false>>",
-    "exportCount": "<<type: integer, required: false>>",
-    "exportedToStigg": "<<type: boolean, required: false>>",
-    "faviconUrl": "<<type: string, required: false>>",
-    "formFileLoginRequired": "<<type: boolean, required: false>>",
-    "formSubmissions": "<<type: integer, required: false>>",
-    "formsHaveBeenMigrated": "<<type: boolean, required: false>>",
-    "hostingPlanName": "<<type: string, required: false>>",
-    "indexPage": "<<type: string, required: false>>",
-    "installedMarketplaceResources": [
-      {
-        "_id": "<<type: string, required: false>>",
-        "installer": "<<type: string, required: false>>",
-        "installerModel": "<<type: string, required: false>>",
-        "resource": "<<type: string, required: false>>",
-        "resourceModel": "<<type: string, required: false>>",
-        "type": "<<type: string, required: false>>"
-      }
-    ],
-    "isStagingPrivate": "<<type: boolean, required: false>>",
-    "lastExport": "<<type: string, required: false>>",
-    "lastFormInvoice": "<<type: string, required: false>>",
-    "lastPublicationId": "<<type: unknown, required: false>>",
-    "lastPublished": "<<type: unknown, required: false>>",
-    "lastPublishedBy": "<<type: unknown, required: false>>",
-    "lastSearchIndex": "<<type: unknown, required: false>>",
-    "lastSearchIndexAuto": "<<type: unknown, required: false>>",
-    "lastSearchIndexManual": "<<type: unknown, required: false>>",
-    "lastSnapped": "<<type: string, required: false>>",
-    "lastUpdated": "<<type: string, required: false>>",
-    "lockDeletion": "<<type: boolean, required: false>>",
-    "lockedReason": "<<type: unknown, required: false>>",
-    "maxPages": "<<type: unknown, required: false>>",
-    "name": "<<type: string, required: false>>",
-    "newFormDatas": "<<type: integer, required: false>>",
-    "oldPreviewId": "<<type: string, required: false>>",
-    "pages": "<<type: array, required: false>>",
-    "persistentUIState": {
-      "addTabVisibilityStates": {
-        "Basic": "<<type: boolean, required: false>>",
-        "CMS": "<<type: boolean, required: false>>",
-        "Components": "<<type: boolean, required: false>>",
-        "Features": "<<type: boolean, required: false>>",
-        "Footer": "<<type: boolean, required: false>>",
-        "Forms": "<<type: boolean, required: false>>",
-        "Gallery": "<<type: boolean, required: false>>",
-        "Hero": "<<type: boolean, required: false>>",
-        "Layout": "<<type: boolean, required: false>>",
-        "Logos": "<<type: boolean, required: false>>",
-        "Media": "<<type: boolean, required: false>>",
-        "Pricing": "<<type: boolean, required: false>>",
-        "Team": "<<type: boolean, required: false>>",
-        "Testimonial": "<<type: boolean, required: false>>",
-        "Typography": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Advanced\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"CMS\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Ecommerce\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Features\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Forms\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Gallery\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Hero\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Logos\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Media\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Navigation\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Structure\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Typography\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"basic\",\"val\":\"Users\"}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Brand Section\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"CTA Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Content Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"FAQ Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Feature Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Footer Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Form Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Header Section\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Navigation\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Pricing Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Conversion Flow Library\",[\"Testimonial Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Accordions\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Blog Cards\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Call to Actions\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Contact Forms\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Content Cards\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Content Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Dropdowns\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Ecommerce Cards\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Footers\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Galleries\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Headers\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Heros\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Logo Strips\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Pricing Cards\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Stats\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Team Members\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Testimonials\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Elements Webflow Library\",[\"Top Bars\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"404\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Blog\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"CTA\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Contact Us\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Cookie\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"FAQ\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Feature\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Footer\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Hero\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Logo\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Navbar\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Pricing\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Privacy Policy\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Solution Cards\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Flow Library\",[\"Testimonials\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Account\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Banner\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"CTA\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Career\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Contact\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Content\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Feature\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Footer\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Gallery\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Header\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Logo\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Navigation\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Pricing\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Testimonial\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Accordian\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Alert\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Avatar\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Breadcrumb\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Button\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Checkbox, Radio & Toggle\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Dropdown\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Input Field\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Interaction\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Modal\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"FlowUI - Component Library\",[\"Utility / Tab\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Call to action\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Clients\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"FAQ\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Feature\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Footer\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Hero\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Navbar\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Pricing\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Process\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Productivity\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Lynx\",[\"Testimonials\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Banners\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Blog Header Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Blog Posts\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Blog Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"CTA Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Client-First Structure\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Contact Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"FAQ Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Feature Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Footers\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Gallery Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Header Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Logo Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Navbars\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Pricing Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Style Guide\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Team Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Relume Library Lite\",[\"Testimonial Sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Features\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Footer\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Gallery\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Hero\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Logos\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Navigation\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Pricing\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Team\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Starter library\",[\"Testimonial\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Banners\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Blog page headers\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Blog posts\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Blog sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"CTA sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Careers sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Contact sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"FAQ sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Features sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Footers\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Header sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Hero header sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Logos sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Navbars\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Pricing sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Team sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Untitled UI\",[\"Testimonial sections\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"Waves Library\",[\"Top Bars\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"CTA\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"Cards\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"FAQ\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"Footer\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"Hero\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"Navbar\"]]}": "<<type: boolean, required: false>>",
-        "{\"type\":\"fromLibrary\",\"val\":[\"uDesign Components\",[\"Pricing\"]]}": "<<type: boolean, required: false>>"
-      },
-      "auditResultsIgnored": "<<type: array, required: false>>",
-      "auditResultsRead": "<<type: array, required: false>>",
-      "logicLibraryVisibilityStates": {
-        "actions": "<<type: boolean, required: false>>",
-        "utilities": "<<type: boolean, required: false>>"
-      },
-      "numSiteVisit": "<<type: integer, required: false>>",
-      "pageSettingVisibilityStates": {
-        "accessControl": "<<type: boolean, required: false>>",
-        "custom": "<<type: boolean, required: false>>",
-        "general": "<<type: boolean, required: false>>",
-        "graph": "<<type: boolean, required: false>>",
-        "publish": "<<type: boolean, required: false>>",
-        "rss": "<<type: boolean, required: false>>",
-        "search": "<<type: boolean, required: false>>",
-        "seo": "<<type: boolean, required: false>>"
-      },
-      "pageVisibilityStates": {
-        "cms": "<<type: boolean, required: false>>",
-        "ecommerce": "<<type: boolean, required: false>>",
-        "publish": "<<type: boolean, required: false>>",
-        "static": "<<type: boolean, required: false>>",
-        "user": "<<type: boolean, required: false>>",
-        "utility": "<<type: boolean, required: false>>"
-      },
-      "stylePanelVisibilityStates": {
-        "__focusMode__": "<<type: boolean, required: false>>",
-        "backgrounds": "<<type: boolean, required: false>>",
-        "borders": "<<type: boolean, required: false>>",
-        "bordersAdvanced": "<<type: boolean, required: false>>",
-        "effects": "<<type: boolean, required: false>>",
-        "expandedCss": "<<type: boolean, required: false>>",
-        "flexAlignAdvanced": "<<type: boolean, required: false>>",
-        "flexChild": "<<type: boolean, required: false>>",
-        "flexChildAdvanced": "<<type: boolean, required: false>>",
-        "gridAlignAdvanced": "<<type: boolean, required: false>>",
-        "gridItem": "<<type: boolean, required: false>>",
-        "layout": "<<type: boolean, required: false>>",
-        "listItem": "<<type: boolean, required: false>>",
-        "position": "<<type: boolean, required: false>>",
-        "positionAdvanced": "<<type: boolean, required: false>>",
-        "size": "<<type: boolean, required: false>>",
-        "spacing": "<<type: boolean, required: false>>",
-        "typography": "<<type: boolean, required: false>>",
-        "typographyAdvanced": "<<type: boolean, required: false>>"
-      }
-    },
-    "previewId": "<<type: unknown, required: false>>",
-    "previewUrl": "<<type: string, required: false>>",
-    "previewUrlSm": "<<type: string, required: false>>",
-    "public": "<<type: boolean, required: false>>",
-    "recaptchaRequired": "<<type: boolean, required: false>>",
-    "recaptchaSecretKey": "<<type: unknown, required: false>>",
-    "recaptchaSiteKey": "<<type: unknown, required: false>>",
-    "responsiveImages": "<<type: boolean, required: false>>",
-    "searchIndexShard": "<<type: string, required: false>>",
-    "searchIndexSlice": "<<type: string, required: false>>",
-    "shortName": "<<type: string, required: false>>",
-    "siteCredits": [
-      {
-        "id": "<<type: string, required: false>>",
-        "type": "<<type: string, required: false>>"
-      }
-    ],
-    "siteFileDependenciesInitialized": "<<type: boolean, required: false>>",
-    "siteSpecificAccess": "<<type: boolean, required: false>>",
-    "sslHosting": "<<type: boolean, required: false>>",
-    "styleCount": "<<type: integer, required: false>>",
-    "styleOps": "<<type: integer, required: false>>",
-    "template": "<<type: unknown, required: false>>",
-    "templateOf": "<<type: string, required: false>>",
-    "timezone": "<<type: string, required: false>>",
-    "version": "<<type: integer, required: false>>",
-    "webClipUrl": "<<type: string, required: false>>",
-    "workspace": "<<type: string, required: false>>"
-  }
+  "site": "<<type: object,string, required: false>>"
 })
 ```
 
@@ -22858,19 +22122,19 @@ analytics.track("Template Detail Page - Similar Templates Clicked", {
 
 #### **Description**
 
-No description provided
+Template Item CTA Clicked.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **action** | `string` | No description | ❌ |
 | **category** | `string` | No description | ❌ |
-| **ref** | `array` | No description | ❌ |
+| **ref** | `string` | No description | ❌ |
 | **site id** | `string` | No description | ❌ |
 | **site plan id** | `string` | No description | ❌ |
 | **site plan type** | `string` | No description | ❌ |
 | **site slug** | `string` | No description | ❌ |
-| **template cost** | `string` | No description | ❌ |
+| **template cost** | `integer,null` | No description | ❌ |
 | **template id** | `string` | No description | ❌ |
 | **template index** | `integer` | No description | ❌ |
 | **template name** | `string` | No description | ❌ |
@@ -22892,12 +22156,12 @@ No description provided
 analytics.track("Template Item CTA Clicked", {
   "action": "<<type: string, required: false>>",
   "category": "<<type: string, required: false>>",
-  "ref": "<<type: array, required: false>>",
+  "ref": "<<type: string, required: false>>",
   "site id": "<<type: string, required: false>>",
   "site plan id": "<<type: string, required: false>>",
   "site plan type": "<<type: string, required: false>>",
   "site slug": "<<type: string, required: false>>",
-  "template cost": "<<type: string, required: false>>",
+  "template cost": "<<type: integer,null, required: false>>",
   "template id": "<<type: string, required: false>>",
   "template index": "<<type: integer, required: false>>",
   "template name": "<<type: string, required: false>>",
@@ -23973,13 +23237,13 @@ analytics.track("University Exam Passed", {
 
 #### **Description**
 
-No description provided
+University Lesson Completed.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **course** | `string` | No description | ❌ |
-| **course progress** | `array` | No description | ❌ |
+| **course progress** | `integer,null` | No description | ❌ |
 | **lesson name** | `string` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
@@ -23990,7 +23254,7 @@ No description provided
 ```javascript
 analytics.track("University Lesson Completed", {
   "course": "<<type: string, required: false>>",
-  "course progress": "<<type: array, required: false>>",
+  "course progress": "<<type: integer,null, required: false>>",
   "lesson name": "<<type: string, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
   "page": "<<type: string, required: false>>",
@@ -24706,13 +23970,13 @@ analytics.track("Upgrade Modal Workspace Selected", {
 
 #### **Description**
 
-No description provided
+Upgraded plan.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
 | **city** | `string` | No description | ❌ |
-| **client work** | `array` | No description | ❌ |
+| **client work** | `array,null` | No description | ❌ |
 | **country** | `string` | No description | ❌ |
 | **email** | `string` | No description | ❌ |
 | **legacy team id** | `string` | No description | ❌ |
@@ -24745,7 +24009,7 @@ No description provided
 ```javascript
 analytics.track("Upgraded plan", {
   "city": "<<type: string, required: false>>",
-  "client work": "<<type: array, required: false>>",
+  "client work": "<<type: array,null, required: false>>",
   "country": "<<type: string, required: false>>",
   "email": "<<type: string, required: false>>",
   "legacy team id": "<<type: string, required: false>>",
@@ -24947,7 +24211,7 @@ analytics.track("Visit Customers Page", {
 
 #### **Description**
 
-No description provided
+Visit Workspace Profile.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -25129,7 +24393,7 @@ No description provided
 | **paramUtm_campaign** | `string` | No description | ❌ |
 | **paramUtm_content** | `string` | No description | ❌ |
 | **paramUtm_id** | `string` | No description | ❌ |
-| **paramUtm_medium** | `array` | No description | ❌ |
+| **paramUtm_medium** | `string,null` | No description | ❌ |
 | **paramUtm_source** | `string` | No description | ❌ |
 | **paramUtm_term** | `string` | No description | ❌ |
 | **paramUybv** | `string` | No description | ❌ |
@@ -25338,7 +24602,7 @@ analytics.track("Visit Workspace Profile", {
   "paramUtm_campaign": "<<type: string, required: false>>",
   "paramUtm_content": "<<type: string, required: false>>",
   "paramUtm_id": "<<type: string, required: false>>",
-  "paramUtm_medium": "<<type: array, required: false>>",
+  "paramUtm_medium": "<<type: string,null, required: false>>",
   "paramUtm_source": "<<type: string, required: false>>",
   "paramUtm_term": "<<type: string, required: false>>",
   "paramUybv": "<<type: string, required: false>>",
@@ -25522,7 +24786,7 @@ analytics.track("Webflow status page clicked", {})
 
 #### **Description**
 
-No description provided
+Website Form Submitted.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -25530,15 +24794,15 @@ No description provided
 | **button CTA** | `string` | No description | ❌ |
 | **button action and type** | `string` | No description | ❌ |
 | **company** | `string` | No description | ❌ |
-| **company size** | `unknown` | No description | ❌ |
+| **company size** | `string,null` | No description | ❌ |
 | **consent** | `unknown` | No description | ❌ |
 | **country** | `string` | No description | ❌ |
-| **email** | `unknown` | No description | ❌ |
-| **first name** | `string` | No description | ❌ |
-| **form name** | `string` | No description | ❌ |
-| **last name** | `string` | No description | ❌ |
+| **email** | `string,null` | No description | ❌ |
+| **first name** | `string,null` | No description | ❌ |
+| **form name** | `string,null` | No description | ❌ |
+| **last name** | `string,null` | No description | ❌ |
 | **logged in** | `boolean` | No description | ❌ |
-| **message** | `unknown` | No description | ❌ |
+| **message** | `string,null` | No description | ❌ |
 | **page** | `string` | No description | ❌ |
 | **page type** | `string` | No description | ❌ |
 | **phone** | `string` | No description | ❌ |
@@ -25558,15 +24822,15 @@ analytics.track("Website Form Submitted", {
   "button CTA": "<<type: string, required: false>>",
   "button action and type": "<<type: string, required: false>>",
   "company": "<<type: string, required: false>>",
-  "company size": "<<type: unknown, required: false>>",
+  "company size": "<<type: string,null, required: false>>",
   "consent": "<<type: unknown, required: false>>",
   "country": "<<type: string, required: false>>",
-  "email": "<<type: unknown, required: false>>",
-  "first name": "<<type: string, required: false>>",
-  "form name": "<<type: string, required: false>>",
-  "last name": "<<type: string, required: false>>",
+  "email": "<<type: string,null, required: false>>",
+  "first name": "<<type: string,null, required: false>>",
+  "form name": "<<type: string,null, required: false>>",
+  "last name": "<<type: string,null, required: false>>",
   "logged in": "<<type: boolean, required: false>>",
-  "message": "<<type: unknown, required: false>>",
+  "message": "<<type: string,null, required: false>>",
   "page": "<<type: string, required: false>>",
   "page type": "<<type: string, required: false>>",
   "phone": "<<type: string, required: false>>",
@@ -26159,49 +25423,17 @@ analytics.track("Workspace Reviewer Signup", {
 
 #### **Description**
 
-No description provided
+Workspace Selected.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
 | :--- | :--- | :--- | :--- |
-| **workspace** | `object` | No description | ❌ |
-| **workspace._id** | `string` | No description | ❌ |
-| **workspace.billingTarget** | `string` | No description | ❌ |
-| **workspace.createdOn** | `string` | No description | ❌ |
-| **workspace.location** | `object` | No description | ❌ |
-| **workspace.location.city** | `string` | No description | ❌ |
-| **workspace.location.country** | `string` | No description | ❌ |
-| **workspace.name** | `string` | No description | ❌ |
-| **workspace.profileImg** | `string` | No description | ❌ |
-| **workspace.profileSlug** | `string` | No description | ❌ |
-| **workspace.profileVisibility** | `string` | No description | ❌ |
-| **workspace.role** | `string` | No description | ❌ |
-| **workspace.siteCount** | `integer` | No description | ❌ |
-| **workspace.slug** | `string` | No description | ❌ |
-| **workspace.updatedOn** | `string` | No description | ❌ |
-| **workspace.usedSeats** | `integer` | No description | ❌ |
+| **workspace** | `object,string,null` | No description | ❌ |
 #### **JS**
 
 ```javascript
 analytics.track("Workspace Selected", {
-  "workspace": {
-    "_id": "<<type: string, required: false>>",
-    "billingTarget": "<<type: string, required: false>>",
-    "createdOn": "<<type: string, required: false>>",
-    "location": {
-      "city": "<<type: string, required: false>>",
-      "country": "<<type: string, required: false>>"
-    },
-    "name": "<<type: string, required: false>>",
-    "profileImg": "<<type: string, required: false>>",
-    "profileSlug": "<<type: string, required: false>>",
-    "profileVisibility": "<<type: string, required: false>>",
-    "role": "<<type: string, required: false>>",
-    "siteCount": "<<type: integer, required: false>>",
-    "slug": "<<type: string, required: false>>",
-    "updatedOn": "<<type: string, required: false>>",
-    "usedSeats": "<<type: integer, required: false>>"
-  }
+  "workspace": "<<type: object,string,null, required: false>>"
 })
 ```
 
@@ -26658,7 +25890,7 @@ analytics.track("[Client payments] Site Plan Charge To Client Clicked", {
 
 #### **Description**
 
-No description provided
+[Client payments] Site Plan Pay On Your Own Clicked.
 #### **Properties**
 
 | **Name** | `Type` | Description | Required? |
@@ -26677,7 +25909,7 @@ No description provided
 | **workspace plan** | `string` | No description | ❌ |
 | **workspace plan id** | `string` | No description | ❌ |
 | **workspace plan type** | `string` | No description | ❌ |
-| **workspace role** | `string` | No description | ❌ |
+| **workspace role** | `string,null` | No description | ❌ |
 | **workspace seat count** | `integer` | No description | ❌ |
 | **workspace slug** | `string` | No description | ❌ |
 | **workspaceRole** | `string` | No description | ❌ |
@@ -26700,7 +25932,7 @@ analytics.track("[Client payments] Site Plan Pay On Your Own Clicked", {
   "workspace plan": "<<type: string, required: false>>",
   "workspace plan id": "<<type: string, required: false>>",
   "workspace plan type": "<<type: string, required: false>>",
-  "workspace role": "<<type: string, required: false>>",
+  "workspace role": "<<type: string,null, required: false>>",
   "workspace seat count": "<<type: integer, required: false>>",
   "workspace slug": "<<type: string, required: false>>",
   "workspaceRole": "<<type: string, required: false>>"

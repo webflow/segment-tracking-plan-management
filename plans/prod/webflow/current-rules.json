@@ -649,9 +649,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Account Login Succeeded.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -662,7 +668,8 @@
               },
               "maintain 2FA 30 days": {
                 "type": [
-                  "string"
+                  "boolean",
+                  "null"
                 ]
               },
               "page": {
@@ -682,7 +689,8 @@
               },
               "show password": {
                 "type": [
-                  "boolean"
+                  "boolean",
+                  "null"
                 ]
               },
               "signup method": {
@@ -756,10 +764,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -1843,9 +1854,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Billing Action Tracked.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -2043,7 +2060,7 @@
                     ]
                   }
                 },
-                "type": "object"
+                "type": "any"
               },
               "currency": {
                 "type": [
@@ -2518,10 +2535,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -2596,9 +2616,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Blog Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -2609,7 +2635,8 @@
               },
               "created at": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "logged in": {
@@ -2669,10 +2696,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -2851,9 +2881,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "CTA Clicked.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -3570,7 +3606,8 @@
               },
               "position on page": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "ref": {
@@ -3720,10 +3757,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -5756,9 +5796,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Dashboard Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -5773,10 +5819,10 @@
                 ]
               },
               "ref": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "section": {
                 "type": [
@@ -5878,10 +5924,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -6148,9 +6197,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Designer Opened.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -6195,10 +6250,10 @@
                 ]
               },
               "mode": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "num designer-teammates": {
                 "type": [
@@ -6317,10 +6372,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -13576,9 +13634,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "In-App Message Expired.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -13594,7 +13658,8 @@
               },
               "expiresAt": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "location": {
@@ -13689,10 +13754,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -13875,9 +13943,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Interactive Element Clicked.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -13894,7 +13968,8 @@
               },
               "state": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "text": {
@@ -13904,10 +13979,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -14049,9 +14127,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Invoice Payment Succeeded.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -14147,7 +14231,8 @@
               },
               "tax": {
                 "type": [
-                  "integer"
+                  "integer",
+                  "null"
                 ]
               },
               "total": {
@@ -14162,10 +14247,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -15489,9 +15577,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Marketplace Checkout Redirect Page Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -15507,12 +15601,14 @@
               },
               "resource id": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "resource type": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "site id": {
@@ -15602,10 +15698,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -15615,9 +15714,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Marketplace Checkout Redirected.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -15638,12 +15743,14 @@
               },
               "resource id": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "resource type": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "site id": {
@@ -15733,10 +15840,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -15772,9 +15882,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Marketplace Filters Changed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -15787,14 +15903,20 @@
                 "items": {
                   "type": "string"
                 },
-                "type": "array"
+                "type": [
+                  "array",
+                  "null"
+                ]
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -16277,9 +16399,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Matchmaking Experts Survey Abandoned.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -16339,7 +16467,8 @@
                   },
                   "country": {
                     "type": [
-                      "string"
+                      "string",
+                      "null"
                     ]
                   },
                   "custom-budget-amount": {
@@ -16355,7 +16484,8 @@
                   "kindOfSite": {},
                   "language": {
                     "type": [
-                      "string"
+                      "string",
+                      "null"
                     ]
                   },
                   "locationPreference": {},
@@ -16373,7 +16503,10 @@
                     "type": "array"
                   }
                 },
-                "type": "object"
+                "type": [
+                  "object",
+                  "null"
+                ]
               },
               "workspace addons": {
                 "properties": {
@@ -16427,10 +16560,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -16440,9 +16576,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Matchmaking Experts Survey Completed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -16486,11 +16628,15 @@
                         ]
                       }
                     },
-                    "type": "object"
+                    "type": [
+                      "object",
+                      "null"
+                    ]
                   },
                   "country": {
                     "type": [
-                      "string"
+                      "string",
+                      "null"
                     ]
                   },
                   "custom-budget-amount": {
@@ -16508,7 +16654,12 @@
                       "string"
                     ]
                   },
-                  "language": {},
+                  "language": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
                   "locationPreference": {
                     "type": [
                       "string"
@@ -16615,10 +16766,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -16628,9 +16782,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Matchmaking Experts Survey Page Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -16639,7 +16799,12 @@
                   "string"
                 ]
               },
-              "ref": {},
+              "ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "workspace addons": {
                 "properties": {
                   "full seat count": {
@@ -16697,10 +16862,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -16710,9 +16878,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Matchmaking Experts Survey Resumed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -16768,11 +16942,15 @@
                         ]
                       }
                     },
-                    "type": "object"
+                    "type": [
+                      "object",
+                      "null"
+                    ]
                   },
                   "country": {
                     "type": [
-                      "string"
+                      "string",
+                      "null"
                     ]
                   },
                   "custom-budget-amount": {
@@ -16788,7 +16966,8 @@
                   "kindOfSite": {},
                   "language": {
                     "type": [
-                      "string"
+                      "string",
+                      "null"
                     ]
                   },
                   "locationPreference": {},
@@ -16860,10 +17039,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -16873,9 +17055,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Matchmaking Experts Survey Step Submitted.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -16891,7 +17079,8 @@
               },
               "destinationPage": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "options selected": {
@@ -16927,7 +17116,7 @@
                     ]
                   }
                 },
-                "type": "object"
+                "type": "any"
               },
               "projectUID": {
                 "type": [
@@ -16976,10 +17165,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -20817,9 +21009,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Partner Hub Commission Explainer Opened.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -20835,15 +21033,19 @@
               },
               "workspaceRole": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -20935,9 +21137,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Partner Hub Page Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -20978,15 +21186,19 @@
               },
               "workspaceRole": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -20996,9 +21208,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Partner Hub Resource Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -21024,15 +21242,19 @@
               },
               "workspaceRole": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -22027,9 +22249,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Plan Modified.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -22053,7 +22281,12 @@
                   "string"
                 ]
               },
-              "comments": {},
+              "comments": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "cost of new plan": {
                 "type": [
                   "integer"
@@ -22229,7 +22462,12 @@
                   "string"
                 ]
               },
-              "value of new plan": {},
+              "value of new plan": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
               "wf session id": {
                 "type": [
                   "string"
@@ -22317,10 +22555,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -24215,15 +24456,22 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Profile Edit Modal Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
               "profileId": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "profileName": {
@@ -24233,7 +24481,8 @@
               },
               "profileSlug": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "tabName": {
@@ -24243,10 +24492,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -24414,9 +24666,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Project Created.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -24432,10 +24690,16 @@
               },
               "create method": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
-              "from site": {},
+              "from site": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "library cost": {
                 "type": [
                   "string"
@@ -24458,10 +24722,10 @@
                 ]
               },
               "ref": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "site id": {
                 "type": [
@@ -24597,10 +24861,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -27856,9 +28123,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Segmentation Survey Completed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -27976,7 +28249,8 @@
               "hireExpert": {},
               "isStudent": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "locationPreference": {
@@ -28121,10 +28395,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -28134,9 +28411,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Segmentation Survey Page Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -28145,7 +28428,12 @@
                   "string"
                 ]
               },
-              "redirect": {},
+              "redirect": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
               "ref": {
                 "type": [
                   "string"
@@ -28233,10 +28521,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -28246,9 +28537,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Segmentation Survey Step Submitted.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -28281,7 +28578,7 @@
                     ]
                   }
                 },
-                "type": "object"
+                "type": "any"
               },
               "position of selected option": {
                 "type": [
@@ -28403,10 +28700,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -28847,9 +29147,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Showcase Search Results Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -28859,10 +29165,10 @@
                 ]
               },
               "search": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "site id": {
                 "type": [
@@ -28891,10 +29197,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -28904,9 +29213,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Showcase Viewed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -28914,7 +29229,10 @@
                 "items": {
                   "type": "string"
                 },
-                "type": "array"
+                "type": [
+                  "array",
+                  "null"
+                ]
               },
               "clone type": {
                 "type": [
@@ -28985,7 +29303,10 @@
                 "items": {
                   "type": "string"
                 },
-                "type": "array"
+                "type": [
+                  "array",
+                  "null"
+                ]
               },
               "workspace id": {
                 "type": [
@@ -29019,10 +29340,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -33588,9 +33912,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Site Selected.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -34988,14 +35318,20 @@
                     ]
                   }
                 },
-                "type": "object"
+                "type": [
+                  "object",
+                  "string"
+                ]
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -37128,9 +37464,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Template Item CTA Clicked.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -37145,10 +37487,7 @@
                 ]
               },
               "ref": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": "string"
               },
               "site id": {
                 "type": [
@@ -37172,7 +37511,8 @@
               },
               "template cost": {
                 "type": [
-                  "string"
+                  "integer",
+                  "null"
                 ]
               },
               "template id": {
@@ -37252,10 +37592,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -38632,9 +38975,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "University Lesson Completed.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -38644,10 +38993,10 @@
                 ]
               },
               "course progress": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": [
+                  "integer",
+                  "null"
+                ]
               },
               "lesson name": {
                 "type": [
@@ -38676,10 +39025,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -39851,9 +40203,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Upgraded plan.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -39866,7 +40224,10 @@
                 "items": {
                   "type": "string"
                 },
-                "type": "array"
+                "type": [
+                  "array",
+                  "null"
+                ]
               },
               "country": {
                 "type": [
@@ -39989,10 +40350,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -40164,9 +40528,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Visit Workspace Profile.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -41058,10 +41428,10 @@
                 ]
               },
               "paramUtm_medium": {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "paramUtm_source": {
                 "type": [
@@ -41186,10 +41556,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -41362,9 +41735,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Website Form Submitted.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -41383,27 +41762,40 @@
                   "string"
                 ]
               },
-              "company size": {},
+              "company size": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "consent": {},
               "country": {
                 "type": [
                   "string"
                 ]
               },
-              "email": {},
+              "email": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "first name": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "form name": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "last name": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "logged in": {
@@ -41411,7 +41803,12 @@
                   "boolean"
                 ]
               },
-              "message": {},
+              "message": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
               "page": {
                 "type": [
                   "string"
@@ -41474,10 +41871,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -42388,9 +42788,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "Workspace Selected.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -42472,14 +42878,21 @@
                     ]
                   }
                 },
-                "type": "object"
+                "type": [
+                  "object",
+                  "string",
+                  "null"
+                ]
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
@@ -43262,9 +43675,15 @@
       "jsonSchema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
         "type": "object",
+        "labels": {},
+        "description": "[Client payments] Site Plan Pay On Your Own Clicked.",
         "properties": {
-          "context": {},
-          "traits": {},
+          "context": {
+            "type": "object"
+          },
+          "traits": {
+            "type": "object"
+          },
           "properties": {
             "type": "object",
             "properties": {
@@ -43340,7 +43759,8 @@
               },
               "workspace role": {
                 "type": [
-                  "string"
+                  "string",
+                  "null"
                 ]
               },
               "workspace seat count": {
@@ -43360,10 +43780,13 @@
               }
             }
           }
-        }
+        },
+        "required": [
+          "properties"
+        ]
       },
       "createdAt": "2025-03-18T17:02:29.000Z",
-      "updatedAt": "2025-03-18T17:02:29.000Z",
+      "updatedAt": "2025-03-27T00:17:24.000Z",
       "deprecatedAt": "0001-01-01T00:00:00.000Z"
     },
     {
