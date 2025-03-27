@@ -1,7 +1,7 @@
 rules:
   - key: Billing Action Tracked
     type: TRACK
-    description: Billing Action Tracked
+    description: Billing Action Tracked.
     version: 1
     labels: {}
     properties:

@@ -1,7 +1,7 @@
 rules:
   - key: Segmentation Survey Completed
     type: TRACK
-    description: Segmentation Survey Completed
+    description: Segmentation Survey Completed.
     version: 1
     labels: {}
     properties:

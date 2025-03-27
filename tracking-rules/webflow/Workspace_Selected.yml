@@ -1,7 +1,7 @@
 rules:
   - key: Workspace Selected
     type: TRACK
-    description: Workspace Selected
+    description: Workspace Selected.
     version: 1
     labels: {}
     properties:

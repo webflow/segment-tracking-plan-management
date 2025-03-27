@@ -1,7 +1,7 @@
 rules:
   - key: Visit Workspace Profile
     type: TRACK
-    description: Visit Workspace Profile
+    description: Visit Workspace Profile.
     version: 1
     labels: {}
     properties:

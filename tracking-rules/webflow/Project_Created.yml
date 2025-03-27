@@ -1,7 +1,7 @@
 rules:
   - key: Project Created
     type: TRACK
-    description: Project Created
+    description: Project Created.
     version: 1
     labels: {}
     properties:

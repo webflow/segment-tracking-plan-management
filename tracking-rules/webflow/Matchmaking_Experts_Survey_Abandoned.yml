@@ -1,7 +1,7 @@
 rules:
   - key: Matchmaking Experts Survey Abandoned
     type: TRACK
-    description: Matchmaking Experts Survey Abandoned
+    description: Matchmaking Experts Survey Abandoned.
     version: 1
     labels: {}
     properties:

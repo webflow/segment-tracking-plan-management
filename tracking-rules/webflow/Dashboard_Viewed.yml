@@ -1,7 +1,7 @@
 rules:
   - key: Dashboard Viewed
     type: TRACK
-    description: Dashboard Viewed
+    description: Dashboard Viewed.
     version: 1
     labels: {}
     properties:

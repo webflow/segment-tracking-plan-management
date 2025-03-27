@@ -1,7 +1,7 @@
 rules:
   - key: Segmentation Survey Step Submitted
     type: TRACK
-    description: Segmentation Survey Step Submitted
+    description: Segmentation Survey Step Submitted.
     version: 1
     labels: {}
     properties:

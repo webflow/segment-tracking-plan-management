@@ -1,7 +1,7 @@
 rules:
   - key: Designer Opened
     type: TRACK
-    description: Designer Opened
+    description: Designer Opened.
     version: 1
     labels: {}
     properties:

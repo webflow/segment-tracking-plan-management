@@ -1,7 +1,7 @@
 rules:
   - key: CTA Clicked
     type: TRACK
-    description: CTA Clicked
+    description: CTA Clicked.
     version: 1
     labels: {}
     properties:

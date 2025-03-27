@@ -1,7 +1,7 @@
 rules:
   - key: Segmentation Survey Page Viewed
     type: TRACK
-    description: Segmentation Survey Page Viewed
+    description: Segmentation Survey Page Viewed.
     version: 1
     labels: {}
     properties:

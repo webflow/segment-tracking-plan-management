@@ -1,7 +1,7 @@
 rules:
   - key: Blog Viewed
     type: TRACK
-    description: Blog Viewed
+    description: Blog Viewed.
     version: 1
     labels: {}
     properties:

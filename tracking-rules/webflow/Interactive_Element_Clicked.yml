@@ -1,7 +1,7 @@
 rules:
   - key: Interactive Element Clicked
     type: TRACK
-    description: Interactive Element Clicked
+    description: Interactive Element Clicked.
     version: 1
     labels: {}
     properties:

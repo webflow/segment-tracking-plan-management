@@ -1,7 +1,7 @@
 rules:
   - key: Matchmaking Experts Survey Resumed
     type: TRACK
-    description: Matchmaking Experts Survey Resumed
+    description: Matchmaking Experts Survey Resumed.
     version: 1
     labels: {}
     properties:

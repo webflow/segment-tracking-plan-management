@@ -1,7 +1,7 @@
 rules:
   - key: University Lesson Completed
     type: TRACK
-    description: University Lesson Completed
+    description: University Lesson Completed.
     version: 1
     labels: {}
     properties:

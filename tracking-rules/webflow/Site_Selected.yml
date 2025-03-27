@@ -1,7 +1,7 @@
 rules:
   - key: Site Selected
     type: TRACK
-    description: Site Selected
+    description: Site Selected.
     version: 1
     labels: {}
     properties:

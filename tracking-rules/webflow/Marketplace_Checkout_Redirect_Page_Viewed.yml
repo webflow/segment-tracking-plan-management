@@ -1,7 +1,7 @@
 rules:
   - key: Marketplace Checkout Redirect Page Viewed
     type: TRACK
-    description: Marketplace Checkout Redirect Page Viewed
+    description: Marketplace Checkout Redirect Page Viewed.
     version: 1
     labels: {}
     properties:
