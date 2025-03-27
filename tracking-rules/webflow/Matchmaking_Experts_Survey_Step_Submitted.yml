@@ -1,7 +1,7 @@
 rules:
   - key: Matchmaking Experts Survey Step Submitted
     type: TRACK
-    description: Matchmaking Experts Survey Step Submitted
+    description: Matchmaking Experts Survey Step Submitted.
     version: 1
     labels: {}
     properties:

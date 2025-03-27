@@ -1,7 +1,7 @@
 rules:
   - key: Marketplace Checkout Redirected
     type: TRACK
-    description: Marketplace Checkout Redirected
+    description: Marketplace Checkout Redirected.
     version: 1
     labels: {}
     properties:

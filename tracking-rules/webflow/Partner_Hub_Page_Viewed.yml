@@ -1,7 +1,7 @@
 rules:
   - key: Partner Hub Page Viewed
     type: TRACK
-    description: Partner Hub Page Viewed
+    description: Partner Hub Page Viewed.
     version: 1
     labels: {}
     properties:

@@ -1,7 +1,7 @@
 rules:
   - key: Marketplace Filters Changed
     type: TRACK
-    description: Marketplace Filters Changed
+    description: Marketplace Filters Changed.
     version: 1
     labels: {}
     properties:

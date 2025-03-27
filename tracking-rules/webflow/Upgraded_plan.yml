@@ -1,7 +1,7 @@
 rules:
   - key: Upgraded plan
     type: TRACK
-    description: Upgraded plan
+    description: Upgraded plan.
     version: 1
     labels: {}
     properties:

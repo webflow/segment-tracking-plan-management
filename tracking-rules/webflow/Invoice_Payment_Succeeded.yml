@@ -1,7 +1,7 @@
 rules:
   - key: Invoice Payment Succeeded
     type: TRACK
-    description: Invoice Payment Succeeded
+    description: Invoice Payment Succeeded.
     version: 1
     labels: {}
     properties:

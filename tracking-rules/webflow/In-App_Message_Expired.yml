@@ -1,7 +1,7 @@
 rules:
   - key: In-App Message Expired
     type: TRACK
-    description: In-App Message Expired
+    description: In-App Message Expired.
     version: 1
     labels: {}
     properties:

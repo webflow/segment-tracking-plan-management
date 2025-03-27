@@ -1,7 +1,7 @@
 rules:
   - key: Plan Modified
     type: TRACK
-    description: Plan Modified
+    description: Plan Modified.
     version: 1
     labels: {}
     properties:

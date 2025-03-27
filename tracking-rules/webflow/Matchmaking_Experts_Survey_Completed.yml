@@ -1,7 +1,7 @@
 rules:
   - key: Matchmaking Experts Survey Completed
     type: TRACK
-    description: Matchmaking Experts Survey Completed
+    description: Matchmaking Experts Survey Completed.
     version: 1
     labels: {}
     properties:

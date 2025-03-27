@@ -1,7 +1,7 @@
 rules:
   - key: Account Login Succeeded
     type: TRACK
-    description: Account Login Succeeded
+    description: Account Login Succeeded.
     version: 1
     labels: {}
     properties:

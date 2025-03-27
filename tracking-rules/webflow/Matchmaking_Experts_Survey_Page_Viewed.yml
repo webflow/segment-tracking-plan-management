@@ -1,7 +1,7 @@
 rules:
   - key: Matchmaking Experts Survey Page Viewed
     type: TRACK
-    description: Matchmaking Experts Survey Page Viewed
+    description: Matchmaking Experts Survey Page Viewed.
     version: 1
     labels: {}
     properties:

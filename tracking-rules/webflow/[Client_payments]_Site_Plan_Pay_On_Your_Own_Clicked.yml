@@ -1,7 +1,7 @@
 rules:
   - key: '[Client payments] Site Plan Pay On Your Own Clicked'
     type: TRACK
-    description: '[Client payments] Site Plan Pay On Your Own Clicked'
+    description: '[Client payments] Site Plan Pay On Your Own Clicked'.
     version: 1
     labels: {}
     properties:

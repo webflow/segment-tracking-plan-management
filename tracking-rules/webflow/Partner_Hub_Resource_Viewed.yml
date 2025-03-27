@@ -1,7 +1,7 @@
 rules:
   - key: Partner Hub Resource Viewed
     type: TRACK
-    description: Partner Hub Resource Viewed
+    description: Partner Hub Resource Viewed.
     version: 1
     labels: {}
     properties:

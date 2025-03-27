@@ -1,7 +1,7 @@
 rules:
   - key: Showcase Viewed
     type: TRACK
-    description: Showcase Viewed
+    description: Showcase Viewed.
     version: 1
     labels: {}
     properties:

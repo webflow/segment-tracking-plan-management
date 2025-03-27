@@ -1,7 +1,7 @@
 rules:
   - key: Website Form Submitted
     type: TRACK
-    description: Website Form Submitted
+    description: Website Form Submitted.
     version: 1
     labels: {}
     properties:
