@@ -12,6 +12,7 @@ rules:
         type:
           - boolean
           - 'null'
+          - string
       page:
         type:
           - string
@@ -25,6 +26,7 @@ rules:
         type:
           - boolean
           - 'null'
+          - string
       signup method:
         type:
           - string

@@ -29,6 +29,7 @@ rules:
         type:
           - integer
           - 'null'
+          - string
       template id:
         type:
           - string

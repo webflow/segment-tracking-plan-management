@@ -38,7 +38,10 @@ rules:
               company-size:
                 type:
                   - string
-            type: object
+            type:
+              - object
+              - 'null'
+              - string
           country:
             type:
               - string
